@@ -1,0 +1,115 @@
+name: OKF Pipeline
+
+# 唯一触发器：每天定时 + 手动。定时触发 => agent 自己的 push 不会再触发本工作流，
+# 死循环从结构上就不可能发生（GITHUB_TOKEN 推送也不会触发 schedule）。
+on:
+  schedule:
+    # 每天 UTC 19:00（= 北京时间次日 03:00）。GitHub cron 可能延迟数分钟到数十分钟。
+    - cron: "0 19 * * *"
+  # 手动触发：首次验证、临时整理都走这里（Actions 页 → Run workflow）。
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: okf-pipeline
+  cancel-in-progress: false
+
+jobs:
+  process:
+    name: Agent 整理 inbox
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: 检查 GLM_API_KEY 是否已配置
+        id: keycheck
+        env:
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+        run: |
+          if [ -z "$GLM_API_KEY" ]; then
+            echo "::warning::未配置 GLM_API_KEY secret，跳过 agent 处理。请在仓库 Settings → Secrets and variables → Actions → New repository secret 添加 GLM_API_KEY。"
+            echo "has_key=false" >> $GITHUB_OUTPUT
+          else
+            echo "GLM_API_KEY 已配置。"
+            echo "has_key=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 运行 Claude Code 处理 inbox（GLM-5.2 / Coding Plan 端点）
+        if: steps.keycheck.outputs.has_key == 'true'
+        working-directory: content
+        env:
+          # GLM 原生 Anthropic 协议端点 —— 无需 router / 翻译层
+          ANTHROPIC_BASE_URL: https://api.z.ai/api/anthropic
+          ANTHROPIC_AUTH_TOKEN: ${{ secrets.GLM_API_KEY }}
+          ANTHROPIC_MODEL: glm-5.2
+          # 把 Claude Code 内部的 opus/sonnet/haiku 子调用也全部映射到 glm-5.2
+          ANTHROPIC_DEFAULT_SONNET_MODEL: glm-5.2
+          ANTHROPIC_DEFAULT_HAIKU_MODEL: glm-5.2
+          ANTHROPIC_DEFAULT_OPUS_MODEL: glm-5.2
+        run: |
+          claude -p "$(cat ../.claude/prompt.txt)" --permission-mode auto --output-format text
+
+      - name: 提交并推送整理结果到 main
+        if: steps.keycheck.outputs.has_key == 'true'
+        run: |
+          git config user.name  "okf-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          if git diff --cached --quiet; then
+            echo "inbox 无需处理：没有产生改动。"
+          else
+            git commit -m "chore(okf): daily auto-process inbox [skip ci]"
+            git push
+          fi
+
+  publish:
+    name: 构建并发布 Quartz 站点到 Pages
+    needs: process
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: 构建 Quartz
+        run: npx quartz build
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传站点产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
