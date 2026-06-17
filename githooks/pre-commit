@@ -1,0 +1,26 @@
+#!/bin/sh
+# pre-commit 钩子：提交前自动规范化 inbox/Clippings 里新增或修改的 markdown 剪藏。
+# 由 core.hooksPath 指向本目录（githooks/）。best-effort：绝不阻断提交。
+#
+# 作用范围：只动 content/inbox/*.md 和 content/Clippings/*.md（原始剪藏）。
+#   不碰 concepts/（agent 产出，由 agent 自己保证格式）。
+
+REPO=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0
+PY=/usr/bin/python3
+[ -x "$PY" ] || PY=python3
+
+# 找出本次暂存区里 新增/修改 的目标文件
+staged=$(git diff --cached --name-only --diff-filter=ACM -- 'content/inbox/*.md' 'content/Clippings/*.md')
+[ -z "$staged" ] && exit 0
+
+# 规范化（出错也继续，不阻断）
+printf '%s\n' "$staged" | while IFS= read -r f; do
+  [ -n "$f" ] && "$PY" "$REPO/scripts/format_clippings.py" "$f" || true
+done
+
+# 把规范化后的工作区内容重新加入暂存区（commit 会带上格式化后的版本）
+printf '%s\n' "$staged" | while IFS= read -r f; do
+  [ -n "$f" ] && git add -- "$f" 2>/dev/null || true
+done
+
+exit 0
