@@ -1,4 +1,10 @@
-
+---
+type: Playbook
+title: 代码质量与 Git 钩子完整搭建
+description: 从零搭建 Biome（Ultracite 预设）+ ESLint + Lefthook + 自定义 Node 检查脚本的 monorepo 代码质量体系（pnpm + turbo + tsc）。
+tags: [code-quality, lint, lefthook, biome, eslint, git-hooks, monorepo]
+timestamp: 2026-06-17T00:00:00Z
+---
 
 > 本文档逐步说明如何从零搭建与 `justsayai-finances` 项目**完全一致**的代码检查体系：
 > Biome（经 Ultracite 预设）+ ESLint + Lefthook（pre-commit / commit-msg / pre-push）+ 自定义 Node 脚本规则。
@@ -29,10 +35,10 @@
 ## 1. 初始化仓库与 monorepo 结构
 
 ```bash
-# 1.1 初始化 git（钩子依赖 git 仓库）
+### 1.1 初始化 git（钩子依赖 git 仓库）
 git init
 
-# 1.2 指定包管理器
+### 1.2 指定包管理器
 corepack enable
 corepack prepare pnpm@10.22.0 --activate
 ```
@@ -1054,13 +1060,13 @@ temp
 按以下步骤确认搭建出的检查效果与本项目一致：
 
 ```bash
-# 10.1 引擎可用
+### 10.1 引擎可用
 pnpm exec biome --version          # 期望 2.4.15
 pnpm exec ultracite doctor         # 无冲突
 pnpm exec eslint --version         # 期望 v10.4.1
 pnpm exec lefthook version         # 期望 2.1.9
 
-# 10.2 手动跑各检查
+### 10.2 手动跑各检查
 pnpm check                         # ultracite check 全量
 pnpm lint                          # eslint 全量
 pnpm check-types                   # 全量类型检查

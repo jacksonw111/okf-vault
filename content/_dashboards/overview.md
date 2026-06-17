@@ -1,61 +1,53 @@
 ---
 type: Index
 title: 知识库仪表盘
-description: 浏览 agent 产出的全部 OKF 概念。上半部分需要安装 Dataview 社区插件才能动态渲染；下半部分是无需插件的静态兜底，永远可用。
+description: 知识库导航中枢。下方链接全部指向 Quartz 自动生成的聚合页（目录索引 / 标签索引），内容随知识库增长自动更新——无需 Dataview。
 tags: [okf, dashboard]
-timestamp: 2026-06-16T12:30:00Z
+timestamp: 2026-06-17T00:00:00Z
 ---
 
 # 知识库仪表盘
 
-## 按类型统计（需 Dataview 插件）
+> 本站由 **Quartz** 生成，它不是 Obsidian，**不支持 Dataview 插件**。
+> 这里改用 Quartz 原生的「目录索引」和「标签索引」——它们由站点根据实际文件**自动生成**，效果等同于 Dataview 的聚合查询，而且永远是最新。
 
-> 安装方法：Obsidian → Settings → Community plugins → 关闭安全模式 → Browse → 搜 "Dataview" → Install → Enable。
-> 装好后下面这些  ```dataview ``` 代码块会自动变成实时列表。
+## 📂 浏览全部概念
 
-**各类型数量**
-```dataview
-TABLE length(rows) AS 数量
-FROM "concepts"
-GROUP BY type
-SORT type ASC
-```
+→ [**concepts 目录索引**](../concepts/)：自动列出所有概念文件，按最后修改时间排序。
 
-**全部概念（按更新时间倒序）**
+## 🏷️ 按标签浏览
+
+→ [**全部标签**](../tags/)
+
+常用标签（点击进入对应的自动聚合页）：
+
+- [okf](../tags/okf) · [term](../tags/term) · [tool](../tags/tool) · [playbook](../tags/playbook)
+- [producer](../tags/producer) · [agent](../tags/agent) · [protocol](../tags/protocol) · [markdown](../tags/markdown)
+
+## 🧭 主要入口
+
+- [知识库首页](../)
+- [生产者协议 PRODUCER](../PRODUCER)
+- [变更记录 log](../log)
+- [投喂资料 inbox](../inbox/README)
+
+## ✅ 自检 / 当前规模
+
+- 概念文件数：见 [concepts 目录索引](../concepts/)
+- 全部标签：见 [标签索引](../tags/)
+- 最近变更：见 [log](../log)
+
+---
+
+## 💡 在本地 Obsidian 想要 Dataview 动态表？
+
+本地 Obsidian 已装 Dataview 插件。新建一篇笔记，粘贴下面的代码即可得到动态表格（**仅 Obsidian 本地有效，Quartz 不渲染**）：
+
+~~~md
 ```dataview
 TABLE type, tags, timestamp AS 更新于
 FROM "concepts"
 WHERE type != "Index"
 SORT timestamp DESC
 ```
-
-**最近变更（来自 log.md 之外的笔记）**
-```dataview
-TABLE type, timestamp AS 更新于
-FROM "concepts"
-SORT timestamp DESC
-LIMIT 10
-```
-
----
-
-## 静态兜底（无需任何插件，永远可用）
-
-> 当 Dataview 没装时看这里。由 agent 在每次产出/更新概念时同步维护。
-
-### Term（术语）
-- [OKF 是什么](../concepts/term-okf.md)
-
-### Tool（工具）
-- [Obsidian](../concepts/tool-obsidian.md)
-
-### Playbook（流程）
-- [在 Obsidian 里开始用 OKF](../concepts/playbook-okf-obsidian-start.md)
-- [OKF 生产者协议](../PRODUCER.md)
-
-### Index（导航）
-- [概念目录](../concepts/index.md)
-
-## 相关概念
-- [OKF 是什么](../concepts/term-okf.md)
-- [生产者协议 PRODUCER](../PRODUCER.md)
+~~~
