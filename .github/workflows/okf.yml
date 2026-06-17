@@ -60,8 +60,27 @@ jobs:
           ANTHROPIC_DEFAULT_SONNET_MODEL: glm-5.2
           ANTHROPIC_DEFAULT_HAIKU_MODEL: glm-5.2
           ANTHROPIC_DEFAULT_OPUS_MODEL: glm-5.2
+        # GLM 529（模型过载）是高频瞬时错误，对“每天无人值守”的 cron 是真实风险，
+        # 故用重试循环包裹。重试间退避递增。仅在真正失败（退出码非 0）时重试。
         run: |
-          claude -p "$(cat ../.claude/prompt.txt)" --permission-mode auto --output-format text
+          attempt=0
+          max_attempts=4
+          delay=30
+          until [ $attempt -ge $max_attempts ]; do
+            attempt=$((attempt+1))
+            echo "::notice::Claude Code 尝试 $attempt/$max_attempts"
+            if claude -p "$(cat ../.claude/prompt.txt)" --permission-mode auto --output-format text; then
+              echo "::notice::Claude Code 成功（第 $attempt 次）"
+              exit 0
+            fi
+            if [ $attempt -lt $max_attempts ]; then
+              echo "::warning::第 $attempt 次失败，${delay}s 后重试（常见为 GLM 529 过载）"
+              sleep $delay
+              delay=$((delay*2))
+            fi
+          done
+          echo "::error::Claude Code 连续 $max_attempts 次失败"
+          exit 1
 
       - name: 提交并推送整理结果到 main
         if: steps.keycheck.outputs.has_key == 'true'
