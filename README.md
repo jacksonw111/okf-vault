@@ -23,14 +23,15 @@ okf-vault/
 
 ## 它怎么工作（全自动闭环）
 
-1. **你投喂**：把资料（PDF / 文章 / 一段话）放进 `content/inbox/`，push（Obsidian Git 插件或手动）。
-2. **每天定时**：`.github/workflows/okf.yml` 在 UTC 19:00（北京次日 03:00）自动跑：
+1. **你投喂**：把资料（PDF / 文章 / 一段话）放进 `content/inbox/` → push（Obsidian Git 插件 / launchd 同步 / 手动）。
+2. **近实时触发**：push 进 `content/inbox/` 会立即触发 pipeline（workflow 的 `push` 触发器用 `paths` 只盯 inbox）。此外还有每天定时全量整理（UTC 19:00 / 北京 03:00）。
+   pipeline 做的事：
    - 起 Claude Code，`--permission-mode auto`，主端点 MiniMax-M3（`api.minimaxi.com/anthropic`）；失败自动 fallback 到 GLM-5.2；
    - 按 `.claude/prompt.txt` + `PRODUCER.md` 读 inbox → 产出 `concepts/` → 更新 index/log → 归档资料；
-   - 把结果 commit & push 到 main（`[skip ci]`）。
+   - 把结果 commit & push 到 main（agent commit 带 `[skip ci]`）。
 3. **同一管线紧接着**：Quartz 构建站点 → 部署到 GitHub Pages。
 
-> **为什么不会死循环**：唯一触发器是 `schedule`。agent 自己的 push 既不会触发 schedule，用 `GITHUB_TOKEN` 推的 commit 也不会触发其它 workflow —— 结构上不可能循环。
+> **为什么不会死循环（三重保险）**：① workflow 的 `push` 触发器只盯 `content/inbox/**`，agent 产出在 `concepts/`、归档在 `inbox/_done/`，都不触发；② agent 的 commit message 带 `[skip ci]`；③ 用 `GITHUB_TOKEN` 推的 commit 本就不会触发其它 workflow。
 
 ## 你只需要做 2 件事（一次性）
 

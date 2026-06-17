@@ -1,13 +1,22 @@
 name: OKF Pipeline
 
-# 唯一触发器：每天定时 + 手动。定时触发 => agent 自己的 push 不会再触发本工作流，
-# 死循环从结构上就不可能发生（GITHUB_TOKEN 推送也不会触发 schedule）。
+# 触发器：
+#   - schedule：每天定时全量整理（北京时间 03:00）。
+#   - workflow_dispatch：手动。
+#   - push（仅 content/inbox/** 变化）：投喂即整理，近实时。
+# 防死循环（关键）：
+#   1. paths 只盯 inbox/ —— agent 产出在 concepts/、归档在 inbox/_done/，都不触发。
+#   2. agent 的 commit message 带 [skip ci]，双保险。
+#   3. GITHUB_TOKEN 推送的 commit 本来也不会触发其它 workflow，第三重保险。
 on:
   schedule:
     # 每天 UTC 19:00（= 北京时间次日 03:00）。GitHub cron 可能延迟数分钟到数十分钟。
     - cron: "0 19 * * *"
-  # 手动触发：首次验证、临时整理都走这里（Actions 页 → Run workflow）。
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/inbox/**"
 
 permissions:
   contents: read
