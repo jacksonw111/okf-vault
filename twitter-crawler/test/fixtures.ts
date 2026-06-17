@@ -49,7 +49,7 @@ export const fxNoteLong = base({
       entities: { urls: [{ url: "https://t.co/x", expandedUrl: "https://real.example", displayUrl: "real", indices: [0, 0] }] as any[], media: [] as any[] },
     }),
     noteTweet: {
-      noteTweetResults: { result: { text: "这是一条很长的推文全文，不会被截断，包含完整内容。" } },
+      noteTweetResults: { result: { text: "这是一条很长的推文全文，不会被截断，包含完整内容。 https://t.co/x" } },
     },
   }),
 });
