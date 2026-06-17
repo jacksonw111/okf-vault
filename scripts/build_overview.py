@@ -129,14 +129,14 @@ def render(concepts):
     top_tags = [(t, n) for t, n in sorted(tag_counter.items(), key=lambda x: (-x[1], x[0])) if n >= 2]
     if top_tags:
         tags_line = ' · '.join(
-            f'**[{t}](/okf-vault/tags/{t})** ({n})'
+            f'**[{t}](./tags/{t})** ({n})'
             for t, n in top_tags
         )
         out.append(tags_line)
         out.append('')
     out.append(f'<details><summary>查看全部 {len(tag_counter)} 个标签（含长尾）</summary>')
     out.append('')
-    out.append(' '.join(f'[{t}](/okf-vault/tags/{t})' for t, _ in sorted(tag_counter.items())))
+    out.append(' '.join(f'[{t}](./tags/{t})' for t, _ in sorted(tag_counter.items())))
     out.append('')
     out.append('</details>')
     out.append('')
@@ -148,7 +148,7 @@ def render(concepts):
     out.append('|---|---|---|')
     for c in recent:
         date = (c['timestamp'] or '—')[:10]
-        out.append(f'| [{esc(c["title"])}](/okf-vault/concepts/{c["slug"]}) | {esc(c["type"])} | {date} |')
+        out.append(f'| [{esc(c["title"])}](./concepts/{c["slug"]}) | {esc(c["type"])} | {date} |')
     out.append('')
 
     # 全部概念（分类型）
@@ -160,7 +160,7 @@ def render(concepts):
         out.append('')
         for c in sorted(items, key=lambda x: x['title']):
             desc = c['description'][:60] + ('…' if len(c['description']) > 60 else '')
-            out.append(f'- [{esc(c["title"])}](/okf-vault/concepts/{c["slug"]}) — {esc(desc)}')
+            out.append(f'- [{esc(c["title"])}](./concepts/{c["slug"]}) — {esc(desc)}')
         out.append('')
 
     out.append('---')
