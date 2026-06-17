@@ -1,0 +1,56 @@
+name: X/Twitter Crawl
+
+on:
+  schedule:
+    - cron: "7 * * * *"        # 每小时 :07（避开 :00 高峰）
+  workflow_dispatch:
+    inputs:
+      max_per_run:
+        description: "单账号单次最大抓取数（回填用）"
+        default: "20"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: twitter-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}   # 用它推 → 不触发 okf.yml
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: twitter-crawler/package-lock.json
+
+      - name: 安装依赖
+        working-directory: twitter-crawler
+        run: npm ci
+
+      - name: 爬取
+        working-directory: twitter-crawler
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '20' }}
+        run: node --import tsx src/index.ts
+
+      - name: 提交并推送
+        run: |
+          git config user.name  "twitter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add content/inbox/twitter
+          if git diff --cached --quiet; then
+            echo "无新推文"
+          else
+            git commit -m "chore(twitter): hourly crawl [skip ci]"
+            git push
+          fi
