@@ -25,7 +25,7 @@ okf-vault/
 
 1. **你投喂**：把资料（PDF / 文章 / 一段话）放进 `content/inbox/`，push（Obsidian Git 插件或手动）。
 2. **每天定时**：`.github/workflows/okf.yml` 在 UTC 19:00（北京次日 03:00）自动跑：
-   - 起 Claude Code，`--permission-mode auto`，经 GLM 原生 Anthropic 端点（`api.z.ai/api/anthropic`）用 **GLM-5.2**；
+   - 起 Claude Code，`--permission-mode auto`，经 GLM 原生 Anthropic 端点（`open.bigmodel.cn/api/anthropic`）用 **GLM-5.2**；
    - 按 `.claude/prompt.txt` + `PRODUCER.md` 读 inbox → 产出 `concepts/` → 更新 index/log → 归档资料；
    - 把结果 commit & push 到 main（`[skip ci]`）。
 3. **同一管线紧接着**：Quartz 构建站点 → 部署到 GitHub Pages。
@@ -39,7 +39,7 @@ okf-vault/
 - Name：`GLM_API_KEY`
 - Value：你的智谱 / Z.ai API key（`ANTHROPIC_AUTH_TOKEN` 用的是它）
 
-> 配置端点：`ANTHROPIC_BASE_URL = https://api.z.ai/api/anthropic`，模型 `glm-5.2`。GLM Coding Plan 走的就是原生 Anthropic 协议，**无需任何代理 / 翻译层**。
+> 配置端点：`ANTHROPIC_BASE_URL = https://open.bigmodel.cn/api/anthropic`，模型 `glm-5.2`。GLM Coding Plan 走的就是原生 Anthropic 协议，**无需任何代理 / 翻译层**。
 
 ### 2. （已由本仓库预置）确认 GitHub Pages 已开启
 **Settings → Pages → Build and deployment → Source = GitHub Actions**（应当已开启；若没开，选这项即可）。

@@ -53,7 +53,7 @@ jobs:
         working-directory: content
         env:
           # GLM 原生 Anthropic 协议端点 —— 无需 router / 翻译层
-          ANTHROPIC_BASE_URL: https://api.z.ai/api/anthropic
+          ANTHROPIC_BASE_URL: https://open.bigmodel.cn/api/anthropic
           ANTHROPIC_AUTH_TOKEN: ${{ secrets.GLM_API_KEY }}
           ANTHROPIC_MODEL: glm-5.2
           # 把 Claude Code 内部的 opus/sonnet/haiku 子调用也全部映射到 glm-5.2
