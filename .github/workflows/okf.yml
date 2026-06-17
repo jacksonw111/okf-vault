@@ -48,20 +48,41 @@ jobs:
             echo "has_key=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: 运行 Claude Code 处理 inbox（GLM-5.2 / Coding Plan 端点）
+      - name: 运行 Claude Code 处理 inbox（主：GLM-5.2，备：MiniMax）
         if: steps.keycheck.outputs.has_key == 'true'
         working-directory: content
-        env:
-          # GLM 原生 Anthropic 协议端点 —— 无需 router / 翻译层
-          ANTHROPIC_BASE_URL: https://open.bigmodel.cn/api/anthropic
-          ANTHROPIC_AUTH_TOKEN: ${{ secrets.GLM_API_KEY }}
-          ANTHROPIC_MODEL: glm-5.2
-          # 把 Claude Code 内部的 opus/sonnet/haiku 子调用也全部映射到 glm-5.2
-          ANTHROPIC_DEFAULT_SONNET_MODEL: glm-5.2
-          ANTHROPIC_DEFAULT_HAIKU_MODEL: glm-5.2
-          ANTHROPIC_DEFAULT_OPUS_MODEL: glm-5.2
+        # 主备双端点，同一套 prompt。主端 GLM 失败（含 529 过载）则自动切 MiniMax 重跑一次。
+        # 不无限重试，不浪费 Action 时长；MiniMax 也失败才整体失败。
         run: |
-          claude -p "$(cat ../.claude/prompt.txt)" --permission-mode auto --output-format text
+          PROMPT="$(cat ../.claude/prompt.txt)"
+          set +e
+          echo "::notice::尝试主端点 GLM-5.2"
+          ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic \
+          ANTHROPIC_AUTH_TOKEN="${{ secrets.GLM_API_KEY }}" \
+          ANTHROPIC_MODEL=glm-5.2 \
+          ANTHROPIC_DEFAULT_SONNET_MODEL=glm-5.2 \
+          ANTHROPIC_DEFAULT_HAIKU_MODEL=glm-5.2 \
+          ANTHROPIC_DEFAULT_OPUS_MODEL=glm-5.2 \
+          claude -p "$PROMPT" --permission-mode auto --output-format text
+          rc=$?
+          set -e
+          if [ $rc -eq 0 ]; then
+            echo "::notice::GLM-5.2 成功"
+            exit 0
+          fi
+          if [ -z "${{ secrets.MINIMAX_API_KEY }}" ]; then
+            echo "::error::GLM 失败（退出码 $rc）且未配置 MINIMAX_API_KEY，无备端点"
+            exit $rc
+          fi
+          echo "::warning::GLM 失败（退出码 $rc，常见 529 过载），切换备端点 MiniMax-M2.7"
+          ANTHROPIC_BASE_URL=https://api.minimax.io/anthropic \
+          ANTHROPIC_AUTH_TOKEN="${{ secrets.MINIMAX_API_KEY }}" \
+          ANTHROPIC_MODEL=minimax-m2.7 \
+          ANTHROPIC_DEFAULT_SONNET_MODEL=minimax-m2.7 \
+          ANTHROPIC_DEFAULT_HAIKU_MODEL=minimax-m2.7 \
+          ANTHROPIC_DEFAULT_OPUS_MODEL=minimax-m2.7 \
+          claude -p "$PROMPT" --permission-mode auto --output-format text
+
 
       - name: 提交并推送整理结果到 main
         if: steps.keycheck.outputs.has_key == 'true'

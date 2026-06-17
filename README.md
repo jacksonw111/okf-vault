@@ -40,6 +40,8 @@ okf-vault/
 - Value：你的智谱 / Z.ai API key（`ANTHROPIC_AUTH_TOKEN` 用的是它）
 
 > 配置端点：`ANTHROPIC_BASE_URL = https://open.bigmodel.cn/api/anthropic`，模型 `glm-5.2`。GLM Coding Plan 走的就是原生 Anthropic 协议，**无需任何代理 / 翻译层**。
+>
+> **Fallback**：GLM 失败（常见 529 过载）时，自动切到 MiniMax（`api.minimax.io/anthropic`，`minimax-m2.7`）重跑一次。需要额外配置 secret `MINIMAX_API_KEY`（不配也行，只是没有备端点）。
 
 ### 2. （已由本仓库预置）确认 GitHub Pages 已开启
 **Settings → Pages → Build and deployment → Source = GitHub Actions**（应当已开启；若没开，选这项即可）。
