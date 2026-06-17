@@ -32,7 +32,7 @@ timestamp: 2026-06-17T00:00:00Z
 
 - [🤖 生产者协议 PRODUCER](./PRODUCER.md) ← agent 怎么把资料变成 OKF
 - [📥 inbox 投递区](./inbox/README.md) ← 把资料扔这里
-- [📊 知识库仪表盘](./_dashboards/overview.md) ← 浏览所有概念
+- [📊 知识库仪表盘](./overview.md) ← 浏览所有概念
 - [📑 概念目录](./concepts/index.md) ← 全量概念导航
 
 ## 核心概念
@@ -98,4 +98,4 @@ timestamp: 2026-06-17T00:00:00Z
 1. 把资料丢进 [`inbox/`](./inbox/README.md)
 2. 对 agent 说「**处理 inbox**」
 3. agent 按 [`PRODUCER.md`](./PRODUCER.md) 产出到 `concepts/`、更新索引与 log、归档资料
-4. 去 [`_dashboards/overview.md`](./_dashboards/overview.md) 看结果
+4. 去 [`overview.md`](./overview.md) 看结果

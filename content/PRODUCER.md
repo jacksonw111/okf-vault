@@ -103,4 +103,4 @@ timestamp: 2026-06-16T12:30:00Z
 - [OKF 是什么](./concepts/term-okf.md)
 - [在 Obsidian 里开始用 OKF](./concepts/playbook-okf-obsidian-start.md)
 - [输出模板目录](./templates/_README.md)
-- [结果仪表盘](./_dashboards/overview.md)
+- [结果仪表盘](./overview.md)

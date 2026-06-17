@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "jacksonw111.github.io/okf-vault",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "inbox", "log"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

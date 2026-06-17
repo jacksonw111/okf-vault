@@ -14,7 +14,7 @@ okf-vault/
 │   ├── inbox/            ← 📥 把资料扔这里；agent 处理完移到 _done/
 │   ├── concepts/         ← agent 产出的概念文件落点
 │   ├── templates/        ← 概念输出模板（schema）
-│   ├── _dashboards/      ← 仪表盘
+│   ├── overview.md       ← 仪表盘（浏览所有概念/标签）
 │   └── log.md            ← 变更记录
 ├── .github/workflows/okf.yml   ← 唯一的自动化管线（定时整理 + 发布）
 ├── .claude/prompt.txt          ← 喂给 Claude Code 的生产者提示词
