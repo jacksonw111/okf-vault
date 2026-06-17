@@ -35,6 +35,9 @@ timestamp: 2026-06-16T12:00:00Z
 - [📊 知识库仪表盘](./_dashboards/overview.md) ← 浏览所有概念
 - [OKF 是什么](./concepts/term-okf.md)
 - [Obsidian](./concepts/tool-obsidian.md)
+- [LLM Wiki 模式](./concepts/term-llm-wiki.md)
+- [OKF Enrichment Agent](./concepts/tool-okf-enrichment-agent.md)
+- [OKF Static HTML Visualizer](./concepts/tool-okf-static-html-visualizer.md)
 - [在 Obsidian 里开始用 OKF（Playbook）](./concepts/playbook-okf-obsidian-start.md)
 - [输出模板目录](./templates/_README.md)
 - [变更记录](./log.md)

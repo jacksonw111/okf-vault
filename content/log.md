@@ -10,6 +10,7 @@ timestamp: 2026-06-16T12:00:00Z
 
 | 时间 | 变更 |
 |------|------|
+| 2026-06-17 | 处理 inbox/okf-原文-GoogleCloud.md：新增 [`term-llm-wiki`](./concepts/term-llm-wiki.md)（Karpathy LLM Wiki 理念）、[`tool-okf-enrichment-agent`](./concepts/tool-okf-enrichment-agent.md)（参考生产者）、[`tool-okf-static-html-visualizer`](./concepts/tool-okf-static-html-visualizer.md)（参考消费者）；更新根 index 和 concepts/index |
 | 2026-06-16 | 搭建「资料→agent→OKF」生产闭环：新增 [`PRODUCER.md`](./PRODUCER.md) 生产协议、[`inbox/`](./inbox/README.md) 投递区、[`templates/`](./templates/_README.md) 输出模板、[`_dashboards/overview.md`](./_dashboards/overview.md) 仪表盘；配置核心 Templates 插件指向 templates/ |
 | 2026-06-16 | 初始化 bundle：建立 `concepts/` 骨架，添加 OKF / Obsidian / 启动 Playbook 三个概念 |
 

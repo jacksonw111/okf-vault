@@ -11,3 +11,6 @@ timestamp: 2026-06-16T12:00:00Z
 - [OKF 是什么](./term-okf.md) — `Term`
 - [Obsidian](./tool-obsidian.md) — `Tool`
 - [在 Obsidian 里开始用 OKF](./playbook-okf-obsidian-start.md) — `Playbook`
+- [LLM Wiki 模式](./term-llm-wiki.md) — `Term`
+- [OKF Enrichment Agent](./tool-okf-enrichment-agent.md) — `Tool`
+- [OKF Static HTML Visualizer](./tool-okf-static-html-visualizer.md) — `Tool`
