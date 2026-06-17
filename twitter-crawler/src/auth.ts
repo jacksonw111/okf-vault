@@ -11,9 +11,6 @@ export async function buildClient(authToken: string) {
   const resp = await fetch("https://x.com/manifest.json", {
     headers: { cookie: `auth_token=${authToken}` },
   });
-  if (!resp.ok && resp.status !== 200 && resp.status !== 304) {
-    // manifest 可能返回非 200 仍带 set-cookie；只在彻底失败时报错
-  }
 
   const setCookies = resp.headers.getSetCookie?.() ?? [];
   const cookies: Record<string, string> = {};

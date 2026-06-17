@@ -12,11 +12,12 @@ export function extractMedia(entities: MediaEntity[]): MediaInfo {
       // video | animated_gif
       const variants = e.videoInfo?.variants ?? [];
       const mp4s = variants.filter(
-        (v) => v.contentType === "video/mp4" && typeof v.bitrate === "number"
+        (v): v is { contentType: string; bitrate: number; url: string } =>
+          v.contentType === "video/mp4" && typeof v.bitrate === "number"
       );
       const best =
         mp4s.length > 0
-          ? mp4s.sort((a, b) => (b.bitrate ?? 0) - (a.bitrate ?? 0))[0]
+          ? mp4s.sort((a, b) => b.bitrate - a.bitrate)[0]
           : variants.find((v) => v.contentType === "video/mp4");
       if (best?.url) videos.push(best.url);
     }

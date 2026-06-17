@@ -1,7 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { renderMarkdown } from "../src/render.js";
-import { classifyTweet } from "../src/classify.js";
 import type { RawTweet } from "../src/types.js";
 
 function base(over: Partial<RawTweet> = {}): RawTweet {

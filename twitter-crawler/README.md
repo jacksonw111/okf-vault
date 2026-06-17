@@ -26,7 +26,7 @@
 ```bash
 cd twitter-crawler
 npm ci
-X_AUTH_TOKEN=xxx tsx src/index.ts
+X_AUTH_TOKEN=xxx node --import tsx src/index.ts
 ```
 
 ## 回填历史

@@ -3,21 +3,6 @@ import assert from "node:assert/strict";
 import { fetchTweetsForAccount } from "../src/fetch.js";
 import type { RawTweet } from "../src/types.js";
 
-// Minimal fake client: returns predetermined pages with cursor support
-function fakeClient(pages: any[][]) {
-  let i = 0;
-  return {
-    async getUserByScreenName({ screenName }: { screenName: string }) {
-      return { data: { user: { restId: "u1" } } };
-    },
-    async getUserTweets({ cursor }: { cursor?: string }) {
-      const page = pages[Math.min(i, pages.length - 1)];
-      i++;
-      return { data: { data: page, cursor: { bottom: undefined } } };
-    },
-  };
-}
-
 const mk = (id: string): RawTweet => ({
   id,
   text: "t " + id,

@@ -1,4 +1,5 @@
 import type { RawTweet, MediaInfo } from "./types.js";
+import { formatDate } from "./io.js";
 
 /** YAML 双引号安全包裹：转义反斜杠/双引号，换行→空格。 */
 export function yamlQuote(s: string): string {
@@ -14,11 +15,11 @@ function titleFor(rt: RawTweet): string {
   const t = rt.text ?? "";
   const head = t.split(/\r?\n/)[0] ?? "";
   if (head.length <= 80) return head;
-  return head.slice(0, 77) + "…";
+  return [...head].slice(0, 77).join("") + "…";
 }
 
 function descriptionFor(rt: RawTweet): string {
-  return (rt.text ?? "").slice(0, 280);
+  return [...(rt.text ?? "")].slice(0, 280).join("");
 }
 
 function mediaBlock(media: MediaInfo): string {
@@ -114,7 +115,7 @@ export function renderMarkdown(
     `  - "[[@${rt.screenName}]]"`,
     `tweet_type: ${yamlQuote(type)}`,
     `tweet_id: ${yamlQuote(rt.id)}`,
-    `published: ${formatPublished(rt.createdAt)}`,
+    `published: ${formatDate(rt.createdAt)}`,
     `created: ${yamlQuote(createdDate)}`,
     `description: ${yamlQuote(descriptionFor(rt))}`,
     "tags:",
@@ -133,14 +134,4 @@ export function renderMarkdown(
   ].join("\n");
 
   return `${fm}\n\n${body}\n${tail}`;
-}
-
-// published 日期：createdAt "Sat Jun 01 08:00:00 +0000 2024" → "2024-06-01"
-function formatPublished(createdAt: string): string {
-  const d = new Date(createdAt);
-  if (isNaN(d.getTime())) return "1970-01-01";
-  const y = d.getUTCFullYear();
-  const m = String(d.getUTCMonth() + 1).padStart(2, "0");
-  const day = String(d.getUTCDate()).padStart(2, "0");
-  return `${y}-${m}-${day}`;
 }
