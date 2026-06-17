@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: Turborepo
-description: Vercel 出品的 monorepo 任务编排器（turbo.json）——按 `^task` 依赖图跨包并行执行 build / lint / test / type-check，自动缓存增量结果。
-resource: https://turborepo.com/
-tags: [tool, monorepo, build, orchestration, turbo]
+title: "Turborepo"
+description: "Vercel 出品的 monorepo 任务编排器（turbo.json）——按 `^task` 依赖图跨包并行执行 build / lint / test / type-check，自动缓存增量结果。"
+resource: "https://turborepo.com/"
+tags: "[tool, monorepo, build, orchestration, turbo]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

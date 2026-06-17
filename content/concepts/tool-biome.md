@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: Biome
-description: 用 Rust 写成的「一体化 Web 工具链」——格式化、Lint、import 整理一把抓；性能远超 ESLint+Prettier 组合，是本 monorepo 主力格式化与 lint 引擎（@biomejs/biome）。
-resource: https://biomejs.dev/
-tags: [tool, lint, formatter, rust, code-quality]
+title: "Biome"
+description: "用 Rust 写成的「一体化 Web 工具链」——格式化、Lint、import 整理一把抓；性能远超 ESLint+Prettier 组合，是本 monorepo 主力格式化与 lint 引擎（@biomejs/biome）。"
+resource: "https://biomejs.dev/"
+tags: "[tool, lint, formatter, rust, code-quality]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

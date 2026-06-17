@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: OKF 参考示例 Bundles
-description: 随 OKF v0.1 一起发布的三套可浏览的样例 bundle，由 OKF Enrichment Agent 从 BigQuery 公共数据集生成，作为「符合 OKF 规范」的真实样本——GA4 e-commerce、Stack Overflow、Bitcoin public datasets。
-resource: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
-tags: [okf, google-cloud, bigquery, sample-bundle, reference-implementation]
+title: "OKF 参考示例 Bundles"
+description: "随 OKF v0.1 一起发布的三套可浏览的样例 bundle，由 OKF Enrichment Agent 从 BigQuery 公共数据集生成，作为「符合 OKF 规范」的真实样本——GA4 e-commerce、Stack Overflow、Bitcoin public datasets。"
+resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf"
+tags: "[okf, google-cloud, bigquery, sample-bundle, reference-implementation]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

@@ -1,9 +1,9 @@
 ---
 type: Term
-title: Conventional Commits
-description: 一种轻量的提交信息约定规范——格式 `type(scope): description`，type 限定在 feat/fix/docs/style/refactor/perf/test/chore/revert/ci/build 等少数语义值，配合工具可自动生成 CHANGELOG 与语义化版本号。
-resource: https://www.conventionalcommits.org/
-tags: [term, git, commit, spec, convention]
+title: "Conventional Commits"
+description: "一种轻量的提交信息约定规范——格式 `type(scope): description`，type 限定在 feat/fix/docs/style/refactor/perf/test/chore/revert/ci/build 等少数语义值，配合工具可自动生成 CHANGELOG 与语义化版本号。"
+resource: "https://www.conventionalcommits.org/"
+tags: "[term, git, commit, spec, convention]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

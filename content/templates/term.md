@@ -1,7 +1,7 @@
 ---
 type: Term
-title: <人类可读标题>
-description: <一句话：这个术语/概念是什么>
+title: "<人类可读标题>"
+description: "<一句话：这个术语/概念是什么>"
 [resource: <原始来源 URL>]
 tags: [<tag1>, <tag2>]
 timestamp: <YYYY-MM-DDTHH:MM:SSZ>

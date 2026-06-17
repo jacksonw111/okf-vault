@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: OKF Static HTML Visualizer
-description: Google Cloud 发布的 OKF 参考实现：将任意 OKF bundle 转化为单文件交互式图谱视图，纯前端，无需后端，数据不离开页面。
-resource: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
-tags: [okf, google-cloud, visualizer, html, reference-implementation]
+title: "OKF Static HTML Visualizer"
+description: "Google Cloud 发布的 OKF 参考实现：将任意 OKF bundle 转化为单文件交互式图谱视图，纯前端，无需后端，数据不离开页面。"
+resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf"
+tags: "[okf, google-cloud, visualizer, html, reference-implementation]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

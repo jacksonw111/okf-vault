@@ -1,8 +1,8 @@
 ---
 type: Index
-title: 概念目录
-description: 本 OKF bundle 内所有概念文件的导航页。
-tags: [okf, index]
+title: "概念目录"
+description: "本 OKF bundle 内所有概念文件的导航页。"
+tags: "[okf, index]"
 timestamp: 2026-06-16T12:00:00Z
 ---
 

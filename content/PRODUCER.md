@@ -1,8 +1,8 @@
 ---
 type: Playbook
-title: OKF 生产者协议 (Producer)
-description: 给 AI agent 的作业规范。用户把资料扔进 inbox/，agent 按本协议把资料转化成符合 OKF v0.1 的概念文件。本文件既是人类文档，也可整段作为 agent 的系统提示词。
-tags: [okf, producer, agent, protocol]
+title: "OKF 生产者协议 (Producer)"
+description: "给 AI agent 的作业规范。用户把资料扔进 inbox/，agent 按本协议把资料转化成符合 OKF v0.1 的概念文件。本文件既是人类文档，也可整段作为 agent 的系统提示词。"
+tags: "[okf, producer, agent, protocol]"
 timestamp: 2026-06-16T12:30:00Z
 ---
 
@@ -34,13 +34,14 @@ timestamp: 2026-06-16T12:30:00Z
    - 数据场景可用：`Dataset` / `Table` / `Metric` / `API` / `Runbook`。
 3. **去重**：对每个候选概念，在 `concepts/` 里搜关键词；命中已有概念 → 走"更新"分支。
 4. **定稳定路径**：文件名 = `<type 短前缀>-<kebab-case-关键词>.md`，英文为主，全小写，连字符分隔。例：`tool-obsidian.md`、`term-okf.md`、`playbook-okf-obsidian-start.md`。**避免中文/空格/特殊字符**（保证跨工具可移植）。
-5. **填 frontmatter**（参照 `templates/` 对应模板）：
-   - `type`（必填）
-   - `title`（建议必填，人类可读标题，可含中文）
-   - `description`（**强烈建议**，一句话摘要——agent 消费时最依赖它）
+5. **填 frontmatter**（参照 `templates/` 对应模板）。**⚠️ 防止 YAML 语法错误的关键规则：`title` / `description` / `resource` 的值一律用双引号包裹**（`description: "..."`），因为正文常含半角冒号（如 `type(scope): description`、`http://...`），裸冒号会被 YAML 误解析为键值分隔符，导致整站构建失败。示例：`description: "一种约定——格式 \`type(scope): description\`，限定 feat/fix 等。"`。`tags` 用数组 `[a, b]` 或同样加引号。
+   - `type`（必填，可加引号）
+   - `title`（建议必填，**加引号**，人类可读标题，可含中文）
+   - `description`（**强烈建议**，一句话摘要——agent 消费时最依赖它；**必须加引号**）
    - `tags`（数组，小写）
    - `timestamp`（ISO8601，最后更新时间）
-   - `resource`（原始来源 URL，若有）
+   - `resource`（原始来源 URL，若有；**加引号**）
+   - **写完后自检**：确保 frontmatter 是合法 YAML（裸冒号后跟空格 / 制表符缩进错误都会让 Quartz 构建炸掉）。
 6. **写正文**：开头一句话点题（与 description 呼应）→ 分章节（`#`/`##`）→ 用表格/列表/代码块组织 → **末尾加 `## 相关概念` 列出链接**。引用别的概念时一律用链接。
 7. **更新索引**：把新概念加进它的父 `index.md` 和（必要时）根 `index.md`。
 8. **记录变更**：在 `log.md` 表格最上方追加一行（时间｜做了什么）。

@@ -1,8 +1,8 @@
 ---
 type: Index
-title: 知识库仪表盘
-description: 知识库导航中枢。下方链接全部指向 Quartz 自动生成的聚合页（目录索引 / 标签索引），内容随知识库增长自动更新——无需 Dataview。
-tags: [okf, dashboard]
+title: "知识库仪表盘"
+description: "知识库导航中枢。下方链接全部指向 Quartz 自动生成的聚合页（目录索引 / 标签索引），内容随知识库增长自动更新——无需 Dataview。"
+tags: "[okf, dashboard]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

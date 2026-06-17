@@ -1,8 +1,8 @@
 ---
 type: Index
-title: 我的 OKF 知识库
-description: 基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。
-tags: [okf, root]
+title: "我的 OKF 知识库"
+description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
+tags: "[okf, root]"
 timestamp: 2026-06-16T12:00:00Z
 ---
 

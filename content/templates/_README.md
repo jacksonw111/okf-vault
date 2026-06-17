@@ -1,8 +1,8 @@
 ---
 type: Note
-title: 输出模板目录
-description: agent 按 PRODUCER.md 写概念文件时，照这里的对应模板填充。也是人类偶尔手写时的起点。这些是 schema，不是成品。
-tags: [okf, templates]
+title: "输出模板目录"
+description: "agent 按 PRODUCER.md 写概念文件时，照这里的对应模板填充。也是人类偶尔手写时的起点。这些是 schema，不是成品。"
+tags: "[okf, templates]"
 timestamp: 2026-06-16T12:30:00Z
 ---
 

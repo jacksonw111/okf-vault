@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: Ultracite
-description: Biome 的零配置严格预设，把社区最佳实践（lint 规则 + 格式化选项）打包成「一行 `extends` 即可获得」——`ultracite/biome/core` + `ultracite/biome/react`。
-resource: https://www.ultracite.dev/
-tags: [tool, biome, preset, lint, code-quality]
+title: "Ultracite"
+description: "Biome 的零配置严格预设，把社区最佳实践（lint 规则 + 格式化选项）打包成「一行 `extends` 即可获得」——`ultracite/biome/core` + `ultracite/biome/react`。"
+resource: "https://www.ultracite.dev/"
+tags: "[tool, biome, preset, lint, code-quality]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

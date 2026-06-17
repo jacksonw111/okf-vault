@@ -1,7 +1,7 @@
 ---
 type: Note
-title: <标题>
-description: <一句话摘要>
+title: "<标题>"
+description: "<一句话摘要>"
 [resource: <来源 URL>]
 tags: [<tag1>, <tag2>]
 timestamp: <YYYY-MM-DDTHH:MM:SSZ>

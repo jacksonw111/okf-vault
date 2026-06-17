@@ -1,7 +1,7 @@
 ---
 type: Playbook
-title: <流程/操作手册名>
-description: <一句话：达成什么目标的一组步骤>
+title: "<流程/操作手册名>"
+description: "<一句话：达成什么目标的一组步骤>"
 [resource: <来源 URL>]
 tags: [<tag1>, <tag2>]
 timestamp: <YYYY-MM-DDTHH:MM:SSZ>

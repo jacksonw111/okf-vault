@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: ESLint
-description: 最流行的 JS/TS 可插拔 lint 工具。本项目用 flat config（eslint.config.js，ESM），搭配 @typescript-eslint 插件做 Biome 不擅长的类型感知规则（行数/复杂度/魔术数字/非空断言等）。
-resource: https://eslint.org/
-tags: [tool, lint, typescript, code-quality]
+title: "ESLint"
+description: "最流行的 JS/TS 可插拔 lint 工具。本项目用 flat config（eslint.config.js，ESM），搭配 @typescript-eslint 插件做 Biome 不擅长的类型感知规则（行数/复杂度/魔术数字/非空断言等）。"
+resource: "https://eslint.org/"
+tags: "[tool, lint, typescript, code-quality]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

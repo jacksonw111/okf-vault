@@ -1,8 +1,8 @@
 ---
 type: Log
-title: 变更记录
-description: 本 OKF bundle 的按时间变更历史。
-tags: [okf, log]
+title: "变更记录"
+description: "本 OKF bundle 的按时间变更历史。"
+tags: "[okf, log]"
 timestamp: 2026-06-16T12:00:00Z
 ---
 

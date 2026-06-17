@@ -1,9 +1,9 @@
 ---
 type: Term
-title: LLM Wiki 模式
-description: Andrej Karpathy 提出的概念：让 LLM 作为 wiki 的维护者，承担「不会厌倦、不会遗忘、可一次修改多个文件」的文档管理工作。
-resource: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-tags: [llm, wiki, karpathy, pattern]
+title: "LLM Wiki 模式"
+description: "Andrej Karpathy 提出的概念：让 LLM 作为 wiki 的维护者，承担「不会厌倦、不会遗忘、可一次修改多个文件」的文档管理工作。"
+resource: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+tags: "[llm, wiki, karpathy, pattern]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

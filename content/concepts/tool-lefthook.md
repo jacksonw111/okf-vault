@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: Lefthook
-description: 用 Go 写成的 Git 钩子管理器——一个 `lefthook.yml` 同时配置 pre-commit / commit-msg / pre-push，并行执行，配置和实际钩子解耦。比 husky/lint-staged 更快、更声明式。
-resource: https://github.com/evilmartians/lefthook
-tags: [tool, git, hooks, code-quality, lefthook]
+title: "Lefthook"
+description: "用 Go 写成的 Git 钩子管理器——一个 `lefthook.yml` 同时配置 pre-commit / commit-msg / pre-push，并行执行，配置和实际钩子解耦。比 husky/lint-staged 更快、更声明式。"
+resource: "https://github.com/evilmartians/lefthook"
+tags: "[tool, git, hooks, code-quality, lefthook]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

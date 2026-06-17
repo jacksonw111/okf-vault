@@ -1,9 +1,9 @@
 ---
 type: Term
-title: Open Knowledge Format (OKF)
-description: Google Cloud 于 2026-06-12 发布的开放规范，把「LLM-wiki」模式形式化为一种可移植、可互操作的格式：一个目录的 Markdown 文件 + YAML frontmatter，供不同生产者编写、不同 agent 消费，无需翻译。
-resource: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
-tags: [okf, knowledge, llm, spec]
+title: "Open Knowledge Format (OKF)"
+description: "Google Cloud 于 2026-06-12 发布的开放规范，把「LLM-wiki」模式形式化为一种可移植、可互操作的格式：一个目录的 Markdown 文件 + YAML frontmatter，供不同生产者编写、不同 agent 消费，无需翻译。"
+resource: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
+tags: "[okf, knowledge, llm, spec]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

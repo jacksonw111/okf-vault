@@ -1,8 +1,8 @@
 ---
 type: Playbook
-title: 在 Obsidian 里开始用 OKF
-description: 一步一步把一个 Obsidian vault 改造成合规的 OKF v0.1 bundle，并准备好让人和 AI agent 都能消费。
-tags: [okf, obsidian, howto]
+title: "在 Obsidian 里开始用 OKF"
+description: "一步一步把一个 Obsidian vault 改造成合规的 OKF v0.1 bundle，并准备好让人和 AI agent 都能消费。"
+tags: "[okf, obsidian, howto]"
 timestamp: 2026-06-16T12:00:00Z
 ---
 

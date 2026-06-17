@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: OKF Enrichment Agent
-description: Google Cloud 发布的 OKF 参考实现：遍历 BigQuery 数据集，为每个表/视图起草 OKF 概念文档，再通过第二轮 LLM 爬取权威文档补充引用、schema 和 join 路径。
-resource: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
-tags: [okf, google-cloud, bigquery, agent, reference-implementation]
+title: "OKF Enrichment Agent"
+description: "Google Cloud 发布的 OKF 参考实现：遍历 BigQuery 数据集，为每个表/视图起草 OKF 概念文档，再通过第二轮 LLM 爬取权威文档补充引用、schema 和 join 路径。"
+resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf"
+tags: "[okf, google-cloud, bigquery, agent, reference-implementation]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 

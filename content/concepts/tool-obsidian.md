@@ -1,9 +1,9 @@
 ---
 type: Tool
-title: Obsidian
-description: 基于本地 Markdown 文件的个人知识库工具。一个 vault = 一个文件夹里的 Markdown 文件，原生支持 YAML frontmatter（Properties）和双向链接，自动构建知识图谱——因此它既是 OKF 的天然编辑器，也是 OKF 的天然消费者。
-resource: https://obsidian.md
-tags: [okf, tool, pkm, markdown]
+title: "Obsidian"
+description: "基于本地 Markdown 文件的个人知识库工具。一个 vault = 一个文件夹里的 Markdown 文件，原生支持 YAML frontmatter（Properties）和双向链接，自动构建知识图谱——因此它既是 OKF 的天然编辑器，也是 OKF 的天然消费者。"
+resource: "https://obsidian.md"
+tags: "[okf, tool, pkm, markdown]"
 timestamp: 2026-06-16T12:00:00Z
 ---
 

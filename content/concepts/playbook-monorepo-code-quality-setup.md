@@ -1,8 +1,8 @@
 ---
 type: Playbook
-title: Monorepo 代码质量体系搭建（Biome + Ultracite + ESLint + Lefthook）
-description: 在 pnpm + turbo + tsc 的 monorepo 中，从零搭建 Biome（Ultracite 预设）+ ESLint + Lefthook（pre-commit / commit-msg / pre-push）+ 自定义 Node 检查脚本的完整代码质量体系。
-tags: [code-quality, lint, lefthook, biome, eslint, git-hooks, monorepo, pnpm, turbo]
+title: "Monorepo 代码质量体系搭建（Biome + Ultracite + ESLint + Lefthook）"
+description: "在 pnpm + turbo + tsc 的 monorepo 中，从零搭建 Biome（Ultracite 预设）+ ESLint + Lefthook（pre-commit / commit-msg / pre-push）+ 自定义 Node 检查脚本的完整代码质量体系。"
+tags: "[code-quality, lint, lefthook, biome, eslint, git-hooks, monorepo, pnpm, turbo]"
 timestamp: 2026-06-17T00:00:00Z
 ---
 
