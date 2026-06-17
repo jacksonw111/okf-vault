@@ -170,4 +170,3 @@ Lucky 后台：
 - [Lucky](./tool-lucky.md)
 - [Tailscale](https://tailscale.com/) — 之所以要绕开它的原因（UDP QoS）
 - [Xray-core](https://github.com/XTLS/Xray-core)
-- [OKF 是什么](./term-okf.md)

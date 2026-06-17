@@ -92,5 +92,5 @@ timestamp: 2026-06-16T12:00:00Z  # 可选
 
 ## 相关概念
 
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — 本 Playbook 操作的核心规范
 - [Obsidian](./tool-obsidian.md)

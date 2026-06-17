@@ -51,4 +51,4 @@ cp .claude/skills-mattpocock/commands/*.md .claude/commands/
 - [Hyperagent 设计网格 skill](./tool-hyperagent-design-skill.md)
 - [Archify](./tool-archify.md)
 - [JSON-Render / 生成式 UI](./tool-json-render.md)
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — 同为「markdown + frontmatter」的 agent 可消费格式，理念同源

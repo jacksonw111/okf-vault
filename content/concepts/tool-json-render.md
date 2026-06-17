@@ -62,4 +62,4 @@ HarnessAgent 沙盒
 - [Claude Code](./tool-claude-code.md)
 - [Archify](./tool-archify.md)
 - [Vercel AI SDK](https://sdk.vercel.ai/)
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — 同属「LLM 可消费的结构化文本」范式，可作 OKF 概念的渲染端

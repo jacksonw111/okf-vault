@@ -68,4 +68,4 @@ git clone https://github.com/tt-a1i/archify .claude/skills/archify
 - [Agent Skills 是什么](./term-agent-skills.md)
 - [Claude Code](./tool-claude-code.md)
 - [Mermaid](https://mermaid.js.org/) — 互补的代码图工具
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — 同为「markdown 文件 + frontmatter」的本地知识形态，产物可互转

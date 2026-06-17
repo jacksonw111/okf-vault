@@ -66,5 +66,5 @@ claude
 - [Agent Skills 是什么](./term-agent-skills.md)
 - [Claude Code](./tool-claude-code.md)
 - [mattpocock/skills](./tool-mattpocock-skills.md)
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — improve 的「计划型概念」产物可直接落进 OKF 的 concepts/
 - [PRODUCER.md 协议](./../PRODUCER.md)

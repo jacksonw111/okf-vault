@@ -39,5 +39,5 @@ OKF 规范示例用的是**标准 Markdown 链接** `[X](./x.md)`（最可移植
 
 ## 相关概念
 
-- [OKF 是什么](./term-okf.md)
+- [OKF 是什么](./term-okf.md) — OKF bundle 的天然编辑/消费端（vault = bundle）
 - [在 Obsidian 里开始用 OKF](./playbook-okf-obsidian-start.md)

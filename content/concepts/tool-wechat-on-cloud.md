@@ -38,4 +38,3 @@ resource: "https://github.com/Gloridust/WechatOnCloud"
 ## 相关概念
 
 - [Cabinet](./tool-cabinet.md) — 同样强调「本地 / 云端常驻 + 多源聚合」
-- [OKF 是什么](./term-okf.md)

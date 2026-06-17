@@ -51,6 +51,5 @@ resource: "https://github.com/andrewfarah/field-theory"
 ## 相关概念
 
 - [Obsidian](./tool-obsidian.md)
-- [OKF 是什么](./term-okf.md)
 - [Cabinet](./tool-cabinet.md) — 另一款「Obsidian + 上下文」尝试
 - [LLM Wiki 模式](./term-llm-wiki.md)

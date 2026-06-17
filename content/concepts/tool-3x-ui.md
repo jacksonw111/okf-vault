@@ -65,4 +65,3 @@ services:
 - [VLESS + WebSocket + TLS 绕过电信 QoS 方案（Playbook）](./playbook-vless-bypass-telecom-qos.md)
 - [Lucky（反向代理 / DDNS / ACME）](./tool-lucky.md)
 - [Xray-core](https://github.com/XTLS/Xray-core) — 3X-UI 管理的核心
-- [OKF 是什么](./term-okf.md)

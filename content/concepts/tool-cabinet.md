@@ -51,7 +51,6 @@ resource: "https://runcabinet.com"
 ## 相关概念
 
 - [Obsidian](./tool-obsidian.md)
-- [OKF 是什么](./term-okf.md)
 - [LLM Wiki 模式](./term-llm-wiki.md)
 - [Agent Skills 是什么](./term-agent-skills.md)
 - [Claude Code](./tool-claude-code.md)
