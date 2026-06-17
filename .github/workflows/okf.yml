@@ -39,48 +39,51 @@ jobs:
         id: keycheck
         env:
           GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: |
-          if [ -z "$GLM_API_KEY" ]; then
-            echo "::warning::未配置 GLM_API_KEY secret，跳过 agent 处理。请在仓库 Settings → Secrets and variables → Actions → New repository secret 添加 GLM_API_KEY。"
+          if [ -z "$MINIMAX_API_KEY" ] && [ -z "$GLM_API_KEY" ]; then
+            echo "::warning::主端点 MINIMAX_API_KEY 和备端点 GLM_API_KEY 都未配置，跳过 agent 处理。请在仓库 Settings → Secrets and variables → Actions → New repository secret 添加。"
             echo "has_key=false" >> $GITHUB_OUTPUT
           else
-            echo "GLM_API_KEY 已配置。"
+            [ -n "$MINIMAX_API_KEY" ] && echo "MINIMAX_API_KEY（主）已配置。"
+            [ -n "$GLM_API_KEY" ]    && echo "GLM_API_KEY（备）已配置。"
             echo "has_key=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: 运行 Claude Code 处理 inbox（主：GLM-5.2，备：MiniMax）
+      - name: 运行 Claude Code 处理 inbox（主：MiniMax-M3，备：GLM-5.2）
         if: steps.keycheck.outputs.has_key == 'true'
         working-directory: content
-        # 主备双端点，同一套 prompt。主端 GLM 失败（含 529 过载）则自动切 MiniMax 重跑一次。
-        # 不无限重试，不浪费 Action 时长；MiniMax 也失败才整体失败。
+        # 主备双端点，同一套 prompt。主端 MiniMax-M3 失败（含过载）则自动切 GLM-5.2 重跑一次。
+        # 不无限重试，不浪费 Action 时长；GLM 也失败才整体失败。
+        # MiniMax-M3：~1M context，SWE-Bench Pro 顶级，适合 agentic 任务。model id 为 MiniMax-M3（大写 M）。
         run: |
           PROMPT="$(cat ../.claude/prompt.txt)"
           set +e
-          echo "::notice::尝试主端点 GLM-5.2"
+          echo "::notice::尝试主端点 MiniMax-M3"
+          ANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic \
+          ANTHROPIC_AUTH_TOKEN="${{ secrets.MINIMAX_API_KEY }}" \
+          ANTHROPIC_MODEL=MiniMax-M3 \
+          ANTHROPIC_DEFAULT_SONNET_MODEL=MiniMax-M3 \
+          ANTHROPIC_DEFAULT_HAIKU_MODEL=MiniMax-M3 \
+          ANTHROPIC_DEFAULT_OPUS_MODEL=MiniMax-M3 \
+          claude -p "$PROMPT" --permission-mode auto --output-format text
+          rc=$?
+          set -e
+          if [ $rc -eq 0 ]; then
+            echo "::notice::MiniMax-M3 成功"
+            exit 0
+          fi
+          if [ -z "${{ secrets.GLM_API_KEY }}" ]; then
+            echo "::error::MiniMax-M3 失败（退出码 $rc）且未配置 GLM_API_KEY，无备端点"
+            exit $rc
+          fi
+          echo "::warning::MiniMax-M3 失败（退出码 $rc），切换备端点 GLM-5.2"
           ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic \
           ANTHROPIC_AUTH_TOKEN="${{ secrets.GLM_API_KEY }}" \
           ANTHROPIC_MODEL=glm-5.2 \
           ANTHROPIC_DEFAULT_SONNET_MODEL=glm-5.2 \
           ANTHROPIC_DEFAULT_HAIKU_MODEL=glm-5.2 \
           ANTHROPIC_DEFAULT_OPUS_MODEL=glm-5.2 \
-          claude -p "$PROMPT" --permission-mode auto --output-format text
-          rc=$?
-          set -e
-          if [ $rc -eq 0 ]; then
-            echo "::notice::GLM-5.2 成功"
-            exit 0
-          fi
-          if [ -z "${{ secrets.MINIMAX_API_KEY }}" ]; then
-            echo "::error::GLM 失败（退出码 $rc）且未配置 MINIMAX_API_KEY，无备端点"
-            exit $rc
-          fi
-          echo "::warning::GLM 失败（退出码 $rc，常见 529 过载），切换备端点 MiniMax-M2.7"
-          ANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic \
-          ANTHROPIC_AUTH_TOKEN="${{ secrets.MINIMAX_API_KEY }}" \
-          ANTHROPIC_MODEL=minimax-m2.7 \
-          ANTHROPIC_DEFAULT_SONNET_MODEL=minimax-m2.7 \
-          ANTHROPIC_DEFAULT_HAIKU_MODEL=minimax-m2.7 \
-          ANTHROPIC_DEFAULT_OPUS_MODEL=minimax-m2.7 \
           claude -p "$PROMPT" --permission-mode auto --output-format text
 
 

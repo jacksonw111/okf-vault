@@ -1,6 +1,6 @@
 # OKF 知识库（自动整理 + 自动发布）
 
-这是一个 **Open Knowledge Format (OKF)** 知识库：把资料丢进 `content/inbox/`，**Claude Code + GLM-5.2** 每天定时自动整理成结构化的 Markdown 概念文件，并用 **Quartz** 自动发布成公开网站。
+这是一个 **Open Knowledge Format (OKF)** 知识库：把资料丢进 `content/inbox/`，**Claude Code + MiniMax-M3**（GLM-5.2 备端点）每天定时自动整理成结构化的 Markdown 概念文件，并用 **Quartz** 自动发布成公开网站。
 
 > 设计依据：Google Cloud《How the Open Knowledge Format can improve data sharing》。一个概念 = 一个 Markdown 文件 + YAML frontmatter（`type` 是唯一必填字段），文件之间用链接连成图谱。
 
@@ -25,7 +25,7 @@ okf-vault/
 
 1. **你投喂**：把资料（PDF / 文章 / 一段话）放进 `content/inbox/`，push（Obsidian Git 插件或手动）。
 2. **每天定时**：`.github/workflows/okf.yml` 在 UTC 19:00（北京次日 03:00）自动跑：
-   - 起 Claude Code，`--permission-mode auto`，经 GLM 原生 Anthropic 端点（`open.bigmodel.cn/api/anthropic`）用 **GLM-5.2**；
+   - 起 Claude Code，`--permission-mode auto`，主端点 MiniMax-M3（`api.minimaxi.com/anthropic`）；失败自动 fallback 到 GLM-5.2；
    - 按 `.claude/prompt.txt` + `PRODUCER.md` 读 inbox → 产出 `concepts/` → 更新 index/log → 归档资料；
    - 把结果 commit & push 到 main（`[skip ci]`）。
 3. **同一管线紧接着**：Quartz 构建站点 → 部署到 GitHub Pages。
@@ -39,9 +39,9 @@ okf-vault/
 - Name：`GLM_API_KEY`
 - Value：你的智谱 / Z.ai API key（`ANTHROPIC_AUTH_TOKEN` 用的是它）
 
-> 配置端点：`ANTHROPIC_BASE_URL = https://open.bigmodel.cn/api/anthropic`，模型 `glm-5.2`。GLM Coding Plan 走的就是原生 Anthropic 协议，**无需任何代理 / 翻译层**。
+> **主端点**：MiniMax-M3，`ANTHROPIC_BASE_URL = https://api.minimaxi.com/anthropic`，模型 `MiniMax-M3`。原生 Anthropic 协议，**无需任何代理 / 翻译层**。Secret：`MINIMAX_API_KEY`。
 >
-> **Fallback**：GLM 失败（常见 529 过载）时，自动切到 MiniMax（`api.minimaxi.com/anthropic`，`minimax-m2.7`）重跑一次。需要额外配置 secret `MINIMAX_API_KEY`（不配也行，只是没有备端点）。
+> **Fallback**：MiniMax-M3 失败（含过载）时，自动切到 GLM-5.2（`open.bigmodel.cn/api/anthropic`）重跑一次。Secret：`GLM_API_KEY`（不配也行，只是没有备端点）。
 
 ### 2. （已由本仓库预置）确认 GitHub Pages 已开启
 **Settings → Pages → Build and deployment → Source = GitHub Actions**（应当已开启；若没开，选这项即可）。
