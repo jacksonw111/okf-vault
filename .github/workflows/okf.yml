@@ -108,9 +108,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # 关键：publish 是独立 job，默认 checkout 拿到的是“触发时”的快照，
+      # 不含 process job 刚 push 的 agent 产出。必须显式拉取最新 main。
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v4
