@@ -53,7 +53,8 @@ def parse_tags(val):
 
 def collect():
     concepts = []
-    for path in sorted(glob.glob(os.path.join(CONCEPTS_DIR, '*.md'))):
+    # 递归扫描子目录（concepts/term/、concepts/tool/ 等）
+    for path in sorted(glob.glob(os.path.join(CONCEPTS_DIR, '**', '*.md'), recursive=True)):
         name = os.path.basename(path)
         if name == 'index.md':
             continue
@@ -64,11 +65,15 @@ def collect():
                 continue
             fm = parse_frontmatter(m.group(1))
             tags = parse_tags(fm.get('tags', ''))
+            ctype = fm.get('type', '未分类').strip('"').lower()
+            slug = name[:-3]  # 去 .md
+            # 新路径：concepts/<type>/<slug>（用于生成站内链接）
             concepts.append({
-                'slug': name[:-3],  # 去 .md
+                'slug': slug,
+                'path': f'concepts/{ctype}/{slug}',  # 相对 content/ 的路径，供链接用
                 'filename': name,
                 'type': fm.get('type', '未分类').strip('"'),
-                'title': fm.get('title', name[:-3]).strip('"'),
+                'title': fm.get('title', slug).strip('"'),
                 'description': fm.get('description', '').strip('"'),
                 'tags': tags,
                 'timestamp': fm.get('timestamp', '').strip('"'),
@@ -148,7 +153,7 @@ def render(concepts):
     out.append('|---|---|---|')
     for c in recent:
         date = (c['timestamp'] or '—')[:10]
-        out.append(f'| [{esc(c["title"])}](./concepts/{c["slug"]}) | {esc(c["type"])} | {date} |')
+        out.append(f'| [{esc(c["title"])}](./{c["path"]}) | {esc(c["type"])} | {date} |')
     out.append('')
 
     # 全部概念（分类型）
@@ -160,7 +165,7 @@ def render(concepts):
         out.append('')
         for c in sorted(items, key=lambda x: x['title']):
             desc = c['description'][:60] + ('…' if len(c['description']) > 60 else '')
-            out.append(f'- [{esc(c["title"])}](./concepts/{c["slug"]}) — {esc(desc)}')
+            out.append(f'- [{esc(c["title"])}](./{c["path"]}) — {esc(desc)}')
         out.append('')
 
     out.append('---')

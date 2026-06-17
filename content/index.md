@@ -36,56 +36,56 @@ timestamp: 2026-06-17T00:00:00Z
 
 ## 核心概念
 
-- [OKF 是什么](./concepts/term-okf.md)
-- [Agent Skills（代理技能包）](./concepts/term-agent-skills.md)
-- [LLM Wiki 模式](./concepts/term-llm-wiki.md)
-- [Conventional Commits](./concepts/term-conventional-commits.md)
+- [OKF 是什么](concepts/term/term-okf.md)
+- [Agent Skills（代理技能包）](concepts/term/term-agent-skills.md)
+- [LLM Wiki 模式](concepts/term/term-llm-wiki.md)
+- [Conventional Commits](concepts/term/term-conventional-commits.md)
 
 ## 工具
 
-- [Obsidian](./concepts/tool-obsidian.md)
-- [Cabinet](./concepts/tool-cabinet.md)
-- [Field Theory](./concepts/tool-field-theory.md)
-- [Claude Code](./concepts/tool-claude-code.md)
-- [Mira（Agent-native 投研）](./concepts/tool-mira.md)
-- [WechatOnCloud / 云微](./concepts/tool-wechat-on-cloud.md)
-- [OKF Enrichment Agent](./concepts/tool-okf-enrichment-agent.md)
-- [OKF Static HTML Visualizer](./concepts/tool-okf-static-html-visualizer.md)
-- [OKF 参考示例 Bundles](./concepts/tool-okf-sample-bundles.md)
+- [Obsidian](concepts/tool/tool-obsidian.md)
+- [Cabinet](concepts/tool/tool-cabinet.md)
+- [Field Theory](concepts/tool/tool-field-theory.md)
+- [Claude Code](concepts/tool/tool-claude-code.md)
+- [Mira（Agent-native 投研）](concepts/tool/tool-mira.md)
+- [WechatOnCloud / 云微](concepts/tool/tool-wechat-on-cloud.md)
+- [OKF Enrichment Agent](concepts/tool/tool-okf-enrichment-agent.md)
+- [OKF Static HTML Visualizer](concepts/tool/tool-okf-static-html-visualizer.md)
+- [OKF 参考示例 Bundles](concepts/tool/tool-okf-sample-bundles.md)
 
 ## 网络 / NAS 工具
 
-- [3X-UI](./concepts/tool-3x-ui.md)
-- [Lucky](./concepts/tool-lucky.md)
+- [3X-UI](concepts/tool/tool-3x-ui.md)
+- [Lucky](concepts/tool/tool-lucky.md)
 
 ## 代码质量 / Monorepo
 
-- [Monorepo 代码质量体系搭建](./concepts/playbook-monorepo-code-quality-setup.md)
-- [Biome](./concepts/tool-biome.md)
-- [Ultracite](./concepts/tool-ultracite.md)
-- [Lefthook](./concepts/tool-lefthook.md)
-- [Turborepo](./concepts/tool-turbo.md)
-- [ESLint](./concepts/tool-eslint.md)
+- [Monorepo 代码质量体系搭建](concepts/playbook/playbook-monorepo-code-quality-setup.md)
+- [Biome](concepts/tool/tool-biome.md)
+- [Ultracite](concepts/tool/tool-ultracite.md)
+- [Lefthook](concepts/tool/tool-lefthook.md)
+- [Turborepo](concepts/tool/tool-turbo.md)
+- [ESLint](concepts/tool/tool-eslint.md)
 
 ## Agent Skills 生态
 
-- [mattpocock/skills](./concepts/tool-mattpocock-skills.md)
-- [shadcn/improve](./concepts/tool-shadcn-improve.md)
-- [Archify](./concepts/tool-archify.md)
-- [JSON-Render / 生成式 UI](./concepts/tool-json-render.md)
-- [Hyperagent 设计网格 Skill](./concepts/tool-hyperagent-design-skill.md)
+- [mattpocock/skills](concepts/tool/tool-mattpocock-skills.md)
+- [shadcn/improve](concepts/tool/tool-shadcn-improve.md)
+- [Archify](concepts/tool/tool-archify.md)
+- [JSON-Render / 生成式 UI](concepts/tool/tool-json-render.md)
+- [Hyperagent 设计网格 Skill](concepts/tool/tool-hyperagent-design-skill.md)
 
 ## 前端 / 设计资源
 
-- [transitions.dev](./concepts/tool-transitions-dev.md)
-- [textmotion.dev](./concepts/tool-textmotion-dev.md)
-- [index.how/to/articulate](./concepts/tool-index-how-articulate.md)
-- [前端 / 创客 资源合集](./concepts/note-front-end-resources.md)
+- [transitions.dev](concepts/tool/tool-transitions-dev.md)
+- [textmotion.dev](concepts/tool/tool-textmotion-dev.md)
+- [index.how/to/articulate](concepts/tool/tool-index-how-articulate.md)
+- [前端 / 创客 资源合集](concepts/note/note-front-end-resources.md)
 
 ## 操作手册
 
-- [在 Obsidian 里开始用 OKF（Playbook）](./concepts/playbook-okf-obsidian-start.md)
-- [VLESS + WebSocket + TLS 绕过电信 QoS](./concepts/playbook-vless-bypass-telecom-qos.md)
+- [在 Obsidian 里开始用 OKF（Playbook）](concepts/playbook/playbook-okf-obsidian-start.md)
+- [VLESS + WebSocket + TLS 绕过电信 QoS](concepts/playbook/playbook-vless-bypass-telecom-qos.md)
 
 ## 配套文档
 
