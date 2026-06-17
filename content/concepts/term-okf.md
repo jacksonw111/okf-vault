@@ -4,16 +4,29 @@ title: Open Knowledge Format (OKF)
 description: Google Cloud 于 2026-06-12 发布的开放规范，把「LLM-wiki」模式形式化为一种可移植、可互操作的格式：一个目录的 Markdown 文件 + YAML frontmatter，供不同生产者编写、不同 agent 消费，无需翻译。
 resource: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
 tags: [okf, knowledge, llm, spec]
-timestamp: 2026-06-12T00:00:00Z
+timestamp: 2026-06-17T00:00:00Z
 ---
 
 # Open Knowledge Format (OKF)
 
 ## 它解决什么问题
 
-组织内部的知识（表 schema、指标定义、事故 runbook、系统间 join 路径、API 弃用通知……）散落在各种互不兼容的系统里：元数据目录、Wiki、代码注释、几位老员工的脑子里。每次搭一个 AI agent，都要重新从零拼装这些上下文。
+### 碎片化的上下文地形（Fragmented Context Landscape）
 
-> 缺的不是「又一个知识服务」，而是一个**格式**：任何人都能产、任何人都能消费、能在系统/组织/工具间迁移、能和代码一起进版本控制、人和 agent 读同一份文件无需翻译层。
+组织内部喂给 foundation model 的知识绝大多数是**内部知识**：表的 schema、业务对指标的定义、事故 runbook、两个系统之间的 join 路径、旧 API 的弃用通知……这些知识的「原子」散落在各种互不兼容的载体里：
+
+- 各家元数据目录（带着自家 API）
+- 第三方 Wiki / 共享盘
+- 代码注释、docstring、notebook cell
+- 几位资深工程师的脑子里
+
+当一个 AI agent 要回答「怎么从我们的事件流算 weekly active users」时，它得从这些互不兼容的载体里拼装答案。每个 vendor 都自带一套 catalog、一套 SDK、一套知识图谱 schema，知识被锁在产生它的那一层里。结果就是：**每个 agent builder 都在从零重复同一个上下文拼装问题，每个 catalog vendor 都在重造同一个数据模型，知识本身被锁死。**
+
+### 缺的不是一个服务，是一个格式
+
+> 答案不是「又一个知识服务」。你需要一个**格式**——能产、能消费、跨系统跨组织跨工具迁移、和代码同仓、人和 agent 读同一份文件不需要翻译层。
+
+OKF 正是按这个需求设计的：不是平台、不是 SDK、不是私有服务，是一个目录里一堆 Markdown + YAML frontmatter，可被任意生产者和消费者读写。
 
 ## 三句话定义
 
@@ -51,6 +64,10 @@ Joined with [customers](/tables/customers.md) on `customer_id`.
 
 - [Obsidian](./tool-obsidian.md) —— 天然的 OKF 消费/编辑端
 - [在 Obsidian 里开始用 OKF](./playbook-okf-obsidian-start.md)
+- [LLM Wiki 模式](./term-llm-wiki.md) —— OKF 的理念先驱
+- [OKF Enrichment Agent](./tool-okf-enrichment-agent.md) —— 参考生产者
+- [OKF Static HTML Visualizer](./tool-okf-static-html-visualizer.md) —— 参考消费者
+- [OKF 参考示例 Bundles](./tool-okf-sample-bundles.md) —— GA4 / Stack Overflow / Bitcoin 三套样例
 
 ## 来源
 

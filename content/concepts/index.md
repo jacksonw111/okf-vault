@@ -14,3 +14,11 @@ timestamp: 2026-06-16T12:00:00Z
 - [LLM Wiki 模式](./term-llm-wiki.md) — `Term`
 - [OKF Enrichment Agent](./tool-okf-enrichment-agent.md) — `Tool`
 - [OKF Static HTML Visualizer](./tool-okf-static-html-visualizer.md) — `Tool`
+- [OKF 参考示例 Bundles](./tool-okf-sample-bundles.md) — `Tool`
+- [Monorepo 代码质量体系搭建](./playbook-monorepo-code-quality-setup.md) — `Playbook`
+- [Biome](./tool-biome.md) — `Tool`
+- [Ultracite](./tool-ultracite.md) — `Tool`
+- [Lefthook](./tool-lefthook.md) — `Tool`
+- [Turborepo](./tool-turbo.md) — `Tool`
+- [ESLint](./tool-eslint.md) — `Tool`
+- [Conventional Commits](./term-conventional-commits.md) — `Term`

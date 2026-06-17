@@ -33,7 +33,7 @@ OKF Enrichment Agent 是 Google Cloud 随 OKF v0.1 一起发布的**参考生产
    - 表间 join 路径
    - 外部引用来源（citation）
 
-最终产出是一组符合 OKF v0.1 规范的 `.md` 文件，可直接加入任何 OKF bundle。
+最终产出是一组符合 OKF v0.1 规范的 `.md` 文件，可直接加入任何 OKF bundle。Google 已用该 agent 跑通三套公开数据集作为样例——见 [OKF 参考示例 Bundles](./tool-okf-sample-bundles.md)。
 
 ## 设计意图
 
