@@ -30,10 +30,10 @@ timestamp: 2026-06-17T00:00:00Z
 
 ## 浏览起点
 
+- [📊 知识库仪表盘](./overview.md) ← 实时统计 / 类型分布 / 标签 / 最近更新（**从这里开始**）
+- [📑 概念目录](./concepts/index.md) ← 全量概念导航
 - [🤖 生产者协议 PRODUCER](./PRODUCER.md) ← agent 怎么把资料变成 OKF
 - [📥 inbox 投递区](./inbox/README.md) ← 把资料扔这里
-- [📊 知识库仪表盘](./overview.md) ← 浏览所有概念
-- [📑 概念目录](./concepts/index.md) ← 全量概念导航
 
 ## 核心概念
 

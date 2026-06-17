@@ -1,53 +1,100 @@
 ---
-type: Index
+type: "Index"
 title: "知识库仪表盘"
-description: "知识库导航中枢。下方链接全部指向 Quartz 自动生成的聚合页（目录索引 / 标签索引），内容随知识库增长自动更新——无需 Dataview。"
-tags: "[okf, dashboard]"
-timestamp: 2026-06-17T00:00:00Z
+description: "知识库总览：实时统计概念数、类型分布、标签云、最近更新。构建前自动生成。"
+tags: [okf, dashboard]
+timestamp: "2026-06-17T06:25:34Z"
 ---
 
-# 知识库仪表盘
+# 📊 知识库仪表盘
 
-> 本站由 **Quartz** 生成，它不是 Obsidian，**不支持 Dataview 插件**。
-> 这里改用 Quartz 原生的「目录索引」和「标签索引」——它们由站点根据实际文件**自动生成**，效果等同于 Dataview 的聚合查询，而且永远是最新。
+> 本页由 `scripts/build_overview.py` 在每次 Quartz 构建前**自动生成**，数据来自 `concepts/` 下所有概念文件的 frontmatter，永远最新。
 
-## 📂 浏览全部概念
+## 📈 概览
 
-→ [**concepts 目录索引**](concepts/)：自动列出所有概念文件，按最后修改时间排序。
+| 概念总数 | 类型数 | 标签数 |
+|:---:|:---:|:---:|
+| **32** | **4** | **100** |
 
-## 🏷️ 按标签浏览
+## 🗂 按类型分布
 
-→ [**全部标签**](tags/)
+| 类型 | 数量 |
+|---|:---:|
+| Tool | 24 |
+| Term | 4 |
+| Playbook | 3 |
+| Note | 1 |
 
-常用标签（点击进入对应的自动聚合页）：
+## 🏷️ 标签（按热度，点击进标签聚合页）
 
-- [okf](tags/okf) · [term](tags/term) · [tool](tags/tool) · [playbook](tags/playbook)
-- [producer](tags/producer) · [agent](tags/agent) · [protocol](tags/protocol) · [markdown](tags/markdown)
+**[ai](/okf-vault/tags/ai)** (10) · **[agent](/okf-vault/tags/agent)** (9) · **[okf](/okf-vault/tags/okf)** (6) · **[tool](/okf-vault/tags/tool)** (6) · **[code-quality](/okf-vault/tags/code-quality)** (5) · **[claude-code](/okf-vault/tags/claude-code)** (4) · **[lint](/okf-vault/tags/lint)** (4) · **[skills](/okf-vault/tags/skills)** (4) · **[animation](/okf-vault/tags/animation)** (3) · **[google-cloud](/okf-vault/tags/google-cloud)** (3) · **[nas](/okf-vault/tags/nas)** (3) · **[network](/okf-vault/tags/network)** (3) · **[qos-bypass](/okf-vault/tags/qos-bypass)** (3) · **[reference-implementation](/okf-vault/tags/reference-implementation)** (3) · **[bigquery](/okf-vault/tags/bigquery)** (2) · **[biome](/okf-vault/tags/biome)** (2) · **[design](/okf-vault/tags/design)** (2) · **[design-resources](/okf-vault/tags/design-resources)** (2) · **[git](/okf-vault/tags/git)** (2) · **[lefthook](/okf-vault/tags/lefthook)** (2) · **[llm](/okf-vault/tags/llm)** (2) · **[local-first](/okf-vault/tags/local-first)** (2) · **[markdown](/okf-vault/tags/markdown)** (2) · **[monorepo](/okf-vault/tags/monorepo)** (2) · **[obsidian](/okf-vault/tags/obsidian)** (2) · **[prompt-engineering](/okf-vault/tags/prompt-engineering)** (2) · **[spec](/okf-vault/tags/spec)** (2) · **[turbo](/okf-vault/tags/turbo)** (2) · **[typography](/okf-vault/tags/typography)** (2) · **[ui](/okf-vault/tags/ui)** (2) · **[vless](/okf-vault/tags/vless)** (2) · **[web](/okf-vault/tags/web)** (2)
 
-## 🧭 主要入口
+<details><summary>查看全部 100 个标签（含长尾）</summary>
 
-- [知识库首页]()
-- [生产者协议 PRODUCER](PRODUCER)
-- [变更记录 log](log)
-- [投喂资料 inbox](inbox/README)
+[acme](/okf-vault/tags/acme) [agent](/okf-vault/tags/agent) [ai](/okf-vault/tags/ai) [ai-sdk](/okf-vault/tags/ai-sdk) [ai-skills](/okf-vault/tags/ai-skills) [animation](/okf-vault/tags/animation) [anthropic](/okf-vault/tags/anthropic) [architecture](/okf-vault/tags/architecture) [bigquery](/okf-vault/tags/bigquery) [biome](/okf-vault/tags/biome) [bookmarks](/okf-vault/tags/bookmarks) [build](/okf-vault/tags/build) [chromium](/okf-vault/tags/chromium) [claude](/okf-vault/tags/claude) [claude-code](/okf-vault/tags/claude-code) [cli](/okf-vault/tags/cli) [cloud](/okf-vault/tags/cloud) [code-audit](/okf-vault/tags/code-audit) [code-quality](/okf-vault/tags/code-quality) [coding-agent](/okf-vault/tags/coding-agent) [commit](/okf-vault/tags/commit) [convention](/okf-vault/tags/convention) [ddns](/okf-vault/tags/ddns) [design](/okf-vault/tags/design) [design-resources](/okf-vault/tags/design-resources) [diagram](/okf-vault/tags/diagram) [docker](/okf-vault/tags/docker) [eslint](/okf-vault/tags/eslint) [evidence-tracked](/okf-vault/tags/evidence-tracked) [finance](/okf-vault/tags/finance) [formatter](/okf-vault/tags/formatter) [frontend](/okf-vault/tags/frontend) [generative-ui](/okf-vault/tags/generative-ui) [git](/okf-vault/tags/git) [git-hooks](/okf-vault/tags/git-hooks) [google-cloud](/okf-vault/tags/google-cloud) [grid](/okf-vault/tags/grid) [hooks](/okf-vault/tags/hooks) [howto](/okf-vault/tags/howto) [html](/okf-vault/tags/html) [investment-research](/okf-vault/tags/investment-research) [json-render](/okf-vault/tags/json-render) [karpathy](/okf-vault/tags/karpathy) [knowledge](/okf-vault/tags/knowledge) [knowledge-base](/okf-vault/tags/knowledge-base) [lefthook](/okf-vault/tags/lefthook) [lint](/okf-vault/tags/lint) [llm](/okf-vault/tags/llm) [local-first](/okf-vault/tags/local-first) [markdown](/okf-vault/tags/markdown) [monorepo](/okf-vault/tags/monorepo) [multi-account](/okf-vault/tags/multi-account) [nas](/okf-vault/tags/nas) [network](/okf-vault/tags/network) [obsidian](/okf-vault/tags/obsidian) [okf](/okf-vault/tags/okf) [orchestration](/okf-vault/tags/orchestration) [pattern](/okf-vault/tags/pattern) [pkm](/okf-vault/tags/pkm) [planning](/okf-vault/tags/planning) [playbook](/okf-vault/tags/playbook) [pnpm](/okf-vault/tags/pnpm) [preset](/okf-vault/tags/preset) [productivity](/okf-vault/tags/productivity) [prompt-engineering](/okf-vault/tags/prompt-engineering) [pwa](/okf-vault/tags/pwa) [qos-bypass](/okf-vault/tags/qos-bypass) [react](/okf-vault/tags/react) [reading](/okf-vault/tags/reading) [reference-implementation](/okf-vault/tags/reference-implementation) [resources](/okf-vault/tags/resources) [reverse-proxy](/okf-vault/tags/reverse-proxy) [rust](/okf-vault/tags/rust) [sample-bundle](/okf-vault/tags/sample-bundle) [skill](/okf-vault/tags/skill) [skills](/okf-vault/tags/skills) [social-media](/okf-vault/tags/social-media) [spec](/okf-vault/tags/spec) [svg](/okf-vault/tags/svg) [term](/okf-vault/tags/term) [terminal](/okf-vault/tags/terminal) [text](/okf-vault/tags/text) [tls](/okf-vault/tags/tls) [tool](/okf-vault/tags/tool) [tools](/okf-vault/tags/tools) [transitions](/okf-vault/tags/transitions) [turbo](/okf-vault/tags/turbo) [typescript](/okf-vault/tags/typescript) [typography](/okf-vault/tags/typography) [ui](/okf-vault/tags/ui) [ux](/okf-vault/tags/ux) [visualizer](/okf-vault/tags/visualizer) [vless](/okf-vault/tags/vless) [vocabulary](/okf-vault/tags/vocabulary) [web](/okf-vault/tags/web) [websocket](/okf-vault/tags/websocket) [wechat](/okf-vault/tags/wechat) [wiki](/okf-vault/tags/wiki) [writing](/okf-vault/tags/writing) [xray](/okf-vault/tags/xray)
 
-## ✅ 自检 / 当前规模
+</details>
 
-- 概念文件数：见 [concepts 目录索引](concepts/)
-- 全部标签：见 [标签索引](tags/)
-- 最近变更：见 [log](log)
+## 🕒 最近更新
+
+| 概念 | 类型 | 更新时间 |
+|---|---|---|
+| [前端 / 创客 资源合集（csaba_kissi 整理）](/okf-vault/concepts/note-front-end-resources) | Note | 2026-06-17 |
+| [Monorepo 代码质量体系搭建（Biome + Ultracite + ESLint + Lefthook）](/okf-vault/concepts/playbook-monorepo-code-quality-setup) | Playbook | 2026-06-17 |
+| [VLESS + WebSocket + TLS 绕过电信 QoS，把家里内网伪装成 HTTPS 访问](/okf-vault/concepts/playbook-vless-bypass-telecom-qos) | Playbook | 2026-06-17 |
+| [Agent Skills（代理技能包）](/okf-vault/concepts/term-agent-skills) | Term | 2026-06-17 |
+| [Conventional Commits](/okf-vault/concepts/term-conventional-commits) | Term | 2026-06-17 |
+| [LLM Wiki 模式](/okf-vault/concepts/term-llm-wiki) | Term | 2026-06-17 |
+| [Open Knowledge Format (OKF)](/okf-vault/concepts/term-okf) | Term | 2026-06-17 |
+| [3X-UI](/okf-vault/concepts/tool-3x-ui) | Tool | 2026-06-17 |
+| [Archify](/okf-vault/concepts/tool-archify) | Tool | 2026-06-17 |
+| [Biome](/okf-vault/concepts/tool-biome) | Tool | 2026-06-17 |
+
+## 📚 全部概念（按类型）
+
+### Note（1）
+
+- [前端 / 创客 资源合集（csaba_kissi 整理）](/okf-vault/concepts/note-front-end-resources) — csaba_kissi @x 整理的「程序员和创客的超棒网站和应用」列表：动画加载器、AI 复刻设计、React 加速 …
+
+### Playbook（3）
+
+- [Monorepo 代码质量体系搭建（Biome + Ultracite + ESLint + Lefthook）](/okf-vault/concepts/playbook-monorepo-code-quality-setup) — 在 pnpm + turbo + tsc 的 monorepo 中，从零搭建 Biome（Ultracite 预设）+ …
+- [VLESS + WebSocket + TLS 绕过电信 QoS，把家里内网伪装成 HTTPS 访问](/okf-vault/concepts/playbook-vless-bypass-telecom-qos) — 当 Tailscale / 自建 DERP 被运营商 UDP/TCP 限速时，把「异地访问家庭内网」伪装成一个普通 HT…
+- [在 Obsidian 里开始用 OKF](/okf-vault/concepts/playbook-okf-obsidian-start) — 一步一步把一个 Obsidian vault 改造成合规的 OKF v0.1 bundle，并准备好让人和 AI age…
+
+### Term（4）
+
+- [Agent Skills（代理技能包）](/okf-vault/concepts/term-agent-skills) — 为编码 / 通用 agent（Claude Code、Pi、Codex…）打包的「可复用提示词 + 工作流」模块；通过 …
+- [Conventional Commits](/okf-vault/concepts/term-conventional-commits) — 一种轻量的提交信息约定规范——格式 `type(scope): description`，type 限定在 feat/f…
+- [LLM Wiki 模式](/okf-vault/concepts/term-llm-wiki) — Andrej Karpathy 提出的概念：让 LLM 作为 wiki 的维护者，承担「不会厌倦、不会遗忘、可一次修改多…
+- [Open Knowledge Format (OKF)](/okf-vault/concepts/term-okf) — Google Cloud 于 2026-06-12 发布的开放规范，把「LLM-wiki」模式形式化为一种可移植、可互操…
+
+### Tool（24）
+
+- [3X-UI](/okf-vault/concepts/tool-3x-ui) — Xray/V2Ray 的 Web 管理面板，基于 Docker 部署，图形化配置 VLESS / VMess / Tro…
+- [Archify](/okf-vault/concepts/tool-archify) — tt-a1i 开的「自然语言 → 架构图」skill：LLM 把描述转成结构化 JSON → Node.js 渲染器用纯…
+- [Biome](/okf-vault/concepts/tool-biome) — 用 Rust 写成的「一体化 Web 工具链」——格式化、Lint、import 整理一把抓；性能远超 ESLint+P…
+- [Cabinet](/okf-vault/concepts/tool-cabinet) — Obsidian + AI 代理的组合：本地 Obsidian 知识库之上挂一层带「心跳和任务」的 agent 运行时；…
+- [Claude Code](/okf-vault/concepts/tool-claude-code) — Anthropic 官方的终端原生 AI 编码 agent；支持自动批准工具调用（--permission-mode a…
+- [ESLint](/okf-vault/concepts/tool-eslint) — 最流行的 JS/TS 可插拔 lint 工具。本项目用 flat config（eslint.config.js，ESM…
+- [Field Theory](/okf-vault/concepts/tool-field-theory) — @andrewfarah 的开源「上下文管理」应用：把写作、阅读、语音、终端、书签、剪贴板、codex 面板、markd…
+- [Hyperagent 设计网格 Skill](/okf-vault/concepts/tool-hyperagent-design-skill) — Hyperagent 团队的 Claude Code skill：把 Müller-Brockmann《平面设计中的网格…
+- [JSON-Render / HarnessAgent（生成式 UI）](/okf-vault/concepts/tool-json-render) — 为 Claude Code / Codex / Pi 等编码 agent 设计的「在沙盒里渲染真实 UI」方案：代理输出…
+- [Lefthook](/okf-vault/concepts/tool-lefthook) — 用 Go 写成的 Git 钩子管理器——一个 `lefthook.yml` 同时配置 pre-commit / comm…
+- [Lucky](/okf-vault/concepts/tool-lucky) — NAS / 软路由上的瑞士军刀：DDNS + ACME 自动续签证书 + 反向代理 + 端口转发 + 定时任务，一个 W…
+- [Mira（Agent-native 投研工作台）](/okf-vault/concepts/tool-mira) — byteseek 开源的「面向 AI Agent 的投资研究」系统：不是荐股 bot / 交易助手，而是一套可复核、可持…
+- [OKF Enrichment Agent](/okf-vault/concepts/tool-okf-enrichment-agent) — Google Cloud 发布的 OKF 参考实现：遍历 BigQuery 数据集，为每个表/视图起草 OKF 概念文档…
+- [OKF Static HTML Visualizer](/okf-vault/concepts/tool-okf-static-html-visualizer) — Google Cloud 发布的 OKF 参考实现：将任意 OKF bundle 转化为单文件交互式图谱视图，纯前端，无…
+- [OKF 参考示例 Bundles](/okf-vault/concepts/tool-okf-sample-bundles) — 随 OKF v0.1 一起发布的三套可浏览的样例 bundle，由 OKF Enrichment Agent 从 Big…
+- [Obsidian](/okf-vault/concepts/tool-obsidian) — 基于本地 Markdown 文件的个人知识库工具。一个 vault = 一个文件夹里的 Markdown 文件，原生支持…
+- [Turborepo](/okf-vault/concepts/tool-turbo) — Vercel 出品的 monorepo 任务编排器（turbo.json）——按 `^task` 依赖图跨包并行执行 b…
+- [Ultracite](/okf-vault/concepts/tool-ultracite) — Biome 的零配置严格预设，把社区最佳实践（lint 规则 + 格式化选项）打包成「一行 `extends` 即可获得…
+- [WechatOnCloud（云微）](/okf-vault/concepts/tool-wechat-on-cloud) — Gloridust 开源的「云端微信 / 多账号管理」项目：通过 chromium 容器化运行多个独立 web 微信、X…
+- [index.how/to/articulate](/okf-vault/concepts/tool-index-how-articulate) — Emil Kowalski 等人整理的设计 / UI/UX 专业术语词典；按 12 大类分节（动画、颜色、版式、交互、可…
+- [mattpocock/skills](/okf-vault/concepts/tool-mattpocock-skills) — 英国 TS 布道师 Matt Pocock 维护的 Claude Code skills 合集（.claude/comm…
+- [shadcn/improve](/okf-vault/concepts/tool-shadcn-improve) — shadcn 开源的 Claude Code skill：用「当下能拿到的最强模型」审计你的代码库、写实施计划、产出 b…
+- [textmotion.dev](/okf-vault/concepts/tool-textmotion-dev) — Daniel White 维护的「文字动效」精选集合；专注文本层面的过渡（逐字、逐行、字符拆分、打字机、变形），是 tr…
+- [transitions.dev](/okf-vault/concepts/tool-transitions-dev) — Jakub Antalik 维护的「精选网页应用过渡效果」集合，目标是「您可以直接复制粘贴到任何项目中使用」；覆盖路由切…
 
 ---
-
-## 💡 在本地 Obsidian 想要 Dataview 动态表？
-
-本地 Obsidian 已装 Dataview 插件。新建一篇笔记，粘贴下面的代码即可得到动态表格（**仅 Obsidian 本地有效，Quartz 不渲染**）：
-
-~~~md
-```dataview
-TABLE type, tags, timestamp AS 更新于
-FROM "concepts"
-WHERE type != "Index"
-SORT timestamp DESC
-```
-~~~
+*本页由脚本自动生成，请勿手动编辑。要改仪表盘请改 `scripts/build_overview.py`。*

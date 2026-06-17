@@ -135,6 +135,9 @@ jobs:
 
       - run: npm ci
 
+      - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
+        run: python3 scripts/build_overview.py
+
       - name: 构建 Quartz
         run: npx quartz build
 
