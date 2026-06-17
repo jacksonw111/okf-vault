@@ -61,4 +61,4 @@ resource: "https://github.com/byteseek/Mira"
 
 - [Agent Skills 是什么](./term-agent-skills.md)
 - [Claude Code](./tool-claude-code.md)
-- [PRODUCER.md 协议](./../PRODUCER.md)
+- `PRODUCER.md 协议`

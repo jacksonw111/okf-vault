@@ -67,4 +67,4 @@ timestamp: 2026-06-17T00:00:00Z
 - [mattpocock/skills](./tool-mattpocock-skills.md)
 - [shadcn/improve](./tool-shadcn-improve.md)
 - [OKF 是什么](./term-okf.md) — Agent Skill 与 OKF 都是「markdown + 约定」的 agent 可消费格式，理念同源
-- [PRODUCER.md 协议](./../PRODUCER.md) — 本身也是一个 skill
+- `PRODUCER.md 协议` — 本身也是一个 skill

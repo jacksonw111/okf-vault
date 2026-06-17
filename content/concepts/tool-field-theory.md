@@ -45,7 +45,7 @@ resource: "https://github.com/andrewfarah/field-theory"
 
 ## 与本知识库的关系
 
-- **导出格式若为 Markdown + frontmatter**——可直接被 [PRODUCER.md 协议](./../PRODUCER.md) 消费。
+- **导出格式若为 Markdown + frontmatter**——可直接被 `PRODUCER.md 协议` 消费。
 - 1.5k+ 次 commit，已经过了「玩具」门槛，是值得放进 [`overview.md`](./overview.md) 跟踪的开源项目。
 
 ## 相关概念

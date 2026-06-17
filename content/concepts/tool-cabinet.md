@@ -28,7 +28,7 @@ resource: "https://runcabinet.com"
 |------|----------|----------------|---------|
 | 文件格式 | Markdown | Markdown + YAML frontmatter | Markdown + **内联 Web App 块** |
 | 运行时 | 无（纯静态编辑器） | 无（静态 bundle） | 有（常驻 agent + 心跳） |
-| AI | 通过插件 | 通过 [PRODUCER.md 协议](./../PRODUCER.md) | 内建 |
+| AI | 通过插件 | 通过 `PRODUCER.md 协议` | 内建 |
 | 离线 | 完全 | 完全 | 完全 |
 
 可以理解为：**OKF 是「数据层」规范，Cabinet 是「带 AI 运行时的数据层」实现**。两者不冲突——Cabinet 的存储格式若遵守 OKF，可以直接被本知识库消费。

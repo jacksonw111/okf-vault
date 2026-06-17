@@ -58,7 +58,7 @@ claude
 ## 与本知识库的关系
 
 - `improve` 的产物 = **「计划型概念」**——可以直接作为 [OKF](./term-okf.md) 里的 Note 或 Playbook 落进 `concepts/`。
-- 配合 [PRODUCER.md 协议](./../PRODUCER.md)：把 `improve` 跑出来的 backlog 丢进 `inbox/`，由 agent 拆成多个概念执行。
+- 配合 `PRODUCER.md 协议`：把 `improve` 跑出来的 backlog 丢进 `inbox/`，由 agent 拆成多个概念执行。
 - 是「前沿模型 + skill + OKF」三角闭环的典型代表。
 
 ## 相关概念
@@ -67,4 +67,4 @@ claude
 - [Claude Code](./tool-claude-code.md)
 - [mattpocock/skills](./tool-mattpocock-skills.md)
 - [OKF 是什么](./term-okf.md) — improve 的「计划型概念」产物可直接落进 OKF 的 concepts/
-- [PRODUCER.md 协议](./../PRODUCER.md)
+- `PRODUCER.md 协议`
