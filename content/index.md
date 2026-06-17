@@ -3,7 +3,7 @@ type: Index
 title: "我的 OKF 知识库"
 description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
 tags: "[okf, root]"
-timestamp: 2026-06-16T12:00:00Z
+timestamp: 2026-06-17T00:00:00Z
 ---
 
 # 我的 OKF 知识库
@@ -33,20 +33,63 @@ timestamp: 2026-06-16T12:00:00Z
 - [🤖 生产者协议 PRODUCER](./PRODUCER.md) ← agent 怎么把资料变成 OKF
 - [📥 inbox 投递区](./inbox/README.md) ← 把资料扔这里
 - [📊 知识库仪表盘](./_dashboards/overview.md) ← 浏览所有概念
+- [📑 概念目录](./concepts/index.md) ← 全量概念导航
+
+## 核心概念
+
 - [OKF 是什么](./concepts/term-okf.md)
-- [Obsidian](./concepts/tool-obsidian.md)
+- [Agent Skills（代理技能包）](./concepts/term-agent-skills.md)
 - [LLM Wiki 模式](./concepts/term-llm-wiki.md)
+- [Conventional Commits](./concepts/term-conventional-commits.md)
+
+## 工具
+
+- [Obsidian](./concepts/tool-obsidian.md)
+- [Cabinet](./concepts/tool-cabinet.md)
+- [Field Theory](./concepts/tool-field-theory.md)
+- [Claude Code](./concepts/tool-claude-code.md)
+- [Mira（Agent-native 投研）](./concepts/tool-mira.md)
+- [WechatOnCloud / 云微](./concepts/tool-wechat-on-cloud.md)
 - [OKF Enrichment Agent](./concepts/tool-okf-enrichment-agent.md)
 - [OKF Static HTML Visualizer](./concepts/tool-okf-static-html-visualizer.md)
 - [OKF 参考示例 Bundles](./concepts/tool-okf-sample-bundles.md)
+
+## 网络 / NAS 工具
+
+- [3X-UI](./concepts/tool-3x-ui.md)
+- [Lucky](./concepts/tool-lucky.md)
+
+## 代码质量 / Monorepo
+
 - [Monorepo 代码质量体系搭建](./concepts/playbook-monorepo-code-quality-setup.md)
 - [Biome](./concepts/tool-biome.md)
 - [Ultracite](./concepts/tool-ultracite.md)
 - [Lefthook](./concepts/tool-lefthook.md)
 - [Turborepo](./concepts/tool-turbo.md)
 - [ESLint](./concepts/tool-eslint.md)
-- [Conventional Commits](./concepts/term-conventional-commits.md)
+
+## Agent Skills 生态
+
+- [mattpocock/skills](./concepts/tool-mattpocock-skills.md)
+- [shadcn/improve](./concepts/tool-shadcn-improve.md)
+- [Archify](./concepts/tool-archify.md)
+- [JSON-Render / 生成式 UI](./concepts/tool-json-render.md)
+- [Hyperagent 设计网格 Skill](./concepts/tool-hyperagent-design-skill.md)
+
+## 前端 / 设计资源
+
+- [transitions.dev](./concepts/tool-transitions-dev.md)
+- [textmotion.dev](./concepts/tool-textmotion-dev.md)
+- [index.how/to/articulate](./concepts/tool-index-how-articulate.md)
+- [前端 / 创客 资源合集](./concepts/note-front-end-resources.md)
+
+## 操作手册
+
 - [在 Obsidian 里开始用 OKF（Playbook）](./concepts/playbook-okf-obsidian-start.md)
+- [VLESS + WebSocket + TLS 绕过电信 QoS](./concepts/playbook-vless-bypass-telecom-qos.md)
+
+## 配套文档
+
 - [输出模板目录](./templates/_README.md)
 - [变更记录](./log.md)
 
