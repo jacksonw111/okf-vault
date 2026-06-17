@@ -50,7 +50,25 @@ timestamp: 2026-06-17T00:00:00Z
 - [transitions.dev](tool/tool-transitions-dev.md) — `Tool` — 网页过渡效果精选
 - [textmotion.dev](tool/tool-textmotion-dev.md) — `Tool` — 文字动效精选
 - [index.how/to/articulate](tool/tool-index-how-articulate.md) — `Tool` — 设计 / UI 术语词典
+- [animations.dev/vocabulary](tool/tool-animations-dev-vocabulary.md) — `Tool` — Emil Kowalski 动画动作词汇表
+- [Trees（@rammcodes）](tool/tool-trees-rammcodes.md) — `Tool` — IDE 风格文件树组件
 - [前端 / 创客 资源合集](note/note-front-end-resources.md) — `Note`
+
+## AI / Agent 生态
+
+- [CopilotKit](tool/tool-copilotkit.md) — `Tool` — 生成式 UI 开源框架（Claude Artifacts 的开源版）
+- [ShipSwift](tool/tool-shipswift.md) — `Tool` — AI 原生 SwiftUI 组件库 + MCP skills
+- [forkd](tool/tool-forkd.md) — `Tool` — microVM fork 化沙箱，100 个 100ms
+- [Sophon](tool/tool-sophon-at.md) — `Tool` — AI 全栈信息聚合站
+- [云端 Agent 基础设施的设计教训（CREAO）](note/note-cloud-agent-infrastructure.md) — `Note` — 两条硬教训 + 统一执行管道模式
+
+## 自托管 / 邮件
+
+- [Cloud Mail](tool/tool-cloud-mail.md) — `Tool` — 单域名「无限收发」自托管邮件
+
+## 金融 / 数据
+
+- [a-stock-data](tool/tool-a-stock-data.md) — `Tool` — A 股全栈数据 Skill（13 源 / 28 端点）
 
 ## Playbooks（操作手册）
 

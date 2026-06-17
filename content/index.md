@@ -80,7 +80,25 @@ timestamp: 2026-06-17T00:00:00Z
 - [transitions.dev](concepts/tool/tool-transitions-dev.md)
 - [textmotion.dev](concepts/tool/tool-textmotion-dev.md)
 - [index.how/to/articulate](concepts/tool/tool-index-how-articulate.md)
+- [animations.dev/vocabulary](concepts/tool/tool-animations-dev-vocabulary.md)
+- [Trees（@rammcodes）](concepts/tool/tool-trees-rammcodes.md)
 - [前端 / 创客 资源合集](concepts/note/note-front-end-resources.md)
+
+## AI / Agent 生态
+
+- [CopilotKit](concepts/tool/tool-copilotkit.md)
+- [ShipSwift](concepts/tool/tool-shipswift.md)
+- [forkd](concepts/tool/tool-forkd.md)
+- [Sophon](concepts/tool/tool-sophon-at.md)
+- [云端 Agent 基础设施的设计教训（CREAO）](concepts/note/note-cloud-agent-infrastructure.md)
+
+## 自托管 / 邮件
+
+- [Cloud Mail](concepts/tool/tool-cloud-mail.md)
+
+## 金融 / 数据
+
+- [a-stock-data](concepts/tool/tool-a-stock-data.md)
 
 ## 操作手册
 
