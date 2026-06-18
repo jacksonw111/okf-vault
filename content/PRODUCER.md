@@ -24,7 +24,7 @@ timestamp: 2026-06-16T12:30:00Z
 3. **文件路径 = 概念的唯一身份证**。一旦创建，路径要稳定；**绝不无故改名/移动**。
 4. **概念之间用 Markdown 链接互联**（`[显示名](./path.md)`），形成图谱。能用链接就别只用纯文字。
 5. **复用而非重建**：动手前先在 `concepts/` 搜是否已有同名/同义概念。有就**更新**，没有才**新建**。
-6. 所有产出放进 `concepts/` 的**对应 type 子目录**：`concepts/term/`、`concepts/tool/`、`concepts/playbook/`、`concepts/note/`（按概念的 `type` 字段小写归档）。不确定 type 时放 `concepts/note/`。
+6. 所有概念文件**扁平地**放进 `concepts/` 根目录（如 `concepts/tool-obsidian.md`）——**不按 type 分子目录**。`type` 只存在于 frontmatter，**不决定路径**。这样改 type 不必移动文件、不破坏路径稳定性（与规则 3 一致；也符合 OKF v0.1「文件路径 = 概念稳定身份」）。分类浏览由 `concepts/index.md` 与 `overview.md` 按 frontmatter 的 `type` 分组呈现，不靠目录结构。
 
 ## 2. 标准生产循环（每处理一份资料，走一遍）
 
@@ -32,7 +32,7 @@ timestamp: 2026-06-16T12:30:00Z
 2. **切分概念**：决定要产出**几个**概念、各自属于什么 `type`。
    - 默认 `type` 词表：`Term`（术语）/ `Tool`（工具）/ `Playbook`（流程手册）/ `Note`（普通笔记）/ `Index`（目录页）。
    - 数据场景可用：`Dataset` / `Table` / `Metric` / `API` / `Runbook`。
-3. **去重**：对每个候选概念，在 `concepts/` 里**递归**搜关键词（含 `concepts/term/`、`concepts/tool/` 等子目录）；命中已有概念 → 走"更新"分支。
+3. **去重**：对每个候选概念，在 `concepts/`（扁平）里搜关键词；命中已有概念 → 走"更新"分支。
 4. **定稳定路径**：文件名 = `<type 短前缀>-<kebab-case-关键词>.md`，英文为主，全小写，连字符分隔。例：`tool-obsidian.md`、`term-okf.md`、`playbook-okf-obsidian-start.md`。**避免中文/空格/特殊字符**（保证跨工具可移植）。
 5. **填 frontmatter**（参照 `templates/` 对应模板）。**⚠️ 防止 YAML 语法错误的关键规则：`title` / `description` / `resource` 的值一律用双引号包裹**（`description: "..."`），因为正文常含半角冒号（如 `type(scope): description`、`http://...`），裸冒号会被 YAML 误解析为键值分隔符，导致整站构建失败。示例：`description: "一种约定——格式 \`type(scope): description\`，限定 feat/fix 等。"`。`tags` 用数组 `[a, b]` 或同样加引号。
    - `type`（必填，可加引号）
@@ -90,7 +90,7 @@ timestamp: 2026-06-16T12:30:00Z
 输入：`inbox/` 里一份《Obsidian 官网介绍》。
 产出：
 
-- 新建 `concepts/tool/tool-obsidian.md`（`type: Tool`，含 frontmatter、为何适合 OKF 的表格、链接到 term-okf.md）
+- 新建 `concepts/tool-obsidian.md`（`type: Tool`，含 frontmatter、为何适合 OKF 的表格、链接到 term-okf.md）
 - 在 `concepts/index.md` 追加一行 `[Obsidian](concepts/tool-obsidian.md) — Tool`
 - `log.md` 追加：`2026-06-16 | 新增 tool-obsidian（来源：inbox 官网介绍）`
 - 把资料移到 `inbox/_done/`

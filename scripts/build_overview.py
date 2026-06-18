@@ -17,25 +17,15 @@ import sys
 import glob
 from collections import Counter
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import okf_lib  # 共享 frontmatter 解析（与 okf_validate 同源，避免口径漂移）
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONCEPTS_DIR = os.path.join(ROOT, "content", "concepts")
 OUTPUT = os.path.join(ROOT, "content", "overview.md")
 
-FM_RE = re.compile(r'^---\n(.*?)\n---\n', re.DOTALL)
-
-
-def parse_frontmatter(fm_text):
-    """极简 YAML 解析，只取我们关心的标量/列表字段。"""
-    data = {}
-    for line in fm_text.split('\n'):
-        m = re.match(r'^(\w+):\s*(.*)$', line)
-        if not m:
-            continue
-        key, val = m.group(1), m.group(2).strip()
-        if val.startswith('"') and val.endswith('"'):
-            val = val[1:-1]
-        data[key] = val
-    return data
+FM_RE = okf_lib.FM_RE
+parse_frontmatter = okf_lib.parse_frontmatter
 
 
 def parse_tags(val):
@@ -53,7 +43,7 @@ def parse_tags(val):
 
 def collect():
     concepts = []
-    # 递归扫描子目录（concepts/term/、concepts/tool/ 等）
+    # 扫描 concepts/ 下所有 .md（扁平结构；递归 glob 仍兼容未来可能的子目录）
     for path in sorted(glob.glob(os.path.join(CONCEPTS_DIR, '**', '*.md'), recursive=True)):
         name = os.path.basename(path)
         if name == 'index.md':
@@ -67,10 +57,10 @@ def collect():
             tags = parse_tags(fm.get('tags', ''))
             ctype = fm.get('type', '未分类').strip('"').lower()
             slug = name[:-3]  # 去 .md
-            # 新路径：concepts/<type>/<slug>（用于生成站内链接）
+            # 扁平结构：concepts/<slug>（type 只在 frontmatter，不进路径）
             concepts.append({
                 'slug': slug,
-                'path': f'concepts/{ctype}/{slug}',  # 相对 content/ 的路径，供链接用
+                'path': f'concepts/{slug}',  # 相对 content/ 的路径，供链接用
                 'filename': name,
                 'type': fm.get('type', '未分类').strip('"'),
                 'title': fm.get('title', slug).strip('"'),
