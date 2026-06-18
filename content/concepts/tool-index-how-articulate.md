@@ -3,7 +3,7 @@ type: "Tool"
 title: "index.how/to/articulate"
 description: "Emil Kowalski 等人整理的设计 / UI/UX 专业术语词典；按 12 大类分节（动画、颜色、版式、交互、可访问性…），每条术语附简洁解释 + 配套 AI skill；让设计师、程序员、AI 都能用同一套词精准讨论视觉。"
 tags: "[design, vocabulary, animation, ui, ux, ai-skills]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
 resource: "https://index.how/to/articulate"
 ---
 
@@ -67,3 +67,8 @@ articulate 把这套词**结构化** + **AI 友好**了。
 - [textmotion.dev](tool-textmotion-dev.md)
 - [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md)
 - [animations vocabulary (animations.dev)](https://animations.dev/)
+
+## 社区验证 / 二次来源
+
+- [@vikingmute 推荐图示](https://pbs.twimg.com/media/HK5iNx6a8AAi-CV.jpg) — 展示 12 大类术语词典的导航截图。
+- [@vikingmute 原推](https://x.com/vikingmute/status/2066697429555245401) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066741994828013856)。

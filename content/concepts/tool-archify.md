@@ -3,7 +3,7 @@ type: "Tool"
 title: "Archify"
 description: "tt-a1i 开的「自然语言 → 架构图」skill：LLM 把描述转成结构化 JSON → Node.js 渲染器用纯几何算法生成 SVG → 注入自包含 HTML；不需要文生图模型，token 友好，可代码化、可主题化、可版本化。"
 tags: "[ai, svg, diagram, skill, architecture, agent]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
 resource: "https://github.com/tt-a1i/archify"
 ---
 
@@ -62,6 +62,11 @@ git clone https://github.com/tt-a1i/archify .claude/skills/archify
 | D2 | 文本 DSL → 多种格式 | 工程师手画 |
 | tldraw / Excalidraw | 手画 | 头脑风暴 |
 | 文生图（Midjourney / DALL·E） | 自然语言 → 像素 | 视觉草图，但文字经常错 |
+
+## 社区验证 / 二次来源
+
+- [@geekbb 跑出的实例](https://pbs.twimg.com/media/HKvFoMsbEAArnat.jpg) — `pi + DeepSeek` 生成的架构图示例（无需文生图模型）。
+- [@geekbb 原推](https://x.com/geekbb/status/2065963576419029438) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066032373024817609)。
 
 ## 相关概念
 

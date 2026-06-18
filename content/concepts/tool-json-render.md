@@ -3,7 +3,7 @@ type: "Tool"
 title: "JSON-Render / HarnessAgent（生成式 UI）"
 description: "为 Claude Code / Codex / Pi 等编码 agent 设计的「在沙盒里渲染真实 UI」方案：代理输出结构化 JSON → 沙盒里的渲染器把它变成图表 / 表单 / 3D / 任意组件；用户看到的是真组件而不是终端文本。"
 tags: "[ai, agent, ui, generative-ui, json-render, ai-sdk]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
 ---
 
 # JSON-Render / HarnessAgent（生成式 UI）
@@ -55,6 +55,12 @@ HarnessAgent 沙盒
 | 渲染器 | Node.js + 几何算法 | 浏览器 / 沙盒 + React 组件 |
 | 交互性 | 无 | 有 |
 | 用途 | 系统拓扑、架构图 | 数据探索、配置向导、报告 |
+
+## 参考实现 / 二次来源
+
+- **`harness-chat`** 是 Vercel 提供的官方参考实现，展示如何把 agent 的 JSON 输出接到 React 渲染器。
+- 仓库：[vercel-labs/json-render](https://github.com/vercel-labs/json-render)。
+- [@ctatedev 原推](https://x.com/ctatedev/status/2066555606492754213) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066654492297453592)。
 
 ## 相关概念
 

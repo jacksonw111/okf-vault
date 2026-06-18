@@ -3,7 +3,7 @@ type: "Tool"
 title: "transitions.dev"
 description: "Jakub Antalik 维护的「精选网页应用过渡效果」集合，目标是「您可以直接复制粘贴到任何项目中使用」；覆盖路由切换、列表进出、模态、共享元素等常见 web 过渡场景。"
 tags: "[web, animation, transitions, design-resources]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
 resource: "https://transitions.dev"
 ---
 
@@ -37,6 +37,11 @@ resource: "https://transitions.dev"
 - 前端 / 全栈工程师做 landing page / SaaS 后台；
 - 设计师转前端 / 跟前端协作时找参考；
 - 做 [OKF](term-okf.md) 静态可视化页面想加点过渡的（[tool-okf-static-html-visualizer](tool-okf-static-html-visualizer.md) 配合 View Transitions API 效果很好）。
+
+## 社区验证 / 二次来源
+
+- [@AdhamDannaway 演示视频 (1692×1278)](https://video.twimg.com/amplify_video/2065333867536678912/vid/avc1/1692x1278/D5_3s6Cge0SDJ9Pa.mp4?tag=27) — 第三方推荐演示。
+- [@AdhamDannaway 原推](https://x.com/AdhamDannaway/status/2065440233009889728) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2065568602154229819)。
 
 ## 相关概念
 

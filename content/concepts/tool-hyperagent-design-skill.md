@@ -3,7 +3,8 @@ type: "Tool"
 title: "Hyperagent 设计网格 Skill"
 description: "Hyperagent 团队的 Claude Code skill：把 Müller-Brockmann《平面设计中的网格系统》（162 页）喂给代理，强制代理在代码中应用真网格、视觉层次、字体与排版规则——解决「AI 设计看起来很通用」的根问题。"
 tags: "[ai, agent, skills, design, grid, typography, claude-code]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
+resource: "https://github.com/alexmcdonnell-airtable/hyperagent-public-skills"
 ---
 
 # Hyperagent 设计网格 Skill
@@ -56,12 +57,16 @@ shadcn/improve → 整体审计
 ## 使用方式
 
 ```bash
-git clone <hyperagent-design-skill> .claude/skills/hyperagent-design
+git clone https://github.com/alexmcdonnell-airtable/hyperagent-public-skills .claude/skills/hyperagent-design
 claude
 # /hyperagent-design
 # 描述需求：「做一个 SaaS landing page」
 # 代理会先输出设计令牌，再出代码
 ```
+
+## 社区验证 / 二次来源
+
+- [@nicos_ai 推荐](https://x.com/nicos_ai/status/2065512191520817427) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2065954574800982496)。
 
 ## 相关概念
 

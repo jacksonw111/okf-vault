@@ -3,7 +3,7 @@ type: "Tool"
 title: "WechatOnCloud（云微）"
 description: "Gloridust 开源的「云端微信 / 多账号管理」项目：通过 chromium 容器化运行多个独立 web 微信、X、Telegram、Instagram、小红书等账号；利用社媒 Web 通知打通 PWA 推送，实现跨端一致体验。"
 tags: "[pwa, cloud, multi-account, chromium, wechat, social-media]"
-timestamp: "2026-06-17T00:00:00Z"
+timestamp: "2026-06-18T00:00:00Z"
 resource: "https://github.com/Gloridust/WechatOnCloud"
 ---
 
@@ -34,6 +34,11 @@ resource: "https://github.com/Gloridust/WechatOnCloud"
 - **违反部分平台 ToS** —— 大部分社媒明确禁止多账号 + 自动化；账号封禁风险自担。
 - **浏览器指纹** —— chromium 容器化后指纹仍可能被平台识别为同一设备，建议配合代理池。
 - **资源占用** —— 每个账号一个 chromium 容器，10 个账号 ≈ 10 × 300MB 内存。
+
+## 社区验证 / 二次来源
+
+- [@gloridust1024 功能截图](https://pbs.twimg.com/media/HKxy6MAaEAA825V.jpg) — 展示新增的「chromium + 多社媒账号」运行面板。
+- [@gloridust1024 原推](https://x.com/gloridust1024/status/2066152685179662498) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066226631874863372)。
 
 ## 相关概念
 
