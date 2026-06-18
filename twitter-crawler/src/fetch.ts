@@ -38,19 +38,38 @@ export async function fetchTweetsForAccount(args: {
 }): Promise<FetchResult> {
   const { client, screenName, maxPerRun, isSaved } = args;
 
-  const userResp = await client.getUserApi().getUserByScreenName({ screenName });
+  let userResp;
+  try {
+    userResp = await client.getUserApi().getUserByScreenName({ screenName });
+  } catch (err: any) {
+    throw new Error(`getUserByScreenName(@${screenName}) failed: ${err?.message || err}`);
+  }
   const userId = userResp.data.user?.restId;
-  if (!userId) throw new Error(`account @${screenName} not found`);
+  if (!userId) throw new Error(`account @${screenName} not found (no restId)`);
 
   const out: RawTweet[] = [];
   let cursor: string | undefined;
   let stoppedAtKnown = false;
 
   for (;;) {
-    const resp = await client.getTweetApi().getUserTweets({ userId, count: 40, cursor });
+    let resp;
+    try {
+      resp = await client.getTweetApi().getUserTweets({ userId, count: 40, cursor });
+    } catch (err: any) {
+      throw new Error(`getUserTweets(@${screenName}) failed: ${err?.message || err}`);
+    }
     for (const item of resp.data.data ?? []) {
       if (item?.promotedMetadata) continue; // skip ads
-      const rt = toRawTweet(item);
+      let rt;
+      try {
+        rt = toRawTweet(item);
+      } catch (err: any) {
+        // 单条推文解析失败不拖垮整个账号：跳过并记日志
+        console.error(
+          `::warning::@${screenName} skip malformed tweet item: ${err?.message || err}`
+        );
+        continue;
+      }
       if (!rt) continue;
 
       if (isSaved(rt.id)) {

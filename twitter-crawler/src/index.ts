@@ -48,7 +48,7 @@ async function main() {
         isSaved,
       });
     } catch (err: any) {
-      // 不打印 err 里可能夹带的请求细节；只给状态
+      // 不打印 err 里可能夹带的请求细节；只给状态 + 堆栈（堆栈只有文件/行号，无 token）
       const msg = String(err?.message || err);
       if (/401|403|unauthor|ct0|invalid|expired/i.test(msg)) {
         console.error(`::error::@${screenName} 鉴权失败，X_AUTH_TOKEN 可能失效，请更换。`);
@@ -57,6 +57,7 @@ async function main() {
       } else {
         console.error(`::error::@${screenName} 抓取失败：${msg}`);
       }
+      if (err?.stack) console.error(err.stack);
       continue;
     }
 
