@@ -56,7 +56,12 @@ export async function fetchTweetsForAccount(args: {
     try {
       resp = await client.getTweetApi().getUserTweets({ userId, count: 40, cursor });
     } catch (err: any) {
-      throw new Error(`getUserTweets(@${screenName}) failed: ${err?.message || err}`);
+      // 打印库内部的原始堆栈（只有文件/行号，无 token），用于定位字段漂移
+      console.error(`[debug] getUserTweets threw for @${screenName}; raw stack:`);
+      console.error(err?.stack || String(err));
+      throw new Error(`getUserTweets(@${screenName}) failed: ${err?.message || err}`, {
+        cause: err,
+      });
     }
     for (const item of resp.data.data ?? []) {
       if (item?.promotedMetadata) continue; // skip ads
