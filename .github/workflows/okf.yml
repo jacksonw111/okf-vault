@@ -135,6 +135,9 @@ jobs:
 
       - run: npm ci
 
+      - name: OKF 一致性校验（每个概念有 type + 内部链接不断）
+        run: python3 scripts/okf_validate.py
+
       - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
         run: python3 scripts/build_overview.py
 
