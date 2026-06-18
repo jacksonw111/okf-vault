@@ -66,9 +66,9 @@ timestamp: 2026-06-16T12:30:00Z
 历史教训：过去为「不错过任何关联」而鼓励多链，导致大量**无意义关联**（如 VLESS 代理工具、3x-ui、WechatOnCloud 等跟 OKF 毫无关系却链了 `term-okf`），污染了知识图谱。**必须遵守：**
 
 1. **每个 `## 相关概念` 链接，必须能用一句话说清「为什么关联」**，并把这句话写成链接后的备注。例：
-   - ✅ `[Mira](concepts/tool/tool-mira.md) — 产物（memo/log/ledger）形态上就是 OKF 概念文件`
-   - ✅ `[Obsidian](concepts/tool/tool-obsidian.md) — OKF 的天然编辑器`
-   - ❌ `[OKF 是什么](concepts/term/term-okf.md)`（光链不写理由）
+   - ✅ `[Mira](concepts/tool-mira.md) — 产物（memo/log/ledger）形态上就是 OKF 概念文件`
+   - ✅ `[Obsidian](concepts/tool-obsidian.md) — OKF 的天然编辑器`
+   - ❌ `[OKF 是什么](concepts/term-okf.md)`（光链不写理由）
 2. **说不清理由，就别链。宁可图净，不可乱链。** 图谱的价值在于「每条边都有意义」，不是「边越多越好」。
 3. **特别禁止「因为 OKF 是知识库根概念就链它」**。只有当该概念**真的使用 / 涉及 / 借鉴 OKF 格式**时，才能链 `term-okf`，并写明具体关系。
 4. **同一份资料拆出的概念之间**，仅当它们在资料里**确实相互参照**时才互链，不要默认全互链。
@@ -91,7 +91,7 @@ timestamp: 2026-06-16T12:30:00Z
 产出：
 
 - 新建 `concepts/tool/tool-obsidian.md`（`type: Tool`，含 frontmatter、为何适合 OKF 的表格、链接到 term-okf.md）
-- 在 `concepts/index.md` 追加一行 `[Obsidian](concepts/tool/tool-obsidian.md) — Tool`
+- 在 `concepts/index.md` 追加一行 `[Obsidian](concepts/tool-obsidian.md) — Tool`
 - `log.md` 追加：`2026-06-16 | 新增 tool-obsidian（来源：inbox 官网介绍）`
 - 把资料移到 `inbox/_done/`
 
@@ -101,7 +101,7 @@ timestamp: 2026-06-16T12:30:00Z
 
 ## 相关概念
 
-- [OKF 是什么](concepts/term/term-okf.md)
-- [在 Obsidian 里开始用 OKF](concepts/playbook/playbook-okf-obsidian-start.md)
+- [OKF 是什么](concepts/term-okf.md)
+- [在 Obsidian 里开始用 OKF](concepts/playbook-okf-obsidian-start.md)
 - [输出模板目录](./templates/_README.md)
 - [结果仪表盘](./overview.md)
