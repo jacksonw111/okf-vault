@@ -82,7 +82,9 @@ timestamp: 2026-06-17T00:00:00Z
 - [index.how/to/articulate](concepts/tool-index-how-articulate.md)
 - [animations.dev/vocabulary](concepts/tool-animations-dev-vocabulary.md)
 - [Trees（@rammcodes）](concepts/tool-trees-rammcodes.md)
+- [Vercel Design System](concepts/tool-vercel-design-system.md)
 - [前端 / 创客 资源合集](concepts/note-front-end-resources.md)
+- [DESIGN.md 最佳实践](concepts/note-design-md-best-practices.md)
 
 ## AI / Agent 生态
 
@@ -99,6 +101,7 @@ timestamp: 2026-06-17T00:00:00Z
 ## 金融 / 数据
 
 - [a-stock-data](concepts/tool-a-stock-data.md)
+- [ngrok / webernetes](concepts/tool-ngrok-webernetes.md)
 
 ## 操作手册
 

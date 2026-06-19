@@ -52,7 +52,9 @@ timestamp: 2026-06-17T00:00:00Z
 - [index.how/to/articulate](tool-index-how-articulate.md) — `Tool` — 设计 / UI 术语词典
 - [animations.dev/vocabulary](tool-animations-dev-vocabulary.md) — `Tool` — Emil Kowalski 动画动作词汇表
 - [Trees（@rammcodes）](tool-trees-rammcodes.md) — `Tool` — IDE 风格文件树组件
+- [Vercel Design System](tool-vercel-design-system.md) — `Tool` — vercel.com/design.md 公开设计系统页
 - [前端 / 创客 资源合集](note-front-end-resources.md) — `Note`
+- [DESIGN.md 最佳实践](note-design-md-best-practices.md) — `Note` — 把设计系统装进 .md 喂给 AI
 
 ## AI / Agent 生态
 
@@ -69,6 +71,7 @@ timestamp: 2026-06-17T00:00:00Z
 ## 金融 / 数据
 
 - [a-stock-data](tool-a-stock-data.md) — `Tool` — A 股全栈数据 Skill（13 源 / 28 端点）
+- [ngrok / webernetes](tool-ngrok-webernetes.md) — `Tool` — K8s + ngrok 公网隧道集成
 
 ## Playbooks（操作手册）
 
