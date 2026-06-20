@@ -76,6 +76,7 @@ timestamp: 2026-06-17T00:00:00Z
 - [Hyperagent 设计网格 Skill](concepts/tool-hyperagent-design-skill.md)
 - [BuilderIO / agent-native](concepts/tool-builder-io-agent-native.md)
 - [Niamos](concepts/tool-niamos.md)
+- [loops.elorm.xyz](concepts/tool-loops-elorm-xyz.md)
 
 ## 前端 / 设计资源
 
@@ -99,6 +100,10 @@ timestamp: 2026-06-17T00:00:00Z
 ## 自托管 / 邮件
 
 - [Cloud Mail](concepts/tool-cloud-mail.md)
+
+## 阅读 / 资源
+
+- [10万本书 GitHub 仓库](concepts/tool-ebook-library-100k.md)
 
 ## 金融 / 数据
 

@@ -46,6 +46,7 @@ timestamp: 2026-06-17T00:00:00Z
 - [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md) — `Tool` — Müller-Brockmann 网格
 - [BuilderIO / agent-native](tool-builder-io-agent-native.md) — `Tool` — agent-ready 前端仓库模板
 - [Niamos](tool-niamos.md) — `Tool` — Obsidian 第二大脑模板（PARA + Claude Code）
+- [loops.elorm.xyz](tool-loops-elorm-xyz.md) — `Tool` — 几十位大神的 loop engineering 思路集合
 
 ## 前端 / 设计资源
 
@@ -69,6 +70,10 @@ timestamp: 2026-06-17T00:00:00Z
 ## 自托管 / 邮件
 
 - [Cloud Mail](tool-cloud-mail.md) — `Tool` — 单域名「无限收发」自托管邮件
+
+## 阅读 / 资源
+
+- [10万本书 GitHub 仓库（GYLQ520 推荐）](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
 
 ## 金融 / 数据
 
