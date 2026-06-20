@@ -74,6 +74,8 @@ timestamp: 2026-06-17T00:00:00Z
 - [Archify](concepts/tool-archify.md)
 - [JSON-Render / 生成式 UI](concepts/tool-json-render.md)
 - [Hyperagent 设计网格 Skill](concepts/tool-hyperagent-design-skill.md)
+- [BuilderIO / agent-native](concepts/tool-builder-io-agent-native.md)
+- [Niamos](concepts/tool-niamos.md)
 
 ## 前端 / 设计资源
 

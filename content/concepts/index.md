@@ -44,6 +44,8 @@ timestamp: 2026-06-17T00:00:00Z
 - [Archify](tool-archify.md) — `Tool` — LLM→JSON→SVG 架构图
 - [JSON-Render / 生成式 UI](tool-json-render.md) — `Tool` — 沙盒里渲染真 UI
 - [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md) — `Tool` — Müller-Brockmann 网格
+- [BuilderIO / agent-native](tool-builder-io-agent-native.md) — `Tool` — agent-ready 前端仓库模板
+- [Niamos](tool-niamos.md) — `Tool` — Obsidian 第二大脑模板（PARA + Claude Code）
 
 ## 前端 / 设计资源
 
