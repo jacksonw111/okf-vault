@@ -1,0 +1,61 @@
+name: Publish Site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: 构建并发布 Quartz 站点到 Pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: OKF 一致性校验（每个概念有 type + 内部链接不断）
+        run: python3 scripts/okf_validate.py
+
+      - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
+        run: python3 scripts/build_overview.py
+
+      - name: 生成新闻日期页（构建前扫描 news/twitter/）
+        run: python3 scripts/build_news.py
+
+      - name: 生成日报（构建前扫描 concepts/ 和 news/）
+        run: python3 scripts/build_daily.py
+
+      - name: 构建 Quartz
+        run: npx quartz build
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传站点产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
