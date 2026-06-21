@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate public news timeline pages grouped by date."""
 import glob
+import html
 import os
 import re
 import sys
@@ -22,6 +23,10 @@ def esc(text):
     return (text or "").replace("|", "\\|").replace("\n", " ")
 
 
+def html_text(text):
+    return html.escape(text or "", quote=False)
+
+
 def md_link(base_dir, target):
     rel = os.path.relpath(target, base_dir).replace(os.sep, "/")
     if not rel.startswith("."):
@@ -37,7 +42,7 @@ def frontmatter_date(fm, *keys):
     return ""
 
 
-def read_body_excerpt(path):
+def read_body(path):
     try:
         with open(path, encoding="utf-8") as f:
             text = f.read()
@@ -45,8 +50,67 @@ def read_body_excerpt(path):
         return ""
     text = okf_lib.FM_RE.sub("", text).strip()
     text = re.sub(r"## 来源[\s\S]*$", "", text).strip()
-    text = re.sub(r"\s+", " ", text)
-    return text[:220] + ("…" if len(text) > 220 else "")
+    return text
+
+
+def render_inline_links(text):
+    escaped = html_text(text)
+    return re.sub(
+        r"https?://[^\s<>()]+?(?=&gt;|\s|$)",
+        lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>',
+        escaped,
+    )
+
+
+def render_body_html(body):
+    out = ['<div class="news-body">']
+    in_list = False
+    for raw_line in body.splitlines():
+        line = raw_line.strip()
+        if not line:
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            continue
+        if line == ">":
+            continue
+
+        image = re.match(r"^!\[[^\]]*\]\((https?://[^)]+)\)$", line)
+        if image:
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            url = html.escape(image.group(1), quote=True)
+            out.append(
+                f'<a class="news-media news-image" href="{url}" target="_blank" rel="noopener"><img src="{url}" alt="新闻图片" loading="lazy"></a>'
+            )
+            continue
+
+        video = re.match(r"^-?\s*<((?:https?://)[^>]+)>$", line)
+        if video:
+            if not in_list:
+                out.append('<ul class="news-media-list">')
+                in_list = True
+            url = html.escape(video.group(1), quote=True)
+            out.append(f'<li><a href="{url}" target="_blank" rel="noopener">查看视频</a></li>')
+            continue
+
+        if line.startswith("> "):
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            out.append(f"<blockquote>{render_inline_links(line[2:])}</blockquote>")
+            continue
+
+        if in_list:
+            out.append("</ul>")
+            in_list = False
+        out.append(f"<p>{render_inline_links(line)}</p>")
+
+    if in_list:
+        out.append("</ul>")
+    out.append("</div>")
+    return "\n".join(out)
 
 
 def author_from_path(news_dir, path):
@@ -77,7 +141,7 @@ def collect_news(content_root):
                 "author": author_from_path(news_dir, path),
                 "title": strip_quotes(fm.get("title")) or os.path.basename(path)[:-3],
                 "source": source,
-                "excerpt": read_body_excerpt(path),
+                "body_html": render_body_html(read_body(path)),
             }
         )
     return items
@@ -112,7 +176,12 @@ def render_date_page(content_root, day, items):
         ".news-time{font-family:var(--codeFont);color:var(--secondary);font-weight:700}",
         ".news-card h3{margin:.05rem 0 .25rem;font-size:1.05rem}",
         ".news-meta{color:var(--gray);font-size:.9rem;margin-bottom:.45rem}",
-        ".news-card p{margin:.35rem 0}",
+        ".news-body{display:grid;gap:.55rem}",
+        ".news-body p{margin:0;line-height:1.65}",
+        ".news-body blockquote{margin:.15rem 0;padding:.1rem 0 .1rem .8rem;border-left:3px solid var(--lightgray);color:var(--darkgray)}",
+        ".news-media{display:block;margin:.35rem 0}",
+        ".news-image img{max-width:min(100%,42rem);border:1px solid var(--lightgray);border-radius:8px}",
+        ".news-media-list{margin:.25rem 0 .1rem;padding-left:1.2rem}",
         "@media(max-width:700px){.news-item{grid-template-columns:1fr;gap:.25rem}.news-hero{display:block}.news-hero em{display:block;margin-top:.25rem}}",
         "</style>",
         "",
@@ -134,7 +203,7 @@ def render_date_page(content_root, day, items):
                 '<div class="news-card">',
                 f"<h3>{esc(item['title'])}</h3>",
                 f'<div class="news-meta">@{esc(item["author"])}' + (f" · {source_link}" if source_link else "") + "</div>",
-                f'<p>{esc(item["excerpt"])}</p>',
+                item["body_html"],
                 "</div>",
                 "</div>",
             ]

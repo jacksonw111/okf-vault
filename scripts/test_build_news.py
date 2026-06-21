@@ -85,6 +85,62 @@ yesterday
             index = f.read()
         self.assertIn("[2026-06-20](./2026-06-20.md)", index)
 
+    def test_renders_full_body_and_clickable_media(self):
+        long_body = "这是完整正文。" + "继续显示。" * 80
+        image = "https://pbs.twimg.com/media/example.jpg"
+        video = "https://video.twimg.com/ext_tw_video/example.mp4"
+        write(
+            os.path.join(self.content, "news", "twitter", "fxtrader", "2026-06-20-3.md"),
+            f"""---
+title: "Full media note"
+source: "https://x.com/fxtrader/status/3"
+published: 2026-06-20
+published_at: "2026-06-20T09:00:00.000Z"
+---
+{long_body}
+
+![]({image})
+
+视频：
+- <{video}>
+""",
+        )
+
+        build_news.build_news(self.content)
+
+        with open(os.path.join(self.content, "news", "2026-06-20.md"), encoding="utf-8") as f:
+            text = f.read()
+
+        self.assertIn(long_body, text)
+        self.assertNotIn(long_body[:220] + "…", text)
+        self.assertIn(f'<a class="news-media news-image" href="{image}"', text)
+        self.assertIn(f'<img src="{image}"', text)
+        self.assertIn(f'<a href="{video}" target="_blank" rel="noopener">查看视频</a>', text)
+
+    def test_quote_source_link_does_not_include_closing_marker(self):
+        source = "https://x.com/fxtrader/status/quoted"
+        write(
+            os.path.join(self.content, "news", "twitter", "fxtrader", "2026-06-20-4.md"),
+            f"""---
+title: "Quote note"
+published: 2026-06-20
+published_at: "2026-06-20T10:00:00.000Z"
+---
+> 原帖：<{source}>
+>
+> quoted body
+""",
+        )
+
+        build_news.build_news(self.content)
+
+        with open(os.path.join(self.content, "news", "2026-06-20.md"), encoding="utf-8") as f:
+            text = f.read()
+
+        self.assertIn(f'<a href="{source}" target="_blank" rel="noopener">{source}</a>', text)
+        self.assertNotIn(f'href="{source}&gt;"', text)
+        self.assertNotIn("<p>&gt;</p>", text)
+
 
 if __name__ == "__main__":
     unittest.main()
