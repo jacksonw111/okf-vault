@@ -3,7 +3,7 @@ type: Index
 title: "我的 OKF 知识库"
 description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
 tags: "[okf, root]"
-timestamp: 2026-06-17T00:00:00Z
+timestamp: "2026-06-21T16:20:00Z"
 ---
 
 # 我的 OKF 知识库
@@ -114,17 +114,34 @@ timestamp: 2026-06-17T00:00:00Z
 - [GPT Image Skills](concepts/tool-gpt-image-skills.md)
 - [AI 视频广告提示词库](concepts/tool-ai-video-ad-prompts.md)
 - [AI Humanizer Handbook](concepts/tool-ai-humanizer-handbook.md)
+- [pi-task](concepts/tool-pi-task-delegation.md) — Pi Agent 子任务委派扩展（前台 / 后台 + TUI 进度条）
+- [Proxide](concepts/tool-proxide.md) — 任意 Agent 经 MCP / 浏览器接 ChatGPT Pro 网页强模型
+- [Claude Code 微醺创意 Skill](concepts/tool-claude-code-tipsy-skill.md) — 模拟「微醺」状态做创意头脑风暴
+- [Yozu Web](concepts/tool-yozu-web.md) — 企业差旅 AI 的前端 MVP
 
 ### 编程语言 / 工具链
 
 - [Node.js All-in-One](concepts/tool-node-all-in-one.md)
 - [PHP 8.5 零依赖微型框架](concepts/tool-php85-micro-framework.md)
+- [LaTeX→MathML 编译器](concepts/tool-latex-mathml-compiler.md) — 7.69KB 构建期编译器，比 KaTeX 快 3 倍
+- [Haskell 反应式交互式笔记本](concepts/tool-haskell-reactive-notebook.md) — Markdown 嵌入 Haskell 代码块
+- [Nefoin](concepts/tool-nefoin-nerdfont.md) — 一键安装 Nerd Font 的轻量 CLI
+- [PP-OCRv6 Studio](concepts/tool-ppocrv6-studio.md) — 飞桨 PP-OCRv6 三档模型本地 OCR
+- [Rust + QUIC 高性能 IM 后端](concepts/tool-rust-quic-im.md) — Actix-web + QUIC + P2P NAT 打洞
+
+### 后端 / 部署 / 自托管
+
+- [Single Server](concepts/tool-single-server.md) — 一台 Linux 服务器串 Cloudflare + Tailscale + Kamal 一键部署
+- [OPG](concepts/tool-opg-backend.md) — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付）
+- [NasberryPi](concepts/tool-nasberry-pi.md) — 树莓派轻量 NAS CLI，一条命令配 Samba
 
 ### 桌面 / 系统工具
 
 - [OmniWM（macOS 水平滚动平铺 WM）](concepts/tool-omniwm-macos.md)
 - [Forel（macOS 文件夹自动化）](concepts/tool-forel-macos.md)
 - [BiliMusic（B 站音乐播放器）](concepts/tool-bili-music-electron.md)
+- [LX Music Desktop](concepts/tool-lx-music-electron.md) — Electron 跨平台桌面音乐播放器，兼容 LX 音源生态
+- [桌面 Markdown 浏览编辑器](concepts/tool-markdown-desktop-browser.md) — 文件树 + 渲染预览 + Mermaid + 大纲
 
 ### 物联网 / 智能硬件
 

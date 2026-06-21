@@ -3,7 +3,7 @@ type: Index
 title: "概念目录"
 description: "本 OKF bundle 内所有概念文件的导航页。"
 tags: "[okf, index]"
-timestamp: 2026-06-17T00:00:00Z
+timestamp: "2026-06-21T16:15:00Z"
 ---
 
 # 概念目录
@@ -82,17 +82,34 @@ timestamp: 2026-06-17T00:00:00Z
 - [GPT Image Skills](tool-gpt-image-skills.md) — `Tool` — 32 个 GPT Image 2 配图 Skill 合集
 - [AI 视频广告提示词库](tool-ai-video-ad-prompts.md) — `Tool` — 52 条 Seedance/Veo/Kling/Runway 验证过的视频广告 prompt
 - [AI Humanizer Handbook](tool-ai-humanizer-handbook.md) — `Tool` — AI 文本人性化实操指南（手动润色 + 工具对比 + Skill）
+- [pi-task](tool-pi-task-delegation.md) — `Tool` — Pi Agent 子任务委派扩展（前台 / 后台 + TUI 进度条）
+- [Proxide](tool-proxide.md) — `Tool` — 任意 Agent 经 MCP / 浏览器接 ChatGPT Pro 网页强模型
+- [Claude Code 微醺创意 Skill](tool-claude-code-tipsy-skill.md) — `Tool` — 模拟「微醺」状态做创意头脑风暴的 Skill
+- [Yozu Web](tool-yozu-web.md) — `Tool` — 企业差旅 AI 的前端 MVP（lorettawillow-lele/yozu-web）
 
 ### 编程语言 / 工具链
 
 - [Node.js All-in-One](tool-node-all-in-one.md) — `Tool` — TS 运行器 + 包管理器 + 版本管理器合一
 - [PHP 8.5 零依赖微型框架](tool-php85-micro-framework.md) — `Tool` — 单条 PCRE 路由，850 行核心代码
+- [LaTeX→MathML 编译器](tool-latex-mathml-compiler.md) — `Tool` — 7.69KB 构建期编译器，比 KaTeX 快 3 倍
+- [Haskell 反应式交互式笔记本](tool-haskell-reactive-notebook.md) — `Tool` — Markdown 嵌入 Haskell 代码块，GHC 解析器分析依赖
+- [Nefoin](tool-nefoin-nerdfont.md) — `Tool` — 一键安装 Nerd Font 的轻量 CLI
+- [PP-OCRv6 Studio](tool-ppocrv6-studio.md) — `Tool` — 飞桨 PP-OCRv6 三档模型本地 OCR，Apple Silicon CoreML 加速
+- [Rust + QUIC 高性能 IM 后端](tool-rust-quic-im.md) — `Tool` — Actix-web + QUIC + P2P NAT 打洞 + 中转降级
+
+### 后端 / 部署 / 自托管
+
+- [Single Server](tool-single-server.md) — `Tool` — 一台 Linux 服务器串 Cloudflare + Tailscale + Docker + Kamal 一键部署
+- [OPG](tool-opg-backend.md) — `Tool` — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付 / 计费）
+- [NasberryPi](tool-nasberry-pi.md) — `Tool` — 树莓派轻量 NAS CLI，一条命令配 Samba
 
 ### 桌面 / 系统工具
 
 - [OmniWM（macOS 水平滚动平铺 WM）](tool-omniwm-macos.md) — `Tool` — Niri 风格的 macOS 滚动列平铺
 - [Forel（macOS 文件夹自动化）](tool-forel-macos.md) — `Tool` — Hazel 开源平替，FSEvents 实时监控
 - [BiliMusic（B 站音乐播放器）](tool-bili-music-electron.md) — `Tool` — Electron 把 B 站音乐包装成 Apple Music 风格
+- [LX Music Desktop](tool-lx-music-electron.md) — `Tool` — Electron 跨平台桌面音乐播放器，兼容 LX 音源生态
+- [桌面 Markdown 浏览编辑器](tool-markdown-desktop-browser.md) — `Tool` — 文件树 + 渲染预览 + Mermaid + 大纲
 
 ### 物联网 / 智能硬件
 
