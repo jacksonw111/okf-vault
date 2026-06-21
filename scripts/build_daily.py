@@ -69,9 +69,7 @@ def collect_concepts(content_root, report_date):
 def collect_news(content_root, report_date):
     news_dir = os.path.join(content_root, "news")
     items = []
-    for path in sorted(glob.glob(os.path.join(news_dir, "**", "*.md"), recursive=True)):
-        if os.path.basename(path) == "index.md":
-            continue
+    for path in sorted(glob.glob(os.path.join(news_dir, "twitter", "*", "*.md"))):
         fm = okf_lib.read_frontmatter(path) or {}
         published = frontmatter_date(fm, "published", "created", "timestamp")
         if not published and os.path.basename(path).startswith(report_date):
@@ -83,6 +81,7 @@ def collect_news(content_root, report_date):
         items.append(
             {
                 "path": path,
+                "date": published,
                 "title": strip_quotes(fm.get("title")) or os.path.basename(path)[:-3],
                 "source": source,
             }
@@ -185,7 +184,7 @@ def render_report(content_root, report_date, concepts, news):
         out.append("| 新闻 | 来源 |")
         out.append("|---|---|")
         for item in news:
-            link = md_link(base_dir, item["path"])
+            link = md_link(base_dir, os.path.join(content_root, "news", f'{item["date"]}.md'))
             out.append(f'| [{esc(item["title"])}]({link}) | @{esc(item["source"])} |')
     else:
         out.append("今天没有新的新闻条目。")

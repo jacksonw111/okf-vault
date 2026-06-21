@@ -25,6 +25,7 @@ test("render: original 基本结构 + frontmatter", () => {
   assert.match(md, /tweet_type: "original"/)
   assert.match(md, /tweet_id: "100"/)
   assert.match(md, /published: 2024-06-01/)
+  assert.match(md, /published_at: "2024-06-01T08:00:00\.000Z"/)
   assert.match(md, /created: "2024-06-17"/)
   assert.match(md, /\[\[@Wen_Zw\]\]/)
   assert.match(md, /\- "clippings"/)

@@ -140,6 +140,9 @@ jobs:
       - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
         run: python3 scripts/build_overview.py
 
+      - name: 生成新闻日期页（构建前扫描 news/twitter/）
+        run: python3 scripts/build_news.py
+
       - name: 生成日报（构建前扫描 concepts/ 和 news/）
         run: python3 scripts/build_daily.py
 

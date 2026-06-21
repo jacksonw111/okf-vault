@@ -1,19 +1,19 @@
 ---
 type: "Index"
 title: "新闻"
-description: "公开新闻流，来自单独配置的 X/Twitter 新闻源；只用于网站展示，不进入 inbox 的 AI 整理流程。"
+description: "按日期聚合的公开新闻时间线；来自单独配置的 X/Twitter 新闻源，不进入 inbox 的 AI 整理流程。"
 tags: [news, twitter]
 ---
 
 # 新闻
 
-这里收集公开新闻流。内容由推特爬虫写入 `content/news/twitter/`，不会进入 `content/inbox/`，因此不会被 AI 整理成概念。
+公开新闻流按日期分页。同一天不同来源的内容会合并到同一个日期页面，并按发布时间从早到晚排列。
+
+## 日期
+
+暂无新闻。
 
 ## 来源
 
 - @fxtrader
 - @livermoerR
-
-## 浏览
-
-- [Twitter 新闻](./twitter)

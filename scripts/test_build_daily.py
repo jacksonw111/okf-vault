@@ -61,6 +61,16 @@ tags:
 news body
 """,
         )
+        write(
+            os.path.join(self.content, "news", "2026-06-21.md"),
+            """---
+type: "Index"
+title: "Generated news page"
+timestamp: "2026-06-21T12:00:00Z"
+---
+generated page
+""",
+        )
 
         report_path = build_daily.build_daily(self.content, "2026-06-21")
         with open(report_path, encoding="utf-8") as f:
@@ -70,7 +80,8 @@ news body
         self.assertIn("[Alpha](../concepts/tool-alpha.md)", text)
         self.assertNotIn("Old", text)
         self.assertIn("新闻 1 条", text)
-        self.assertIn("[Market note](../news/twitter/fxtrader/2026-06-21-1.md)", text)
+        self.assertIn("[Market note](../news/2026-06-21.md)", text)
+        self.assertNotIn("Generated news page", text)
         self.assertIn('<div class="daily-bars"', text)
 
         with open(os.path.join(self.content, "daily", "index.md"), encoding="utf-8") as f:

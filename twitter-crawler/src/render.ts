@@ -18,6 +18,12 @@ function descriptionFor(rt: RawTweet): string {
   return [...(rt.text ?? "")].slice(0, 280).join("")
 }
 
+function isoDateTime(createdAt: string): string {
+  const d = new Date(createdAt)
+  if (isNaN(d.getTime())) return ""
+  return d.toISOString()
+}
+
 function mediaBlock(media: MediaInfo): string {
   const lines: string[] = []
   for (const img of media.images) lines.push(`![](${img})`)
@@ -114,6 +120,7 @@ export function renderMarkdown(
     `tweet_type: ${yamlQuote(type)}`,
     `tweet_id: ${yamlQuote(rt.id)}`,
     `published: ${formatDate(rt.createdAt)}`,
+    `published_at: ${yamlQuote(isoDateTime(rt.createdAt))}`,
     `created: ${yamlQuote(createdDate)}`,
     `description: ${yamlQuote(descriptionFor(rt))}`,
     "tags:",
