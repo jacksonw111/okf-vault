@@ -52,6 +52,10 @@ resource: "https://github.com/rammcodes/trees"
 
 - [Cabinet](tool-cabinet.md) — Cabinet 是 Obsidian + AI 代理；Trees 是 web 端文件树组件，两者都涉及「文件作为一等公民」的 UI，但层级不同（Cabinet 是应用，Trees 是组件）。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/rammcodes/status/2062098158688071983)
+
 ## 相关概念
 
 - [Cabinet](tool-cabinet.md) — 同为「文件作为一等公民」UI，Cabinet 是应用层、Trees 是组件层

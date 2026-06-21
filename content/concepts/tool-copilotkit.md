@@ -56,6 +56,10 @@ resource: "https://github.com/CopilotKit/CopilotKit"
 - [Archify](tool-archify.md) — 同样 LLM 输出结构化 JSON → 渲染器消费的范式（架构图方向）。
 - [Claude Code](tool-claude-code.md) — 终端 agent；CopilotKit 让「agent 渲染 UI」这件事在 web 前端落了地。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/IndieDevHailey/status/2063450486762811628)
+
 ## 相关概念
 
 - [JSON-Render / 生成式 UI](tool-json-render.md) — 同范式，sandbox 偏实验；CopilotKit 偏生产 React 集成

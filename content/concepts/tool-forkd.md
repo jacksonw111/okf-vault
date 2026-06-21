@@ -51,6 +51,10 @@ AI agent 要做**沙箱隔离**已经基本是共识（参考 [note-cloud-agent-
 
 - [云端 Agent 基础设施的设计教训（CREAO）](note-cloud-agent-infrastructure.md) — CREAO 文里反复提「冻结 snapshot + 派生」；forkd 是这条路在 microVM 层的极致实现。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/vintcessun/status/2062755543811588448)
+
 ## 相关概念
 
 - [云端 Agent 基础设施的设计教训](note-cloud-agent-infrastructure.md) — 反复提「冻结 snapshot + 派生」，forkd 是这条路在 microVM 层的极致实现

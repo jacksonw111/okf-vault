@@ -48,7 +48,12 @@ resource: "https://runcabinet.com"
 - 项目公开时还在早期，心跳代理的可观测性 / 资源占用 / 权限模型需要观察；
 - 内联 Web App 块需要约定格式——是否会成为新「DSL」或借力 Mermaid / HTML iframe，决定生态走向。
 
-- [演示视频 演示视频 (2008×1376)](https://video.twimg.com/amplify_video/2066591654786613248/vid/avc1/2008x1376/1EYZWd6qCCyFkyzO.mp4?tag=28) — 「Cabinet: Obsidian+AI Agents」实机演示，展示把 CSV/PDF 拖进笔记、内联 Web App 跑起来的过程。
+- [演示视频 (2008×1376)](https://video.twimg.com/amplify_video/2066591654786613248/vid/avc1/2008x1376/1EYZWd6qCCyFkyzO.mp4?tag=28) — 「Cabinet: Obsidian+AI Agents」实机演示，展示把 CSV/PDF 拖进笔记、内联 Web App 跑起来的过程。
+
+## 参考链接
+
+- [原始链接 1](https://x.com/HilaShmuel/status/2066591759816167616)
+- [原始链接 2](https://x.com/Wen_Zw/status/2066866770447884610)
 
 ## 相关概念
 

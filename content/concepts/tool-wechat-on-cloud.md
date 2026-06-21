@@ -37,6 +37,11 @@ resource: "https://github.com/Gloridust/WechatOnCloud"
 
 - [示例图 功能截图](https://pbs.twimg.com/media/HKxy6MAaEAA825V.jpg) — 展示新增的「chromium + 多社媒账号」运行面板。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/gloridust1024/status/2066152685179662498)
+- [原始链接 2](https://x.com/Wen_Zw/status/2066226631874863372)
+
 ## 相关概念
 
 - [Cabinet](tool-cabinet.md) — 同样强调「本地 / 云端常驻 + 多源聚合」

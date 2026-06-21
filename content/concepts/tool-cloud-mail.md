@@ -49,6 +49,10 @@ resource: "https://github.com/maillab/cloud-mail"
 - 注册码 / 邀请制对开放注册有约束，记得先评估是否需要公网开放。
 - 域名被墙 / SMTP 25 端口被运营商封是常见坑，挑 VPS 时留意。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/CxxVen/status/2060857604385984948)
+
 ## 相关概念
 
 - [Lucky](tool-lucky.md) — DDNS + ACME + 反代瑞士军刀；常配合 Cloud Mail 一起搭自托管栈

@@ -50,24 +50,14 @@ def read_body(path):
         return ""
     text = okf_lib.FM_RE.sub("", text).strip()
     text = re.sub(r"## 来源[\s\S]*$", "", text).strip()
-    text = re.sub(r"(?m)^>\s*原帖：<https://x\.com/[^/]+/status/\d+>\s*$", "", text)
     return text
-
-
-def public_status_url(tweet_id, fallback):
-    if tweet_id:
-        return f"https://x.com/i/web/status/{tweet_id}"
-    match = re.search(r"/status/(\d+)", fallback or "")
-    if match:
-        return f"https://x.com/i/web/status/{match.group(1)}"
-    return fallback
 
 
 def render_inline_links(text):
     escaped = html_text(text)
     return re.sub(
         r"https?://[^\s<>()]+?(?=&gt;|\s|$)",
-        lambda m: f'<a href="{public_status_url("", m.group(0))}" target="_blank" rel="noopener">{public_status_url("", m.group(0))}</a>',
+        lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>',
         escaped,
     )
 
@@ -109,7 +99,15 @@ def render_body_html(body):
             if in_list:
                 out.append("</ul>")
                 in_list = False
-            out.append(f"<blockquote>{render_inline_links(line[2:])}</blockquote>")
+            quote_text = line[2:]
+            source = re.match(r"^原帖：<((?:https?://)[^>]+)>$", quote_text)
+            if source:
+                url = html.escape(source.group(1), quote=True)
+                out.append(
+                    f'<blockquote>引用原文：<a href="{url}" target="_blank" rel="noopener">打开链接</a></blockquote>'
+                )
+            else:
+                out.append(f"<blockquote>{render_inline_links(quote_text)}</blockquote>")
             continue
 
         if in_list:
@@ -134,7 +132,7 @@ def collect_news(content_root):
         if not day:
             continue
         published_at = strip_quotes(fm.get("published_at")) or day + "T00:00:00.000Z"
-        source = public_status_url(strip_quotes(fm.get("tweet_id")), strip_quotes(fm.get("source")))
+        source = strip_quotes(fm.get("source"))
         items.append(
             {
                 "path": path,

@@ -65,6 +65,11 @@ claude
 ```
 
 
+## 参考链接
+
+- [原始链接 1](https://x.com/nicos_ai/status/2065512191520817427)
+- [原始链接 2](https://x.com/Wen_Zw/status/2065954574800982496)
+
 ## 相关概念
 
 - [Agent Skills 是什么](term-agent-skills.md)

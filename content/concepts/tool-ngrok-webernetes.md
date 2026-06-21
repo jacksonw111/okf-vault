@@ -30,6 +30,11 @@ ngrok 团队开源的「Kubernetes + ngrok」集成项目，名字 webernetes = 
 
 属于 ngrok 官方维护的 K8s 方向生态——延续 ngrok 「把复杂网络暴露简化成单条隧道」的核心思路，把这一能力下沉到 K8s Operator 层。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/samwhoo/status/2067652753288057102)
+- [原始链接 2](https://x.com/Wen_Zw/status/2067774781836108067)
+
 ## 相关概念
 
 - [Cloud Mail](./tool-cloud-mail.md) — 同为「自托管 + 简化部署」类工具，思路相近

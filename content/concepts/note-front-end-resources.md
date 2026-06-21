@@ -41,6 +41,10 @@ React 替代编译器：编译时把组件编译成细粒度 DOM 操作，**官�
   - Alacritty ↔ 终端 / DevContainer 主题
   - open-design.ai ↔ [Archify](tool-archify.md)
 
+## 参考链接
+
+- [原始链接 1](https://x.com/csaba_kissi/status/2066417489194483858)
+
 ## 相关概念
 
 - [Archify](tool-archify.md)

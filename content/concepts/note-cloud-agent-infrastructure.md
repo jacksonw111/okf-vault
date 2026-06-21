@@ -75,6 +75,10 @@ resource: "https://x.com/i/web/status/2062699747224568212"
 - [Agent Skills 是什么](term-agent-skills.md) — Skills 是「agent 行为」的封装；本文是「agent 运行环境」的封装，两层互补。
 - [forkd](tool-forkd.md) — 直接解决文中提到的「冷启动 microVM 太慢」，把 fork 的开销套在 VM 身上。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/intuitiveml/status/2062699747224568212)
+
 ## 相关概念
 
 - [Claude Code](tool-claude-code.md) — 桌面形态 agent；搬到云上踩中本文所有痛点

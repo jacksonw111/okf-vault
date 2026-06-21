@@ -52,6 +52,11 @@ cp .claude/skills-mattpocock/commands/*.md .claude/commands/
 
 启动 `claude`，输入 `/` 就能看到所有可用 skill。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/mattpocockuk/status/2066451514672009337)
+- [原始链接 2](https://x.com/Wen_Zw/status/2068290830088253803)
+
 ## 相关概念
 
 - [Agent Skills 是什么](term-agent-skills.md)

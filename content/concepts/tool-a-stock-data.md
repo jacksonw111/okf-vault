@@ -59,6 +59,10 @@ resource: "https://github.com/simonlin1212/a-stock-data"
 - [Claude Code](tool-claude-code.md) — 首批支持的目标 agent 之一。
 - [mattpocock/skills](tool-mattpocock-skills.md) — 同一波「skill 仓库」生态；mattpocock 偏通用 SOP，a-stock-data 偏垂直数据接口。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/wsl8297/status/2059183775213625707)
+
 ## 相关概念
 
 - [Agent Skills 是什么](term-agent-skills.md) — 垂直领域数据 skill 的典型实现

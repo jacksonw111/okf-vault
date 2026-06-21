@@ -36,6 +36,11 @@ resource: "https://t.co/0AxhBABaL2"
   - **Kindle App 移动端** → `mobi`（老牌兼容）
 
 
+## 参考链接
+
+- [原始链接 1](https://x.com/GYLQ520/status/2067965187299455451)
+- [原始链接 2](https://x.com/Wen_Zw/status/2068356338640728520)
+
 ## 相关概念
 
 - [OKF 是什么](term-okf.md) — 都是「人 + AI 共同可消费的内容」的极简形态

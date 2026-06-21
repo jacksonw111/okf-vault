@@ -79,8 +79,7 @@ yesterday
         self.assertNotIn("@fxtrader", text)
         self.assertNotIn("@livermoerR", text)
         self.assertLess(text.index("12:30"), text.index("08:10"))
-        self.assertIn("https://x.com/i/web/status/2", text)
-        self.assertNotIn("https://x.com/fxtrader/status/2", text)
+        self.assertIn('href="https://x.com/fxtrader/status/2"', text)
         self.assertNotIn("Yesterday", text)
 
         with open(os.path.join(self.content, "news", "index.md"), encoding="utf-8") as f:
@@ -118,8 +117,7 @@ published_at: "2026-06-20T09:00:00.000Z"
         self.assertIn(f'<a class="news-media news-image" href="{image}"', text)
         self.assertIn(f'<img src="{image}"', text)
         self.assertIn(f'<a href="{video}" target="_blank" rel="noopener">查看视频</a>', text)
-        self.assertIn("https://x.com/i/web/status/3", text)
-        self.assertNotIn("https://x.com/fxtrader/status/3", text)
+        self.assertIn('href="https://x.com/fxtrader/status/3"', text)
 
     def test_quote_source_link_does_not_include_closing_marker(self):
         source = "https://x.com/fxtrader/status/12345"
@@ -142,7 +140,7 @@ published_at: "2026-06-20T10:00:00.000Z"
             text = f.read()
 
         self.assertNotIn("原帖：", text)
-        self.assertNotIn(source, text)
+        self.assertIn(f'<blockquote>引用原文：<a href="{source}" target="_blank" rel="noopener">打开链接</a></blockquote>', text)
         self.assertNotIn("<p>&gt;</p>", text)
 
 

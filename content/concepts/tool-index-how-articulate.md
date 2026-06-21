@@ -60,6 +60,11 @@ articulate 把这套词**结构化** + **AI 友好**了。
 - 配合 [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md)：网格 = 结构，articulate = 词汇。
 - 配合 [transitions.dev](tool-transitions-dev.md) / [textmotion.dev](tool-textmotion-dev.md)：效果 = 实现，articulate = 描述。
 - 
+## 参考链接
+
+- [原始链接 1](https://x.com/vikingmute/status/2066697429555245401)
+- [原始链接 2](https://x.com/Wen_Zw/status/2066741994828013856)
+
 ## 相关概念
 
 - [transitions.dev](tool-transitions-dev.md)

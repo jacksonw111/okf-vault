@@ -40,6 +40,11 @@ resource: "https://loops.elorm.xyz/"
 - 与 [mattpocock/skills](tool-mattpocock-skills.md) 的 `/zoom-out` 等 skill 同源——都是「循环型 prompt」的实例化。
 
 
+## 参考链接
+
+- [原始链接 1](https://x.com/li9292/status/2067991077211251010)
+- [原始链接 2](https://x.com/Wen_Zw/status/2068229318816526823)
+
 ## 相关概念
 
 - [Claude Code](tool-claude-code.md) — 跑这些 loops 的载体

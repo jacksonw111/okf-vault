@@ -56,6 +56,10 @@ Emil Kowalski 在「设计 / UI 词汇」领域出了**两份**资源：
 - **AI prompt 写动画**：把「错开这个物品列表」改成 `stagger list items by 80ms with spring(damping: 0.7)`——效果稳定可复现。
 - **跨团队 review**：review UI 稿时直接引用词汇表里的术语，不再用「感觉不对」当理由。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/emilkowalski/status/2061426518333571576)
+
 ## 相关概念
 
 - [index.how/to/articulate](tool-index-how-articulate.md) — 同一作者的大词典（12 类），animations.dev 是它的动画子卷

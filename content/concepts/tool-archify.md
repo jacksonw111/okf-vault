@@ -65,6 +65,11 @@ git clone https://github.com/tt-a1i/archify .claude/skills/archify
 
 - [示例图 跑出的实例](https://pbs.twimg.com/media/HKvFoMsbEAArnat.jpg) — `pi + DeepSeek` 生成的架构图示例（无需文生图模型）。
 
+## 参考链接
+
+- [原始链接 1](https://x.com/geekbb/status/2065963576419029438)
+- [原始链接 2](https://x.com/Wen_Zw/status/2066032373024817609)
+
 ## 相关概念
 
 - [Agent Skills 是什么](term-agent-skills.md)
