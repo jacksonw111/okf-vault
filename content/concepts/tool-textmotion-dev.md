@@ -11,7 +11,7 @@ resource: "https://textmotion.dev"
 
 ## 它是什么
 
-[`textmotion.dev`](https://textmotion.dev) 是 **Daniel White** (@DanielWhit21874) 推荐的「**文字动效**」精选集合——和 [transitions.dev](tool-transitions-dev.md) 是同一个生态（一个管页面级、一个管文字级）。
+[`textmotion.dev`](https://textmotion.dev) 是「**文字动效**」精选集合——和 [transitions.dev](tool-transitions-dev.md) 是同一个生态（一个管页面级、一个管文字级）。
 
 > "为什么这感觉这么好？"
 
@@ -41,10 +41,7 @@ resource: "https://textmotion.dev"
 - 用 [tool-okf-static-html-visualizer](tool-okf-static-html-visualizer.md) 生成静态页面时，hero 区直接套一个 textmotion 效果，能让「平淡的概念卡片墙」立刻有「产品」感。
 - 配合 [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md)：排版规则 + 字符级动效 = 高级感翻倍。
 
-## 社区验证 / 二次来源
-
-- [@DanielWhit21874 演示视频 (1920×1080)](https://video.twimg.com/amplify_video/2065190091757101056/vid/avc1/1920x1080/lP3PCQKFuHGF9eJd.mp4?tag=27) — 作者本人发起的「Why does this feel so good?」短演示。
-- [@DanielWhit21874 原推](https://x.com/DanielWhit21874/status/2065190155460231678) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2065200441164787722)。
+- [演示视频 演示视频 (1920×1080)](https://video.twimg.com/amplify_video/2065190091757101056/vid/avc1/1920x1080/lP3PCQKFuHGF9eJd.mp4?tag=27) — 作者本人发起的「Why does this feel so good?」短演示。
 
 ## 相关概念
 

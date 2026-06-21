@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:30:00Z"
 
 ## 它是什么
 
-[agentcn](https://agentcn.dev) 是 `@shadcnlabs` 在 2026-06 推出的开源项目，把「AI Agent 需要的 UI 积木」做成了 shadcn/ui 风格的 registry：一个 Agent = 一组可复制粘贴的组件块，零配置、一行命令安装，10+ 可投产的 Agent 配方全部免费开源。
+[agentcn](https://agentcn.dev) 是 shadcnlabs 推出的开源项目，把「AI Agent 需要的 UI 积木」做成了 shadcn/ui 风格的 registry：一个 Agent = 一组可复制粘贴的组件块，零配置、一行命令安装，10+ 可投产的 Agent 配方全部免费开源。
 
 底层基于 **Vercel Eve**（filesystem convention 风格的 Agent 框架）与 **flueai**。
 

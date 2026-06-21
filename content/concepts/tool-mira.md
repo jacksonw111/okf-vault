@@ -11,7 +11,7 @@ resource: "https://github.com/byteseek/Mira"
 
 ## 它是什么
 
-[`Mira`](https://github.com/byteseek/Mira) 是 byteseek (@bc1dml) 开源的 **Agent-native 投资研究工作台**。它的定位刻意和市面上 95% 的「AI 投顾」「荐股 bot」「交易助手」划清界限：
+[`Mira`](https://github.com/byteseek/Mira) 是一个开源的 **Agent-native 投资研究工作台**。它的定位刻意和市面上 95% 的「AI 投顾」「荐股 bot」「交易助手」划清界限：
 
 > "它不是荐股 bot，也不是交易助手，而是一套可复核、可持续刷新的投研协议。"
 

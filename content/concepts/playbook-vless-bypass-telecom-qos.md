@@ -4,7 +4,7 @@ title: "VLESS + WebSocket + TLS 绕过电信 QoS，把家里内网伪装成 HTTP
 description: "当 Tailscale / 自建 DERP 被运营商 UDP/TCP 限速时，把「异地访问家庭内网」伪装成一个普通 HTTPS 网站；用 3X-UI + Lucky + 反代 + 端口转发，端到端复原上行带宽。"
 tags: "[network, qos-bypass, vless, websocket, tls, nas, playbook]"
 timestamp: 2026-06-17T00:00:00Z
-resource: "https://x.com/xiaojingshe/status/2064554366783381583"
+resource: "https://x.com/i/web/status/2064554366783381583"
 ---
 
 # VLESS + WebSocket + TLS 绕过电信 QoS

@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 Agent 生成框架：把「一个 GitHub 仓库 → 一个独立的 AI Agent」做成模板化的 npm 包生成器。生成的产物不仅是个 CLI，而是 **完整的 Agent 基础设施**：
+Agent 生成框架：把「一个 GitHub 仓库 → 一个独立的 AI Agent」做成模板化的 npm 包生成器。生成的产物不仅是个 CLI，而是 **完整的 Agent 基础设施**：
 
 - **专属 npx 命令**：每个 Agent 都有自己独立的入口。
 - **MCP Server**：让其它 Agent 也能调用它。

@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 GitHub 仓库：**Best AI Humanizer Handbook** —— 把「AI 生成文本 → 更像人写」这件事做成系统化的实操指南。
+**Best AI Humanizer Handbook** —— 把「AI 生成文本 → 更像人写」这件事做成系统化的实操指南。
 
 ## 覆盖内容
 

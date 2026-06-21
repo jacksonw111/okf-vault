@@ -10,6 +10,7 @@
 3. 对每一份资料，按 PRODUCER.md 处理：
    a. 先在 concepts/ 里搜关键词去重：已有同义概念就“更新”，没有才“新建”；
    b. 把资料切分成一个或多个概念；按 templates/ 下对应类型的模板填好 YAML frontmatter（type 是唯一必填字段，description 尽量写）和正文；若资料含图片/视频，产出的概念文件必须保留媒体 URL（图片用 ![](url)、视频用链接），不得丢弃。
+      **不要在生成的概念、摘要、索引或日志中暴露信息来源人**：禁止写“来自 @xxx”“@xxx 提及”“@xxx 推荐”“某某说/推荐/转载/转发”等来源归因。内容只描述概念本身、用途、特点和链接；必要时保留原始 URL，不写是谁提供的线索。
    c. 文件名用英文 kebab-case（如 tool-xxx.md / term-xxx.md / playbook-xxx.md / note-xxx.md），放到 concepts/；
    d. 概念之间用标准 Markdown 链接互联（[显示名](./path.md)），形成图谱；
    e. 在 concepts/index.md 和根 index.md 里登记新增/更新的概念；

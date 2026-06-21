@@ -2,7 +2,7 @@
 type: Note
 title: "DESIGN.md 最佳实践（101babich 整理）"
 description: "把设计系统信息沉淀进单个 DESIGN.md，给 AI 辅助 UI 设计提供上下文。三个核心原则：tokens 是决策、带理由、组件基于 tokens。"
-resource: "https://x.com/101babich/status/2067577922890650063"
+resource: "https://x.com/i/web/status/2067577922890650063"
 tags: [design, design-system, ai, methodology, design-resources]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -10,8 +10,6 @@ timestamp: 2026-06-19T00:00:00Z
 # DESIGN.md 最佳实践（101babich 整理）
 
 DESIGN.md 正在成为 AI 辅助 UI 设计时「最有用的文件之一」——它让 AI 真正理解你的设计系统，从而产出「看起来像你自家产品」的 UI。一个好的 DESIGN.md 通常包含 design tokens、品牌风格、颜色规则、字体、间距、组件指引。
-
-> 来源：[@101babich](https://x.com/101babich/status/2067577922890650063) / 转自 [@Wen_Zw](https://x.com/Wen_Zw/status/2067771518906716669)
 
 ![](https://pbs.twimg.com/media/HLGC1GxXIAApmLH.jpg)
 

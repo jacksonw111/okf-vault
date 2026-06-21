@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 **LiveKit 开源基准**：`eot-bench` —— 专门评测语音 AI 的「话轮结束检测」（End-of-Turn, EOT）能力。
+**LiveKit 开源基准**：`eot-bench` —— 专门评测语音 AI 的「话轮结束检测」（End-of-Turn, EOT）能力。
 
 ## 它要解决的问题
 

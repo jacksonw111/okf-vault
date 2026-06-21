@@ -11,8 +11,6 @@ timestamp: 2026-06-19T00:00:00Z
 
 Vercel 把自己的设计系统以一份公开的「design.md」风格页面形式挂在 [vercel.com/design.md](https://vercel.com/design.md)，覆盖品牌色、字体（Geist / Geist Mono）、设计 tokens、组件规范等内容。作为「设计系统文档应该长什么样」的一个公开样本。
 
-> 来源：[@JohnPhamous](https://x.com/JohnPhamous/status/2067657349620482424) / 转自 [@Wen_Zw](https://x.com/Wen_Zw/status/2067774678576574912)
-
 ![](https://pbs.twimg.com/media/HLHLZvcboAA9ucD.jpg)
 
 ## 它是什么

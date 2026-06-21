@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 macOS 平铺窗口管理器（tiling WM），从 [Niri](https://github.com/YaLTeR/niri) 的思路汲取灵感：把窗口排成一列一列，左右滚动像翻页一样切换。它**只保留 Niri 风格的滚动列布局**，剥离其它花哨功能，做成一个轻量、聚焦的 macOS 工具。
+macOS 平铺窗口管理器（tiling WM），从 [Niri](https://github.com/YaLTeR/niri) 的思路汲取灵感：把窗口排成一列一列，左右滚动像翻页一样切换。它**只保留 Niri 风格的滚动列布局**，剥离其它花哨功能，做成一个轻量、聚焦的 macOS 工具。
 
 ## 关键能力
 

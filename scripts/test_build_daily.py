@@ -81,6 +81,8 @@ generated page
         self.assertNotIn("Old", text)
         self.assertIn("新闻 1 条", text)
         self.assertIn("[Market note](../news/2026-06-21.md)", text)
+        self.assertNotIn("@fxtrader", text)
+        self.assertNotIn("来源账号", text)
         self.assertNotIn("Generated news page", text)
         self.assertIn('<div class="daily-bars"', text)
 

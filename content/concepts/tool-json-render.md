@@ -60,7 +60,6 @@ HarnessAgent 沙盒
 
 - **`harness-chat`** 是 Vercel 提供的官方参考实现，展示如何把 agent 的 JSON 输出接到 React 渲染器。
 - 仓库：[vercel-labs/json-render](https://github.com/vercel-labs/json-render)。
-- [@ctatedev 原推](https://x.com/ctatedev/status/2066555606492754213) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066654492297453592)。
 
 ## 相关概念
 

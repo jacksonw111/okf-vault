@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 GitHub 仓库：**Awesome World Action Models**。为具身智能（embodied AI）与机器人领域的研究者和工程师提供一个系统化的 **World Action Model（WAM）论文索引**。
+**Awesome World Action Models**。为具身智能（embodied AI）与机器人领域的研究者和工程师提供一个系统化的 **World Action Model（WAM）论文索引**。
 
 ## 分类方式
 

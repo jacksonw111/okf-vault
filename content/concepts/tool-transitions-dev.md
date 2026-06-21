@@ -38,10 +38,7 @@ resource: "https://transitions.dev"
 - 设计师转前端 / 跟前端协作时找参考；
 - 做 [OKF](term-okf.md) 静态可视化页面想加点过渡的（[tool-okf-static-html-visualizer](tool-okf-static-html-visualizer.md) 配合 View Transitions API 效果很好）。
 
-## 社区验证 / 二次来源
-
-- [@AdhamDannaway 演示视频 (1692×1278)](https://video.twimg.com/amplify_video/2065333867536678912/vid/avc1/1692x1278/D5_3s6Cge0SDJ9Pa.mp4?tag=27) — 第三方推荐演示。
-- [@AdhamDannaway 原推](https://x.com/AdhamDannaway/status/2065440233009889728) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2065568602154229819)。
+- [演示视频 演示视频 (1692×1278)](https://video.twimg.com/amplify_video/2065333867536678912/vid/avc1/1692x1278/D5_3s6Cge0SDJ9Pa.mp4?tag=27) — 第三方推荐演示。
 
 ## 相关概念
 

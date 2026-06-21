@@ -52,7 +52,7 @@ git clone https://github.com/pricklywiggles/niamos
 
 ## 媒体
 
-原作者 @geekbb 的截图（来自转推文）：
+项目截图：
 
 ![Niamos 模板预览](https://pbs.twimg.com/media/HLLMvHiaAAE_7VH.jpg)
 

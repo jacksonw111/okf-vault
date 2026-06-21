@@ -11,7 +11,7 @@ resource: "https://github.com/alexmcdonnell-airtable/hyperagent-public-skills"
 
 ## 它是什么
 
-`Hyperagent` 团队 (@hyperagentapp) 开源的 **Claude Code skill**：把 **Josef Müller-Brockmann** 的经典著作 *《平面设计中的网格系统》*（*Grid Systems in Graphic Design*，162 页）作为「教材」喂给编码代理，**强制**代理在写 UI 代码时遵循真实的网格系统、视觉层次、字体与排版规则。
+`Hyperagent` 团队开源的 **Claude Code skill**：把 **Josef Müller-Brockmann** 的经典著作 *《平面设计中的网格系统》*（*Grid Systems in Graphic Design*，162 页）作为「教材」喂给编码代理，**强制**代理在写 UI 代码时遵循真实的网格系统、视觉层次、字体与排版规则。
 
 目的：让「AI 设计的页面看起来很通用」不再是默认结果。
 
@@ -64,9 +64,6 @@ claude
 # 代理会先输出设计令牌，再出代码
 ```
 
-## 社区验证 / 二次来源
-
-- [@nicos_ai 推荐](https://x.com/nicos_ai/status/2065512191520817427) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2065954574800982496)。
 
 ## 相关概念
 

@@ -9,8 +9,6 @@ resource: "https://github.com/signerlabs/ShipSwift"
 
 # ShipSwift（signerlabs/ShipSwift）
 
-> 来源：[@QingQ77 on X 2026-06-17](https://x.com/QingQ77/status/2058463261885157435)
-
 ## 它是什么
 
 [ShipSwift](https://github.com/signerlabs/ShipSwift) 是 **AI 原生的 SwiftUI 组件库 + 全栈 recipe**——把生产级 SwiftUI 代码（动画、图表、UI 组件、认证、相机、聊天、订阅墙等模块）**通过 MCP（Model Context Protocol）和 Skills 暴露给 LLM**，让 AI 编码 agent 在写 iOS app 时能拿到**完整源码、实现步骤、踩坑经验**，而不是从零猜 API。

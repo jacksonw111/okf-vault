@@ -18,7 +18,7 @@ resource: "https://loops.elorm.xyz/"
 - **狭义**：写程序时常用的循环结构（while / for / recursion）。
 - **广义**：**agent / 自动化工作流里的反馈闭环**——`prompt → 执行 → 评估 → 修正 prompt → 再执行`，直到结果达标。
 
-[li9292 @x 2026-06-20 推文](https://x.com/li9292/status/2067991077211251010) 的原话：「收录了几十个大神的 loop engineering 的思路」。
+项目介绍：「收录了几十个大神的 loop engineering 的思路」。
 
 ## 为什么这个资源值得收录
 
@@ -29,7 +29,7 @@ resource: "https://loops.elorm.xyz/"
 | 调 prompt 凭感觉 | 「prompt 工程」循环化、可观测化 |
 | 想了解「Eval-driven development」 | 大神们怎么把循环拆成可复用模块 |
 
-视频演示（li9292 推文附带）：
+视频演示：
 
 - <https://video.twimg.com/amplify_video/2067991012178526208/vid/avc1/1336x818/Rn9OM39CK1t8RxL4.mp4?tag=28>
 
@@ -39,9 +39,6 @@ resource: "https://loops.elorm.xyz/"
 - 与 [Claude Code](tool-claude-code.md) 的「skill」理念呼应：每个 skill 就是一个**可复用的 loop 片段**（如 `/improve` = 「审计 → 给改进意见」循环）。
 - 与 [mattpocock/skills](tool-mattpocock-skills.md) 的 `/zoom-out` 等 skill 同源——都是「循环型 prompt」的实例化。
 
-## 社区验证 / 二次来源
-
-- [li9292 原推](https://x.com/li9292/status/2067991077211251010) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2068229318816526823)。
 
 ## 相关概念
 

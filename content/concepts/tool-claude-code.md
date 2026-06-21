@@ -71,7 +71,7 @@ claude
 
 Claude Code 的 Skills 机制（`/<skill-name>` + `.claude/commands/` + `.claude/skills/`）让社区贡献了大量复用包：
 
-- [@mattpocock 整理的 skills 合集](tool-mattpocock-skills.md) — `/grill-me` `/zoom-out` `/caveman` `/hand-off` 等
+- [Matt Pocock 整理的 skills 合集](tool-mattpocock-skills.md) — `/grill-me` `/zoom-out` `/caveman` `/hand-off` 等
 - [shadcn/improve](tool-shadcn-improve.md) — 让最强模型审计代码、出实施计划
 - [Hyperagent 的设计网格 skill](tool-hyperagent-design-skill.md) — 教代理遵循 Müller-Brockmann 网格做设计
 - [Archify](tool-archify.md) — LLM→JSON→SVG 的架构图 skill

@@ -1,6 +1,6 @@
 ---
 type: "Tool"
-title: "10万本书 GitHub 仓库（GYLQ520 推荐）"
+title: "10万本书 GitHub 仓库"
 description: "微信读书 / 京东读书 / 喜马拉雅热门书的 GitHub 聚合仓库，约 10 万本，覆盖经典文学、经管、心理学、技术手册等；每本同时提供 epub / mobi / azw3 三种格式，免去 Kindle / 手机 / 平板互转。"
 tags: "[resources, ebooks, github, reading]"
 timestamp: "2026-06-20T00:00:00Z"
@@ -11,13 +11,13 @@ resource: "https://t.co/0AxhBABaL2"
 
 ## 它是什么
 
-[GYLQ520 @x 2026-06-20 推文](https://x.com/GYLQ520/status/2067965187299455451) 推荐的一个 GitHub 仓库，把**微信读书 / 京东读书 / 喜马拉雅**三大平台的热门书聚合起来，**约 10 万本**：
+一个 GitHub 仓库，把**微信读书 / 京东读书 / 喜马拉雅**三大平台的热门书聚合起来，**约 10 万本**：
 
 - **覆盖广**：经典文学、经管、心理学、技术手册……基本能想到的都有。
 - **三格式齐全**：每本同时给 **epub / mobi / azw3** 三种格式。
 - **免去转换**：Kindle、手机、平板打开即用。
 
-![仓库截图（GYLQ520 推文配图）](https://pbs.twimg.com/media/HLLjW1abUAAF76z.png)
+![仓库截图](https://pbs.twimg.com/media/HLLjW1abUAAF76z.png)
 
 ## 为什么这个资源值得收录
 
@@ -30,16 +30,11 @@ resource: "https://t.co/0AxhBABaL2"
 
 ## 注意事项
 
-- **来源合法性**：仓库里书目多为版权作品，公网聚合处在**灰色地带**（与很多「z-library 镜像」同类）。使用前**自行评估风险**——本笔记只做「资源存在性」记录，不背书其版权合规性。
-- **链接稳定性**：仓库 t.co 短链是发布者压缩的，原链需到 [原推](https://x.com/GYLQ520/status/2067965187299455451) 找回。
-- **格式选择建议**：
+- **来源合法性**：仓库里书目多为版权作品，公网聚合处在**灰色地带**（与很多「z-library 镜像」同类）。使用前**自行评估风险**——本笔记只做「资源存在性」记录，不背书其版权合规性。- **格式选择建议**：
   - **Kindle 设备** → `azw3`（兼容性最好）
   - **手机 / iPad** → `epub`（开源、可调字号）
   - **Kindle App 移动端** → `mobi`（老牌兼容）
 
-## 社区验证 / 二次来源
-
-- [GYLQ520 原推](https://x.com/GYLQ520/status/2067965187299455451) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2068356338640728520)。
 
 ## 相关概念
 

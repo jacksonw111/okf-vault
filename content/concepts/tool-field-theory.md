@@ -1,7 +1,7 @@
 ---
 type: "Tool"
 title: "Field Theory"
-description: "@andrewfarah 的开源「上下文管理」应用：把写作、阅读、语音、终端、书签、剪贴板、codex 面板、markdown 等多源内容统一收纳；带 IA Writer 风格编辑器；全部本地。"
+description: "开源「上下文管理」应用：把写作、阅读、语音、终端、书签、剪贴板、codex 面板、markdown 等多源内容统一收纳；带 IA Writer 风格编辑器；全部本地。"
 tags: "[productivity, writing, reading, bookmarks, local-first, markdown]"
 timestamp: "2026-06-17T00:00:00Z"
 resource: "https://github.com/andrewfarah/field-theory"
@@ -11,7 +11,7 @@ resource: "https://github.com/andrewfarah/field-theory"
 
 ## 它是什么
 
-[`Field Theory`](https://github.com/andrewfarah/field-theory) 是 @andrewfarah 公布的第二个开源项目（v0.3.2）：一款**本地优先**的统一「上下文管理」应用——把日常工作中分散的内容**收拢到一个工作面**：
+[`Field Theory`](https://github.com/andrewfarah/field-theory) 是一个开源项目（v0.3.2）：一款**本地优先**的统一「上下文管理」应用——把日常工作中分散的内容**收拢到一个工作面**：
 
 - IA Writer 风格编辑器
 - X / Twitter 书签

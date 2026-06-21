@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 Node.js 工具：**把 TypeScript 运行器 + 包管理器 + Node 版本管理器合一**。
+Node.js 工具：**把 TypeScript 运行器 + 包管理器 + Node 版本管理器合一**。
 
 ## 它要解决的问题
 

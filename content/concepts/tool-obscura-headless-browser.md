@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:55:00Z"
 
 ## 它是什么
 
-Obscura 是 `@gaoren7716` 在 2026-06 推荐的开源无头浏览器，定位「Playwright 替代品，专为 AI Agent 打造」：Rust 写的极轻量二进制 + 自带反检测能力 + 内置 MCP Server，让 Claude / Cursor 这类 Agent 直接「驾驶」它跑网页任务。
+Obscura 是开源无头浏览器，定位「Playwright 替代品，专为 AI Agent 打造」：Rust 写的极轻量二进制 + 自带反检测能力 + 内置 MCP Server，让 Claude / Cursor 这类 Agent 直接「驾驶」它跑网页任务。
 
 ## 关键能力
 

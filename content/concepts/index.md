@@ -54,7 +54,7 @@ timestamp: 2026-06-17T00:00:00Z
 - [textmotion.dev](tool-textmotion-dev.md) — `Tool` — 文字动效精选
 - [index.how/to/articulate](tool-index-how-articulate.md) — `Tool` — 设计 / UI 术语词典
 - [animations.dev/vocabulary](tool-animations-dev-vocabulary.md) — `Tool` — Emil Kowalski 动画动作词汇表
-- [Trees（@rammcodes）](tool-trees-rammcodes.md) — `Tool` — IDE 风格文件树组件
+- [Trees（IDE 风格文件树组件）](tool-trees-rammcodes.md) — `Tool` — IDE 风格文件树组件
 - [Vercel Design System](tool-vercel-design-system.md) — `Tool` — vercel.com/design.md 公开设计系统页
 - [前端 / 创客 资源合集](note-front-end-resources.md) — `Note`
 - [DESIGN.md 最佳实践](note-design-md-best-practices.md) — `Note` — 把设计系统装进 .md 喂给 AI
@@ -113,7 +113,7 @@ timestamp: 2026-06-17T00:00:00Z
 
 ## 阅读 / 资源
 
-- [10万本书 GitHub 仓库（GYLQ520 推荐）](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
+- [10万本书 GitHub 仓库](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
 
 ## 金融 / 数据
 

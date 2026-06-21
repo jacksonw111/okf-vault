@@ -9,8 +9,6 @@ resource: "https://github.com/deeplethe/forkd"
 
 # forkd（deeplethe/forkd）
 
-> 来源：[@vintcessun on X 2026-06-05](https://x.com/vintcessun/status/2062755543811588448) —— GitHub: [deeplethe/forkd](https://github.com/deeplethe/forkd)
-
 ## 它是什么
 
 [`forkd`](https://github.com/deeplethe/forkd) 是一个 **AI agent microVM 的「fork 化」沙箱方案**——把「父进程 fork 子进程」的低成本思路套到 KVM microVM 上：

@@ -76,17 +76,16 @@ def collect_news(content_root, report_date):
             published = report_date
         if published != report_date:
             continue
-        rel_parts = os.path.relpath(path, news_dir).split(os.sep)
-        source = rel_parts[1] if len(rel_parts) >= 3 and rel_parts[0] == "twitter" else rel_parts[0]
+        published_at = strip_quotes(fm.get("published_at")) or published + "T00:00:00.000Z"
         items.append(
             {
                 "path": path,
                 "date": published,
+                "published_at": published_at,
                 "title": strip_quotes(fm.get("title")) or os.path.basename(path)[:-3],
-                "source": source,
             }
         )
-    return items
+    return sorted(items, key=lambda item: (item["published_at"], item["path"]), reverse=True)
 
 
 def bar_row(label, value, total):
@@ -106,14 +105,13 @@ def render_report(content_root, report_date, concepts, news):
     daily_dir = os.path.join(content_root, "daily")
     base_dir = daily_dir
     type_counts = Counter(item["type"] for item in concepts)
-    source_counts = Counter(item["source"] for item in news)
     total = len(concepts) + len(news)
 
     out = [
         "---",
         'type: "Index"',
         f'title: "{report_date} 日报"',
-        f'description: "{report_date} 的概念发现、新闻来源和当天知识库增量。"',
+        f'description: "{report_date} 的概念发现、新闻和当天知识库增量。"',
         "tags: [daily, okf, news]",
         f'timestamp: "{datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}"',
         "---",
@@ -146,7 +144,6 @@ def render_report(content_root, report_date, concepts, news):
         "|---|---:|",
         f"| 新概念 | {len(concepts)} |",
         f"| 新闻 | {len(news)} |",
-        f"| 来源账号 | {len(source_counts)} |",
         "",
     ]
 
@@ -175,17 +172,12 @@ def render_report(content_root, report_date, concepts, news):
 
     out.append("## 新闻")
     out.append("")
-    if source_counts:
-        out.append('<div class="daily-bars">')
-        for label, value in sorted(source_counts.items(), key=lambda item: (-item[1], item[0])):
-            out.append(bar_row("@" + label, value, len(news)))
-        out.append("</div>")
-        out.append("")
-        out.append("| 新闻 | 来源 |")
-        out.append("|---|---|")
+    if news:
+        out.append("| 新闻 |")
+        out.append("|---|")
         for item in news:
             link = md_link(base_dir, os.path.join(content_root, "news", f'{item["date"]}.md'))
-            out.append(f'| [{esc(item["title"])}]({link}) | @{esc(item["source"])} |')
+            out.append(f'| [{esc(item["title"])}]({link}) |')
     else:
         out.append("今天没有新的新闻条目。")
     out.append("")

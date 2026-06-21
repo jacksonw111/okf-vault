@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 GitHub 仓库：`forever-saint-liang-websearch`。把 **DeepSeek 的 WebSearch API** 包成一个标准 **MCP Server**，让 Claude Code、OpenCode 等 MCP 兼容客户端在需要「联网搜」时直接走 DeepSeek，**不需要再依赖 Tavily / Brave Search 等第三方搜索服务**。
+`forever-saint-liang-websearch`。把 **DeepSeek 的 WebSearch API** 包成一个标准 **MCP Server**，让 Claude Code、OpenCode 等 MCP 兼容客户端在需要「联网搜」时直接走 DeepSeek，**不需要再依赖 Tavily / Brave Search 等第三方搜索服务**。
 
 ## 关键卖点
 

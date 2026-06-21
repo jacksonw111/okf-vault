@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 Python MCP 服务器：在 **Codex Desktop** 上加一层 **持久化任务队列**。原本 Codex Desktop 的 MCP 调用是「请求 → 等待响应」的同步模型，长任务容易超时；现在可以提交任务后立刻拿到 `operationId`，然后轮询进度，**不必保持长连接**。
+Python MCP 服务器：在 **Codex Desktop** 上加一层 **持久化任务队列**。原本 Codex Desktop 的 MCP 调用是「请求 → 等待响应」的同步模型，长任务容易超时；现在可以提交任务后立刻拿到 `operationId`，然后轮询进度，**不必保持长连接**。
 
 ## 工作流
 

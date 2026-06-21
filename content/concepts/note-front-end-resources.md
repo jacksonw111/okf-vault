@@ -1,14 +1,12 @@
 ---
 type: "Note"
 title: "前端 / 创客 资源合集（csaba_kissi 整理）"
-description: "csaba_kissi @x 整理的「程序员和创客的超棒网站和应用」列表：动画加载器、AI 复刻设计、React 加速 70%、GPU 终端、给编码代理的程序化视频——一次性五个高密度资源。"
+description: "「程序员和创客的超棒网站和应用」列表：动画加载器、AI 复刻设计、React 加速 70%、GPU 终端、给编码代理的程序化视频——一次性五个高密度资源。"
 tags: "[resources, frontend, tools, ai, react, terminal]"
 timestamp: "2026-06-17T00:00:00Z"
 ---
 
 # 前端 / 创客 资源合集
-
-> 来源：[csaba_kissi @x 2026-06-15 推文](https://x.com/csaba_kissi/status/2066417489194483858)
 
 ## 五件套
 

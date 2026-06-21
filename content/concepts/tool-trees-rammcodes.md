@@ -1,19 +1,17 @@
 ---
 type: "Tool"
-title: "Trees（@rammcodes 开源文件树组件）"
+title: "Trees（IDE 风格文件树组件）"
 description: "一个打磨精致的开源「文件树」组件库——支持搜索、拖放、多选、Git 状态指示器、键盘导航；定位 IDE 风格的文件浏览器，可直接塞进代码编辑器、开发者工具、文件管理器。"
 tags: "[frontend, ui-component, file-tree, open-source, ide, react]"
 timestamp: "2026-06-17T00:00:00Z"
 resource: "https://github.com/rammcodes/trees"
 ---
 
-# Trees（@rammcodes 开源文件树组件）
-
-> 来源：[@rammcodes on X 2026-06-03](https://x.com/rammcodes/status/2062098158688071983)
+# Trees（IDE 风格文件树组件）
 
 ## 它是什么
 
-[`Trees`](https://github.com/rammcodes/trees) 是 **@rammcodes** 开源的「**IDE 风格文件浏览器**」组件库——给前端项目提供**开箱即用**的文件树 UI：
+[`Trees`](https://github.com/rammcodes/trees) 是「**IDE 风格文件浏览器**」组件库——给前端项目提供**开箱即用**的文件树 UI：
 
 - 搜索（实时过滤）；
 - 拖放（节点重排 / 移动）；

@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 MCP 桥接工具：在 **ChatGPT Developer Mode**（网页版）和 **本地代码仓库** 之间搭一座桥。安装后 `codexpro setup` 自动配好 MCP Server 和公网隧道，ChatGPT 就能像 Codex CLI 一样直接动你的本地文件。
+MCP 桥接工具：在 **ChatGPT Developer Mode**（网页版）和 **本地代码仓库** 之间搭一座桥。安装后 `codexpro setup` 自动配好 MCP Server 和公网隧道，ChatGPT 就能像 Codex CLI 一样直接动你的本地文件。
 
 ## 工作流
 

@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 **Vercel Labs** 开源模板：**Personal AI Template** —— 用来构建**持久的个人 AI 智能体**。和 Eve 框架（filesystem convention 的 Agent runtime）配套使用。
+**Vercel Labs** 开源模板：**Personal AI Template** —— 用来构建**持久的个人 AI 智能体**。和 Eve 框架（filesystem convention 的 Agent runtime）配套使用。
 
 ## 关键能力
 

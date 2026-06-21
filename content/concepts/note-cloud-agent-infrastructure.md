@@ -4,12 +4,10 @@ title: "云端 Agent 基础设施的设计教训（CREAO）"
 description: "CREAO 团队总结的「把桌面 agent 搬到云上时什么会变」：状态 vs 代码按所有权节奏解耦、凭据永不下沉到沙箱、所有触发器共享同一条执行管道；本质是把「agent = 自然语言接口的函数」这件事做成可被平台调用的基础设施。"
 tags: "[ai, agent, cloud, infrastructure, sandbox, security]"
 timestamp: "2026-06-17T00:00:00Z"
-resource: "https://x.com/intuitiveml/status/2062699747224568212"
+resource: "https://x.com/i/web/status/2062699747224568212"
 ---
 
 # 云端 Agent 基础设施的设计教训（CREAO）
-
-> 来源：[@intuitiveml on X 2026-06-05](https://x.com/intuitiveml/status/2062699747224568212) —— CREAO 团队把桌面 agent 搬到云上几个月后总结的两条硬教训。
 
 ## 为什么桌面框架不能直接搬到云上
 

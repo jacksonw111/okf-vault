@@ -11,7 +11,7 @@ timestamp: "2026-06-21T00:00:00Z"
 
 ## 它是什么
 
-由 `@QingQ77` 在 2026-06 推荐的 ESPHome 项目：在 **Guition JC3636K718C** 圆形旋钮触控屏上跑一个完整的 **Home Assistant 语音助手**，**不需要写一行 C 固件**，全部用 ESPHome YAML 配出来。
+ESPHome 项目：在 **Guition JC3636K718C** 圆形旋钮触控屏上跑一个完整的 **Home Assistant 语音助手**，**不需要写一行 C 固件**，全部用 ESPHome YAML 配出来。
 
 ## 内置能力
 

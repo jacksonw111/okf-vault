@@ -9,8 +9,6 @@ resource: "https://github.com/maillab/cloud-mail"
 
 # Cloud Mail（maillab/cloud-mail）
 
-> 来源：[@CxxVen on X 2026-05-31](https://x.com/CxxVen/status/2060857604385984948)
-
 ## 它是什么
 
 [`maillab/cloud-mail`](https://github.com/maillab/cloud-mail) 是一个**轻量、自托管的「无限收发」邮件服务**——单个域名即可同时获得：

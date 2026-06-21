@@ -63,10 +63,7 @@ git clone https://github.com/tt-a1i/archify .claude/skills/archify
 | tldraw / Excalidraw | 手画 | 头脑风暴 |
 | 文生图（Midjourney / DALL·E） | 自然语言 → 像素 | 视觉草图，但文字经常错 |
 
-## 社区验证 / 二次来源
-
-- [@geekbb 跑出的实例](https://pbs.twimg.com/media/HKvFoMsbEAArnat.jpg) — `pi + DeepSeek` 生成的架构图示例（无需文生图模型）。
-- [@geekbb 原推](https://x.com/geekbb/status/2065963576419029438) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066032373024817609)。
+- [示例图 跑出的实例](https://pbs.twimg.com/media/HKvFoMsbEAArnat.jpg) — `pi + DeepSeek` 生成的架构图示例（无需文生图模型）。
 
 ## 相关概念
 

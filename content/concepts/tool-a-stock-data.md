@@ -9,8 +9,6 @@ resource: "https://github.com/simonlin1212/a-stock-data"
 
 # a-stock-data（A股全栈数据 Skill）
 
-> 来源：[@wsl8297 on X 2026-06-17](https://x.com/wsl8297/status/2059183775213625707) —— GitHub: [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data)
-
 ## 它是什么
 
 [`a-stock-data`](https://github.com/simonlin1212/a-stock-data) 是一个**面向 AI 编程助手的 A 股全栈数据 Skill**——把原本散落在 13 个数据源、各有各接口的 A 股数据，**封装成 28 个统一端点**，让 Claude Code / Codex / OpenClaw 这类 agent 直接调用做研究、写策略、做分析。

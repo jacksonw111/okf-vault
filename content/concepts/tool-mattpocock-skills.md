@@ -20,7 +20,7 @@ resource: "https://github.com/mattpocock/skills"
 - **in-progress 也公开** —— 草稿阶段的 skill 也 push 上来，方便学习他的思考过程（如 `/teach`）。
 - **是社区 [agent skills 概念](term-agent-skills.md) 的事实标杆之一**。
 
-## 代表 skill（vikingmute @x 推荐 2026-06）
+## 代表 skill
 
 | Skill | 作用 |
 |-------|------|
@@ -40,8 +40,6 @@ Matt 本人 2026-06-20 总结自己用 AI 写代码的工作流为 **7 个阶段
 > 思路翻译：「写代码前先确定『决策树分叉有哪些』，再让代理逐枝深挖」——避免一上来就出 prototype 浪费 token。
 
 ![7 phases of AI-powered development（mattpocockuk 2026-06-20 推文配图）](https://pbs.twimg.com/media/HK2CSd0WcAA6tOm.jpg)
-
-来源：[mattpocockuk 原推](https://x.com/mattpocockuk/status/2066451514672009337) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2068290830088253803)。
 
 ## 使用方式
 

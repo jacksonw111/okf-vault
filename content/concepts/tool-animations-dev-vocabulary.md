@@ -9,8 +9,6 @@ resource: "http://animations.dev/vocabulary"
 
 # animations.dev/vocabulary（动作词汇表）
 
-> 来源：[@emilkowalski on X 2026-06-01](https://x.com/emilkowalski/status/2061426518333571576)——动画库作者 Emil Kowalski 亲自整理的「描述动画动作」的术语词典。
-
 ## 它是什么
 
 [`animations.dev/vocabulary`](http://animations.dev/vocabulary) 是 **Emil Kowalski**（动画库 Motion 作者）维护的「**动作词汇表**（motion vocabulary）」——把日常描述 UI 动画时用得上的「精准动词 / 形容词 / 副词」按语义分组整理。

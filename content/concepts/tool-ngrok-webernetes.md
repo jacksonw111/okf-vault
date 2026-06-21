@@ -11,8 +11,6 @@ timestamp: 2026-06-19T00:00:00Z
 
 ngrok 团队开源的「Kubernetes + ngrok」集成项目，名字 webernetes = web + Kubernetes。目标是把 K8s 集群里的服务通过 ngrok 隧道安全地暴露到公网，省掉自建 Ingress / 反代 / 证书续签。
 
-> 来源：[@samwhoo](https://x.com/samwhoo/status/2067652753288057102) / 转自 [@Wen_Zw](https://x.com/Wen_Zw/status/2067774781836108067)
-
 ## 关键链接
 
 | 资源 | 链接 |

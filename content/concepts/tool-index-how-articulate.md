@@ -26,7 +26,7 @@ resource: "https://index.how/to/articulate"
 
 articulate 把这套词**结构化** + **AI 友好**了。
 
-## 12 大类（vikingmute @x 总结 2026-06）
+## 12 大类
 
 具体大类名称可在官网查阅，覆盖通常包括：
 
@@ -59,8 +59,7 @@ articulate 把这套词**结构化** + **AI 友好**了。
 
 - 配合 [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md)：网格 = 结构，articulate = 词汇。
 - 配合 [transitions.dev](tool-transitions-dev.md) / [textmotion.dev](tool-textmotion-dev.md)：效果 = 实现，articulate = 描述。
-- 推荐人：Emil Kowalski 在「动画 / 过渡 / 交互」领域有大量高质量内容，**vikingmute @x 特别推荐 follow**。
-
+- 
 ## 相关概念
 
 - [transitions.dev](tool-transitions-dev.md)
@@ -68,7 +67,4 @@ articulate 把这套词**结构化** + **AI 友好**了。
 - [Hyperagent 设计网格 Skill](tool-hyperagent-design-skill.md)
 - [animations vocabulary (animations.dev)](https://animations.dev/)
 
-## 社区验证 / 二次来源
-
-- [@vikingmute 推荐图示](https://pbs.twimg.com/media/HK5iNx6a8AAi-CV.jpg) — 展示 12 大类术语词典的导航截图。
-- [@vikingmute 原推](https://x.com/vikingmute/status/2066697429555245401) → [Wen_Zw 转载](https://x.com/Wen_Zw/status/2066741994828013856)。
+- [示例图 推荐图示](https://pbs.twimg.com/media/HK5iNx6a8AAi-CV.jpg) — 展示 12 大类术语词典的导航截图。

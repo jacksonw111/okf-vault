@@ -9,8 +9,6 @@ resource: "https://github.com/CopilotKit/CopilotKit"
 
 # CopilotKit（生成式 UI 开源方案）
 
-> 来源：[@IndieDevHailey on X 2026-06-07](https://x.com/IndieDevHailey/status/2063450486762811628)
-
 ## 它是什么
 
 [CopilotKit](https://github.com/CopilotKit/CopilotKit) 是一个 **React 组件 + AI Agent 集成框架**，GitHub 33k+ Star，目标是把 Claude Artifacts 那种「**AI 在 app 里实时生成可交互界面**」的能力**开源化、组件化、生产化**。

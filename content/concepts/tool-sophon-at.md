@@ -9,8 +9,6 @@ resource: "https://sophon.at"
 
 # Sophon（sophon.at）
 
-> 来源：[@vikingmute on X 2026-06-05](https://x.com/vikingmute/status/2062707469277855920)
-
 ## 它是什么
 
 [`sophon.at`](https://sophon.at) 是一个**聚合展示「AI 全栈相关信息」**的网站：
