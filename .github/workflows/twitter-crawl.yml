@@ -2,7 +2,7 @@ name: X/Twitter Crawl
 
 on:
   schedule:
-    - cron: "7 * * * *"        # 每小时 :07（避开 :00 高峰）
+    - cron: "7 * * * *" # 每小时 :07（避开 :00 高峰）
   workflow_dispatch:
     inputs:
       max_per_run:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # 用它推 → 不触发 okf.yml
+          token: ${{ secrets.GITHUB_TOKEN }} # 用它推 → 不触发 okf.yml
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -47,7 +47,7 @@ jobs:
           git config user.name  "twitter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
-          git add content/inbox/twitter
+          git add content/inbox/twitter content/news
           if git diff --cached --quiet; then
             echo "无新推文"
           else

@@ -95,7 +95,6 @@ jobs:
           ANTHROPIC_DEFAULT_OPUS_MODEL=glm-5.2 \
           claude -p "$PROMPT" --permission-mode auto --output-format text
 
-
       - name: 提交并推送整理结果到 main
         if: steps.keycheck.outputs.has_key == 'true'
         run: |
@@ -140,6 +139,9 @@ jobs:
 
       - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
         run: python3 scripts/build_overview.py
+
+      - name: 生成日报（构建前扫描 concepts/ 和 news/）
+        run: python3 scripts/build_daily.py
 
       - name: 构建 Quartz
         run: npx quartz build

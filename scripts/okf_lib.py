@@ -41,7 +41,8 @@ def parse_doc(text):
 def read_frontmatter(path):
     """读文件并解析 frontmatter；文件不存在/无 frontmatter 返回 None。"""
     try:
-        text = open(path, encoding='utf-8').read()
+        with open(path, encoding='utf-8') as f:
+            text = f.read()
     except OSError:
         return None
     return parse_doc(text)

@@ -1,112 +1,110 @@
-import type { RawTweet, MediaInfo } from "./types.js";
-import { formatDate } from "./io.js";
+import type { RawTweet, MediaInfo } from "./types.js"
+import { formatDate } from "./io.js"
 
 /** YAML 双引号安全包裹：转义反斜杠/双引号，换行→空格。 */
 export function yamlQuote(s: string): string {
-  const safe = (s ?? "")
-    .replace(/\\/g, "\\\\")
-    .replace(/"/g, '\\"')
-    .replace(/\r?\n/g, " ")
-    .trim();
-  return `"${safe}"`;
+  const safe = (s ?? "").replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\r?\n/g, " ").trim()
+  return `"${safe}"`
 }
 
 function titleFor(rt: RawTweet): string {
-  const t = rt.text ?? "";
-  const head = t.split(/\r?\n/)[0] ?? "";
-  if (head.length <= 80) return head;
-  return [...head].slice(0, 77).join("") + "…";
+  const t = rt.text ?? ""
+  const head = t.split(/\r?\n/)[0] ?? ""
+  if (head.length <= 80) return head
+  return [...head].slice(0, 77).join("") + "…"
 }
 
 function descriptionFor(rt: RawTweet): string {
-  return [...(rt.text ?? "")].slice(0, 280).join("");
+  return [...(rt.text ?? "")].slice(0, 280).join("")
 }
 
 function mediaBlock(media: MediaInfo): string {
-  const lines: string[] = [];
-  for (const img of media.images) lines.push(`![](${img})`);
+  const lines: string[] = []
+  for (const img of media.images) lines.push(`![](${img})`)
   if (media.videos.length > 0) {
-    lines.push("");
-    lines.push("视频：");
-    for (const v of media.videos) lines.push(`- <${v}>`);
+    lines.push("")
+    lines.push("视频：")
+    for (const v of media.videos) lines.push(`- <${v}>`)
   }
-  return lines.join("\n");
+  return lines.join("\n")
 }
 
 function bodyFor(rt: RawTweet, type: string): string {
-  const parts: string[] = [];
+  const parts: string[] = []
 
   if (type === "retweet" && rt.retweeted) {
-    const r = rt.retweeted;
-    parts.push(`> 转载 @${r.screenName}：`);
-    parts.push("");
-    parts.push(quoteBlock(r.text));
-    parts.push("");
-    parts.push(`> 来源：<https://x.com/${r.screenName}/status/${r.id}>`);
+    const r = rt.retweeted
+    parts.push("> 转发内容")
+    parts.push("")
+    parts.push(quoteBlock(r.text))
+    parts.push("")
+    parts.push(`> 原帖：<https://x.com/${r.screenName}/status/${r.id}>`)
     if (hasMedia(r.media)) {
-      parts.push("");
-      parts.push(mediaBlock(r.media));
+      parts.push("")
+      parts.push(mediaBlock(r.media))
     }
-    return parts.join("\n");
+    return parts.join("\n")
   }
 
   // 自身正文
-  parts.push(rt.text);
+  parts.push(rt.text)
 
   if (type === "thread" && rt.threadParts.length > 0) {
-    const total = rt.threadParts.length + 1;
-    let i = 2;
+    const total = rt.threadParts.length + 1
+    let i = 2
     for (const p of rt.threadParts) {
-      parts.push("");
-      parts.push(`--- ${i}/${total} ---`);
-      parts.push("");
-      parts.push(p.text);
+      parts.push("")
+      parts.push(`--- ${i}/${total} ---`)
+      parts.push("")
+      parts.push(p.text)
       if (hasMedia(p.media)) {
-        parts.push("");
-        parts.push(mediaBlock(p.media));
+        parts.push("")
+        parts.push(mediaBlock(p.media))
       }
-      i++;
+      i++
     }
   }
 
   if (type === "quote" && rt.quoted) {
-    const q = rt.quoted;
-    parts.push("");
-    parts.push(`> 引用 @${q.screenName}：`);
-    parts.push("");
-    parts.push(quoteBlock(q.text));
-    parts.push("");
-    parts.push(`> 来源：<https://x.com/${q.screenName}/status/${q.id}>`);
+    const q = rt.quoted
+    parts.push("")
+    parts.push("> 引用内容")
+    parts.push("")
+    parts.push(quoteBlock(q.text))
+    parts.push("")
+    parts.push(`> 原帖：<https://x.com/${q.screenName}/status/${q.id}>`)
     if (hasMedia(q.media)) {
-      parts.push("");
-      parts.push(mediaBlock(q.media));
+      parts.push("")
+      parts.push(mediaBlock(q.media))
     }
   }
 
   if (hasMedia(rt.media)) {
-    parts.push("");
-    parts.push(mediaBlock(rt.media));
+    parts.push("")
+    parts.push(mediaBlock(rt.media))
   }
 
-  return parts.join("\n");
+  return parts.join("\n")
 }
 
 function quoteBlock(text: string): string {
   return (text ?? "")
     .split(/\r?\n/)
     .map((l) => `> ${l}`)
-    .join("\n");
+    .join("\n")
 }
 
 function hasMedia(m: MediaInfo): boolean {
-  return m.images.length > 0 || m.videos.length > 0;
+  return m.images.length > 0 || m.videos.length > 0
 }
 
 export function renderMarkdown(
   rt: RawTweet,
   type: string,
-  createdDate: string
+  createdDate: string,
+  options: { tags?: string[] } = {},
 ): string {
+  const tags = options.tags ?? ["clippings", "twitter"]
   const fm = [
     "---",
     `title: ${yamlQuote(titleFor(rt))}`,
@@ -119,19 +117,13 @@ export function renderMarkdown(
     `created: ${yamlQuote(createdDate)}`,
     `description: ${yamlQuote(descriptionFor(rt))}`,
     "tags:",
-    `  - "clippings"`,
-    `  - "twitter"`,
+    ...tags.map((tag) => `  - ${yamlQuote(tag)}`),
     "---",
-  ].join("\n");
+  ].join("\n")
 
-  const body = bodyFor(rt, type);
+  const body = bodyFor(rt, type)
 
-  const tail = [
-    "",
-    "## 来源",
-    `<https://x.com/${rt.screenName}/status/${rt.id}>`,
-    "",
-  ].join("\n");
+  const tail = ["", "## 来源", `<https://x.com/${rt.screenName}/status/${rt.id}>`, ""].join("\n")
 
-  return `${fm}\n\n${body}\n${tail}`;
+  return `${fm}\n\n${body}\n${tail}`
 }

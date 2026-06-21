@@ -32,7 +32,8 @@ def validate(concepts_dir, content_root):
             continue  # 索引页不参与概念校验
         rel = os.path.relpath(path, ROOT if os.path.isdir(ROOT) else content_root)
         try:
-            text = open(path, encoding='utf-8').read()
+            with open(path, encoding='utf-8') as f:
+                text = f.read()
         except OSError as e:
             errors.append(f"{rel}: 读取失败 {e}")
             continue
