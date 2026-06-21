@@ -99,6 +99,46 @@ timestamp: 2026-06-17T00:00:00Z
 - [Sophon](concepts/tool-sophon-at.md)
 - [云端 Agent 基础设施的设计教训（CREAO）](concepts/note-cloud-agent-infrastructure.md)
 
+### Agent 框架 / Skills / MCP 工具
+
+- [agentcn（shadcn 的 AI Agent UI）](concepts/tool-agentcn.md)
+- [Vercel Eve 框架](concepts/tool-vercel-eve-framework.md)
+- [Vercel Labs Personal AI Template](concepts/tool-vercel-personal-ai-template.md)
+- [ORGII](concepts/tool-orgii.md)
+- [Repo→Agent](concepts/tool-repo-agent-generator.md)
+- [CodexPro](concepts/tool-codexpro.md)
+- [DevSpace](concepts/tool-devspace-mcp.md)
+- [Codex Control Plane MCP](concepts/tool-codex-control-plane-mcp.md)
+- [DeepSeek MCP WebSearch](concepts/tool-deepseek-mcp-websearch.md)
+- [Obscura（Rust 无头浏览器）](concepts/tool-obscura-headless-browser.md)
+- [GPT Image Skills](concepts/tool-gpt-image-skills.md)
+- [AI 视频广告提示词库](concepts/tool-ai-video-ad-prompts.md)
+- [AI Humanizer Handbook](concepts/tool-ai-humanizer-handbook.md)
+
+### 编程语言 / 工具链
+
+- [Node.js All-in-One](concepts/tool-node-all-in-one.md)
+- [PHP 8.5 零依赖微型框架](concepts/tool-php85-micro-framework.md)
+
+### 桌面 / 系统工具
+
+- [OmniWM（macOS 水平滚动平铺 WM）](concepts/tool-omniwm-macos.md)
+- [Forel（macOS 文件夹自动化）](concepts/tool-forel-macos.md)
+- [BiliMusic（B 站音乐播放器）](concepts/tool-bili-music-electron.md)
+
+### 物联网 / 智能硬件
+
+- [ESPHome Guition 语音助手旋钮屏](concepts/tool-esphome-guition-va.md)
+
+### 评测基准 / 论文索引
+
+- [eot-bench（LiveKit 话轮检测基准）](concepts/tool-eot-bench.md)
+- [Awesome World Action Models](concepts/tool-awesome-world-action-models.md)
+
+### 幻灯片 / 演示
+
+- [MD→Slides](concepts/tool-markdown-slides.md)
+
 ## 自托管 / 邮件
 
 - [Cloud Mail](concepts/tool-cloud-mail.md)

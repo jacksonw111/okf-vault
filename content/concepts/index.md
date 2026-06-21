@@ -67,6 +67,46 @@ timestamp: 2026-06-17T00:00:00Z
 - [Sophon](tool-sophon-at.md) — `Tool` — AI 全栈信息聚合站
 - [云端 Agent 基础设施的设计教训（CREAO）](note-cloud-agent-infrastructure.md) — `Note` — 两条硬教训 + 统一执行管道模式
 
+### Agent 框架 / Skills / MCP 工具
+
+- [agentcn（shadcn 的 AI Agent UI 仓库）](tool-agentcn.md) — `Tool` — 构建在 Vercel Eve 之上的 shadcn 风格 Agent UI registry
+- [Vercel Eve 框架](tool-vercel-eve-framework.md) — `Tool` — filesystem-convention 的 Agent 框架（agent/ 目录约定）
+- [Vercel Labs Personal AI Template](tool-vercel-personal-ai-template.md) — `Tool` — Vercel Labs 出品的持久化个人助手模板（Eve + Nuxt）
+- [ORGII](tool-orgii.md) — `Tool` — Rust + Tauri 多 Agent 协作框架
+- [Repo→Agent](tool-repo-agent-generator.md) — `Tool` — 把任意 GitHub 仓库生成为带 CLI / MCP / 签名的 Agent 包
+- [CodexPro](tool-codexpro.md) — `Tool` — ChatGPT Web ↔ 本地仓库 MCP 桥（自动隧道）
+- [DevSpace](tool-devspace-mcp.md) — `Tool` — 自托管 MCP 编程工作台（ChatGPT 变 Codex CLI）
+- [Codex Control Plane MCP](tool-codex-control-plane-mcp.md) — `Tool` — Codex Desktop 的持久化任务队列 MCP
+- [DeepSeek MCP WebSearch](tool-deepseek-mcp-websearch.md) — `Tool` — 基于 DeepSeek API 的 MCP 联网搜索
+- [Obscura（Rust 无头浏览器）](tool-obscura-headless-browser.md) — `Tool` — 反检测 + CDP 兼容 + 内置 MCP Server
+- [GPT Image Skills](tool-gpt-image-skills.md) — `Tool` — 32 个 GPT Image 2 配图 Skill 合集
+- [AI 视频广告提示词库](tool-ai-video-ad-prompts.md) — `Tool` — 52 条 Seedance/Veo/Kling/Runway 验证过的视频广告 prompt
+- [AI Humanizer Handbook](tool-ai-humanizer-handbook.md) — `Tool` — AI 文本人性化实操指南（手动润色 + 工具对比 + Skill）
+
+### 编程语言 / 工具链
+
+- [Node.js All-in-One](tool-node-all-in-one.md) — `Tool` — TS 运行器 + 包管理器 + 版本管理器合一
+- [PHP 8.5 零依赖微型框架](tool-php85-micro-framework.md) — `Tool` — 单条 PCRE 路由，850 行核心代码
+
+### 桌面 / 系统工具
+
+- [OmniWM（macOS 水平滚动平铺 WM）](tool-omniwm-macos.md) — `Tool` — Niri 风格的 macOS 滚动列平铺
+- [Forel（macOS 文件夹自动化）](tool-forel-macos.md) — `Tool` — Hazel 开源平替，FSEvents 实时监控
+- [BiliMusic（B 站音乐播放器）](tool-bili-music-electron.md) — `Tool` — Electron 把 B 站音乐包装成 Apple Music 风格
+
+### 物联网 / 智能硬件
+
+- [ESPHome Guition 语音助手旋钮屏](tool-esphome-guition-va.md) — `Tool` — 纯 YAML 配 HA 语音助手到圆形旋钮触控屏
+
+### 评测基准 / 论文索引
+
+- [eot-bench（LiveKit 话轮检测基准）](tool-eot-bench.md) — `Tool` — 首个公开真实人机对话 EOT 基准（14 语言）
+- [Awesome World Action Models](tool-awesome-world-action-models.md) — `Tool` — 具身智能 WAM 论文索引
+
+### 幻灯片 / 演示
+
+- [MD→Slides](tool-markdown-slides.md) — `Tool` — Markdown 原生幻灯片，16 布局 / KaTeX / Mermaid / PPTX 导出
+
 ## 自托管 / 邮件
 
 - [Cloud Mail](tool-cloud-mail.md) — `Tool` — 单域名「无限收发」自托管邮件
