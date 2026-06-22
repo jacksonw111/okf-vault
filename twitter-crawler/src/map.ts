@@ -10,16 +10,27 @@ export function toRawTweet(t: TweetApiUtilsData | undefined | null): RawTweet | 
   const legacy = tw.legacy ?? {};
   const fullText: string = legacy.fullText ?? "";
 
-  const noteText: string | undefined = tw.noteTweet?.noteTweetResults?.result?.text;
+  const noteResult: any = tw.noteTweet?.noteTweetResults?.result;
+  const noteText: string | undefined = noteResult?.text;
   const baseText = noteText ?? fullText;
 
-  const urlEntities: UrlEntity[] = (legacy.entities?.urls ?? []).map((u: any) => ({
-    url: u.url,
-    expandedUrl: u.expandedUrl,
-  }));
+  // 链接实体：短推文在 legacy.entities.urls；长推文（note tweet）只在 noteTweet.entitySet.urls。
+  // 两处合并，否则长推文里的 t.co 永远展不开。
+  const urlEntities: UrlEntity[] = [
+    ...((legacy.entities?.urls ?? []) as any[]),
+    ...((noteResult?.entitySet?.urls ?? []) as any[]),
+  ].map((u: any) => ({ url: u.url, expandedUrl: u.expandedUrl }));
 
   const mediaEntities: MediaEntity[] = (legacy.extendedEntities?.media ?? []) as MediaEntity[];
   const media = extractMedia(mediaEntities);
+
+  // 媒体占位 t.co（entities.media[].url）：正文里清掉，真实媒体已单独渲染。
+  const mediaTcoUrls: string[] = [
+    ...((legacy.entities?.media ?? []) as any[]),
+    ...((noteResult?.entitySet?.media ?? []) as any[]),
+  ]
+    .map((m: any) => m?.url)
+    .filter((s: any): s is string => typeof s === "string");
 
   const screenName: string =
     (t.user as any)?.core?.screenName ?? (t.user as any)?.legacy?.screenName ?? "";
@@ -33,7 +44,7 @@ export function toRawTweet(t: TweetApiUtilsData | undefined | null): RawTweet | 
 
   return {
     id: tw.restId ?? legacy.idStr ?? "",
-    text: expandTco(baseText, urlEntities, media),
+    text: expandTco(baseText, urlEntities, mediaTcoUrls),
     createdAt: legacy.createdAt ?? "",
     lang: legacy.lang,
     urls: urlEntities,

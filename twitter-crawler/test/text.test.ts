@@ -6,35 +6,32 @@ test("expandTco: 把 t.co 短链还原成 expandedUrl", () => {
   const out = expandTco(
     "see https://t.co/abc1 now",
     [{ url: "https://t.co/abc1", expandedUrl: "https://example.com/page" }],
-    { images: [], videos: [] }
+    []
   );
   assert.equal(out, "see https://example.com/page now");
 });
 
 test("expandTco: 没有 expandedUrl 时保留原短链", () => {
-  const out = expandTco("x https://t.co/zz", [{ url: "https://t.co/zz" }], {
-    images: [],
-    videos: [],
-  });
+  const out = expandTco("x https://t.co/zz", [{ url: "https://t.co/zz" }], []);
   assert.equal(out, "x https://t.co/zz");
 });
 
-test("expandTco: 剥离尾部媒体 t.co（图片）", () => {
-  const out = expandTco(
-    "hello https://t.co/media1",
-    [],
-    { images: ["https://t.co/media1"], videos: [] }
-  );
+test("expandTco: 剥离尾部媒体占位 t.co", () => {
+  const out = expandTco("hello https://t.co/media1", [], [
+    "https://t.co/media1",
+  ]);
   assert.equal(out, "hello");
 });
 
-test("expandTco: 嵌入正文中间的媒体 t.co 保留（只剥尾部）", () => {
+test("expandTco: 媒体占位 t.co 全清除（含正文中间）", () => {
+  // 媒体 t.co 是图片/视频占位符，真实媒体已单独渲染，正文里无论位置都清掉
   const out = expandTco(
     "see https://t.co/media1 in the middle",
     [],
-    { images: ["https://t.co/media1"], videos: [] }
+    ["https://t.co/media1"]
   );
-  assert.equal(out, "see https://t.co/media1 in the middle");
+  assert.equal(out.includes("t.co/media1"), false);
+  assert.match(out, /see.*middle/);
 });
 
 test("expandTco: 多个 url 都还原", () => {
@@ -44,7 +41,16 @@ test("expandTco: 多个 url 都还原", () => {
       { url: "https://t.co/a", expandedUrl: "https://a.com" },
       { url: "https://t.co/b", expandedUrl: "https://b.com" },
     ],
-    { images: [], videos: [] }
+    []
   );
   assert.equal(out, "a https://a.com b https://b.com");
+});
+
+test("expandTco: 同时还原真链接 + 清媒体占位", () => {
+  const out = expandTco(
+    "项目 https://t.co/proj 配图 https://t.co/media1",
+    [{ url: "https://t.co/proj", expandedUrl: "https://example.com/proj" }],
+    ["https://t.co/media1"]
+  );
+  assert.equal(out, "项目 https://example.com/proj 配图");
 });

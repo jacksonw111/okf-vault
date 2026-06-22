@@ -41,15 +41,24 @@ const base = (over: Record<string, unknown> = {}): TweetApiUtilsData =>
 /** 原创（短） */
 export const fxOriginal = base();
 
-/** 长推文（noteTweet 提供全文） */
+/** 长推文（noteTweet 提供全文 + entitySet.urls）—— 真实长推文的链接实体只在
+ *  noteTweet.entitySet.urls 里，legacy.entities.urls 是空的。用来确保 map.ts 读到它。 */
 export const fxNoteLong = base({
   tweet: tweet({
     legacy: legacy({
       fullText: "truncated… https://t.co/x",
-      entities: { urls: [{ url: "https://t.co/x", expandedUrl: "https://real.example", displayUrl: "real", indices: [0, 0] }] as any[], media: [] as any[] },
+      entities: { urls: [] as any[], media: [] as any[] },
     }),
     noteTweet: {
-      noteTweetResults: { result: { text: "这是一条很长的推文全文，不会被截断，包含完整内容。 https://t.co/x" } },
+      noteTweetResults: {
+        result: {
+          text: "这是一条很长的推文全文，不会被截断，包含完整内容。 https://t.co/x",
+          entitySet: {
+            urls: [{ url: "https://t.co/x", expandedUrl: "https://real.example" }],
+            media: [],
+          },
+        },
+      },
     },
   }),
 });
