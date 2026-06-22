@@ -3,7 +3,7 @@ type: Index
 title: "概念目录"
 description: "本 OKF bundle 内所有概念文件的导航页。"
 tags: "[okf, index]"
-timestamp: "2026-06-21T16:15:00Z"
+timestamp: "2026-06-22T07:45:00Z"
 ---
 
 # 概念目录
@@ -80,6 +80,8 @@ timestamp: "2026-06-21T16:15:00Z"
 - [DeepSeek MCP WebSearch](tool-deepseek-mcp-websearch.md) — `Tool` — 基于 DeepSeek API 的 MCP 联网搜索
 - [Obscura（Rust 无头浏览器）](tool-obscura-headless-browser.md) — `Tool` — 反检测 + CDP 兼容 + 内置 MCP Server
 - [GPT Image Skills](tool-gpt-image-skills.md) — `Tool` — 32 个 GPT Image 2 配图 Skill 合集
+- [Datalab LIFT（视觉文档 JSON 抽取模型）](tool-datalab-lift.md) — `Tool` — 9B VLM，给 JSON Schema 直接吐出符合格式的 JSON
+- [Loops（jwangkun/loops）](tool-loops-jwangkun.md) — `Tool` — 100 个 AI 自动化循环模板，「干→查→修→再干」结构化闭环
 - [AI 视频广告提示词库](tool-ai-video-ad-prompts.md) — `Tool` — 52 条 Seedance/Veo/Kling/Runway 验证过的视频广告 prompt
 - [AI Humanizer Handbook](tool-ai-humanizer-handbook.md) — `Tool` — AI 文本人性化实操指南（手动润色 + 工具对比 + Skill）
 - [pi-task](tool-pi-task-delegation.md) — `Tool` — Pi Agent 子任务委派扩展（前台 / 后台 + TUI 进度条）
@@ -110,6 +112,9 @@ timestamp: "2026-06-21T16:15:00Z"
 - [BiliMusic（B 站音乐播放器）](tool-bili-music-electron.md) — `Tool` — Electron 把 B 站音乐包装成 Apple Music 风格
 - [LX Music Desktop](tool-lx-music-electron.md) — `Tool` — Electron 跨平台桌面音乐播放器，兼容 LX 音源生态
 - [桌面 Markdown 浏览编辑器](tool-markdown-desktop-browser.md) — `Tool` — 文件树 + 渲染预览 + Mermaid + 大纲
+- [Waylandar](tool-waylandar.md) — `Tool` — Wayland 桌面上的 Google Calendar 桌面挂件
+- [Vaultty](tool-vaultty.md) — `Tool` — macOS 块式终端 + 钥匙串自动注入 .env
+- [本地 AI 桌面工作台](tool-local-ai-workbench.md) — `Tool` — Electron + 模型/Agent/路由三件套，本地优先 AI 桌面应用
 
 ### 物联网 / 智能硬件
 
@@ -128,6 +133,10 @@ timestamp: "2026-06-21T16:15:00Z"
 
 - [Cloud Mail](tool-cloud-mail.md) — `Tool` — 单域名「无限收发」自托管邮件
 
+## 自托管 / 工具
+
+- [3D 打印文件自托管资产管理](tool-3dprint-asset-manager.md) — `Tool` — STL/3MF/OBJ/STEP/G-code 多格式 + Moonraker/Klipper 工作流
+
 ## 阅读 / 资源
 
 - [10万本书 GitHub 仓库](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
@@ -142,3 +151,6 @@ timestamp: "2026-06-21T16:15:00Z"
 - [在 Obsidian 里开始用 OKF](playbook-okf-obsidian-start.md) — `Playbook`
 - [Monorepo 代码质量体系搭建](playbook-monorepo-code-quality-setup.md) — `Playbook`
 - [VLESS + WebSocket + TLS 绕过电信 QoS](playbook-vless-bypass-telecom-qos.md) — `Playbook`
+- [SPA 内嵌 PDF 查看器（react-pdf + Hono 代理）](playbook-spa-pdf-viewer.md) — `Playbook` — 跨前后端的 PDF 渲染 + 鉴权代理 + byte-range 透传 + 东财失效链兜底
+- [应用外壳侧边栏（base-ui + motion 多层装配）](playbook-app-shell-sidebar.md) — `Playbook` — shadcn primitive → AppShellSidebar 中间层 → 应用层数据的三层架构
+- [双轴主题系统（next-themes + shadcn data-theme）](playbook-dual-axis-theming.md) — `Playbook` — Mode × Preset 双维度自由组合 + 防 FOUC + 跨设备同步

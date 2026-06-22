@@ -112,6 +112,8 @@ timestamp: "2026-06-21T16:20:00Z"
 - [DeepSeek MCP WebSearch](concepts/tool-deepseek-mcp-websearch.md)
 - [Obscura（Rust 无头浏览器）](concepts/tool-obscura-headless-browser.md)
 - [GPT Image Skills](concepts/tool-gpt-image-skills.md)
+- [Datalab LIFT（视觉文档 JSON 抽取模型）](concepts/tool-datalab-lift.md) — 9B VLM，给 JSON Schema 直接吐出符合格式的 JSON
+- [Loops（jwangkun/loops）](concepts/tool-loops-jwangkun.md) — 100 个 AI 自动化循环模板
 - [AI 视频广告提示词库](concepts/tool-ai-video-ad-prompts.md)
 - [AI Humanizer Handbook](concepts/tool-ai-humanizer-handbook.md)
 - [pi-task](concepts/tool-pi-task-delegation.md) — Pi Agent 子任务委派扩展（前台 / 后台 + TUI 进度条）
@@ -142,6 +144,9 @@ timestamp: "2026-06-21T16:20:00Z"
 - [BiliMusic（B 站音乐播放器）](concepts/tool-bili-music-electron.md)
 - [LX Music Desktop](concepts/tool-lx-music-electron.md) — Electron 跨平台桌面音乐播放器，兼容 LX 音源生态
 - [桌面 Markdown 浏览编辑器](concepts/tool-markdown-desktop-browser.md) — 文件树 + 渲染预览 + Mermaid + 大纲
+- [Waylandar](concepts/tool-waylandar.md) — Wayland 桌面上的 Google Calendar 桌面挂件
+- [Vaultty](concepts/tool-vaultty.md) — macOS 块式终端 + 钥匙串自动注入 .env
+- [本地 AI 桌面工作台](concepts/tool-local-ai-workbench.md) — Electron + 模型/Agent/路由三件套，本地优先 AI 桌面应用
 
 ### 物联网 / 智能硬件
 
@@ -169,10 +174,17 @@ timestamp: "2026-06-21T16:20:00Z"
 - [a-stock-data](concepts/tool-a-stock-data.md)
 - [ngrok / webernetes](concepts/tool-ngrok-webernetes.md)
 
+## 自托管 / 工具
+
+- [3D 打印文件自托管资产管理](concepts/tool-3dprint-asset-manager.md) — STL/3MF/OBJ/STEP/G-code 多格式 + Moonraker/Klipper 工作流
+
 ## 操作手册
 
 - [在 Obsidian 里开始用 OKF（Playbook）](concepts/playbook-okf-obsidian-start.md)
 - [VLESS + WebSocket + TLS 绕过电信 QoS](concepts/playbook-vless-bypass-telecom-qos.md)
+- [SPA 内嵌 PDF 查看器（react-pdf + Hono 代理）](concepts/playbook-spa-pdf-viewer.md) — 跨前后端的 PDF 渲染 + 鉴权代理 + byte-range 透传 + 东财失效链兜底
+- [应用外壳侧边栏（base-ui + motion 多层装配）](concepts/playbook-app-shell-sidebar.md) — shadcn primitive → AppShellSidebar 中间层 → 应用层数据的三层架构
+- [双轴主题系统（next-themes + shadcn data-theme）](concepts/playbook-dual-axis-theming.md) — Mode × Preset 双维度自由组合 + 防 FOUC + 跨设备同步
 
 ## 配套文档
 
