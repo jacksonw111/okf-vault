@@ -3,7 +3,7 @@ type: Index
 title: "我的 OKF 知识库"
 description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
 tags: "[okf, root]"
-timestamp: "2026-06-21T16:20:00Z"
+timestamp: "2026-06-22T16:10:00Z"
 ---
 
 # 我的 OKF 知识库
@@ -90,6 +90,7 @@ timestamp: "2026-06-21T16:20:00Z"
 - [Vercel Design System](concepts/tool-vercel-design-system.md)
 - [前端 / 创客 资源合集](concepts/note-front-end-resources.md)
 - [DESIGN.md 最佳实践](concepts/note-design-md-best-practices.md)
+- [Vibecoded Design Tells（AI 生成网站的设计特征排名）](concepts/tool-vibecoded-design-tells.md) — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
 
 ## AI / Agent 生态
 
@@ -120,6 +121,8 @@ timestamp: "2026-06-21T16:20:00Z"
 - [Proxide](concepts/tool-proxide.md) — 任意 Agent 经 MCP / 浏览器接 ChatGPT Pro 网页强模型
 - [Claude Code 微醺创意 Skill](concepts/tool-claude-code-tipsy-skill.md) — 模拟「微醺」状态做创意头脑风暴
 - [Yozu Web](concepts/tool-yozu-web.md) — 企业差旅 AI 的前端 MVP
+- [Soul Grader Skill（SOUL.md 结构化评分）](concepts/tool-soul-grader-skill.md) — Hermes Agent 社区技能，9 维度量化 SOUL.md 身份文件质量
+- [PeakCode（AI 编码代理的图形界面）](concepts/tool-peakcode.md) — 多代理会话统一 GUI + Git 工作流整合
 
 ### 编程语言 / 工具链
 
@@ -147,6 +150,9 @@ timestamp: "2026-06-21T16:20:00Z"
 - [Waylandar](concepts/tool-waylandar.md) — Wayland 桌面上的 Google Calendar 桌面挂件
 - [Vaultty](concepts/tool-vaultty.md) — macOS 块式终端 + 钥匙串自动注入 .env
 - [本地 AI 桌面工作台](concepts/tool-local-ai-workbench.md) — Electron + 模型/Agent/路由三件套，本地优先 AI 桌面应用
+- [AQBot（AI 对话 / Agent / 网关桌面客户端）](concepts/tool-aqbot.md) — Tauri 2 多服务商对话 + Agent + API 网关三件套
+- [linXiv（本地优先学术论文管理）](concepts/tool-linxiv.md) — Tauri 桌面，SQLite + Gemini 标注 + Obsidian 集成 + 论文网络图
+- [Ember（原生 SwiftUI Hacker News 阅读器）](concepts/tool-ember-hackernews.md) — iOS/iPad/Mac 零依赖，评论原生展开 + 无障碍自动匹配
 
 ### 物联网 / 智能硬件
 
@@ -177,6 +183,11 @@ timestamp: "2026-06-21T16:20:00Z"
 ## 自托管 / 工具
 
 - [3D 打印文件自托管资产管理](concepts/tool-3dprint-asset-manager.md) — STL/3MF/OBJ/STEP/G-code 多格式 + Moonraker/Klipper 工作流
+- [Seeder（小团队自托管项目管理 + MCP）](concepts/tool-seeder.md) — 看板任务 + 客户请求队列 + 内置 MCP 服务器，Cloudflare Workers / Node VM 一键部署
+- [SafeBucket（预签名 URL 直传直下）](concepts/tool-safebucket.md) — Go + React，文件不经服务器中转，组件可插拔
+- [SimpleRelay（自托管 SMTP 中继）](concepts/tool-simplerelay.md) — FastAPI + Postfix + PostgreSQL，多租户 + IP 白名单 + SPF/DKIM/DMARC
+- [EasySNI（SNI / XRay / 域名前置单文件面板）](concepts/tool-easysni.md) — Go 单二进制集成 SNI 隧道 + XRay/sing-box + 域名前置 + 扫描器
+- [Incudal（Incus NAT VPS 销售面板）](concepts/tool-incudal.md) — Vue 3 + Fastify + Go Agent，LXC/KVM NAT VPS 自动交付 + 套餐余额 + 工单
 
 ## 操作手册
 
