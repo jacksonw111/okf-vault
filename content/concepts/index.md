@@ -91,6 +91,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Yozu Web](tool-yozu-web.md) — `Tool` — 企业差旅 AI 的前端 MVP（lorettawillow-lele/yozu-web）
 - [Soul Grader Skill（SOUL.md 结构化评分）](tool-soul-grader-skill.md) — `Tool` — Hermes Agent 社区技能，9 维度量化 SOUL.md 身份文件质量
 - [PeakCode（AI 编码代理的图形界面）](tool-peakcode.md) — `Tool` — 多代理会话统一 GUI + Git 工作流整合
+- [Brigade](tool-brigade.md) — `Tool` — 本地 AI 代理团队 + Tideline 共享长期记忆，多模型可切换
+- [EverOS](tool-everos.md) — `Tool` — 统一的本地长期记忆层，让不同 agent 共享并进化记忆
+- [Recall](tool-recall-claude-code.md) — `Tool` — Claude Code 离线持久化项目记忆插件，TextRank 摘要注入
+- [pi-web-agent](tool-pi-web-agent.md) — `Tool` — Pi 编码代理的网页工具包，单一 web_explore 接口老实上网
+- [pi-fusion](tool-pi-fusion.md) — `Tool` — Pi 多模型并行扇出 + 汇总扩展，终端分屏实时观察
+- [browser-search](tool-browser-search-agent.md) — `Tool` — SearXNG + Camofox + CloakBrowser 自托管搜索栈
+- [Fable 5 World Demo](tool-fable5-world-demo.md) — `Tool` — 浏览器内 4×4km 完全程序化开放世界，99% 代码由 Fable 5 生成
+- [Heartmorrow](tool-heartmorrow.md) — `Tool` — 本地 LLM 约会 + 世界模拟器，存档状态服务端校验防作弊
+- [obsidian-knowledge-agent](tool-obsidian-knowledge-agent.md) — `Tool` — 六阶段 AI 管道把 PDF / 论文自动整理为 Obsidian 笔记
 
 ### 编程语言 / 工具链
 
@@ -121,6 +130,9 @@ timestamp: "2026-06-22T16:10:00Z"
 - [AQBot（AI 对话 / Agent / 网关桌面客户端）](tool-aqbot.md) — `Tool` — Tauri 2 多服务商对话 + Agent + API 网关三件套
 - [linXiv（本地优先学术论文管理）](tool-linxiv.md) — `Tool` — Tauri 桌面，SQLite + Gemini 标注 + Obsidian 集成 + 论文网络图
 - [Ember（原生 SwiftUI Hacker News 阅读器）](tool-ember-hackernews.md) — `Tool` — iOS/iPad/Mac 零依赖，评论原生展开 + 无障碍自动匹配
+- [OpenMac（echosoar/openmac）](tool-openmac.md) — `Tool` — Swift macOS 本地 HTTP 服务，把 Vision / Translation 等系统能力暴露成 JSON API
+- [Targie](tool-targie-similar-finder.md) — `Tool` — macOS 重复 / 视觉相似视频与图片扫描工具
+- [Dfetch](tool-dfetch.md) — `Tool` — Go 写的轻量系统信息工具，neofetch 风格但更克制
 
 ### 物联网 / 智能硬件
 
@@ -147,6 +159,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [SimpleRelay（自托管 SMTP 中继）](tool-simplerelay.md) — `Tool` — FastAPI + Postfix + PostgreSQL，多租户 + IP 白名单 + SPF/DKIM/DMARC
 - [EasySNI（SNI / XRay / 域名前置单文件面板）](tool-easysni.md) — `Tool` — Go 单二进制集成 SNI 隧道 + XRay/sing-box + 域名前置 + 扫描器
 - [Incudal（Incus NAT VPS 销售面板）](tool-incudal.md) — `Tool` — Vue 3 + Fastify + Go Agent，LXC/KVM NAT VPS 自动交付 + 套餐余额 + 工单
+- [MADO-queue](tool-mado-queue.md) — `Tool` — 北海道芽室町自研的行政窗口叫号系统，Flask + SQLite + Docker
+- [无状态自托管 TOTP 工具](tool-totp-stateless.md) — `Tool` — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 
 ## 阅读 / 资源
 

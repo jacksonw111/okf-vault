@@ -123,6 +123,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Yozu Web](concepts/tool-yozu-web.md) — 企业差旅 AI 的前端 MVP
 - [Soul Grader Skill（SOUL.md 结构化评分）](concepts/tool-soul-grader-skill.md) — Hermes Agent 社区技能，9 维度量化 SOUL.md 身份文件质量
 - [PeakCode（AI 编码代理的图形界面）](concepts/tool-peakcode.md) — 多代理会话统一 GUI + Git 工作流整合
+- [Brigade](concepts/tool-brigade.md) — 本地 AI 代理团队 + Tideline 共享长期记忆
+- [EverOS](concepts/tool-everos.md) — 统一本地长期记忆层，多 agent 共享与进化
+- [Recall](concepts/tool-recall-claude-code.md) — Claude Code 离线持久化项目记忆插件
+- [pi-web-agent](concepts/tool-pi-web-agent.md) — Pi 编码代理的网页工具包，老实上网
+- [pi-fusion](concepts/tool-pi-fusion.md) — Pi 多模型并行扇出 + 汇总扩展
+- [browser-search](concepts/tool-browser-search-agent.md) — SearXNG + Camofox + CloakBrowser 自托管搜索栈
+- [Fable 5 World Demo](concepts/tool-fable5-world-demo.md) — 浏览器内 4×4km 完全程序化开放世界
+- [Heartmorrow](concepts/tool-heartmorrow.md) — 本地 LLM 约会 + 世界模拟器
+- [obsidian-knowledge-agent](concepts/tool-obsidian-knowledge-agent.md) — 六阶段 AI 管道自动整理 Obsidian 笔记
 
 ### 编程语言 / 工具链
 
@@ -153,6 +162,9 @@ timestamp: "2026-06-22T16:10:00Z"
 - [AQBot（AI 对话 / Agent / 网关桌面客户端）](concepts/tool-aqbot.md) — Tauri 2 多服务商对话 + Agent + API 网关三件套
 - [linXiv（本地优先学术论文管理）](concepts/tool-linxiv.md) — Tauri 桌面，SQLite + Gemini 标注 + Obsidian 集成 + 论文网络图
 - [Ember（原生 SwiftUI Hacker News 阅读器）](concepts/tool-ember-hackernews.md) — iOS/iPad/Mac 零依赖，评论原生展开 + 无障碍自动匹配
+- [OpenMac](concepts/tool-openmac.md) — Swift macOS 本地 HTTP 服务，把 Vision / Translation 等系统能力暴露成 JSON API
+- [Targie](concepts/tool-targie-similar-finder.md) — macOS 重复 / 视觉相似视频与图片扫描工具
+- [Dfetch](concepts/tool-dfetch.md) — Go 写的轻量系统信息工具，neofetch 风格但更克制
 
 ### 物联网 / 智能硬件
 
@@ -188,6 +200,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [SimpleRelay（自托管 SMTP 中继）](concepts/tool-simplerelay.md) — FastAPI + Postfix + PostgreSQL，多租户 + IP 白名单 + SPF/DKIM/DMARC
 - [EasySNI（SNI / XRay / 域名前置单文件面板）](concepts/tool-easysni.md) — Go 单二进制集成 SNI 隧道 + XRay/sing-box + 域名前置 + 扫描器
 - [Incudal（Incus NAT VPS 销售面板）](concepts/tool-incudal.md) — Vue 3 + Fastify + Go Agent，LXC/KVM NAT VPS 自动交付 + 套餐余额 + 工单
+- [MADO-queue](concepts/tool-mado-queue.md) — 北海道芽室町自研的行政窗口叫号系统
+- [无状态自托管 TOTP 工具](concepts/tool-totp-stateless.md) — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 
 ## 操作手册
 
