@@ -35,6 +35,6 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Proxide](concepts/tool-proxide.md) — 同属「让 Pi / 任意 Agent 能正经上网」的桥接思路（Proxide 走的是 ChatGPT 网页）
-- [browser-search](concepts/tool-browser-search-agent.md) — 同样提供 SearXNG + Camofox + CloakBrowser 自托管搜索栈
-- [pi-task](concepts/tool-pi-task-delegation.md) — Pi Agent 子任务委派扩展（前后台 + TUI 进度条）
+- [Proxide](tool-proxide.md) — 同属「让 Pi / 任意 Agent 能正经上网」的桥接思路（Proxide 走的是 ChatGPT 网页）
+- [browser-search](tool-browser-search-agent.md) — 同样提供 SearXNG + Camofox + CloakBrowser 自托管搜索栈
+- [pi-task](tool-pi-task-delegation.md) — Pi Agent 子任务委派扩展（前后台 + TUI 进度条）

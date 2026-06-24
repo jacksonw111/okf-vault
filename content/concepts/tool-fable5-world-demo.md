@@ -38,5 +38,5 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Heartmorrow](concepts/tool-heartmorrow.md) — 同样在浏览器里跑 LLM 驱动的可玩世界
-- [Pi Fusion](concepts/tool-pi-fusion.md) — 同样以「Fable 模型驱动 LLM 工作流」为核心
+- [Heartmorrow](tool-heartmorrow.md) — 同样在浏览器里跑 LLM 驱动的可玩世界
+- [Pi Fusion](tool-pi-fusion.md) — 同样以「Fable 模型驱动 LLM 工作流」为核心

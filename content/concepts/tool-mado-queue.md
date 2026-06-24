@@ -35,6 +35,6 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [SafeBucket](concepts/tool-safebucket.md) — 同属「自托管 / 替代 SaaS」路径（文件共享场景）
-- [Seeder](concepts/tool-seeder.md) — 同属「自托管项目管理 + MCP 化」路径
-- [Single Server](concepts/tool-single-server.md) — 把这类自托管服务部署到一台 Linux 机器上的标准 Playbook
+- [SafeBucket](tool-safebucket.md) — 同属「自托管 / 替代 SaaS」路径（文件共享场景）
+- [Seeder](tool-seeder.md) — 同属「自托管项目管理 + MCP 化」路径
+- [Single Server](tool-single-server.md) — 把这类自托管服务部署到一台 Linux 机器上的标准 Playbook

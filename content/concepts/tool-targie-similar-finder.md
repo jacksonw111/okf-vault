@@ -37,4 +37,4 @@ macOS 上的「重复 / 视觉相似」媒体查找器：扫描文件夹找出 S
 
 ## 相关概念
 
-- [OpenMac](concepts/tool-openmac.md) — 同样基于 macOS Vision 框架的本地工具，可与 Targie 配合做内容提取后去重
+- [OpenMac](tool-openmac.md) — 同样基于 macOS Vision 框架的本地工具，可与 Targie 配合做内容提取后去重

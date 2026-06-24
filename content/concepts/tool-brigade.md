@@ -37,6 +37,6 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [ORGII](concepts/tool-orgii.md) — 同样把 AI 当「同事」的 Rust + Tauri 多 Agent 协作框架
-- [EverOS](concepts/tool-everos.md) — 同样提供统一长期记忆层，让不同 agent 共享与进化记忆
-- [Agent Skills](concepts/term-agent-skills.md) — 角色与工作流的打包方式
+- [ORGII](tool-orgii.md) — 同样把 AI 当「同事」的 Rust + Tauri 多 Agent 协作框架
+- [EverOS](tool-everos.md) — 同样提供统一长期记忆层，让不同 agent 共享与进化记忆
+- [Agent Skills](term-agent-skills.md) — 角色与工作流的打包方式

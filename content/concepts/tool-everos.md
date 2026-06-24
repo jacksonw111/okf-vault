@@ -35,7 +35,7 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Recall](concepts/tool-recall-claude-code.md) — 同属「为 AI 代理提供长期记忆」赛道（Recall 专攻 Claude Code，EverOS 更通用）
-- [Brigade](concepts/tool-brigade.md) — 同样把多代理记忆作为核心抽象（Brigade 自带 Tideline 协议）
-- [ORGII](concepts/tool-orgii.md) — 多 Agent 协作框架，可与 EverOS 配套使用
-- [Agent Skills](concepts/term-agent-skills.md) — 记忆层之上的工作流打包方式
+- [Recall](tool-recall-claude-code.md) — 同属「为 AI 代理提供长期记忆」赛道（Recall 专攻 Claude Code，EverOS 更通用）
+- [Brigade](tool-brigade.md) — 同样把多代理记忆作为核心抽象（Brigade 自带 Tideline 协议）
+- [ORGII](tool-orgii.md) — 多 Agent 协作框架，可与 EverOS 配套使用
+- [Agent Skills](term-agent-skills.md) — 记忆层之上的工作流打包方式

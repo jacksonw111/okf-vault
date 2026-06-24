@@ -23,6 +23,7 @@ timestamp: 2026-06-16T12:30:00Z
 2. **每个文件必须有 YAML frontmatter，且必须含 `type` 字段**（唯一强制字段）。
 3. **文件路径 = 概念的唯一身份证**。一旦创建，路径要稳定；**绝不无故改名/移动**。
 4. **概念之间用 Markdown 链接互联**（`[显示名](./path.md)`），形成图谱。能用链接就别只用纯文字。
+   - ⚠️ **概念文件都在 `concepts/` 同一层**，互相链接用**同级路径** `[x](./x.md)` 或 `[x](x.md)`。**绝不要写 `[x](concepts/x.md)`**——你已经在 `concepts/` 里了，再写 `concepts/` 会解析成 `concepts/concepts/x.md`，CI 校验会判为断链、整站构建失败。
 5. **复用而非重建**：动手前先在 `concepts/` 搜是否已有同名/同义概念。有就**更新**，没有才**新建**。
 6. 所有概念文件**扁平地**放进 `concepts/` 根目录（如 `concepts/tool-obsidian.md`）——**不按 type 分子目录**。`type` 只存在于 frontmatter，**不决定路径**。这样改 type 不必移动文件、不破坏路径稳定性（与规则 3 一致；也符合 OKF v0.1「文件路径 = 概念稳定身份」）。分类浏览由 `concepts/index.md` 与 `overview.md` 按 frontmatter 的 `type` 分组呈现，不靠目录结构。
 

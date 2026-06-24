@@ -38,4 +38,4 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [SafeBucket](concepts/tool-safebucket.md) — 同属「预签名 / 客户端签名」自托管思路，省去服务器中转
+- [SafeBucket](tool-safebucket.md) — 同属「预签名 / 客户端签名」自托管思路，省去服务器中转

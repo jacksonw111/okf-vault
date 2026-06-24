@@ -37,5 +37,5 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Proxide](concepts/tool-proxide.md) — 同样是「让本机能力被外部代理调用」的桥接思路（这里是 ChatGPT 网页）
-- [Vaultty](concepts/tool-vaultty.md) — 同样属于「macOS 本地系统能力复用」的工具
+- [Proxide](tool-proxide.md) — 同样是「让本机能力被外部代理调用」的桥接思路（这里是 ChatGPT 网页）
+- [Vaultty](tool-vaultty.md) — 同样属于「macOS 本地系统能力复用」的工具

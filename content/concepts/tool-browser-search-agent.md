@@ -34,6 +34,6 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Obscura](concepts/tool-obscura-headless-browser.md) — 同属「自托管反检测浏览器」赛道（Rust / CDP 兼容）
-- [DeepSeek MCP WebSearch](concepts/tool-deepseek-mcp-websearch.md) — 把联网搜索装进 MCP server 的另一条路径
-- [pi-web-agent](concepts/tool-pi-web-agent.md) — 把同类能力封装为 Pi 代理可调用的单工具
+- [Obscura](tool-obscura-headless-browser.md) — 同属「自托管反检测浏览器」赛道（Rust / CDP 兼容）
+- [DeepSeek MCP WebSearch](tool-deepseek-mcp-websearch.md) — 把联网搜索装进 MCP server 的另一条路径
+- [pi-web-agent](tool-pi-web-agent.md) — 把同类能力封装为 Pi 代理可调用的单工具

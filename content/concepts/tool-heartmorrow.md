@@ -41,4 +41,4 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Fable 5 World Demo](concepts/tool-fable5-world-demo.md) — 同样是用本地 LLM + 代码生成完整可玩世界的演示
+- [Fable 5 World Demo](tool-fable5-world-demo.md) — 同样是用本地 LLM + 代码生成完整可玩世界的演示

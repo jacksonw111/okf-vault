@@ -36,7 +36,7 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Obsidian](concepts/tool-obsidian.md) — 笔记产物落地的目标编辑器
-- [Cabinet](concepts/tool-cabinet.md) — 同样在 Obsidian 之上挂一层 AI 代理运行时
-- [Niamos](concepts/tool-niamos.md) — Obsidian PARA 模板的另一种「结构化入口」思路
-- [OKF Enrichment Agent](concepts/tool-okf-enrichment-agent.md) — 同样的「AI 自动产出概念文档」模式（但目标是 OKF bundle）
+- [Obsidian](tool-obsidian.md) — 笔记产物落地的目标编辑器
+- [Cabinet](tool-cabinet.md) — 同样在 Obsidian 之上挂一层 AI 代理运行时
+- [Niamos](tool-niamos.md) — Obsidian PARA 模板的另一种「结构化入口」思路
+- [OKF Enrichment Agent](tool-okf-enrichment-agent.md) — 同样的「AI 自动产出概念文档」模式（但目标是 OKF bundle）

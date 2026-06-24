@@ -37,4 +37,4 @@ timestamp: "2026-06-23T15:30:00Z"
 
 ## 相关概念
 
-- [Nefoin](concepts/tool-nefoin-nerdfont.md) — 同样属于「一行命令省心」的 CLI 工具（Nefoin 装字体）
+- [Nefoin](tool-nefoin-nerdfont.md) — 同样属于「一行命令省心」的 CLI 工具（Nefoin 装字体）
