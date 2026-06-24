@@ -91,6 +91,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [前端 / 创客 资源合集](concepts/note-front-end-resources.md)
 - [DESIGN.md 最佳实践](concepts/note-design-md-best-practices.md)
 - [Vibecoded Design Tells（AI 生成网站的设计特征排名）](concepts/tool-vibecoded-design-tells.md) — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
+- [liquid-glass](concepts/tool-liquid-glass.md) — React 零依赖液态玻璃折射组件
 
 ## AI / Agent 生态
 
@@ -124,6 +125,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Soul Grader Skill（SOUL.md 结构化评分）](concepts/tool-soul-grader-skill.md) — Hermes Agent 社区技能，9 维度量化 SOUL.md 身份文件质量
 - [PeakCode（AI 编码代理的图形界面）](concepts/tool-peakcode.md) — 多代理会话统一 GUI + Git 工作流整合
 - [Brigade](concepts/tool-brigade.md) — 本地 AI 代理团队 + Tideline 共享长期记忆
+- [AgentStalker](concepts/tool-agent-stalker.md) — 把 LLM Agent 当系统而非模型来审计
+- [motion-skills](concepts/tool-motion-skills.md) — iart 发布的 50 个运动图形 Skill
+- [Light-skills](concepts/tool-light-skills.md) — 28 个科研全流程 AI Skill
+- [AgentCrew](concepts/tool-agent-crew.md) — 多智能体协作聊天应用
+- [Aura-IDE](concepts/tool-aura-ide.md) — Planner/Worker 双智能体本地编码工作台
+- [Evano Studio](concepts/tool-evano-studio.md) — Electron + Python 本地 AI 桌面工作台
+- [Lumina](concepts/tool-lumina-agent-runtime.md) — 端侧 AI Agent 轻量运行时
+- [Nemos](concepts/tool-nemos-memory.md) — 带分层记忆的 AI 陪伴聊天
+- [GameDesignOS](concepts/tool-game-design-os.md) — 本地 AI 辅助游戏设计 OS
 - [EverOS](concepts/tool-everos.md) — 统一本地长期记忆层，多 agent 共享与进化
 - [Recall](concepts/tool-recall-claude-code.md) — Claude Code 离线持久化项目记忆插件
 - [pi-web-agent](concepts/tool-pi-web-agent.md) — Pi 编码代理的网页工具包，老实上网
@@ -148,6 +158,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Single Server](concepts/tool-single-server.md) — 一台 Linux 服务器串 Cloudflare + Tailscale + Kamal 一键部署
 - [OPG](concepts/tool-opg-backend.md) — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付）
 - [NasberryPi](concepts/tool-nasberry-pi.md) — 树莓派轻量 NAS CLI，一条命令配 Samba
+- [docker-android](concepts/tool-docker-android.md) — Docker 镜像封装 Android 模拟器
+- [DataBuff](concepts/tool-databuff.md) — AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 
 ### 桌面 / 系统工具
 
@@ -165,6 +177,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [OpenMac](concepts/tool-openmac.md) — Swift macOS 本地 HTTP 服务，把 Vision / Translation 等系统能力暴露成 JSON API
 - [Targie](concepts/tool-targie-similar-finder.md) — macOS 重复 / 视觉相似视频与图片扫描工具
 - [Dfetch](concepts/tool-dfetch.md) — Go 写的轻量系统信息工具，neofetch 风格但更克制
+- [DeskBox](concepts/tool-deskbox.md) — WinUI 3 桌面整理工具，托盘 / 全局快捷键管理文件收集与文件夹映射
+- [Evano Studio](concepts/tool-evano-studio.md) — Electron + Python 本地 AI 桌面工作台
 
 ### 物联网 / 智能硬件
 
@@ -186,11 +200,23 @@ timestamp: "2026-06-22T16:10:00Z"
 ## 阅读 / 资源
 
 - [10万本书 GitHub 仓库](concepts/tool-ebook-library-100k.md)
+- [后端面试开放式问题清单](concepts/tool-backend-interview-questions.md) — 11 个方向的开源后端面试问题
+- [ExamPrep-AI](concepts/tool-exam-prep-ai.md) — Streamlit 把 PDF 笔记转摘要/选择题/闪卡
 
 ## 金融 / 数据
 
 - [a-stock-data](concepts/tool-a-stock-data.md)
 - [ngrok / webernetes](concepts/tool-ngrok-webernetes.md)
+- [Finnhub 美股 API](concepts/tool-finnhub-api.md) — 免费层 60 req/min 的美股行情/财报/新闻 REST API
+
+## 网络 / 代理
+
+- [ClashOmega](concepts/tool-clash-omega.md) — Clash 代理规则管理 Chrome 扩展
+- [HypoMux](concepts/tool-hypomux.md) — Windows 多网卡带宽聚合下载加速
+
+## AI 编码 IDE
+
+- [Aura-IDE](concepts/tool-aura-ide.md) — Planner/Worker 双智能体本地编码工作台，diff 审批 + 自动验证
 
 ## 自托管 / 工具
 
@@ -202,6 +228,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Incudal（Incus NAT VPS 销售面板）](concepts/tool-incudal.md) — Vue 3 + Fastify + Go Agent，LXC/KVM NAT VPS 自动交付 + 套餐余额 + 工单
 - [MADO-queue](concepts/tool-mado-queue.md) — 北海道芽室町自研的行政窗口叫号系统
 - [无状态自托管 TOTP 工具](concepts/tool-totp-stateless.md) — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
+- [LawLink](concepts/tool-lawlink.md) — 中小律所开源自部署案件管理系统
 
 ## 操作手册
 

@@ -56,6 +56,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [animations.dev/vocabulary](tool-animations-dev-vocabulary.md) — `Tool` — Emil Kowalski 动画动作词汇表
 - [Trees（IDE 风格文件树组件）](tool-trees-rammcodes.md) — `Tool` — IDE 风格文件树组件
 - [Vercel Design System](tool-vercel-design-system.md) — `Tool` — vercel.com/design.md 公开设计系统页
+- [liquid-glass](tool-liquid-glass.md) — `Tool` — React 零依赖液态玻璃折射组件
 - [前端 / 创客 资源合集](note-front-end-resources.md) — `Note`
 - [DESIGN.md 最佳实践](note-design-md-best-practices.md) — `Note` — 把设计系统装进 .md 喂给 AI
 - [Vibecoded Design Tells（AI 生成网站的设计特征排名）](tool-vibecoded-design-tells.md) — `Tool` — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
@@ -100,6 +101,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Fable 5 World Demo](tool-fable5-world-demo.md) — `Tool` — 浏览器内 4×4km 完全程序化开放世界，99% 代码由 Fable 5 生成
 - [Heartmorrow](tool-heartmorrow.md) — `Tool` — 本地 LLM 约会 + 世界模拟器，存档状态服务端校验防作弊
 - [obsidian-knowledge-agent](tool-obsidian-knowledge-agent.md) — `Tool` — 六阶段 AI 管道把 PDF / 论文自动整理为 Obsidian 笔记
+- [AgentStalker](tool-agent-stalker.md) — `Tool` — 把 LLM Agent 当系统而非模型来审计：污点图 → 攻击链 → 沙箱重放 → 报告
+- [motion-skills](tool-motion-skills.md) — `Tool` — iart 发布的 50 个运动图形 Skill，每条带 SKILL.md + 渲染验证
+- [Light-skills](tool-light-skills.md) — `Tool` — 28 个科研全流程 AI Skill，从文献调研到投稿返修
+- [AgentCrew](tool-agent-crew.md) — `Tool` — 多智能体协作聊天应用，4 种入口（GUI / 终端 / 自动化作业 / HTTP API）
+- [Aura-IDE](tool-aura-ide.md) — `Tool` — Planner/Worker 双智能体本地编码工作台，写文件前先显示 diff 让用户逐条审批
+- [Evano Studio](tool-evano-studio.md) — `Tool` — Electron + Python 本地 AI 桌面工作台，Ollama + 多 Agent + RAG
+- [Lumina](tool-lumina-agent-runtime.md) — `Tool` — 端侧 AI Agent 轻量运行时，ReAct + 工具注册表 + 会话快照
+- [Nemos](tool-nemos-memory.md) — `Tool` — 带分层记忆的 AI 陪伴聊天，5 层存储 + 主题路由 + 矛盾失效
+- [GameDesignOS](tool-game-design-os.md) — `Tool` — 本地 AI 辅助游戏设计 OS，会话转结构化决策/证据/实验/资产
 
 ### 编程语言 / 工具链
 
@@ -116,6 +126,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Single Server](tool-single-server.md) — `Tool` — 一台 Linux 服务器串 Cloudflare + Tailscale + Docker + Kamal 一键部署
 - [OPG](tool-opg-backend.md) — `Tool` — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付 / 计费）
 - [NasberryPi](tool-nasberry-pi.md) — `Tool` — 树莓派轻量 NAS CLI，一条命令配 Samba
+- [docker-android](tool-docker-android.md) — `Tool` — Docker 镜像封装 Android 模拟器，远程 adb 直连
+- [DataBuff](tool-databuff.md) — `Tool` — 国产 AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 
 ### 桌面 / 系统工具
 
@@ -133,6 +145,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [OpenMac（echosoar/openmac）](tool-openmac.md) — `Tool` — Swift macOS 本地 HTTP 服务，把 Vision / Translation 等系统能力暴露成 JSON API
 - [Targie](tool-targie-similar-finder.md) — `Tool` — macOS 重复 / 视觉相似视频与图片扫描工具
 - [Dfetch](tool-dfetch.md) — `Tool` — Go 写的轻量系统信息工具，neofetch 风格但更克制
+- [DeskBox](tool-deskbox.md) — `Tool` — WinUI 3 桌面整理工具，托盘 / 全局快捷键管理文件收集与文件夹映射
+- [Evano Studio](tool-evano-studio.md) — `Tool` — Electron + Python 本地 AI 桌面工作台，Ollama + 多 Agent + RAG
 
 ### 物联网 / 智能硬件
 
@@ -161,15 +175,28 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Incudal（Incus NAT VPS 销售面板）](tool-incudal.md) — `Tool` — Vue 3 + Fastify + Go Agent，LXC/KVM NAT VPS 自动交付 + 套餐余额 + 工单
 - [MADO-queue](tool-mado-queue.md) — `Tool` — 北海道芽室町自研的行政窗口叫号系统，Flask + SQLite + Docker
 - [无状态自托管 TOTP 工具](tool-totp-stateless.md) — `Tool` — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
+- [LawLink](tool-lawlink.md) — `Tool` — 中小律所开源自部署案件管理系统，Next.js 16 + PostgreSQL，Docker 一键起
 
 ## 阅读 / 资源
 
 - [10万本书 GitHub 仓库](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
+- [后端面试开放式问题清单](tool-backend-interview-questions.md) — `Tool` — 11 个方向的开源后端面试问题清单，无标准答案，用来引出技术对话
+- [ExamPrep-AI](tool-exam-prep-ai.md) — `Tool` — Streamlit 把 PDF 笔记转摘要/选择题/闪卡，支持本地 Ollama 或 Gemini
 
 ## 金融 / 数据
 
 - [a-stock-data](tool-a-stock-data.md) — `Tool` — A 股全栈数据 Skill（13 源 / 28 端点）
 - [ngrok / webernetes](tool-ngrok-webernetes.md) — `Tool` — K8s + ngrok 公网隧道集成
+- [Finnhub 美股 API](tool-finnhub-api.md) — `Tool` — 免费层 60 req/min 的美股行情/财报/新闻 REST API
+
+## 网络 / 代理
+
+- [ClashOmega](tool-clash-omega.md) — `Tool` — Clash 代理规则管理 Chrome 扩展，致敬 SwitchyOmega
+- [HypoMux](tool-hypomux.md) — `Tool` — Windows 多网卡带宽聚合下载加速，L3 套接字绑定 + 双协议代理
+
+## AI 编码 IDE
+
+- [Aura-IDE](tool-aura-ide.md) — `Tool` — Planner/Worker 双智能体本地编码工作台，diff 审批 + 自动验证
 
 ## Playbooks（操作手册）
 
