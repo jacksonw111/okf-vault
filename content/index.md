@@ -92,6 +92,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [DESIGN.md 最佳实践](concepts/note-design-md-best-practices.md)
 - [Vibecoded Design Tells（AI 生成网站的设计特征排名）](concepts/tool-vibecoded-design-tells.md) — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
 - [liquid-glass](concepts/tool-liquid-glass.md) — React 零依赖液态玻璃折射组件
+- [Astro 7](concepts/tool-astro-7.md) — 内容驱动 Web 框架第 7 主版本
+- [sitecheck](concepts/tool-sitecheck.md) — 浏览器扩展嗅探网站技术栈 + Geo / DNS / WHOIS
 
 ## AI / Agent 生态
 
@@ -134,6 +136,12 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Lumina](concepts/tool-lumina-agent-runtime.md) — 端侧 AI Agent 轻量运行时
 - [Nemos](concepts/tool-nemos-memory.md) — 带分层记忆的 AI 陪伴聊天
 - [GameDesignOS](concepts/tool-game-design-os.md) — 本地 AI 辅助游戏设计 OS
+- [happy-figure-skill](concepts/tool-happy-figure-skill.md) — 科研绘图 prompt 生成 Skill
+- [Casting-Workflow](concepts/tool-casting-workflow.md) — 番茄小说短篇生成：5 篇指纹互消绕查重
+- [Qwen-AgentWorld](concepts/tool-qwen-agentworld.md) — 通义千问原生语言世界模型
+- [Skill_MAS](concepts/tool-skill-mas.md) — 元技能进化自动设计多智能体系统
+- [zu-article-image-skill](concepts/tool-zu-article-image-skill.md) — Markdown 文章配图 Skill
+- [speaker（学术演讲 PPTX 备注 Skill）](concepts/tool-speaker-pptx-skill.md) — 文本提取 + 渲染 + OCR + 视觉审查
 - [EverOS](concepts/tool-everos.md) — 统一本地长期记忆层，多 agent 共享与进化
 - [Recall](concepts/tool-recall-claude-code.md) — Claude Code 离线持久化项目记忆插件
 - [pi-web-agent](concepts/tool-pi-web-agent.md) — Pi 编码代理的网页工具包，老实上网
@@ -179,15 +187,22 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Dfetch](concepts/tool-dfetch.md) — Go 写的轻量系统信息工具，neofetch 风格但更克制
 - [DeskBox](concepts/tool-deskbox.md) — WinUI 3 桌面整理工具，托盘 / 全局快捷键管理文件收集与文件夹映射
 - [Evano Studio](concepts/tool-evano-studio.md) — Electron + Python 本地 AI 桌面工作台
+- [y-times-y / y](concepts/tool-y-times-y.md) — 可自我修改的桌面编程智能体
+- [pi-desktop](concepts/tool-pi-desktop.md) — Pi Coding Agent 原生桌面外壳
+- [autoshorts](concepts/tool-autoshorts.md) — 长视频转竖屏短视频
+- [repotato](concepts/tool-repotato.md) — GitHub 日报 TUI + 本地 Claude 试用
+- [lex-ghostty-shaders](concepts/tool-lex-ghostty-shaders.md) — Ghostty 终端水波纹 shader
 
 ### 物联网 / 智能硬件
 
 - [ESPHome Guition 语音助手旋钮屏](concepts/tool-esphome-guition-va.md)
+- [Seahi-Serial](concepts/tool-seahi-serial.md) — 多串口调试工具
 
 ### 评测基准 / 论文索引
 
 - [eot-bench（LiveKit 话轮检测基准）](concepts/tool-eot-bench.md)
 - [Awesome World Action Models](concepts/tool-awesome-world-action-models.md)
+- [awesome-evals（BenchFlow 带注释清单）](concepts/tool-awesome-evals.md)
 
 ### 幻灯片 / 演示
 
@@ -202,6 +217,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [10万本书 GitHub 仓库](concepts/tool-ebook-library-100k.md)
 - [后端面试开放式问题清单](concepts/tool-backend-interview-questions.md) — 11 个方向的开源后端面试问题
 - [ExamPrep-AI](concepts/tool-exam-prep-ai.md) — Streamlit 把 PDF 笔记转摘要/选择题/闪卡
+- [codex-orange-book](concepts/tool-codex-orange-book.md) — 非官方 Codex 全链路指南
 
 ## 金融 / 数据
 
@@ -213,6 +229,7 @@ timestamp: "2026-06-22T16:10:00Z"
 
 - [ClashOmega](concepts/tool-clash-omega.md) — Clash 代理规则管理 Chrome 扩展
 - [HypoMux](concepts/tool-hypomux.md) — Windows 多网卡带宽聚合下载加速
+- [shadowrocket-config](concepts/tool-shadowrocket-config.md) — 防 DNS 泄露配置（ACL4SSR）
 
 ## AI 编码 IDE
 

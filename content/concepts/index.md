@@ -60,6 +60,8 @@ timestamp: "2026-06-22T16:10:00Z"
 - [前端 / 创客 资源合集](note-front-end-resources.md) — `Note`
 - [DESIGN.md 最佳实践](note-design-md-best-practices.md) — `Note` — 把设计系统装进 .md 喂给 AI
 - [Vibecoded Design Tells（AI 生成网站的设计特征排名）](tool-vibecoded-design-tells.md) — `Tool` — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
+- [Astro 7](tool-astro-7.md) — `Tool` — 内容驱动 Web 框架第 7 主版本
+- [sitecheck](tool-sitecheck.md) — `Tool` — 浏览器扩展嗅探网站技术栈 + Geo / DNS / WHOIS
 
 ## AI / Agent 生态
 
@@ -110,6 +112,12 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Lumina](tool-lumina-agent-runtime.md) — `Tool` — 端侧 AI Agent 轻量运行时，ReAct + 工具注册表 + 会话快照
 - [Nemos](tool-nemos-memory.md) — `Tool` — 带分层记忆的 AI 陪伴聊天，5 层存储 + 主题路由 + 矛盾失效
 - [GameDesignOS](tool-game-design-os.md) — `Tool` — 本地 AI 辅助游戏设计 OS，会话转结构化决策/证据/实验/资产
+- [happy-figure-skill](tool-happy-figure-skill.md) — `Tool` — 科研绘图 prompt 生成 Skill（领域 × 图类型 × 模型路由）
+- [Casting-Workflow](tool-casting-workflow.md) — `Tool` — 番茄小说短篇生成：5 篇指纹互消绕查重
+- [Qwen-AgentWorld](tool-qwen-agentworld.md) — `Tool` — 通义千问原生语言世界模型，覆盖 7 个 agent 交互域
+- [Skill_MAS](tool-skill-mas.md) — `Tool` — 元技能进化自动设计与编排多智能体系统
+- [zu-article-image-skill](tool-zu-article-image-skill.md) — `Tool` — Markdown 文章配图 Skill（可编辑 prompt + 自动回插）
+- [speaker（学术演讲 PPTX 备注 Skill）](tool-speaker-pptx-skill.md) — `Tool` — 文本提取 + 渲染 + OCR + 视觉审查，逐页生成可注入备注
 
 ### 编程语言 / 工具链
 
@@ -147,15 +155,22 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Dfetch](tool-dfetch.md) — `Tool` — Go 写的轻量系统信息工具，neofetch 风格但更克制
 - [DeskBox](tool-deskbox.md) — `Tool` — WinUI 3 桌面整理工具，托盘 / 全局快捷键管理文件收集与文件夹映射
 - [Evano Studio](tool-evano-studio.md) — `Tool` — Electron + Python 本地 AI 桌面工作台，Ollama + 多 Agent + RAG
+- [y-times-y / y（可自我修改的桌面编程智能体）](tool-y-times-y.md) — `Tool` — 默认聊天 + Modify 系统实时编辑 UI + 并行 Claude Code / Codex
+- [pi-desktop](tool-pi-desktop.md) — `Tool` — Pi Coding Agent 原生桌面外壳（真 PTY + 会话管理）
+- [autoshorts](tool-autoshorts.md) — `Tool` — Tauri 2 长视频 / 音频转竖屏短视频 + AI 选爆款段
+- [repotato（GitHub 日报 TUI）](tool-repotato.md) — `Tool` — 终端浏览 GitHub 日报 + 真实点赞 + 本地 Claude 试用 / 卸载
+- [lex-ghostty-shaders](tool-lex-ghostty-shaders.md) — `Tool` — GLM-5.2 vibe-coded 的 Ghostty 终端水波纹 shader
 
 ### 物联网 / 智能硬件
 
 - [ESPHome Guition 语音助手旋钮屏](tool-esphome-guition-va.md) — `Tool` — 纯 YAML 配 HA 语音助手到圆形旋钮触控屏
+- [Seahi-Serial（多串口调试工具）](tool-seahi-serial.md) — `Tool` — VS Code Serial Monitor 风格，同时多路串口 + ANSI 颜色
 
 ### 评测基准 / 论文索引
 
 - [eot-bench（LiveKit 话轮检测基准）](tool-eot-bench.md) — `Tool` — 首个公开真实人机对话 EOT 基准（14 语言）
 - [Awesome World Action Models](tool-awesome-world-action-models.md) — `Tool` — 具身智能 WAM 论文索引
+- [awesome-evals（BenchFlow 带注释清单）](tool-awesome-evals.md) — `Tool` — 1.16 万论文 + 47 场演讲逐字记录，447+ 条带注释链接
 
 ### 幻灯片 / 演示
 
@@ -182,6 +197,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [10万本书 GitHub 仓库](tool-ebook-library-100k.md) — `Tool` — epub/mobi/azw3 三格式聚合（约 10 万本）
 - [后端面试开放式问题清单](tool-backend-interview-questions.md) — `Tool` — 11 个方向的开源后端面试问题清单，无标准答案，用来引出技术对话
 - [ExamPrep-AI](tool-exam-prep-ai.md) — `Tool` — Streamlit 把 PDF 笔记转摘要/选择题/闪卡，支持本地 Ollama 或 Gemini
+- [codex-orange-book（非官方 Codex 全链路指南）](tool-codex-orange-book.md) — `Tool` — 五大篇章 + 进阶专题（Skill / MCP / 记忆系统）持续更新
 
 ## 金融 / 数据
 
@@ -193,6 +209,7 @@ timestamp: "2026-06-22T16:10:00Z"
 
 - [ClashOmega](tool-clash-omega.md) — `Tool` — Clash 代理规则管理 Chrome 扩展，致敬 SwitchyOmega
 - [HypoMux](tool-hypomux.md) — `Tool` — Windows 多网卡带宽聚合下载加速，L3 套接字绑定 + 双协议代理
+- [shadowrocket-config](tool-shadowrocket-config.md) — `Tool` — 基于 ACL4SSR 防 DNS 泄露配置（国内 UDP + 境外 DoH 四路并发）
 
 ## AI 编码 IDE
 
