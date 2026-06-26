@@ -3,7 +3,7 @@ type: Index
 title: "概念目录"
 description: "本 OKF bundle 内所有概念文件的导航页。"
 tags: "[okf, index]"
-timestamp: "2026-06-22T16:10:00Z"
+timestamp: "2026-06-26T16:50:00Z"
 ---
 
 # 概念目录
@@ -118,6 +118,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Skill_MAS](tool-skill-mas.md) — `Tool` — 元技能进化自动设计与编排多智能体系统
 - [zu-article-image-skill](tool-zu-article-image-skill.md) — `Tool` — Markdown 文章配图 Skill（可编辑 prompt + 自动回插）
 - [speaker（学术演讲 PPTX 备注 Skill）](tool-speaker-pptx-skill.md) — `Tool` — 文本提取 + 渲染 + OCR + 视觉审查，逐页生成可注入备注
+- [MemGUI-Agent](tool-memgui-agent.md) — `Tool` — 快手开源移动端 GUI Agent，ConAct 把上下文管理塞进模型输出
+- [paper-lifecycle](tool-paper-lifecycle.md) — `Tool` — 论文写作 Codex skills 套件，审稿式体检 + Rebuttal 策略
+- [EchoesVault（OpenCode 持久记忆）](tool-echoes-vault-opencode.md) — `Tool` — OpenCode 插件，会话结束自动记决策，下次 /echoes-start 读回 3 天
+- [Age of Agents](tool-age-of-agents.md) — `Tool` — 把 AI 编码会话渲染成像素艺术王国，本地跑的小网页
+- [backend-agent-resume-scout（牛肉项目雷达）](tool-backend-agent-resume-scout.md) — `Tool` — Codex 用的简历项目发现 Skill，源码验证 + 双格式输出
+- [LilBot Agent](tool-lilbot-agent.md) — `Tool` — Python + prompt_toolkit 全屏 TUI，Windows 优先 + OpenAI 兼容 API
+- [claude-code-best-practice](tool-claude-code-best-practice.md) — `Tool` — 60k+ 星 Claude Code 资源合集，10 工作流 + 5 skills + 5 agents + 83 技巧
+- [page-agent（阿里浏览器端 GUI Agent）](tool-page-agent.md) — `Tool` — 纯 TS 文本操作 DOM，四种接入（npm / CDN / 扩展 / MCP）
+- [12-Factor Agents](tool-12-factor-agents.md) — `Tool` — HumanLayer 23.5k 星，12 条让 Agent 从 demo 到实盘的工程原则
 
 ### 编程语言 / 工具链
 
@@ -127,6 +136,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Haskell 反应式交互式笔记本](tool-haskell-reactive-notebook.md) — `Tool` — Markdown 嵌入 Haskell 代码块，GHC 解析器分析依赖
 - [Nefoin](tool-nefoin-nerdfont.md) — `Tool` — 一键安装 Nerd Font 的轻量 CLI
 - [PP-OCRv6 Studio](tool-ppocrv6-studio.md) — `Tool` — 飞桨 PP-OCRv6 三档模型本地 OCR，Apple Silicon CoreML 加速
+- [laravel-zero-console](tool-laravel-zero-console.md) — `Tool` — Laravel Zero CLI 通用 trait（表格 / 错误码 / 路径）
 - [Rust + QUIC 高性能 IM 后端](tool-rust-quic-im.md) — `Tool` — Actix-web + QUIC + P2P NAT 打洞 + 中转降级
 
 ### 后端 / 部署 / 自托管
@@ -136,6 +146,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [NasberryPi](tool-nasberry-pi.md) — `Tool` — 树莓派轻量 NAS CLI，一条命令配 Samba
 - [docker-android](tool-docker-android.md) — `Tool` — Docker 镜像封装 Android 模拟器，远程 adb 直连
 - [DataBuff](tool-databuff.md) — `Tool` — 国产 AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
+- [cfnew-deployer](tool-cfnew-deployer.md) — `Tool` — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 
 ### 桌面 / 系统工具
 
@@ -160,21 +171,27 @@ timestamp: "2026-06-22T16:10:00Z"
 - [autoshorts](tool-autoshorts.md) — `Tool` — Tauri 2 长视频 / 音频转竖屏短视频 + AI 选爆款段
 - [repotato（GitHub 日报 TUI）](tool-repotato.md) — `Tool` — 终端浏览 GitHub 日报 + 真实点赞 + 本地 Claude 试用 / 卸载
 - [lex-ghostty-shaders](tool-lex-ghostty-shaders.md) — `Tool` — GLM-5.2 vibe-coded 的 Ghostty 终端水波纹 shader
+- [shuangzi-xubei（双子续杯）](tool-shuangzi-xubei.md) — `Tool` — iPhone 桌面小组件，锁屏一眼看 Claude Code / Codex 额度
+- [MoChord（和弦创作工作台）](tool-mochord.md) — `Tool` — React + Tauri 2，和弦 / 把位 / 五线谱 / AI 编曲，DeepSeek 不可用本地兜底
+- [Free-TV/IPTV](tool-free-tv-iptv.md) — `Tool` — 全球免费电视频道 M3U 列表，导入任意 IPTV 播放器即看
 
 ### 物联网 / 智能硬件
 
 - [ESPHome Guition 语音助手旋钮屏](tool-esphome-guition-va.md) — `Tool` — 纯 YAML 配 HA 语音助手到圆形旋钮触控屏
 - [Seahi-Serial（多串口调试工具）](tool-seahi-serial.md) — `Tool` — VS Code Serial Monitor 风格，同时多路串口 + ANSI 颜色
+- [CasaOS](tool-casaos.md) — `Tool` — 个人云 OS，ZimaBoard / NUC / 树莓派通吃，10 万+ Docker 镜像一键装
 
 ### 评测基准 / 论文索引
 
 - [eot-bench（LiveKit 话轮检测基准）](tool-eot-bench.md) — `Tool` — 首个公开真实人机对话 EOT 基准（14 语言）
 - [Awesome World Action Models](tool-awesome-world-action-models.md) — `Tool` — 具身智能 WAM 论文索引
 - [awesome-evals（BenchFlow 带注释清单）](tool-awesome-evals.md) — `Tool` — 1.16 万论文 + 47 场演讲逐字记录，447+ 条带注释链接
+- [EnterpriseClawBench](tool-enterpriseclaw-bench.md) — `Tool` — 真实企业工作会话的编码 Agent 基准，持久工作区 + 工具 + 业务产出
 
 ### 幻灯片 / 演示
 
 - [MD→Slides](tool-markdown-slides.md) — `Tool` — Markdown 原生幻灯片，16 布局 / KaTeX / Mermaid / PPTX 导出
+- [Serenade（Nuxt 4 动静两栖博客）](tool-serenade-nuxt4.md) — `Tool` — Markdown 内容既可静态导出也能跑 Node SSR，KaTeX + 友链 + AI 命名
 
 ## 自托管 / 邮件
 
@@ -191,6 +208,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [MADO-queue](tool-mado-queue.md) — `Tool` — 北海道芽室町自研的行政窗口叫号系统，Flask + SQLite + Docker
 - [无状态自托管 TOTP 工具](tool-totp-stateless.md) — `Tool` — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 - [LawLink](tool-lawlink.md) — `Tool` — 中小律所开源自部署案件管理系统，Next.js 16 + PostgreSQL，Docker 一键起
+- [Koryomi](tool-koryomi.md) — `Tool` — 单镜像自托管漫画/条漫阅读 PWA，MangaDex + 通用抓取 + 多用户 + TOTP
 
 ## 阅读 / 资源
 
@@ -198,6 +216,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [后端面试开放式问题清单](tool-backend-interview-questions.md) — `Tool` — 11 个方向的开源后端面试问题清单，无标准答案，用来引出技术对话
 - [ExamPrep-AI](tool-exam-prep-ai.md) — `Tool` — Streamlit 把 PDF 笔记转摘要/选择题/闪卡，支持本地 Ollama 或 Gemini
 - [codex-orange-book（非官方 Codex 全链路指南）](tool-codex-orange-book.md) — `Tool` — 五大篇章 + 进阶专题（Skill / MCP / 记忆系统）持续更新
+- [resume-jd-optimizer-cn](tool-resume-jd-optimizer-cn.md) — `Tool` — 基于 JD 解析差距 + 追问遗漏素材，生成 ATS 友好的中文定制简历
 
 ## 金融 / 数据
 

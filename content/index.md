@@ -3,7 +3,7 @@ type: Index
 title: "我的 OKF 知识库"
 description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
 tags: "[okf, root]"
-timestamp: "2026-06-22T16:10:00Z"
+timestamp: "2026-06-26T16:50:00Z"
 ---
 
 # 我的 OKF 知识库
@@ -142,6 +142,15 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Skill_MAS](concepts/tool-skill-mas.md) — 元技能进化自动设计多智能体系统
 - [zu-article-image-skill](concepts/tool-zu-article-image-skill.md) — Markdown 文章配图 Skill
 - [speaker（学术演讲 PPTX 备注 Skill）](concepts/tool-speaker-pptx-skill.md) — 文本提取 + 渲染 + OCR + 视觉审查
+- [MemGUI-Agent](concepts/tool-memgui-agent.md) — 快手开源移动端 GUI Agent，ConAct 把上下文管理塞进模型输出
+- [paper-lifecycle](concepts/tool-paper-lifecycle.md) — 论文写作 Codex skills 套件，审稿式体检 + Rebuttal 策略
+- [EchoesVault（OpenCode 持久记忆）](concepts/tool-echoes-vault-opencode.md) — OpenCode 插件，会话结束自动记决策
+- [Age of Agents](concepts/tool-age-of-agents.md) — 把 AI 编码会话渲染成像素艺术王国
+- [backend-agent-resume-scout（牛肉项目雷达）](concepts/tool-backend-agent-resume-scout.md) — Codex 用的简历项目发现 Skill
+- [LilBot Agent](concepts/tool-lilbot-agent.md) — Python + prompt_toolkit 全屏 TUI 编码代理
+- [claude-code-best-practice](concepts/tool-claude-code-best-practice.md) — 60k+ 星 Claude Code 资源合集
+- [page-agent（阿里浏览器端 GUI Agent）](concepts/tool-page-agent.md) — 纯 TS 文本操作 DOM，四种接入
+- [12-Factor Agents](concepts/tool-12-factor-agents.md) — HumanLayer 23.5k 星，12 条 Agent 工程原则
 - [EverOS](concepts/tool-everos.md) — 统一本地长期记忆层，多 agent 共享与进化
 - [Recall](concepts/tool-recall-claude-code.md) — Claude Code 离线持久化项目记忆插件
 - [pi-web-agent](concepts/tool-pi-web-agent.md) — Pi 编码代理的网页工具包，老实上网
@@ -160,6 +169,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [Nefoin](concepts/tool-nefoin-nerdfont.md) — 一键安装 Nerd Font 的轻量 CLI
 - [PP-OCRv6 Studio](concepts/tool-ppocrv6-studio.md) — 飞桨 PP-OCRv6 三档模型本地 OCR
 - [Rust + QUIC 高性能 IM 后端](concepts/tool-rust-quic-im.md) — Actix-web + QUIC + P2P NAT 打洞
+- [laravel-zero-console](concepts/tool-laravel-zero-console.md) — Laravel Zero CLI 通用 trait（表格 / 错误码 / 路径）
 
 ### 后端 / 部署 / 自托管
 
@@ -168,6 +178,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [NasberryPi](concepts/tool-nasberry-pi.md) — 树莓派轻量 NAS CLI，一条命令配 Samba
 - [docker-android](concepts/tool-docker-android.md) — Docker 镜像封装 Android 模拟器
 - [DataBuff](concepts/tool-databuff.md) — AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
+- [cfnew-deployer](concepts/tool-cfnew-deployer.md) — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 
 ### 桌面 / 系统工具
 
@@ -192,21 +203,27 @@ timestamp: "2026-06-22T16:10:00Z"
 - [autoshorts](concepts/tool-autoshorts.md) — 长视频转竖屏短视频
 - [repotato](concepts/tool-repotato.md) — GitHub 日报 TUI + 本地 Claude 试用
 - [lex-ghostty-shaders](concepts/tool-lex-ghostty-shaders.md) — Ghostty 终端水波纹 shader
+- [shuangzi-xubei（双子续杯）](concepts/tool-shuangzi-xubei.md) — iPhone 桌面小组件，锁屏看 Claude Code / Codex 额度
+- [MoChord（和弦创作工作台）](concepts/tool-mochord.md) — React + Tauri 2，和弦 / 把位 / AI 编曲
+- [Free-TV/IPTV](concepts/tool-free-tv-iptv.md) — 全球免费电视频道 M3U 列表
 
 ### 物联网 / 智能硬件
 
 - [ESPHome Guition 语音助手旋钮屏](concepts/tool-esphome-guition-va.md)
 - [Seahi-Serial](concepts/tool-seahi-serial.md) — 多串口调试工具
+- [CasaOS](concepts/tool-casaos.md) — 个人云 OS，10 万+ Docker 镜像一键装
 
 ### 评测基准 / 论文索引
 
 - [eot-bench（LiveKit 话轮检测基准）](concepts/tool-eot-bench.md)
 - [Awesome World Action Models](concepts/tool-awesome-world-action-models.md)
 - [awesome-evals（BenchFlow 带注释清单）](concepts/tool-awesome-evals.md)
+- [EnterpriseClawBench](concepts/tool-enterpriseclaw-bench.md) — 真实企业工作会话的编码 Agent 基准
 
 ### 幻灯片 / 演示
 
 - [MD→Slides](concepts/tool-markdown-slides.md)
+- [Serenade（Nuxt 4 动静两栖博客）](concepts/tool-serenade-nuxt4.md) — Markdown 内容既可静态导出也能跑 Node SSR
 
 ## 自托管 / 邮件
 
@@ -218,6 +235,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [后端面试开放式问题清单](concepts/tool-backend-interview-questions.md) — 11 个方向的开源后端面试问题
 - [ExamPrep-AI](concepts/tool-exam-prep-ai.md) — Streamlit 把 PDF 笔记转摘要/选择题/闪卡
 - [codex-orange-book](concepts/tool-codex-orange-book.md) — 非官方 Codex 全链路指南
+- [resume-jd-optimizer-cn](concepts/tool-resume-jd-optimizer-cn.md) — 基于 JD 解析差距 + 追问遗漏素材的中文定制简历
 
 ## 金融 / 数据
 
@@ -246,6 +264,7 @@ timestamp: "2026-06-22T16:10:00Z"
 - [MADO-queue](concepts/tool-mado-queue.md) — 北海道芽室町自研的行政窗口叫号系统
 - [无状态自托管 TOTP 工具](concepts/tool-totp-stateless.md) — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 - [LawLink](concepts/tool-lawlink.md) — 中小律所开源自部署案件管理系统
+- [Koryomi](concepts/tool-koryomi.md) — 单镜像自托管漫画/条漫阅读 PWA
 
 ## 操作手册
 
