@@ -94,6 +94,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [liquid-glass](concepts/tool-liquid-glass.md) — React 零依赖液态玻璃折射组件
 - [Astro 7](concepts/tool-astro-7.md) — 内容驱动 Web 框架第 7 主版本
 - [sitecheck](concepts/tool-sitecheck.md) — 浏览器扩展嗅探网站技术栈 + Geo / DNS / WHOIS
+- [Web 图标库精选合集](concepts/tool-icon-libraries.md) — 20 万+ 图标 / 动效 / 多风格 / 品牌 / 导出 React & SVG
 
 ## AI / Agent 生态
 
@@ -159,6 +160,14 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fable 5 World Demo](concepts/tool-fable5-world-demo.md) — 浏览器内 4×4km 完全程序化开放世界
 - [Heartmorrow](concepts/tool-heartmorrow.md) — 本地 LLM 约会 + 世界模拟器
 - [obsidian-knowledge-agent](concepts/tool-obsidian-knowledge-agent.md) — 六阶段 AI 管道自动整理 Obsidian 笔记
+- [NVIDIA Skills](concepts/tool-nvidia-skills.md) — NVIDIA 官方 Agent Skills 合集，覆盖 CUDA / Jetson / NeMo 等 200+ 技能
+- [llmaker](concepts/tool-llmaker.md) — Go 写的私有 LLM 应用栈编排器，一条命令拉起 RAG / Agent / 监控
+- [pi-claude-bridge](concepts/tool-pi-claude-bridge.md) — Pi 扩展，把 Claude Code 作为 provider 或 AskClaude 工具接入
+- [Open Knowledge（Inkeep）](concepts/tool-open-knowledge.md) — WYSIWYG Markdown 编辑器 + LLM 知识库，AI 直接读写文档
+- [AgentSpace](concepts/tool-agentspace.md) — HKUDS 出品的人 + AI 代理团队协作平台
+- [Loop Engineering](concepts/tool-loop-engineering.md) — 把 AI agent 编成自动循环的方法论 + 三个 CLI（loop-audit / loop-init / loop-cost）
+- [Flounder](concepts/tool-flounder.md) — 把编码 agent 包装为端到端白帽安全审计系统，每步沙箱隔离
+- [Floci](concepts/tool-floci.md) — LocalStack 的免费开源替代，本地 AWS 模拟器
 
 ### 编程语言 / 工具链
 
@@ -179,6 +188,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [docker-android](concepts/tool-docker-android.md) — Docker 镜像封装 Android 模拟器
 - [DataBuff](concepts/tool-databuff.md) — AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 - [cfnew-deployer](concepts/tool-cfnew-deployer.md) — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
+- [MediaCrawler](concepts/tool-mediacrawler.md) — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
+- [Gorest](concepts/tool-gorest.md) — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
 
 ### 桌面 / 系统工具
 
@@ -206,6 +217,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [shuangzi-xubei（双子续杯）](concepts/tool-shuangzi-xubei.md) — iPhone 桌面小组件，锁屏看 Claude Code / Codex 额度
 - [MoChord（和弦创作工作台）](concepts/tool-mochord.md) — React + Tauri 2，和弦 / 把位 / AI 编曲
 - [Free-TV/IPTV](concepts/tool-free-tv-iptv.md) — 全球免费电视频道 M3U 列表
+- [Plaza](concepts/tool-plaza.md) — 跨发行版 TUI 包管理器，同时搜 Arch 官方源 + AUR
+- [lazycron](concepts/tool-lazycron.md) — Go 写的 Linux cron TUI 管理器，vim 风格快捷键
+- [tabiew](concepts/tool-tabiew.md) — Rust 写的 TUI 表格数据查看器，CSV / Parquet / JSON / Excel
+- [Mineradio](concepts/tool-mineradio.md) — Electron 沉浸式 Windows 音乐播放器
 
 ### 物联网 / 智能硬件
 
@@ -240,8 +255,11 @@ timestamp: "2026-06-26T16:50:00Z"
 ## 金融 / 数据
 
 - [a-stock-data](concepts/tool-a-stock-data.md)
+- [global-stock-data](concepts/tool-global-stock-data.md) — 美港股全栈数据 Skill（期权链 / 财报三表 / 503 GAAP 指标）
 - [ngrok / webernetes](concepts/tool-ngrok-webernetes.md)
 - [Finnhub 美股 API](concepts/tool-finnhub-api.md) — 免费层 60 req/min 的美股行情/财报/新闻 REST API
+- [chinese-buy-us-stock-guide](concepts/tool-chinese-buy-us-stock-guide.md) — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
+- [AI 托管个人资产的方向](concepts/tool-personal-asset-via-claude.md) — AI 全面接管个人财务的机会与风险
 
 ## 网络 / 代理
 
@@ -265,6 +283,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [无状态自托管 TOTP 工具](concepts/tool-totp-stateless.md) — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 - [LawLink](concepts/tool-lawlink.md) — 中小律所开源自部署案件管理系统
 - [Koryomi](concepts/tool-koryomi.md) — 单镜像自托管漫画/条漫阅读 PWA
+- [GanCook / 干饭厨子](concepts/tool-gancook.md) — 家庭 NAS 点菜系统，Docker 一键部署
 
 ## 操作手册
 

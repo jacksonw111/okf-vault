@@ -62,6 +62,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Vibecoded Design Tells（AI 生成网站的设计特征排名）](tool-vibecoded-design-tells.md) — `Tool` — 320 万条 Reddit 帖子总结的「AI 网站视觉痕迹」排行
 - [Astro 7](tool-astro-7.md) — `Tool` — 内容驱动 Web 框架第 7 主版本
 - [sitecheck](tool-sitecheck.md) — `Tool` — 浏览器扩展嗅探网站技术栈 + Geo / DNS / WHOIS
+- [Web 图标库精选合集](tool-icon-libraries.md) — `Tool` — 20 万+ 图标 / 动效 / 多风格 / 品牌 / 导出 React & SVG
 
 ## AI / Agent 生态
 
@@ -127,6 +128,14 @@ timestamp: "2026-06-26T16:50:00Z"
 - [claude-code-best-practice](tool-claude-code-best-practice.md) — `Tool` — 60k+ 星 Claude Code 资源合集，10 工作流 + 5 skills + 5 agents + 83 技巧
 - [page-agent（阿里浏览器端 GUI Agent）](tool-page-agent.md) — `Tool` — 纯 TS 文本操作 DOM，四种接入（npm / CDN / 扩展 / MCP）
 - [12-Factor Agents](tool-12-factor-agents.md) — `Tool` — HumanLayer 23.5k 星，12 条让 Agent 从 demo 到实盘的工程原则
+- [NVIDIA Skills](tool-nvidia-skills.md) — `Tool` — NVIDIA 官方 Agent Skills 合集，覆盖 CUDA / Jetson / NeMo 等 200+ 技能
+- [llmaker](tool-llmaker.md) — `Tool` — Go 写的私有 LLM 应用栈编排器，一条命令拉起 RAG / Agent / 监控
+- [pi-claude-bridge](tool-pi-claude-bridge.md) — `Tool` — Pi 扩展，把 Claude Code 作为 provider 或 AskClaude 工具接入
+- [Open Knowledge（Inkeep）](tool-open-knowledge.md) — `Tool` — WYSIWYG Markdown 编辑器 + LLM 知识库，AI 直接读写文档
+- [AgentSpace](tool-agentspace.md) — `Tool` — HKUDS 出品的人 + AI 代理团队协作平台
+- [Loop Engineering](tool-loop-engineering.md) — `Tool` — 把 AI agent 编成自动循环的方法论 + 三个 CLI（loop-audit / loop-init / loop-cost）
+- [Flounder](tool-flounder.md) — `Tool` — 把编码 agent 包装为端到端白帽安全审计系统，每步沙箱隔离
+- [Floci](tool-floci.md) — `Tool` — LocalStack 的免费开源替代，本地 AWS 模拟器
 
 ### 编程语言 / 工具链
 
@@ -147,6 +156,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [docker-android](tool-docker-android.md) — `Tool` — Docker 镜像封装 Android 模拟器，远程 adb 直连
 - [DataBuff](tool-databuff.md) — `Tool` — 国产 AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 - [cfnew-deployer](tool-cfnew-deployer.md) — `Tool` — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
+- [MediaCrawler](tool-mediacrawler.md) — `Tool` — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
+- [Gorest](tool-gorest.md) — `Tool` — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
 
 ### 桌面 / 系统工具
 
@@ -174,6 +185,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [shuangzi-xubei（双子续杯）](tool-shuangzi-xubei.md) — `Tool` — iPhone 桌面小组件，锁屏一眼看 Claude Code / Codex 额度
 - [MoChord（和弦创作工作台）](tool-mochord.md) — `Tool` — React + Tauri 2，和弦 / 把位 / 五线谱 / AI 编曲，DeepSeek 不可用本地兜底
 - [Free-TV/IPTV](tool-free-tv-iptv.md) — `Tool` — 全球免费电视频道 M3U 列表，导入任意 IPTV 播放器即看
+- [Plaza](tool-plaza.md) — `Tool` — 跨发行版 TUI 包管理器，同时搜 Arch 官方源 + AUR，同名包自动合并
+- [lazycron](tool-lazycron.md) — `Tool` — Go 写的 Linux cron TUI 管理器，vim 风格快捷键 + 零配置
+- [tabiew](tool-tabiew.md) — `Tool` — Rust 写的 TUI 表格数据查看器，CSV / Parquet / JSON / Excel + SQL 查询
+- [Mineradio](tool-mineradio.md) — `Tool` — Electron 沉浸式 Windows 音乐播放器，天气电台 + 粒子视觉 + 3D 歌单架
 
 ### 物联网 / 智能硬件
 
@@ -209,6 +224,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [无状态自托管 TOTP 工具](tool-totp-stateless.md) — `Tool` — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 - [LawLink](tool-lawlink.md) — `Tool` — 中小律所开源自部署案件管理系统，Next.js 16 + PostgreSQL，Docker 一键起
 - [Koryomi](tool-koryomi.md) — `Tool` — 单镜像自托管漫画/条漫阅读 PWA，MangaDex + 通用抓取 + 多用户 + TOTP
+- [GanCook / 干饭厨子](tool-gancook.md) — `Tool` — 家庭 NAS 点菜系统，Docker 一键部署，头像登录 + 点菜 + 做饭 + 月度贡献墙
 
 ## 阅读 / 资源
 
@@ -221,8 +237,11 @@ timestamp: "2026-06-26T16:50:00Z"
 ## 金融 / 数据
 
 - [a-stock-data](tool-a-stock-data.md) — `Tool` — A 股全栈数据 Skill（13 源 / 28 端点）
+- [global-stock-data](tool-global-stock-data.md) — `Tool` — 美港股全栈数据 Skill（期权链 / 财报三表 / 503 GAAP 指标）
 - [ngrok / webernetes](tool-ngrok-webernetes.md) — `Tool` — K8s + ngrok 公网隧道集成
 - [Finnhub 美股 API](tool-finnhub-api.md) — `Tool` — 免费层 60 req/min 的美股行情/财报/新闻 REST API
+- [chinese-buy-us-stock-guide](tool-chinese-buy-us-stock-guide.md) — `Tool` — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
+- [AI 托管个人资产的方向](tool-personal-asset-via-claude.md) — `Note` — AI 全面接管个人财务的机会与风险
 
 ## 网络 / 代理
 
