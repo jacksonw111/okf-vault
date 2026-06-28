@@ -95,6 +95,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Astro 7](concepts/tool-astro-7.md) — 内容驱动 Web 框架第 7 主版本
 - [sitecheck](concepts/tool-sitecheck.md) — 浏览器扩展嗅探网站技术栈 + Geo / DNS / WHOIS
 - [Web 图标库精选合集](concepts/tool-icon-libraries.md) — 20 万+ 图标 / 动效 / 多风格 / 品牌 / 导出 React & SVG
+- [beUI Animated Select](concepts/tool-beui-select.md) — shadcn 风格动效 Select，面板从 trigger 处「捏合」成 pill + 弹簧回弹
+- [heroicons-animated（316 个动效 Heroicons）](concepts/tool-heroicons-animated.md) — Tailwind Labs Heroicons 的动效版合集，Vercel 托管
+- [Solar Wanderer](concepts/tool-solar-wanderer.md) — 浏览器内 NASA JPL 精度的实时太阳系 3D 模拟器（Three.js + WebGL2），gzip 后 ~200KB
+- [Clarify](concepts/tool-clarify.md) — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
 
 ## AI / Agent 生态
 
@@ -168,6 +172,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Loop Engineering](concepts/tool-loop-engineering.md) — 把 AI agent 编成自动循环的方法论 + 三个 CLI（loop-audit / loop-init / loop-cost）
 - [Flounder](concepts/tool-flounder.md) — 把编码 agent 包装为端到端白帽安全审计系统，每步沙箱隔离
 - [Floci](concepts/tool-floci.md) — LocalStack 的免费开源替代，本地 AWS 模拟器
+- [MCO（多 AI 编程代理编排层）](concepts/tool-mco.md) — 中立的代理编排层，同时调度 Claude Code / Codex CLI / Gemini CLI 等多种 CLI 代理
+- [second-brain-cloudflare](concepts/tool-second-brain-cloudflare.md) — Cloudflare Workers 上的开源共享记忆层，MCP 协议让 Claude/Codex/Cursor 共用一份长期记忆
+- [OpenSeek（MoonBit DeepSeek 编程助手框架）](concepts/tool-openseek-moonbit.md) — MoonBit 写的编程助手基础库 + CLI，数据/网络/Agent/CLI 四层解耦
+- [Study Dost AI](concepts/tool-study-dost-ai.md) — STEM 学习助手，每个概念同时给分步走 / 生活类比 / 视觉提示三种讲法
+- [AI Media Assistant](concepts/tool-ai-media-assistant.md) — 中文创作者本地短视频生成 Web 工具，文案/字幕/配图/TTS/导出全流程
 
 ### 编程语言 / 工具链
 
@@ -221,6 +230,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [lazycron](concepts/tool-lazycron.md) — Go 写的 Linux cron TUI 管理器，vim 风格快捷键
 - [tabiew](concepts/tool-tabiew.md) — Rust 写的 TUI 表格数据查看器，CSV / Parquet / JSON / Excel
 - [Mineradio](concepts/tool-mineradio.md) — Electron 沉浸式 Windows 音乐播放器
+- [Plex TUI](concepts/tool-plex-tui.md) — Python 写的终端 Plex 客户端，三栏布局 + Kitty/Ghostty 原生图片显示 + mpv 播放
+- [Kanarenshu（假名练习 TUI）](concepts/tool-kanarenshu.md) — Go 写的终端日语假名练习工具，权重自适应算法多练薄弱字符
+- [TidyFS（Linux 智能文件整理）](concepts/tool-tidyfs.md) — Go + Python 混编，按内容与文件名自动归类文档
+- [TorLink（终端种子搜索下载）](concepts/tool-torlink.md) — Node.js 零配置 `npx torlnk`，聚合 FitGirl / YTS / 海盗湾 / 1337x / Nyaa
 
 ### 物联网 / 智能硬件
 
