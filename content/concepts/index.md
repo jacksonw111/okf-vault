@@ -274,3 +274,30 @@ timestamp: "2026-06-26T16:50:00Z"
 - [SPA 内嵌 PDF 查看器（react-pdf + Hono 代理）](playbook-spa-pdf-viewer.md) — `Playbook` — 跨前后端的 PDF 渲染 + 鉴权代理 + byte-range 透传 + 东财失效链兜底
 - [应用外壳侧边栏（base-ui + motion 多层装配）](playbook-app-shell-sidebar.md) — `Playbook` — shadcn primitive → AppShellSidebar 中间层 → 应用层数据的三层架构
 - [双轴主题系统（next-themes + shadcn data-theme）](playbook-dual-axis-theming.md) — `Playbook` — Mode × Preset 双维度自由组合 + 防 FOUC + 跨设备同步
+
+## 听写 / 语音输入
+
+- [Verenu](tool-verenu.md) — `Tool` — Tauri + Svelte 按住说话听写，本地优先 + 可换转写 API
+- [Purr](tool-purr.md) — `Tool` — macOS Apple Silicon 菜单栏按住说话听写，全程本地推理
+
+## 终端 / 网络 / 系统管理
+
+- [wlctl](tool-wlctl.md) — `Tool` — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
+- [hush](tool-hush.md) — `Tool` — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
+
+## AI / Agent 生态（本批新增）
+
+- [cognee](tool-cognee.md) — `Tool` — 可自托管的 AI 智能体持久长期记忆，知识图谱 + 向量检索
+- [DeepSpec](tool-deepspec.md) — `Tool` — DeepSeek 开源投机解码全栈框架（Eagle3 / DFlash / DSpark）
+- [ai-brand-monitor-mcp](tool-ai-brand-monitor-mcp.md) — `Tool` — 品牌在 Perplexity / ChatGPT / Claude / Gemini 可见性的 MCP 监测
+- [Loopy](tool-loopy.md) — `Tool` — 带自我验证机制的代理循环工作流模板（Forward Future 出品）
+- [OpenTag](tool-opentag.md) — `Tool` — CopilotKit 开源的自托管 Slack AI 代理
+
+## 电商 / 自动化
+
+- [xianyu-super-butler](tool-xianyu-super-butler.md) — `Tool` — 闲鱼店铺管理平台：自动回复 / AI 议价 / 自动发货 / 多账号
+
+## 阅读 / 资源（本批新增）
+
+- [《线性代数不难》开源书](note-linear-algebra-made-easy.md) — `Note` — GitHub 开源线代教材，几何图 + 可视化 + 动画 + 可运行 Jupyter Notebook
+- [Top 10 系统设计资源清单](note-system-design-resources.md) — `Note` — DDIA / SRE / Alex Xu / Jepsen / High Scalability 等十本经典与十种资源

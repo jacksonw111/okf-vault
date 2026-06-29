@@ -100,6 +100,20 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Solar Wanderer](concepts/tool-solar-wanderer.md) — 浏览器内 NASA JPL 精度的实时太阳系 3D 模拟器（Three.js + WebGL2），gzip 后 ~200KB
 - [Clarify](concepts/tool-clarify.md) — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
 
+## 听写 / 语音输入
+
+- [Verenu](concepts/tool-verenu.md) — Tauri + Svelte 按住说话听写，本地优先 + 可换转写 API
+- [Purr](concepts/tool-purr.md) — macOS Apple Silicon 菜单栏按住说话听写，全程本地推理
+
+## 终端 / 系统管理
+
+- [wlctl](concepts/tool-wlctl.md) — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
+- [hush](concepts/tool-hush.md) — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
+
+## 电商 / 自动化
+
+- [xianyu-super-butler](concepts/tool-xianyu-super-butler.md) — 闲鱼店铺管理平台：自动回复 / AI 议价 / 自动发货 / 多账号
+
 ## AI / Agent 生态
 
 - [CopilotKit](concepts/tool-copilotkit.md)
@@ -123,6 +137,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [GPT Image Skills](concepts/tool-gpt-image-skills.md)
 - [Datalab LIFT（视觉文档 JSON 抽取模型）](concepts/tool-datalab-lift.md) — 9B VLM，给 JSON Schema 直接吐出符合格式的 JSON
 - [Loops（jwangkun/loops）](concepts/tool-loops-jwangkun.md) — 100 个 AI 自动化循环模板
+- [cognee](concepts/tool-cognee.md) — 可自托管的 AI 智能体持久长期记忆（知识图谱 + 向量检索）
+- [DeepSpec](concepts/tool-deepspec.md) — DeepSeek 开源投机解码全栈框架（Eagle3 / DFlash / DSpark）
+- [ai-brand-monitor-mcp](concepts/tool-ai-brand-monitor-mcp.md) — 品牌在四大 AI 平台可见性的 MCP 监测工具
+- [Loopy](concepts/tool-loopy.md) — Forward Future 的带自我验证代理循环工作流模板
+- [OpenTag](concepts/tool-opentag.md) — CopilotKit 开源自托管 Slack AI 代理
 - [AI 视频广告提示词库](concepts/tool-ai-video-ad-prompts.md)
 - [AI Humanizer Handbook](concepts/tool-ai-humanizer-handbook.md)
 - [pi-task](concepts/tool-pi-task-delegation.md) — Pi Agent 子任务委派扩展（前台 / 后台 + TUI 进度条）
@@ -264,6 +283,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [ExamPrep-AI](concepts/tool-exam-prep-ai.md) — Streamlit 把 PDF 笔记转摘要/选择题/闪卡
 - [codex-orange-book](concepts/tool-codex-orange-book.md) — 非官方 Codex 全链路指南
 - [resume-jd-optimizer-cn](concepts/tool-resume-jd-optimizer-cn.md) — 基于 JD 解析差距 + 追问遗漏素材的中文定制简历
+- [《线性代数不难》开源书](concepts/note-linear-algebra-made-easy.md) — GitHub 开源线代教材，几何图 + 可视化 + 动画 + 可运行 Jupyter Notebook
+- [Top 10 系统设计资源清单](concepts/note-system-design-resources.md) — DDIA / SRE / Alex Xu / Jepsen 等十本经典与十种资源
 
 ## 金融 / 数据
 
