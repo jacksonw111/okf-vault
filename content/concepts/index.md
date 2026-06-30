@@ -67,6 +67,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [heroicons-animated（316 个动效 Heroicons）](tool-heroicons-animated.md) — `Tool` — Tailwind Labs Heroicons 的动效版合集，Vercel 托管
 - [Solar Wanderer](tool-solar-wanderer.md) — `Tool` — 浏览器内 NASA JPL 精度的实时太阳系 3D 模拟器（Three.js + WebGL2），gzip 后 ~200KB
 - [Clarify](tool-clarify.md) — `Tool` — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
+- [article-tools](tool-article-tools.md) — `Tool` — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
+- [Number Stepper UX](note-number-stepper-ux.md) — `Note` — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则（Design Engineering 101）
 
 ## AI / Agent 生态
 
@@ -145,6 +147,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [OpenSeek（MoonBit DeepSeek 编程助手框架）](tool-openseek-moonbit.md) — `Tool` — MoonBit 写的编程助手基础库 + CLI，数据/网络/Agent/CLI 四层解耦
 - [Study Dost AI](tool-study-dost-ai.md) — `Tool` — STEM 学习助手，每个概念同时给分步走 / 生活类比 / 视觉提示三种讲法
 - [AI Media Assistant](tool-ai-media-assistant.md) — `Tool` — 中文创作者本地短视频生成 Web 工具，文案/字幕/配图/TTS/导出全流程
+- [Cinema Manager](tool-cinema-manager.md) — `Tool` — 找片 Skill，多源搜索 + 质量评分 + 自动转存 + 整理成 Infuse/Plex/Jellyfin 目录
+- [OpenMontage](tool-openmontage.md) — `Tool` — 首个开源 agentic 视频制作系统，自然语言到成片，Remotion 编程式渲染
+- [codebase-memory-mcp](tool-codebase-memory-mcp.md) — `Tool` — 基于知识图谱的代码结构索引 MCP（tree-sitter + Hybrid LSP）
+- [Cotal](tool-cotal.md) — `Tool` — 多智能体开放协议框架，拓扑可配（对等 / 经理制 / 指挥链 / 混搭）
+- [AIGX](tool-aigx.md) — `Tool` — 开放的 AI 编程代理上下文格式，per-file 边界索引 + 零源码注入
 
 ### 编程语言 / 工具链
 
@@ -167,6 +174,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [cfnew-deployer](tool-cfnew-deployer.md) — `Tool` — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 - [MediaCrawler](tool-mediacrawler.md) — `Tool` — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
 - [Gorest](tool-gorest.md) — `Tool` — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
+- [Open GENAI](tool-open-genai.md) — `Tool` — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
+- [dbosify-py](tool-dbosify-py.md) — `Tool` — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
 
 ### 桌面 / 系统工具
 
@@ -202,6 +211,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Kanarenshu（假名练习 TUI）](tool-kanarenshu.md) — `Tool` — Go 写的终端日语假名练习工具，权重自适应算法多练薄弱字符
 - [TidyFS（Linux 智能文件整理）](tool-tidyfs.md) — `Tool` — Go + Python 混编，按内容与文件名自动归类文档
 - [TorLink（终端种子搜索下载）](tool-torlink.md) — `Tool` — Node.js 零配置 `npx torlnk`，聚合 FitGirl / YTS / 海盗湾 / 1337x / Nyaa
+- [Refloow Photo Studio](tool-refloow-photo-studio.md) — `Tool` — Electron 桌面照片编辑器，完全本地运行 / 无水印
 
 ### 物联网 / 智能硬件
 
@@ -237,7 +247,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [无状态自托管 TOTP 工具](tool-totp-stateless.md) — `Tool` — 无服务器无数据库的 2FA 生成器，密钥通过 URL 片段在浏览器本地计算
 - [LawLink](tool-lawlink.md) — `Tool` — 中小律所开源自部署案件管理系统，Next.js 16 + PostgreSQL，Docker 一键起
 - [Koryomi](tool-koryomi.md) — `Tool` — 单镜像自托管漫画/条漫阅读 PWA，MangaDex + 通用抓取 + 多用户 + TOTP
-- [GanCook / 干饭厨子](tool-gancook.md) — `Tool` — 家庭 NAS 点菜系统，Docker 一键部署，头像登录 + 点菜 + 做饭 + 月度贡献墙
+- [GanCook / 干饭厨子](tool-gancook.md) — `Tool` — 家庭 NAS 点菜系统，Docker 一键部署
+- [SimpleX Chat](tool-simplex-chat.md) — `Tool` — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构，头像登录 + 点菜 + 做饭 + 月度贡献墙
 
 ## 阅读 / 资源
 
@@ -255,6 +266,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Finnhub 美股 API](tool-finnhub-api.md) — `Tool` — 免费层 60 req/min 的美股行情/财报/新闻 REST API
 - [chinese-buy-us-stock-guide](tool-chinese-buy-us-stock-guide.md) — `Tool` — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
 - [AI 托管个人资产的方向](tool-personal-asset-via-claude.md) — `Note` — AI 全面接管个人财务的机会与风险
+- [liangmai-sdk](tool-liangmai-sdk.md) — `Tool` — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
 
 ## 网络 / 代理
 

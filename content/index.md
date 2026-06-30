@@ -99,6 +99,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [heroicons-animated（316 个动效 Heroicons）](concepts/tool-heroicons-animated.md) — Tailwind Labs Heroicons 的动效版合集，Vercel 托管
 - [Solar Wanderer](concepts/tool-solar-wanderer.md) — 浏览器内 NASA JPL 精度的实时太阳系 3D 模拟器（Three.js + WebGL2），gzip 后 ~200KB
 - [Clarify](concepts/tool-clarify.md) — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
+- [article-tools](concepts/tool-article-tools.md) — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
+- [Number Stepper UX](concepts/note-number-stepper-ux.md) — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则
 
 ## 听写 / 语音输入
 
@@ -196,6 +198,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [OpenSeek（MoonBit DeepSeek 编程助手框架）](concepts/tool-openseek-moonbit.md) — MoonBit 写的编程助手基础库 + CLI，数据/网络/Agent/CLI 四层解耦
 - [Study Dost AI](concepts/tool-study-dost-ai.md) — STEM 学习助手，每个概念同时给分步走 / 生活类比 / 视觉提示三种讲法
 - [AI Media Assistant](concepts/tool-ai-media-assistant.md) — 中文创作者本地短视频生成 Web 工具，文案/字幕/配图/TTS/导出全流程
+- [Cinema Manager](concepts/tool-cinema-manager.md) — 找片 Skill，多源搜索 + 质量评分 + 自动转存 + 整理成 Infuse/Plex/Jellyfin 目录
+- [OpenMontage](concepts/tool-openmontage.md) — 首个开源 agentic 视频制作系统，自然语言到成片，Remotion 编程式渲染
+- [codebase-memory-mcp](concepts/tool-codebase-memory-mcp.md) — 基于知识图谱的代码结构索引 MCP（tree-sitter + Hybrid LSP）
+- [Cotal](concepts/tool-cotal.md) — 多智能体开放协议框架，拓扑可配（对等/经理制/指挥链/混搭）
+- [AIGX](concepts/tool-aigx.md) — 开放的 AI 编程代理上下文格式，per-file 边界索引 + 零源码注入
 
 ### 编程语言 / 工具链
 
@@ -218,6 +225,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [cfnew-deployer](concepts/tool-cfnew-deployer.md) — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 - [MediaCrawler](concepts/tool-mediacrawler.md) — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
 - [Gorest](concepts/tool-gorest.md) — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
+- [Open GENAI](concepts/tool-open-genai.md) — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
+- [dbosify-py](concepts/tool-dbosify-py.md) — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
 
 ### 桌面 / 系统工具
 
@@ -253,6 +262,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Kanarenshu（假名练习 TUI）](concepts/tool-kanarenshu.md) — Go 写的终端日语假名练习工具，权重自适应算法多练薄弱字符
 - [TidyFS（Linux 智能文件整理）](concepts/tool-tidyfs.md) — Go + Python 混编，按内容与文件名自动归类文档
 - [TorLink（终端种子搜索下载）](concepts/tool-torlink.md) — Node.js 零配置 `npx torlnk`，聚合 FitGirl / YTS / 海盗湾 / 1337x / Nyaa
+- [Refloow Photo Studio](concepts/tool-refloow-photo-studio.md) — Electron 桌面照片编辑器，完全本地运行 / 无水印
 
 ### 物联网 / 智能硬件
 
@@ -294,6 +304,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Finnhub 美股 API](concepts/tool-finnhub-api.md) — 免费层 60 req/min 的美股行情/财报/新闻 REST API
 - [chinese-buy-us-stock-guide](concepts/tool-chinese-buy-us-stock-guide.md) — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
 - [AI 托管个人资产的方向](concepts/tool-personal-asset-via-claude.md) — AI 全面接管个人财务的机会与风险
+- [liangmai-sdk](concepts/tool-liangmai-sdk.md) — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
 
 ## 网络 / 代理
 
@@ -318,6 +329,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [LawLink](concepts/tool-lawlink.md) — 中小律所开源自部署案件管理系统
 - [Koryomi](concepts/tool-koryomi.md) — 单镜像自托管漫画/条漫阅读 PWA
 - [GanCook / 干饭厨子](concepts/tool-gancook.md) — 家庭 NAS 点菜系统，Docker 一键部署
+- [SimpleX Chat](concepts/tool-simplex-chat.md) — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构
 
 ## 操作手册
 
