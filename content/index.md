@@ -100,6 +100,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Solar Wanderer](concepts/tool-solar-wanderer.md) — 浏览器内 NASA JPL 精度的实时太阳系 3D 模拟器（Three.js + WebGL2），gzip 后 ~200KB
 - [Clarify](concepts/tool-clarify.md) — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
 - [article-tools](concepts/tool-article-tools.md) — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
+- [Penpot](concepts/tool-penpot.md) — 开源自托管 Figma 替代，SVG/CSS/HTML 开放标准 + MCP + 实时协作
+- [shadcn themes on 21st.dev](concepts/tool-shadcn-themes-21st.md) — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
+- [gradient-shimmer-swiftui](concepts/tool-gradient-shimmer-swiftui.md) — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
 - [Number Stepper UX](concepts/note-number-stepper-ux.md) — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则
 
 ## 听写 / 语音输入
@@ -203,6 +206,12 @@ timestamp: "2026-06-26T16:50:00Z"
 - [codebase-memory-mcp](concepts/tool-codebase-memory-mcp.md) — 基于知识图谱的代码结构索引 MCP（tree-sitter + Hybrid LSP）
 - [Cotal](concepts/tool-cotal.md) — 多智能体开放协议框架，拓扑可配（对等/经理制/指挥链/混搭）
 - [AIGX](concepts/tool-aigx.md) — 开放的 AI 编程代理上下文格式，per-file 边界索引 + 零源码注入
+- [grove（Entelligentsia）](concepts/tool-grove-tree-sitter.md) — tree-sitter 结构化代码访问工具，CLI + MCP 双面，27 语言 / 7 工具
+- [cocoindex-code](concepts/tool-cocoindex-code.md) — AST 语义代码搜索引擎，省 70% token，30+ 语言
+- [Orca（stablyai）](concepts/tool-orca-coding-ide.md) — 开源 Coding IDE 套壳，跨 Mac/Win/Linux，CC/Codex/pi/opencode 全兼容
+- [mux（Claude Code tmux 插件）](concepts/tool-mux-claude-tmux.md) — tmux 浮动面板管理多个 Claude Code 会话
+- [Amber（offchainthoughts）](concepts/tool-amber-vector-commitment.md) — 向量嵌入自验证便携文件，整哈希 + 抽样审计
+- [Dating Coach Skill（HowToGetAlongWithGirls）](concepts/tool-dating-coach-skill.md) — Claude 用的恋爱教练技能包，聊记录分析 + 阶段诊断 + 道德底线
 
 ### 编程语言 / 工具链
 
@@ -227,6 +236,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Gorest](concepts/tool-gorest.md) — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
 - [Open GENAI](concepts/tool-open-genai.md) — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
 - [dbosify-py](concepts/tool-dbosify-py.md) — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
+- [FlareMo](concepts/tool-flaremo.md) — Cloudflare Workers + D1 + R2 上的 Flomo 风格时间线笔记，兼容 Memos API
 
 ### 桌面 / 系统工具
 
@@ -263,6 +273,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [TidyFS（Linux 智能文件整理）](concepts/tool-tidyfs.md) — Go + Python 混编，按内容与文件名自动归类文档
 - [TorLink（终端种子搜索下载）](concepts/tool-torlink.md) — Node.js 零配置 `npx torlnk`，聚合 FitGirl / YTS / 海盗湾 / 1337x / Nyaa
 - [Refloow Photo Studio](concepts/tool-refloow-photo-studio.md) — Electron 桌面照片编辑器，完全本地运行 / 无水印
+- [linux-antiquity](concepts/tool-linux-antiquity.md) — Hyprland 古典艺术风格主题包，Quickshell + 终端配色 + 图标 + 天气
+- [MacOS-DPIManager](concepts/tool-macos-dpi-manager.md) — SwiftUI + IOKit 给外接显示器开 HiDPI
 
 ### 物联网 / 智能硬件
 
@@ -293,6 +305,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [ExamPrep-AI](concepts/tool-exam-prep-ai.md) — Streamlit 把 PDF 笔记转摘要/选择题/闪卡
 - [codex-orange-book](concepts/tool-codex-orange-book.md) — 非官方 Codex 全链路指南
 - [resume-jd-optimizer-cn](concepts/tool-resume-jd-optimizer-cn.md) — 基于 JD 解析差距 + 追问遗漏素材的中文定制简历
+- [CS-Fundamentals](concepts/tool-cs-fundamentals.md) — 校招 CS 基础仓库，七大科目笔记 + 面试题 + HR 面经 + LeetCode 题集 + 公司列表
 - [《线性代数不难》开源书](concepts/note-linear-algebra-made-easy.md) — GitHub 开源线代教材，几何图 + 可视化 + 动画 + 可运行 Jupyter Notebook
 - [Top 10 系统设计资源清单](concepts/note-system-design-resources.md) — DDIA / SRE / Alex Xu / Jepsen 等十本经典与十种资源
 
@@ -305,6 +318,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [chinese-buy-us-stock-guide](concepts/tool-chinese-buy-us-stock-guide.md) — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
 - [AI 托管个人资产的方向](concepts/tool-personal-asset-via-claude.md) — AI 全面接管个人财务的机会与风险
 - [liangmai-sdk](concepts/tool-liangmai-sdk.md) — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
+- [Vibe-Trading](concepts/tool-vibe-trading.md) — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
 
 ## 网络 / 代理
 

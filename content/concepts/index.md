@@ -69,6 +69,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Clarify](tool-clarify.md) — `Tool` — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
 - [article-tools](tool-article-tools.md) — `Tool` — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
 - [Number Stepper UX](note-number-stepper-ux.md) — `Note` — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则（Design Engineering 101）
+- [Penpot](tool-penpot.md) — `Tool` — 开源自托管 Figma 替代，SVG/CSS/HTML 开放标准 + MCP + 实时协作
+- [shadcn themes on 21st.dev](tool-shadcn-themes-21st.md) — `Tool` — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
+- [gradient-shimmer-swiftui](tool-gradient-shimmer-swiftui.md) — `Tool` — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
 
 ## AI / Agent 生态
 
@@ -152,6 +155,12 @@ timestamp: "2026-06-26T16:50:00Z"
 - [codebase-memory-mcp](tool-codebase-memory-mcp.md) — `Tool` — 基于知识图谱的代码结构索引 MCP（tree-sitter + Hybrid LSP）
 - [Cotal](tool-cotal.md) — `Tool` — 多智能体开放协议框架，拓扑可配（对等 / 经理制 / 指挥链 / 混搭）
 - [AIGX](tool-aigx.md) — `Tool` — 开放的 AI 编程代理上下文格式，per-file 边界索引 + 零源码注入
+- [grove（Entelligentsia）](tool-grove-tree-sitter.md) — `Tool` — tree-sitter 结构化代码访问工具，CLI + MCP 双面，27 语言 / 7 工具
+- [cocoindex-code](tool-cocoindex-code.md) — `Tool` — AST 语义代码搜索引擎，省 70% token，30+ 语言
+- [Orca（stablyai）](tool-orca-coding-ide.md) — `Tool` — 开源 Coding IDE 套壳，跨 Mac/Win/Linux，CC/Codex/pi/opencode 全兼容
+- [mux（Claude Code tmux 插件）](tool-mux-claude-tmux.md) — `Tool` — tmux 浮动面板管理多个 Claude Code 会话
+- [Amber（offchainthoughts）](tool-amber-vector-commitment.md) — `Tool` — 向量嵌入自验证便携文件，整哈希 + 抽样审计
+- [Dating Coach Skill（HowToGetAlongWithGirls）](tool-dating-coach-skill.md) — `Tool` — Claude 用的恋爱教练技能包，聊记录分析 + 阶段诊断 + 道德底线
 
 ### 编程语言 / 工具链
 
@@ -176,6 +185,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Gorest](tool-gorest.md) — `Tool` — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
 - [Open GENAI](tool-open-genai.md) — `Tool` — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
 - [dbosify-py](tool-dbosify-py.md) — `Tool` — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
+- [FlareMo](tool-flaremo.md) — `Tool` — Cloudflare Workers + D1 + R2 上的 Flomo 风格时间线笔记，兼容 Memos API
 
 ### 桌面 / 系统工具
 
@@ -212,6 +222,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [TidyFS（Linux 智能文件整理）](tool-tidyfs.md) — `Tool` — Go + Python 混编，按内容与文件名自动归类文档
 - [TorLink（终端种子搜索下载）](tool-torlink.md) — `Tool` — Node.js 零配置 `npx torlnk`，聚合 FitGirl / YTS / 海盗湾 / 1337x / Nyaa
 - [Refloow Photo Studio](tool-refloow-photo-studio.md) — `Tool` — Electron 桌面照片编辑器，完全本地运行 / 无水印
+- [linux-antiquity](tool-linux-antiquity.md) — `Tool` — Hyprland 古典艺术风格主题包，Quickshell + 终端配色 + 图标 + 天气
+- [MacOS-DPIManager](tool-macos-dpi-manager.md) — `Tool` — SwiftUI + IOKit 给外接显示器开 HiDPI
 
 ### 物联网 / 智能硬件
 
@@ -257,6 +269,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [ExamPrep-AI](tool-exam-prep-ai.md) — `Tool` — Streamlit 把 PDF 笔记转摘要/选择题/闪卡，支持本地 Ollama 或 Gemini
 - [codex-orange-book（非官方 Codex 全链路指南）](tool-codex-orange-book.md) — `Tool` — 五大篇章 + 进阶专题（Skill / MCP / 记忆系统）持续更新
 - [resume-jd-optimizer-cn](tool-resume-jd-optimizer-cn.md) — `Tool` — 基于 JD 解析差距 + 追问遗漏素材，生成 ATS 友好的中文定制简历
+- [CS-Fundamentals](tool-cs-fundamentals.md) — `Tool` — 校招 CS 基础仓库，七大科目笔记 + 面试题 + HR 面经 + LeetCode 题集 + 公司列表
 
 ## 金融 / 数据
 
@@ -267,6 +280,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [chinese-buy-us-stock-guide](tool-chinese-buy-us-stock-guide.md) — `Tool` — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
 - [AI 托管个人资产的方向](tool-personal-asset-via-claude.md) — `Note` — AI 全面接管个人财务的机会与风险
 - [liangmai-sdk](tool-liangmai-sdk.md) — `Tool` — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
+- [Vibe-Trading](tool-vibe-trading.md) — `Tool` — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
 
 ## 网络 / 代理
 
