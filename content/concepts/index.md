@@ -72,6 +72,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Penpot](tool-penpot.md) — `Tool` — 开源自托管 Figma 替代，SVG/CSS/HTML 开放标准 + MCP + 实时协作
 - [shadcn themes on 21st.dev](tool-shadcn-themes-21st.md) — `Tool` — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
 - [gradient-shimmer-swiftui](tool-gradient-shimmer-swiftui.md) — `Tool` — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
+- [Astryx](tool-astryx.md) — `Tool` — Meta 开源设计系统，StyleX 样式底层、150+ 可访问组件、CSS 变量级换肤
 
 ## AI / Agent 生态
 
@@ -161,6 +162,15 @@ timestamp: "2026-06-26T16:50:00Z"
 - [mux（Claude Code tmux 插件）](tool-mux-claude-tmux.md) — `Tool` — tmux 浮动面板管理多个 Claude Code 会话
 - [Amber（offchainthoughts）](tool-amber-vector-commitment.md) — `Tool` — 向量嵌入自验证便携文件，整哈希 + 抽样审计
 - [Dating Coach Skill（HowToGetAlongWithGirls）](tool-dating-coach-skill.md) — `Tool` — Claude 用的恋爱教练技能包，聊记录分析 + 阶段诊断 + 道德底线
+- [12306-mcp](tool-12306-mcp.md) — `Tool` — 12306 购票查询 MCP 服务器，让 AI 助手直接查车票/列车/中转
+- [brain2qwerty](tool-brain2qwerty.md) — `Tool` — Meta + BCBL 开源项目，从 MEG/EEG 脑电信号里还原人正在打的字
+- [animarouter](tool-animarouter.md) — `Tool` — 聚合 16+ LLM 提供商免费额度到单一 OpenAI 兼容接口，9 种路由策略含 Auto 元老虎机
+- [opencode-cc](tool-opencode-cc.md) — `Tool` — 高性能 API 代理，把 OpenCode Zen 协议桥接为 Anthropic / OpenAI 兼容，让 Claude Code / Codex CLI 透明用国产模型
+- [clearCore](tool-clearcore.md) — `Tool` — C++20 写的 MIPS CPU 模拟器，TUI + Qt6 双前端，单周期与 5 级流水线可运行时切换
+- [sim-use](tool-sim-use.md) — `Tool` — CLI 让 AI Agent 观察与操作 iOS 模拟器与 Android 设备屏幕，读无障碍树省 16× tokens
+- [Fundamental-Ava](tool-fundamental-ava.md) — `Tool` — Python 大规模多智能体模拟框架，能跑上千智能体观察涌现，含统计检验涌现检测器与 BFT 共识等文明层组件
+- [hermes-desktop](tool-hermes-desktop.md) — `Tool` — Hermes Agent 的原生桌面 GUI 客户端
+- [Ornith-1](tool-ornith-1.md) — `Tool` — DeepReinforce 开源编程智能体模型系列，9B/35B/397B 三规格，RL 同时优化解决方案与 scaffold
 
 ### 编程语言 / 工具链
 
@@ -186,6 +196,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Open GENAI](tool-open-genai.md) — `Tool` — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
 - [dbosify-py](tool-dbosify-py.md) — `Tool` — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
 - [FlareMo](tool-flaremo.md) — `Tool` — Cloudflare Workers + D1 + R2 上的 Flomo 风格时间线笔记，兼容 Memos API
+- [dd（JIT 容器）](tool-dd-jit-container.md) — `Tool` — Rust + C + JIT 在 macOS 上直接跑 Linux 容器（无 VM/Hypervisor），兼容 Docker CLI
 
 ### 桌面 / 系统工具
 
@@ -224,6 +235,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Refloow Photo Studio](tool-refloow-photo-studio.md) — `Tool` — Electron 桌面照片编辑器，完全本地运行 / 无水印
 - [linux-antiquity](tool-linux-antiquity.md) — `Tool` — Hyprland 古典艺术风格主题包，Quickshell + 终端配色 + 图标 + 天气
 - [MacOS-DPIManager](tool-macos-dpi-manager.md) — `Tool` — SwiftUI + IOKit 给外接显示器开 HiDPI
+- [Vesta](tool-vesta-terminal.md) — `Tool` — macOS 原生终端，Swift/AppKit + GhosttyKit Metal 渲染；session 持久化（vestad 守护进程），为 AI 编码 agent 多会话并行设计
+- [WaLinux](tool-walinux.md) — `Tool` — Linux 原生 WhatsApp 桌面客户端，Tauri 2 实现，比 Electron 更省资源
+- [WeatherMaster](tool-weathermaster-android.md) — `Tool` — Android 本地天气 App，Kotlin 写仿 Pixel UI，聚合十几家气象数据源
 
 ### 物联网 / 智能硬件
 
@@ -260,7 +274,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [LawLink](tool-lawlink.md) — `Tool` — 中小律所开源自部署案件管理系统，Next.js 16 + PostgreSQL，Docker 一键起
 - [Koryomi](tool-koryomi.md) — `Tool` — 单镜像自托管漫画/条漫阅读 PWA，MangaDex + 通用抓取 + 多用户 + TOTP
 - [GanCook / 干饭厨子](tool-gancook.md) — `Tool` — 家庭 NAS 点菜系统，Docker 一键部署
-- [SimpleX Chat](tool-simplex-chat.md) — `Tool` — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构，头像登录 + 点菜 + 做饭 + 月度贡献墙
+- [SimpleX Chat](tool-simplex-chat.md) — `Tool` — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构
+- [Fallegji](tool-fallegji.md) — `Tool` — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
 
 ## 阅读 / 资源
 
@@ -287,6 +302,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [ClashOmega](tool-clash-omega.md) — `Tool` — Clash 代理规则管理 Chrome 扩展，致敬 SwitchyOmega
 - [HypoMux](tool-hypomux.md) — `Tool` — Windows 多网卡带宽聚合下载加速，L3 套接字绑定 + 双协议代理
 - [shadowrocket-config](tool-shadowrocket-config.md) — `Tool` — 基于 ACL4SSR 防 DNS 泄露配置（国内 UDP + 境外 DoH 四路并发）
+- [sub-store-cloudflare](tool-sub-store-cloudflare.md) — `Tool` — Cloudflare Workers 部署的订阅聚合与规则配置工具，订阅源管理 / 节点处理 / 分流模板全云端
 
 ## AI 编码 IDE
 
