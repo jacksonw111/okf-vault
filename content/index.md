@@ -105,6 +105,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [gradient-shimmer-swiftui](concepts/tool-gradient-shimmer-swiftui.md) — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
 - [Astryx](concepts/tool-astryx.md) — Meta 开源设计系统，StyleX 样式底层、150+ 可访问组件、CSS 变量级换肤
 - [Number Stepper UX](concepts/note-number-stepper-ux.md) — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则
+- [Kinetics](concepts/tool-kinetics.md) — 开源运动效果动画库，99 个动画同时提供 CSS + React + AI Prompt 三种版本
 
 ## 听写 / 语音输入
 
@@ -222,6 +223,13 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fundamental-Ava](concepts/tool-fundamental-ava.md) — Python 大规模多智能体模拟框架，能跑上千智能体观察涌现，含统计检验涌现检测器与 BFT 共识等文明层组件
 - [hermes-desktop](concepts/tool-hermes-desktop.md) — Hermes Agent 的原生桌面 GUI 客户端
 - [Ornith-1](concepts/tool-ornith-1.md) — DeepReinforce 开源编程智能体模型系列，9B/35B/397B 三规格，RL 同时优化解决方案与 scaffold
+- [paper2anything](concepts/tool-paper2anything.md) — Claude Code 技能包，给论文 PDF 自动生成 PPT / 海报 / 项目主页 / 小红书 / 公众号 5 种宣传物料
+- [patent-disclosure-skill](concepts/tool-patent-disclosure-skill.md) — AgentSkills 技能，从项目文档与代码自动生成中国专利技术交底书
+- [agent-lock](concepts/tool-agent-lock.md) — eBPF LSM 把 AI 代理限制在指定目录，实时显示打开的每个文件
+- [OpenWiki](concepts/tool-openwiki.md) — LangChain 团队 CLI，扫描代码库生成 wiki 并写入 AGENTS.md / CLAUDE.md
+- [happier](concepts/tool-happier.md) — 端到端加密跨设备 AI 编码客户端，电脑跑编码会话手机接着干
+- [tokenscope](concepts/tool-tokenscope.md) — macOS / Windows 菜单栏实时显示 Claude CLI token 用量与分解
+- [integrations.sh](concepts/tool-integrations-sh.md) — 开源第三方集成目录，收录 MCP / API / CLI / GraphQL 服务器
 
 ### 编程语言 / 工具链
 
@@ -289,6 +297,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Vesta](concepts/tool-vesta-terminal.md) — macOS 原生终端，Swift/AppKit + GhosttyKit Metal 渲染；session 持久化（vestad 守护进程），为 AI 编码 agent 多会话并行设计
 - [WaLinux](concepts/tool-walinux.md) — Linux 原生 WhatsApp 桌面客户端，Tauri 2 实现，比 Electron 更省资源
 - [WeatherMaster](concepts/tool-weathermaster-android.md) — Android 本地天气 App，Kotlin 写仿 Pixel UI，聚合十几家气象数据源
+- [ackem](concepts/tool-ackem.md) — 本地优先 Windows 桌面 AI 伙伴（Electron），记忆 / 情绪 / 关系感知全存本地
+- [MacTools](concepts/tool-mac-tools.md) — 免费开源 macOS 菜单栏工具集（SwiftUI），Homebrew 一键装，30+ 小工具
+- [CloseUp](concepts/tool-closeup.md) — macOS 原生小工具，给 Mission Control 缩略图直接加窗口操作按钮
+- [MacMTP](concepts/tool-macmtp.md) — macOS 通过 USB MTP 协议原生传文件到 Android（SwiftUI + Go）
 
 ### 物联网 / 智能硬件
 

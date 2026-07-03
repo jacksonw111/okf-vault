@@ -69,6 +69,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Clarify](tool-clarify.md) — `Tool` — 面向 MDX + OpenAPI 的开源文档发布工具，本地优先 CLI + AI 可读 llms.txt
 - [article-tools](tool-article-tools.md) — `Tool` — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
 - [Number Stepper UX](note-number-stepper-ux.md) — `Note` — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则（Design Engineering 101）
+- [Kinetics](tool-kinetics.md) — `Tool` — 开源运动效果动画库，99 个动画同时提供 CSS + React + AI Prompt 三种版本，可让 AI 编码代理直接生成对应代码
 - [Penpot](tool-penpot.md) — `Tool` — 开源自托管 Figma 替代，SVG/CSS/HTML 开放标准 + MCP + 实时协作
 - [shadcn themes on 21st.dev](tool-shadcn-themes-21st.md) — `Tool` — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
 - [gradient-shimmer-swiftui](tool-gradient-shimmer-swiftui.md) — `Tool` — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
@@ -171,6 +172,13 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fundamental-Ava](tool-fundamental-ava.md) — `Tool` — Python 大规模多智能体模拟框架，能跑上千智能体观察涌现，含统计检验涌现检测器与 BFT 共识等文明层组件
 - [hermes-desktop](tool-hermes-desktop.md) — `Tool` — Hermes Agent 的原生桌面 GUI 客户端
 - [Ornith-1](tool-ornith-1.md) — `Tool` — DeepReinforce 开源编程智能体模型系列，9B/35B/397B 三规格，RL 同时优化解决方案与 scaffold
+- [paper2anything](tool-paper2anything.md) — `Tool` — Claude Code 技能包，给论文 PDF 自动生成 PPT / 海报 / 项目主页 / 小红书 / 公众号 5 种宣传物料（MinerU 解析）
+- [patent-disclosure-skill](tool-patent-disclosure-skill.md) — `Tool` — AgentSkills 技能，从项目文档与代码自动生成中国专利技术交底书（查新 / 脱敏 / Mermaid 框图 / .md+.docx 双格式）
+- [agent-lock](tool-agent-lock.md) — `Tool` — eBPF LSM 程序把 AI 代理（CC / Codex / Gemini CLI）限制在指定目录，实时显示打开的每个文件
+- [OpenWiki](tool-openwiki.md) — `Tool` — LangChain 团队 CLI，扫描代码库生成 openwiki/ 文档目录，自动写入 AGENTS.md / CLAUDE.md 提示词
+- [happier](tool-happier.md) — `Tool` — 开源端到端加密跨设备 AI 编码客户端，电脑跑编码会话手机接着干（CC / Codex / OpenCode / Gemini）
+- [tokenscope](tool-tokenscope.md) — `Tool` — macOS / Windows 菜单栏实时显示 Claude CLI token 用量、费用估算，按模型 / MCP / Skill 分解
+- [integrations.sh](tool-integrations-sh.md) — `Tool` — 开源第三方集成目录，收录每个产品的 MCP / API / CLI / GraphQL 服务器及认证方式
 
 ### 编程语言 / 工具链
 
@@ -238,6 +246,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Vesta](tool-vesta-terminal.md) — `Tool` — macOS 原生终端，Swift/AppKit + GhosttyKit Metal 渲染；session 持久化（vestad 守护进程），为 AI 编码 agent 多会话并行设计
 - [WaLinux](tool-walinux.md) — `Tool` — Linux 原生 WhatsApp 桌面客户端，Tauri 2 实现，比 Electron 更省资源
 - [WeatherMaster](tool-weathermaster-android.md) — `Tool` — Android 本地天气 App，Kotlin 写仿 Pixel UI，聚合十几家气象数据源
+- [ackem](tool-ackem.md) — `Tool` — 本地优先 Windows 桌面 AI 伙伴（Electron），聊天记录 / 记忆 / 配置全存本地，支持 OpenAI 兼容接口与情绪 / 关系感知
+- [MacTools](tool-mac-tools.md) — `Tool` — 免费开源 macOS 菜单栏工具集（SwiftUI + AppKit），Homebrew 一键装，30+ 小工具（分辨率 / 夜览 / 防休眠 / 充电限制等）
+- [CloseUp](tool-closeup.md) — `Tool` — 开源 macOS 原生小工具，给 Mission Control 缩略图直接加关闭 / 最小化 / 最大化 / 隐藏 / 退出按钮，支持完整键盘操作
+- [MacMTP](tool-macmtp.md) — `Tool` — macOS 通过 USB MTP 协议原生传文件到 Android（SwiftUI 前端 + Go MTP 引擎 + C 桥接），双面板浏览器 + 批量传输 + 冲突处理
 
 ### 物联网 / 智能硬件
 
