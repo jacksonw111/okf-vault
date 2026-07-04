@@ -106,6 +106,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Astryx](concepts/tool-astryx.md) — Meta 开源设计系统，StyleX 样式底层、150+ 可访问组件、CSS 变量级换肤
 - [Number Stepper UX](concepts/note-number-stepper-ux.md) — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则
 - [Kinetics](concepts/tool-kinetics.md) — 开源运动效果动画库，99 个动画同时提供 CSS + React + AI Prompt 三种版本
+- [Cloudflare Kumo](concepts/tool-kumo.md) — Cloudflare 官方开源 UI 组件库与文档框架（TypeScript + React），面向 dashboard / 工单 / 监控
+- [Toolcraft](concepts/tool-toolcraft.md) — pixel-point 出的创意类应用 starter kit，自带 canvas + 工具栏 + 滑块 + 曲线 + 拾色器，配套 AI 指令让 agent 直接出视觉工具
+- [Componentry](concepts/tool-componentry.md) — componentry.dev 上的组件目录站，按类别聚合高质量交互组件，每组件 demo + 源码 + 复制按钮
 
 ## 听写 / 语音输入
 
@@ -116,6 +119,7 @@ timestamp: "2026-06-26T16:50:00Z"
 
 - [wlctl](concepts/tool-wlctl.md) — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
 - [hush](concepts/tool-hush.md) — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
+- [tmux-workbench](concepts/tool-tmux-workbench.md) — Rust 写的 tmux 会话记忆管理器，本地 + SSH 会话统一索引，CLI + TUI 一入口
 
 ## 电商 / 自动化
 
@@ -230,6 +234,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [happier](concepts/tool-happier.md) — 端到端加密跨设备 AI 编码客户端，电脑跑编码会话手机接着干
 - [tokenscope](concepts/tool-tokenscope.md) — macOS / Windows 菜单栏实时显示 Claude CLI token 用量与分解
 - [integrations.sh](concepts/tool-integrations-sh.md) — 开源第三方集成目录，收录 MCP / API / CLI / GraphQL 服务器
+- [Agent-Reach](concepts/tool-agent-reach.md) — 一行命令给 AI 编码 agent 装上互联网能力（Twitter / Reddit / YouTube 转录 / GitHub / 小红书 / B 站），无 API key 无需账号
+- [anysearch-skill](concepts/tool-anysearch-skill.md) — 给 AI agent 用的统一实时搜索 Skill，多家搜索引擎聚合 + 重排序
+- [agent-sphere](concepts/tool-agent-sphere.md) — Java 21 + Spring Boot 3.4 的 AI Agent 编排平台，多模型路由 + ReAct + 多级记忆 + MCP + SSE
+- [kcap-cli](concepts/tool-kcap-cli.md) — AI 编码助手的可观测性 CLI，捕获会话生命周期 / 对话 / 子代理树 / 工具调用 / token 用量并仪表盘展示
+- [SkillSpec](concepts/tool-skillspec.md) — 把 AI Agent 的 Skills 当成可遵守 / 可测试 / 可验证的契约，一条命令跑完整风险评估
 
 ### 编程语言 / 工具链
 
@@ -256,6 +265,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [dbosify-py](concepts/tool-dbosify-py.md) — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
 - [FlareMo](concepts/tool-flaremo.md) — Cloudflare Workers + D1 + R2 上的 Flomo 风格时间线笔记，兼容 Memos API
 - [dd（JIT 容器）](concepts/tool-dd-jit-container.md) — Rust + C + JIT 在 macOS 上直接跑 Linux 容器（无 VM/Hypervisor），兼容 Docker CLI
+- [HttpSMS](concepts/tool-httpsms.md) — 自托管短信网关，闲置 Android 手机变 HTTP 短信 API，云函数 / CI / AI agent 都能调
 
 ### 桌面 / 系统工具
 
@@ -301,6 +311,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [MacTools](concepts/tool-mac-tools.md) — 免费开源 macOS 菜单栏工具集（SwiftUI），Homebrew 一键装，30+ 小工具
 - [CloseUp](concepts/tool-closeup.md) — macOS 原生小工具，给 Mission Control 缩略图直接加窗口操作按钮
 - [MacMTP](concepts/tool-macmtp.md) — macOS 通过 USB MTP 协议原生传文件到 Android（SwiftUI + Go）
+- [Dory](concepts/tool-dory.md) — macOS 上 Docker Desktop / OrbStack 的开源替代品，共享 Linux VM + 真 docker socket + 一键 K8s + ~6 MB 单二进制
+- [Worf](concepts/tool-worf.md) — MIT 本地优先桌面应用，看板 / 笔记 / OKR / AI 聊天 / Sprint / 终端六合一
+- [OpenNook](concepts/tool-opennook.md) — Swift 框架在 macOS 刘海区域跑自定义 SwiftUI 应用，展开 / 收起、磨砂背景、快捷键全内置
 
 ### 物联网 / 智能硬件
 
@@ -345,6 +358,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [AI 托管个人资产的方向](concepts/tool-personal-asset-via-claude.md) — AI 全面接管个人财务的机会与风险
 - [liangmai-sdk](concepts/tool-liangmai-sdk.md) — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
 - [Vibe-Trading](concepts/tool-vibe-trading.md) — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
+- [stock-sdk](concepts/tool-stock-sdk.md) — 浏览器端股票数据库（零依赖），A 股 / 港股 / 美股 / 公募基金实时行情 + K 线，自带 CLI 和 MCP server
 
 ## 网络 / 代理
 
@@ -372,6 +386,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [GanCook / 干饭厨子](concepts/tool-gancook.md) — 家庭 NAS 点菜系统，Docker 一键部署
 - [SimpleX Chat](concepts/tool-simplex-chat.md) — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构
 - [Fallegji](concepts/tool-fallegji.md) — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
+- [Yamtrack](concepts/tool-yamtrack.md) — 给前 Trakt 用户准备的自托管媒体追踪平台，追影视 + 音乐 + 播客 + 收藏副本级详情
+- [LinkBreeze](concepts/tool-linkbreeze.md) — 自托管 link-in-bio 平台，Next.js 16 + SQLite 一条 Docker 命令部署
 
 ## 操作手册
 

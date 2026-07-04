@@ -70,6 +70,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [article-tools](tool-article-tools.md) — `Tool` — 纯前端 HTML 工具集：封面 / 二维码 / MD 转微信公众号 / MD 转 X 排版
 - [Number Stepper UX](note-number-stepper-ux.md) — `Note` — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则（Design Engineering 101）
 - [Kinetics](tool-kinetics.md) — `Tool` — 开源运动效果动画库，99 个动画同时提供 CSS + React + AI Prompt 三种版本，可让 AI 编码代理直接生成对应代码
+- [Cloudflare Kumo](tool-kumo.md) — `Tool` — Cloudflare 官方开源的 UI 组件库与文档框架（TypeScript + React），面向 dashboard / 工单 / 监控
+- [Toolcraft](tool-toolcraft.md) — `Tool` — pixel-point 出的创意类应用 starter kit，自带 canvas + 工具栏 + 滑块 + 曲线 + 拾色器，配套 AI 指令让 agent 直接出视觉工具
+- [Componentry](tool-componentry.md) — `Tool` — componentry.dev 上的组件目录站，按类别聚合高质量交互组件，每组件 demo + 源码 + 复制按钮
 - [Penpot](tool-penpot.md) — `Tool` — 开源自托管 Figma 替代，SVG/CSS/HTML 开放标准 + MCP + 实时协作
 - [shadcn themes on 21st.dev](tool-shadcn-themes-21st.md) — `Tool` — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
 - [gradient-shimmer-swiftui](tool-gradient-shimmer-swiftui.md) — `Tool` — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
@@ -179,6 +182,11 @@ timestamp: "2026-06-26T16:50:00Z"
 - [happier](tool-happier.md) — `Tool` — 开源端到端加密跨设备 AI 编码客户端，电脑跑编码会话手机接着干（CC / Codex / OpenCode / Gemini）
 - [tokenscope](tool-tokenscope.md) — `Tool` — macOS / Windows 菜单栏实时显示 Claude CLI token 用量、费用估算，按模型 / MCP / Skill 分解
 - [integrations.sh](tool-integrations-sh.md) — `Tool` — 开源第三方集成目录，收录每个产品的 MCP / API / CLI / GraphQL 服务器及认证方式
+- [Agent-Reach](tool-agent-reach.md) — `Tool` — 一行命令给 AI 编码 agent 装上互联网能力（Twitter / Reddit / YouTube 转录 / GitHub / 小红书 / B 站 / 通用网页），无 API key 无需账号
+- [anysearch-skill](tool-anysearch-skill.md) — `Tool` — 给 AI agent 用的统一实时搜索 Skill，多家搜索引擎聚合 + 重排序
+- [agent-sphere](tool-agent-sphere.md) — `Tool` — Java 21 + Spring Boot 3.4 的 AI Agent 编排平台，多模型路由 + ReAct 循环 + 多级记忆 + MCP + SSE
+- [kcap-cli](tool-kcap-cli.md) — `Tool` — 给 AI 编码助手（Claude Code / Codex CLI 等）的可观测性 CLI，捕获会话生命周期 / 对话 / 子代理树 / 工具调用 / token 用量并仪表盘展示
+- [SkillSpec](tool-skillspec.md) — `Tool` — 把 AI Agent 的 Skills 当成可遵守 / 可测试 / 可验证的契约，一条命令跑完整风险评估并出报告
 
 ### 编程语言 / 工具链
 
@@ -203,6 +211,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Gorest](tool-gorest.md) — `Tool` — Codex 驱动的 2D 动画精灵表生成器与场景合成工作台
 - [Open GENAI](tool-open-genai.md) — `Tool` — 日本数字厅 GENAI 的本地化开源版，Keycloak + FastAPI + SQLite + Qdrant + faster-whisper
 - [dbosify-py](tool-dbosify-py.md) — `Tool` — Temporal Python 的 Postgres 平替，零额外基础设施的持久化工作流
+- [HttpSMS](tool-httpsms.md) — `Tool` — 自托管短信网关，把闲置 Android 手机改造成 HTTP 短信 API，云函数 / CI / AI agent 都能调
 - [FlareMo](tool-flaremo.md) — `Tool` — Cloudflare Workers + D1 + R2 上的 Flomo 风格时间线笔记，兼容 Memos API
 - [dd（JIT 容器）](tool-dd-jit-container.md) — `Tool` — Rust + C + JIT 在 macOS 上直接跑 Linux 容器（无 VM/Hypervisor），兼容 Docker CLI
 
@@ -250,6 +259,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [MacTools](tool-mac-tools.md) — `Tool` — 免费开源 macOS 菜单栏工具集（SwiftUI + AppKit），Homebrew 一键装，30+ 小工具（分辨率 / 夜览 / 防休眠 / 充电限制等）
 - [CloseUp](tool-closeup.md) — `Tool` — 开源 macOS 原生小工具，给 Mission Control 缩略图直接加关闭 / 最小化 / 最大化 / 隐藏 / 退出按钮，支持完整键盘操作
 - [MacMTP](tool-macmtp.md) — `Tool` — macOS 通过 USB MTP 协议原生传文件到 Android（SwiftUI 前端 + Go MTP 引擎 + C 桥接），双面板浏览器 + 批量传输 + 冲突处理
+- [Dory](tool-dory.md) — `Tool` — macOS 上 Docker Desktop / OrbStack 的开源替代品，一台共享 Linux VM 跑所有容器 + 真 docker socket + 一键 K8s + ~6 MB 单二进制 + 零账号
+- [Worf](tool-worf.md) — `Tool` — MIT 本地优先桌面应用，看板 / 笔记 / OKR / AI 聊天 / Sprint / 终端六合一，AI 可接 OpenAI 兼容端点（含 Ollama）
+- [OpenNook](tool-opennook.md) — `Tool` — Swift 框架在 macOS 刘海（Notch）区域跑自定义 SwiftUI 应用，展开 / 收起、磨砂背景、快捷键、设置面板全内置
+- [tmux-workbench](tool-tmux-workbench.md) — `Tool` — Rust 写的 tmux 会话记忆管理器，本地 + SSH 会话统一索引，按项目路径 / 当前命令 / git 状态 / 标签 / 归档分类，CLI + TUI 一入口
 
 ### 物联网 / 智能硬件
 
@@ -288,6 +301,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [GanCook / 干饭厨子](tool-gancook.md) — `Tool` — 家庭 NAS 点菜系统，Docker 一键部署
 - [SimpleX Chat](tool-simplex-chat.md) — `Tool` — 首个无用户标识符的消息平台，双层加密 + 中继服务器架构
 - [Fallegji](tool-fallegji.md) — `Tool` — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
+- [Yamtrack](tool-yamtrack.md) — `Tool` — 给前 Trakt 用户准备的自托管媒体追踪平台，追影视 + 音乐 + 播客 + 收藏副本级详情，Docker 一键部署（SQLite / PostgreSQL）
+- [LinkBreeze](tool-linkbreeze.md) — `Tool` — 自托管 link-in-bio 平台，一条 Docker 命令部署（Next.js 16 + SQLite），拖拽管理 + 隐私分析 + 5 套主题 + 定时发布
 
 ## 阅读 / 资源
 
@@ -308,6 +323,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [AI 托管个人资产的方向](tool-personal-asset-via-claude.md) — `Note` — AI 全面接管个人财务的机会与风险
 - [liangmai-sdk](tool-liangmai-sdk.md) — `Tool` — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
 - [Vibe-Trading](tool-vibe-trading.md) — `Tool` — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
+- [stock-sdk](tool-stock-sdk.md) — `Tool` — 浏览器端股票数据库（零依赖），覆盖 A 股 / 港股 / 美股 / 公募基金实时行情 + K 线，自带 CLI 和 MCP server
 
 ## 网络 / 代理
 
