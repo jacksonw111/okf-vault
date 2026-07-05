@@ -77,6 +77,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [shadcn themes on 21st.dev](tool-shadcn-themes-21st.md) — `Tool` — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
 - [gradient-shimmer-swiftui](tool-gradient-shimmer-swiftui.md) — `Tool` — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
 - [Astryx](tool-astryx.md) — `Tool` — Meta 开源设计系统，StyleX 样式底层、150+ 可访问组件、CSS 变量级换肤
+- [matrix-swift](tool-matrix-swift.md) — `Tool` — dot-matrix 移植到 SwiftUI 的点阵动画 View
 
 ## AI / Agent 生态
 
@@ -187,6 +188,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [agent-sphere](tool-agent-sphere.md) — `Tool` — Java 21 + Spring Boot 3.4 的 AI Agent 编排平台，多模型路由 + ReAct 循环 + 多级记忆 + MCP + SSE
 - [kcap-cli](tool-kcap-cli.md) — `Tool` — 给 AI 编码助手（Claude Code / Codex CLI 等）的可观测性 CLI，捕获会话生命周期 / 对话 / 子代理树 / 工具调用 / token 用量并仪表盘展示
 - [SkillSpec](tool-skillspec.md) — `Tool` — 把 AI Agent 的 Skills 当成可遵守 / 可测试 / 可验证的契约，一条命令跑完整风险评估并出报告
+- [firstmate](tool-firstmate.md) — `Tool` — 目录结构 + 规则组合，把终端编码 AI 变「大副」，自动派多个 crewmate 并行干活
+- [Strix](tool-strix.md) — `Tool` — 自主 AI 渗透测试 agent，输出可直接复现的 PoC 而不是误报清单
+- [Cliare](tool-cliare.md) — `Tool` — Rust 写的 CLI 黑盒审计工具，给 CLI 打 Agent 就绪评分 + 安全报告
+- [claude-real-video](tool-claude-real-video.md) — `Tool` — Python 工具，按场景变化 + 字幕智能抽帧，让 AI 真正看懂视频
 
 ### 编程语言 / 工具链
 
@@ -263,6 +268,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Worf](tool-worf.md) — `Tool` — MIT 本地优先桌面应用，看板 / 笔记 / OKR / AI 聊天 / Sprint / 终端六合一，AI 可接 OpenAI 兼容端点（含 Ollama）
 - [OpenNook](tool-opennook.md) — `Tool` — Swift 框架在 macOS 刘海（Notch）区域跑自定义 SwiftUI 应用，展开 / 收起、磨砂背景、快捷键、设置面板全内置
 - [tmux-workbench](tool-tmux-workbench.md) — `Tool` — Rust 写的 tmux 会话记忆管理器，本地 + SSH 会话统一索引，按项目路径 / 当前命令 / git 状态 / 标签 / 归档分类，CLI + TUI 一入口
+- [Hermex](tool-hermex.md) — `Tool` — SwiftUI 写的 iOS 应用，远程操控自托管 Hermes AI 代理（聊天 / 任务 / 技能 / 文件 / 用量）
+- [SiphonDB](tool-siphondb.md) — `Tool` — Tauri v2 跨平台桌面数据库 GUI（PostgreSQL / MySQL / SQLite），内置 Rust 多线程 SSH 隧道
+- [Squawk](tool-squawk.md) — `Tool` — macOS 智能通知代理，给 Claude Code 用：用户在场时静默、离开时弹窗、通知内可回复 / 批准
+- [pushcv-cli](tool-pushcv-cli.md) — `Tool` — 终端求职看板 CLI，Drafting → Applied → Interviewing → Closed 四列 + AI 定制简历 / 薪资估算
 
 ### 物联网 / 智能硬件
 
@@ -303,6 +312,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fallegji](tool-fallegji.md) — `Tool` — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
 - [Yamtrack](tool-yamtrack.md) — `Tool` — 给前 Trakt 用户准备的自托管媒体追踪平台，追影视 + 音乐 + 播客 + 收藏副本级详情，Docker 一键部署（SQLite / PostgreSQL）
 - [LinkBreeze](tool-linkbreeze.md) — `Tool` — 自托管 link-in-bio 平台，一条 Docker 命令部署（Next.js 16 + SQLite），拖拽管理 + 隐私分析 + 5 套主题 + 定时发布
+- [本地 LLM 硬件搭建实操指南](note-local-llm-hardware-guide.md) — `Note` — jamesob/local-llm 两档预算配置 + PCIe 交换芯片多卡直连 + Docker 化 + 沙盒 VM
 
 ## 阅读 / 资源
 
@@ -354,6 +364,7 @@ timestamp: "2026-06-26T16:50:00Z"
 
 - [wlctl](tool-wlctl.md) — `Tool` — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
 - [hush](tool-hush.md) — `Tool` — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
+- [GAM（GitHub 账号管理器）](tool-gam.md) — `Tool` — TypeScript CLI，OAuth 设备流程管理多个 GitHub 账号，无密码 / PAT / SSH 配置
 
 ## AI / Agent 生态（本批新增）
 

@@ -104,6 +104,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [shadcn themes on 21st.dev](concepts/tool-shadcn-themes-21st.md) — 21st.dev 聚合所有 shadcn 社区主题，浏览器实时预览 + 一键 ship
 - [gradient-shimmer-swiftui](concepts/tool-gradient-shimmer-swiftui.md) — SwiftUI 渐变闪光效果库，给 Apple 平台 UI 加高级感
 - [Astryx](concepts/tool-astryx.md) — Meta 开源设计系统，StyleX 样式底层、150+ 可访问组件、CSS 变量级换肤
+- [matrix-swift](concepts/tool-matrix-swift.md) — dot-matrix 移植到 SwiftUI 的点阵动画 View
 - [Number Stepper UX](concepts/note-number-stepper-ux.md) — 长按 + 滚动数字 + 渐变遮罩的步进器动效原则
 - [Kinetics](concepts/tool-kinetics.md) — 开源运动效果动画库，99 个动画同时提供 CSS + React + AI Prompt 三种版本
 - [Cloudflare Kumo](concepts/tool-kumo.md) — Cloudflare 官方开源 UI 组件库与文档框架（TypeScript + React），面向 dashboard / 工单 / 监控
@@ -120,6 +121,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [wlctl](concepts/tool-wlctl.md) — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
 - [hush](concepts/tool-hush.md) — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
 - [tmux-workbench](concepts/tool-tmux-workbench.md) — Rust 写的 tmux 会话记忆管理器，本地 + SSH 会话统一索引，CLI + TUI 一入口
+- [GAM（GitHub 账号管理器）](concepts/tool-gam.md) — TypeScript CLI，OAuth 设备流程管理多个 GitHub 账号，无密码 / PAT / SSH 配置
+- [pushcv-cli](concepts/tool-pushcv-cli.md) — 终端求职看板 CLI，四列流程 + AI 定制简历 + LinkedIn 抓取 + 薪资估算
 
 ## 电商 / 自动化
 
@@ -239,6 +242,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [agent-sphere](concepts/tool-agent-sphere.md) — Java 21 + Spring Boot 3.4 的 AI Agent 编排平台，多模型路由 + ReAct + 多级记忆 + MCP + SSE
 - [kcap-cli](concepts/tool-kcap-cli.md) — AI 编码助手的可观测性 CLI，捕获会话生命周期 / 对话 / 子代理树 / 工具调用 / token 用量并仪表盘展示
 - [SkillSpec](concepts/tool-skillspec.md) — 把 AI Agent 的 Skills 当成可遵守 / 可测试 / 可验证的契约，一条命令跑完整风险评估
+- [firstmate](concepts/tool-firstmate.md) — 目录结构 + 规则组合，把终端编码 AI 变「大副」，自动派多个 crewmate 并行干活
+- [Strix](concepts/tool-strix.md) — 自主 AI 渗透测试 agent，输出可直接复现的 PoC 而不是误报清单
+- [Cliare](concepts/tool-cliare.md) — Rust 写的 CLI 黑盒审计工具，给 CLI 打 Agent 就绪评分 + 安全报告
+- [claude-real-video](concepts/tool-claude-real-video.md) — Python 工具，按场景变化 + 字幕智能抽帧，让 AI 真正看懂视频
 
 ### 编程语言 / 工具链
 
@@ -314,6 +321,9 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Dory](concepts/tool-dory.md) — macOS 上 Docker Desktop / OrbStack 的开源替代品，共享 Linux VM + 真 docker socket + 一键 K8s + ~6 MB 单二进制
 - [Worf](concepts/tool-worf.md) — MIT 本地优先桌面应用，看板 / 笔记 / OKR / AI 聊天 / Sprint / 终端六合一
 - [OpenNook](concepts/tool-opennook.md) — Swift 框架在 macOS 刘海区域跑自定义 SwiftUI 应用，展开 / 收起、磨砂背景、快捷键全内置
+- [Hermex](concepts/tool-hermex.md) — SwiftUI 写的 iOS 应用，远程操控自托管 Hermes AI 代理（聊天 / 任务 / 技能 / 文件 / 用量）
+- [SiphonDB](concepts/tool-siphondb.md) — Tauri v2 跨平台桌面数据库 GUI（PostgreSQL / MySQL / SQLite），内置 Rust 多线程 SSH 隧道
+- [Squawk](concepts/tool-squawk.md) — macOS 智能通知代理，给 Claude Code 用：用户在场时静默、离开时弹窗、通知内可回复 / 批准
 
 ### 物联网 / 智能硬件
 
@@ -388,6 +398,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fallegji](concepts/tool-fallegji.md) — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
 - [Yamtrack](concepts/tool-yamtrack.md) — 给前 Trakt 用户准备的自托管媒体追踪平台，追影视 + 音乐 + 播客 + 收藏副本级详情
 - [LinkBreeze](concepts/tool-linkbreeze.md) — 自托管 link-in-bio 平台，Next.js 16 + SQLite 一条 Docker 命令部署
+- [本地 LLM 硬件搭建实操指南](concepts/note-local-llm-hardware-guide.md) — jamesob/local-llm 两档预算配置 + PCIe 交换芯片多卡直连 + Docker 化 + 沙盒 VM
 
 ## 操作手册
 
