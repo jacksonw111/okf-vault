@@ -123,6 +123,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [tmux-workbench](concepts/tool-tmux-workbench.md) — Rust 写的 tmux 会话记忆管理器，本地 + SSH 会话统一索引，CLI + TUI 一入口
 - [GAM（GitHub 账号管理器）](concepts/tool-gam.md) — TypeScript CLI，OAuth 设备流程管理多个 GitHub 账号，无密码 / PAT / SSH 配置
 - [pushcv-cli](concepts/tool-pushcv-cli.md) — 终端求职看板 CLI，四列流程 + AI 定制简历 + LinkedIn 抓取 + 薪资估算
+- [noodle](concepts/tool-noodle.md) — 终端 REST 客户端（TUI），请求存 YAML 方便 Git 版本管理
 
 ## 电商 / 自动化
 
@@ -367,8 +368,17 @@ timestamp: "2026-06-26T16:50:00Z"
 - [chinese-buy-us-stock-guide](concepts/tool-chinese-buy-us-stock-guide.md) — 大陆投资者美股实操指南，开户 / 税务 / 合规 / 入金 / 出金
 - [AI 托管个人资产的方向](concepts/tool-personal-asset-via-claude.md) — AI 全面接管个人财务的机会与风险
 - [liangmai-sdk](concepts/tool-liangmai-sdk.md) — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
+- [Cliare](concepts/tool-cliare.md) — Rust 写的 CLI 黑盒审计工具，给命令行界面打 Agent 就绪评分
+- [pi-env](concepts/tool-pi-env.md) — Pi Coding Agent 的沙箱运行环境，隔离宿主 + 可复现环境 + 可选协作管理
+- [pi-hive](concepts/tool-pi-hive.md) — Pi 的层次化多智能体团队协作工具，YAML 配置定义团队拓扑，规划/执行分离
+- [Comando](concepts/tool-comando.md) — 本地优先多智能体协作代码编辑器（Electron + Rust），五种 ACP 运行时 + 逐块审查
+- [VAF（Veyllo Agent Framework）](concepts/tool-vaf.md) — Python 自主智能体框架，桌面/服务端/终端三模式，本地 GGUF + OpenAI/Anthropic，pgvector + Redis 持久化
+- [Codex-X](concepts/tool-codex-x.md) — Tauri 2 跨平台 Codex 桌面端管理器，提示词注入 + Provider 切换 + 配置可视化
+- [token-diet](concepts/tool-token-diet.md) — Shell 编码代理令牌减肥技能，Claude Code/Codex/Cursor/Windsurf/Cline 通吃，平均省 ~31%
+- [magic-compact](concepts/tool-magic-compact.md) — OpenCode 无损上下文压缩插件，助手轮次单独摘要 + 工具 I/O 缓存，read_omitted_content 回头查
 - [Vibe-Trading](concepts/tool-vibe-trading.md) — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
 - [stock-sdk](concepts/tool-stock-sdk.md) — 浏览器端股票数据库（零依赖），A 股 / 港股 / 美股 / 公募基金实时行情 + K 线，自带 CLI 和 MCP server
+- [investing-for-beginners](concepts/tool-investing-for-beginners.md) — 中文投资入门公开指南，美股/期权/加密三大领域 100+ 文章 + 术语表
 
 ## 网络 / 代理
 

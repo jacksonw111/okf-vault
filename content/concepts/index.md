@@ -192,6 +192,13 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Strix](tool-strix.md) — `Tool` — 自主 AI 渗透测试 agent，输出可直接复现的 PoC 而不是误报清单
 - [Cliare](tool-cliare.md) — `Tool` — Rust 写的 CLI 黑盒审计工具，给 CLI 打 Agent 就绪评分 + 安全报告
 - [claude-real-video](tool-claude-real-video.md) — `Tool` — Python 工具，按场景变化 + 字幕智能抽帧，让 AI 真正看懂视频
+- [pi-env](tool-pi-env.md) — `Tool` — Pi Coding Agent 的沙箱运行环境，隔离宿主 + 可复现环境 + 可选协作管理
+- [pi-hive](tool-pi-hive.md) — `Tool` — Pi 的层次化多智能体团队协作工具，YAML 配置定义团队拓扑，规划/执行分离
+- [Comando](tool-comando.md) — `Tool` — 本地优先多智能体协作代码编辑器（Electron + Rust），五种 ACP 运行时 + 逐块审查
+- [VAF（Veyllo Agent Framework）](tool-vaf.md) — `Tool` — Python 自主智能体框架，桌面/服务端/终端三模式，本地 GGUF + OpenAI/Anthropic，pgvector + Redis 持久化
+- [Codex-X](tool-codex-x.md) — `Tool` — Tauri 2 跨平台 Codex 桌面端管理器，提示词注入 + Provider 切换 + 配置可视化
+- [token-diet](tool-token-diet.md) — `Tool` — Shell 编码代理令牌减肥技能，Claude Code/Codex/Cursor/Windsurf/Cline 通吃，平均省 ~31%
+- [magic-compact](tool-magic-compact.md) — `Tool` — OpenCode 无损上下文压缩插件，助手轮次单独摘要 + 工具 I/O 缓存，read_omitted_content 回头查
 
 ### 编程语言 / 工具链
 
@@ -334,6 +341,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [liangmai-sdk](tool-liangmai-sdk.md) — `Tool` — 良买金融数据 Python SDK，105 个 API 覆盖 A 股 / 港股 / 基金 / 龙虎榜
 - [Vibe-Trading](tool-vibe-trading.md) — `Tool` — 港大 HKUDS AI 交易研究平台，29 个 AI Agent 一句话跑量化研究流水线
 - [stock-sdk](tool-stock-sdk.md) — `Tool` — 浏览器端股票数据库（零依赖），覆盖 A 股 / 港股 / 美股 / 公募基金实时行情 + K 线，自带 CLI 和 MCP server
+- [investing-for-beginners](tool-investing-for-beginners.md) — `Note` — 中文投资入门公开指南，美股/期权/加密货币三大领域 100+ 精选文章 + 术语表
 
 ## 网络 / 代理
 
@@ -365,6 +373,7 @@ timestamp: "2026-06-26T16:50:00Z"
 - [wlctl](tool-wlctl.md) — `Tool` — Rust 终端网络 TUI：WiFi / 热点 / 网卡 / VPN / WireGuard / doctor 排查
 - [hush](tool-hush.md) — `Tool` — 密钥按名注入子进程环境的 Bash 工具，杜绝密钥进聊天记录
 - [GAM（GitHub 账号管理器）](tool-gam.md) — `Tool` — TypeScript CLI，OAuth 设备流程管理多个 GitHub 账号，无密码 / PAT / SSH 配置
+- [noodle](tool-noodle.md) — `Tool` — 终端里的 REST 客户端（TUI），请求存为 YAML 方便 Git 版本管理
 
 ## AI / Agent 生态（本批新增）
 
