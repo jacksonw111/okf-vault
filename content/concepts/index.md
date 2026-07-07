@@ -391,3 +391,29 @@ timestamp: "2026-06-26T16:50:00Z"
 
 - [《线性代数不难》开源书](note-linear-algebra-made-easy.md) — `Note` — GitHub 开源线代教材，几何图 + 可视化 + 动画 + 可运行 Jupyter Notebook
 - [Top 10 系统设计资源清单](note-system-design-resources.md) — `Note` — DDIA / SRE / Alex Xu / Jepsen / High Scalability 等十本经典与十种资源
+
+## 本批新增（2026-07-07）
+
+### 工具（Tools）
+- [Token Tracker](tool-token-tracker.md) — `Tool` — 本地统计各 AI CLI Token 消耗、可视化成本
+- [motion-anything](tool-motion-anything.md) — `Tool` — 让动效活在「能直接上线的页面」里的开源工具
+- [Cloudflare Workers Cache](tool-cloudflare-workers-cache.md) — `Tool` — Worker 入口前的区域分层缓存，标准 HTTP 头配置
+- [watermark-removal](tool-watermark-removal.md) — `Tool` — 基于 Inpainting 的开源去水印库，4600+ Star
+- [wenyi（Claude 长篇翻译工程）](tool-wenyi-translator.md) — `Tool` — 用 Claude 翻译整本村上春树长篇《夏帆》的开源工程
+- [okkmax-web（AI API 中转服务商评测目录）](tool-okkmax-web.md) — `Tool` — AI API 中转服务商的独立评测与目录平台
+- [OpenOPC](tool-openopc.md) — `Tool` — HKUDS 开源，用 AI 角色组成虚拟公司执行复杂任务
+- [glance（GitHub · Docker · SSH 桌面仪表盘）](tool-glance-dashboard.md) — `Tool` — macOS 原生三合一开发者仪表盘
+- [OpenScience](tool-openscience.md) — `Tool` — 开源 AI 科研工作台，全流程科研，290+ 技能
+- [transit-hub](tool-transit-hub.md) — `Tool` — 面向 sub2api / new-api 自托管 API 的多上游运营管理中心
+- [lengyi-markdown-editor](tool-lengyi-markdown-editor.md) — `Tool` — 纯前端单 HTML 文件 Markdown 编辑器
+- [tmux-spotlight](tool-tmux-spotlight.md) — `Tool` — Spotlight 风格 tmux 应用切换 / 标签预览
+- [ai_usage_dashboard](tool-ai-usage-dashboard.md) — `Tool` — 游戏血条形式展示 AI 提供商用量与配额
+- [loopkit](tool-loopkit.md) — `Tool` — 33 个编码 agent 实战检验的技能文件包
+- [tradingview-mcp](tool-tradingview-mcp.md) — `Tool` — TradingView / 回测 / 扫描器通过 MCP 暴露给 AI
+- [frontier（21 项质量标准方法包）](tool-frontier-21.md) — `Tool` — 21 项 Fable 5 级质量标准方法包
+- [agentsview](tool-agentsview.md) — `Tool` — 本地 AI 编码助手会话搜索、分析与 Token 费用跟踪
+
+### 笔记（Notes）
+- [可灵 3.0 电影级画面（社区作品）](note-kling-3-cinematic.md) — `Note` — 国产视频生成模型对镜头语言的理解
+- [反应类视频：麻了（短视频）](note-emotion-clip-mahai.md) — `Note` — 反应类竖屏短视频内容覆盖记录
+- [反应类视频：记忆是孤独的（短视频）](note-emotion-clip-memory.md) — `Note` — 反应类竖屏短视频内容覆盖记录
