@@ -418,6 +418,45 @@ timestamp: "2026-06-26T16:50:00Z"
 - [应用外壳侧边栏（base-ui + motion 多层装配）](concepts/playbook-app-shell-sidebar.md) — shadcn primitive → AppShellSidebar 中间层 → 应用层数据的三层架构
 - [双轴主题系统（next-themes + shadcn data-theme）](concepts/playbook-dual-axis-theming.md) — Mode × Preset 双维度自由组合 + 防 FOUC + 跨设备同步
 
+## 本批新增（2026-07-08）
+
+### 金融 / 数据
+- [tickflow-stock-panel](concepts/tool-tickflow-stock-panel.md) — 自托管 A 股量化工作台：选股 / 回测 / 监控 / 复盘 / 18 内置策略 / AI 生成策略 / 连板梯队
+- [farm-mall](concepts/tool-farm-mall.md) — Flask + MySQL 助农电商平台，本科毕业设计开源版
+
+### 桌面 / 系统工具
+- [Picot](concepts/tool-picot.md) — Pi 编码 agent 的本地桌面 GUI（Tauri 框架）
+- [Nebula](concepts/tool-nebula-terminal.md) — Windows GPU 加速 / 会话持久的终端
+- [tudo](concepts/tool-tudo.md) — 终端下的待办 + Markdown 笔记本二合一 TUI
+- [Cyrene-Agent](concepts/tool-cyrene-agent.md) — Live2D AI 伴侣桌面应用，星穹铁道昔涟人设
+
+### AI / Agent 生态
+- [docker_images_sync](concepts/tool-docker-images-sync.md) — 借 GitHub Actions 免费算力同步海外 Docker 镜像到国内
+- [trueline-mcp](concepts/tool-trueline-mcp.md) — 带哈希校验的 AI 编码精准改文件 MCP 插件
+- [quickai](concepts/tool-quickai-claude-cost.md) — 本地 Claude Code transcript 剖析工具（token / 成本 / 时长）
+- [Foundry](concepts/tool-foundry.md) — 开源 AI 数字公司平台，自动生成董事会→员工层级 agent 组织
+- [fable-harness](concepts/tool-fable-harness.md) — Claude Code 纪律化流程行为协议（hooks / skill / 子代理）
+- [LocalEyes](concepts/tool-localeyes.md) — 给本地纯文本 LLM 加 Ollama 视觉能力的工具
+- [cpa-plugin-codexcomp](concepts/tool-cpa-plugin-codexcomp.md) — CLIProxyAPI 插件，自动修复 gpt-5.5 reasoning 截断
+- [vibe-coding-rules](concepts/tool-vibe-coding-rules.md) — AI 编码 6-Skill 编程纪律流水线
+- [pool](concepts/tool-pool-poolside.md) — Poolside 编码智能体，终端 / ACP 服务端 / ACP 客户端 / `pool exec` 四种运行方式
+
+### 电商 / 自动化
+- [Knockoff](concepts/tool-knockoff.md) — Chrome 扩展，自动过滤 Amazon 山寨品牌
+- [creatorhub](concepts/tool-creatorhub.md) — Python 多平台（抖音/小红书/快手）内容监控采集搬运工具
+
+### 后端 / 部署 / 自托管
+- [gzh-design-skill](concepts/tool-gzh-design-skill.md) — Markdown → 微信公众号内联样式 HTML 转换器
+- [BiliRoaming](concepts/tool-biliroaming.md) — 解除 B 站番剧区域限制的 Xposed 模块
+- [Openprinter](concepts/tool-openprinter.md) — opentools.studio 开源打印机，结构极简 / 通用零件 / 可复制改造
+
+### 阅读 / 资源
+- [awesome-education](concepts/tool-awesome-education.md) — 教育优惠 / 学生权益 / 学术会员清单仓库
+
+### 更新（Updated）
+- [Free-TV/IPTV](concepts/tool-free-tv-iptv.md) — 补充媒体预览图与新一批推文剪藏链接
+- [ShipSwift](concepts/tool-shipswift.md) — 补充 App Store 链接与新一批推文剪藏链接
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

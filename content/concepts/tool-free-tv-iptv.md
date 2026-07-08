@@ -34,10 +34,15 @@ Free-TV/IPTV 是一个**全球免费电视频道 M3U 播放列表**合集仓库�
 - 自建 IPTV 盒子 / 电视墙
 - 应急新闻信源（多源对照）
 
+## 媒体
+
+![Free-TV/IPTV 播放列表](https://pbs.twimg.com/media/HMoXCRJWkAAf8sX.jpg)
+
 ## 原始链接
 
 - [项目仓库](https://github.com/Free-TV/IPTV)
 - [原始推文剪藏](https://x.com/QingQ77/status/2070502086966648878)
+- [补充推文剪藏](https://x.com/Wen_Zw/status/2074630156183032083)
 
 ## 相关概念
 

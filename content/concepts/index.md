@@ -417,3 +417,32 @@ timestamp: "2026-06-26T16:50:00Z"
 - [可灵 3.0 电影级画面（社区作品）](note-kling-3-cinematic.md) — `Note` — 国产视频生成模型对镜头语言的理解
 - [反应类视频：麻了（短视频）](note-emotion-clip-mahai.md) — `Note` — 反应类竖屏短视频内容覆盖记录
 - [反应类视频：记忆是孤独的（短视频）](note-emotion-clip-memory.md) — `Note` — 反应类竖屏短视频内容覆盖记录
+
+## 本批新增（2026-07-08）
+
+### 工具（Tools）
+- [tickflow-stock-panel](tool-tickflow-stock-panel.md) — `Tool` — 自托管 A 股量化工作台：选股 / 回测 / 监控 / 复盘 / 18 内置策略 / AI 生成策略 / 连板梯队
+- [docker_images_sync](tool-docker-images-sync.md) — `Tool` — 借 GitHub Actions 免费算力同步海外 Docker 镜像到国内，零成本免魔法无配额
+- [Openprinter](tool-openprinter.md) — `Tool` — opentools.studio 开源打印机，结构极简 / 通用零件 / 可复制改造
+- [gzh-design-skill](tool-gzh-design-skill.md) — `Tool` — Markdown → 微信公众号内联样式 HTML 转换器
+- [farm-mall](tool-farm-mall.md) — `Tool` — Flask + MySQL 助农电商平台，本科毕业设计开源版
+- [BiliRoaming](tool-biliroaming.md) — `Tool` — 解除 B 站番剧区域限制的 Xposed 模块
+- [awesome-education](tool-awesome-education.md) — `Tool` — 教育优惠 / 学生权益 / 学术会员清单仓库
+- [Knockoff](tool-knockoff.md) — `Tool` — Chrome 扩展，自动过滤 Amazon 山寨品牌
+- [trueline-mcp](tool-trueline-mcp.md) — `Tool` — 带哈希校验的 AI 编码精准改文件 MCP 插件
+- [quickai](tool-quickai-claude-cost.md) — `Tool` — 本地 Claude Code transcript 剖析工具（token / 成本 / 时长）
+- [Foundry](tool-foundry.md) — `Tool` — 开源 AI 数字公司平台，自动生成董事会→员工层级 agent 组织
+- [Picot](tool-picot.md) — `Tool` — Pi 编码 agent 的本地桌面 GUI（Tauri 框架）
+- [fable-harness](tool-fable-harness.md) — `Tool` — Claude Code 纪律化流程行为协议（hooks / skill / 子代理）
+- [LocalEyes](tool-localeyes.md) — `Tool` — 给本地纯文本 LLM 加 Ollama 视觉能力的工具
+- [cpa-plugin-codexcomp](tool-cpa-plugin-codexcomp.md) — `Tool` — CLIProxyAPI 插件，自动修复 gpt-5.5 reasoning 截断
+- [Nebula](tool-nebula-terminal.md) — `Tool` — Windows GPU 加速 / 会话持久的终端
+- [vibe-coding-rules](tool-vibe-coding-rules.md) — `Tool` — AI 编码 6-Skill 编程纪律流水线
+- [pool](tool-pool-poolside.md) — `Tool` — Poolside 编码智能体，终端 / ACP 服务端 / ACP 客户端 / `pool exec` 四种运行方式
+- [creatorhub](tool-creatorhub.md) — `Tool` — Python 多平台（抖音/小红书/快手）内容监控采集搬运工具
+- [tudo](tool-tudo.md) — `Tool` — 终端下的待办 + Markdown 笔记本二合一 TUI
+- [Cyrene-Agent](tool-cyrene-agent.md) — `Tool` — Live2D AI 伴侣桌面应用，星穹铁道昔涟人设
+
+### 更新（Updated）
+- [Free-TV/IPTV](tool-free-tv-iptv.md) — `Tool` — 补充媒体预览图与新一批推文剪藏链接
+- [ShipSwift](tool-shipswift.md) — `Tool` — 补充 App Store 链接与新一批推文剪藏链接

@@ -61,7 +61,10 @@ ShipSwift 把「**正确、可编译、可抄**」的 SwiftUI + 配套后端合�
 
 ## 参考链接
 
-- [原始链接 1](https://x.com/QingQ77/status/2058463261885157435)
+- [GitHub 仓库](https://github.com/signerlabs/ShipSwift)
+- [App Store 链接](https://apps.apple.com/us/app/shipswift-mcp-codebase/id6759209764)
+- [原始推文剪藏](https://x.com/QingQ77/status/2058463261885157435)
+- [补充推文剪藏](https://x.com/Wen_Zw/status/2074801935945969681)
 
 ## 相关概念
 
