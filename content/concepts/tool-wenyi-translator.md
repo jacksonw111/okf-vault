@@ -1,10 +1,10 @@
 ---
 type: Tool
-title: "wenyi（Claude 长篇翻译工程）"
-description: "用 Claude 翻译村上春树《夏帆》整本长篇小说的开源工程实践，主张用 LLM 重做翻译任务而非逐段润色。"
+title: "wenyi（Claude 多语种长篇翻译 CLI）"
+description: "把 EPUB / FB2 / TXT 多语言小说翻译成中文并尽量保留原排版、图片与目录的命令行工具，支持断点续跑与术语库一致性保障；用 Claude 翻译村上春树《夏帆》整本长篇小说的开源工程实践，主张用 LLM 重做翻译任务而非逐段润色。"
 resource: "https://github.com/BigDawnGhost/wenyi"
-tags: [translation, claude, long-form, llm]
-timestamp: "2026-07-07T12:00:00Z"
+tags: [translation, claude, long-form, llm, epub, fb2, cli, breakpoint-resume]
+timestamp: "2026-07-09T20:50:00Z"
 ---
 
 # wenyi（Claude 长篇翻译工程）
@@ -21,8 +21,11 @@ timestamp: "2026-07-07T12:00:00Z"
 ## 关键能力
 | 能力 | 说明 |
 |------|------|
+| 多格式输入 | EPUB / FB2 / TXT 一并支持，作为命令行入口 |
+| 排版与目录保留 | 翻译后尽量保留原章节结构、图片、目录 |
+| 断点续跑 | CLI 中途进程被杀 / 配额耗尽，下次从断点继续 |
+| 术语库一致性 | 内置术语表，跨章节保持同一译法 |
 | 整本上下文管理 | 不切碎段落，跨章节保留人物语气 / 时间线 |
-| 术语 / 人名表 | 显式维护前后命名一致 |
 | 风格指南嵌入 prompt | 用仓库内文控制"哪类词用哪类译法" |
 | Git 可重放 | prompt 与术语表版本控制 |
 | 实测作品 | 村上春树《夏帆》日文 → 简中（基于 Claude） |

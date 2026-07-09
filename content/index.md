@@ -457,6 +457,55 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Free-TV/IPTV](concepts/tool-free-tv-iptv.md) — 补充媒体预览图与新一批推文剪藏链接
 - [ShipSwift](concepts/tool-shipswift.md) — 补充 App Store 链接与新一批推文剪藏链接
 
+## 本批新增（2026-07-09）
+
+### AI / Agent 生态
+- [TencentDB-Agent-Memory](concepts/tool-tencentdb-agent-memory.md) — 腾讯云开源的四层渐进式 Agent 记忆方案（短 / 中 / 长 / 永久）
+- [Hermes Browser Extension](concepts/tool-hermes-browser-extension.md) — 给 Hermes Agent 做的浏览器侧边栏，自动抓网页上下文喂本地 / 远端运行时
+- [retok](concepts/tool-retok.md) — 分析 Claude Code / Codex CLI 使用日志估算 token 成本并给出省 token 建议
+- [claude-code-merge-queue](concepts/tool-claude-code-merge-queue.md) — 本地零成本合并队列，并行 worktree 按 FIFO 顺序串行落地 + 构建 + 测试
+- [Mobius](concepts/tool-mobius-agent-os.md) — 自称首个自进化开源 Agent OS，项目 / 团队 / agent / 设备 / 算力同台且能自我改写
+- [Open Connector](concepts/tool-open-connector.md) — 开源 Composio 替代品，1000+ SaaS / 9400+ Action，SDK / CLI / MCP / HTTP / OpenAPI 多协议
+- [mattpocock wayfinder](concepts/tool-mattpocock-wayfinder.md) — DAG + 战争迷雾的大型项目规划 Skill，4 类节点票务
+- [Hallmark](concepts/tool-hallmark-skill.md) — 开源 AI 编码设计 Skill，给 Claude Code / Cursor / Codex 一键加载「设计感」
+- [J-lens for Qwen3.6](concepts/tool-jlens-qwen36.md) — Apple Silicon 本地跑 Qwen3.6-27B 4-bit（MLX），把层 × 位置 token 读可视化诊断
+- [DataFoundry](concepts/tool-datafoundry-data-agent.md) — 企业级私有部署的数据 Agent 工作台，统一业务语义 + 只读边界 + 全程审计
+- [Fable 5 案例：1 周把 email canvas 从 ReactFlow 迁到 WASM + Rust](concepts/note-fable5-email-canvas-case.md) — 笔记：性能从 100+ / 30fps 跳到 1000+ / 60fps
+
+### 前端 / 设计资源
+- [uikit-expt](concepts/tool-uikit-expt.md) — 基于 pmndrs/uikit 的 3D UI 实现实验
+- [next-shadcn-admin-dashboard](concepts/tool-next-shadcn-admin-dashboard.md) — Next.js 16 + shadcn UI 的开源 admin dashboard 起点模板
+- [pixel2motion](concepts/tool-pixel2motion.md) — 开源免费 Logo 动效生成工具
+- [ai-website-cloner](concepts/tool-ai-website-cloner.md) — 给 AI 编码 Agent 用的网站复刻模板
+
+### 基础与格式
+- [auth.md](concepts/tool-auth-md.md) — 面向 LLM / agent 的服务鉴权说明书约定，与 x402 协同形成「鉴权 + 付费」闭环
+
+### 后端 / 部署 / 自托管
+- [Boring Computers](concepts/tool-boring-computers.md) — Firecracker microVM 给 AI agent 提供「一整台 Linux 电脑」
+- [kodbox](concepts/tool-kodbox.md) — 浏览器即云端 OS 的开源 Web 文件管理器
+- [ComPDFKit Self-Hosted](concepts/tool-compdf-self-hosted.md) — 企业可私有化部署的开源 PDF 编辑与格式转换平台
+
+### 桌面 / 系统工具
+- [cmdOS](concepts/tool-cmdos.md) — 键盘优先的浏览器 Chrome 命令终端扩展（Alt+S 唤出），本地存储
+- [Live Photo Box](concepts/tool-live-photo-box.md) — Windows 桌面工具，查看 / 管理 / 修复 iPhone 实况照片跨设备配对问题
+
+### 听写 / 语音输入
+- [OmniVoice-Studio](concepts/tool-omnivoice-studio.md) — 3 秒样本开源语音克隆工具，本地运行 + 646 语言 + Claude/Cursor 直调
+
+### 物联网 / 智能硬件
+- [Pocket Lab Power Supply](concepts/tool-pocket-lab-power-supply.md) — 4S 锂电 + USB-C/PD 充电的口袋实验室电源
+- [marine-acoustic-monitor](concepts/tool-marine-acoustic-monitor.md) — 低成本边缘计算海洋生态声学监测
+
+### 编程语言 / 工具链
+- [quic-go-ton](concepts/tool-quic-go-ton.md) — quic-go 的 TON 网络分支，纯 Go + RFC 7250 原始公钥 + Ed25519 ADNL 身份
+
+### 金融 / 数据
+- [iptv-org/iptv](concepts/tool-iptv-org.md) — 全球免费 IPTV 直播源大宝库，12 000+ 频道多维筛选 + EPG + API
+
+### 更新（Updated）
+- [wenyi（Claude 多语种长篇翻译 CLI）](concepts/tool-wenyi-translator.md) — 补充 EPUB / FB2 / TXT 多格式输入、断点续跑、术语库一致性
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

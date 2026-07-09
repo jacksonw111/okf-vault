@@ -446,3 +446,37 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 更新（Updated）
 - [Free-TV/IPTV](tool-free-tv-iptv.md) — `Tool` — 补充媒体预览图与新一批推文剪藏链接
 - [ShipSwift](tool-shipswift.md) — `Tool` — 补充 App Store 链接与新一批推文剪藏链接
+
+## 本批新增（2026-07-09）
+
+### 工具（Tools）
+- [uikit-expt](tool-uikit-expt.md) — `Tool` — 基于 pmndrs/uikit 的 3D UI 实现实验，演示 3D 空间里拖拽 / 缩放 UI 面板
+- [Boring Computers](tool-boring-computers.md) — `Tool` — Firecracker microVM 给 AI agent 提供「一整台 Linux 电脑」，毫秒启动 + 硬件隔离 + Go 控制平面 + MCP/SDK
+- [iptv-org/iptv](tool-iptv-org.md) — `Tool` — 全球免费 IPTV 直播源大宝库，12 000+ 频道多维筛选 + EPG + API
+- [Hallmark](tool-hallmark-skill.md) — `Tool` — 开源 AI 编码设计 Skill，给 Claude Code / Cursor / Codex 一键加载「设计感」
+- [TencentDB-Agent-Memory](tool-tencentdb-agent-memory.md) — `Tool` — 腾讯云开源的四层渐进式 Agent 记忆方案（短 / 中 / 长 / 永久）
+- [next-shadcn-admin-dashboard](tool-next-shadcn-admin-dashboard.md) — `Tool` — Next.js 16 + shadcn UI 的开源 admin dashboard 起点模板
+- [OmniVoice-Studio](tool-omnivoice-studio.md) — `Tool` — 3 秒样本开源语音克隆工具，本地运行 + 646 语言 + Claude/Cursor 直调
+- [pixel2motion](tool-pixel2motion.md) — `Tool` — 开源免费 Logo 动效生成工具
+- [kodbox](tool-kodbox.md) — `Tool` — 浏览器即云端 OS 的开源 Web 文件管理器：万物皆可挂载 + 桌面级操作 + 内置代码编辑器
+- [mattpocock wayfinder](tool-mattpocock-wayfinder.md) — `Tool` — DAG + 战争迷雾的大型项目规划 Skill，4 类节点票务（grilling/research/prototype/task）
+- [J-lens for Qwen3.6](tool-jlens-qwen36.md) — `Tool` — Apple Silicon 本地跑 Qwen3.6-27B 4-bit（MLX），把层 × 位置 token 读可视化诊断信号
+- [ai-website-cloner](tool-ai-website-cloner.md) — `Tool` — 给 AI 编码 Agent 用的网站复刻模板，自动拆成带类型 React 组件
+- [Pocket Lab Power Supply](tool-pocket-lab-power-supply.md) — `Tool` — 4S 锂电 + USB-C/PD 充电的口袋实验室电源，可调电压限流 + 5×7 LED 屏
+- [marine-acoustic-monitor](tool-marine-acoustic-monitor.md) — `Tool` — 低成本边缘计算海洋生态声学监测，浮标 / 码头本地识别 + 低带宽回传摘要
+- [quic-go-ton](tool-quic-go-ton.md) — `Tool` — quic-go 的 TON 网络分支，纯 Go + RFC 7250 原始公钥 + Ed25519 ADNL 身份
+- [DataFoundry](tool-datafoundry-data-agent.md) — `Tool` — 企业级私有部署的数据 Agent 工作台，统一业务语义 + 只读边界 + 全程审计
+- [Live Photo Box](tool-live-photo-box.md) — `Tool` — Windows 桌面工具，查看 / 管理 / 修复 iPhone 实况照片跨设备配对损坏问题
+- [Hermes Browser Extension](tool-hermes-browser-extension.md) — `Tool` — 给 Hermes Agent 做的浏览器侧边栏，自动抓网页上下文喂给本地 / 远端运行时
+- [ComPDFKit Self-Hosted](tool-compdf-self-hosted.md) — `Tool` — 企业可私有化部署的开源 PDF 编辑与格式转换平台
+- [retok](tool-retok.md) — `Tool` — 分析 Claude Code / Codex CLI 使用日志估算 token 成本并给出省 token 建议
+- [claude-code-merge-queue](tool-claude-code-merge-queue.md) — `Tool` — 本地零成本合并队列，让并行 worktree 按 FIFO 顺序串行落地 + 构建 + 测试
+- [Mobius](tool-mobius-agent-os.md) — `Tool` — 自称首个自进化开源 Agent OS，项目 / 团队 / agent / 设备 / 算力同台且能自我改写
+- [cmdOS](tool-cmdos.md) — `Tool` — 键盘优先的浏览器 Chrome 命令终端扩展（Alt+S 唤出），本地存储
+- [Open Connector](tool-open-connector.md) — `Tool` — 开源 Composio 替代品，1000+ SaaS / 9400+ Action，SDK / CLI / MCP / HTTP / OpenAPI 多协议暴露
+
+### 笔记（Notes）
+- [Fable 5 案例：1 周把 email canvas 从 ReactFlow 迁到 WASM + Rust](note-fable5-email-canvas-case.md) — `Note` — 性能从 100+ / 30fps 跳到 1000+ / 60fps，是 Fable 模型当工程师的真实证据
+
+### 更新（Updated）
+- [wenyi（Claude 多语种长篇翻译 CLI）](tool-wenyi-translator.md) — `Tool` — 补充 EPUB / FB2 / TXT 多格式输入、断点续跑、术语库一致性
