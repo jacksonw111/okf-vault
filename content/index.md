@@ -506,6 +506,39 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 更新（Updated）
 - [wenyi（Claude 多语种长篇翻译 CLI）](concepts/tool-wenyi-translator.md) — 补充 EPUB / FB2 / TXT 多格式输入、断点续跑、术语库一致性
 
+## 本批新增（2026-07-10）
+
+### 桌面 / 系统工具
+- [OpenDisplay](concepts/tool-opendisplay.md) — 把闲置 iPhone/iPad 变 Mac 副屏的自托管免费替代
+- [Expenso](concepts/tool-expenso.md) — 离线优先 Android 记账 + Jetpack Compose + Material 3
+- [davit](concepts/tool-davit.md) — SwiftUI 写的 macOS 原生 Apple container 管理界面
+- [Smart Remarkable](concepts/tool-smart-remarkable.md) — reMarkable 电子墨水平板视觉-语言 agent，Rust 实现
+
+### 终端 / 网络 / 系统管理
+- [tork](concepts/tool-tork.md) — 终端 BT 客户端 + 一键拉取 Linux 发行版 ISO
+- [nls](concepts/tool-nls.md) — Go 写的现代化 ls，Nushell 风格表格 + 管道兼容
+
+### AI / Agent 生态
+- [next-ai-draw-io](concepts/tool-next-ai-draw-io.md) — 自然语言 / 手绘草图 → draw.io 风格图表
+- [Freely](concepts/tool-freely.md) — 本地运行实时会议提示助手，主打替代 150 美元/月 的 Cluely
+- [PocketJS](concepts/tool-pocketjs.md) — 浏览器外跑 JSX UI 的运行时，Solid / Vue Vapor 经 QuickJS
+- [NoteBrain CLI](concepts/tool-notebrain-cli.md) — Obsidian vault 离线索引到本地 ChromaDB，给 AI agent 提供语义搜索
+- [语析 Yuxi](concepts/tool-yuxi.md) — RAG + Milvus 知识图谱 + LangGraph 多智能体编排的多租户平台
+- [blockout](concepts/tool-blockout-previs.md) — 用灰盒场景 + 真实镜头参数做 AI 视频生成的 previs
+- [openclaw-marketing-skills](concepts/tool-openclaw-marketing-skills.md) — 给 OpenClaw 智能体的 37 个营销技能集合 + 多广告平台实时数据
+- [friskeval](concepts/tool-friskeval.md) — 发布前对 agent 技能目录做路由检查
+- [AI Job Hunter](concepts/tool-ai-job-hunter.md) — 面向 AI 行业求职的 Claude Code 技能，30/60/90 天学习计划
+- [Synapse CE](concepts/tool-synapse-ce.md) — SCA + 侦察 + 证据 + 报告收拢到一个治理控制平面
+
+### 阅读 / 资源
+- [AI User Roadmap](concepts/tool-ai-user-roadmap.md) — 面向普通 AI 使用者的入门到完成真实任务学习路线图
+
+### 自托管 / 工具
+- [Google《Agent Engineering》1 小时课程](concepts/note-google-agent-engineering-course.md) — Google 官方 1 小时 Agent Engineering 视频课速记
+
+### 基础与格式 / 电商 / 自动化
+- [Sleepwalker](concepts/tool-sleepwalker.md) — 扫描品牌在 AI 搜索中的可见度与被引用情况
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

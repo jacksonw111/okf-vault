@@ -480,3 +480,28 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 更新（Updated）
 - [wenyi（Claude 多语种长篇翻译 CLI）](tool-wenyi-translator.md) — `Tool` — 补充 EPUB / FB2 / TXT 多格式输入、断点续跑、术语库一致性
+
+## 本批新增（2026-07-10）
+
+### 工具（Tools）
+- [next-ai-draw-io](tool-next-ai-draw-io.md) — `Tool` — DayuanJiang/next-ai-draw-io 33k+ 星，自然语言 / 手绘草图 → draw.io 风格架构图 / 流程图 / 思维导图，生成后可在 draw.io 编辑器交互微调并一键导出
+- [OpenDisplay](tool-opendisplay.md) — `Tool` — peetzweg/opendisplay，把闲置 iPhone/iPad 变 Mac 副屏，Sidecar / Duet / Luna Display 的自托管免费替代
+- [Expenso](tool-expenso.md) — `Tool` — darkvortex144/Expenso，离线优先 Android 记账 + Jetpack Compose + Material 3 + 本地 Room
+- [Freely](tool-freely.md) — `Tool` — KMalek101/Freely，本地运行实时会议提示助手，本地 Whisper 转写 + 多家 LLM API，主打替代 150 美元/月 的 Cluely
+- [AI User Roadmap](tool-ai-user-roadmap.md) — `Tool` — heheeeeeeer/AI-User-Roadmap，面向普通 AI 使用者的入门到完成真实任务的学习路线图
+- [PocketJS](tool-pocketjs.md) — `Tool` — pocket-stack/pocketjs，浏览器外跑 JSX UI 的运行时，Solid / Vue Vapor 经 QuickJS + no_std Rust 核心，8 MB 内存 / 60 FPS，跨 PSP / PPSSPP / macOS / Bun
+- [NoteBrain CLI](tool-notebrain-cli.md) — `Tool` — nmdra/notebrain-cli，把 Obsidian vault 离线索引到本地 ChromaDB，给 AI 编码 agent 提供语义搜索 / wikilink 图遍历 / 隐藏关联发现的 JSON 接口
+- [语析 Yuxi](tool-yuxi.md) — `Tool` — zenghui-li/yuxi，RAG + Milvus 知识图谱 + LangGraph 多智能体编排整合进多租户工作台的智能知识库平台
+- [Sleepwalker](tool-sleepwalker.md) — `Tool` — followanton/sleepwalker，扫描品牌在 ChatGPT / Perplexity / Grok / Gemini 等 AI 搜索中的可见度与被引用情况，给出 GEO 优化建议
+- [blockout](tool-blockout-previs.md) — `Tool` — wassermanproductions/blockout，用灰盒场景 + 走位标记 + 真实镜头参数做 AI 视频生成的 previs 并导出运动参考包
+- [openclaw-marketing-skills](tool-openclaw-marketing-skills.md) — `Tool` — davidpc007/openclaw-marketing-skills，给 OpenClaw 智能体的 37 个营销技能集合 + Google Ads / Search Console / Meta Ads / X 实时数据接入
+- [davit](tool-davit.md) — `Tool` — wouterdebie/davit，SwiftUI 写的 macOS 原生 Apple container 管理界面
+- [tork](tool-tork.md) — `Tool` — melqtx/tork，终端 BT 客户端 + 一键拉取 Linux 发行版 ISO
+- [friskeval](tool-friskeval.md) — `Tool` — ryanda9910/friskeval，发布前对 agent 技能目录做路由检查，覆盖 Claude Code / Codex / Cursor / Gemini CLI / opencode
+- [Smart Remarkable](tool-smart-remarkable.md) — `Tool` — yangg1224/smart_remarkable，reMarkable 电子墨水平板视觉-语言 agent，Rust 实现、awwaiid/ghostwriter 派生，截屏手写页发视觉大模型并以真实笔迹回写
+- [nls](tool-nls.md) — `Tool` — nolight132/nls，Go 写的现代化 ls，Nushell 风格表格 + 管道兼容，多 shell 适配
+- [AI Job Hunter](tool-ai-job-hunter.md) — `Tool` — qxiansheng001/ai-job-hunter，面向 AI 行业求职的 Claude Code 技能，个人画像 + BOSS 直聘真实招聘数据 + 差距分析 + 30/60/90 天定制学习计划
+- [Synapse CE](tool-synapse-ce.md) — `Tool` — KKloudTarus/synapse-ce，把 SCA / 侦察 / 证据采集 / 报告收拢到一个治理控制平面，授权安全测试与防御性安全
+
+### 笔记（Notes）
+- [Google《Agent Engineering》1 小时课程](note-google-agent-engineering-course.md) — `Note` — Google 官方 1 小时 Agent Engineering 视频课速记，5 段：首个 agent → 记忆 → agent 循环 → MCP vs API → 多 agent 系统
