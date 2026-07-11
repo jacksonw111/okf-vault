@@ -539,6 +539,46 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 基础与格式 / 电商 / 自动化
 - [Sleepwalker](concepts/tool-sleepwalker.md) — 扫描品牌在 AI 搜索中的可见度与被引用情况
 
+## 本批新增（2026-07-11）
+
+### 前端 / 设计资源
+- [NumberFlow](concepts/tool-number-flow.md) — barvian/number-flow，丝滑数字滚动 React 组件
+- [Liveline](concepts/tool-liveline.md) — benji/liveline，实时折线图 React 组件
+- [Sonner（toast 组件）](concepts/tool-sonner-toast.md) — emilkowalski/sonner，API 极简 React toast，已被 shadcn 等绝大多数现代组件库采纳为默认 toast
+- [Apple Design Skill](concepts/tool-apple-design-skill.md) — emilkowalski/skills 中的 /apple-design Skill，WWDC 提炼 17 条设计 + 动效原则
+
+### AI / Agent 生态
+- [Smart Task Assistant](concepts/tool-smart-task-assistant.md) — LangGraph + FastAPI 工作流，分类 → 计划 → 评审 → REST 输出
+- [Flood Guard Agent](concepts/tool-flood-guard-agent.md) — 北京市山洪防御辅助决策智能体，Spring AI + ReAct + SSE 流式
+
+### 桌面 / 系统工具
+- [Garmin Tracker RS](concepts/tool-garmin-tracker-rs.md) — Tauri 2 + Rust + React 19，USB（MTP）直连 Garmin 手表取 .FIT 文件，全程无需云端
+- [Orca Music Player](concepts/tool-orca-music-player.md) — Svelte 5 + Tauri 2 + Rust 本地音乐播放器，MP3/FLAC/M4A/WAV/OGG/OPUS/AIFF，rodio 引擎支持交叉淡入（与 stablyai/orca Coding IDE 同名不同项目）
+- [Uninstally](concepts/tool-uninstally.md) — SwiftUI 写的 macOS 卸载工具，清残留 + Finder 右键卸载 + Homebrew 包管理
+
+### 终端 / 网络 / 系统管理
+- [Artix TUI Installer](concepts/tool-artix-tui-installer.md) — Rust + ratatui 终端安装器，乌克兰语 / 英语双语，专门给用 dinit 的 Artix Linux 用
+- [Grom](concepts/tool-grom-prometheus.md) — Go 写的 Prometheus btop 风格终端仪表盘，支持读 Grafana 面板 JSON 在终端复现布局
+
+### 后端 / 部署 / 自托管
+- [Frp Manager](concepts/tool-frp-manager.md) — 本地桌面内网穿透管理系统（服务端控制面 + Wails/Vue 客户端）
+- [Open WebUI Generate Documents](concepts/tool-openwebui-generate-documents.md) — Open WebUI 工具，用 python-docx 把模型输出的 Markdown / JSON 生成原生可编辑 .docx
+
+### 电商 / 自动化
+- [Article Format](concepts/tool-article-format.md) — 一句话指令把自媒体文案转微信公众号（内联 CSS）+ 今日头条（语义 HTML）排版
+
+### 阅读 / 资源
+- [Space Multi-Design PPT](concepts/tool-multi-design-ppt.md) — Agent Skills 协议幻灯片生成 Skill，按 62 种品牌设计语言出 HTML/PPTX/PDF
+
+### 物联网 / 智能硬件
+- [GitGrimoire](concepts/tool-gitgrimoire.md) — 输入 GitHub 用户名生成《黑色五叶草》风格 3D 魔法书档案 / 对决 / 排行榜
+
+### 听写 / 语音输入
+- [Claude-ZH-EN-Relay](concepts/tool-claude-zh-en-relay.md) — Chrome 扩展让用户用中文与 Claude 聊天（输入译英 / 回复译中），可省 token
+
+### 金融 / 数据
+- [Fintech Advisor](concepts/tool-fintech-advisor.md) — 开源净值与投资组合追踪（不是记账），多币种 + 自动汇率 + Yahoo Finance + AI 一键导入持仓 + AI 投顾对话
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

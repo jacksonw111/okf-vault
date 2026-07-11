@@ -505,3 +505,25 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 笔记（Notes）
 - [Google《Agent Engineering》1 小时课程](note-google-agent-engineering-course.md) — `Note` — Google 官方 1 小时 Agent Engineering 视频课速记，5 段：首个 agent → 记忆 → agent 循环 → MCP vs API → 多 agent 系统
+
+## 本批新增（2026-07-11）
+
+### 工具（Tools）
+- [NumberFlow](tool-number-flow.md) — `Tool` — barvian/number-flow，丝滑数字滚动 React 组件，价格 / 计数器 / 数值变化逐字符滚动 + 弹簧曲线
+- [Liveline](tool-liveline.md) — `Tool` — benji/liveline，实时折线图 React 组件，股价 / 心率 / CPU 负载持续变化场景，无需手动重算坐标
+- [Sonner（toast 组件）](tool-sonner-toast.md) — `Tool` — emilkowalski/sonner，API 极简的 React toast，已被 shadcn 等绝大多数现代组件库采纳为默认 toast
+- [Apple Design Skill](tool-apple-design-skill.md) — `Tool` — emilkowalski/skills 中的 /apple-design Skill，从 Apple WWDC 视频提炼 17 条设计与动效原则
+- [Garmin Tracker RS](tool-garmin-tracker-rs.md) — `Tool` — Emiliopg91/garmin-tracker-rs，Tauri 2 跨平台 + Rust + React 19，USB（MTP）直连 Garmin 手表取 .FIT 文件，全程无需云端
+- [Orca Music Player](tool-orca-music-player.md) — `Tool` — shubham-pathak1/orca，Svelte 5 + Tauri 2 + Rust 本地音乐播放器，alpha 阶段，支持 MP3/FLAC/M4A/WAV/OGG/OPUS/AIFF，rodio 引擎支持交叉淡入（与 stablyai/orca Coding IDE 同名不同项目）
+- [Artix TUI Installer](tool-artix-tui-installer.md) — `Tool` — YellowHearth1/artix-tui-installer，Rust + ratatui 终端安装器，乌克兰语 / 英语双语，专门给用 dinit 的 Artix Linux 用，支持恢复模式
+- [Claude-ZH-EN-Relay](tool-claude-zh-en-relay.md) — `Tool` — ZhiqiaoGong/Claude-ZH-EN-Relay，Chrome 扩展让用户用中文与 Claude 聊天（输入译英 / 回复译中），可省 token
+- [Article Format](tool-article-format.md) — `Tool` — LiuZheng60/article-format，一句话指令把自媒体文案转微信公众号（内联 CSS）+ 今日头条（语义 HTML）排版
+- [Uninstally](tool-uninstally.md) — `Tool` — gostonx/uninstally，SwiftUI 写的 macOS 卸载工具，清残留 + Finder 右键卸载 + Homebrew 包管理
+- [Space Multi-Design PPT](tool-multi-design-ppt.md) — `Tool` — SpaceZephyr/space-multi-design-ppt，Agent Skills 协议幻灯片生成 Skill，按 62 种品牌设计语言出 HTML/PPTX/PDF
+- [Frp Manager](tool-frp-manager.md) — `Tool` — Bai2001/frp-manager，本地桌面内网穿透管理系统（服务端控制面 + Wails/Vue 客户端），集中管理 frpc/frps 进程
+- [Open WebUI Generate Documents](tool-openwebui-generate-documents.md) — `Tool` — ianustec/openwebui-generate-documents，Open WebUI 工具，用 python-docx 把模型输出的 Markdown（含 YAML 头）或 JSON 直接生成原生可编辑 .docx
+- [Grom](tool-grom-prometheus.md) — `Tool` — qf-studio/grom，Go 写的 Prometheus btop 风格终端仪表盘，支持读 Grafana 面板 JSON 在终端复现布局
+- [Smart Task Assistant](tool-smart-task-assistant.md) — `Tool` — Navyachhoker/smart-task-assistant，基于 LangGraph + FastAPI 的 AI 工作流，分类→计划→评审→REST 输出
+- [Flood Guard Agent](tool-flood-guard-agent.md) — `Tool` — haogx894-afk/flood-guard-agent，北京市山洪防御辅助决策智能体，基于 Spring AI + ReAct + Tool Calling + SSE 流式，后端 Java 17 + Spring Boot 3
+- [GitGrimoire](tool-gitgrimoire.md) — `Tool` — tosxin-456/gitgrimoire，输入 GitHub 用户名生成《黑色五叶草》风格 3D 魔法书档案 / 对决 / 排行榜，免授权
+- [Fintech Advisor](tool-fintech-advisor.md) — `Tool` — KORAYTEACHER/fintech-advisor，开源净值与投资组合追踪（不是记账），多币种 + 自动汇率 + Yahoo Finance + AI 一键导入持仓 + AI 投顾对话
