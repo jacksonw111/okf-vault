@@ -579,6 +579,37 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 金融 / 数据
 - [Fintech Advisor](concepts/tool-fintech-advisor.md) — 开源净值与投资组合追踪（不是记账），多币种 + 自动汇率 + Yahoo Finance + AI 一键导入持仓 + AI 投顾对话
 
+## 本批新增（2026-07-12）
+
+### AI / Agent 生态
+- [Orca 工单编排流程](concepts/playbook-orca-ticket-orchestration.md) — `/grill → /spec → /tickets → /orchestration` 一条 AI 编码会话流水线
+- [fable-method](concepts/tool-fable-method.md) — Fable 5 解题方式（think/act/prove）提炼的通用 Skill + 对抗式 eval
+- [jzsub](concepts/tool-jzsub-skill.md) — Codex Skill，自动下载视频 + 双语字幕 + 烧录 MP4
+- [Lemma](concepts/tool-lemma-platform.md) — 人 + AI agent 共享工作空间平台
+- [SpringNote](concepts/tool-springnote.md) — Flutter + Rust 桌面「懒人知识库」，AI 自动整理 + 回忆书
+- [kunkun SkillHub](concepts/tool-kunkun-skillhub.md) — 本地盘点和搜索 Claude Code / Codex 技能
+- [nsfc-benzi-audit](concepts/tool-nsfc-benzi-audit.md) — 国自然基金申请书结构化诊断 Agent Skill
+- [PunamIDE](concepts/tool-punamide.md) — Tauri 2 + React 19 + Monaco 的原生 AI 桌面 IDE
+- [annotai](concepts/tool-annotai.md) — Phoenix / LiveView 元素级 AI 编码注释工具
+
+### 桌面 / 系统工具
+- [TokenUsageInsights](concepts/tool-token-usage-insights.md) — AI CLI Token 戰情室 + Session 还原看板
+- [Vortex](concepts/tool-vortex-vps.md) — 终端里的 VPS 管理工具，自动传监控程序
+- [MarkdownReader](concepts/tool-markdown-reader-windows.md) — Windows 上的轻量 Markdown 编辑器 + PDF 导出
+- [Vela](concepts/tool-vela-maps.md) — 去 Google 化的安卓地图 / 导航客户端
+
+### 终端 / 网络 / 系统管理
+- [Vortex](concepts/tool-vortex-vps.md) — 终端里的 VPS 管理工具，自动传监控程序
+- [xan](concepts/tool-xan-csv.md) — Rust 写的「CSV 魔术师」命令行工具，GB 级 CSV + 社科向扩展
+- [NaviTui](concepts/tool-navitui.md) — 终端里的 Subsonic / Navidrome 音乐播放器，TUI + mpv + MCP
+
+### 阅读 / 资源
+- [storage-book + KnotFS](concepts/tool-storage-book.md) — 从结绳记事到 LittleFS 源码剖析的存储技术书 + 教学级 LFS
+
+### 编程语言 / 工具链 / 基础设施
+- [Colibri](concepts/tool-colibri-inference.md) — 纯 C 零依赖 MoE 流式推理引擎，25GB 内存跑 744B
+- [jspace-viz](concepts/tool-jspace-viz.md) — 开源 LLM 实时 Jacobian-lens「层 × 位置」热力图
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

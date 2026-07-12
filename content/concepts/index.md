@@ -527,3 +527,31 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Flood Guard Agent](tool-flood-guard-agent.md) — `Tool` — haogx894-afk/flood-guard-agent，北京市山洪防御辅助决策智能体，基于 Spring AI + ReAct + Tool Calling + SSE 流式，后端 Java 17 + Spring Boot 3
 - [GitGrimoire](tool-gitgrimoire.md) — `Tool` — tosxin-456/gitgrimoire，输入 GitHub 用户名生成《黑色五叶草》风格 3D 魔法书档案 / 对决 / 排行榜，免授权
 - [Fintech Advisor](tool-fintech-advisor.md) — `Tool` — KORAYTEACHER/fintech-advisor，开源净值与投资组合追踪（不是记账），多币种 + 自动汇率 + Yahoo Finance + AI 一键导入持仓 + AI 投顾对话
+
+## 本批新增（2026-07-12）
+
+### 流程手册（Playbooks）
+- [Orca 工单编排流程（/grill → /spec → /tickets → /orchestration）](playbook-orca-ticket-orchestration.md) — `Playbook` — 把 AI 编码会话拆成讨论层与执行层：/grill 澄清需求、/spec 写文档、/tickets 拆工单，再用 /orchestration 派工给子代理串行 / 并行推进并自动验收
+
+### 工具（Tools）
+- [jzsub](tool-jzsub-skill.md) — `Tool` — pengchujin/jzsub，Codex Skill，自动下载视频 + 封面 + 双语字幕 + 烧录 MP4
+- [Lemma](tool-lemma-platform.md) — `Tool` — lemma-work/lemma-platform，开源人 + AI agent 共享工作空间，统一表格 / 文件 / 工作流 / 权限 / 审批
+- [Vortex](tool-vortex-vps.md) — `Tool` — berkayyytech/vortex，终端里的 VPS 管理工具，SSH 连上后自动传监控程序看 CPU / 内存
+- [fable-method](tool-fable-method.md) — `Tool` — Sahir619/fable-method，把 Fable 5 的解题方式（think/act/prove）提炼成通用 Skill 并配对抗式 eval
+- [MarkdownReader](tool-markdown-reader-windows.md) — `Tool` — BrennanNVA/MarkdownReader，Windows 上的轻量 Markdown 编辑器，边写边预览 + 导出 PDF
+- [NaviTui](tool-navitui.md) — `Tool` — Gheat1/NaviTui，终端里的 Subsonic / Navidrome 音乐播放器，TUI + mpv + 离线下载 + 卡拉 OK + MCP 服务器
+- [PunamIDE](tool-punamide.md) — `Tool` — mandaloriantrader/PunamIDE，Tauri 2 + React 19 + Monaco 的原生 AI 桌面 IDE，多供应商 + 智能体 + 技术债 + 依赖图
+- [TokenUsageInsights](tool-token-usage-insights.md) — `Tool` — doggy8088/TokenUsageInsights，AI CLI Token 戰情室 + Session 还原看板，读取 Antigravity / Copilot / Codex / Claude Code 日志
+- [SpringNote](tool-springnote.md) — `Tool` — Radiant303/SpringNote，Flutter + Rust 桌面应用，把零散便签养成知识库，AI 自动整理 + 日 / 周 / 月报 + 回忆书聊天翻旧记忆
+- [kunkun SkillHub](tool-kunkun-skillhub.md) — `Tool` — duangjaiignacy-blip/kunkun-skillhub，Rust + Tauri 2 桌面工具，本地盘点和搜索 Claude Code / Codex 技能
+- [annotai](tool-annotai.md) — `Tool` — andrielfn/annotai，Phoenix / LiveView 开发环境挂件，点元素写备注，自动捕获 CSS 选择器 + phx-* 属性 + HEEx 位置喂给 AI agent
+- [xan](tool-xan-csv.md) — `Tool` — medialab/xan，Rust 写的「CSV 魔术师」命令行工具，极快低内存处理 GB 级 CSV + 表达式 + 终端可视化 + 社科向扩展
+- [nsfc-benzi-audit](tool-nsfc-benzi-audit.md) — `Tool` — jiankang1991/nsfc-benzi-audit，国自然基金申请书初稿结构化诊断 Agent Skill，找逻辑断点 + 可执行修改清单
+- [Colibri](tool-colibri-inference.md) — `Tool` — JustVugg/colibri，纯 C 零依赖 MoE 流式推理引擎，25GB 内存跑 744B 的 GLM-5.2
+- [storage-book + KnotFS](tool-storage-book.md) — `Tool` — Lularible/storage-book，从结绳记事到 LittleFS 源码剖析的存储技术书 + 教学级纯 C 日志结构化文件系统 KnotFS
+- [jspace-viz](tool-jspace-viz.md) — `Tool` — Festyve/jspace-viz，给开源 LLM 实时可视化 Jacobian-lens「层 × 位置」热力图，看模型每一层每个位置正在准备吐哪个词
+- [Vela](tool-vela-maps.md) — `Tool` — PimpinPumpkin/Vela，去 Google 化的安卓地图与导航客户端，类似 NewPipe 之于 YouTube，可用开放矢量瓦片 + 抓 Google 公开 Web 端点补 POI / 路线 / ETA
+
+### 跳过 / 复核（Skipped / No-op）
+- 转推 OpenDisplay（peetzweg/opendisplay）— `tool-opendisplay.md` 已于 2026-07-10 批处理建过完整概念，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+- 「神奇的希尔排序」「大佬们来时的路」「👀」+ 视频 —— 仅短语 / 标题附视频，无工具 / 概念 / 项目信息可提取，按「说不清理由就别链」原则跳过
