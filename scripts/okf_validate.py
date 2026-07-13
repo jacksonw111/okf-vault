@@ -14,12 +14,16 @@
 import glob
 import os
 import sys
+from datetime import datetime, timezone
 
 import okf_lib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 仓库根
 CONCEPTS_DIR = os.path.join(ROOT, 'content', 'concepts')
 CONTENT_ROOT = os.path.join(ROOT, 'content')
+
+# 断链工单：校验发现违例时自动写入 inbox/，供下次 agent 跑时修复
+TICKET_PATH = os.path.join(CONTENT_ROOT, 'inbox', '_broken-links.md')
 
 
 def validate(concepts_dir, content_root):
@@ -53,8 +57,47 @@ def validate(concepts_dir, content_root):
     return errors
 
 
+def write_ticket(errors):
+    """把违例清单写成 inbox/_broken-links.md 工单（供下次 agent 跑时修复）。
+    无违例时删除遗留工单，避免 stale 工单反复触发。"""
+    if not errors:
+        if os.path.exists(TICKET_PATH):
+            os.remove(TICKET_PATH)
+            print(f"[ticket] 校验干净，删除遗留工单 {TICKET_PATH}")
+        return
+    ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    body = [
+        '---',
+        'type: "Note"',
+        'title: "断链工单（自动生成）"',
+        'description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"',
+        'tags: ["okf", "maintenance"]',
+        f'timestamp: "{ts}"',
+        '---',
+        '',
+        '# ⚠️ 断链工单（自动生成，勿当知识资料）',
+        '',
+        '本文件由 `scripts/okf_validate.py` 在 `concepts/` 发现断链或缺 type 时自动写入 `inbox/`。',
+        '**这不是知识资料——不要把本文件本身转成概念。**',
+        '',
+        '逐条修复后，把本文件 `mv` 到 `inbox/_done/`。每条修法二选一：',
+        '1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；',
+        '2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。',
+        '',
+        f'## 违例清单（{len(errors)} 条）',
+        '',
+    ]
+    body += [f'- {e}' for e in errors]
+    body.append('')
+    os.makedirs(os.path.dirname(TICKET_PATH), exist_ok=True)
+    with open(TICKET_PATH, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(body))
+    print(f"[ticket] 写入 {len(errors)} 条违例工单 -> {TICKET_PATH}")
+
+
 def main():
     errors = validate(CONCEPTS_DIR, CONTENT_ROOT)
+    write_ticket(errors)  # 工单总是反映当前状态（有违例写、干净删）
     if errors:
         print(f"❌ OKF 校验失败：{len(errors)} 个违例\n")
         for e in errors:

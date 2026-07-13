@@ -7,6 +7,8 @@
 
 2. 找出 inbox/ 下所有待处理资料：**递归**遍历 inbox/ 下**所有层级**的 `.md` 文件（含任意子目录，例如 `inbox/twitter/<账号>/`、`inbox/Clippings/`），用命令 `find inbox -type f -name '*.md' -not -path '*/_done/*' -not -name 'README.md'` 列出全部。**这个命令已排除 `_done/`，不要再去扫 `_done/` 里的文件（已处理过，重复处理是浪费时间）**。**子目录里的资料和顶层文件一样必须处理**——顶层没有 `.md` 不代表 inbox 为空，务必先跑上面这条 find 看实际有多少。
 
+⚠️ **特殊文件 `inbox/_broken-links.md`**（若存在）：这是校验器自动生成的**断链工单，不是知识资料**。按它里面的清单逐条修 `concepts/` 里的断链——缺失的目标若值得收录就补建一个 stub 概念（带 `type` frontmatter），否则把那条 `[x](path.md)` 改成纯文本 `x`。**不要把工单本身转成概念**；修完把工单 `mv` 到 `inbox/_done/`。**优先处理它，再处理其它 inbox 资料。**
+
 3. 对每一份资料，按 PRODUCER.md 处理：
    a. 先在 concepts/ 里搜关键词去重：已有同义概念就“更新”，没有才“新建”；
    b. 把资料切分成一个或多个概念；按 templates/ 下对应类型的模板填好 YAML frontmatter（type 是唯一必填字段，description 尽量写）和正文；若资料含图片/视频，产出的概念文件必须保留媒体 URL（图片用 ![](url)、视频用链接），不得丢弃。
