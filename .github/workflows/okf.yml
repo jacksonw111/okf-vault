@@ -110,6 +110,9 @@ jobs:
             echo "inbox 无需处理：没有产生改动。"
           else
             git commit -m "chore(okf): daily auto-process inbox [skip ci]"
+            # 先 rebase 上 origin 最新（twitter/news 爬虫每小时会推 content/inbox|news/），
+            # 否则会因 non-fast-forward 被拒、本次 agent 的整理结果丢失。路径不重叠，rebase 通常干净。
+            git pull --rebase --autostash origin main
             git push
           fi
 
