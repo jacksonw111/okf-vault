@@ -572,7 +572,18 @@ timestamp: "2026-06-26T16:50:00Z"
 - [CTRoadmap](tool-ctroadmap.md) — `Tool` — NoobCity99/CTRoadmap，本地优先基础设施图谱工具，磁贴 + 连线，数据存 atlas.json，不执行不探测
 - [mithka](tool-mithka.md) — `Tool` — iebb/mithka，Telegram 客户端，UI 致敬 macOS / iOS 风格
 - [nvim-camel](tool-nvim-camel.md) — `Tool` — trumpetkern27/nvim-camel，Neovim 插件，会走路的 ASCII 骆驼，纯装饰
+- [shortlink](tool-flyfish-shortlink.md) — `Tool` — flyfish-dev/shortlink，能自己托管的短链接 + 活码平台，发布前审核 / 品牌二维码 / 访问统计
+- [HermitUI](tool-hermitui.md) — `Tool` — moooff/HermitUI，把隐私放在第一位的本地 AI 聊天界面，单 HTML 文件 + 默认不存聊天记录
+- [pon](tool-pon-python.md) — `Tool` — can1357/pon，Rust 写的 Python 3.14 原生编译器（JIT + AOT），目标 Python 版的 bun / v8
+- [QwenAI-Webapp](tool-qwenai-webapp.md) — `Tool` — ChengzQin/QwenAI-Webapp，FastAPI + Vue 3 + DashScope 接入通义千问，流式 + 多模态
+- [marketing-studio](tool-marketing-studio.md) — `Tool` — ucsandman/marketing-studio，Claude Code 营销工作室，`/marketing` 一条指令渲染品牌全套素材
+- [agentic-mercy-10x](tool-agentic-mercy-10x.md) — `Tool` — AjayIrkal23/agentic-mercy-10x，Claude Code 发行版：单一路由器派单 + 写入钩子强制规范 / 测试 / 安全门禁
+- [unsnooze](tool-unsnooze.md) — `Tool` — saaranshM/unsnooze，用量墙恢复工具：Claude Code / Codex / Grok / Qwen / Kimi / OpenCode / Antigravity 额度归零自动唤醒被挂起会话
+- [loop.js](tool-loop-js.md) — `Tool` — loop-js/loop.js，目标 + 执行 + 验证三件事同一种 prompt，独立只读 Verify agent 判定达标 worker 没有自判权
 
 ### 跳过 / 复核（Skipped / No-op）
 - "梦中情屋" — 仅"梦中情屋"三字 + 房屋视频，无可提取的概念 / 工具 / 项目信息，按「说不清理由就别链」原则跳过
 - Wen_Zw 转推 shadcn-fintech-template（同 QingQ77 原帖）— 同一项目，本次已在本批建过完整概念文件，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+- QingQ77 转推 jzsub（pengchujin/jzsub）— 概念 `tool-jzsub-skill.md` 已于 2026-07-12 批处理建立完整概念文件，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+- QingQ77 "cool📱" + 手机视频 — 仅口语化感叹词 + 手机竖屏视频，无可提取的概念 / 工具 / 项目信息，按「说不清理由就别链」原则跳过
+- QingQ77 "我悟了，AI 就是给人玩的！" + 视频 — 仅观点表达 + 短视频，无工具 / 概念 / 项目信息可提取，按「说不清理由就别链」原则跳过

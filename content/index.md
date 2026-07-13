@@ -247,6 +247,10 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Strix](concepts/tool-strix.md) — 自主 AI 渗透测试 agent，输出可直接复现的 PoC 而不是误报清单
 - [Cliare](concepts/tool-cliare.md) — Rust 写的 CLI 黑盒审计工具，给 CLI 打 Agent 就绪评分 + 安全报告
 - [claude-real-video](concepts/tool-claude-real-video.md) — Python 工具，按场景变化 + 字幕智能抽帧，让 AI 真正看懂视频
+- [marketing-studio](concepts/tool-marketing-studio.md) — Claude Code 营销工作室，`/marketing` 一条指令渲染品牌全套素材
+- [agentic-mercy-10x](concepts/tool-agentic-mercy-10x.md) — Claude Code 发行版：单一路由器派单 + 写入钩子强制规范 / 测试 / 安全门禁
+- [unsnooze](concepts/tool-unsnooze.md) — Claude Code / Codex / Grok / Qwen / Kimi / OpenCode / Antigravity 用量墙恢复工具
+- [loop.js](concepts/tool-loop-js.md) — 目标 + 执行 + 验证三件事同一种 prompt，独立只读 Verify agent 判定达标
 
 ### 编程语言 / 工具链
 
@@ -258,6 +262,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [PP-OCRv6 Studio](concepts/tool-ppocrv6-studio.md) — 飞桨 PP-OCRv6 三档模型本地 OCR
 - [Rust + QUIC 高性能 IM 后端](concepts/tool-rust-quic-im.md) — Actix-web + QUIC + P2P NAT 打洞
 - [laravel-zero-console](concepts/tool-laravel-zero-console.md) — Laravel Zero CLI 通用 trait（表格 / 错误码 / 路径）
+- [pon](concepts/tool-pon-python.md) — Rust 写的 Python 3.14 原生编译器（JIT + AOT），目标 Python 版的 bun / v8
+- [QwenAI-Webapp](concepts/tool-qwenai-webapp.md) — FastAPI + Vue 3 + DashScope 接入通义千问，流式 + 多模态
 
 ### 后端 / 部署 / 自托管
 
@@ -408,6 +414,8 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Fallegji](concepts/tool-fallegji.md) — Rust 终端 P2P 群聊应用，完全去中心化 + E2EE（X25519 + ChaCha20-Poly1305），无服务器无账号
 - [Yamtrack](concepts/tool-yamtrack.md) — 给前 Trakt 用户准备的自托管媒体追踪平台，追影视 + 音乐 + 播客 + 收藏副本级详情
 - [LinkBreeze](concepts/tool-linkbreeze.md) — 自托管 link-in-bio 平台，Next.js 16 + SQLite 一条 Docker 命令部署
+- [shortlink](concepts/tool-flyfish-shortlink.md) — 自托管短链接 + 活码平台，发布前审核 + 品牌二维码 + 访问统计
+- [HermitUI](concepts/tool-hermitui.md) — 单 HTML 文件的本地 AI 聊天界面，OpenAI 兼容 + 默认不存聊天记录
 - [本地 LLM 硬件搭建实操指南](concepts/note-local-llm-hardware-guide.md) — jamesob/local-llm 两档预算配置 + PCIe 交换芯片多卡直连 + Docker 化 + 沙盒 VM
 
 ## 操作手册
@@ -632,6 +640,22 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 物联网 / 智能硬件
 - [mqttprobe](concepts/tool-mqttprobe.md) — 工业物联网 MQTT 诊断工具，原生解码 Sparkplug B + 模拟 EoN 节点
+
+## 本批新增（2026-07-13，第二批：QingQ77 余量）
+
+### AI / Agent 生态
+- [marketing-studio](concepts/tool-marketing-studio.md) — Claude Code 营销工作室，`/marketing` 一条指令渲染品牌全套素材
+- [agentic-mercy-10x](concepts/tool-agentic-mercy-10x.md) — Claude Code 发行版：单一路由器派单 + 写入钩子强制规范 / 测试 / 安全门禁
+- [unsnooze](concepts/tool-unsnooze.md) — Claude Code / Codex / Grok / Qwen / Kimi / OpenCode / Antigravity 用量墙恢复工具
+- [loop.js](concepts/tool-loop-js.md) — 目标 + 执行 + 验证三件事同一种 prompt，独立只读 Verify agent 判定达标
+
+### 编程语言 / 工具链
+- [pon](concepts/tool-pon-python.md) — Rust 写的 Python 3.14 原生编译器（JIT + AOT），目标 Python 版的 bun / v8
+- [QwenAI-Webapp](concepts/tool-qwenai-webapp.md) — FastAPI + Vue 3 + DashScope 接入通义千问，流式 + 多模态
+
+### 自托管 / 工具
+- [shortlink](concepts/tool-flyfish-shortlink.md) — 自托管短链接 + 活码平台，发布前审核 + 品牌二维码 + 访问统计
+- [HermitUI](concepts/tool-hermitui.md) — 单 HTML 文件的本地 AI 聊天界面，OpenAI 兼容 + 默认不存聊天记录
 
 ## 配套文档
 
