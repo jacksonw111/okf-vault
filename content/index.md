@@ -610,6 +610,29 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Colibri](concepts/tool-colibri-inference.md) — 纯 C 零依赖 MoE 流式推理引擎，25GB 内存跑 744B
 - [jspace-viz](concepts/tool-jspace-viz.md) — 开源 LLM 实时 Jacobian-lens「层 × 位置」热力图
 
+## 本批新增（2026-07-13）
+
+### 流程手册（Playbook）
+- [多模态大模型驱动的 UI 自动化测试](concepts/playbook-multimodal-ui-test-automation.md) — 文本属性 → 控件 ID → 多模态融合 → 自主推理 四阶段演进，"描述即生成"端到端方法论
+
+### AI / Agent 生态
+- [exxperts](concepts/tool-exxperts.md) — 本地 AI 智能体运行时，"记忆房间" 跨会话记忆 + 写盘前必须用户批准
+- [OpenAI4S](concepts/tool-openai4s.md) — 开源科研智能体，持久化内核跑真 Python/R，便宜模型复现 Claude Science 级自动化
+- [readme-roast](concepts/tool-readme-roast.md) — Claude Code 技能，8 种人设毒舌吐槽 README + 诚实度评分 + 备选版本
+- [ax](concepts/tool-ax-cli-scraper.md) — 给 AI 用的命令行抓取工具，本地 / 确定性 / 省 token
+- [pi-computer-use](concepts/tool-pi-computer-use.md) — 给 pi harness 加 computer-use 能力，逆向自 codex，可挂到任意 harness
+
+### 前端 / 设计资源
+- [shadcn-fintech-template](concepts/tool-shadcn-fintech-template.md) — Next.js + shadcn/ui + Tailwind 金融仪表盘模板，11 个页面 + 实时行情 + 消费热力图
+
+### 桌面 / 系统工具
+- [CTRoadmap](concepts/tool-ctroadmap.md) — 本地优先基础设施图谱工具，磁贴 + 连线，数据存 atlas.json
+- [mithka](concepts/tool-mithka.md) — Telegram 客户端，UI 致敬 macOS / iOS 风格
+- [nvim-camel](concepts/tool-nvim-camel.md) — Neovim 插件，会走路的 ASCII 骆驼，纯装饰
+
+### 物联网 / 智能硬件
+- [mqttprobe](concepts/tool-mqttprobe.md) — 工业物联网 MQTT 诊断工具，原生解码 Sparkplug B + 模拟 EoN 节点
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)

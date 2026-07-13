@@ -555,3 +555,24 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - 转推 OpenDisplay（peetzweg/opendisplay）— `tool-opendisplay.md` 已于 2026-07-10 批处理建过完整概念，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支
 - 「神奇的希尔排序」「大佬们来时的路」「👀」+ 视频 —— 仅短语 / 标题附视频，无工具 / 概念 / 项目信息可提取，按「说不清理由就别链」原则跳过
+
+## 本批新增（2026-07-13）
+
+### 流程手册（Playbooks）
+- [多模态大模型驱动的 UI 自动化测试](playbook-multimodal-ui-test-automation.md) — `Playbook` — 文本属性 → 控件 ID → 多模态融合 → 自主推理 四阶段演进，"描述即生成"端到端方法论，附五层系统架构与实践效果数据
+
+### 工具（Tools）
+- [shadcn-fintech-template](tool-shadcn-fintech-template.md) — `Tool` — Weebapp003/shadcn-fintech-template，Next.js + shadcn/ui + Tailwind 金融仪表盘模板，11 个页面 + 实时行情 + 消费热力图
+- [pi-computer-use](tool-pi-computer-use.md) — `Tool` — injaenity/pi-computer-use，给 pi harness 加 computer-use 能力，支持 Mac/Windows，逆向自 codex 可挂到任意 harness
+- [exxperts](tool-exxperts.md) — `Tool` — EXXETA/exxperts，本地 AI 智能体运行时，"记忆房间" 跨会话记忆 + 写盘前必须用户批准
+- [OpenAI4S](tool-openai4s.md) — `Tool` — PKU-YuanGroup/OpenAI4S，开源科研智能体，持久化内核跑真 Python/R，便宜模型复现 Claude Science 级自动化
+- [readme-roast](tool-readme-roast.md) — `Tool` — KorroAi/readme-roast，Claude Code 技能，8 种人设毒舌吐槽 README + 诚实度评分 + 备选版本
+- [mqttprobe](tool-mqttprobe.md) — `Tool` — bluegrassiot/mqttprobe，工业物联网 MQTT 诊断工具，原生解码 Sparkplug B + 模拟 EoN 节点
+- [ax](tool-ax-cli-scraper.md) — `Tool` — yusukebe/ax，给 AI 用的命令行抓取工具，本地 / 确定性 / 省 token
+- [CTRoadmap](tool-ctroadmap.md) — `Tool` — NoobCity99/CTRoadmap，本地优先基础设施图谱工具，磁贴 + 连线，数据存 atlas.json，不执行不探测
+- [mithka](tool-mithka.md) — `Tool` — iebb/mithka，Telegram 客户端，UI 致敬 macOS / iOS 风格
+- [nvim-camel](tool-nvim-camel.md) — `Tool` — trumpetkern27/nvim-camel，Neovim 插件，会走路的 ASCII 骆驼，纯装饰
+
+### 跳过 / 复核（Skipped / No-op）
+- "梦中情屋" — 仅"梦中情屋"三字 + 房屋视频，无可提取的概念 / 工具 / 项目信息，按「说不清理由就别链」原则跳过
+- Wen_Zw 转推 shadcn-fintech-template（同 QingQ77 原帖）— 同一项目，本次已在本批建过完整概念文件，按「概念已存在且资料无新增信息」走「复核，无变更」分支
