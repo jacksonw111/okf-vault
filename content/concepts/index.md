@@ -585,3 +585,59 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 转推 jzsub（pengchujin/jzsub）— 概念 `tool-jzsub-skill.md` 已于 2026-07-12 批处理建立完整概念文件，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支
 - QingQ77 "cool📱" + 手机视频 — 仅口语化感叹词 + 手机竖屏视频，无可提取的概念 / 工具 / 项目信息，按「说不清理由就别链」原则跳过
 - QingQ77 "我悟了，AI 就是给人玩的！" + 视频 — 仅观点表达 + 短视频，无工具 / 概念 / 项目信息可提取，按「说不清理由就别链」原则跳过
+
+## 本批新增（2026-07-14）
+
+### AI / Agent 生态
+- [light-ocr](tool-light-ocr.md) — `Tool` — arcships/light-ocr，原生 / Node.js 离线 OCR，单图 ≤ 100ms，约 30MB
+- [logo-generator-skill](tool-logo-generator-skill.md) — `Tool` — op7418/logo-generator-skill，一次 6 种风格的 SVG logo 生成 Skill
+- [agent-device](tool-agent-device-callstack.md) — `Tool` — Callstack/agent-device，给 coding agent 操作 iOS / Android 真实 App 的 CLI（无障碍快照 + 语义 ref + .ad 复放）
+- [brain0](tool-brain0.md) — `Tool` — Brain0-ai/brain0，被动观测 git 与 agent 会话,把每次提交归因到 prompt 意图与读过的文件
+- [fable-commander](tool-fable-commander.md) — `Tool` — DennisWei9898/fable-commander，Claude Code 三角色编排 Skill（强模型规划 + 弱模型执行 + 独立 agent 验收）
+- [TIMA（tiny-interjection-model-alpha）](tool-tiny-interjection-model-alpha.md) — `Tool` — Jiply/tiny-interjection-model-alpha，聊天回合决策小模型（等待 / 回复 / 插话 / 继续）
+- [frugon](tool-frugon.md) — `Tool` — Rodiun/frugon，本地 OpenAI 格式 JSONL 调用日志费用分析 + 换模型 / 路由建议，全程不联网
+
+### 前端 / 设计资源
+- [OriginKit](tool-originkit.md) — `Tool` — originkit.dev，iOS App / SaaS 上线页模板段组件库
+- [namethatui](tool-namethatui.md) — `Tool` — namethatui.com，「看得见但叫不出名字」的 UI 词典,众包学习 + 视觉反查
+
+### 笔记（Notes）
+- [GitHub README 装修：SVG 组件 + Markdown 内容双层](note-github-readme-svg-slides.md) — `Note` — oil-oil/oil-ppt,把 README 当纵向演示文稿的可复用 SVG 设计 + Markdown 正文双层套路
+
+### 阅读 / 资源
+- [ai-agent-guide](tool-ai-agent-guide.md) — `Tool` — fuzhengwei/ai-agent-guide，21 章中文 AI Agent 教程（6 大篇章 + 文章/八股/考试 + AI 助教），纯静态
+- [4000-Essential-English-Words](tool-4000-essential-english-words.md) — `Tool` — MohKardan/4000-Essential-English-Words，把经典词表抓取并打包成 Anki 牌组的 Python 脚本
+
+### 电商 / 自动化
+- [xiaohongshu-assistant（薄荷工坊）](tool-xiaohongshu-assistant.md) — `Tool` — XunMengWinter/xiaohongshu-assistant，React + Vite 三列工作台,把小红书创作收纳成人设 + 热门 + 模型配置
+
+### 桌面 / 系统工具
+- [auto-reply](tool-auto-reply-vlm.md) — `Tool` — DreDabe/auto-reply，基于 SightFlow 的桌面端 VLM 自动回复工具,读聊天窗口截图 + 判情绪 + 攒本地经验
+- [dj-usb-tkit](tool-dj-usb-tkit.md) — `Tool` — haivala/dj-usb-tkit，本地 DJ 曲库管家,歌单整理好直接写入 Pioneer DJ USB
+- [MacRazer](tool-macrazer.md) — `Tool` — SorcRR/MacRazer，macOS 菜单栏小程序,走 USB HID 控制 Razer 鼠标电量 / DPI / 灯效 / 回报率
+
+### 后端 / 部署 / 自托管
+- [reame](tool-reame.md) — `Tool` — swellweb/reame，廉价 CPU 上跑的 LLM 推理服务,用磁盘缓存让重复请求越用越便宜
+
+### 金融 / 数据
+- [agent-quantspace](tool-quantspace.md) — `Tool` — quantskills/agent-quantspace，把数据 / 因子 / 回测 / 报告收在固定 skill 边界内的量化投研框架
+- [AutoPrism](tool-autoprism.md) — `Tool` — CharlesJ-ABu/AutoPrism，汽车 / 投研全球事件可视化,3D 地球 + 2D 战术地图
+
+### 自托管 / 工具
+- [Magma](tool-magma-sveltekit.md) — `Tool` — help-14/magma，SvelteKit 个人主页式看板,可拖可缩 + 多语言 + Docker 部署
+
+### 终端 / 网络 / 系统管理
+- [telegram-search](tool-telegram-search.md) — `Tool` — groupultra/telegram-search，终端里搜自己 Telegram 聊天记录 / 频道 / 文件的 CLI
+
+### AI 编码 IDE
+- [herdr-reviewr](tool-herdr-reviewr.md) — `Tool` — persiyanov/herdr-reviewr，给终端 AI agent herdr 配的代码审查侧栏,diff + 逐行批注 + 一键回灌
+
+### 物联网 / 智能硬件
+- [tapo-voltage-monitor](tool-tapo-voltage-monitor.md) — `Tool` — KartoshaHv/tapo-voltage-monitor，给 Tapo P110 / P115 插座用的电压监测工具,本地仪表盘 + CSV 日志 + 越界告警
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw 转推 barretlee/agent-pulse（仅 URL）— 仅有仓库链接,无项目描述 / 截图 / 关键功能信息,无法形成可建模的概念,按「说不清理由就别链」原则跳过
+- Wen_Zw 转推 ben(I_am_benswe)/terminal 风格 web UI 组件 — 仅标题 + 单张组件截图,无可定位项目链接或仓库,无法形成具体概念,按「说不清理由就别链」原则跳过
+- QingQ77 "手摇充电器,智商受到暴击" + 视频 — 情绪反应短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "多线程的嘴" + 视频 — 短语 + 短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "好玩" + 手机视频 — 仅口语化感叹词,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过

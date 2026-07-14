@@ -656,6 +656,56 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 自托管 / 工具
 - [shortlink](concepts/tool-flyfish-shortlink.md) — 自托管短链接 + 活码平台，发布前审核 + 品牌二维码 + 访问统计
 - [HermitUI](concepts/tool-hermitui.md) — 单 HTML 文件的本地 AI 聊天界面，OpenAI 兼容 + 默认不存聊天记录
+- [Magma](concepts/tool-magma-sveltekit.md) — SvelteKit 个人主页式看板，可拖可缩 + 多语言 + Docker 一键部署
+
+## 本批新增（2026-07-14）
+
+### 自托管 / 工具（本批新增）
+- [Magma](concepts/tool-magma-sveltekit.md) — SvelteKit 个人主页式看板，可拖可缩 + 多语言 + Docker 一键部署
+
+### 物联网 / 智能硬件（本批新增）
+- [tapo-voltage-monitor](concepts/tool-tapo-voltage-monitor.md) — 给 Tapo P110 / P115 智能插座用的电压监测工具，本地网页仪表盘 + CSV 日志 + 越界告警
+
+### 桌面 / 系统工具（本批新增）
+- [auto-reply](concepts/tool-auto-reply-vlm.md) — 基于 SightFlow 的桌面端 VLM 自动回复，读聊天窗口截图 + 判情绪 + 攒本地经验
+- [dj-usb-tkit](concepts/tool-dj-usb-tkit.md) — 本地 DJ 曲库管家，整理好直接写入 Pioneer DJ USB 盘
+- [MacRazer](concepts/tool-macrazer.md) — macOS 菜单栏小程序，走 USB HID 控制 Razer 鼠标电量 / DPI / 灯效 / 回报率
+
+### 终端 / 网络 / 系统管理（本批新增）
+- [telegram-search](concepts/tool-telegram-search.md) — 终端里搜自己 Telegram 聊天记录 / 频道 / 文件的 CLI
+
+### AI 编码 IDE（本批新增）
+- [herdr-reviewr](concepts/tool-herdr-reviewr.md) — 给终端 AI agent herdr 配的代码审查侧栏，diff + 逐行批注 + 一键回灌
+
+### 后端 / 部署 / 自托管（本批新增）
+- [reame](concepts/tool-reame.md) — 廉价 CPU 上跑的 LLM 推理服务，用磁盘缓存让重复请求越用越便宜
+
+### 金融 / 数据（本批新增）
+- [agent-quantspace](concepts/tool-quantspace.md) — 把数据 / 因子 / 回测 / 报告收在固定 skill 边界内的量化投研框架
+- [AutoPrism](concepts/tool-autoprism.md) — 汽车 / 投研全球事件可视化，AI 降噪 + 3D 地球 + 2D 战术地图
+
+### 电商 / 自动化（本批新增）
+- [xiaohongshu-assistant（薄荷工坊）](concepts/tool-xiaohongshu-assistant.md) — React + Vite 三列工作台，把小红书创作收纳成人设 + 热门 + 模型配置
+
+### AI / Agent 生态（本批新增）
+- [light-ocr](concepts/tool-light-ocr.md) — 离线 OCR 原生 / Node.js，单图 ≤ 100ms，约 30MB
+- [logo-generator-skill](concepts/tool-logo-generator-skill.md) — 一次 6 种风格的 SVG logo 生成 Skill
+- [agent-device](concepts/tool-agent-device-callstack.md) — 给 coding agent 操作 iOS / Android 真实 App 的 CLI（无障碍快照 + 语义 ref + .ad 复放）
+- [brain0](concepts/tool-brain0.md) — 被动观测 git 与 agent 会话，把每次提交归因到 prompt 意图与读过的文件
+- [fable-commander](concepts/tool-fable-commander.md) — Claude Code 三角色编排 Skill（强模型规划 + 弱模型执行 + 独立 agent 验收）
+- [TIMA](concepts/tool-tiny-interjection-model-alpha.md) — 聊天回合决策小模型（等待 / 回复 / 插话 / 继续）
+- [frugon](concepts/tool-frugon.md) — 本地 OpenAI 格式 JSONL 调用日志费用分析 + 换模型 / 路由建议
+
+### 前端 / 设计资源（本批新增）
+- [OriginKit](concepts/tool-originkit.md) — iOS App / SaaS 上线页模板段组件库
+- [namethatui](concepts/tool-namethatui.md) — 「看得见但叫不出名字」的 UI 词典，众包学习 + 视觉反查
+
+### 笔记（本批新增）
+- [GitHub README 装修：SVG 组件 + Markdown 内容双层](concepts/note-github-readme-svg-slides.md) — oil-oil/oil-ppt 衍生的可复用 SVG 设计 README 套路
+
+### 阅读 / 资源（本批新增）
+- [ai-agent-guide](concepts/tool-ai-agent-guide.md) — 21 章中文 AI Agent 教程（6 大篇章 + 文章/八股/考试 + AI 助教）
+- [4000-Essential-English-Words](concepts/tool-4000-essential-english-words.md) — 把经典词表抓取并打包成 Anki 牌组的 Python 脚本
 
 ## 配套文档
 
