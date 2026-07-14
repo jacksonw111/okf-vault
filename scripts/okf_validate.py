@@ -18,6 +18,12 @@ from datetime import datetime, timezone
 
 import okf_lib
 
+try:
+    import yaml  # PyYAML：可选，用于严格 YAML 校验（CI 装；本地无则降级跳过）
+    HAVE_YAML = True
+except ImportError:
+    HAVE_YAML = False
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 仓库根
 CONCEPTS_DIR = os.path.join(ROOT, 'content', 'concepts')
 CONTENT_ROOT = os.path.join(ROOT, 'content')
@@ -41,6 +47,18 @@ def validate(concepts_dir, content_root):
         except OSError as e:
             errors.append(f"{rel}: 读取失败 {e}")
             continue
+
+        # A0. 严格 YAML 校验（PyYAML 可用时；坏 YAML 会让 Quartz 构建直接失败）
+        if HAVE_YAML:
+            m_fm = okf_lib.FM_RE.match(text)
+            if m_fm:
+                try:
+                    yaml.safe_load(m_fm.group(1))
+                except yaml.YAMLError as e:
+                    first = (str(e).strip().splitlines() or [str(e)])[0]
+                    errors.append(
+                        f"{rel}: frontmatter 不是合法 YAML（Quartz 会构建失败）: {first}"
+                    )
 
         # A. type 校验
         fm = okf_lib.parse_doc(text)

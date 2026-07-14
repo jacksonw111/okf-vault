@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "mithka"
-description: "一个 Telegram 客户端，UI 设计看上去"似曾相识"（视觉上高度致敬 macOS / iOS 风格），开源。"
+description: "一个 Telegram 客户端，UI 设计看上去\"似曾相识\"（视觉上高度致敬 macOS / iOS 风格），开源。"
 tags: "[telegram, client, messenger, open-source, tool]"
 timestamp: "2026-07-13T00:00:00Z"
 resource: "https://github.com/iebb/mithka"

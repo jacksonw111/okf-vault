@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "unsnooze"
-description: "针对 Claude Code、Codex、Grok、Qwen、Kimi、OpenCode、Antigravity 等 AI 编码会话的"用量墙"恢复工具：在 5 小时 / 每周额度归零那一刻自动唤醒被中断的会话；终端侧走 tmux/Zellij，桌面端走 VS Code 扩展与独立 app。"
+description: "针对 Claude Code、Codex、Grok、Qwen、Kimi、OpenCode、Antigravity 等 AI 编码会话的\"用量墙\"恢复工具：在 5 小时 / 每周额度归零那一刻自动唤醒被中断的会话；终端侧走 tmux/Zellij，桌面端走 VS Code 扩展与独立 app。"
 tags: "[quota, rate-limit, recovery, claude-code, codex, tmux, vscode, tool]"
 timestamp: "2026-07-13T00:00:00Z"
 resource: "https://github.com/saaranshM/unsnooze"

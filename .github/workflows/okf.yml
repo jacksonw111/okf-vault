@@ -62,7 +62,9 @@ jobs:
       - name: 生成断链工单（校验 concepts/；有违例则写入 inbox/_broken-links.md 供 agent 修）
         # 写工单但不阻断 process job（|| true）；publish job 的校验才是硬闸门。
         # agent（下一步）会扫到 inbox/_broken-links.md 并按工单修断链，修完 mv 到 _done/。
-        run: python3 scripts/okf_validate.py || true
+        run: |
+          python3 -m pip install --quiet pyyaml || true
+          python3 scripts/okf_validate.py || true
 
       - name: 运行 Claude Code 处理 inbox（主：MiniMax-M3，备：GLM-5.2）
         if: steps.keycheck.outputs.has_key == 'true'
@@ -142,8 +144,10 @@ jobs:
 
       - run: npm ci
 
-      - name: OKF 一致性校验（每个概念有 type + 内部链接不断）
-        run: python3 scripts/okf_validate.py
+      - name: OKF 一致性校验（每个概念有 type + 内部链接不断 + 合法 YAML）
+        run: |
+          python3 -m pip install --quiet pyyaml || true
+          python3 scripts/okf_validate.py
 
       - name: 生成仪表盘 overview.md（构建前扫描 concepts/ frontmatter）
         run: python3 scripts/build_overview.py

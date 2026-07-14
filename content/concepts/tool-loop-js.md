@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "loop.js"
-description: "给 loop.js 一个目标和"怎样算做完"的标准，它就一轮轮驱动 agent 往下干：每轮清空上下文、把笔记存盘，直到一个独立且默认只读的 Verify 判定达标才罢手；目标、执行、验证三件事都是同一种 prompt，但验证权只在独立的 Verify agent 手里。"
+description: "给 loop.js 一个目标和\"怎样算做完\"的标准，它就一轮轮驱动 agent 往下干：每轮清空上下文、把笔记存盘，直到一个独立且默认只读的 Verify 判定达标才罢手；目标、执行、验证三件事都是同一种 prompt，但验证权只在独立的 Verify agent 手里。"
 tags: "[agent-loop, verify, context-reset, persistence, orchestration, tool]"
 timestamp: "2026-07-13T00:00:00Z"
 resource: "https://github.com/loop-js/loop.js"
