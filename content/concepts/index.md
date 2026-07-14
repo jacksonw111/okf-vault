@@ -415,8 +415,6 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 笔记（Notes）
 - [可灵 3.0 电影级画面（社区作品）](note-kling-3-cinematic.md) — `Note` — 国产视频生成模型对镜头语言的理解
-- [反应类视频：麻了（短视频）](note-emotion-clip-mahai.md) — `Note` — 反应类竖屏短视频内容覆盖记录
-- [反应类视频：记忆是孤独的（短视频）](note-emotion-clip-memory.md) — `Note` — 反应类竖屏短视频内容覆盖记录
 
 ## 本批新增（2026-07-08）
 
