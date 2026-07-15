@@ -52,4 +52,4 @@ timestamp: "2026-07-14T05:00:00Z"
 
 - [creatorhub](./tool-creatorhub.md) — 同样面向自媒体但偏多平台采集
 - [AI Media Assistant](./tool-ai-media-assistant.md) — 中文短视频生成工具,与本工具的图文 / 视频域互补
-- [note-ai-medium-tutorials](./note-ai-medium-tutorials.md) — 通用 AI 创作教程
+- note-ai-medium-tutorials — 通用 AI 创作教程

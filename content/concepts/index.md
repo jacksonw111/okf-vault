@@ -641,3 +641,58 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "手摇充电器,智商受到暴击" + 视频 — 情绪反应短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
 - QingQ77 "多线程的嘴" + 视频 — 短语 + 短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
 - QingQ77 "好玩" + 手机视频 — 仅口语化感叹词,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+
+## 本批新增（2026-07-15）
+
+### Agent Skills 生态
+- [WorkBuddyGuide](tool-workbuddy-guide.md) — `Tool` — AlephAITech 出的 WorkBuddy 开源蓝皮书教程，真实任务为线索串讲安装 / Skill / MCP / 多 agent
+- [liurun-bookwriter-skills](tool-liurun-bookwriter-skills.md) — `Tool` — 学刘润 / 罗振宇中文商业写作风格的 Agent Skill 双件套，可一键出 PDF
+- [FTShare-skills](tool-ftshare-skills.md) — `Tool` — 把 FTShare 金融数据 / 投研流程包成 Claude Code / Codex 调用的 Skill
+
+### AI / Agent 生态
+- [FableCut](tool-fablecut.md) — `Tool` — 浏览器内运行的视频编辑器，时间线为 JSON，Claude 等 Agent 经 MCP/REST 直接剪
+- [Bonsai 27B](tool-bonsai-27b.md) — `Tool` — PrismML 的 27B 三值化模型，可在 iPhone 本地运行（WebGPU Demo + Together API）
+
+### AI 编码 IDE
+- [Clodex IDE](tool-clodex-ide.md) — `Tool` — 本地优先 / 零信任的 agentic IDE，Electron + TypeScript，显式策略 + 隔离运行时管 Agent 动作
+
+### 工具（Tools）
+- [codemark](tool-codemark.md) — `Tool` — Rust 写的代码书签工具，基于 tree-sitter 抓代码语义结构定位书签
+- [github-chinese](tool-github-chinese.md) — `Tool` — GitHub 界面中文化浏览器用户脚本，Tampermonkey / Violentmonkey 即装即用
+- [journalit](tool-journalit.md) — `Tool` — IBKR / Tradovate / Bybit 等多平台成交记录汇总到 Obsidian 做本地复盘
+- [mimic](tool-mimic.md) — `Tool` — 拦截任意应用进程，像调用 Python 库那样调用 CLI / GUI 程序
+
+### 编程语言 / 工具链
+- [retui](tool-retui.md) — `Tool` — Go 写的终端 UI 框架，React 风格：函数式组件 + hooks + flexbox 布局
+- [QuantoScript](tool-quantoscript.md) — `Tool` — C 写的小脚本语言，解释器 / 字节码 VM / 自动转 C 三档执行模型
+- [arlan.me/vault](tool-arlan-vault.md) — `Tool` — 炫酷前端 / AI 效果合集，每个效果附 Markdown 提示词，让 Agent 直拷还原
+
+### 幻灯片 / 演示
+- [presenter-mode](tool-presenter-mode.md) — `Tool` — 单 HTML 文件给任意幻灯片加演示者视图（备注 / 计时 / 黑屏），离线可用
+
+### 终端 / 网络 / 系统管理
+- [lazyrsync](tool-lazyrsync.md) — `Tool` — rsync 的 TUI 前端（ratatui + Rust），配置持久化 + dry-run + 危险开关二次确认
+
+### 桌面 / 系统工具
+- [navifsp](tool-navifsp.md) — `Tool` — Windows 小工具，借 WinFSP 把 Navidrome 音乐服务挂成磁盘，让 Foobar2000 等老牌播放器当本地曲库
+- [WinTrash](tool-wintrash.md) — `Tool` — 单 .ps1 扫 Windows 18 类残留（死 PATH / 孤儿目录 / 幽灵服务 / 注册表 / 启动项 / 代理自签根证书）
+
+### 自托管 / 工具
+- [scroggo](tool-scroggo.md) — `Tool` — 自托管的 ListenBrainz 兼容 scrobble 服务，单二进制 + SQLite，所有客户端听歌记录收进本地库
+
+### 后端 / 部署 / 自托管
+- [bot-signal](tool-bot-signal.md) — `Tool` — TypeScript 全套机器人检测（浏览器标记 + 服务端 IP/TLS/时区校验 + 长期行为轨迹）
+
+### 金融 / 数据
+- [AI-Portfolio-Compass](tool-ai-portfolio-compass.md) — `Tool` — 本地投资组合工作台（React + Vite + FastAPI），多市场 / 多币种合并 + AI 诊断，AI 只诊断不交易
+
+### 笔记（Notes）
+- [UI Skills Top 10](note-ui-skills-top10.md) — `Note` — UI-Skills 社区精选的 10 个 UI / 前端 Skill 清单（emil / animations / accessibility / shadcn / vercel / react-doctor 等）
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "考眼力的时刻到了，这是 AI 吗?" + 视频 — 仅口语化疑问 + 短句,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "不如手套" + 视频 — 情绪化反应短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "这是足金" + 视频 — 短语 + 短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- Wen_Zw 转推 withden_/paceui 50% off — 纯电商促销广告,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- Wen_Zw 转推 Sn0wbrave 阿拉伯语 gradient 网站推荐 — 无可定位的项目 URL(仅「保存此网站」,无链接 / 仓库),无法形成具体概念,按「说不清理由就别链」原则跳过
+- Wen_Zw 转推 QingQ77 FTShare-skills — 与 QingQ77 原条素材重复,已经在本批 QingQ77 处理中收录,跳过

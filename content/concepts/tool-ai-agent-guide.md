@@ -61,5 +61,5 @@ timestamp: "2026-07-14T02:33:00Z"
 ## 相关概念
 
 - [Google《Agent Engineering》1 小时课程](./note-google-agent-engineering-course.md) — Google 官方视频速记,与本教程互补(视频 vs 文档)
-- [代码 x 圈叉 系列·AI Medium 教程](./note-ai-medium-tutorials.md) — 通用 AI 教程,本项目专注 Agent 子集
+- 代码 x 圈叉 系列·AI Medium 教程 — 通用 AI 教程,本项目专注 Agent 子集
 - [CS-Fundamentals](./tool-cs-fundamentals.md) — 校招 CS 基础,与本项目非重合的全集

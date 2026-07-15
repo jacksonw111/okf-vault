@@ -707,6 +707,53 @@ timestamp: "2026-06-26T16:50:00Z"
 - [ai-agent-guide](concepts/tool-ai-agent-guide.md) — 21 章中文 AI Agent 教程（6 大篇章 + 文章/八股/考试 + AI 助教）
 - [4000-Essential-English-Words](concepts/tool-4000-essential-english-words.md) — 把经典词表抓取并打包成 Anki 牌组的 Python 脚本
 
+## 本批新增（2026-07-15）
+
+### Agent Skills 生态（本批新增）
+- [WorkBuddyGuide](concepts/tool-workbuddy-guide.md) — AlephAITech 出的 WorkBuddy 开源蓝皮书教程，真实任务为线索串讲安装 / Skill / MCP / 多 agent
+- [liurun-bookwriter-skills](concepts/tool-liurun-bookwriter-skills.md) — 学刘润 / 罗振宇中文商业写作风格的 Agent Skill 双件套
+- [FTShare-skills](concepts/tool-ftshare-skills.md) — 把 FTShare 金融数据 / 投研流程包成 Claude Code / Codex 调用的 Skill
+
+### AI / Agent 生态（本批新增）
+- [FableCut](concepts/tool-fablecut.md) — 浏览器内视频编辑器，时间线为 JSON，Claude 等 Agent 经 MCP/REST 直接剪
+- [Bonsai 27B](concepts/tool-bonsai-27b.md) — PrismML 27B 三值化模型，可在 iPhone 本地运行
+
+### AI 编码 IDE（本批新增）
+- [Clodex IDE](concepts/tool-clodex-ide.md) — 本地优先 / 零信任的 agentic IDE（Electron + TypeScript）
+
+### 编程语言 / 工具链（本批新增）
+- [retui](concepts/tool-retui.md) — Go 写的终端 UI 框架，React 风格（函数式组件 + hooks + flexbox 布局）
+- [QuantoScript](concepts/tool-quantoscript.md) — C 写的小脚本语言，解释器 / 字节码 VM / 自动转 C 三档执行模型
+- [arlan.me/vault](concepts/tool-arlan-vault.md) — 炫酷前端 / AI 效果合集，每个效果附 Markdown 提示词让 Agent 直拷还原
+
+### 工具（Tools）（本批新增）
+- [codemark](concepts/tool-codemark.md) — Rust 写的代码书签工具，基于 tree-sitter 抓代码语义结构定位书签
+- [github-chinese](concepts/tool-github-chinese.md) — GitHub 界面中文化浏览器用户脚本，Tampermonkey / Violentmonkey 即装即用
+- [journalit](concepts/tool-journalit.md) — IBKR / Tradovate / Bybit 等多平台成交记录汇总到 Obsidian 做本地复盘
+- [mimic](concepts/tool-mimic.md) — 拦截任意应用进程，像调用 Python 库那样调用 CLI / GUI 程序
+
+### 幻灯片 / 演示（本批新增）
+- [presenter-mode](concepts/tool-presenter-mode.md) — 单 HTML 文件给任意幻灯片加演示者视图（备注 / 计时 / 黑屏），离线可用
+
+### 终端 / 网络 / 系统管理（本批新增）
+- [lazyrsync](concepts/tool-lazyrsync.md) — rsync 的 TUI 前端（ratatui + Rust），配置持久化 + dry-run + 危险开关二次确认
+
+### 桌面 / 系统工具（本批新增）
+- [navifsp](concepts/tool-navifsp.md) — Windows 小工具，借 WinFSP 把 Navidrome 音乐服务挂成磁盘
+- [WinTrash](concepts/tool-wintrash.md) — 单 .ps1 扫 Windows 18 类残留（死 PATH / 幽灵服务 / 注册表 / 代理自签根证书）
+
+### 自托管 / 工具（本批新增）
+- [scroggo](concepts/tool-scroggo.md) — 自托管的 ListenBrainz 兼容 scrobble 服务，单二进制 + SQLite
+
+### 后端 / 部署 / 自托管（本批新增）
+- [bot-signal](concepts/tool-bot-signal.md) — TypeScript 全套机器人检测（浏览器标记 + 服务端 IP/TLS/时区 + 长期行为轨迹）
+
+### 金融 / 数据（本批新增）
+- [AI-Portfolio-Compass](concepts/tool-ai-portfolio-compass.md) — 本地投资组合工作台，多市场 / 多币种合并 + AI 诊断，AI 只诊断不交易
+
+### 阅读 / 资源（本批新增）
+- [UI Skills Top 10](concepts/note-ui-skills-top10.md) — UI-Skills 社区精选的 10 个 UI / 前端 Skill 清单
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)
