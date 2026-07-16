@@ -695,4 +695,47 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "这是足金" + 视频 — 短语 + 短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
 - Wen_Zw 转推 withden_/paceui 50% off — 纯电商促销广告,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
 - Wen_Zw 转推 Sn0wbrave 阿拉伯语 gradient 网站推荐 — 无可定位的项目 URL(仅「保存此网站」,无链接 / 仓库),无法形成具体概念,按「说不清理由就别链」原则跳过
+
+## 本批新增（2026-07-16）
+
+### Agent Skills 生态
+- [intercom-2x-skills](tool-intercom-2x-skills.md) — `Tool` — Intercom Fin 2x 团队开源的 Claude Code 技能合集(开发/安全/审查/测试)
+- [codex-storyboard](tool-codex-storyboard.md) — `Tool` — 给短视频/自媒体用的本地分镜台 Codex 插件,装好后一句「打开分镜台」拉起 Web 工作台
+
+### AI / Agent 生态
+- [wigolo](tool-wigolo.md) — `Tool` — 免费、本地、私有的 MCP 服务,让 AI Agent 搜索 / 抓取 / 研究网页,效果对标付费服务
+- [geoanalisis-mcp](tool-geoanalisis-mcp.md) — `Tool` — 与 Claude Desktop 集成的 MCP 服务器,用自然语言读 / 分析 / 制图矢量空间数据
+
+### AI 编码 IDE
+- [claude-code-recap](tool-claude-code-recap.md) — `Tool` — 一条命令把本机所有 Claude Code 会话按时间列出来,附续聊命令(解决 /resume 只能看当前目录)
+
+### 桌面 / 系统工具
+- [gemtype](tool-gemtype.md) — `Tool` — 免费开源浏览器扩展 + Word 插件,用自己的 Gemini API 做实时语法检查,定位 Grammarly 替代
+- [hermes-ui](tool-hermes-ui.md) — `Tool` — 把 Hermes 桌面客户端渲染层抽出来,做成浏览器即开 + PWA 可装的 Web 版 UI
+- [wizarr](tool-wizarr.md) — `Tool` — 自托管自动化用户邀请与引导系统,给 Plex/Jellyfin/Emby 朋友家人发邀请链接自动建账号
+
+### 自托管 / 工具
+- [joi-codex-pet](tool-joi-codex-pet.md) — `Tool` — 非官方非商业 ChatGPT Codex 像素桌宠资源包,基于 B 站 VTB 轴伊 Joi 形象
+- [tonkatsu-box](tool-tonkatsu-box.md) — `Tool` — Flutter 跨端统一媒体收藏管理器(游戏/电影/动漫/剧集/书/漫画),聚合十余数据源
+
+### 金融 / 数据
+- [repo-compete](tool-repo-compete.md) — `Tool` — 自动分析仓库产品定位、发现竞品,生成对比矩阵/雷达图/SWOT 等可交互 HTML 报告
+- [quantskills](tool-quantskills-nav.md) — `Tool` — QuantSkills 组织导航仓库,把几十个量化 Skill/Agent 按分类整理成可点击索引
+
+### 物联网 / 智能硬件
+- [gm-balancecar](tool-gm-balancecar.md) — `Tool` — 基于 STM32F4 的开源智能两轮平衡车项目,硬件(双层 PCB)+串级 PID 控制算法全套
+- [noisy-speaker-anonymization](tool-noisy-speaker-anonymization.md) — `Tool` — 噪声环境下说话人匿名化的轻量 CASR 控制层,无需测试时噪声标签自动调档位
+
+### 写作 / 学术辅助
+- [academic-humanizer](tool-academic-humanizer.md) — `Tool` — 修复 AI 辅助学术草稿的泛化、冗长与腔调,同时保留每一处数据 / 引用 / 学术严谨性
+
+### 阅读 / 资源
+- [深入理解 AI Agent](note-ai-agent-book.md) — `Note` — bojieli 把图灵《AI Agent 实战营》整理的开源电子书,围绕 Agent = LLM + 上下文 + 工具 展开十章
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "好可爱🥰" + 视频 — 仅口语化情感表达 + 短视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "人们已经没有基本的信任" + 视频 — 情绪化短句附视频,无可提取的概念 / 工具 / 项目信息,按「质量门槛」跳过
+- QingQ77 "asJEI/vscode fork" — 个人 fork 比上游领先 209 个提交(都是微软团队 cherry-pick),源码结构与上游一致,无作者实际定制修改,按「无新增信息」跳过
+- QingQ77 2026-07-16-2077636849485730217 README/Agent 改造 — 正文描述 Agent 接手仓库重排 README,描述里附的 URL 字段是 wizarr/wizarr(明显错配),无正确定位的项目 URL,按「说不清理由就别链」原则跳过
+- Wen_Zw RT QingQ77 FTShare-skills — 与同批 QingQ77 FTShare-skills 重复,已在 QingQ77 处理中收录
 - Wen_Zw 转推 QingQ77 FTShare-skills — 与 QingQ77 原条素材重复,已经在本批 QingQ77 处理中收录,跳过

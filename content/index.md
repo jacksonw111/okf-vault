@@ -754,6 +754,42 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 阅读 / 资源（本批新增）
 - [UI Skills Top 10](concepts/note-ui-skills-top10.md) — UI-Skills 社区精选的 10 个 UI / 前端 Skill 清单
 
+## 本批新增（2026-07-16）
+
+### Agent Skills 生态（本批新增）
+- [intercom-2x-skills](concepts/tool-intercom-2x-skills.md) — Intercom Fin 2x 团队开源的 Claude Code 技能合集(开发/安全/审查/测试)
+- [codex-storyboard](concepts/tool-codex-storyboard.md) — 短视频/自媒体本地分镜台 Codex 插件,一句「打开分镜台」拉起 Web 工作台
+
+### AI / Agent 生态（本批新增）
+- [wigolo](concepts/tool-wigolo.md) — 免费 / 本地 / 私有 MCP 服务,让 AI Agent 搜索 / 抓取 / 研究网页
+- [geoanalisis-mcp](concepts/tool-geoanalisis-mcp.md) — Claude Desktop 集成的空间数据 MCP 服务器,自然语言生成专业地图
+
+### AI 编码 IDE（本批新增）
+- [claude-code-recap](concepts/tool-claude-code-recap.md) — 一条命令跨目录聚合本机所有 Claude Code 会话,附续聊命令
+
+### 桌面 / 系统工具（本批新增）
+- [gemtype](concepts/tool-gemtype.md) — 免费开源 Grammarly 替代,浏览器扩展 + Word 插件,自配 Gemini API key
+- [hermes-ui](concepts/tool-hermes-ui.md) — Hermes 桌面 UI 抽出来做成 Web 版,浏览器即开 + PWA 可装
+- [wizarr](concepts/tool-wizarr.md) — Plex/Jellyfin/Emby 自托管邀请 + 引导系统,一条链接自动建账号
+
+### 自托管 / 工具（本批新增）
+- [joi-codex-pet](concepts/tool-joi-codex-pet.md) — ChatGPT Codex 像素桌宠资源包,基于 B 站 VTB 轴伊 Joi 形象
+- [tonkatsu-box](concepts/tool-tonkatsu-box.md) — Flutter 跨端统一媒体收藏管理器,聚合十余数据源覆盖七类内容
+
+### 金融 / 数据（本批新增）
+- [repo-compete](concepts/tool-repo-compete.md) — 自动分析仓库定位,发现竞品,生成对比矩阵/雷达图/SWOT 等 HTML 报告
+- [quantskills](concepts/tool-quantskills-nav.md) — QuantSkills 组织旗下量化 Skill/Agent 的导航仓库
+
+### 物联网 / 智能硬件（本批新增）
+- [gm-balancecar](concepts/tool-gm-balancecar.md) — 基于 STM32F4 的开源两轮平衡车,硬件 + 串级 PID 全套
+- [noisy-speaker-anonymization](concepts/tool-noisy-speaker-anonymization.md) — 噪声环境下说话人匿名化的轻量 CASR 控制层,无需噪声标签自动调档位
+
+### 写作 / 学术辅助（本批新增）
+- [academic-humanizer](concepts/tool-academic-humanizer.md) — 修复 AI 辅助学术草稿的泛化、冗长与腔调,保留数据 / 引用 / 严谨性
+
+### 阅读 / 资源（本批新增）
+- [深入理解 AI Agent](concepts/note-ai-agent-book.md) — bojieli 把图灵《AI Agent 实战营》整理的开源电子书
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)
