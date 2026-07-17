@@ -739,3 +739,44 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 2026-07-16-2077636849485730217 README/Agent 改造 — 正文描述 Agent 接手仓库重排 README,描述里附的 URL 字段是 wizarr/wizarr(明显错配),无正确定位的项目 URL,按「说不清理由就别链」原则跳过
 - Wen_Zw RT QingQ77 FTShare-skills — 与同批 QingQ77 FTShare-skills 重复,已在 QingQ77 处理中收录
 - Wen_Zw 转推 QingQ77 FTShare-skills — 与 QingQ77 原条素材重复,已经在本批 QingQ77 处理中收录,跳过
+
+## 本批新增（2026-07-17）
+
+### AI / Agent 生态
+- [domain-sdk(opencoredev)](tool-domain-sdk-opencore.md) — `Tool` — 把域名「增、查、列、验、删」归一化为跨服务商 API, 并直接给出 DNS / 所有权 / 证书记录值
+- [FreeBuddy](tool-freebuddy.md) — `Tool` — 桌面 GUI 并行承载多个本地编码 Agent (Codex / Claude Code / OpenCode / Cursor / Kimi / Qoder / CodeBuddy), 任务统一追踪
+- [cynative](tool-cynative.md) — `Tool` — 跑在用户自己云、代码与运行时上的安全研究 Agent, 跨 GitHub / AWS / K8s 只读沙箱化查询并给出可追源的结论
+- [Microsoft Agent Framework (Go 版)](tool-agent-framework-go-microsoft.md) — `Tool` — 微软出的 Go 语言多智能体框架, 多 Provider + 可插拔中间件 + DAG 图工作流 (顺序 / 并发 / 分支 / 检查点 / 人工介入)
+- [learn-agent (7-e1even)](note-learn-agent-zero-to-coding-agent.md) — `Note` — 从零到完整 coding agent 的实战教程笔记, 每个机制都附带零依赖可运行的 Node.js 示例
+- [brand-loom](tool-brand-loom.md) — `Tool` — 开放核心营销 Skill 库, 钩子 / 文案 / 标签 / SEO 大纲 / FAQ / Schema / CTA 多 model 通用
+- [ai-meter](tool-ai-meter.md) — `Tool` — macOS 菜单栏应用, 通过 ccusage 实时显示各编码 Agent 的剩余预算 / 用量周期 / 重置日期
+
+### AI 编码 IDE / 工作台
+- [Codex Dream Skin](tool-codex-dream-skin.md) — `Tool` — 给 Codex 桌面端做外部换肤, 零侵入通过本机 CDP 注入一张 16:9 壁纸
+- [juggler](tool-juggler-ai.md) — `Tool` — 可视化工作台式 AI 编码 agent, 工具调用全可见 + 分支线程回溯 + 上下文直接编辑
+- [Pi Exa](tool-pi-exa.md) — `Tool` — Pi Agent 的 Exa 扩展包, 基础搜索无需 API key, 深度搜索 (deep-lite / deep / deep-reasoning) 才需要
+
+### Skills / 内容 / 营销
+- [SkillsPlusPlus](tool-skillsplusplus.md) — `Tool` — Tauri 2 桌面端 Skills 管理工具, 跨 skills.sh / LobeHub / SkillHub.cn 多源, 一键安装到 10+ AI 工具本地目录
+- [xiaohongshu-ai-workbench](tool-xiaohongshu-ai-workbench.md) — `Tool` — 配套《小红书运营手册》的开源 Codex Skills 集, 把标题 / 主页 / 选题 / 评论 / 成交拆成可执行工作流
+
+### 桌面 / 系统工具
+- [inky-bird-frame](tool-inky-bird-frame.md) — `Tool` — 把附近近期观测或检测到的鸟类, 以 Codex 生成 + 审核的插画式田野日志图版推到 Pimoroni Inky 彩屏上
+- [hashdraft](tool-hashdraft.md) — `Tool` — Windows 上的快速启动 / 纯本地 Markdown 阅读编辑软件, 编辑 / 预览 / 分屏三模式分屏滚动同步
+- [wlocks](tool-wlocks.md) — `Tool` — Go 写的 TUI 工具, 通过轮询 /proc 实时展示进程 ↔ 文件描述符关系, 模糊搜索 + 多维排序 + 主题切换 + 进程管理
+
+### 浏览器扩展 / 抓取
+- [ditto.site](tool-ditto-site.md) — `Tool` — 把公开网址变可跑 TypeScript 应用, 抓浏览器真实渲染后确定性地生成 Next.js / Vite 项目, 不让 LLM 猜布局
+- [doubao-international](tool-doubao-international.md) — `Tool` — Chrome/Edge 浏览器插件, 派生自 ihmily/doubao-nomark, 主打 dola.com (豆包国际版) 支持, 劫持 JSON.parse 与网络请求取无水印原图 / 原视频
+
+### 后端 / 部署 / DevOps
+- [Single Server etc. — domain-sdk (opencoredev)](tool-domain-sdk-opencore.md) — `Tool` — `已列于 AI / Agent 生态`
+
+### 工具 / 资源
+- [csakura](tool-csakura.md) — `Tool` — C99 + ncurses 的终端樱花树动画, 程序化生成会落樱的樱树 (cmatrix / cava 同类终端 ambient)
+
+### App 生成 / 软件工程
+- [QuantumByte](tool-quantumbyte.md) — `Tool` — 开源融合式 App 构建器, 一句意图出应用, 每回合后对照业务需求逐条核验驱动自动修复
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "这首歌大家熟悉吗？今夕是何年，今年是何夕。" + 视频 — 一句怀旧疑问 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过

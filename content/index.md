@@ -790,6 +790,41 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 阅读 / 资源（本批新增）
 - [深入理解 AI Agent](concepts/note-ai-agent-book.md) — bojieli 把图灵《AI Agent 实战营》整理的开源电子书
 
+## 本批新增（2026-07-17）
+
+### AI / Agent 生态
+- [domain-sdk（opencoredev）](concepts/tool-domain-sdk-opencore.md) — 域名「增、查、列、验、删」归一化为跨服务商 API,直接给出 DNS / 所有权 / 证书记录值
+- [FreeBuddy](concepts/tool-freebuddy.md) — 桌面 GUI 并行承载多个本地编码 Agent,任务统一追踪
+- [cynative](concepts/tool-cynative.md) — 跑在用户自己云、代码与运行时上的安全研究 Agent,跨 GitHub / AWS / K8s 只读沙箱化查询,给出可追源的结论
+- [Microsoft Agent Framework (Go 版)](concepts/tool-agent-framework-go-microsoft.md) — 微软出的 Go 多智能体框架,多 Provider + 可插拔中间件 + DAG 图工作流
+- [learn-agent (7-e1even)](concepts/note-learn-agent-zero-to-coding-agent.md) — 从零到完整 coding agent 的实战教程笔记,每机制附零依赖可运行的 Node.js 示例
+- [brand-loom](concepts/tool-brand-loom.md) — 开放核心营销 Skill 库,钩子/文案/标签/SEO/FAQ/Schema/CTA 多 model 通用
+- [ai-meter](concepts/tool-ai-meter.md) — macOS 菜单栏用量监控,接 ccusage 显示各编码 Agent 的剩余预算 / 周期 / 重置日
+
+### AI 编码 IDE / 工作台
+- [Codex Dream Skin](concepts/tool-codex-dream-skin.md) — 给 Codex 桌面端做外部换肤,通过本机 CDP 注入一张 16:9 壁纸
+- [juggler](concepts/tool-juggler-ai.md) — 可视化工作台式 AI 编码 agent,工具调用全可见 + 分支线程回溯 + 上下文直接编辑
+- [Pi Exa](concepts/tool-pi-exa.md) — Pi Agent 的 Exa 扩展包,基础搜索无 key 可用,深度搜索需 API key
+
+### Skills / 内容 / 营销
+- [SkillsPlusPlus](concepts/tool-skillsplusplus.md) — Tauri 2 桌面端 Skills 管理工具,聚合 skills.sh / LobeHub / SkillHub.cn 多源,一键安装到 10+ AI 工具
+- [xiaohongshu-ai-workbench](concepts/tool-xiaohongshu-ai-workbench.md) — 配套《小红书运营手册》的开源 Codex Skills 集,把标题 / 主页 / 选题 / 评论 / 成交拆成可执行工作流
+
+### 桌面 / 系统工具
+- [inky-bird-frame](concepts/tool-inky-bird-frame.md) — 鸟类观测 → Codex 生成插画图版 → Pimoroni Inky 彩屏轮播
+- [hashdraft](concepts/tool-hashdraft.md) — Windows 快速启动 / 纯本地的 Markdown 阅读编辑软件,分屏滚动同步
+- [wlocks](concepts/tool-wlocks.md) — Go TUI 工具,轮询 /proc 展示进程 ↔ 文件描述符关系,模糊搜索 + 多维排序 + 主题切换
+
+### 浏览器扩展 / 抓取
+- [ditto.site](concepts/tool-ditto-site.md) — 把公开网址变可跑 TypeScript 应用,抓真实渲染后确定性地生成 Next.js / Vite 项目
+- [doubao-international](concepts/tool-doubao-international.md) — Chrome/Edge 浏览器插件,劫持 JSON.parse + 网络请求取无水印原图 / 原视频,主攻豆包国际版
+
+### 工具 / 资源
+- [csakura](concepts/tool-csakura.md) — C99 + ncurses 终端樱花树动画,程序化生成会落樱的樱树
+
+### App 生成 / 软件工程
+- [QuantumByte](concepts/tool-quantumbyte.md) — 开源融合式 App 构建器,一句意图出应用,每回合后逐条核验业务需求驱动自动修复
+
 ## 配套文档
 
 - [输出模板目录](./templates/_README.md)
