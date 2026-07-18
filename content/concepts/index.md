@@ -780,3 +780,38 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 跳过 / 复核（Skipped / No-op）
 - QingQ77 "这首歌大家熟悉吗？今夕是何年，今年是何夕。" + 视频 — 一句怀旧疑问 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+
+## 本批新增（2026-07-18）
+
+### AI / Agent 生态
+- [antidoom](tool-antidoom.md) — `Tool` — 针对 LLM 推理时陷入「doom-loop」的开源项目, 合成反偏好数据 + 训练轻量 LoRA 把循环压下去
+- [matterloop](tool-matterloop.md) — `Tool` — Python Agent 框架, 把「调一次模型就完事」升级为可验证、可暂停、可恢复的工程闭环 (人工反馈 + 多 Agent + 预算上限 + 断点续跑)
+- [clawk](tool-clawk.md) — `Tool` — 本地 Agent 沙箱工具, 给 Agent 开一次性 Linux 虚拟机, 把本机文件 / 密钥挡在门外
+- [optim-agent](tool-optim-agent.md) — `Tool` — 让编程 Agent (Claude Code / Codex / OpenCode) 替你跑超参数寻优, 参数可附自然语言说明, 范围与打分框架仍卡死
+- [MOMO CODE](tool-momo-code.md) — `Tool` — 搭在 opencode 之上的自我进化编程代理, 秒级 /evolve (KEP+Thompson) + 小时级 /fine-tune (MCGS+LoRA+Ratchet 门控) 双速进化
+- [freecut](tool-freecut.md) — `Tool` — 为 video-use 替换掉付费 ElevenLabs Scribe, 改用免费 / 可插拔的本地转录后端, 零 API key 用 Claude Code 剪视频
+- [netease-music-mcp](tool-netease-music-mcp.md) — `Tool` — 网易云音乐 MCP 服务, 携带用户 Cookie 让 AI 助手直接搜歌 / 建歌单 / 红心 / 拉每日推荐
+
+### 桌面 / 系统工具
+- [BetterCopy](tool-bettercopy.md) — `Tool` — Rust 写的 Windows 文件复制 / 删除加速工具, 零配置拿到接近 robocopy 的并行速度
+- [undo](tool-undo.md) — `Tool` — Rust 写的 Shell「后悔药」, 拦截 mv/cp/rm 写 SQLite 日志, 支持一键撤销 / 重做
+- [cue](tool-cue.md) — `Tool` — 开源 macOS AI 副驾, 浮动在屏幕上能「看」屏幕 + 「听」会议, 屏幕共享时自动隐藏
+
+### 后端 / 部署 / DevOps
+- [netflix-cicd-pipeline](tool-netflix-cicd-pipeline.md) — `Tool` — 在 AWS 上从零搭的端到端 CI/CD 参考工程 (Netflix 克隆 App), 自动测试 / 质量门禁 / 版本 / 部署
+
+### App 生成 / 软件工程
+- [TutorOS](tool-tutoros.md) — `Tool` — 可白标的 LMS 模板, 让 tutoring 机构克隆一次 / 改配置 / 几小时内上线自家品牌教学平台
+
+### 写作 / 学术辅助
+- [Systematic-Review-LLM-Screener](tool-systematic-review-llm-screener.md) — `Tool` — 本地 CLI 工具, 用本地大模型加速系统综述的「标题 + 摘要筛选」, 数据不出本机
+
+### 前端 / 设计资源
+- [ultron-by-sagar-builds](tool-ultron-by-sagar-builds.md) — `Tool` — Next.js + Three.js + MediaPipe 手势追踪做的「钢铁侠风格全息球 UI」, 浏览器摄像头即可操控
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "我的梦想" + 视频 — 一句情怀 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "小时候可喜欢玩了" + 视频 — 怀旧情绪 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "年轻人不讲武德，用 AI 崩老头。" + 视频 — 反应类 / 娱乐视频, 无知识价值, 按「质量门槛」跳过
+- QingQ77 "铁甲钢拳? 机器人+AI+中国武术 有没有搞头" + 视频 — 一句感叹 + 短视频, 无具体可落地信息, 按「质量门槛」跳过
+- QingQ77 Mustang 1969-70 展示网站 — 单一品牌 demo 站, 可复用经验极少, 按「质量门槛」跳过
