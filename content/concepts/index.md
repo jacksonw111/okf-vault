@@ -815,3 +815,49 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "年轻人不讲武德，用 AI 崩老头。" + 视频 — 反应类 / 娱乐视频, 无知识价值, 按「质量门槛」跳过
 - QingQ77 "铁甲钢拳? 机器人+AI+中国武术 有没有搞头" + 视频 — 一句感叹 + 短视频, 无具体可落地信息, 按「质量门槛」跳过
 - QingQ77 Mustang 1969-70 展示网站 — 单一品牌 demo 站, 可复用经验极少, 按「质量门槛」跳过
+
+## 本批新增（2026-07-19）
+
+### AI / Agent 生态
+- [managed-agents](tool-managed-agents.md) — `Tool` — 与 Claude Managed Agents API 兼容的开源 Agent 运行时, 本地多 Agent + 可视化 Dashboard, 模型无关
+- [Grok Build](tool-grok-build.md) — `Tool` — xAI 官方 Rust 写的 AI 编码 agent 运行环境, TUI + headless + ACP 三种形态
+- [FORGE Framework](tool-forge-framework.md) — `Tool` — 面向 AI 数据中心与基础设施的安全风险框架, 五个评估域 + 十大失效模式
+
+### Agent Skills 生态
+- [game-copycat](tool-game-copycat.md) — `Tool` — 复刻休闲网页小游戏的 Agent Skill, 机制忠于原作 + 资产完全原创
+- [finding-unknowns-skills](tool-finding-unknowns-skills.md) — `Tool` — 8 个 Claude Skill 套件, 覆盖动手前 / 写着时 / 写完后三阶段
+- [photo-oracle](tool-photo-oracle.md) — `Tool` — 本地优先、只读、隐私看重的 AI Skill, 把本地照片库变成带占卜感的自我回望玩法
+
+### AI 编码 IDE / 工作台
+- [claude-pulse](tool-claude-pulse.md) — `Tool` — 本地 Claude Code 仪表盘, 实时用量 + 上下文 + 远程手机审批
+
+### 编程语言 / 工具链 / 基础设施
+- [rvLLM](tool-rvllm.md) — `Tool` — Rust 写的 Gemma 4 推理引擎, 模型加载 / KV 缓存 / 采样 / 服务全原生代码
+
+### 终端 / 系统 / 网络
+- [pi-smart-web-search](tool-pi-smart-web-search.md) — `Tool` — Pi Agent 扩展的 web_search 工具, 多查询批量检索 + 模型自主筛选深读
+
+### 桌面 / 系统工具
+- [StrokeMouse](tool-strokemouse.md) — `Tool` — macOS 鼠标手势自定义工具, 按键画轨迹触发快捷键 / 应用 / Shell / AppleScript
+- [awesome-mac](tool-awesome-mac.md) — `Tool` — 专注 macOS 高质量软件精选清单仓库, 系统化分类
+- [files.md](tool-files-md.md) — `Tool` — 本地优先 .md 笔记应用, 浏览器即开, 类聊天流笔记 + 任务 + 日记 + 可选 Telegram bot
+
+### 笔记 / 知识库
+- [obsidian-belki-tasks](tool-obsidian-belki-tasks.md) — `Tool` — 受 Todoist 启发的 Obsidian 任务管理插件, 任务以 .md 文件存在 vault 中
+
+### 前端 / 设计资源
+- [kubeez-scroll-world-video](tool-kubeez-scroll-world-video.md) — `Tool` — 滚动拖视频的无依赖落地页引擎, 配合 Kubeez 生成黏土世界做连续飞越
+- [bolt-slides](tool-bolt-slides.md) — `Tool` — AI 编码 Agent 一句话生成 Web 应用底座的可交互动态幻灯片
+- [Yace](tool-yace.md) — `Tool` — < 2KB (gzip) 浏览器代码编辑器组件, 透明 textarea + 高亮 pre 叠层
+
+### 后端 / 部署 / 自托管
+- [ptrack](tool-ptrack.md) — `Tool` — React 19 + NestJS 11 + Supabase 写的 PPM 项目组合管理, 替代老 Oracle APEX, 九类记录完整 CRUD + 历史审计
+
+### 自托管 / 工具
+- [Montara](tool-montara.md) — `Tool` — 开源 AI 原生视频制作操作系统, Timeline IR 统一规划 / 编辑 / 渲染 / 质检, 本地优先
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "没想到 3D 打印技术可以用来修复文物..." + 视频 — 单一博物馆文物修复演示, 无通用工具 / 概念 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "它在想什么" + 单张图 — 一句短语 + 静态图, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "我不敢想象下一秒会发生什么" + 视频 — 一句感叹 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "天才程序员，你都用珍贵 token 干了些啥?!" + 视频 — 情绪化短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
