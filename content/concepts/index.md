@@ -861,3 +861,47 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "它在想什么" + 单张图 — 一句短语 + 静态图, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
 - QingQ77 "我不敢想象下一秒会发生什么" + 视频 — 一句感叹 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
 - QingQ77 "天才程序员，你都用珍贵 token 干了些啥?!" + 视频 — 情绪化短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+
+## 本批新增（2026-07-20）
+
+### AI / Agent 生态
+- [Grok Build Plugin for Claude Code](tool-grok-build-plugin-cc.md) — `Tool` — xAI 官方 Claude Code 插件，斜杠命令直接调本机 grok CLI 干活，靠 PID + 日志跟踪运行状态
+- [Zeraix](tool-zeraix.md) — `Tool` — 开源本地优先 AI 桌面工作区，跑私有模型 + agent + 文件，同时研究模型在个人硬件上的高效推理
+- [PAXM](tool-paxm.md) — `Tool` — 厂商中立的编码 Agent 跨工具持久化记忆层，Codex / Claude Code / OpenCode / Pi / ZCode 共享记忆
+
+### 企业 / 组织 / 数字员工
+- [StaffDeck](tool-staff-deck.md) — `Tool` — OpenBMB 开源的企业数字员工平台，把专业人工作经验 / 流程 / 决策标准沉淀成可复用可演进的数字员工
+
+### AI 编码 IDE / 工作台
+- [Nyx Local AI](tool-nyx-local-ai.md) — `Tool` — VS Code / Cursor 本地 AI 编码插件，接 Ollama / LM Studio / 本地集群，全程离线无 token 费
+- [pi-discuss-mode](tool-pi-discuss-mode.md) — `Tool` — Pi Coding Agent 只读讨论模式扩展，禁写工具 + bash 受限，纯讨论 / 审 PR / 聊架构
+
+### Skills / 内容 / 营销
+- [oil-cover](tool-oil-cover.md) — `Tool` — 小红书封面生成 Skill，Apple 风 + 真实屏幕证据，整图一张生成不靠本地拼字
+
+### RAG / 数据工具
+- [GoldPan](tool-gold-pan.md) — `Tool` — 隐私优先多模态数据提取 + 本地 RAG 工作台，PDF / 图片 / 音频 / YouTube / 动态网页转 Markdown 入 100% 本地向量库
+
+### 后端 / 部署 / 自托管
+- [Openship](tool-openship.md) — `Tool` — 自托管部署平台 + 内置 CI/CD，桌面应用 / Web 仪表盘 / CLI 三形态
+- [EdgeMirror](tool-edge-mirror.md) — `Tool` — Cloudflare Workers / Vercel 单域名边缘镜像网关，把 9 大开发源（PyPI / PyTorch / HF / GitHub / Docker / npm / Go / Maven / crates）统一加速
+
+### 桌面 / 系统工具
+- [RoutineOps](tool-routine-ops.md) — `Tool` — 自托管 MDM / RMM 平台，常驻 gRPC / mTLS 通道跨公网管 Windows / macOS / Linux 设备群
+- [Rogallo](tool-rogallo.md) — `Tool` — Python 写的终端 Gemini 客户端，搜书签 / 历史、前后翻页、敏感内容自动掩码、自签证书按站点记忆
+
+### 评估 / 基准
+- [ReactBench](tool-react-bench.md) — `Tool` — 编码 Agent 用的 React 实战评测，专治「测试全绿但上线出问题」的 React 反模式
+- [LHTB](tool-lhtb.md) — `Tool` — Agent 长任务基准，46 条终端跑几百步任务，隐藏验证器打分防自欺
+- [Awesome Scientific LLM Benchmarks](tool-awesome-scientific-llm-benchmarks.md) — `Tool` — 精选科学 LLM 基准清单，覆盖数学 / 物理 / 化学 / 材料 / 生物 / 智能体科学
+
+### Codex 周边
+- [quota-float](tool-quota-float.md) — `Tool` — Codex Desktop 额度悬浮小组件，直接读登录态真实剩余 / 配额 / 重置时间，零估算不改账户
+
+### 游戏
+- [Steam 成就中文翻译安装工具](tool-steam-achievement-translation-installer.md) — `Tool` — Windows Steam 成就中文化一键工具，自动扫本机游戏 + 翻译库版本匹配 + 安全改写 + 备份恢复
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "是个猛人 涡扇窗户" + 视频 — 情绪短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "还有胜利结算环节，数风流人物，还看今朝" + 视频 — 情怀短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+- QingQ77 "这就是科技的意义" + 视频 — 情绪短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过

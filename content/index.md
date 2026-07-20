@@ -836,3 +836,42 @@ timestamp: "2026-06-26T16:50:00Z"
 2. 对 agent 说「**处理 inbox**」
 3. agent 按 PRODUCER.md 产出到 `concepts/`、更新索引与 log、归档资料
 4. 去 [`overview.md`](./overview.md) 看结果
+
+## 本批新增（2026-07-20）
+
+### AI / Agent 生态（本批新增）
+- [Grok Build Plugin for Claude Code](concepts/tool-grok-build-plugin-cc.md) — xAI 官方 Claude Code 插件,斜杠命令直接调本机 grok CLI 干活,靠 PID + 日志跟踪运行状态
+- [Zeraix](concepts/tool-zeraix.md) — 开源本地优先 AI 桌面工作区,跑私有模型 + agent + 文件,研究模型在个人硬件上的高效推理
+- [PAXM](concepts/tool-paxm.md) — 厂商中立的编码 Agent 跨工具持久化记忆层,Codex / Claude Code / OpenCode / Pi / ZCode 共享记忆
+
+### 企业 / 组织 / 数字员工（本批新增）
+- [StaffDeck](concepts/tool-staff-deck.md) — OpenBMB 开源的企业数字员工平台,把工作经验 / 流程 / 决策标准沉淀为可复用可演进的数字员工
+
+### AI 编码 IDE / 工作台（本批新增）
+- [Nyx Local AI](concepts/tool-nyx-local-ai.md) — VS Code / Cursor 本地 AI 编码插件,接 Ollama / LM Studio,全程离线无 token 费
+- [pi-discuss-mode](concepts/tool-pi-discuss-mode.md) — Pi Coding Agent 只读讨论模式扩展,禁写工具 + bash 受限,纯讨论 / 审 PR / 聊架构
+
+### Skills / 内容 / 营销（本批新增）
+- [oil-cover](concepts/tool-oil-cover.md) — Claude / Codex 用的小红书封面生成 Skill,Apple 风 + 真实屏幕证据,整图一张生成
+
+### RAG / 数据工具（本批新增）
+- [GoldPan](concepts/tool-gold-pan.md) — 隐私优先多模态数据提取 + 本地 RAG 工作台,异构源转 Markdown 入 100% 本地向量库
+
+### 后端 / 部署 / 自托管（本批新增）
+- [Openship](concepts/tool-openship.md) — 自托管部署平台 + 内置 CI/CD,桌面应用 / Web 仪表盘 / CLI 三形态
+- [EdgeMirror](concepts/tool-edge-mirror.md) — Cloudflare Workers 单域名边缘镜像网关,9 大开发源(PyPI / PyTorch / HF / GitHub / Docker / npm / Go / Maven / crates)统一加速
+
+### 桌面 / 系统工具（本批新增）
+- [RoutineOps](concepts/tool-routine-ops.md) — 自托管 MDM / RMM 平台,常驻 gRPC / mTLS 通道跨公网管 Win / macOS / Linux 设备群
+- [Rogallo](concepts/tool-rogallo.md) — Python 写的终端 Gemini 客户端,敏感内容自动掩码,自签证书按站点记忆
+
+### 评估 / 基准（本批新增）
+- [ReactBench](concepts/tool-react-bench.md) — 编码 Agent 用的 React 实战评测,专治「测试全绿但上线出问题」的 React 反模式
+- [LHTB](concepts/tool-lhtb.md) — Agent 长任务基准,46 条终端跑几百步任务,隐藏验证器打分
+- [Awesome Scientific LLM Benchmarks](concepts/tool-awesome-scientific-llm-benchmarks.md) — 精选科学 LLM 基准清单,数学 / 物理 / 化学 / 材料 / 生物 / 智能体科学全覆盖
+
+### Codex 周边（本批新增）
+- [quota-float](concepts/tool-quota-float.md) — Codex Desktop 额度悬浮小组件,直读登录态真实剩余 / 配额 / 重置时间
+
+### 游戏（本批新增）
+- [Steam 成就中文翻译安装工具](concepts/tool-steam-achievement-translation-installer.md) — Windows Steam 成就中文化一键工具,自动扫本机游戏 + 翻译库版本匹配 + 安全改写 + 备份恢复
