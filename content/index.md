@@ -875,3 +875,37 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 游戏（本批新增）
 - [Steam 成就中文翻译安装工具](concepts/tool-steam-achievement-translation-installer.md) — Windows Steam 成就中文化一键工具,自动扫本机游戏 + 翻译库版本匹配 + 安全改写 + 备份恢复
+
+## 本批新增（2026-07-21）
+
+### 桌面 / 系统工具（本批新增）
+- [Teleport](concepts/tool-teleport.md) — Windows 右键「发送到」批量移动文件 / 文件夹的桌面小工具
+- [FocuSD Island](concepts/tool-focusd-island.md) — Windows 屏幕顶部透明悬浮岛工具面板,收纳待办 / 笔记 / 剪切板 / 媒体 / AI 编程状态
+- [Torder 今序](concepts/tool-torder.md) — Tauri 2 + 本地 SQLite 的 Windows 待办,记录 / 整理 / 提醒全部本地完成
+- [phone-record-manager](concepts/tool-phone-record-manager.md) — Python + PySide6 + SQLite 的 Windows 桌面工具,登记手机号都绑过哪些网站 / App / 账号
+- [Grayslate](concepts/tool-grayslate.md) — 轻量桌面便签本,自动识别贴入内容、本地转换工具、自动保存 + 可搜索
+- [Holo](concepts/tool-holo-macos-knock.md) — 实验性 macOS 原生工具,MacBook 周围桌面划成四块敲击区,麦克风本地识别敲击位置触发动作
+
+### 终端 / 系统 / 网络（本批新增）
+- [Network Doctor](concepts/tool-network-doctor.md) — TUI 网络诊断链,自动跑完 ping / dig / curl / traceroute,告诉你「断在哪、为什么、怎么修」
+- [tuistore](concepts/tool-tuistore.md) — 终端里的应用市场,搜索 / 浏览几百款终端 + GUI 应用,一键安装,自动识别系统与包管理器
+- [yoinks](concepts/tool-yoinks.md) — 终端里的视频下载器,无浏览器 / 无弹窗 / 无虚假下载按钮
+- [cloudflare-ddns (favonia)](concepts/tool-cloudflare-ddns-favonia.md) — Cloudflare DDNS 守护进程,定期检测本机公网 IP 并自动更新 DNS 记录
+
+### Android / 移动（本批新增）
+- [Aether](concepts/tool-aether-android-agent.md) — Android 上的本地通用 AI Agent,类 ChatGPT 界面 + 内置 Alpine VM 跑 Shell,支持 Shizuku / Termux
+
+### 自托管 / 资源目录（本批新增）
+- [selfhost.directory](concepts/tool-selfhost-directory.md) — 可搜索的自托管开源应用目录,2,700+ 项目 + 安装指南 + 替代方案 + 实时版本跟踪
+
+### 编程语言 / 工具链（本批新增）
+- [ZSUI](concepts/tool-zsui.md) — Rust 轻量原生 UI 框架,组合 + trait 搭界面、强类型消息管状态,Win32 / AppKit / Linux 同源编译出原生窗口
+
+### 前端 / 设计资源（本批新增）
+- [react-textarea-code-editor](concepts/tool-react-textarea-code-editor.md) — 轻量 React 代码输入框组件,textarea 底层 + 语法高亮叠层,表单 / 嵌入场景特化
+
+### 视频 / 影像（本批新增）
+- [NTSCRT](concepts/tool-ntscrt.md) — macOS 原生 NTSC / VHS + RetroArch CRT 着色器,两阶段做「老电视在放」的复古质感
+
+### AI / Agent 学习资料（本批新增）
+- [dg-ai-notes](concepts/note-dg-ai-pi-agent-tutorial.md) — Pi-Agent 10 章源码级教程笔记,每章讲「概念 → 源码 → 设计取舍」三层,三种阅读方式

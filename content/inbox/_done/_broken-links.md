@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-07-20T20:17:32Z"
+timestamp: "2026-07-21T20:17:03Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -17,4 +17,4 @@ timestamp: "2026-07-20T20:17:32Z"
 
 ## 违例清单（1 条）
 
-- content/concepts/tool-grok-build.md:36: 断链 -> ./tool-codex.md
+- content/concepts/tool-react-bench.md:29: 断链 -> ./tool-spa-pdf-viewer.md

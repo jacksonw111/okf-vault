@@ -26,7 +26,7 @@ timestamp: "2026-07-20T20:20:00Z"
 
 ## 相关概念
 
-- [Sketchpad MCP](./tool-spa-pdf-viewer.md)（仅同名相关，非同类工具，跳过链接）
+- Sketchpad MCP（仅同名相关，非同类工具，跳过链接）
 - [Loop.js](./tool-loop-js.md) — 目标 → 标准 → Verify 三闭环，本质上是 agent 自验证循环
 
 ## 参考链接

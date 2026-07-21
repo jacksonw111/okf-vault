@@ -905,3 +905,46 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "是个猛人 涡扇窗户" + 视频 — 情绪短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
 - QingQ77 "还有胜利结算环节，数风流人物，还看今朝" + 视频 — 情怀短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
 - QingQ77 "这就是科技的意义" + 视频 — 情绪短语 + 短视频, 无可提取的概念 / 工具 / 项目信息, 按「质量门槛」跳过
+
+## 本批新增（2026-07-21）
+
+### 桌面 / 系统工具
+- [Teleport](tool-teleport.md) — `Tool` — Windows 右键「发送到」菜单批量移动文件 / 文件夹的桌面小工具
+- [FocuSD Island](tool-focusd-island.md) — `Tool` — Windows 屏幕顶部透明悬浮岛工具面板，收纳待办 / 笔记 / 剪切板 / 媒体 / AI 编程状态
+- [Torder 今序](tool-torder.md) — `Tool` — Tauri 2 + 本地 SQLite 的 Windows 待办，记录 / 整理 / 提醒全部本地完成
+- [phone-record-manager](tool-phone-record-manager.md) — `Tool` — Python + PySide6 + SQLite 写成的 Windows 桌面工具，登记手机号都绑过哪些网站 / App / 账号
+- [Grayslate](tool-grayslate.md) — `Tool` — 轻量桌面便签本，自动识别贴入内容、本地转换工具、自动保存 + 可搜索
+- [Holo](tool-holo-macos-knock.md) — `Tool` — 实验性 macOS 原生工具，把 MacBook 周围桌面划成四块敲击区，麦克风本地识别敲击位置触发动作
+
+### 终端 / 系统 / 网络
+- [Network Doctor](tool-network-doctor.md) — `Tool` — TUI 网络诊断链，自动跑完 ping / dig / curl / traceroute，告诉你「断在哪、为什么、怎么修」
+- [tuistore](tool-tuistore.md) — `Tool` — 终端里的应用市场，搜索 / 浏览几百款终端 + GUI 应用，一键安装，自动识别系统与包管理器
+- [yoinks](tool-yoinks.md) — `Tool` — 终端里的视频下载器，无浏览器 / 无弹窗 / 无虚假下载按钮
+- [cloudflare-ddns (favonia)](tool-cloudflare-ddns-favonia.md) — `Tool` — Cloudflare DDNS 守护进程，定期检测本机公网 IP 并自动更新 DNS 记录
+
+### Android / 移动
+- [Aether](tool-aether-android-agent.md) — `Tool` — Android 上的本地通用 AI Agent，类 ChatGPT 界面 + 内置 Alpine VM 跑 Shell，支持 Shizuku / Termux
+
+### 自托管 / 资源目录
+- [selfhost.directory](tool-selfhost-directory.md) — `Tool` — 可搜索的自托管开源应用目录，2,700+ 项目 + 安装指南 + 替代方案 + 实时版本跟踪
+
+### 编程语言 / 工具链
+- [ZSUI](tool-zsui.md) — `Tool` — Rust 轻量原生 UI 框架，组合 + trait 搭界面、强类型消息管状态，Win32 / AppKit / Linux 同源编译出原生窗口
+
+### 前端 / 设计资源
+- [react-textarea-code-editor](tool-react-textarea-code-editor.md) — `Tool` — 轻量 React 代码输入框组件，textarea 底层 + 语法高亮叠层，表单 / 嵌入场景特化
+
+### 视频 / 影像
+- [NTSCRT](tool-ntscrt.md) — `Tool` — macOS 原生 NTSC / VHS + RetroArch CRT 着色器，两阶段做「老电视在放」的复古质感
+
+### AI / Agent 学习资料
+- [dg-ai-notes](note-dg-ai-pi-agent-tutorial.md) — `Note` — Pi-Agent 10 章源码级教程笔记，每章讲「概念 → 源码 → 设计取舍」三层，三种阅读方式（Web 三栏 / 本地 Markdown / PDF）
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "他们说这是 AI 生成的，因为最后一帧看到了 5 根手指？" + 视频 — 一句反问 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77 "我和豆包说话算不算 NTR" + 视频 — 情绪化短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 "真的可以吗?" + 视频 — 一句反问 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 "这游戏有个 bug" + 视频 — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 "别让猫咪拍这些" + 视频 — 情绪化短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 MattModeCode / MattModeCode — 描述为「GitHub 个人主页仓库，集中摆他做的本地优先 AI 项目、技术栈和近期贡献，本身不是一款能直接跑的工具」，无可独立收录的具体概念 / 工具 / 项目，按「说不清理由就别链」原则跳过
+- Wen_Zw RT @ZaynHao "没想到帖子这么受欢迎" — 转推附带 mdtask.dev / neat-annotations.syabro.com 两个 URL，缺少正文描述，无法判断各自用途，按「说不清理由就别链」原则跳过
