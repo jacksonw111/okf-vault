@@ -948,3 +948,36 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 "别让猫咪拍这些" + 视频 — 情绪化短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77 MattModeCode / MattModeCode — 描述为「GitHub 个人主页仓库，集中摆他做的本地优先 AI 项目、技术栈和近期贡献，本身不是一款能直接跑的工具」，无可独立收录的具体概念 / 工具 / 项目，按「说不清理由就别链」原则跳过
 - Wen_Zw RT @ZaynHao "没想到帖子这么受欢迎" — 转推附带 mdtask.dev / neat-annotations.syabro.com 两个 URL，缺少正文描述，无法判断各自用途，按「说不清理由就别链」原则跳过
+
+## 本批新增（2026-07-22）
+
+### AI / Agent 生态 / 多代理协作
+- [coding-control-tower](tool-coding-control-tower.md) — `Tool` — 同时跑多个 AI 编码 agent 的本地面板，NOW / NEEDS YOU / resume packet / 当日 token 全景，无需打标签
+- [caw](tool-caw-multi-agent-terminal.md) — `Tool` — 浏览器里同时开多个 AI 编程智能体的终端，状态可视化
+- [ccmux](tool-ccmux.md) — `Tool` — tmux 里跟踪 Claude Code / Codex / Cursor 多 agent 会话，一键跳转
+- [agents-council](tool-agents-council.md) — `Tool` — Claude Code / Codex CLI 加「召集议会」Skill，多本地 CLI 并行回答
+- [qiaomu-model-cli](tool-qiaomu-model-cli.md) — `Tool` — 把 Grok / Kimi / Claude Code 三家 CLI 串起来，batch / dual 两种模式
+
+### Agent Skills / 内存 / 持久化
+- [hermespace](tool-hermespace.md) — `Tool` — Hermes Agent 的持久层，跨会话记忆 / 信念 / 成长轨迹
+
+### 内容 / 营销 / 视觉
+- [niubiskill](tool-niubiskill.md) — `Tool` — AI Agent 「盈利路径选择」Skill，离收钱近 + 七天可验证
+- [workbuddy-xhs-skills](tool-workbuddy-xhs-skills.md) — `Tool` — 小红书 10 个 Agent Skill（6 内容 + 4 视觉）完整工作流
+- [gc-minimal-zine-poster](tool-gc-minimal-zine-poster.md) — `Tool` — 独立杂志风海报生成 Skill，安静 / 克制 / 印刷质感
+
+### 设计与前端资源
+- [learnui](tool-learnui.md) — `Tool` — 中英双语 UI 视觉词典，精准术语名给 AI 用
+
+### 视频 / 影像
+- [vox-director](tool-vox-director.md) — `Tool` — 一句话全自动出片的 6 步流水线，拼贴海报 + 动效 + ffmpeg
+- [video-shotcraft](tool-video-shotcraft.md) — `Tool` — Claude Code / Codex 用的「导演」Skill，106 镜头卡 + 162 动效样式 + 161 样片
+- [Motionly](tool-motionly.md) — `Tool` — AI 驱动动效编辑器，AI 出 .motion 初稿 + 人手工精修时间轴
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 Furtex / MatheuZSecurity/Furtex — Linux 后渗透 + EDR / Falco 绕过工具包，安全研究专用，与本知识库主线（AI / Agent / 开发工具）不匹配，按「质量门槛」跳过
+- QingQ77 conversation-steganography / nethical6 — 微信 / Telegram 隐蔽通信 steganography，niche 隐私 / 反侦察工具，与本知识库主线不匹配，按「质量门槛」跳过
+- QingQ77 "治愈又可爱🥰" + 视频 — 纯情绪 / 反应类短句 + 短视频，无可提取信息，按「质量门槛」跳过
+- QingQ77 AutoPentest Go / expiol/autopentest-go — 渗透测试 LLM Agent 工作台（桌面 + CLI），安全研究 / 攻击面工具，与本知识库主线不匹配，按「质量门槛」跳过
+- QingQ77 "拍完了吗，拍完就请下车吧，我要回家了。" + 视频 — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 "不敢想象小时候拿着风遁螺旋丸上学得多震撼" + 视频 — 段子 / 情怀短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过

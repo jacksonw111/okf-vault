@@ -909,3 +909,28 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### AI / Agent 学习资料（本批新增）
 - [dg-ai-notes](concepts/note-dg-ai-pi-agent-tutorial.md) — Pi-Agent 10 章源码级教程笔记,每章讲「概念 → 源码 → 设计取舍」三层,三种阅读方式
+
+## 本批新增（2026-07-22）
+
+### AI / Agent 生态 / 多代理协作（本批新增）
+- [coding-control-tower](concepts/tool-coding-control-tower.md) — 同时跑多个 AI 编码 agent 的本地面板,NOW / NEEDS YOU / resume packet / 当日 token 全景,无需打标签
+- [caw](concepts/tool-caw-multi-agent-terminal.md) — 浏览器里同时开多个 AI 编程智能体的终端,状态可视化
+- [ccmux](concepts/tool-ccmux.md) — tmux 里跟踪 Claude Code / Codex / Cursor 多 agent 会话,一键跳转
+- [agents-council](concepts/tool-agents-council.md) — Claude Code / Codex CLI 加「召集议会」Skill,多本地 CLI 并行回答
+- [qiaomu-model-cli](concepts/tool-qiaomu-model-cli.md) — 把 Grok / Kimi / Claude Code 三家 CLI 串起来,batch / dual 两种模式
+
+### Agent Skills / 内存 / 持久化（本批新增）
+- [hermespace](concepts/tool-hermespace.md) — Hermes Agent 的持久层,跨会话记忆 / 信念 / 成长轨迹
+
+### Skills / 内容 / 营销（本批新增）
+- [niubiskill](concepts/tool-niubiskill.md) — AI Agent「盈利路径选择」Skill,离收钱近 + 七天可验证
+- [workbuddy-xhs-skills](concepts/tool-workbuddy-xhs-skills.md) — 小红书 10 个 Agent Skill（6 内容 + 4 视觉）完整工作流
+- [gc-minimal-zine-poster](concepts/tool-gc-minimal-zine-poster.md) — 独立杂志风海报生成 Skill,安静 / 克制 / 印刷质感
+
+### 前端 / 设计资源（本批新增）
+- [learnui](concepts/tool-learnui.md) — 中英双语 UI 视觉词典,精准术语名给 AI 用
+
+### 视频 / 影像（本批新增）
+- [vox-director](concepts/tool-vox-director.md) — 一句话全自动出片的 6 步流水线,拼贴海报 + 动效 + ffmpeg
+- [video-shotcraft](concepts/tool-video-shotcraft.md) — Claude Code / Codex 用的「导演」Skill,106 镜头卡 + 162 动效样式 + 161 样片
+- [Motionly](concepts/tool-motionly.md) — AI 驱动动效编辑器,AI 出 .motion 初稿 + 人手工精修时间轴
