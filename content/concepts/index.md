@@ -981,3 +981,41 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 AutoPentest Go / expiol/autopentest-go — 渗透测试 LLM Agent 工作台（桌面 + CLI），安全研究 / 攻击面工具，与本知识库主线不匹配，按「质量门槛」跳过
 - QingQ77 "拍完了吗，拍完就请下车吧，我要回家了。" + 视频 — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77 "不敢想象小时候拿着风遁螺旋丸上学得多震撼" + 视频 — 段子 / 情怀短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-07-23）
+
+### AI / Agent 生态 / 多代理协作
+- [Harnss](tool-harnss.md) — `Tool` — 跨平台桌面软件,把 Claude Code / Codex / ACP 兼容的编程代理整合到同一个窗口
+- [ThreadBeacon](tool-codex-threadbeacon.md) — `Tool` — Windows 原生小窗,实时显示 Codex 主任务状态 + 异常检测 + 自动续接
+- [LLM Fingerprint Detector](tool-llm-fingerprint-detector.md) — `Tool` — 给 OpenAI 兼容 API 实际跑的 LLM 打行为指纹,识别模型替换 / 静态度量量化等代理欺骗
+- [Inferock Bench](tool-inferock-bench.md) — `Tool` — 本地代理拦 LLM API 调用流量,独立记账「花了多少 / 失败几个 / 失败还被收费几个」
+
+### 终端 / 系统 / 网络
+- [CmdBox](tool-cmdbox.md) — `Tool` — 带别名 / 变量 / 标签的命令存储 + 快速执行工具,告别 shell 历史翻找
+- [SpookiUI](tool-spookiui.md) — `Tool` — Ghostty 终端配置 TUI,改完自动写回 + 验证 + 触发重载
+- [Haoleme](tool-haoleme.md) — `Tool` — `hao` 启动命令,手机 App 监控电脑 / 服务器命令运行状态
+
+### 桌面 / 系统工具
+- [study-desk](tool-study-desk.md) — `Tool` — Windows 桌面「一站式学习中心」,课表 + 番茄钟 + 备忘录 + 倒数日 + 资料库 + 健康提醒
+- [Kudu](tool-kudu-cleaner.md) — `Tool` — 跨平台免费开源系统清理工具,Windows / macOS / Linux
+- [RogueCleaner](tool-roguecleaner.md) — `Tool` — Windows 流氓软件残留清理,右键菜单 / 启动 / 服务 / 计划任务 / 浏览器插件 / 文件关联
+- [OpenBrowser](tool-openbrowser.md) — `Tool` — 本地桌面指纹浏览器,隔离 Chromium 环境管多账号 + RPA
+
+### 幻灯片 / 演示
+- [Bento](tool-bento-slides.md) — `Tool` — 单 HTML 文件演示文稿,数据明文 JSON 存头部,Agent 可直接编辑
+- [build-plan](tool-build-plan-html.md) — `Tool` — 把技术方案 / Build Plan 一键转可打开 HTML 页,带侧栏导航 + 内联 SVG + 多语言
+
+### 前端 / 设计资源
+- [thinking-orbs](tool-thinking-orbs.md) — `Tool` — AI / Agent 界面用 React 思考球加载动画,六种状态 + 两种尺寸 + 自动暗亮主题
+
+### 视频 / 影像
+- [Pireel](tool-pireel.md) — `Tool` — 浏览器内口播视频剪辑 + 字幕 + 主题,暴露 MCP 接口让 AI Agent 调用
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 "开枪啊我教过你的" + 视频 — 短语 + 短视频,无可提取的工具 / 概念 / 项目信息,按「质量门槛」跳过
+- QingQ77 "第一个手绘 GIF 的" + 视频 — 短语 + 短视频,无可提取信息,按「质量门槛」跳过
+- QingQ77 "尊重每一个平凡生命" + 视频 — 短语 + 短视频,无工具 / 概念 / 项目信息,按「质量门槛」跳过
+- QingQ77 "赛博义眼👀" + 视频 — 短语 + 短视频,无工具 / 概念 / 项目信息,按「质量门槛」跳过
+- QingQ77 gc-minimal-zine-poster / LiamGvchi — 该工具已于 2026-07-22 批处理建过完整概念文件并保留三张示例图,本次 RT 无新增信息,按「概念已存在且资料无新增信息」走「复核,无变更」分支
+- Wen_Zw RT @sonofmagic95 "以后我住酒店就住希尔顿了😁😁😁😁" — 一句调侃 + GitHub Issue 链接(weapp-vite),无任何关于 weapp-vite 项目本身的描述 / 截图 / 关键功能信息,按「说不清理由就别链」原则跳过
+- 断链工单 (_broken-links.md) — tool-react-bench.md:29 的 `./tool-spa-pdf-viewer.md` 链接实际已被 2026-07-21 批处理时改为纯文本「Sketchpad MCP（仅同名相关,非同类工具,跳过链接）」,工单存档为已处理版本移到 _done/

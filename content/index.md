@@ -934,3 +934,32 @@ timestamp: "2026-06-26T16:50:00Z"
 - [vox-director](concepts/tool-vox-director.md) — 一句话全自动出片的 6 步流水线,拼贴海报 + 动效 + ffmpeg
 - [video-shotcraft](concepts/tool-video-shotcraft.md) — Claude Code / Codex 用的「导演」Skill,106 镜头卡 + 162 动效样式 + 161 样片
 - [Motionly](concepts/tool-motionly.md) — AI 驱动动效编辑器,AI 出 .motion 初稿 + 人手工精修时间轴
+
+## 本批新增（2026-07-23）
+
+### AI / Agent 生态 / 多代理协作（本批新增）
+- [Harnss](concepts/tool-harnss.md) — 跨平台桌面软件,把 Claude Code / Codex / ACP 兼容的编程代理整合到同一个窗口
+- [ThreadBeacon](concepts/tool-codex-threadbeacon.md) — Windows 原生小窗,实时显示 Codex 主任务状态 + 异常检测 + 自动续接
+- [LLM Fingerprint Detector](concepts/tool-llm-fingerprint-detector.md) — 给 OpenAI 兼容 API 实际跑的 LLM 打行为指纹,识别模型替换 / 静态度量量化等代理欺骗
+- [Inferock Bench](concepts/tool-inferock-bench.md) — 本地代理拦 LLM API 调用流量,独立记账「花了多少 / 失败几个 / 失败还被收费几个」
+
+### 终端 / 系统 / 网络（本批新增）
+- [CmdBox](concepts/tool-cmdbox.md) — 带别名 / 变量 / 标签的命令存储 + 快速执行工具,告别 shell 历史翻找
+- [SpookiUI](concepts/tool-spookiui.md) — Ghostty 终端配置 TUI,改完自动写回 + 验证 + 触发重载
+- [Haoleme](concepts/tool-haoleme.md) — `hao` 启动命令,手机 App 监控电脑 / 服务器命令运行状态
+
+### 桌面 / 系统工具（本批新增）
+- [study-desk](concepts/tool-study-desk.md) — Windows 桌面「一站式学习中心」,课表 + 番茄钟 + 备忘录 + 倒数日 + 资料库 + 健康提醒
+- [Kudu](concepts/tool-kudu-cleaner.md) — 跨平台免费开源系统清理工具,Windows / macOS / Linux
+- [RogueCleaner](concepts/tool-roguecleaner.md) — Windows 流氓软件残留清理,右键菜单 / 启动 / 服务 / 计划任务 / 浏览器插件 / 文件关联
+- [OpenBrowser](concepts/tool-openbrowser.md) — 本地桌面指纹浏览器,隔离 Chromium 环境管多账号 + RPA
+
+### 幻灯片 / 演示（本批新增）
+- [Bento](concepts/tool-bento-slides.md) — 单 HTML 文件演示文稿,数据明文 JSON 存头部,Agent 可直接编辑
+- [build-plan](concepts/tool-build-plan-html.md) — 把技术方案 / Build Plan 一键转可打开 HTML 页,带侧栏导航 + 内联 SVG + 多语言
+
+### 前端 / 设计资源（本批新增）
+- [thinking-orbs](concepts/tool-thinking-orbs.md) — AI / Agent 界面用 React 思考球加载动画,六种状态 + 两种尺寸 + 自动暗亮主题
+
+### 视频 / 影像（本批新增）
+- [Pireel](concepts/tool-pireel.md) — 浏览器内口播视频剪辑 + 字幕 + 主题,暴露 MCP 接口让 AI Agent 调用
