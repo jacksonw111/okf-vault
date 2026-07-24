@@ -963,3 +963,43 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 视频 / 影像（本批新增）
 - [Pireel](concepts/tool-pireel.md) — 浏览器内口播视频剪辑 + 字幕 + 主题,暴露 MCP 接口让 AI Agent 调用
+
+## 本批新增（2026-07-24）
+
+### AI / Agent 生态（本批新增）
+- [CodexPetdexSkins](concepts/tool-codex-petdex-skins.md) — Codex 桌面端一站式换装工具,主题 / 皮肤 / 壁纸 / 宠物 / 搭配通过本机 CDP 注入,不改 ASAR/MSIX
+- [codex-slides](concepts/tool-codex-slides.md) — 给 Codex 编程代理用的开源幻灯片工作室,跑在 Codex 内置浏览器里,45 套模板 + 73 套社区风格 + 24 种场景化工作流
+- [coding-tools-mcp](concepts/tool-coding-tools-mcp.md) — Rust + Tauri 2 桌面 MCP 编程工作台,会话检查点写到 docs/history-session/,新对话调 history_session_bootstrap 自动续接
+- [guidebridge](concepts/tool-guidebridge.md) — Python AI 代理操控 React 页面的桥,实时 DOM + 光标动作,不依赖截图与视觉模型
+
+### 后端 / DevOps / 代码审查（本批新增）
+- [yunxiao-mr-review-step](concepts/tool-yunxiao-mr-review-step.md) — 阿里云云效 Flow 流水线接入的 AI 自动评审 Codeup 合并请求步骤,模型输出转行级评论 + 飞书报告
+
+### 数据库（本批新增）
+- [libredb-studio](concepts/tool-libredb-studio.md) — 开源 AI 驱动 Web SQL IDE,PostgreSQL / MySQL / SQLite / MongoDB,浏览器打开即用
+
+### 内容创作 / 写作辅助（本批新增）
+- [no-ai-slop](concepts/tool-no-ai-slop.md) — 去 AI 套话味儿扫描器,识别 20+ 种 AI 常见句式（不是 A 而是 B / 冒号披露 / 虚词中心 / 同义词轮换等）
+- [ticket-agent](concepts/tool-ticket-agent.md) — 黄牛票截图自动解析与比价,OCR + 加价倍数 + 价格波动,每个数字可点回原图
+
+### 移动 / 嵌入式渲染（本批新增）
+- [chronos](concepts/tool-chronos-kit.md) — App 内嵌 2D/3D 渲染与小游戏宿主方案,.cron 包 + 消息通道 RPC,已在 B 站弹幕与跨年晚会互动音游落地
+
+### React Native / 移动 UI（本批新增）
+- [expo-glass-tabs](concepts/tool-expo-glass-tabs.md) — Expo Router 毛玻璃底部标签栏组件,滚动缩小但不隐藏图标
+
+### 桌面 / 系统工具（本批新增）
+- [lan-file-transfer](concepts/tool-lan-file-transfer.md) — Windows 桌面文件共享工具,Tkinter + FastAPI + 三层权限 + 审计日志
+- [pdfdown](concepts/tool-pdfdown.md) — 浏览器内本地 PDF → Markdown,全程不经过服务器
+
+### 数据源 / MCP（本批新增）
+- [douyin-mcp](concepts/tool-douyin-mcp.md) — 抖音创作者中心 MCP 数据桥,页面指标 + 视频文案结构化,AI 内容复盘友好
+
+### 阅读 / 资源（本批新增）
+- [yt-channels-DS-AI-ML-CS](concepts/tool-yt-channels-ds-ai-ml-cs.md) — 180+ 精选 YouTube 数据 / AI / CS 频道清单,按主题分类
+
+### 时间线 / 世界构建（本批新增）
+- [sreegjl/timelines](concepts/tool-sreegjl-timelines.md) — 免费开源本地优先时间线创建工具,面向世界构建与历史研究的交互式可视化
+
+### 更新（Updated）
+- [Network Doctor](concepts/tool-network-doctor.md) — 补充「依赖图顺序（网卡 → TCP 出口 → DNS → TCP → TLS → HTTP）+ 双模式（目标地址 / 仅本地）」最新特性

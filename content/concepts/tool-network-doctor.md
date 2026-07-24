@@ -1,10 +1,10 @@
 ---
 type: Tool
 title: "Network Doctor（TUI 网络诊断链）"
-description: "终端 TUI 网络诊断工具：自动依次跑完 ping / dig / curl / traceroute 一整套链路检查，把原始输出拼成「哪里断了、为什么、怎么修」的结论。"
+description: "终端 TUI 网络诊断工具：自动按依赖图顺序依次跑完网卡 / TCP 出口 / DNS / TCP 连接 / TLS 握手 / HTTP/HTTPS 响应整套链路检查,既可指定目标地址也可只做本地诊断,把原始输出拼成「哪里断了、为什么、怎么修」的结论。"
 resource: "https://github.com/heymaikol/network-doctor"
 tags: [tui, network, diagnostics, terminal, rust]
-timestamp: "2026-07-21T07:56:00Z"
+timestamp: "2026-07-24T00:00:00Z"
 ---
 
 # Network Doctor（TUI 网络诊断链）
@@ -20,10 +20,12 @@ timestamp: "2026-07-21T07:56:00Z"
 ## 关键能力
 | 能力 | 说明 |
 |------|------|
-| 一键诊断 | 自动按顺序跑 ping / dig / curl / traceroute |
+| 依赖图诊断 | 自动按链路顺序跑网卡 → TCP 出口 → DNS → TCP 连接 → TLS 握手 → HTTP/HTTPS 响应 |
+| 双模式 | 支持输入目标地址做端到端检测,也可只跑本地链路 |
+| 一键诊断 | 无需手动决定先 dig 还是先 traceroute,工具按合理顺序跑 |
 | TUI 界面 | 全终端操作，远程 SSH 也能用 |
 | 结论导向 | 不只贴原始输出，直接给出「断在哪、为什么、怎么修」 |
-| 链式定位 | DNS / 路由 / 端到端逐段判定 |
+| 链式定位 | DNS / 路由 / TLS / 端到端逐段判定 |
 | 轻量 | 单进程、单二进制 |
 
 ## 相关概念
