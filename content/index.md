@@ -1003,3 +1003,24 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 更新（Updated）
 - [Network Doctor](concepts/tool-network-doctor.md) — 补充「依赖图顺序（网卡 → TCP 出口 → DNS → TCP → TLS → HTTP）+ 双模式（目标地址 / 仅本地）」最新特性
+
+## 本批新增（2026-07-25）
+
+- [Pigma](concepts/tool-pigma.md) — Rust + Ratatui 构建的终端音乐播放器，支持网易云与本地音乐，并提供歌词高亮和 YouTube 音源回退。
+- [LogiTux](concepts/tool-logitux.md) — 面向 Linux 的原生 Logitech 外设配置工具，可管理 DPI、灯光、耳机均衡与摄像头参数。
+- [Filester](concepts/tool-filester.md) — 面向 Android 的临时云存储工具，强调免账号、无广告与隐私优先。
+- [Dapr Dev Dashboard](concepts/tool-dapr-dev-dashboard.md) — 面向 Dapr 本地开发的仪表盘，可实时查看运行状态并交互式生成组件与弹性策略。
+- [CipherMoth](concepts/tool-ciphermoth.md) — 自托管密码管理器，采用 Argon2id 派生、Fernet 加密与 PostgreSQL 存储，并将解密密钥限制在浏览器会话内。
+- [pgapp](concepts/tool-pgapp.md) — 用纯文本 .pgapp 文件描述应用，并由 PostgreSQL 自动建表和生成交互式 HTML 的应用构建工具。
+- [LiveMarkDownEditor](concepts/tool-livemarkdown-editor.md) — 基于 .NET 10 WPF 的 Windows 所见即所得 Markdown 编辑器，底层文件始终保持纯 Markdown。
+- [keepIT](concepts/tool-keepit-notes.md) — 支持多人共享、实时同步、搜索和提醒的自托管笔记系统，配套 Android 应用、桌面小部件与离线能力。
+- [netmon](concepts/tool-netmon-ai-telegram.md) — 自托管网络监控工具，通过定时测速与 ARP 扫描采集状态，并生成分析后推送到 Telegram。
+- [RoamRadar](concepts/tool-roamradar.md) — 部署在 Cloudflare Workers 上的个人旅行 PWA，可自动导入行程并集中提供目的地实用信息。
+- [QueryForge](concepts/tool-queryforge.md) — 把自然语言转换为可审计 SQL 的数据查询工具，通过语义层与策略治理约束生成结果。
+- [elements-release](concepts/tool-elements-release.md) — 基于 Unlayer Elements 的更新日志邮件模板，可从一个数据文件生成邮件、网页、纯文本和编辑器 JSON。
+- [no-slop-zh](concepts/tool-no-slop-zh.md) — 用于 Claude Code 与 Codex 的中文文本清理 Skill，在锁定事实与术语的前提下削弱 AI 套话。
+- [sshbox](concepts/tool-sshbox.md) — Go 单二进制 SSH 跳板工具，为每个会话启动受限 Alpine 容器并在断线后销毁。
+- [InkOS](concepts/tool-inkos.md) — 面向电子墨水屏的内容系统，在服务端抓取并重排网页内容，设备端只接收页面帧与点击区域。
+- [面向 Kotlin 开发者的 Rust 学习路径](concepts/note-rust-for-kotlin-devs.md) — 通过 Kotlin 与 Rust 对照示例学习所有权、错误处理、trait、生命周期、异步与并发。
+- [PiTTy](concepts/tool-pitty.md) — 基于 TypeScript 与 OpenTUI 的 Pi 终端界面，强化对话滚动、折叠信息、子代理控制与任务管理。
+- [Cloudflare Trace API](concepts/tool-cloudflare-trace-api.md) — Cloudflare 提供的免注册访客网络信息端点，可返回 IP、国家代码和接入数据中心代码。
