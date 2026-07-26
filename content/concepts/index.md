@@ -1085,3 +1085,36 @@ timestamp: "2026-06-26T16:50:00Z"
 - [面向 Kotlin 开发者的 Rust 学习路径](./note-rust-for-kotlin-devs.md) — 通过 Kotlin 与 Rust 对照示例学习所有权、错误处理、trait、生命周期、异步与并发。
 - [PiTTy](./tool-pitty.md) — 基于 TypeScript 与 OpenTUI 的 Pi 终端界面，强化对话滚动、折叠信息、子代理控制与任务管理。
 - [Cloudflare Trace API](./tool-cloudflare-trace-api.md) — Cloudflare 提供的免注册访客网络信息端点，可返回 IP、国家代码和接入数据中心代码。
+
+## 本批新增（2026-07-26）
+
+### AI / Agent 生态
+- [Penguin Harness](tool-penguin-harness.md) — `Tool` — 开源 AI 代理构建框架,代理自动创建/优化其他代理,内置办公/开发/AI 应用/代理调优四大类技能
+- [harness-remote](tool-harness-remote.md) — `Tool` — 手机端控制 OpenCode / Oh My Pi 等 AI 编程助手的远程遥控应用
+- [opencode-fusion](tool-opencode-fusion.md) — `Tool` — OpenCode 多模型协作:主代理只规划/审查(权限层禁掉编辑工具),改代码强制路由给便宜副手
+- [pi-extensible-workflows](tool-pi-extensible-workflows.md) — `Tool` — Pi 终端 AI 助手的确定性多代理工作流编排,支持并行派发/审批暂停/断点恢复
+
+### 桌面 / 系统工具
+- [Sonor](tool-sonor.md) — `Tool` — macOS 原生本地语音转文字,whisper.cpp + Apple Silicon Metal,数据不出设备
+- [EnvNexus-AI](tool-envnexus-ai.md) — `Tool` — Rust + Tauri 2 的 Windows 桌面多语言 SDK 多版本管理 GUI
+- [personal-os-setup](tool-personal-os-setup.md) — `Tool` — 一行命令在 Windows/Linux/macOS/WSL2/Google TV 搭一致开发环境
+- [xiaoyun-translator](tool-xiaoyun-translator.md) — `Tool` — Windows 桌面划词翻译 + 公式 OCR + 本地 AI 文献阅读整合
+- [OpenSurge for Mac](tool-opensurge-mac.md) — `Tool` — 把 Mac 变全屋透明代理网关,设备端零配置,按设备粒度选代理/直连
+
+### 后端 / DevOps / 运维
+- [Pagerlite](tool-pagerlite.md) — `Tool` — 轻量自托管的 Laravel 值班(on-call)与告警分派系统
+- [SICK](tool-sick.md) — `Tool` — Linux 服务器运维脚本集,硬件检测 + 全球 23 节点 iperf3 + Geekbench 5/6/7
+- [Storage UI](tool-storageui.md) — `Tool` — 自托管 S3/Cloudflare R2 文件浏览器,四种视图 + 搜索/筛选/排序
+- [AgentAcct](tool-agentacct.md) — `Tool` — 读 Claude Code/Codex 本地会话日志展示 token 用量 + 费用 + 任务仪表盘
+
+### 金融 / 量化
+- [ETF Grid Design](tool-etf-grid-design.md) — `Tool` — Python Flask + React 的 ETF 网格交易参数生成器,基于 tushare/akshare 历史行情
+
+### Generative UI / Chat 界面
+- [ChatHTML](tool-chathtml.md) — `Tool` — 把 LLM 输出 HTML 流式渲染到沙箱 iframe,带选择编辑/重生成/截图修复/导出
+- [Conversed](tool-conversed.md) — `Tool` — TypeScript 组件库(React+Angular),把 LLM 回复解析为 16 种可交互 UI 组件
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「事情正在起变化」+ 视频 — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
+- QingQ77「哈哈哈」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
+- QingQ77「好玩～」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
