@@ -3,7 +3,7 @@ type: Index
 title: "概念目录"
 description: "本 OKF bundle 内所有概念文件的导航页。"
 tags: "[okf, index]"
-timestamp: "2026-06-26T16:50:00Z"
+timestamp: "2026-07-27T20:30:00Z"
 ---
 
 # 概念目录
@@ -1118,3 +1118,34 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「事情正在起变化」+ 视频 — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
 - QingQ77「哈哈哈」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
 - QingQ77「好玩～」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
+
+## 本批新增（2026-07-27）
+
+### AI / Agent 生态
+- [Azure Skills Plugin](tool-azure-skills.md) — `Tool` — 微软官方 AI 代理插件,Azure 工作流技能(200+ MCP 工具覆盖 40+ 服务)
+- [rulesify](tool-rulesify.md) — `Tool` — Rust 写的 AI 技能一键安装器,50+ 技能可装到 Claude Code/Codex/Cursor
+- [Limboo](tool-limboo.md) — `Tool` — 给多 AI 编程代理提供统一安全隔离工作区的本地桌面应用
+- [Creator Distiller](tool-creator-distiller.md) — `Tool` — 把博主多平台内容抓下来转带标点文字稿,喂本地大模型当知识库
+- [Awesome Long-Horizon Agents](tool-awesome-long-horizon-agents.md) — `Tool` — 人大 NLPIR 长程代理论文清单(H1/H2/H3,harness/模型双分类)
+
+### 桌面 / 系统工具
+- [Logue](tool-logue.md) — `Tool` — macOS 原生本地 AI 会议笔记+写作,MLX 跑 Apple Silicon 离线优先
+- [cxgpu](tool-cxgpu.md) — `Tool` — 终端 GPU 监控同时支持 NVIDIA + AMD,可发 SIGTERM/SIGKILL
+- [HeartRateMonitor-composeui](tool-heart-rate-monitor-composeui.md) — `Tool` — BLE 心率 Android 客户端,Material 3 + Compose + 图表导出
+
+### 自托管 / 安全
+- [TeamPass](tool-teampass.md) — `Tool` — 自托管 PHP+MySQL 团队密码管理器,LAMP/Docker 都能装
+- [Test Address Generator](tool-test-address-generator.md) — `Tool` — 基于 OSM 自托管地址/坐标生成器,27 国可用
+
+### 媒体 / 编解码
+- [Microsoft MLVC](tool-microsoft-mlvc.md) — `Tool` — 微软开源 ML 视频编解码器,360p@30 同画质码率仅 H.264 的 1/8
+
+### 前端 / 设计资源
+- [Goose Hyper Glass](tool-goose-hyper-glass.md) — `Tool` — WebGL 液态玻璃 UI 组件库,Custom Elements 实现零框架依赖
+
+### Obsidian 生态
+- [Vault Activity Heatmap](tool-vault-activity-heatmap.md) — `Tool` — Obsidian 笔记库 GitHub 风格写作热力图仪表盘
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 2081742408468087230 — 标题/描述空白,仅一张图无文本说明,无可提取信息,按「质量门槛」跳过
+- QingQ77「第一笔就惊艳到我」+ 视频 — 纯情绪反应,无信息量,按「质量门槛」跳过
