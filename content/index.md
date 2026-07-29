@@ -1057,3 +1057,54 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「事情正在起变化」+ 视频 — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
 - QingQ77「哈哈哈」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
 - QingQ77「好玩～」+ 视频 — 纯情绪反应类,无信息量,按「质量门槛」跳过
+
+## 本批新增（2026-07-29）
+
+### AI / Agent 生态 / 编排
+- [Cloudflare Durable Objects Agent 运行时](concepts/tool-cloudflare-durable-objects-agent.md) — Durable Objects 跑 agent / 文件系统 + R2 存大文件 + Artifacts 管 git + pi 做 harness + Code Mode 写 JS
+- [AxisAgentic](concepts/tool-axis-agentic.md) — 给 Agent 每次执行做不可篡改的运行记录,回放 / 评测 / 训练数据导出同一份
+- [BanyanCode](concepts/tool-banyan-code.md) — 终端 AI 编程多代理编排,OpenCode + Effect + TypeScript
+- [Factory (Agent Runtime)](concepts/tool-factory-agent.md) — 让编码 Agent 在仓库上自动持续工作
+- [Metis (Coding Layer)](concepts/tool-metis-coding-layer.md) — 编程模型外层包装,改前查资料 + 改后验证
+- [Spec-Superflow](concepts/tool-spec-superflow.md) — AI 编码规划 → 实现硬闸,先想清楚再动手
+- [AnythingAtlas](concepts/tool-anything-atlas.md) — Agent 里的结构化学习地图生成器
+
+### 持久化记忆 / 沙箱 / 授权
+- [OptMem](concepts/tool-optmem.md) — 426 token prompt + 脚本极简跨会话记忆
+- [Zestmem](concepts/tool-zestmem.md) — Go 写,多 Agent 跨会话分布式持久化记忆,MCP 两个工具 remember / recall
+- [Dormice](concepts/tool-dormice.md) — 本地冷冻沙箱,空闲自动 freeze,50ms 恢复
+- [CyVisGuard](concepts/tool-cyvisguard.md) — Agent 工具调用授权层,zero-trust 风格
+
+### Claude / Codex 桌面增强
+- [ClaudeDesktopPlusPlus](concepts/tool-claude-desktop-plus-plus.md) — Claude Desktop 功能增强套件,cc-switch + 第三方 API + 插件管理 + 汉化
+- [WinUI4K](concepts/tool-winui4k.md) — Kotlin / Java 直接调 WinUI,不用改 C#
+
+### 视频 / 长视频处理 / 视频笔记
+- [Timecode-Agent](concepts/tool-timecode-agent.md) — 长视频带时间戳证据账本,转录优先
+- [Bilibili Video Notes Skill](concepts/tool-bilibili-video-notes-skill.md) — B 站视频链接 → 带截图 DOCX 笔记
+
+### 后端 / 部署 / 网络 / 搜索
+- [RatholeEngine](concepts/tool-rathole-engine.md) — rathole + Nginx 多地点反向隧道编排
+- [Xerj](concepts/tool-xerj.md) — Rust 从头实现的统一 AI 搜索引擎(全文 + 向量 + Agent 记忆),兼容 ES
+- [raft-kv-engine-project](concepts/tool-raft-kv-engine.md) — Rust 实现的线性化复制 KV(LSM + 无 IO Raft + FoundationDB 风格模拟器)
+- [CodeGo API](concepts/tool-codego-api.md) — Go 写,控制面 / 数据面分离,OpenAI 兼容多 provider
+
+### 终端 / TUI
+- [ArchWiki TUI](concepts/tool-archwiki-tui.md) — Go 写的终端 Arch Wiki 浏览器,TTY 修引导参数时直查
+
+### 桌面应用 / 移动 / Wayland
+- [Comail](concepts/tool-comail.md) — Tauri 2 键盘流桌面邮件客户端,Gmail/M365/IMAP + 本地 SQLite + 语义搜索
+- [Habo](concepts/tool-habo.md) — Flutter 习惯追踪应用,端到端加密同步
+- [Denial (Wayland Compositor)](concepts/tool-denial-wayland.md) — Flutter 做桌面图形层的 Wayland 合成器
+
+### 写作 / 学习 / 学术 / 仿真
+- [Scientific Illustrator](concepts/tool-scientific-illustrator-skill.md) — Codex 插件,把 AI 画的科研插图做成 PowerPoint / draw 可编辑对象
+- [Inklish](concepts/tool-inklish.md) — 在真实写作场景(邮件 / Slack / GitHub Issues 等)中练习英语
+- [Voxa](concepts/tool-voxa.md) — iPhone 语音远程指挥 AI 编程代理,任务完成自动回拨
+- [FDA Endpoint Atlas](concepts/tool-fda-endpoint-atlas.md) — 161 适应症 / 15 治疗领域,跟踪 FDA 主要终点变化,Whitespace Explorer 综合打分
+- [uavsim](concepts/tool-uavsim.md) — 本地四旋翼飞控仿真,LQR / PID / NDI 三种控制律
+
+### 内容生产 / 长篇写作
+- [OpenFic](concepts/tool-openfic.md) — Agent + RAG 驱动的长篇小说写作工具,百万字级上下文
+- [Hammer (Story Editor)](concepts/tool-hammer-story-editor.md) — Kotlin 本地优先跨平台故事编辑器,数据纯文件
+- [Self-Media Content Workflow](concepts/tool-self-media-content-workflow.md) — 自媒体全流程 9 Skill 套件,5 强制确认点防未授权发布

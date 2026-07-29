@@ -1149,3 +1149,67 @@ timestamp: "2026-07-27T20:30:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - QingQ77 2081742408468087230 — 标题/描述空白,仅一张图无文本说明,无可提取信息,按「质量门槛」跳过
 - QingQ77「第一笔就惊艳到我」+ 视频 — 纯情绪反应,无信息量,按「质量门槛」跳过
+
+## 本批新增（2026-07-29）
+
+### AI / Agent 生态
+- [Cloudflare Durable Objects Agent 运行时](./concepts/tool-cloudflare-durable-objects-agent.md) — `Tool` — Durable Objects 跑 agent / 文件系统 + R2 存大文件 + Artifacts 管 git + pi 做 harness + Code Mode 写 JS
+- [AxisAgentic](./concepts/tool-axis-agentic.md) — `Tool` — 给 Agent 每次执行做不可篡改的运行记录,回放 / 评测 / 训练数据导出同一份
+- [OptMem](./concepts/tool-optmem.md) — `Tool` — 426 token prompt + 脚本极简跨会话记忆
+- [Zestmem](./concepts/tool-zestmem.md) — `Tool` — Go 写,多 Agent 跨会话分布式持久化记忆,MCP 两个工具 remember / recall
+- [BanyanCode](./concepts/tool-banyan-code.md) — `Tool` — 终端 AI 编程多代理编排,OpenCode + Effect + TypeScript
+- [Factory (Agent Runtime)](./concepts/tool-factory-agent.md) — `Tool` — 让编码 Agent 在仓库上自动持续工作
+- [CyVisGuard](./concepts/tool-cyvisguard.md) — `Tool` — Agent 工具调用授权层,zero-trust 风格
+- [Metis (Coding Layer)](./concepts/tool-metis-coding-layer.md) — `Tool` — 编程模型外层包装,改前查资料 + 改后验证
+- [Spec-Superflow](./concepts/tool-spec-superflow.md) — `Tool` — AI 编码规划 → 实现硬闸,先想清楚再动手
+- [AnythingAtlas](./concepts/tool-anything-atlas.md) — `Tool` — Agent 里的结构化学习地图生成器
+
+### Claude / Codex 桌面增强
+- [ClaudeDesktopPlusPlus](./concepts/tool-claude-desktop-plus-plus.md) — `Tool` — Claude Desktop 功能增强套件,cc-switch + 第三方 API + 插件管理 + 汉化
+- [WinUI4K](./concepts/tool-winui4k.md) — `Tool` — Kotlin / Java 直接调 WinUI,不用改 C#
+
+### 视频 / 长视频处理
+- [Timecode-Agent](./concepts/tool-timecode-agent.md) — `Tool` — 长视频带时间戳证据账本,转录优先
+- [Bilibili Video Notes Skill](./concepts/tool-bilibili-video-notes-skill.md) — `Tool` — B 站视频链接 → 带截图 DOCX 笔记
+
+### 后端 / 部署 / 网络
+- [RatholeEngine](./concepts/tool-rathole-engine.md) — `Tool` — rathole + Nginx 多地点反向隧道编排
+- [Xerj](./concepts/tool-xerj.md) — `Tool` — Rust 从头实现的统一 AI 搜索引擎(全文 + 向量 + Agent 记忆),兼容 ES
+- [raft-kv-engine-project](./concepts/tool-raft-kv-engine.md) — `Tool` — Rust 实现的线性化复制 KV(LSM + 无 IO Raft + FoundationDB 风格模拟器)
+
+### 终端 / TUI
+- [ArchWiki TUI](./concepts/tool-archwiki-tui.md) — `Tool` — Go 写的终端 Arch Wiki 浏览器,TTY 修引导参数时直查
+
+### 桌面应用 / 移动
+- [Comail](./concepts/tool-comail.md) — `Tool` — Tauri 2 键盘流桌面邮件客户端,Gmail/M365/IMAP + 本地 SQLite + 语义搜索
+- [Habo](./concepts/tool-habo.md) — `Tool` — Flutter 习惯追踪应用,端到端加密同步
+- [Denial (Wayland Compositor)](./concepts/tool-denial-wayland.md) — `Tool` — Flutter 做桌面图形层的 Wayland 合成器
+
+### 编程 / 学习 / 写作
+- [Scientific Illustrator](./concepts/tool-scientific-illustrator-skill.md) — `Tool` — Codex 插件,把 AI 画的科研插图做成 PowerPoint / draw 可编辑对象
+- [Inklish](./concepts/tool-inklish.md) — `Tool` — 在真实写作场景(邮件 / Slack / GitHub Issues 等)中练习英语
+- [Voxa](./concepts/tool-voxa.md) — `Tool` — iPhone 语音远程指挥 AI 编程代理,任务完成自动回拨
+- [FDA Endpoint Atlas](./concepts/tool-fda-endpoint-atlas.md) — `Tool` — 161 适应症 / 15 治疗领域,跟踪 FDA 主要终点变化,Whitespace Explorer 综合打分
+
+### 内容生产 / 写作 / 学术
+- [Dormice](./concepts/tool-dormice.md) — `Tool` — 本地冷冻沙箱,空闲自动 freeze,50ms 恢复
+- [OpenFic](./concepts/tool-openfic.md) — `Tool` — Agent + RAG 驱动的长篇小说写作工具,百万字级上下文
+- [Hammer (Story Editor)](./concepts/tool-hammer-story-editor.md) — `Tool` — Kotlin 本地优先跨平台故事编辑器,数据纯文件
+- [Self-Media Content Workflow](./concepts/tool-self-media-content-workflow.md) — `Tool` — 自媒体全流程 9 Skill 套件,5 强制确认点防未授权发布
+
+### API 网关 / LLM 代理
+- [CodeGo API](./concepts/tool-codego-api.md) — `Tool` — Go 写,控制面 / 数据面分离,OpenAI 兼容多 provider
+
+### 仿真 / 系统学习
+- [uavsim](./concepts/tool-uavsim.md) — `Tool` — 本地四旋翼飞控仿真,LQR / PID / NDI 三种控制律
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @samakov0 Animated icon pack (2082078035533308363) — 仅一个设计资源站链接 + 视频,无通用工具 / 概念信息,按「质量门槛」跳过
+- QingQ77「这虫子太厉害了 还吃冰淇淋🤣」+ 视频 (2082091703813738517) — 纯情绪反应短视频,按「质量门槛」跳过
+- QingQ77「有点像杨幂」+ 视频 (2081961165970985054) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「这个好玩 三维跟二维互动」+ 视频 (2082125533157183752) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「看你们还打不打」+ 视频 (2082470403721805949) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「这很酷😍」+ 视频 (2082006893434913203) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「可爱的航模」+ 视频 (2081980341225746539) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「看得出是真喜欢」+ 视频 (2082386287315804492) — 短语 + 短视频,按「质量门槛」跳过
+- QingQ77「学到了,反色特效精准挑选白头发」+ 视频 (2081996754422268284) — 短语 + 短视频,按「质量门槛」跳过
