@@ -1108,3 +1108,45 @@ timestamp: "2026-06-26T16:50:00Z"
 - [OpenFic](concepts/tool-openfic.md) — Agent + RAG 驱动的长篇小说写作工具,百万字级上下文
 - [Hammer (Story Editor)](concepts/tool-hammer-story-editor.md) — Kotlin 本地优先跨平台故事编辑器,数据纯文件
 - [Self-Media Content Workflow](concepts/tool-self-media-content-workflow.md) — 自媒体全流程 9 Skill 套件,5 强制确认点防未授权发布
+
+## 本批新增（2026-07-30）
+
+### AI / Agent 生态
+- [pi-tbox](concepts/tool-pi-tbox.md) — Pi 扩展工具开关面板，集中列出 / 分组开关 / 自定义工作流 / 跨会话持久
+- [Nerve](concepts/tool-nerve-desktop-coding.md) — 本地优先桌面编码工具集，消息流 + 工具调用 + 审批 + 计划全暴露
+- [openclaude-improved](concepts/tool-openclaude-improved.md) — TypeScript 写，OpenAI / Ollama / Gemini / Bedrock 等十几家 AI 后端可切换
+
+### 终端 / TUI
+- [hop](concepts/tool-hop-ssh-tui.md) — Go 写的终端 SSH 多服务器切换 TUI，内置 SSH + VT 模拟器
+- [Ghostty Warp Shader](concepts/tool-ghostty-warp-shader.md) — Ghostty 终端星轨加速 GLSL shader，单文件即用
+
+### 桌面 / 系统工具
+- [PixShell](concepts/tool-pixshell.md) — 跨平台原生 SSH/SFTP 客户端（macOS Swift + Windows WPF，非 Electron）
+- [Tinycast](concepts/tool-tinycast.md) — macOS 原生轻量启动器 + 剪贴板历史（3 MB / <100 MB 内存）
+- [GodotHub](concepts/tool-godothub.md) — Godot 引擎的 Unity Hub 风格项目管理器
+- [VS Code Fork / WSL 跨语言桌面 UI 思路](concepts/tool-vscode-fork.md) — VS Code 跨语言 / 跨平台桌面 UI 工程范式（Electron + WebView + LSP/DAP + WSL 桥接）
+
+### 视频 / 多媒体
+- [Rescript](concepts/tool-rescript-video-editor.md) — 浏览器视频编辑器，改字幕 = 剪视频，文件不出本机
+- [Open AI Canvas / 影策](concepts/tool-open-ai-canvas.md) — AI 影视无限画布工作台，文字 / 图片 / 视频 / 音频 + 分镜 + 角色卡
+
+### 本地 LLM / Agent
+- [Local-Hermes-Portable](concepts/tool-local-hermes-portable.md) — llama.cpp + Hermes Agent 跨平台便携包，双击即跑
+
+### 搜索 / 聚合 / 推送
+- [NeoSearch](concepts/tool-neosearch.md) — C# 写的去广告去追踪 AI 搜索引擎，多视角分组
+- [TrendRadar](concepts/tool-trendradar.md) — 多平台热榜聚合 + 关键词过滤 + 10+ 推送通道，30 秒 fork 部署
+- [Streamflix](concepts/tool-streamflix.md) — Android TV / 手机流媒体聚合客户端
+- [hark](concepts/tool-hark-webhook-push.md) — 任意 webhook 转带来源标识的 iPhone 推送通知
+
+### 编辑器 / 写作
+- [neocursor.nvim](concepts/tool-neocursor-nvim.md) — Neovim 插件读 Cursor 私有 API 拿 ghost text 补全
+- [grammar-lol](concepts/tool-grammar-lol.md) — 桌面任意应用内 AI 语法校正（双 Right Shift 触发）
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「超梦？」+ 视频 (2082823150270927199) — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
+
+### 更新（Updated）
+- [Metis / Coding Layer](concepts/tool-metis-coding-layer.md) — 修正引用：tool-factory-agent / tool-spec-superflow 中断链改回指此（已有概念，未新建）
+- [Factory](concepts/tool-factory-agent.md) — 同步修正 Metis 链接
+- [Spec-Superflow](concepts/tool-spec-superflow.md) — 同步修正 Metis 链接

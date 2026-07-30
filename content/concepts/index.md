@@ -1212,4 +1212,52 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「这很酷😍」+ 视频 (2082006893434913203) — 短语 + 短视频,按「质量门槛」跳过
 - QingQ77「可爱的航模」+ 视频 (2081980341225746539) — 短语 + 短视频,按「质量门槛」跳过
 - QingQ77「看得出是真喜欢」+ 视频 (2082386287315804492) — 短语 + 短视频,按「质量门槛」跳过
+
+## 本批新增（2026-07-30 断链修复）
+
+### 桌面 / 系统工具
+- [VS Code Fork / WSL 跨语言桌面 UI 思路](./tool-vscode-fork.md) — `Tool` — VS Code 跨语言 / 跨平台桌面 UI 工程范式（Electron + WebView + LSP/DAP + WSL 桥接）
+
+### 更新（Updated）
+- [Metis / Coding Layer](./tool-metis-coding-layer.md) — 修正引用：原 tool-factory-agent / tool-spec-superflow 中指向 `./tool-metis.md` 的断链改回指 `./tool-metis-coding-layer.md`（已有概念，未新建）
+- [Factory（编码 Agent runtime）](./tool-factory-agent.md) — 同步修正 Metis 链接
+- [Spec-Superflow](./tool-spec-superflow.md) — 同步修正 Metis 链接
+
+## 本批新增（2026-07-30）
+
+### AI / Agent 生态
+- [pi-tbox](./tool-pi-tbox.md) — `Tool` — Pi 扩展工具开关面板，集中列出 / 分组开关 / 自定义工作流 / 跨会话持久
+- [Nerve](./tool-nerve-desktop-coding.md) — `Tool` — 本地优先桌面编码工具集，消息流 + 工具调用 + 审批 + 计划全暴露
+- [openclaude-improved](./tool-openclaude-improved.md) — `Tool` — TypeScript 写，OpenAI / Ollama / Gemini / Bedrock 等十几家 AI 后端可切换
+
+### 终端 / TUI
+- [hop](./tool-hop-ssh-tui.md) — `Tool` — Go 写的终端 SSH 多服务器切换 TUI，内置 SSH + VT 模拟器
+- [Ghostty Warp Shader](./tool-ghostty-warp-shader.md) — `Tool` — Ghostty 终端星轨加速 GLSL shader，单文件即用
+
+### 桌面 / 系统工具
+- [PixShell](./tool-pixshell.md) — `Tool` — 跨平台原生 SSH/SFTP 客户端（macOS Swift + Windows WPF，非 Electron）
+- [Tinycast](./tool-tinycast.md) — `Tool` — macOS 原生轻量启动器 + 剪贴板历史（3 MB / <100 MB 内存）
+- [GodotHub](./tool-godothub.md) — `Tool` — Godot 引擎的 Unity Hub 风格项目管理器
+
+### 视频 / 多媒体
+- [Rescript](./tool-rescript-video-editor.md) — `Tool` — 浏览器视频编辑器，改字幕 = 剪视频，文件不出本机
+- [Open AI Canvas / 影策](./tool-open-ai-canvas.md) — `Tool` — AI 影视无限画布工作台，文字 / 图片 / 视频 / 音频 + 分镜 + 角色卡
+
+### 本地 LLM / Agent
+- [Local-Hermes-Portable](./tool-local-hermes-portable.md) — `Tool` — llama.cpp + Hermes Agent 跨平台便携包，双击即跑
+
+### 搜索 / 聚合
+- [NeoSearch](./tool-neosearch.md) — `Tool` — C# 写的去广告去追踪 AI 搜索引擎，多视角分组
+- [TrendRadar](./tool-trendradar.md) — `Tool` — 多平台热榜聚合 + 关键词过滤 + 10+ 推送通道，30 秒 fork 部署
+- [Streamflix](./tool-streamflix.md) — `Tool` — Android TV / 手机流媒体聚合客户端
+
+### 编辑器 / 写作
+- [neocursor.nvim](./tool-neocursor-nvim.md) — `Tool` — Neovim 插件读 Cursor 私有 API 拿 ghost text 补全
+- [grammar-lol](./tool-grammar-lol.md) — `Tool` — 桌面任意应用内 AI 语法校正（双 Right Shift 触发）
+
+### 推送 / 通知
+- [hark](./tool-hark-webhook-push.md) — `Tool` — 任意 webhook 转带来源标识的 iPhone 推送通知
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「超梦？」+ 视频 (2082823150270927199) — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
 - QingQ77「学到了,反色特效精准挑选白头发」+ 视频 (2081996754422268284) — 短语 + 短视频,按「质量门槛」跳过

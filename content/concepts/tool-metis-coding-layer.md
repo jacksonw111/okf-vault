@@ -4,7 +4,7 @@ title: "Metis（编程模型外层包装，让编码输出更稳）"
 description: "编程模型单独跑毛病多：缺项目上下文、记不住之前的决策、改完也不检查。Metis 在模型外面包一层——改之前查资料、经验存下来复用、改完自动跑构建和测试、逐条对照需求确认。"
 resource: "https://github.com/Wholiver/metis"
 tags: [ai-coding, context, memory, verification, layer, wrapper]
-timestamp: "2026-07-29T11:48:00.000Z"
+timestamp: "2026-07-30T20:30:00.000Z"
 ---
 
 # Metis

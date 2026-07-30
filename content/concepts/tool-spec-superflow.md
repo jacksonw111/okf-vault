@@ -4,7 +4,7 @@ title: "Spec-Superflow（AI 编码的规划 → 实现硬闸）"
 description: "AI 写代码最烦两件事：还没想清楚就改文件，或规划好但实现跑偏。Spec-Superflow 在规划和实现之间加一道硬闸：先想清楚再动手。"
 resource: "https://github.com/MageByte-Zero/spec-superflow"
 tags: [ai-coding, spec, planning, workflow, agent-skill, claude-code]
-timestamp: "2026-07-29T02:39:00.000Z"
+timestamp: "2026-07-30T20:30:00.000Z"
 ---
 
 # Spec-Superflow
@@ -49,7 +49,7 @@ AI 编码插件，针对两个最常见的痛点：
 
 ## 相关概念
 
-- [Metis（编程模型外层包装）](./tool-metis.md) — 类似思路：改之前查资料、改完自动验证
+- [Metis / Coding Layer](./tool-metis-coding-layer.md) — 类似思路：改之前查资料、改完自动验证
 - [Aura-IDE](./tool-aura-ide.md) — Planner/Worker 双智能体本地编码工作台，写文件前先显示 diff 审批
 - [Metis / Paper Lifecycle](./tool-paper-lifecycle.md) — 论文写作 Codex skills 套件，审稿式体检
 - [12-Factor Agents](./tool-12-factor-agents.md) — Agent 从 demo 到实盘的 12 条工程原则

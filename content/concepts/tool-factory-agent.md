@@ -4,7 +4,7 @@ title: "Factory（编码 Agent 自动持续工作 runtime）"
 description: "让编码 Agent 在仓库上自动持续工作，替代人工在每个步骤的终端编排。"
 resource: "https://github.com/owainlewis/factory"
 tags: [agent, runtime, automation, coding-agent, continuous-work]
-timestamp: "2026-07-29T10:47:00.000Z"
+timestamp: "2026-07-30T20:30:00.000Z"
 ---
 
 # Factory
@@ -52,6 +52,6 @@ Factory 取代了步骤 1 / 3 / 4 / 5 的"人工中介"——Agent 自己循环�
 ## 相关概念
 
 - [Optim Agent](./tool-optim-agent.md) — 让 Claude Code / Codex 替你跑超参寻优
-- [Metis（编程模型外层包装）](./tool-metis.md) — 类似思路：包一层让编码更稳
+- [Metis / Coding Layer](./tool-metis-coding-layer.md) — 类似思路：包一层让编码更稳
 - [Loop Engineering](./tool-loop-engineering.md) — "把 AI agent 编成自动循环"的方法论 + CLI 工具
 - [MCO（多 AI 编程代理编排层）](./tool-mco.md) — 同时调度多种 CLI 代理的中立编排层
