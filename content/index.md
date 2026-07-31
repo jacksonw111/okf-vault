@@ -1150,3 +1150,41 @@ timestamp: "2026-06-26T16:50:00Z"
 - [Metis / Coding Layer](concepts/tool-metis-coding-layer.md) — 修正引用：tool-factory-agent / tool-spec-superflow 中断链改回指此（已有概念，未新建）
 - [Factory](concepts/tool-factory-agent.md) — 同步修正 Metis 链接
 - [Spec-Superflow](concepts/tool-spec-superflow.md) — 同步修正 Metis 链接
+
+## 本批新增（2026-07-31）
+
+### 方法论 / Playbook
+- [Vibe Coding 设计系统八步法](concepts/playbook-vibe-coding-design-system.md) — 从 VI → Design Token → 组件 → 状态 → 交互 → 动效 → 撤销 → AI 约束搭设计系统
+
+### AI / Agent 生态
+- [AgentEnv](concepts/tool-agentenv-kvcache.md) — Firecracker microVM + overlaybd 分布式 agent 沙箱，启动 <50ms
+- [Eve Directory](concepts/tool-eve-directory.md) — Eve agent 开放注册中心，shadcn CLI 安装 / GitHub 登录贡献
+- [better-harness](concepts/tool-better-harness.md) — 五维审计 AI 编码工作流（目标 / 执行 / 验证 / 质量 / 沉淀），每项绑证据
+- [ccsessions](concepts/tool-ccsessions.md) — Claude Code 终端会话的 TUI 管理器
+- [sharedoc-mcp](concepts/tool-sharedoc-mcp.md) — agent 产出 Markdown 直接变可分享链接
+- [livis-hermes-platform](concepts/tool-livis-hermes-platform.md) — Livis 眼镜 / 理想同学 到 Hermes Agent 的国内适配层
+- [Graft](concepts/tool-graft.md) — 把代码依赖 / 模块边界预生成 Markdown 喂给 agent
+
+### 阅读 / 笔记 / 写作
+- [Tasogare](concepts/tool-tasogare.md) — 网页阅读器，真人 + AI 同书各画一色，配 MCP 服务
+- [paperless-brain](concepts/tool-paperless-brain.md) — 给 Paperless-ngx 加 AI，对存档对话 / 提截止日期 / 写信
+- [NodeGraph](concepts/tool-nodegraph.md) — VS Code 扩展，论文自动建知识图谱
+- [fragment-garden](concepts/tool-fragment-garden.md) — 像素花园 + 散步重访，让碎片想法过几天自动浮现
+
+### 渲染 / PDF / 多媒体
+- [html2pdf (SanzarRehman)](concepts/tool-html2pdf-sanzar.md) — Rust 自建 HTML→PDF，不启 Chromium，内存大幅下降
+
+### 终端 / TUI
+- [herdr-browser](concepts/tool-herdr-browser.md) — 终端面板嵌真实 Chromium，通过 CDP 让 agent 驱动
+
+### 桌面 / 系统工具
+- [ZENCHE](concepts/tool-zenche.md) — 五端原生的 Nikon 相机控制 + 影像传输
+- [知微 / Finance_Management](concepts/tool-zhiwei-finance.md) — 桌面财务记账（Qt/QML + Spring Boot）
+
+### 数据 / 分析
+- [Talivia](concepts/tool-talivia.md) — 网站分析 + Stripe / LemonSqueezy 收入数据并到一图
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「cool」+ 视频 (2083202443685573055) — 短语 + 视频，无可提取信息
+- QingQ77「等等」+ 视频 (2082973668972638398) — 短语 + 视频，无可提取信息
+- QingQ77「你们是什么时候开始注意到人类的」+ 视频 (2083047181746135237) — 短语 + 视频，无可提取信息

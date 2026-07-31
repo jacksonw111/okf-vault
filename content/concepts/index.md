@@ -1261,3 +1261,41 @@ timestamp: "2026-07-27T20:30:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - QingQ77「超梦？」+ 视频 (2082823150270927199) — 短语 + 短视频,无可提取的工具/概念/项目信息,按「质量门槛」跳过
 - QingQ77「学到了,反色特效精准挑选白头发」+ 视频 (2081996754422268284) — 短语 + 短视频,按「质量门槛」跳过
+
+## 本批新增（2026-07-31）
+
+### 方法论 / Playbook
+- [Vibe Coding 设计系统八步法](./playbook-vibe-coding-design-system.md) — `Playbook` — 从 VI → Design Token → 组件 → 状态 → 交互 → 动效 → 撤销 → AI 约束，完整搭一套设计系统
+
+### AI / Agent 生态
+- [AgentEnv](./tool-agentenv-kvcache.md) — `Tool` — Firecracker microVM + overlaybd 的分布式 agent 沙箱，启动 <50ms / 暂停 <100ms
+- [Eve Directory](./tool-eve-directory.md) — `Tool` — Eve agent 开放注册中心，shadcn CLI 安装 + GitHub 登录贡献
+- [better-harness](./tool-better-harness.md) — `Tool` — 五维审计 AI 编码工作流，目标 / 执行 / 验证 / 质量 / 沉淀，每项绑证据
+- [ccsessions](./tool-ccsessions.md) — `Tool` — Claude Code 终端会话的 TUI 管理器，浏览 / 预览 / 恢复历史会话
+- [sharedoc-mcp](./tool-sharedoc-mcp.md) — `Tool` — 把 agent 产出的 Markdown 转成可分享链接
+- [livis-hermes-platform](./tool-livis-hermes-platform.md) — `Tool` — Livis 眼镜 / 理想同学 到 Hermes Agent 的国内适配层
+- [Graft](./tool-graft.md) — `Tool` — 把代码依赖 / 模块边界预生成 Markdown 喂给 AI agent 作地图
+
+### 阅读 / 笔记 / 写作
+- [Tasogare](./tool-tasogare.md) — `Tool` — 网页阅读器，真人 + AI 在同一本书各画一色，配 MCP 服务
+- [paperless-brain](./tool-paperless-brain.md) — `Tool` — 给 Paperless-ngx 加 AI，可跟存档对话、提截止日期、写信
+- [NodeGraph](./tool-nodegraph.md) — `Tool` — VS Code 扩展，论文自动建知识图谱，右键跳 PDF 原文
+- [fragment-garden](./tool-fragment-garden.md) — `Tool` — 像素花园 + 散步重访，让碎片想法过几天自动浮现
+
+### 渲染 / PDF / 多媒体
+- [html2pdf (SanzarRehman)](./tool-html2pdf-sanzar.md) — `Tool` — Rust 自建渲染管线的 HTML→PDF，不启 Chromium，内存大幅下降
+
+### 终端 / TUI
+- [herdr-browser](./tool-herdr-browser.md) — `Tool` — 终端面板里嵌真实 Chromium，通过 CDP 让 agent 驱动
+
+### 桌面 / 系统工具
+- [ZENCHE](./tool-zenche.md) — `Tool` — 五端原生的 Nikon 相机控制 + 影像传输（USB/PTP + FTP/HTTP/WebDAV）
+- [知微 / Finance_Management](./tool-zhiwei-finance.md) — `Tool` — 桌面财务记账（Qt/QML 前端 + Spring Boot 后端）
+
+### 数据 / 分析
+- [Talivia](./tool-talivia.md) — `Tool` — 网站分析 + Stripe / LemonSqueezy 收入数据并到一图
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「cool」+ 视频 (2083202443685573055) — 短语 + 视频，无可提取信息
+- QingQ77「等等」+ 视频 (2082973668972638398) — 短语 + 视频，无可提取信息
+- QingQ77「你们是什么时候开始注意到人类的」+ 视频 (2083047181746135237) — 短语 + 视频，无可提取信息
