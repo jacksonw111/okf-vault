@@ -1299,3 +1299,49 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「cool」+ 视频 (2083202443685573055) — 短语 + 视频，无可提取信息
 - QingQ77「等等」+ 视频 (2082973668972638398) — 短语 + 视频，无可提取信息
 - QingQ77「你们是什么时候开始注意到人类的」+ 视频 (2083047181746135237) — 短语 + 视频，无可提取信息
+
+## 本批新增（2026-08-01）
+
+### AI / Agent 生态
+- [grafana-ai-sdk](./tool-grafana-ai-sdk.md) — `Tool` — Go 后端多 provider LLM SDK（流式 / 工具调用 / 结构化输出），与 Vercel AI SDK 协议对齐
+- [bbarit-agent-oss](./tool-bbarit-agent-oss.md) — `Tool` — Rust 单文件二进制替代 Claude Code / Codex CLI，15+ provider / 1000+ 模型
+- [claude-code-router](./tool-claude-code-router.md) — `Tool` — 本地网关统一管理 Claude Code / Codex / Grok 的凭据 / 路由 / 故障切换
+- [agent-manager (tmux)](./tool-agent-manager-tmux.md) — `Tool` — TUI 架在 tmux 上管 Claude Code / Codex / OpenCode / Grok Build 多 agent
+- [memmy-agent](./tool-memmy-agent.md) — `Tool` — 跨 AI 代理共享长期记忆中间层，一次记住到处用
+
+### 评估 / 沙箱 / 评测
+- [ai-code-evaluation-suite](./tool-ai-code-evaluation-suite.md) — `Tool` — Python 代码丢进一次性 Docker 隔离评分，可见 + 隐藏测试 + 分数分解
+- [chrome-client (Cronet)](./tool-chrome-client-cronet.md) — `Tool` — Python HTTP 客户端底层用 Chromium Cronet，拿真实 Chrome TLS 指纹过反爬
+
+### 桌面 / 系统工具
+- [session-manager (Tauri v2)](./tool-session-manager-tauri.md) — `Tool` — Tauri v2 + React + Rust 桌面应用，三栏浏览 AI 编程助手历史会话与分支树
+- [what-cant-i-press](./tool-what-cant-i-press.md) — `Tool` — macOS 菜单栏 / Windows 托盘无障碍快捷键探查工具，聚合屏幕阅读器文档
+
+### 自托管 / 智能家居 / 物联网
+- [go2rtc](./tool-go2rtc.md) — `Tool` — Go 单二进制摄像头流媒体服务器，RTSP/WebRTC/RTMP/HLS/HomeKit 互通，<0.5s 延时
+- [sunshine-send](./tool-sunshine-send.md) — `Tool` — Android TV 端 NanoHTTPD 局域网快传，启动即得二维码 + 上传页
+
+### 数据 / 分析
+- [the-daily-diff](./tool-the-daily-diff.md) — `Tool` — 每天自动汇总 arXiv + HN，按天排好打分排序的技术早报
+- [xy (Reflex)](./tool-xy-reflex.md) — `Tool` — Rust 算 + WebGL2 画的 Python 图表库，1 万到 1 亿点都能秒出
+
+### 容器 / 终端 / 系统
+- [docksurf](./tool-docksurf.md) — `Tool` — 终端里用键盘操作 Docker 的 TUI，看容器 / 镜像 / 卷 / 网络 + 实时数据
+
+### Android / 移动
+- [OneStep4](./tool-onestep4.md) — `Tool` — 已 Root Android 多窗口 / 侧边小窗，延续 Smartisan「One Step」逻辑
+
+### 个人追踪 / 笔记 / 媒体
+- [Kiroku](./tool-kiroku.md) — `Tool` — 全栈个人动漫 / 漫画 / 小说追番追读工具，集中管理进度 / 评价 / 笔记
+
+### 视觉 / 营销 / 创作
+- [consulting-deck](./tool-consulting-deck.md) — `Tool` — 咨询风格 PPT 工具包，论据可溯源 + 图表带分析 + PPTX 可继续编辑
+- [open-image-prompts](./tool-open-image-prompts.md) — `Tool` — 万级带参考图的 AI 图片 prompt 库，装 Skill 即可终端搜索
+
+### 复核（Reused / No-op）
+- Wen_Zw RT @BTCqzy1 gc-minimal-zine-poster (2083527924687515887) — 概念已于 2026-07-22 批处理建过完整文件并保留示例图，本次 RT 无新增信息，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「真正的大佬」+ 视频 (2083416873060958678) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「真玻璃种」+ 视频 (2083557362531749997) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「好柔软的身体」+ 视频 (2083463384805331013) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
