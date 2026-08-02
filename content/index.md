@@ -45,6 +45,26 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ## 工具
 
+- [Jakub 设计 Skills](concepts/note-jakub-design-skills.md) — `Note`
+- [Agent Swarms](concepts/tool-agent-swarms.md)
+- [Ai Gateway Tdn](concepts/tool-ai-gateway-tdn.md)
+- [Auteur](concepts/tool-auteur.md)
+- [Buckit](concepts/tool-buckit.md)
+- [Callpilot](concepts/tool-callpilot.md)
+- [Claude Account](concepts/tool-claude-account.md)
+- [Crona](concepts/tool-crona.md)
+- [Dashline](concepts/tool-dashline.md)
+- [Doc Engine Cli](concepts/tool-doc-engine-cli.md)
+- [Flashcard Quiz App](concepts/tool-flashcard-quiz-app.md)
+- [Ghostties](concepts/tool-ghostties.md)
+- [Ivy Obsidian Template](concepts/tool-ivy-obsidian-template.md)
+- [Pigo](concepts/tool-pigo.md)
+- [Prompt Self Tuning](concepts/tool-prompt-self-tuning.md)
+- [Protocol Model](concepts/tool-protocol-model.md)
+- [Qwen Audio Agent](concepts/tool-qwen-audio-agent.md)
+- [Sitepins](concepts/tool-sitepins.md)
+- [Toolknit Desktop](concepts/tool-toolknit-desktop.md)
+
 - [Obsidian](concepts/tool-obsidian.md)
 - [Cabinet](concepts/tool-cabinet.md)
 - [Field Theory](concepts/tool-field-theory.md)

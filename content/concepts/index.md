@@ -17,6 +17,26 @@ timestamp: "2026-07-27T20:30:00Z"
 
 ## 工具（Tools）
 
+- [Jakub 设计 Skills](note-jakub-design-skills.md) — `Note`
+- [Agent Swarms](tool-agent-swarms.md) — `Tool`
+- [Ai Gateway Tdn](tool-ai-gateway-tdn.md) — `Tool`
+- [Auteur](tool-auteur.md) — `Tool`
+- [Buckit](tool-buckit.md) — `Tool`
+- [Callpilot](tool-callpilot.md) — `Tool`
+- [Claude Account](tool-claude-account.md) — `Tool`
+- [Crona](tool-crona.md) — `Tool`
+- [Dashline](tool-dashline.md) — `Tool`
+- [Doc Engine Cli](tool-doc-engine-cli.md) — `Tool`
+- [Flashcard Quiz App](tool-flashcard-quiz-app.md) — `Tool`
+- [Ghostties](tool-ghostties.md) — `Tool`
+- [Pigo](tool-pigo.md) — `Tool`
+- [Prompt Self Tuning](tool-prompt-self-tuning.md) — `Tool`
+- [Protocol Model](tool-protocol-model.md) — `Tool`
+- [Qwen Audio Agent](tool-qwen-audio-agent.md) — `Tool`
+- [Sitepins](tool-sitepins.md) — `Tool`
+- [Toolknit Desktop](tool-toolknit-desktop.md) — `Tool`
+- [Obsidian 新手 Vault 模板](tool-ivy-obsidian-template.md) — `Tool`
+
 - [Obsidian](tool-obsidian.md) — `Tool`
 - [Cabinet](tool-cabinet.md) — `Tool` — Obsidian + AI 代理
 - [Field Theory](tool-field-theory.md) — `Tool` — 统一上下文管理
