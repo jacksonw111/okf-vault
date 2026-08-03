@@ -1254,3 +1254,45 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「真正的大佬」+ 视频 (2083416873060958678) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「真玻璃种」+ 视频 (2083557362531749997) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「好柔软的身体」+ 视频 (2083463384805331013) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-02 / 2026-08-03）
+
+### AI / Agent 生态
+- [Chartr](concepts/tool-chartr.md) — Go + Svelte 的 agent 多路复用器，规划 Markdown 自动渲染成星图
+- [QM (Y Combinator)](concepts/tool-qm-yc.md) — YC 开源多人智能体框架，每员工隔离工作区 + Slack 协作
+- [Pi-Livecraft](concepts/tool-pi-livecraft.md) — 给 Pi 终端 AI 助手套一个可被模型改的 React 网页界面
+- [Hearth](concepts/tool-hearth-nl-game.md) — 自然语言描述想玩的游戏，AI 代理现场建好并跑起来
+- [PicoLM](concepts/tool-picolm.md) — 2500 行 C11 写的极简 LLM 推理引擎，256MB 内存跑 TinyLlama 1.1B
+- [Gendangzou Skill (跟党走)](concepts/tool-gendangzou-skill.md) — A 股板块政策/资金/ETF 数据封装成 Agent 可调用 Skill
+
+### 桌面 / 系统工具
+- [OpenDisk](concepts/tool-opendisk.md) — 开源 MIT 的 macOS 旭日图磁盘空间分析器
+- [FolderSizeExplorer](concepts/tool-folder-size-explorer.md) — Windows x64 便携文件管理器，边浏览边递归统计文件夹大小
+- [HalalDL](concepts/tool-halaldl.md) — Windows 本地优先 yt-dlp 桌面下载工具（Tauri v2 + React + TS）
+- [LightMarkit](concepts/tool-lightmarkit.md) — Tauri v2 + React + TS 轻量桌面 Markdown 编辑器
+- [FaceLogin](concepts/tool-facelogin.md) — 让不支持 Windows Hello 的电脑也能刷脸解锁
+
+### 终端 / TUI / CLI
+- [Blackguard](concepts/tool-blackguard.md) — Rust + ratatui 终端扑克牌 roguelike（Scoundrel 复刻）
+- [Soap](concepts/tool-soap-paper-tui.md) — 纯终端文献管理工具，论文/PDF 自动补元数据 + 键盘浏览
+- [fast-copy](concepts/tool-fast-copy.md) — Python 跨平台 CLI 复制工具，SSH 走 tar 管道比 scp/rsync 快 3-5 倍
+
+### 浏览器 / 渲染引擎
+- [Falco (Rust browser engine)](concepts/tool-falco-browser-engine.md) — 3.6 万行 Rust 从零实现，HTML/CSS/JS 渲染成 PNG 或交互窗口
+
+### BaaS / 后端
+- [CloudflareBase](concepts/tool-cloudflarebase.md) — Cloudflare 账户里自部署的开源 Firebase 替代方案
+
+### Android / 移动
+- [军师 (Junshi)](concepts/tool-junshi-android.md) — 本地优先的关系分析 Android App，事实 / 情绪 / 未知分三层
+
+### AI Skill / 提示词
+- [南鸢写真提示词 Skill](concepts/tool-nanyuan-prompt-skill.md) — 写真 / 人像摄影意图 → 中文生图 prompt，反推视觉关键词
+
+### Updated（Reused）
+- [Cloudflare Kumo](concepts/tool-kumo.md) — 增量更新：明确基于 Base UI 封装，约 45 组件 / 细粒度 tree-shaking
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「这种亏得最惨了」+ 视频 (2084238821185732877) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「喜欢这种婚宴，纯干饭。」+ 视频 (2084195988261200367) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「随着 AI 的发展，总有一天会来的。」+ 视频 (2084154544704172070) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过

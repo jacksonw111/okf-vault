@@ -1,10 +1,10 @@
 ---
 type: Tool
 title: "Cloudflare Kumo"
-description: "Cloudflare 开源的前端 UI 组件库与文档框架,TypeScript + React,主打企业级内部系统(dashboard / 工单 / 监控)的快速搭建。"
+description: "Cloudflare 开源的前端 UI 组件库与文档框架，TypeScript + React，基于 Base UI 封装，键盘导航 / 焦点管理 / ARIA 内置；主约 45 个组件，覆盖按钮 / 对话框 / 日期选择 / Toast / Tooltip 等，按组件细粒度引入以利于 tree-shaking。"
 resource: "https://github.com/cloudflare/kumo"
-tags: [kumo, cloudflare, ui-library, react, frontend]
-timestamp: "2026-07-04T15:00:00Z"
+tags: [kumo, cloudflare, ui-library, react, base-ui, frontend]
+timestamp: "2026-08-03T01:10:00Z"
 ---
 
 # Cloudflare Kumo
@@ -25,11 +25,14 @@ Cloudflare Kumo(`cloudflare/kumo`)是 Cloudflare 官方在 GitHub 上开源的 U
 
 | 能力 | 说明 |
 |------|------|
-| 组件库 | Table / Tree / Pagination / ComboBox / Dialog / Toast / Tabs / Accordion 等 |
-| 主题系统 | 主题包通过 Provider 注入,支持多套配色(cloudflare 风格默认深色) |
-| 文档站点 | 自带 docs 渲染器,React 组件直接当 markdown 用 |
+| Base UI 封装 | 组件基于 Base UI 无样式原语封装，键盘导航 / 焦点管理 / ARIA 内置 |
+| 约 45 个组件 | 按钮 / 对话框 / 日期选择 / Toast / Tooltip 等常见场景 |
+| 细粒度导入 | 按组件粒度 tree-shaking，避免一个组件引一整库 |
+| 重新导出 Base UI 原语 | 高级用户可直接用底层 Base UI 原语 |
+| 主题系统 | 主题包通过 Provider 注入，支持多套配色（Cloudflare 风格默认深色） |
+| 文档站点 | 自带 docs 渲染器，React 组件直接当 Markdown 用 |
 | 国际化 | i18n helper + 复数形式 + 占位符插值 |
-| 类型安全 | 完整 TS 类型,组件 props 自动化补全 |
+| 类安全 | 完整 TS 类型，组件 props 自动化补全 |
 
 ## 使用示例
 

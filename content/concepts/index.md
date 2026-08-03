@@ -1365,3 +1365,46 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「真正的大佬」+ 视频 (2083416873060958678) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「真玻璃种」+ 视频 (2083557362531749997) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「好柔软的身体」+ 视频 (2083463384805331013) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-02 / 2026-08-03）
+
+### AI / Agent 生态
+- [Chartr](./tool-chartr.md) — `Tool` — Go + Svelte 的 agent 多路复用器，规划 Markdown 自动渲染成星图，标签页跑多种 agent CLI
+- [QM (Y Combinator)](./tool-qm-yc.md) — `Tool` — YC 开源多人智能体框架，每人隔离工作区 + Slack/频道协作，harness/模型可换
+- [Pi-Livecraft](./tool-pi-livecraft.md) — `Tool` — 给 Pi 终端 AI 助手套一个随时能被模型改的 React 网页界面
+- [Hearth](./tool-hearth-nl-game.md) — `Tool` — 自然语言描述想玩的游戏，AI 代理现场建好并在旁边跑起来
+- [PicoLM](./tool-picolm.md) — `Tool` — 2500 行 C11 写的极简 LLM 推理引擎，256MB 内存廉价板子跑 TinyLlama 1.1B
+- [Gendangzou Skill (跟党走)](./tool-gendangzou-skill.md) — `Tool` — A 股政策/媒体/资金/ETF 数据封装成 AI Agent 可调用的 Skill，关键判断保留证据链
+
+### 桌面 / 系统工具
+- [OpenDisk](./tool-opendisk.md) — `Tool` — 开源 MIT 的 macOS 旭日图磁盘空间分析器，DaisyDisk 替代方案
+- [FolderSizeExplorer](./tool-folder-size-explorer.md) — `Tool` — Windows x64 便携文件管理器，边浏览边递归统计文件夹大小
+- [HalalDL](./tool-halaldl.md) — `Tool` — Windows 本地优先 yt-dlp 桌面下载工具（Tauri v2 + React + TS），剪贴板自动识别
+- [LightMarkit](./tool-lightmarkit.md) — `Tool` — Tauri v2 + React + TS 轻量桌面 Markdown 编辑器，Windows + macOS
+- [FaceLogin](./tool-facelogin.md) — `Tool` — 让不支持 Windows Hello 的电脑也能刷脸解锁，眨眼检测 + 静默反欺诈
+
+### 终端 / TUI / CLI
+- [Blackguard](./tool-blackguard.md) — `Tool` — Rust + ratatui 实现的终端扑克牌 roguelike（Scoundrel 复刻）
+- [Soap](./tool-soap-paper-tui.md) — `Tool` — 纯终端文献管理工具，论文/书籍/PDF 自动补元数据 + 键盘浏览审查
+- [fast-copy](./tool-fast-copy.md) — `Tool` — Python 跨平台 CLI 复制工具，SSH 走 tar 管道比 scp/rsync 快 3-5 倍，支持稀疏文件
+
+### 浏览器 / 渲染引擎
+- [Falco (Rust browser engine)](./tool-falco-browser-engine.md) — `Tool` — 3.6 万行 Rust 从零实现的微型浏览器引擎，HTML/CSS/JS 渲染成 PNG 或交互窗口
+
+### BaaS / 后端
+- [CloudflareBase](./tool-cloudflarebase.md) — `Tool` — Cloudflare 账户里自部署的开源 Firebase 替代方案（Auth + 文档数据库 + 可视化控制台）
+
+### Android / 移动
+- [军师 (Junshi)](./tool-junshi-android.md) — `Tool` — 本地优先的关系分析 Android App，事实 / 情绪 / 未知分三层，AI 调用走用户自配服务
+
+### AI Skill / 提示词
+- [南鸢写真提示词 Skill](./tool-nanyuan-prompt-skill.md) — `Tool` — 写真 / 人像摄影意图 → 中文生图 prompt，参考图反推视觉关键词
+
+### Updated（Reused）
+- [Cloudflare Kumo](./tool-kumo.md) — `Tool` — 增量更新：明确基于 Base UI 封装，新增约 45 组件 / 细粒度 tree-shaking / 重新导出 Base UI 原语；保持原有 Cloudflare 内部使用 + 企业级内部系统定位
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「这种亏得最惨了」+ 视频 (2084238821185732877) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「喜欢这种婚宴，纯干饭。」+ 视频 (2084195988261200367) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「随着 AI 的发展，总有一天会来的。」+ 视频 (2084154544704172070) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77 PicoLM (2084058161045017044) — **On second look**：原计划新建概念，但发现 `note-local-llm-hardware-guide.md` 已涵盖「本地 LLM 硬件 / 部署」主线；PicoLM 作为 2500 行 C 实现 + 256MB 板子跑通 1.1B 模型的案例具有独立工具价值，**改判为新建 `tool-picolm.md`**
