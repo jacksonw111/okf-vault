@@ -33,4 +33,3 @@ FaceLogin（`EthanZer0/FaceLogin`）**让不支持 Windows Hello 的电脑也能
 
 ## 相关概念
 - [HeartRateMonitor (Compose UI)](./tool-heart-rate-monitor-composeui.md) — 同样用 Android Compose / 桌面摄像头采集的另一类硬件交互
-- [Voyage Camera Recorder](./tool-voyage-camera-recorder.md) — 摄像头 + 录制场景下的工具（同类相机硬件交互）

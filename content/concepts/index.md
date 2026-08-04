@@ -1408,3 +1408,54 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「喜欢这种婚宴，纯干饭。」+ 视频 (2084195988261200367) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「随着 AI 的发展，总有一天会来的。」+ 视频 (2084154544704172070) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77 PicoLM (2084058161045017044) — **On second look**：原计划新建概念，但发现 `note-local-llm-hardware-guide.md` 已涵盖「本地 LLM 硬件 / 部署」主线；PicoLM 作为 2500 行 C 实现 + 256MB 板子跑通 1.1B 模型的案例具有独立工具价值，**改判为新建 `tool-picolm.md`**
+
+## 本批新增（2026-08-04）
+
+### 方法论 / Playbook
+- [AGENTS.md 八规则（Vercel Next.js 团队）](./playbook-agents-md-eight-rules.md) — `Playbook` — 把 8 条规则放进 `AGENTS.md` 强制 AI 编码 agent 不写兼容层 / 不预防性抽象 / 不重复发明；side project 适用，生产环境需去掉第 1 条
+
+### AI / Agent 生态
+- [Pinvou Agent](./tool-pinvou-agent.md) — `Tool` — 把聊天 / 设计 / 写代码三种 AI 用法收进同一个桌面工作台，产出可继续使用的文件 / 产物
+- [Sol Advisor](./tool-sol-advisor.md) — `Tool` — Codex 原生 subagent 双角色（Sol 管架构+验收 / Terra 负责实现）+ 全新上下文 Sol 复审硬闸门
+- [Codexloom](./tool-codexloom.md) — `Tool` — 把 Codex 一条线程延续成跨任务累积知识的领域 Agent，解决冷启动成本
+
+### 本地知识库 / 原子笔记
+- [My Wiki](./tool-my-wiki.md) — `Tool` — 让本地 AI Agent 把散落原始资料整理成可追溯、可复用的原子知识库
+
+### AI 写作 / 去 AI 腔
+- [humanizer-cli](./tool-humanizer-cli.md) — `Tool` — 把 Wikipedia《Signs of AI writing》33 种 AI 写作痕迹做成终端离线参考与草稿检查工具（无网络 / 无 Key / 零依赖）
+- [Stop Slop](./tool-stop-slop.md) — `Tool` — 教 LLM 去掉 AI 腔的技能包：5 维度评分（直接度 / 节奏 / 可信 / 像不像人 / 信息密度），凑不上 35 分重写
+
+### 桌面 / 系统工具
+- [TaskbarWidgets](./tool-taskbar-widgets.md) — `Tool` — 不替换 Windows Shell，把天气 / 系统监控 / 媒体控制小组件钉在 Win11 任务栏
+- [GlassQuota](./tool-glassquota.md) — `Tool` — macOS 实时显示 Codex / Gemini / Claude 三个 API 各自的剩余用量
+- [cobalt-spark](./tool-cobalt-spark.md) — `Tool` — 配色克制 / 突出命令行的 Oh My Zsh 主题，用闪电符号分隔上下文与命令
+
+### 长篇写作 / 故事引擎
+- [Novel Studio (Xiaoyangy/novel-studio)](./tool-novel-studio.md) — `Tool` — Go 写的本地优先 AI 长篇小说引擎：冻结卷—章—章纲 → 逐弧推演 → 弧封存后逐章渲染审核；正文只暴露主视角有权知道的事实
+
+### 自托管 / 服务器 / 网络
+- [KPanel (kejilion)](./tool-kpanel.md) — `Tool` — 科技lion 出品的开源免费 Linux 服务器管理面板，脚本 / SSH / Compose / 面板真实资源互通
+- [TermPair](./tool-termpair.md) — `Tool` — Rust 单二进制端到端加密远程终端共享，AES-128-GCM 盲中继，URL hash 传密钥，服务器永远看不到明文
+
+### 数据传输 / 离线通道
+- [qr-data-transfer](./tool-qr-data-transfer.md) — `Tool` — 文件 → 动态二维码，接收端扫一遍即收，纯空气隔离传输（无网络）
+
+### 下载客户端
+- [Orc-Torrent](./tool-orc-torrent.md) — `Tool` — 跨 Windows / macOS / Linux / Android 的下载客户端，Rust 内核 + VPN 隐私保护封装
+
+### 视频 / 监控 / NAS
+- [TimeCut](./tool-timecut.md) — `Tool` — NAS Docker 一体化监控循环录像 + AI 挑精华（人员 / 车辆 / 包裹） + 日记化
+
+### Python 项目任务
+- [TermBoard](./tool-termboard.md) — `Tool` — 常驻交互式 TUI 管理 Python 项目、虚拟环境（uv / poetry / pipenv / .venv 自动识别）和任务
+
+### GEO / AI 搜索优化
+- [GeoLook](./tool-geolook.md) — `Tool` — 把 GEO「监控 → 诊断 → 开工单执行 → 自动复验」四步串成闭环，让 ChatGPT 等 AI 引擎在回答时把品牌带出来
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @AYi_AInotes「简直就是省Token焚决！！！」(2084605920127156671) — RT 链入主帖作为 `playbook-agents-md-eight-rules` 的原始来源（**严禁暴露信息来源人**，链接文案统一用「原始链接 / 项目链接」）
+- QingQ77「神奇，这难道不是一个商机吗。」+ 视频 (2084532398386196703) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「感觉韩国人现在就是冰火两重天🤣🤣🤣」+ 图片 (2084496196954120401) — 短语 + 图片，纯情绪反应，按「质量门槛」跳过
+- QingQ77 TaskbarWidgets「不替换 Windows Shell」(2084663148699693436) — 同日与 (2084456536299192571) 重复，原始来源已入 `tool-taskbar-widgets.md`，本次按「概念已存在且资料无新增信息」跳过
+- QingQ77「这很危险」+ 视频 (2084419751967887748) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过

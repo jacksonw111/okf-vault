@@ -1296,3 +1296,47 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「这种亏得最惨了」+ 视频 (2084238821185732877) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「喜欢这种婚宴，纯干饭。」+ 视频 (2084195988261200367) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「随着 AI 的发展，总有一天会来的。」+ 视频 (2084154544704172070) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-04）
+
+### 方法论 / Playbook
+- [AGENTS.md 八规则（Vercel Next.js 团队）](concepts/playbook-agents-md-eight-rules.md) — 把 8 条规则放进 `AGENTS.md` 强制 AI 编码 agent 不写兼容层 / 不预防性抽象 / 不重复发明
+
+### AI / Agent 生态
+- [Pinvou Agent](concepts/tool-pinvou-agent.md) — 聊天 / 设计 / 写代码三合一桌面 AI 工作台，产出可继续使用的文件 / 产物
+- [Sol Advisor](concepts/tool-sol-advisor.md) — Codex 原生 subagent 双角色（Sol 架构+验收 / Terra 实现）+ 全新上下文复审硬闸门
+- [Codexloom](concepts/tool-codexloom.md) — 把 Codex 一条线程延续成跨任务累积知识的领域 Agent
+
+### 本地知识库 / 原子笔记
+- [My Wiki](concepts/tool-my-wiki.md) — 本地 AI Agent 把原始资料整理成可追溯、可复用的原子知识库
+
+### AI 写作 / 去 AI 腔
+- [humanizer-cli](concepts/tool-humanizer-cli.md) — Wikipedia《Signs of AI writing》33 种 AI 写作痕迹做成终端离线参考与草稿检查工具
+- [Stop Slop](concepts/tool-stop-slop.md) — 教 LLM 去掉 AI 腔的技能包，5 维度评分凑不上 35 分重写
+
+### 桌面 / 系统工具
+- [TaskbarWidgets](concepts/tool-taskbar-widgets.md) — Win11 任务栏直接钉天气 / 系统监控 / 媒体控制小组件
+- [GlassQuota](concepts/tool-glassquota.md) — macOS 实时显示 Codex / Gemini / Claude 三个 API 各自的剩余用量
+- [cobalt-spark](concepts/tool-cobalt-spark.md) — 极简 Oh My Zsh 主题，闪电符号分隔上下文与命令
+
+### 长篇写作 / 故事引擎
+- [Novel Studio (Xiaoyangy/novel-studio)](concepts/tool-novel-studio.md) — Go 写的本地优先 AI 长篇小说引擎，卷—章—章纲冻结 + 弧封存 + 视角隔离
+
+### 自托管 / 服务器 / 网络
+- [KPanel (kejilion)](concepts/tool-kpanel.md) — 开源免费 Linux 服务器管理面板，脚本 / SSH / Compose 资源互通
+- [TermPair](concepts/tool-termpair.md) — Rust 单二进制端到端加密远程终端共享，AES-128-GCM 盲中继
+
+### 数据传输 / 离线通道
+- [qr-data-transfer](concepts/tool-qr-data-transfer.md) — 文件 → 动态二维码，纯空气隔离传输
+
+### 下载客户端
+- [Orc-Torrent](concepts/tool-orc-torrent.md) — 跨 Win / macOS / Linux / Android 下载客户端，Rust 内核 + VPN 隐私
+
+### 视频 / 监控 / NAS
+- [TimeCut](concepts/tool-timecut.md) — NAS Docker 一体化监控循环录像 + AI 挑精华（人员 / 车辆 / 包裹）+ 日记化
+
+### Python 项目任务
+- [TermBoard](concepts/tool-termboard.md) — 常驻交互式 TUI 管理 Python 项目、虚拟环境与任务，自动识别 uv / poetry / pipenv / .venv
+
+### GEO / AI 搜索优化
+- [GeoLook](concepts/tool-geolook.md) — GEO「监控 → 诊断 → 开工单执行 → 自动复验」四步串成闭环，让 AI 引擎在回答时把品牌带出来
