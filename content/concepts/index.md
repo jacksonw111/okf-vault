@@ -1459,3 +1459,49 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「感觉韩国人现在就是冰火两重天🤣🤣🤣」+ 图片 (2084496196954120401) — 短语 + 图片，纯情绪反应，按「质量门槛」跳过
 - QingQ77 TaskbarWidgets「不替换 Windows Shell」(2084663148699693436) — 同日与 (2084456536299192571) 重复，原始来源已入 `tool-taskbar-widgets.md`，本次按「概念已存在且资料无新增信息」跳过
 - QingQ77「这很危险」+ 视频 (2084419751967887748) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-05）
+
+### 长程代理 / Agent 框架
+- [LongHorizon-Harness](./tool-longhorizon-harness.md) — `Tool` — 高德 AMAP-ML 团队开源的「长程代理」脚手架：认知回路 + 经验记忆 + 工具/技能三件套 + 真实业务评测集
+
+### 金融 / 市场情绪
+- [CNN 恐慌贪婪指数拆解](./note-fear-greed-index.md) — `Note` — CNN 维护二十年的市场情绪指标，7 个等权重子指标汇总，反着看（均值回归），与 VIX 结合读情绪位置
+
+### AI / Agent 生态
+- [TideVec](./tool-tidevec.md) — `Tool` — 带时间衰减的向量数据库，把时间衰减直接算进 HNSW 检索打分，旧文档自动降权
+- [open·kritt](./tool-open-kritt.md) — `Tool` — 多 AI 代理并行的安全扫描框架，任务拆分 + 结果合并 + 可验证可排序的漏洞发现
+- [Tabminal](./tool-tabminal.md) — `Tool` — 把终端 + 文件编辑 + AI 智能体收进同一网页界面，服务端会话持久 + 跨设备接续
+- [mypaios](./tool-mypaios.md) — `Tool` — Python/FastAPI 自托管本地优先 AI 工作台（MIT），十余项功能集于一身 + 多 Provider 后端
+- [Aimux](./tool-aimux.md) — `Tool` — 把上百家 AI 服务商 HTTP 接口收敛成一个 Rust crate 统一接口
+- [codex-work-starter](./tool-codex-work-starter.md) — `Tool` — 给非开发者的 Codex 稳妥路线：手动先跑通再沉淀 prompt / skill / 定时任务
+
+### 桌面 / 系统工具
+- [HomebrewApp](./tool-homebrew-app.md) — `Tool` — macOS 原生 GUI 浏览 / 安装 / 维护 Homebrew formulae 与 casks
+- [Birth](./tool-birth.md) — `Tool` — macOS 启动项管理器：LaunchAgents / LaunchDaemons / 登录项一窗尽览，一键停用 / 删除
+- [terminal-browser](./tool-terminal-browser.md) — `Tool` — Electron 离屏渲染塞进 kitty graphics 终端，编码 Agent 同标签页操作网页
+
+### 终端 / 硬件
+- [openmouse](./tool-openmouse.md) — `Tool` — 跨品牌游戏鼠标设置统一到一份网页，插上即读设备信息 / DPI / 回报率
+
+### SEO / AI 搜索优化
+- [Qiaomu SEO](./tool-qiaomu-seo.md) — `Tool` — 装进 AI 智能体的 SEO 工作流：Google / Bing / AI Search 三块阵地，审计 → 诊断 → 迁移 → 修复 → 验证闭环
+
+### 视频 / 内容生产
+- [video-skills-toolkit](./tool-video-skills-toolkit.md) — `Tool` — 把短视频生产沉淀成 6 个可复用 agent skills，字幕驱动流水线批量套模板
+- [Stickman Video Director](./tool-stickman-video-director.md) — `Tool` — 文案 / 笔记 → 一分钟火柴人视频，分镜方案 + 6 段 Gemini Omni Flash 提示词
+
+### UI / 文档组件
+- [Brainless](./tool-brainless.md) — `Tool` — Claude Code / Codex / Grok 终端界面做成 shadcn 组件，文档 / 演示页直接复制粘贴
+
+### 教程 / 学习资源
+- [Unpacking ChatGPT](./tool-unpacking-chatgpt.md) — `Tool` — 中文 ChatGPT 科普系列《拆开 GPT》20 期 / 三阶段，后端工程师视角讲原理与工程
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「武术专业九节鞭就业方向指南」+ 视频 (2084863315176837483) — 与知识库无关的就业方向梗，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「聋的传人 鸣笛听不见 刹车听见了」+ 视频 (2084830312463516152) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「非常想要😍」+ 视频 (2085000518523617288) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「最近这个 AI 特效很火，上点年纪的人都知道这个场景。」+ 视频 (2084988877702582566) — 短语 + 视频，感慨无知识价值，按「质量门槛」跳过
+- QingQ77「WTF😍」+ 视频 (2084881106806206768) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「基本告别摄影行业了，你没见过猫吗，是谁要看猫了？」+ 视频 (2084922533753868793) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「演技炸裂」+ 视频 (2084906041180147863) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过

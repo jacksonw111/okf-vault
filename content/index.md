@@ -1340,3 +1340,43 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### GEO / AI 搜索优化
 - [GeoLook](concepts/tool-geolook.md) — GEO「监控 → 诊断 → 开工单执行 → 自动复验」四步串成闭环，让 AI 引擎在回答时把品牌带出来
+
+## 本批新增（2026-08-05）
+
+### 长程代理 / Agent 框架
+- [LongHorizon-Harness](concepts/tool-longhorizon-harness.md) — 高德 AMAP-ML 团队开源的「长程代理」脚手架：认知回路 + 经验记忆 + 工具/技能三件套
+
+### 金融 / 市场情绪
+- [CNN 恐慌贪婪指数拆解](concepts/note-fear-greed-index.md) — CNN 维护二十年的市场情绪指标，7 个等权重子指标汇总，反着看（均值回归）
+
+### AI / Agent 生态
+- [TideVec](concepts/tool-tidevec.md) — 带时间衰减的向量数据库，时间衰减直接算进 HNSW 检索打分
+- [open·kritt](concepts/tool-open-kritt.md) — 多 AI 代理并行的安全扫描框架，结果合并为可验证可排序的漏洞发现
+- [Tabminal](concepts/tool-tabminal.md) — 终端 + 文件编辑 + AI 智能体收进同一网页界面，服务端会话持久
+- [mypaios](concepts/tool-mypaios.md) — Python/FastAPI 自托管本地优先 AI 工作台（MIT），十余项功能集于一身
+- [Aimux](concepts/tool-aimux.md) — Rust crate 收敛上百家 AI 服务商 HTTP 接口为统一 API
+- [codex-work-starter](concepts/tool-codex-work-starter.md) — 给非开发者的 Codex 稳妥路线：手动先跑通再沉淀可复用资产
+
+### 桌面 / 系统工具
+- [HomebrewApp](concepts/tool-homebrew-app.md) — macOS 原生 GUI 浏览 / 安装 / 维护 Homebrew formulae 与 casks
+- [Birth](concepts/tool-birth.md) — macOS 启动项管理器：LaunchAgents / LaunchDaemons / 登录项一窗尽览
+- [terminal-browser](concepts/tool-terminal-browser.md) — Electron 离屏渲染塞进 kitty graphics 终端，Agent 同标签页操作网页
+
+### 终端 / 硬件
+- [openmouse](concepts/tool-openmouse.md) — 跨品牌游戏鼠标设置统一到一份网页，插上即读 DPI / 回报率
+
+### SEO / AI 搜索优化
+- [Qiaomu SEO](concepts/tool-qiaomu-seo.md) — 装进 AI 智能体的 SEO 工作流：Google / Bing / AI Search 三块阵地，闭环
+
+### 视频 / 内容生产
+- [video-skills-toolkit](concepts/tool-video-skills-toolkit.md) — 把短视频生产沉淀成 6 个可复用 agent skills，字幕驱动流水线
+- [Stickman Video Director](concepts/tool-stickman-video-director.md) — 文案 / 笔记 → 一分钟火柴人视频，分镜 + 6 段 Gemini 提示词
+
+### UI / 文档组件
+- [Brainless](concepts/tool-brainless.md) — Claude Code / Codex / Grok 终端界面做成 shadcn 组件，复制粘贴即用
+
+### 教程 / 学习资源
+- [Unpacking ChatGPT](concepts/tool-unpacking-chatgpt.md) — 中文 ChatGPT 科普系列《拆开 GPT》20 期 / 三阶段
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77 6 条短语 + 短视频（武术九节鞭就业 / 聋的传人 / 非常想要 / AI特效火 / WTF / 基本告别摄影 / 演技炸裂）— 纯情绪反应或无关内容，按「质量门槛」跳过
