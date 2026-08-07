@@ -1380,3 +1380,39 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 跳过 / 复核（Skipped / No-op）
 - QingQ77 6 条短语 + 短视频（武术九节鞭就业 / 聋的传人 / 非常想要 / AI特效火 / WTF / 基本告别摄影 / 演技炸裂）— 纯情绪反应或无关内容，按「质量门槛」跳过
+
+## 本批新增（2026-08-06 / 2026-08-07）
+
+### AI / Agent 生态
+- [ChatGPT Video Editing Skills](concepts/tool-chatgpt-video-editing-skills.md) — 繁体中文 AI Agent 视频剪辑技能包：环境 Skill + 剪辑流水线 Skill
+- [Vigla](concepts/tool-vigla.md) — 跨 Claude Code / Codex CLI / Antigravity 编程 agent 统一面板 + 授权边界 + 一键回退
+- [Stella Pi Workbench](concepts/tool-stella-pi-workbench.md) — Pi 用户的桌面工作台 + 可审计本地 Agent 团队控制面
+- [Frog (wevm)](concepts/tool-wevm-frog.md) — Agent 摩擦日志工具：`frog log` 入仓 → `frog publish` 提 issue → issue 关自动归档
+- [Pi Bifrost](concepts/tool-pi-bifrost.md) — Pi 模型自动切换层，按任务复杂度 / 价格 / 速度 / 上下文长度路由
+- [pi-working-activity](concepts/tool-pi-working-activity.md) — Pi 状态行扩展：监听工具事件 → 实时进度 + 彩蛋
+- [RealReplicaBench](concepts/tool-replica-bench.md) — 阿里国际 Accio 团队的智能体业务流程度评测集：107 任务 / 4 类工具 / 干净容器 + LLM 裁判
+
+### Pi 桌面 / 终端增强
+- [Dashi Taskboard](concepts/tool-dashi-taskboard.md) — 本地优先 Codex 任务看板，可嵌 Codex 侧栏
+- [ComfyUI-Spectrum-MiniMax-H3](concepts/tool-comfyui-spectrum-minimax-h3.md) — ComfyUI MiniMax H3 加速采样节点：切比雪夫岭回归跳过 transformer 求值
+
+### Flutter / 移动 / 跨端
+- [hit](concepts/tool-hit-flutter.md) — Flutter 命中区扩展示例库，遵循 Apple HIG / Material ≥44pt
+- [MaidKit](concepts/tool-maidkit.md) — Flutter 跨平台 SSH 服务器管理器，零服务端安装
+- [YAFA](concepts/tool-yafa.md) — 面向 Clean Architecture 新手的 .NET SRS 闪卡应用
+
+### 本地 LLM
+- [Swiftlet](concepts/tool-swiftlet.md) — Apple 设备上流式运行 35B / 80B Qwen MoE，峰值内存 2.6GB / 4.3GB
+
+### MCP 工具
+- [gmail-mcp](concepts/tool-gmail-mcp.md) — 把 Gmail 接到 Claude 等 MCP 客户端，自托管 Cloudflare Worker
+
+### 远程终端 / SSH
+- [Remux](concepts/tool-remux-ios.md) — iOS 原生 tmux 远程管理：Ghostty 渲染 + 直连 SSH + iOS Keychain 存密钥
+
+### 怀旧 / 玩具
+- [zhuzhiliao（竹知了）](concepts/tool-zhuzhiliao.md) — 单文件零依赖 HTML 还原竹知了玩具，断网可玩
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @QingQ77「Qwen MoE 流式」Swiftlet (2085174723466666322) — 与同日主帖重复，原始来源已入 `tool-swiftlet.md`，按「概念已存在且资料无新增信息」跳过
+- QingQ77 8 条短语 + 短视频 / 图片（好玩刺激 / DIY灭火器 / 仙王裹尸布 / 前30秒泪崩 / 男人的玩具 / 你儿子香晕 / 雷霆大嘴鱼 / 大飞碟）— 纯情绪反应或无关内容，按「质量门槛」跳过

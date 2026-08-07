@@ -1505,3 +1505,46 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「WTF😍」+ 视频 (2084881106806206768) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「基本告别摄影行业了，你没见过猫吗，是谁要看猫了？」+ 视频 (2084922533753868793) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「演技炸裂」+ 视频 (2084906041180147863) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-06 / 2026-08-07）
+
+### AI / Agent 生态
+- [ChatGPT Video Editing Skills](./tool-chatgpt-video-editing-skills.md) — `Tool` — 繁体中文 AI Agent 视频剪辑技能包：环境检查 Skill + 剪辑流水线 Skill
+- [Vigla](./tool-vigla.md) — `Tool` — 跨 Claude Code / Codex CLI / Antigravity 编程 agent 统一面板 + 授权边界 + 一键回退
+- [Stella Pi Workbench](./tool-stella-pi-workbench.md) — `Tool` — Pi 用户的桌面工作台 + 可审计本地 Agent 团队控制面
+- [Frog](./tool-wevm-frog.md) — `Tool` — wevm 团队的 Agent 摩擦日志工具：`frog log` 入仓、`frog publish` 提 issue、issue 关 → 自动归档
+- [Pi Bifrost](./tool-pi-bifrost.md) — `Tool` — Pi 模型自动切换层，按任务复杂度 / 价格 / 速度 / 上下文长度路由
+- [pi-working-activity](./tool-pi-working-activity.md) — `Tool` — Pi 状态行扩展：监听工具事件 → 实时进度 + 俏皮文案 / 彩蛋
+- [RealReplicaBench](./tool-replica-bench.md) — `Tool` — 阿里国际 Accio 团队的智能体业务流程度评测集：107 任务 / 4 类工具 / 3 档输入 / 干净容器 + 确定性脚本 + LLM 裁判
+
+### Pi 桌面 / 终端增强
+- [Dashi Taskboard](./tool-dashi-taskboard.md) — `Tool` — 本地优先、跑在浏览器里的 Codex 任务看板，可嵌 Codex 侧栏
+- [ComfyUI-Spectrum-MiniMax-H3](./tool-comfyui-spectrum-minimax-h3.md) — `Tool` — ComfyUI MiniMax H3 加速采样节点：切比雪夫岭回归跳过 transformer 求值
+
+### Flutter / 移动 / 跨端
+- [hit](./tool-hit-flutter.md) — `Tool` — Flutter 命中区扩展示例库：视觉尺寸与触摸区解耦，遵循 Apple HIG / Material ≥44pt
+- [MaidKit](./tool-maidkit.md) — `Tool` — Flutter 跨平台 SSH 服务器管理器，零服务端安装
+- [YAFA](./tool-yafa.md) — `Tool` — 面向 Clean Architecture 新手的 .NET SRS 闪卡应用，代码清晰可读
+
+### 本地 LLM
+- [Swiftlet](./tool-swiftlet.md) — `Tool` — Apple 设备上流式运行 35B / 80B Qwen MoE，峰值内存 2.6GB / 4.3GB（SSD 流式取回专家）
+
+### MCP 工具
+- [gmail-mcp](./tool-gmail-mcp.md) — `Tool` — 把 Gmail 接到 Claude 等 MCP 客户端，自托管 Cloudflare Worker，多 Google 账号
+
+### 远程终端 / SSH
+- [Remux](./tool-remux-ios.md) — `Tool` — iOS 原生 tmux 远程管理：Ghostty 渲染 + 直连 SSH + iOS Keychain 存密钥
+
+### 怀旧 / 玩具
+- [zhuzhiliao（竹知了）](./tool-zhuzhiliao.md) — `Tool` — 单文件零依赖 HTML 还原传统竹知了「一转就哇哇叫」玩法，断网可玩
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @QingQ77「Qwen MoE 流式」Swiftlet (2085174723466666322) — 与同日 QingQ77 主帖 (2085172755553747284) 重复，原始来源已入 `tool-swiftlet.md`，按「概念已存在且资料无新增信息」跳过
+- QingQ77「好玩刺激」+ 视频 (2085217343681245690) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「DIY 自动追踪灭火器🤩」+ 视频 (2085243835979083779) — 短语 + 短视频，无可提取工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「仙王裹尸布从来不看这些玩意」+ 视频 (2085312119931818425) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「前 30 秒就泪崩了，不看了，扛不住。」+ 图片 (2085210609466097862) — 短语 + 图片，纯情绪反应，按「质量门槛」跳过
+- QingQ77「真是佩服这些设计师的脑洞，男人的玩具。」+ 视频 (2085234001787359587) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「你儿子香晕了吧～」+ 视频 (2085206886673179005) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「我了个雷霆大嘴鱼」+ 视频 (2085366032265527624) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「国产新能源第四代大飞碟……」+ 视频 (2085355231169380419) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
