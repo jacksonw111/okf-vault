@@ -1548,3 +1548,38 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「你儿子香晕了吧～」+ 视频 (2085206886673179005) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「我了个雷霆大嘴鱼」+ 视频 (2085366032265527624) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「国产新能源第四代大飞碟……」+ 视频 (2085355231169380419) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-07）
+
+### AI / Agent 生态
+- [RepoPilot](./tool-repopilot.md) — `Tool` — 把软件项目从需求到验收交给模拟产品 / 架构 / 开发 / 测试等角色的 LangGraph Agent 协作体跑完
+- [Codex Standard Devflow](./playbook-codex-standard-devflow.md) — `Playbook` — 把 Codex 跑大型项目拆成阶段管线 + G0–G5 五道门禁，装成 skill 复用
+- [oh-my-cli](./tool-oh-my-cli.md) — `Tool` — Node.js 22 + TS + ESM 写的小型代码智能体，OpenAI 兼容，自带工作区隔离
+- [Liyuan（梨园）](./tool-liyuan.md) — `Tool` — 用 AI Agent 架构重构角色扮演：记忆账本 + 决策卡 + 自建面板 + 世界线存档，每轮省 53%–63% 上下文
+- [Human Writing Skill](./playbook-human-writing.md) — `Playbook` — 把「去掉 AI 味」做成 Agent skill：固化判断 / 节奏 / 口吻，输出带人味的中文
+
+### 本地 LLM / 推理
+- [Ghostlink](./tool-ghostlink.md) — `Tool` — Rust 写的分布式 LLM 推理平台，自动发现局域网异构设备（GPU / NPU / Mac），llama.cpp RPC 拼出集群，OpenAI 兼容 API + GUI
+- [《深入理解 AI Agent》（chemark 版）](./note-ai-agent-book-chemark.md) — `Note` — 与 bojieli 同主题、同公式的另一份中文 AI Agent 开源电子书
+
+### 桌面 / 系统工具
+- [Ghostty Studio](./tool-ghostty-studio.md) — `Tool` — macOS 上的 Ghostty 可视化配置工具（Tauri + TS），自动定位配置 / 按版本加载设置 / 视觉项上下文预览
+- [Salience](./tool-salience-macos.md) — `Tool` — macOS 桌面应用：跟踪 git 分支把 PR / 工单 / CI / 容器 / 部署连成一张图，按紧急度生成 situations 提醒
+
+### 浏览器 / Web 工具
+- [WebChat](./tool-webchat.md) — `Tool` — 去中心化浏览器扩展，把任意网页临时变成公共聊天室，消息走 WebRTC 点对点加密，无中心服务器
+- [macOS Web](./tool-macos-web.md) — `Tool` — 一个不带构建步骤、不依赖框架的 HTML 文件在浏览器里复刻 macOS 桌面：窗口管理 + Dock + 菜单栏 + 30 个应用
+- [Sparkfetch](./tool-sparkfetch.md) — `Tool` — 把任意 URL 的杂乱 HTML 转成干净、带元数据的 Markdown / JSON / 纯文本，省去 RAG 管线自己清洗
+- [Deepclone Website](./tool-deepclonewebsite.md) — `Tool` — 任务式全自动网站克隆工具：用真实浏览器登录后爬取重建离线站，AI 逆推产品结构 / 数据模型 / 后端接口 / 设计系统四份 Markdown
+
+### 终端 / 开发者工具
+- [Postcat](./tool-postcat.md) — `Tool` — Rust + ratatui 写的终端 HTTP 调试 TUI，覆盖方法 / URL / 请求头 / 三种请求体，SSE / 分块响应实时绘制可滚可停
+
+### 邮件 / 自托管
+- [Mailworker](./tool-mailworker.md) — `Tool` — 跑在 Cloudflare Workers 上的自托管邮件运行时：产品用类 Resend 的 REST 发件，Agent 用 CLI 收件 / 等 OTP / 起草回复，关键发送由人批准
+- [iCloud Create Workbench](./tool-icloud-create-workbench.md) — `Tool` — 自建控制台批量管理 iCloud 隐藏邮箱：批量创建 + 库存 + 邮件同步，靠 Cookie 自动驱动
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「竹知了更新，好好好。」+ 视频 (2085555538461589755) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「3D加速设计业」+ 视频 (2085585057083978062) — 三字短语 + 短视频，无可提取概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「发生肾么事了😅」+ 视频 (2085706803791446247) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过

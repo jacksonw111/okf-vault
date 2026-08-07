@@ -1416,3 +1416,38 @@ timestamp: "2026-06-26T16:50:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - Wen_Zw RT @QingQ77「Qwen MoE 流式」Swiftlet (2085174723466666322) — 与同日主帖重复，原始来源已入 `tool-swiftlet.md`，按「概念已存在且资料无新增信息」跳过
 - QingQ77 8 条短语 + 短视频 / 图片（好玩刺激 / DIY灭火器 / 仙王裹尸布 / 前30秒泪崩 / 男人的玩具 / 你儿子香晕 / 雷霆大嘴鱼 / 大飞碟）— 纯情绪反应或无关内容，按「质量门槛」跳过
+
+## 本批新增（2026-08-07）
+
+### AI / Agent 生态
+- [RepoPilot](concepts/tool-repopilot.md) — 把软件项目从需求到验收交给模拟产品 / 架构 / 开发 / 测试等角色的 LangGraph Agent 协作体跑完
+- [Codex Standard Devflow](concepts/playbook-codex-standard-devflow.md) — 把 Codex 跑大型项目拆成阶段管线 + G0–G5 五道门禁，装成 skill 复用
+- [oh-my-cli](concepts/tool-oh-my-cli.md) — Node.js 22 + TS + ESM 写的小型代码智能体，OpenAI 兼容，自带工作区隔离
+- [Liyuan（梨园）](concepts/tool-liyuan.md) — AI Agent 架构重构角色扮演：记忆账本 + 决策卡 + 自建面板 + 世界线存档
+- [Human Writing Skill](concepts/playbook-human-writing.md) — 把「去掉 AI 味」做成 Agent skill，固化判断 / 节奏 / 口吻
+
+### 本地 LLM / 推理
+- [Ghostlink](concepts/tool-ghostlink.md) — Rust 写的分布式 LLM 推理平台，自动发现局域网异构设备，llama.cpp RPC 拼出集群
+- [《深入理解 AI Agent》（chemark 版）](concepts/note-ai-agent-book-chemark.md) — 与 bojieli 同主题、同公式的另一份中文 AI Agent 开源电子书
+
+### 桌面 / 系统工具
+- [Ghostty Studio](concepts/tool-ghostty-studio.md) — macOS 上的 Ghostty 可视化配置工具（Tauri + TS），自动定位配置 + 视觉项上下文预览
+- [Salience](concepts/tool-salience-macos.md) — macOS 桌面应用，跟踪 git 把 PR / 工单 / CI / 容器 / 部署连成图，按紧急度生成 situations 提醒
+
+### 浏览器 / Web 工具
+- [WebChat](concepts/tool-webchat.md) — 去中心化浏览器扩展，把任意网页变成公共聊天室，消息走 WebRTC 点对点加密
+- [macOS Web](concepts/tool-macos-web.md) — 一个 HTML 文件在浏览器里复刻 macOS 桌面：窗口管理 + Dock + 菜单栏 + 30 个应用
+- [Sparkfetch](concepts/tool-sparkfetch.md) — 把任意 URL 的杂乱 HTML 转成干净、带元数据的 Markdown / JSON / 纯文本
+- [Deepclone Website](concepts/tool-deepclonewebsite.md) — 任务式全自动网站克隆：真实浏览器登录 + 离线重建 + AI 逆推四份 Markdown 文档
+
+### 终端 / 开发者工具
+- [Postcat](concepts/tool-postcat.md) — Rust + ratatui 写的终端 HTTP 调试 TUI，SSE / 分块响应实时绘制
+
+### 邮件 / 自托管
+- [Mailworker](concepts/tool-mailworker.md) — Cloudflare Workers 上的自托管邮件运行时：REST 发件 + CLI 收件 + 关键发送人批准
+- [iCloud Create Workbench](concepts/tool-icloud-create-workbench.md) — 自建控制台批量管理 iCloud 隐藏邮箱，靠 Cookie 自动驱动
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「竹知了更新，好好好。」+ 视频 (2085555538461589755) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「3D加速设计业」+ 视频 (2085585057083978062) — 三字短语 + 短视频，无可提取信息，按「质量门槛」跳过
+- QingQ77「发生肾么事了😅」+ 视频 (2085706803791446247) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
