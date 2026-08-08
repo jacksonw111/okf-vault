@@ -1583,3 +1583,77 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「竹知了更新，好好好。」+ 视频 (2085555538461589755) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「3D加速设计业」+ 视频 (2085585057083978062) — 三字短语 + 短视频，无可提取概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「发生肾么事了😅」+ 视频 (2085706803791446247) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-08，断链修复 stub）
+
+为修复 `inbox/_broken-links.md` 校验器列出的 22 条断链，新建以下 22 个 stub 概念。每条均带 `type` frontmatter，含原始 URL / 项目链接，遵循「概念文件都在 `concepts/` 同一层」的链接纪律。
+
+### 工具（Tools）
+- [HTTrack](./tool-httrack.md) — `Tool` — 经典离线整站镜像工具，递归抓取整个网站到本地，不处理登录墙与 JS 渲染
+- [Firecrawl](./tool-firecrawl.md) — `Tool` — 面向 AI / RAG 的网页抓取清洗 SaaS，支持 JS 渲染与 JSON Schema 抽取
+- [llama.cpp](./tool-llama-cpp.md) — `Tool` — Georgi Gerganov 主导的本地 LLM 推理引擎，GGUF + CPU/GPU/Metal
+- [Ghostty](./tool-ghostty.md) — `Tool` — Mitchell Hashimoto 主导的高性能终端模拟器，原生 UI + GPU 加速
+- [SimpleLogin](./tool-simplelogin.md) — `Tool` — 开源邮件别名服务，Proton 收购后继续开源
+- [Win11 Web](./tool-win11-web.md) — `Tool` — 单 HTML 文件浏览器内复刻 Win11 桌面
+- [Windows 98 in Browser](./tool-win98-browser.md) — `Tool` — 浏览器内复刻 Windows 98 桌面，怀旧项目
+- [Resend](./tool-resend.md) — `Tool` — 面向开发者的事务邮件 API，React Email 团队
+- [Cloudflare Workers](./tool-cloudflare-workers.md) — `Tool` — 边缘无服务器计算平台，全球 300+ 节点
+- [Codex CLI](./tool-codex-cli.md) — `Tool` — OpenAI 推出的终端 AI 编码 Agent
+- [HTTPie](./tool-httpie.md) — `Tool` — 命令行 HTTP 客户端，curl 的现代友好替代
+- [Bruno](./tool-bruno.md) — `Tool` — 开源本地优先 API 客户端，API 集合以纯文本存储、Git 友好
+- [LangGraph](./tool-langgraph.md) — `Tool` — LangChain 团队的 Agent 编排框架，图结构描述多 Agent
+- [GitButler](./tool-gitbutler.md) — `Tool` — Git 版本控制桌面客户端，虚拟分支多任务并行
+- [Jina Reader](./tool-jina-reader.md) — `Tool` — r.jina.ai 在线 URL → Markdown 服务
+- [Briar](./tool-briar.md) — `Tool` — 去中心化加密消息应用，Tor / Wi-Fi / 蓝牙三模互联
+
+### 术语（Terms）
+- [Apple Hide My Email](./term-apple-hide-my-email.md) — `Term` — iCloud+ 内置的隐私邮箱别名服务
+- [Story Engine](./term-story-engine.md) — `Term` — 以世界线 / 决策卡 / 持久化状态驱动故事的总称
+- [WebRTC](./term-webrtc.md) — `Term` — Web Real-Time Communication，浏览器原生 P2P 实时通信协议
+
+### 笔记（Notes）
+- [Single File Web Apps](./note-single-file-web.md) — `Note` — 「无构建 / 无框架 / 单 HTML 文件」风格的代表性项目集
+- [Markdown Fetch Protocol](./note-markdown-fetch-protocol.md) — `Note` — 把 URL 抽成 Markdown 作为 AI 友好中间表示的思路与工具集合
+
+## 本批新增（2026-08-08）
+
+### 前端 / 设计资源
+- [Kage (MengTo)](./tool-kage-mengto.md) — `Tool` — MengTo 开源的「3D 滚动世界」landing page，< 1MB three.js 代码演示每段滚动 = 一次 3D 场景穿行
+
+### 自托管 / 工具
+- [hbkit](./tool-hbkit.md) — `Tool` — Python 写的 Synology Hyper Backup（.hbk）归档还原工具，不装 Synology 软件、CLI + TUI、MD5 + CRC32 校验
+- [portfolio-os](./tool-portfolio-os.md) — `Tool` — PHP + MySQL 写的「合伙运营多站点」自托管工作台，站点 / 密码 / 任务 / 人员 / 账目集中管理
+
+### AI / Agent 生态
+- [trycompai/crm](./tool-trycompai-crm.md) — `Tool` — AI Agent 驱动的 CRM，独立部署的 agent 自动查证客户、记录跟进，研究预算耗尽自停
+- [OpenChatCut](./tool-openchatcut.md) — `Tool` — 对话式 AI Agent + 专业多轨时间线同一本地工程，让 Codex / Claude Code 直接剪辑并导出真实视频项目
+
+### 桌面 / 系统工具
+- [Loopweek](./tool-loopweek.md) — `Tool` — Android 极简周待办应用，一屏放下 7 天、无账号 / 云同步 / 广告 / 追踪
+- [大肥鱼宠物 (DeepSeek 桌宠)](./tool-dafeiyu-pet.md) — `Tool` — Python + PySide6 写的透明桌面宠物，主角 DeepSeek V4 Pro 二创角色「鲸鱼娘·大肥鱼」
+- [clabar](./tool-clabar.md) — `Tool` — macOS 菜单栏小工具，把 Claude 用量（5 小时 / 每周 / 按模型）与 Claude Code 会话状态搬到菜单栏 + 系统通知
+
+### Skills / 内容 / 营销
+- [小马杜蕾斯文案 Skill](./tool-xiaoma-durex-copywriter.md) — `Tool` — Claude Code 用的 Skill，把杜蕾斯 2011–2017 「双层语义」文案方法拆成 8 公式 + 260 张原图拆解
+- [100x Learning](./tool-100x-learning.md) — `Tool` — 按 Agent Skills 开放格式写的学习 / 内容 Skill，八类任务分工 + 明确停手位置
+
+### 终端 / 网络 / 系统管理
+- [Tower (VPN Subscription)](./tool-tower-vpn.md) — `Tool` — iPhone 上的机场订阅与节点管理 App，本机转 Surge / Clash / Shadowrocket / Loon / Quantumult X 配置
+- [dotfiles-manager](./tool-dotfiles-manager.md) — `Tool` — Rust 写的 dotfiles 同步工具，profile 机制 + backup/restore/check 三命令 + 敏感文件加密
+- [iGloo](./tool-igloo-windows-linux.md) — `Tool` — Windows → Linux 现场迁移工具，自动分区收缩 / 装 Linux / 搬数据，无需 U 盘 / 光盘
+- [zrk](./tool-zrk.md) — `Tool` — 用 Zig 重写 wrk2 的 HTTP 压测工具，纳秒粒度调度 + 恒定 / 线性吞吐量
+
+### 后端 / 部署 / 自托管
+- [LSPanel](./tool-lspanel.md) — `Tool` — Tauri 搭的 PHP 本地开发环境桌面面板，Docker / DB / HTTPS / 邮件捕获 / 备份统一管理
+
+### 物联网 / 智能硬件
+- [ESP32 FluidBox](./tool-esp32-fluidbox.md) — `Tool` — Waveshare ESP32-S3 上跑的 3D 粒子流体模拟，倾斜 / 晃动板子液体跟着流
+
+### 金融 / 数据
+- [Valutio](./tool-valutio.md) — `Tool` — 免费开源、本地优先的个人理财浏览器 PWA，净资产 / 投资 / 账户 / 现金流 / 税务 / 退休，数据默认仅存本地
+
+### 视频 / 影像
+- [KeyboardWarrior](./tool-keyboardwarrior.md) — `Tool` — Rust 写的节奏打字游戏，把 Guitar Hero 玩法改成按节拍敲字母，兼容 Clone Hero / YARG 谱面
+
+### 阅读 / 资源
+- [FDE 完整指南 (范冰)](./note-fde-guidance-book.md) — `Note` — 范冰公开的免费电子书：硅谷「前线部署工程师」(FDE) 三部分拆解 + 150 个可核查案例

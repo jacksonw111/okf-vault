@@ -1451,3 +1451,75 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「竹知了更新，好好好。」+ 视频 (2085555538461589755) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「3D加速设计业」+ 视频 (2085585057083978062) — 三字短语 + 短视频，无可提取信息，按「质量门槛」跳过
 - QingQ77「发生肾么事了😅」+ 视频 (2085706803791446247) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+
+## 本批新增（2026-08-08，断链修复 stub）
+
+为修复 `inbox/_broken-links.md` 校验器列出的 22 条断链，新建 22 个 stub 概念。
+
+### 工具（Tools）
+- [HTTrack](concepts/tool-httrack.md) — 经典离线整站镜像工具
+- [Firecrawl](concepts/tool-firecrawl.md) — 面向 AI / RAG 的网页抓取清洗 SaaS
+- [llama.cpp](concepts/tool-llama-cpp.md) — 本地 LLM 推理引擎
+- [Ghostty](concepts/tool-ghostty.md) — 高性能终端模拟器
+- [SimpleLogin](concepts/tool-simplelogin.md) — 开源邮件别名服务
+- [Win11 Web](concepts/tool-win11-web.md) — 单 HTML 文件复刻 Win11 桌面
+- [Windows 98 in Browser](concepts/tool-win98-browser.md) — 浏览器内复刻 Win98 桌面
+- [Resend](concepts/tool-resend.md) — 开发者事务邮件 API
+- [Cloudflare Workers](concepts/tool-cloudflare-workers.md) — 边缘无服务器计算平台
+- [Codex CLI](concepts/tool-codex-cli.md) — OpenAI 终端 AI 编码 Agent
+- [HTTPie](concepts/tool-httpie.md) — curl 的现代友好替代
+- [Bruno](concepts/tool-bruno.md) — 开源本地优先 API 客户端
+- [LangGraph](concepts/tool-langgraph.md) — LangChain 的 Agent 编排框架
+- [GitButler](concepts/tool-gitbutler.md) — 虚拟分支 Git 桌面客户端
+- [Jina Reader](concepts/tool-jina-reader.md) — URL → Markdown 在线服务
+- [Briar](concepts/tool-briar.md) — 去中心化加密消息应用
+
+### 术语（Terms）
+- [Apple Hide My Email](concepts/term-apple-hide-my-email.md) — iCloud+ 内置隐私邮箱别名
+- [Story Engine](concepts/term-story-engine.md) — 决策卡 / 世界线驱动的叙事引擎总称
+- [WebRTC](concepts/term-webrtc.md) — 浏览器原生 P2P 实时通信协议
+
+### 笔记（Notes）
+- [Single File Web Apps](concepts/note-single-file-web.md) — 无构建 / 无框架 / 单文件 Web 项目风格合集
+- [Markdown Fetch Protocol](concepts/note-markdown-fetch-protocol.md) — 把 URL 抽成 Markdown 作为 AI 友好中间表示的思路
+
+## 本批新增（2026-08-08）
+
+### 前端 / 设计资源
+- [Kage (MengTo)](concepts/tool-kage-mengto.md) — MengTo 开源「3D 滚动世界」landing page，< 1MB three.js
+
+### AI / Agent 生态
+- [trycompai/crm](concepts/tool-trycompai-crm.md) — AI Agent 驱动的 CRM，研究预算耗尽自停
+- [OpenChatCut](concepts/tool-openchatcut.md) — 对话式 AI Agent + 多轨时间线同一本地视频工程
+
+### 桌面 / 系统工具
+- [Loopweek](concepts/tool-loopweek.md) — Android 极简周待办，一屏 7 天、零账号零追踪
+- [大肥鱼宠物](concepts/tool-dafeiyu-pet.md) — DeepSeek 二创透明桌面宠物
+- [clabar](concepts/tool-clabar.md) — macOS 菜单栏 Claude 用量 + 会话状态监控
+
+### Skills / 内容 / 营销
+- [小马杜蕾斯文案 Skill](concepts/tool-xiaoma-durex-copywriter.md) — Claude Code Skill，杜蕾斯文案方法可复用化
+- [100x Learning](concepts/tool-100x-learning.md) — Agent Skills 协议的学习 / 内容 Skill
+
+### 终端 / 系统管理
+- [Tower (VPN Subscription)](concepts/tool-tower-vpn.md) — iPhone 机场订阅 / 节点本机转换
+- [dotfiles-manager](concepts/tool-dotfiles-manager.md) — Rust dotfiles 同步工具
+- [iGloo](concepts/tool-igloo-windows-linux.md) — Windows → Linux 现场迁移
+- [zrk](concepts/tool-zrk.md) — Zig 重写 wrk2 的恒定吞吐量 HTTP 压测
+
+### 自托管 / 工具
+- [hbkit](concepts/tool-hbkit.md) — Python Synology Hyper Backup 还原工具
+- [portfolio-os](concepts/tool-portfolio-os.md) — PHP + MySQL 合伙运营多站点工作台
+- [LSPanel](concepts/tool-lspanel.md) — Tauri PHP 本地开发环境面板
+
+### 物联网 / 智能硬件
+- [ESP32 FluidBox](concepts/tool-esp32-fluidbox.md) — Waveshare ESP32-S3 3D 粒子流体
+
+### 金融 / 数据
+- [Valutio](concepts/tool-valutio.md) — 本地优先浏览器 PWA 个人理财
+
+### 视频 / 影像
+- [KeyboardWarrior](concepts/tool-keyboardwarrior.md) — Rust 节奏打字游戏，兼容 Clone Hero 谱面
+
+### 阅读 / 资源
+- [FDE 完整指南 (范冰)](concepts/note-fde-guidance-book.md) — 范冰公开免费电子书：硅谷 FDE 岗位研究 + 150 案例
