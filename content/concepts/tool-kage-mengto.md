@@ -34,4 +34,4 @@ Kage 是 MengTo 开源的一套「3D 滚动世界」landing page 实现：把整
 
 - [three.js](./term-three-js.md) — 底层 WebGL 库
 - [Heroicons Animated](./tool-heroicons-animated.md) — 同属「小体量 + 高完成度」的 Web 视觉资源
-- [Solar Wanderer](./tool-solar-wander.md) — 同样 WebGL 重头戏的浏览器内 3D 模拟器
+- [Solar Wanderer](./tool-solar-wanderer.md) — 同样 WebGL 重头戏的浏览器内 3D 模拟器

@@ -1523,3 +1523,57 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 阅读 / 资源
 - [FDE 完整指南 (范冰)](concepts/note-fde-guidance-book.md) — 范冰公开免费电子书：硅谷 FDE 岗位研究 + 150 案例
+
+## 本批新增（2026-08-09 断链修复）
+
+### 工具（Tools — 补建断链 stub）
+- [rclone](concepts/tool-rclone.md) — 「云存储版 rsync」，70+ 后端同步 / mount / crypt
+- [Ollama](concepts/tool-ollama.md) — 基于 llama.cpp 的本地 LLM 一键启动器，OpenAI 兼容 HTTP
+- [wrk2](concepts/tool-wrk2.md) — wrk 的恒定吞吐量分支，HdrHistogram 输出真实 P99
+- [Locust](concepts/tool-locust.md) — Python 写用户行为的 HTTP 负载测试工具
+- [k6](concepts/tool-k6.md) — Grafana Labs 现代化负载测试，JS 写场景
+
+### 术语（Terms — 补建断链 stub）
+- [three.js](concepts/term-three-js.md) — 浏览器端 3D / WebGL 事实标准底层
+- [Synology Hyper Backup](concepts/term-synology-hyper-backup.md) — 群晖官方备份套件，`.hbk` 归档 + 块级去重 + 加密
+
+### 笔记（Notes — 补建断链 stub）
+- [Self-hosted 备份方案](concepts/note-self-hosted-backup.md) — 自托管备份选型参考：3-2-1 原则 / 工具矩阵 / 常见误区
+
+### 修正（Fixed）
+- `tool-kage-mengto.md` 中原本断链的 `./tool-solar-wander.md`（拼写与现有概念 `./tool-solar-wanderer.md` 不一致）已改为指向现有概念，避免重复建条
+
+## 本批新增（2026-08-09）
+
+### AI / Agent 生态
+- [tokentab](concepts/tool-tokentab.md) — 本地 CLI 扫描 Claude Code / Codex / Cursor / Gemini CLI 会话日志，token 用量与花费按维度拆分
+- [mycontext](concepts/tool-mycontext.md) — 把散落的 IM / 文档 / 日历 / 会议信息整理成 AI 直接可用的私有上下文
+
+### 前端 / 设计资源
+- [PrismSystem](concepts/tool-prism-system.md) — 「白标」设计系统，喂品牌输入自动生成全套对得上品牌调的 UI
+- [react-native-jelly-tabs](concepts/tool-react-native-jelly-tabs.md) — 果冻质感 React Native 动画标签栏，可接 Expo Router / React Navigation
+
+### 终端 / 系统 / 网络
+- [sumlyzer](concepts/tool-sumlyzer.md) — npm workspace 测试增强，聚合 / fail-fast / 并发 / JUnit
+- [caffyne-shell](concepts/tool-caffyne-shell.md) — Python + GTK + Fabric 写的 Wayland 桌面外壳
+
+### 桌面 / 系统工具
+- [macos-disk-cleanup](concepts/tool-macos-disk-cleanup.md) — macOS 只读磁盘扫描脚本，按危险分级列出可疑「系统资料」
+- [appmop](concepts/tool-appmop.md) — macOS 终端应用 + Library 残留清理工具
+- [DeskChan](concepts/tool-deskchan.md) — Windows 桌面「栅栏」工具（Fences 开源替身）
+- [wfdash](concepts/tool-wfdash.md) — `/wayfinder` 任务地图的本地浏览器仪表盘
+
+### 自托管 / 网络 / VPS
+- [WARP-Manager](concepts/tool-warp-manager.md) — 纯 Bash VPS 工具，nftables TPROXY + sing-box 域名级 WARP 路由
+
+### 编程语言 / 底层
+- [asm-hall-of-shame](concepts/tool-asm-hall-of-shame.md) — xoreaxeaxeax（movfuscator 作者）的「汇编指令延迟耻辱柱」
+
+### AI 语音 / 消息处理
+- [SkipTheVoice](concepts/tool-skip-the-voice.md) — WhatsApp 语音消息转写工具，Web + CLI 双形态，自托管 Whisper
+
+### 视觉 / 通知
+- [cc-planet](concepts/tool-cc-planet.md) — 飞机横幅动画通知工具，CI/CD 与日常提醒「一眼可见」
+
+### 成长 / 方向探索
+- [becoming-lab](concepts/tool-becoming-lab.md) — 对话式 AI 工作流，把迷茫拆七种卡住状态，按三类证据形成方向假设

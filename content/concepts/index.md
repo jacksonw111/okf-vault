@@ -1657,3 +1657,61 @@ timestamp: "2026-07-27T20:30:00Z"
 
 ### 阅读 / 资源
 - [FDE 完整指南 (范冰)](./note-fde-guidance-book.md) — `Note` — 范冰公开的免费电子书：硅谷「前线部署工程师」(FDE) 三部分拆解 + 150 个可核查案例
+
+## 本批新增（2026-08-09 断链修复）
+
+### 工具（Tools — 补建断链 stub）
+- [rclone](./tool-rclone.md) — `Tool` — 「云存储版 rsync」，70+ 后端同步 / mount / crypt
+- [Ollama](./tool-ollama.md) — `Tool` — 基于 llama.cpp 的本地 LLM 一键启动器，OpenAI 兼容 HTTP
+- [wrk2](./tool-wrk2.md) — `Tool` — wrk 的恒定吞吐量分支，HdrHistogram 输出真实 P99
+- [Locust](./tool-locust.md) — `Tool` — Python 写用户行为的 HTTP 负载测试工具
+- [k6](./tool-k6.md) — `Tool` — Grafana Labs 现代化负载测试，JS 写场景
+
+### 术语（Terms — 补建断链 stub）
+- [three.js](./term-three-js.md) — `Term` — 浏览器端 3D / WebGL 事实标准底层
+- [Synology Hyper Backup](./term-synology-hyper-backup.md) — `Term` — 群晖官方备份套件，`.hbk` 归档 + 块级去重 + 加密
+
+### 笔记（Notes — 补建断链 stub）
+- [Self-hosted 备份方案](./note-self-hosted-backup.md) — `Note` — 自托管备份选型参考：3-2-1 原则 / 工具矩阵 / 常见误区
+
+### 修正（Fixed）
+- `tool-kage-mengto.md` 中原本断链的 `./tool-solar-wander.md`（拼写与现有概念 `./tool-solar-wanderer.md` 不一致）已改为指向现有概念，避免重复建条
+
+## 本批新增（2026-08-09）
+
+### AI / Agent 生态
+- [tokentab](./tool-tokentab.md) — `Tool` — 本地 CLI 扫描 Claude Code / Codex / Cursor / Gemini CLI 会话日志，token 用量与花费按模型 / 项目 / 日期 / 任务类别四维度拆分
+- [mycontext](./tool-mycontext.md) — `Tool` — 把散落在 IM / 文档 / 日历 / 会议里的工作信息整理成私有的个人上下文，让 AI 直接基于它工作
+
+### 前端 / 设计资源
+- [PrismSystem](./tool-prism-system.md) — `Tool` — 「白标」设计系统，喂品牌输入（颜色 / 字体 / logo / Figma）自动生成全套对得上品牌调的 Web / 移动 / 原生 UI
+- [react-native-jelly-tabs](./tool-react-native-jelly-tabs.md) — `Tool` — 果冻质感 React Native 动画标签栏，原生实现，可接 Expo Router / React Navigation
+
+### 终端 / 系统 / 网络
+- [sumlyzer](./tool-sumlyzer.md) — `Tool` — npm workspace 测试增强：聚合摘要 / fail-fast / 并发 / JUnit 报告
+- [caffyne-shell](./tool-caffyne-shell.md) — `Tool` — Python + GTK + Fabric 写的 Wayland 桌面外壳，15 个内置 applet + Matugen 壁纸取色 Material You
+
+### 桌面 / 系统工具
+- [macos-disk-cleanup](./tool-macos-disk-cleanup.md) — `Tool` — macOS 只读磁盘扫描脚本，按危险分级列出可疑「系统资料」，覆盖 ~/.cache/uv 等包管理器缓存
+- [appmop](./tool-appmop.md) — `Tool` — macOS 终端应用 + Library 残留清理工具，勾选后一键丢废纸篓
+- [DeskChan](./tool-deskchan.md) — `Tool` — Windows 桌面「栅栏」工具，把零散图标收进可拖拽分组（Fences 开源替身）
+- [wfdash](./tool-wfdash.md) — `Tool` — `/wayfinder` 任务地图的本地浏览器仪表盘，看哪些事现在需要你 / 哪些可以放着跑
+
+### 自托管 / 网络 / VPS
+- [WARP-Manager](./tool-warp-manager.md) — `Tool` — 纯 Bash VPS 工具，nftables TPROXY + sing-box 拦截出站 HTTPS，域名级决策是否走 Cloudflare WARP
+
+### 编程语言 / 底层
+- [asm-hall-of-shame](./tool-asm-hall-of-shame.md) — `Tool` — xoreaxeaxeax（movfuscator 作者）的「汇编指令延迟耻辱柱」，专门记录单条 x86 指令最坏延迟
+
+### AI 语音 / 消息处理
+- [SkipTheVoice](./tool-skip-the-voice.md) — `Tool` — WhatsApp 语音消息转写工具，Web + CLI 双形态，只挑「按住说话」录下的语音，自托管 OpenAI Whisper
+
+### 视觉 / 通知 / 玩具
+- [cc-planet](./tool-cc-planet.md) — `Tool` — 飞机横幅动画通知工具，把 CI/CD 构建结果与日常提醒做成一眼可见的高抢眼度通知
+
+### 成长 / 方向探索
+- [becoming-lab](./tool-becoming-lab.md) — `Tool` — 对话式 AI 工作流，把「我不知道想要什么」拆成七种卡住状态，按三类证据形成 2–3 个方向假设
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「借我玩玩🤣」+ 视频 (2086377938212307120) — 纯情绪反应短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 0xwilliamortiz/claude-red (2086475338734076196) — Claude 攻防安全技能包，描述明确提到「SQL 注入、EDR 逃逸」等红队 / 渗透场景，与 2026-08-08 批已跳过的 Furtex / conversation-steganography / AutoPentest Go 同属「安全研究 / 攻击面专用」工具，与本知识库主线（AI / Agent / 开发工具）不匹配，按「质量门槛」跳过
