@@ -1715,3 +1715,37 @@ timestamp: "2026-07-27T20:30:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - QingQ77「借我玩玩🤣」+ 视频 (2086377938212307120) — 纯情绪反应短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77 0xwilliamortiz/claude-red (2086475338734076196) — Claude 攻防安全技能包，描述明确提到「SQL 注入、EDR 逃逸」等红队 / 渗透场景，与 2026-08-08 批已跳过的 Furtex / conversation-steganography / AutoPentest Go 同属「安全研究 / 攻击面专用」工具，与本知识库主线（AI / Agent / 开发工具）不匹配，按「质量门槛」跳过
+
+## 本批新增（2026-08-10）
+
+### AI / Agent 生态
+- [Lupin](./tool-lupin.md) — `Tool` — Claude Code 整套壳借给别的模型用，MCP / Skills / CLAUDE.md / hooks 原样保留，带会话评分工具
+- [modeldock](./tool-modeldock.md) — `Tool` — Codex CLI 本地 Responses 桥，给 DeepSeek 补识图 / 语音 / 联网搜索 / 跨会话记忆，GPT 透传
+- [codex-bridge](./tool-codex-bridge.md) — `Tool` — 把 Codex CLI 里 ChatGPT 登录借给 Claude，gpt-image-2 出图 + GPT-5 子代理
+- [PixelVault Desktop](./tool-pixelvault-desktop.md) — `Tool` — 复制图片自动换成托管 URL，给只收文本的云端编程 agent 看图
+
+### 前端 / 设计 / 视觉
+- [ComfyUI Cable Management](./tool-comfyui-cable-management.md) — `Tool` — 把节点连线当电路板自动布线，复杂 ComfyUI 工作流视觉清爽
+- [Holosticker](./tool-holosticker.md) — `Tool` — 浏览器内镭射 / 全息贴纸工作室，丢 SVG/PNG 调箔面 + 透明 PNG 导出
+
+### 桌面 / 系统工具
+- [GitDesktop](./tool-gitdesktop.md) — `Tool` — Tauri 2 + React 19 桌面 Git 客户端，走 gh CLI 不申请 OAuth，PR 全生命周期 + Actions 内置
+- [DisplayHotKeys](./tool-display-hotkeys.md) — `Tool` — Windows 自定义热键切换显示器分辨率 / 刷新率 / 缩放 / DPI / 方向
+- [SoundWatch](./tool-soundwatch.md) — `Tool` — Rust 写的终端音频诊断工具，十标签页 + Insights 人话建议（NetWatch 系列音频分支）
+- [Emeraldian](./tool-emeraldian.md) — `Tool` — Rust 写的 Obsidian 风格终端 UI，三栏布局 + 反向链接 + 力导向图 + 18 套主题
+
+### 数据 / IDE / AI 创作
+- [QuackWrangler](./tool-quackwrangler.md) — `Tool` — DuckDB 内置进 VS Code 扩展，无 Python 环境对 CSV / Parquet / JSON 做 SQL 清洗
+
+### 物联网 / 智能硬件
+- [Gemma Translator](./tool-gemma-translator.md) — `Tool` — 树莓派等本地设备上的完全离线实时语音翻译（Gemma 4 + LiteRT-LM），480x320 小屏复古终端 UI + 3D 打印外壳
+
+### iOS 开发 / 测试
+- [location-spoofer](./tool-location-spoofer.md) — `Tool` — iOS 定位调试代理，拦截 Apple 定位响应让 QA 不改 App 代码就能模拟任意坐标 / 路径
+
+### 更新（Updated）
+- [Kage (MengTo)](./tool-kage-mengto.md) — `Tool` — 补充「生成式图像叠层」+「京都山寺夜间漫游」实例图 + 单 HTML 文件无需构建的特征
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT baairon/torlink (2086661929851109761) — 概念 `tool-torlink` 已于 2026-06-28 批建立完整文件，本次仅 RT 同一项目，无新增信息，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+- QingQ77「国产的光学加热成像融合技术，感觉很能打了。」+ 视频 (2086667003398697272) — 短语 + 短视频，纯情绪反应无可提取的工具 / 概念 / 项目信息，按「质量门槛」跳过

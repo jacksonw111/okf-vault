@@ -1577,3 +1577,33 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 成长 / 方向探索
 - [becoming-lab](concepts/tool-becoming-lab.md) — 对话式 AI 工作流，把迷茫拆七种卡住状态，按三类证据形成方向假设
+
+## 本批新增（2026-08-10）
+
+### AI / Agent 生态
+- [Lupin](concepts/tool-lupin.md) — Claude Code 整套壳借给别的模型用，MCP / Skills / CLAUDE.md / hooks 原样保留 + 会话评分
+- [modeldock](concepts/tool-modeldock.md) — Codex 本地 Responses 桥，给 DeepSeek 补识图 / 语音 / 联网 / 记忆 + GPT 透传
+- [codex-bridge](concepts/tool-codex-bridge.md) — 把 Codex CLI 里 ChatGPT 登录借给 Claude（gpt-image-2 出图 + GPT-5 子代理）
+- [PixelVault Desktop](concepts/tool-pixelvault-desktop.md) — 复制图片自动换成托管 URL，给只收文本的云端编程 agent 看图
+
+### 前端 / 设计 / 视觉
+- [ComfyUI Cable Management](concepts/tool-comfyui-cable-management.md) — ComfyUI 节点连线的电路板式自动布线
+- [Holosticker](concepts/tool-holosticker.md) — 浏览器内镭射 / 全息贴纸工作室，调箔面 + 透明 PNG 导出
+
+### 桌面 / 系统工具
+- [GitDesktop](concepts/tool-gitdesktop.md) — Tauri 2 + React 19 桌面 Git 客户端，走 gh CLI 不申请 OAuth + PR 全生命周期
+- [DisplayHotKeys](concepts/tool-display-hotkeys.md) — Windows 热键切显示器分辨率 / 刷新率 / 缩放 / DPI / 方向
+- [SoundWatch](concepts/tool-soundwatch.md) — Rust 终端音频诊断，十标签页 + Insights 人话建议
+- [Emeraldian](concepts/tool-emeraldian.md) — Rust 写的 Obsidian 风格终端 UI，三栏 + 反向链接 + 力导向图
+
+### 数据 / IDE / AI 创作
+- [QuackWrangler](concepts/tool-quackwrangler.md) — DuckDB 内置进 VS Code 扩展，无 Python 环境跑 SQL 清洗 CSV/Parquet/JSON
+
+### 物联网 / 智能硬件
+- [Gemma Translator](concepts/tool-gemma-translator.md) — 树莓派完全离线实时语音翻译（Gemma 4 + LiteRT-LM），480x320 复古终端 UI + 3D 打印外壳
+
+### iOS 开发 / 测试
+- [location-spoofer](concepts/tool-location-spoofer.md) — iOS 定位调试代理，拦截 Apple 定位响应让 QA 不改 App 代码模拟任意坐标
+
+### 更新（Updated）
+- [Kage (MengTo)](concepts/tool-kage-mengto.md) — 补「生成式图像叠层」+「京都山寺夜间漫游」实例 + 单 HTML 无需构建

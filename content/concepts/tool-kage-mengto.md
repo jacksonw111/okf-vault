@@ -1,10 +1,10 @@
 ---
 type: "Tool"
 title: "Kage (MengTo)"
-description: "MengTo 开源的「3D 滚动世界」landing page：用不到 1MB 的 three.js 代码与 3MB 高清 PNG，演示每段滚动都是一段穿行 3D 场景的视觉。"
+description: "MengTo 开源的「3D 滚动世界」landing page：用不到 1MB 的 three.js 代码与 3MB 高清 PNG + 生成式图像图层，演示每段滚动都是一段穿行 3D 场景的视觉（代表例：京都山寺夜间漫游）。"
 resource: "https://github.com/MengTo/kage"
-tags: [threejs, webgl, landing-page, design, animation]
-timestamp: "2026-08-08T20:30:00Z"
+tags: [threejs, webgl, landing-page, design, animation, generative-image]
+timestamp: "2026-08-10T11:06:00Z"
 ---
 
 # Kage (MengTo)
@@ -27,8 +27,14 @@ Kage 是 MengTo 开源的一套「3D 滚动世界」landing page 实现：把整
 | 极小代码包 | < 1MB three.js + JS |
 | 高质量视觉 | 3MB 内含高分辨率 PNG 资源 |
 | 多段 3D 场景 | 每段滚动切换到一个新 3D 视角 |
+| 生成式图像叠层 | 在 three.js 实时渲染上叠加 generative image 图层做混合视觉 |
+| 单 HTML 文件 | 全程无需构建步骤，双击即可运行 |
 | Skills 配套 | 仓库附 three.js Skill 把套路沉淀下来 |
 | 可现场预览 | mengto.github.io/kage 直接可玩 |
+
+## 媒体
+
+- ![Kyoto night scene](https://pbs.twimg.com/media/HPUp6VwbkAAZX30.png)
 
 ## 相关概念
 
