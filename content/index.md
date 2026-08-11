@@ -1607,3 +1607,47 @@ timestamp: "2026-06-26T16:50:00Z"
 
 ### 更新（Updated）
 - [Kage (MengTo)](concepts/tool-kage-mengto.md) — 补「生成式图像叠层」+「京都山寺夜间漫游」实例 + 单 HTML 无需构建
+
+## 本批新增（2026-08-10 / 2026-08-11）
+
+### AI / Agent 生态
+- [LifeOS](concepts/tool-lifeos.md) — 给 Claude Code / Cursor 加外挂的 TELOS + 七段算法循环框架（Cortex 记忆 / Synapse 输入路由 / Pulse 守护 / 49 子技能）
+- [OpenFox](concepts/tool-openfox.md) — 契约驱动的本地 Agent 框架，把验收标准当不可变契约，让 vLLM / Ollama 自己拆任务 + 跑流水线 + 反复验证
+- [Pisper](concepts/tool-pisper.md) — Pi Coding Agent 的桌面 + 终端多会话并行客户端，工具 / 记忆 / MCP / 自动化统一收进本地应用
+- [pi-peer](concepts/tool-pi-peer.md) — 同机多 pi 会话互相发现 + 互发纯文本消息（最多 32 KB），提供 list_peers / message_peer 两个工具
+- [VibeSDK](concepts/tool-vibesdk.md) — 把"说句话生成应用"的 AI 编程平台整套开源，部署到自家 Cloudflare 账户即可跑
+
+### 本地 LLM / 推理
+- [DeepSeek SSD](concepts/tool-deepseek-ssd.md) — 让 284B 参数 DeepSeek-V4-Flash-0731 MoE 在 ~30 GB 内存的 M 系列 Mac 本地跑，路由激活的专家从 SSD 流式加载
+
+### 桌面 / 系统工具
+- [MangoDisk](concepts/tool-mangodisk.md) — macOS / Windows 磁盘清理 + 空间分析，按类扫描后用户确认再删
+- [E.V. Assistant](concepts/tool-ev-assistant.md) — Python + Electron 写的 Windows 语音助手（faster-whisper + Ollama + ElevenLabs/浏览器 TTS），造型取自《蜘蛛侠》新片 E.V.
+- [InkBoard](concepts/tool-inkboard.md) — 墨水屏平板专用 HOME 桌面，纯黑白 / 零动画 / 大触控 / 手动翻页
+- [WorkBuddy-Dream-Skin](concepts/tool-workbuddy-dream-skin.md) — 本机回环 CDP 注入 CSS 与主题变量给 WorkBuddy 桌面换肤，不碰源文件
+- [LaunchCorner](concepts/tool-launchcorner.md) — 免费开源 SwiftUI 工具，把屏幕四角变成应用启动开关
+
+### 终端 / 系统 / 网络
+- [openstack-zsh-plugin](concepts/tool-openstack-zsh-plugin.md) — Oh My Zsh 插件，把 OpenStack CLI 日常做成 fzf 交互选择（切云 / venv / 模糊搜 VM 再 SSH）
+
+### 配置 / 系统管理
+- [Eljangus NixOS](concepts/tool-eljangus-nixos.md) — NixOS + Nix-Darwin 统一配置仓库，一台机器按需切 Niri / Plasma 6 / GNOME 三套桌面
+
+### 文档 / Office 自动化
+- [OfficeCLI](concepts/tool-officecli.md) — Word / Excel / PowerPoint 的读 / 写 / 编辑压成一行命令，跨 Linux / macOS / Windows
+
+### 金融 / 行情聚合
+- [MarketingDashboard](concepts/tool-marketingdashboard.md) — 把指数 / 商品 / 美债 / 板块 / 资金流塞进同一浏览器页面，后端 Node 代理聚合公开接口，零数据库
+
+### 浏览器扩展 / 隐私
+- [BlackBar](concepts/tool-blackbar.md) — Chrome 截图扩展，截图前先扫整页 DOM，把凭证 / 卡号 / 邮箱 / 地址遮成黑条
+
+### 编程语言 / 底层
+- [binja-diff](concepts/tool-binja-diff.md) — Binary Ninja 插件，QBinDiff 引擎做两二进制并排对比，CFG / 汇编 / LLIL / MLIL / HLIL 五层差异展示
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @QingQ77 marketingdashboard (2087095424025022795) — 同源主帖 2087089888046789080 已入 `tool-marketingdashboard`，按「复核，无变更」处理
+- QingQ77「艺术已成」+ 视频 (2087191809822724520) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「好设计，借不走的304不锈钢梯子👍」+ 视频 (2087120929893822855) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「纸模 M1911，真是有能人啊。」+ 视频 (2087005536256725484) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「我可以玩一天」+ 视频 (2087172200269013328) — 情绪短语 + 短视频，按「质量门槛」跳过

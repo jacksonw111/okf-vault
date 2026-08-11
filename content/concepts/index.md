@@ -1749,3 +1749,48 @@ timestamp: "2026-07-27T20:30:00Z"
 ### 跳过 / 复核（Skipped / No-op）
 - Wen_Zw RT baairon/torlink (2086661929851109761) — 概念 `tool-torlink` 已于 2026-06-28 批建立完整文件，本次仅 RT 同一项目，无新增信息，按「概念已存在且资料无新增信息」走「复核，无变更」分支
 - QingQ77「国产的光学加热成像融合技术，感觉很能打了。」+ 视频 (2086667003398697272) — 短语 + 短视频，纯情绪反应无可提取的工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-10 / 2026-08-11）
+
+### AI / Agent 生态
+- [LifeOS](./tool-lifeos.md) — `Tool` — 给 Claude Code / Cursor 等编码代理加外挂的 TELOS + 七段算法循环框架（Cortex 记忆 / Synapse 输入路由 / Pulse 守护 / 49 子技能）
+- [OpenFox](./tool-openfox.md) — `Tool` — 契约驱动的本地 Agent 框架，把验收标准当不可变契约，让 vLLM / Ollama 等本地后端自己拆任务 + 跑流水线 + 反复验证
+- [Pisper](./tool-pisper.md) — `Tool` — 把 Pi Coding Agent 包成桌面端 + 终端客户端，多会话并行推进，工具 / 记忆 / MCP / 自动化统一收进本地应用
+- [pi-peer](./tool-pi-peer.md) — `Tool` — 让同机多 pi 会话互相发现并互发纯文本消息（最多 32 KB），不再人肉复制粘贴跨终端；提供 list_peers / message_peer 两个工具
+- [VibeSDK](./tool-vibesdk.md) — `Tool` — 把"说句话生成应用"的 AI 编程平台整套开源，部署到自己的 Cloudflare 账户即可跑，无 license 限制
+
+### 本地 LLM / 推理
+- [DeepSeek SSD](./tool-deepseek-ssd.md) — `Tool` — 让 284B 参数 DeepSeek-V4-Flash-0731 MoE 在 ~30 GB 内存的 M 系列 Mac 上本地跑，路由激活的专家从 SSD 流式加载
+
+### 桌面 / 系统工具
+- [MangoDisk](./tool-mangodisk.md) — `Tool` — macOS / Windows 磁盘清理 + 空间分析，按类扫描后用户确认再删，覆盖找重复 / 大文件 / 干净卸载
+- [E.V. Assistant](./tool-ev-assistant.md) — `Tool` — Python + Electron 写的 Windows 语音助手，造型取自《蜘蛛侠》新片 E.V.；faster-whisper + Ollama + ElevenLabs/浏览器 TTS，默认零 key 零云端
+- [InkBoard](./tool-inkboard.md) — `Tool` — 墨水屏平板专用 HOME 桌面，纯黑白 / 零动画 / 大触控 / 手动翻页，常用应用一按即开
+- [WorkBuddy-Dream-Skin](./tool-workbuddy-dream-skin.md) — `Tool` — 用本机回环 CDP 注入 CSS 与主题变量给 WorkBuddy 桌面换肤，不碰 WorkBuddy.exe / app.asar / 安装目录
+- [LaunchCorner](./tool-launchcorner.md) — `Tool` — 免费开源 macOS SwiftUI 工具，把屏幕四角变成应用启动开关，替代付费 hot-corner 工具
+
+### 终端 / 系统 / 网络
+- [openstack-zsh-plugin](./tool-openstack-zsh-plugin.md) — `Tool` — Oh My Zsh 插件，把 OpenStack CLI 日常（切云 / 激活 venv / 模糊搜 VM 再 SSH）做成 fzf 交互选择
+- [Cobalt Spark](./tool-cobalt-spark.md) — `Tool` — 极简 Oh My Zsh 主题，闪电符号分隔上下文与命令（与 openstack-zsh-plugin 同生态）
+
+### 配置 / 系统管理
+- [Eljangus NixOS](./tool-eljangus-nixos.md) — `Tool` — 把 NixOS 与 Nix-Darwin 配置收进同一份仓库，一台机器按需切 Niri / Plasma 6 / GNOME 三套桌面
+
+### 文档 / Office 自动化
+- [OfficeCLI](./tool-officecli.md) — `Tool` — 把 Word / Excel / PowerPoint 的读 / 写 / 编辑压成一行命令，AI 智能体跨 Linux / macOS / Windows 操作 Office 文档
+
+### 金融 / 行情聚合
+- [MarketingDashboard](./tool-marketingdashboard.md) — `Tool` — 把指数 / 商品 / 美债 / 板块 / 资金流等行情塞进同一浏览器页面，一屏实时刷新；后端 Node 代理聚合公开接口，零数据库
+
+### 浏览器扩展 / 隐私
+- [BlackBar](./tool-blackbar.md) — `Tool` — Chrome 截图扩展，Alt+Shift+S 截图前先扫整页 DOM，把凭证 / 卡号 / 邮箱 / 地址遮成黑条
+
+### 编程语言 / 底层
+- [binja-diff](./tool-binja-diff.md) — `Tool` — Binary Ninja 插件，QBinDiff 引擎做两二进制并排对比，CFG / 汇编 / LLIL / MLIL / HLIL 五层差异展示
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @QingQ77 marketingdashboard (2087095424025022795) — 与同日 QingQ77 主帖 2087089888046789080 同源，原始来源已入 `tool-marketingdashboard`，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+- QingQ77「艺术已成」+ 视频 (2087191809822724520) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「好设计，借不走的304不锈钢梯子👍」+ 视频 (2087120929893822855) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「纸模 M1911，真是有能人啊。」+ 视频 (2087005536256725484) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「我可以玩一天」+ 视频 (2087172200269013328) — 情绪短语 + 短视频，按「质量门槛」跳过
