@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-08-09T19:29:06Z"
+timestamp: "2026-08-12T19:58:57Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -15,14 +15,6 @@ timestamp: "2026-08-09T19:29:06Z"
 1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；
 2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。
 
-## 违例清单（9 条）
+## 违例清单（1 条）
 
-- content/concepts/tool-hbkit.md:35: 断链 -> ./tool-rclone.md
-- content/concepts/tool-hbkit.md:36: 断链 -> ./note-self-hosted-backup.md
-- content/concepts/tool-hbkit.md:37: 断链 -> ./term-synology-hyper-backup.md
-- content/concepts/tool-kage-mengto.md:35: 断链 -> ./term-three-js.md
-- content/concepts/tool-kage-mengto.md:37: 断链 -> ./tool-solar-wander.md
-- content/concepts/tool-llama-cpp.md:36: 断链 -> ./tool-ollama.md
-- content/concepts/tool-zrk.md:35: 断链 -> ./tool-wrk2.md
-- content/concepts/tool-zrk.md:36: 断链 -> ./tool-locust.md
-- content/concepts/tool-zrk.md:37: 断链 -> ./tool-k6.md
+- content/concepts/tool-openfox.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping

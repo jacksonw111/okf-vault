@@ -1,7 +1,7 @@
 ---
 type: "Tool"
 title: "OpenFox（quentin452/openfox）"
-description: "把验收标准当成不可变契约,让本地 LLM 代理自己拆解计划、执行多步流水线、反复跑验证直到标准全过;跑在 vLLM / Ollama 这类本地后端,免去"本地模型只能开聊天窗,拆任务、验结果都得人肉盯"的痛点。"
+description: "把验收标准当成不可变契约,让本地 LLM 代理自己拆解计划、执行多步流水线、反复跑验证直到标准全过;跑在 vLLM / Ollama 这类本地后端,免去「本地模型只能开聊天窗,拆任务、验结果都得人肉盯」的痛点。"
 resource: "https://github.com/quentin452/openfox"
 tags: "[agent, local-llm, vllm, ollama, contract-driven, acceptance-criteria, multi-step]"
 timestamp: "2026-08-11T16:00:00Z"

@@ -1794,3 +1794,50 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「好设计，借不走的304不锈钢梯子👍」+ 视频 (2087120929893822855) — 情绪短语 + 短视频，按「质量门槛」跳过
 - QingQ77「纸模 M1911，真是有能人啊。」+ 视频 (2087005536256725484) — 情绪短语 + 短视频，按「质量门槛」跳过
 - QingQ77「我可以玩一天」+ 视频 (2087172200269013328) — 情绪短语 + 短视频，按「质量门槛」跳过
+
+## 本批新增（2026-08-11 / 2026-08-12）
+
+### AI / Agent 生态 / Skills / MCP 工具
+- [Qwen-MM-Plugins](./tool-qwen-mm-plugins.md) — `Tool` — 通义千问多模态插件仓库，skill + MCP server 形式给 Claude Code / Codex 加图像/音频/视频能力
+- [Voxel Icon](./tool-voxel-icon.md) — `Tool` — Codex Skill 形态的体素图标生成器，低密度等距 + 4 帧物理循环
+
+### 数据库 / 数据工具
+- [LakeDB](./tool-lakedb.md) — `Tool` — 本地优先桌面数据库客户端（MySQL/MariaDB/SQLite），AI 助手 QuerIA 出 SQL 永远先审后跑，AI 不接触凭据
+
+### 前端 / 设计 / 视觉
+- [expo-content-transition](./tool-expo-content-transition.md) — `Tool` — Expo / React Native 数字平滑过渡库，字符级滚动 / 缩放 / 模糊 / 错峰
+- [quickdraw](./tool-quickdraw.md) — `Tool` — MIT 许可无限画布白板 SDK，tldraw 的开源替代，可嵌 React / React Native / 纯 JS
+
+### 桌面 / 系统工具
+- [NIGHTRUN](./tool-nightrun.md) — `Tool` — Rust UEFI bare-metal LLM 运行时，x86_64 从 USB / 树莓派 5 从 SD 卡启动，开机即聊天
+- [SSHBool](./tool-sshbool.md) — `Tool` — Tauri v2 + Rust 桌面工作区，SSH / SFTP / 远程编辑 / 服务器监控 / 数据库查询合一
+- [Ukishima](./tool-ukishima.md) — `Tool` — Hyprland 动态岛式控制中心，启动器 / 日历 / 媒体 / 混音 / WiFi 等面板合一
+- [Cyclop](./tool-cyclop.md) — `Tool` — MacBook 刘海悬停展开的工具面板，原生 SwiftUI、零系统权限
+
+### 远程 / 文件系统
+- [CloudFolder](./tool-cloudfolder.md) — `Tool` — Rust 写 Windows 工具，rclone SFTP + WinFsp 把远端 GPU 目录挂载成本地路径，本地 agent 不用每台机器重配
+
+### 密码 / 隐私
+- [Zero Password Manager](./tool-zero-password-manager.md) — `Tool` — 用户自托管 + 客户端加密，服务器在密码学层面对保险库完全不可见
+- [blueferry](./tool-blueferry.md) — `Tool` — Linux 桌面蓝牙直连 iPhone 收发 iMessage / 短信，无需 Mac / iCloud / 云服务
+
+### 写作 / 内容生产
+- [dashiai-ppt-skill](./tool-dashiai-ppt-skill.md) — `Tool` — 网页版 PPT 编辑器 Skill，每页可改后导出可编辑 PPTX，1020 版式 + SWOT/波特五力/PEST
+- [GetbijiEx](./tool-getbijiex.md) — `Tool` — 一键把 Get笔记订阅博主笔记导出 Markdown + Agent skill，Claude Code / Codex 一句话触发
+
+### 知识管理 / 个人工具
+- [chat-later](./tool-chat-later.md) — `Tool` — 聊天时间线回顾工具，自动捞一年没人回看的约定/反馈/没下文，每条钉回原始消息 ID
+
+### Web 模板 / 站点搭建
+- [Mkdirs](./tool-mkdirs.md) — `Tool` — Next.js 目录网站模板，TS + Tailwind，列表 / 分类 / 标签 / 搜索 / AI 提交 / 支付 / 认证开箱即用
+
+### 监控 / 仪表盘
+- [pico-pu-api-control](./tool-pico-pu-api-control.md) — `Tool` — 系统托盘 API 余额仪表盘，多 AI 服务商余额 / 剩余比例本地轮询
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @scottymatt 「this is sick」(2087283131640611060) — 纯审美欣赏 + 链接，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- Wen_Zw RT @nixfutures 「traders.. this website is beautiful」(2087284775874945454) — 纯审美欣赏 + 链接，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「真佩服玉雕师变废为宝的本事」+ 视频 (2087532353736651209) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「哈哈哈」+ 视频 (2087553103927394552) — 纯笑声，无可提取信息，按「质量门槛」跳过
+- QingQ77「太勇了」+ 视频 (2087400216408559961) — 情绪短语 + 短视频，按「质量门槛」跳过
+- QingQ77「翻过来的时候，小脑萎缩了一下。」+ 视频 (2087365445473206565) — 情绪反应 + 昆虫雕塑展示，无工具 / 概念 / 项目信息，按「质量门槛」跳过
