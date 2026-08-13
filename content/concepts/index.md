@@ -1841,3 +1841,50 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「哈哈哈」+ 视频 (2087553103927394552) — 纯笑声，无可提取信息，按「质量门槛」跳过
 - QingQ77「太勇了」+ 视频 (2087400216408559961) — 情绪短语 + 短视频，按「质量门槛」跳过
 - QingQ77「翻过来的时候，小脑萎缩了一下。」+ 视频 (2087365445473206565) — 情绪反应 + 昆虫雕塑展示，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-13）
+
+### AI / LLM 工具
+- [gpt56_api_detector](./tool-gpt56-api-detector.md) — `Tool` — 本机两层检测识别「中转 API 实际跑的模型」并输出七种结论报告
+- [claudish-to-english](./tool-claudish-to-english.md) — `Tool` — Claude Code 插件用本地 ollama 把消息实时重写成通俗英语，仅改屏幕、会话与推理过程保持原样
+- [attention-span](./tool-attention-span.md) — `Tool` — Claude Code 插件提供三种「输出样式」，仅改说话方式不改动编码行为
+- [repowise](./tool-repowise.md) — `Tool` — 给 AI 编码代理预建代码库持久索引，省去每次 grep / 重读 / 重熟悉
+- [relmio](./tool-relmio.md) — `Tool` — OpenAI 兼容 API 边车复用 ChatGPT / Codex 登录态，自托管 n8n 用占位 key 调模型免另购 Platform 额度
+
+### 嵌入式 / 存储
+- [lkv](./tool-lkv.md) — `Tool` — 嵌入式 KV 用哈希表换读性能与零拷贝查找，比 LMDB / RocksDB 更轻
+
+### 硬件 / 物联网
+- [Apollo (ESP32 语音助手)](./tool-apollo-esp32-voice.md) — `Tool` — ESP32 桌面装置 + Cloudflare Workers 云端语音助手，设备只收声、云端跑推理 / 调工具 / 记忆 / 语音
+- [xyprt_android](./tool-xyprt-android.md) — `Tool` — Android 蓝牙连学科网错题小印 X1 热敏机打印文字 / 图片 / PDF，支持拍照裁剪与自由排版
+
+### 前端 / Web
+- [next16-calendar](./tool-next16-calendar.md) — `Tool` — Next.js 16 参考实现：日历 + 预约应用把缓存 / 预取 / 即时导航新特性串成能跑能测的样例
+
+### Obsidian 生态
+- [Obsidian Fileclass](./tool-obsidian-fileclass.md) — `Tool` — Obsidian 插件把 frontmatter 属性定义成类型 schema，字段输入变下拉 / 日期选择器并自动校验
+
+### macOS / 系统工具
+- [Sift (macOS)](./tool-sift-macos.md) — `Tool` — macOS 本地应用集中存储分析 / 清理 / 卸载 / 网络排查六类操作，扫描只读元数据、删除先进废纸篓
+
+### Home Assistant
+- [mw-ha-humidifier-card](./tool-mw-ha-humidifier-card.md) — `Tool` — Home Assistant Lovelace 卡片把加湿器与功率计智能插座合并到一张卡片
+
+### 阅读 / 内容
+- [kagi-news](./tool-kagi-news.md) — `Tool` — 把 Kagi News 新闻流渲染成可离线阅读的「当日报纸」，支持整页滚动与杂志双页翻页
+
+### 影视后期
+- [conform-desktop](./tool-conform-desktop.md) — `Tool` — 音频对轨工具按参考视频时间轴自动识别剪辑 / 插入 / 删减 / PAL 变速 / 3:2 电视电影痕迹，输出 FLAC + 质量报告
+
+### 网盘 / 自动化
+- [Ydisks 批量转存助手](./tool-ydisks-drive-assistant.md) — `Tool` — 夸克 / 百度 / 迅雷网盘分享链接批量转存 + Ydisks 后台批量生成小红书抖音多渠道短链
+
+### CI / CD
+- [cloudflare/ci](./tool-cloudflare-ci.md) — `Tool` — Cloudflare 官方开源 CI 引擎，流水线跑在自家 Workflows + Sandbox 上免运维 runner 集群
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @midudev gooey liquid UI effect (2087646198610243950) — 单特效库，无概念 / 项目 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT @cnemalek kinetics 144 motion effects (2087818255952162889) — 已有 [`tool-kinetics`](./tool-kinetics.md) 覆盖，重复跳过
+- QingQ77「变身赛罗」+ 视频 (2087821783982612919) — 角色扮演短视频，无可提取信息，按「质量门槛」跳过
+- QingQ77「这些神对话😅」+ 梗图 (2087744764083118272) — 纯情绪反应 + 梗图，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 pyroclear ASCII 火焰清屏 (2087850650852032717) — Rust 玩具级清屏动画，无知识价值，按「质量门槛」跳过
