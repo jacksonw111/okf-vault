@@ -1745,3 +1745,54 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「变身赛罗」+ 视频 (2087821783982612919) — 角色扮演短视频，按「质量门槛」跳过
 - QingQ77「这些神对话😅」+ 梗图 (2087744764083118272) — 纯情绪反应 + 梗图，按「质量门槛」跳过
 - QingQ77 pyroclear ASCII 火焰清屏 (2087850650852032717) — Rust 玩具级清屏动画，按「质量门槛」跳过
+
+## 本批新增（2026-08-14）
+
+### AI / Agent 生态
+- [codex-host](concepts/tool-codex-host.md) — 把 Codex Desktop 当宿主界面，CDP 注入 Agent 选择器，CLI Shim 接 app-server，支持 Pi / Claude Code 等多 Agent 后端
+- [InsightForge](concepts/tool-insightforge.md) — 本地多 Agent 协作 AI 视频成片引擎，Idea/Script/Novel → 叙事 / 角色 / 分镜 / 镜头 / 关键帧 / 视频片段
+- [dscode](concepts/tool-dscode.md) — 以 DeepSeek 为默认模型、本地优先的多模型编码智能体运行时，可按仓库任务切 DeepSeek / Codex / OpenAI / Anthropic
+- [HeyAgent](concepts/tool-heyagent.md) — 本地桌面 Agent：动鼠标键盘 / 开应用 / 控浏览器 / 建 Google 文档，Telegram 远程指令
+
+### AI 视频 / 游戏测试
+- [wai-play](concepts/tool-wai-play.md) — 让 AI 在真实浏览器里自动试玩网页游戏，输出可复现的问题证据与修复建议
+
+### 前端 / 设计 / 视觉
+- [UI SFX](concepts/tool-uisfx.md) — 936 个免费开源 UI 音效，12 个语义包，开箱即用
+- [smoothui](concepts/tool-smoothui-react.md) — educlopez 开源的 React 动画组件合集，复制粘贴即用，免配 Framer Motion
+- [GPUI Component](concepts/tool-gpui-component.md) — Longbridge 开源 Rust UI 组件库，WASM 浏览器可跑，DataTable Demo 100 万行流畅
+- [everycube](concepts/tool-everycube.md) — 把魔方 4.3×10¹⁸ 种可达排列做成可滚动索引，滚动到任意一格即时 3D 渲染
+- [china-antique-maplibre](concepts/tool-china-antique-maplibre.md) — 中国历史地图 MapLibre 渲染栈，复古羊皮纸风格 / 卫星底图 / 地形阴影 / 水域叠加
+
+### 终端 / 编辑器
+- [luna.nvim](concepts/tool-luna-nvim.md) — Neovim 暗色配色主题，纯黑灰阶底 + 4 种冷暖强调色，夜间不刺眼
+
+### 桌面 / 系统工具
+- [orbit-desktop](concepts/tool-orbit-desktop.md) — 本地优先 macOS 工作区，习惯 / 想法 / 任务 / 画布 / 人脉跟进收进一处，SwiftUI 原生复刻 React Flow
+- [flyingmouse-format](concepts/tool-flyingmouse-format.md) — 离线文件格式转换，FFmpeg / LibreOffice / Poppler / Tesseract 内置，覆盖图片 / 文档 / 表格 / PPT / PDF / 音视频 / WPS
+
+### 写作 / 知识库
+- [distill-novels](concepts/tool-distill-novels.md) — 把多本小说拆成可复用的写作知识库（世界观 / 人物 / 情节 / 文风），AI 写作助手 Skill 形式
+
+### 网络 / VPS / 运维
+- [tcpfit](concepts/tool-tcpfit.md) — Linux VPS TCP 调优脚本，自动测速找丢包点，避开「买了 500M 跑不满」的尴尬
+- [checkfleet](concepts/tool-checkfleet.md) — 单静态 Go 二进制的领域知识运维检查（TLS / NATS / PG 复制槽），目标机无 agent 无守护
+- [orbien](concepts/tool-orbien.md) — Rust + Tokio 内网穿透工具，单二进制 ~5MB，TCP / QUIC / KCP / WebSocket 多协议
+
+### 3D 打印 / 工程
+- [gfty](concepts/tool-gfty.md) — 用 CLI 定义并批量生成 Gridfinity 收纳盒 / 底板 / 标签 / 边框，对接 Onshape API 导出 STEP
+
+### Web 分析 / 隐私
+- [openanalytics](concepts/tool-openanalytics.md) — 隐私优先 Web 分析，无 Cookie / 无跨站画像，支持自托管 + 收入归因 + MCP
+
+### 邮件 / 协作
+- [hqbase](concepts/tool-hqbase.md) — 部署在 Cloudflare 账户里的共享邮箱工作台，OAuth 保护的远程 MCP 服务器
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @abderizik @dwhitedesign wiredjs showcase (2088071111661768832) — 一句话「This may help」+ 一个链接，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「不用电池？」+ 视频 (2088103188876714100) — 一句短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「中国小孩防近视，这叫拉远镜。」+ 视频 (2088045198068854860) — 一句短语 + 短视频，无可提取的工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「3D 渲染 2D😍」+ 视频 (2088126791777227119) — 一句短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77 空标题 + 视频 (2088265189372408034) — 无文字内容，仅短视频，按「质量门槛」跳过
+- QingQ77 空标题 + 视频 (2088238501674520772) — 无文字内容，仅短视频，按「质量门槛」跳过
+- QingQ77「一生如牛不得闲，闲时已与山共眠。」+ 视频 (2088279682173251714) — 抒情诗句 + 短视频，纯情绪 / 无信息量，按「质量门槛」跳过
