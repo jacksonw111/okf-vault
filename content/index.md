@@ -1796,3 +1796,48 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 空标题 + 视频 (2088265189372408034) — 无文字内容，仅短视频，按「质量门槛」跳过
 - QingQ77 空标题 + 视频 (2088238501674520772) — 无文字内容，仅短视频，按「质量门槛」跳过
 - QingQ77「一生如牛不得闲，闲时已与山共眠。」+ 视频 (2088279682173251714) — 抒情诗句 + 短视频，纯情绪 / 无信息量，按「质量门槛」跳过
+
+## 本批新增（2026-08-15）
+
+### AI / Agent 生态 / 多代理编排
+- [pi-omo-slim](concepts/tool-pi-omo-slim.md) — 给 Pi 编码助手配的 OMO-slim 风格多代理编排（Orchestrator + 6 个专精代理），不 fork 上游
+- [pi-fabric](concepts/tool-pi-fabric.md) — Pi 扩展，把多工具调用合成 TypeScript 程序由 `fabric_exec` 执行，运行前过类型检查
+- [axern](concepts/tool-axern.md) — AI agent 代码执行沙箱：不可信代码进 `runsc`、可信服务放 `runc`，统一资源 / 生命周期接口
+
+### Pi / Codex 生态扩展
+- [ASu-skills](concepts/tool-asu-skills.md) — Codex 中文求职工作流插件：4 个斜杠命令（`/contributor` / `/asu` / `/resume` / `/offer`）
+- [dsh-diff-viewer](concepts/tool-dsh-diff-viewer.md) — DSH 的纯插件，把 write / edit 的 diff 渲染换成 PiUI 风格，靠 `ui-tool keyed` 接管
+- [GrokBuild](concepts/tool-grokbuild-openai-gateway.md) — Grok Build CLI 接入任意 OpenAI 兼容网关的配置模板 + 交互式安装脚本
+
+### 知识 / 写作 / 创作
+- [DeepWrite](concepts/tool-deepwrite.md) — 本地 AI 写作工作台：模型 / 提示词 / 技能 / 素材 / 文稿组织在同一桌面，AI 真改磁盘文稿
+- [pi-agent-core 中文架构书](concepts/note-pi-agent-core-book.md) — 源码出发解读 pi-agent-core 架构，每处论断带文件:行号引文
+
+### macOS / Windows 桌面工具
+- [local-ops](concepts/tool-local-ops.md) — macOS 本地服务 / 项目命令 / 一次性任务指挥台，2 秒轮询端口与服务
+- [Celldock for Mac](concepts/tool-celldock-for-mac.md) — QDC507 蜂窝模块客户端：短信 / 通话 / 录音 / SOCKS5 代理共享
+- [Shrinkit](concepts/tool-shrinkit.md) — macOS 屏幕录制 ffmpeg 压缩 + 加速，丢进文件夹或右键出 `.mp4`
+- [DeskBuddy](concepts/tool-deskbuddy.md) — Mac 菜单栏控制 IKEA IDÅSEN 等蓝牙升降桌，预设高度 + 坐站提醒
+- [bow-git-vault](concepts/tool-bow-git-vault.md) — Windows Git Electron GUI：克隆 / 状态 / 暂存 / 提交 / 拉取 / 推送 / 分支一键
+- [EasyAlias](concepts/tool-easyalias.md) — 终端别名 GUI 管理，自动生成 shell alias / function / `.cmd` / PowerShell
+
+### 自托管 / 隐私优先
+- [iCloud Prime](concepts/tool-icloud-prime.md) — 本地「隐藏我的邮箱」控制台：Web + API + Windows 便携版 + 多 iCloud 账号
+- [Machinexis](concepts/tool-machinexis.md) — 设备 → 传感器 → 规则 → 告警 → 工单多租户平台
+- [PocketWatch](concepts/tool-pocketwatch.md) — 自由职业者自托管时间记录：JSON 存储 + PDF 直出 + 零网络请求
+
+### 内容创作 / 排版
+- [md-wechat](concepts/tool-md-wechat.md) — 公众号 Markdown 排版工具：左侧编辑 / 右侧预览 / 一键复制富文本
+
+### 本地 LLM
+- [Qwen3.8-27B Unsloth GGUF](concepts/tool-qwen3-8-27b-unsloth.md) — Unsloth 动态 GGUF 量化，17GB 内存即可本地跑 27B；同尺寸段最强
+
+### 终端 / 编辑器
+- [cendre](concepts/tool-cendre-nvim.md) — Neovim 木柴光谱配色主题，5 色相来自燃烧木柴实测光谱，终端配色自动同步
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「她会不会吃一嘴沙啊」(2088477366809133304) — 情绪反应短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「重新定义梳子🤣」(2088496657507754331) — 表情包反应，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「好玩」(2088560163901079894) — 情绪短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「cool 1300 颗霓虹粒子组成的时间」(2088626310264533444) — 视觉短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「iOS 装修风格😅」(2088428530480939057) — 表情反应短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
