@@ -1985,3 +1985,44 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「好玩」(2088560163901079894) — 情绪短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「cool 1300 颗霓虹粒子组成的时间」(2088626310264533444) — 视觉短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「iOS 装修风格😅」(2088428530480939057) — 表情反应短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-16）
+
+### AI / Agent 生态 / 编码助手
+- [fob (Secure Enclave SSH)](./tool-fob-ssh-secure-enclave.md) — `Tool` — Mac 物理钥匙扣：SSH 私钥锁 Secure Enclave + Touch ID 现场授权 + 主机指纹绑定
+- [opencode-senses](./tool-opencode-senses.md) — `Tool` — 给纯文本 OpenCode 编码 agent 加本地视觉层（OCR / 目标定位 / 颜色），零 API key
+- [HERO-Anti-OverDefense](./tool-hero-anti-overdefense.md) — `Tool` — 治 AI 编码助手过度防御的规则块，禁乱加哈希 / 死磕边界 / 清单代替判断 / 搭没用的脚手架
+- [rakazo (akazo)](./tool-rakazo.md) — `Tool` — Cursor + Grok 4.6 构建的开源 Grok Bot 替代品，一库覆盖 Web / Electron 桌面 / 移动
+
+### DeepSeek Harness (DSH) 生态扩展
+- [deepseek-harness-desktop (steven-kid)](./tool-deepseek-harness-desktop.md) — `Tool` — DSH 官方 Web 界面打包成跨平台桌面应用
+- [DeepSeek-Harness-Desktop (sleep2agi)](./tool-deepseek-harness-desktop-shell.md) — `Tool` — 给 dsh 命令行运行时套 macOS / Windows 桌面外壳
+- [dsh-desktop (bruc3van)](./tool-dsh-desktop.md) — `Tool` — DSH 官方 Web UI 原样装进原生桌面窗口
+- [dsh-vision-toolkit](./tool-dsh-vision-toolkit.md) — `Tool` — 让纯文本 DeepSeek 模型在 DSH 里做视觉任务（图片问答 / OCR / 像素级比对）
+- [dsh-visualize](./tool-dsh-visualize.md) — `Tool` — DSH 插件：把模型输出就地渲染成交互式可视化卡片
+- [dsh-auto-continue](./tool-dsh-auto-continue.md) — `Tool` — DSH 网页端会话被网络错误打断时自动敲「继续」续写
+- [dsh-agent-teams](./tool-dsh-agent-teams.md) — `Tool` — DSH 多代理插件：单个会话升格「队长」+ 持久子代理 + 直接消息协调
+- [dshfind](./tool-dshfind.md) — `Tool` — DSH 学习与分享社区站点（原理课程 / 插件市场 / 最佳实践）
+- [dsh-deep-whale](./tool-dsh-deep-whale.md) — `Tool` — 给 DSH Web GUI 换「鲸鱼娘」主题皮肤，一条命令装完
+- [deepseek-whale-girl-icon](./tool-deepseek-whale-girl-icon.md) — `Tool` — DSH 桌面端鲸鱼娘主题应用图标与高清原图素材包
+- [deepseek-harness-orange-book](./note-deepseek-harness-orange-book.md) — `Note` — DSH 开源 24 小时写出来的电子书，记录非开发者实测
+
+### macOS / 桌面工具
+- [OceanPet](./tool-oceanpet.md) — `Tool` — 角色化 AI 桌宠，常驻 macOS 桌面，会散步、看鼠标、用角色性格陪聊
+
+### 前端 / UI 设计资源
+- [drawably](./tool-drawably.md) — `Tool` — 手绘风 UI 控件库，每次挂载自动重画笔触，4 KB 零依赖
+- [amicro](./tool-amicro.md) — `Tool` — 免费开源 React UI 库（图表 / Loader / 组件）
+- [shadcndashboard](./tool-shadcndashboard.md) — `Tool` — shadcn/ui + Base UI + Next.js + Tailwind v4 开箱即用的 admin dashboard kit
+
+### 音频 / 媒体
+- [procedural-sounds](./tool-procedural-sounds.md) — `Tool` — 程序化音效生成工具，UI / 游戏常见音效用代码现场合成
+
+### 平台参考 / 目录
+- [github-profile-achievements](./tool-github-profile-achievements.md) — `Tool` — GitHub 官方未发布的成就徽章全清单参考目录
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「所以这恐怖片主角非常弱小...」(2088794262112698766) — 影视评论 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「豆包以为你中邪了，来个金光咒给你驱驱邪而已。」(2088827840771043337) — 情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「无敌预制画，2026年还学美术吗。」(2089001274796904784) — 情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- Wen_Zw「微软是真的屎...」(2088870214440239327) — 纯情绪发泄，无概念 / 工具 / 项目信息，按「质量门槛」跳过

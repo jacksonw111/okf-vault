@@ -1841,3 +1841,44 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「好玩」(2088560163901079894) — 情绪短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「cool 1300 颗霓虹粒子组成的时间」(2088626310264533444) — 视觉短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「iOS 装修风格😅」(2088428530480939057) — 表情反应短句 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-16）
+
+### AI / Agent 生态 / 编码助手
+- [fob (Secure Enclave SSH)](concepts/tool-fob-ssh-secure-enclave.md) — Mac 物理钥匙扣：SSH 私钥锁 Secure Enclave + Touch ID 现场授权 + 主机指纹绑定
+- [opencode-senses](concepts/tool-opencode-senses.md) — 给纯文本 OpenCode 编码 agent 加本地视觉层（OCR / 目标定位 / 颜色），零 API key
+- [HERO-Anti-OverDefense](concepts/tool-hero-anti-overdefense.md) — 治 AI 编码助手过度防御的规则块
+- [rakazo (akazo)](concepts/tool-rakazo.md) — Cursor + Grok 4.6 构建的开源 Grok Bot 替代品，一库覆盖 Web / Electron / 移动
+
+### DeepSeek Harness (DSH) 生态扩展
+- [deepseek-harness-desktop (steven-kid)](concepts/tool-deepseek-harness-desktop.md) — DSH 官方 Web 界面打包成跨平台桌面应用
+- [DeepSeek-Harness-Desktop (sleep2agi)](concepts/tool-deepseek-harness-desktop-shell.md) — dsh 命令行运行时套 macOS / Windows 桌面外壳
+- [dsh-desktop (bruc3van)](concepts/tool-dsh-desktop.md) — DSH 官方 Web UI 原样装进原生桌面窗口
+- [dsh-vision-toolkit](concepts/tool-dsh-vision-toolkit.md) — 让纯文本 DeepSeek 模型在 DSH 里做视觉任务
+- [dsh-visualize](concepts/tool-dsh-visualize.md) — DSH 插件：把模型输出就地渲染成交互式可视化卡片
+- [dsh-auto-continue](concepts/tool-dsh-auto-continue.md) — DSH 会话被网络错误打断时自动续写
+- [dsh-agent-teams](concepts/tool-dsh-agent-teams.md) — DSH 多代理插件：单个会话升格「队长」+ 持久子代理
+- [dshfind](concepts/tool-dshfind.md) — DSH 学习与分享社区站点（原理课程 / 插件市场 / 最佳实践）
+- [dsh-deep-whale](concepts/tool-dsh-deep-whale.md) — DSH Web GUI 鲸鱼娘主题皮肤
+- [deepseek-whale-girl-icon](concepts/tool-deepseek-whale-girl-icon.md) — DSH 桌面端鲸鱼娘主题应用图标
+- [deepseek-harness-orange-book](concepts/note-deepseek-harness-orange-book.md) — DSH 开源 24 小时写出来的电子书
+
+### macOS / 桌面工具
+- [OceanPet](concepts/tool-oceanpet.md) — 角色化 AI 桌宠，常驻 macOS 桌面，会散步、看鼠标、用角色性格陪聊
+
+### 前端 / UI 设计资源
+- [drawably](concepts/tool-drawably.md) — 手绘风 UI 控件库，每次挂载自动重画笔触，4 KB 零依赖
+- [amicro](concepts/tool-amicro.md) — 免费开源 React UI 库（图表 / Loader / 组件）
+- [shadcndashboard](concepts/tool-shadcndashboard.md) — shadcn/ui + Base UI + Next.js + Tailwind v4 开箱即用的 admin dashboard kit
+
+### 音频 / 媒体
+- [procedural-sounds](concepts/tool-procedural-sounds.md) — 程序化音效生成工具
+
+### 平台参考 / 目录
+- [github-profile-achievements](concepts/tool-github-profile-achievements.md) — GitHub 官方未发布的成就徽章全清单参考目录
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「所以这恐怖片主角非常弱小...」(2088794262112698766) — 影视评论 + 短视频，按「质量门槛」跳过
+- QingQ77「豆包以为你中邪了...」(2088827840771043337) — 情绪反应 + 短视频，按「质量门槛」跳过
+- QingQ77「无敌预制画，2026年还学美术吗。」(2089001274796904784) — 情绪反应 + 短视频，按「质量门槛」跳过
+- Wen_Zw「微软是真的屎...」(2088870214440239327) — 纯情绪发泄，按「质量门槛」跳过
