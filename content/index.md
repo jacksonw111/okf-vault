@@ -1882,3 +1882,40 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「豆包以为你中邪了...」(2088827840771043337) — 情绪反应 + 短视频，按「质量门槛」跳过
 - QingQ77「无敌预制画，2026年还学美术吗。」(2089001274796904784) — 情绪反应 + 短视频，按「质量门槛」跳过
 - Wen_Zw「微软是真的屎...」(2088870214440239327) — 纯情绪发泄，按「质量门槛」跳过
+
+## 本批新增（2026-08-17）
+
+### AI / Agent 生态 / 编码助手
+- [codex-trajectory](concepts/tool-codex-trajectory.md) — 把本地 Codex 任务日志解析成结构化事件账本 + 交互时间线，只读、隐私友好
+- [ompweb](concepts/tool-ompweb.md) — 给 oh-my-pi 编码代理配的本地 Web 控制台
+- [agent-vision-toolkit](concepts/tool-agent-vision-toolkit.md) — 给纯文本 coding agent 配眼睛：CLI + skill + 本地透明代理
+- [Argo](concepts/tool-argo-search.md) — 给 AI Agent 用的多语言搜索工具，输出「证据候选 + 可信度评分」
+- [OPC-Nexus](concepts/tool-opc-nexus.md) — 单人公司 / 独立开发者用的本地优先桌面 AI Agent 管理器
+
+### AI 编码 IDE / 工作台
+- [Calyx](concepts/tool-calyx.md) — 原生 macOS 终端应用，并行监督多个编码 AI agent
+
+### 前端 / 设计资源
+- [md2hd](concepts/tool-md2hd.md) — Markdown 笔记文件夹 → 浏览器交互式超图（frontmatter 变节点、wikilink 变连线）
+- [pdfcn](concepts/tool-pdfcn.md) — shadcn 团队出的开源 React PDF 组件库
+- [2D-to-3D Voxelizer](concepts/tool-2d-to-3d-voxelizer.md) — 把 2D 像素画升维成 3D 体素艺术并导出 .obj
+- [iconcreator](concepts/tool-iconcreator.md) — 免费在线动画 / 3D 图标设计器
+
+### 桌面 / 系统工具
+- [Aurora Audio Studio](concepts/tool-aurora-audio-studio.md) — Windows 本地音频 AI 一体化工作台（七种功能合一 GUI）
+
+### 金融 / 数据
+- [GraphShield-Fraud](concepts/tool-graphshield-fraud.md) — 时序图欺诈检测项目，严格时间切分下比较非图基线与因果 Temporal GraphSAGE
+
+### 后端 / 部署
+- [Sevalla](concepts/tool-sevalla.md) — 应用部署托管平台，免去管理基础设施的负担
+
+### 阅读 / 资源
+- [scan-to-practice](concepts/tool-scan-to-practice.md) — 扫描版 PDF / 练习册 / 题库照片 → 可答题交互产品的端到端操作手册
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「noice 69」(2089089056424808720) — 情绪化感叹词 + 截图，按「质量门槛」跳过
+- QingQ77「未来 AI 时代，让自己独处的能力」(2089365775832486277) /「真人版影子传说」(2089212854864097726) /「微观世界里的食草动物」(2089305661100437516) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77 yueyuan-bazi 八字命理 (2089207089138675973) — 命理 / 玄学应用与本知识库主线不符，按「说不清理由就别链」原则跳过
+- QingQ77 cyber-crowd 浏览器生成艺术 (2089376706469769347) — 纯艺术项目无可复用知识，按「说不清理由就别链」原则跳过
+- QingQ77 whale-girl DSH 桌宠 (2089237791062609996) / k4 Hyprland 状态栏 (2089268494063857993) — 定位过窄与已有同类项目重叠，按「不为了凑数而链接」原则跳过

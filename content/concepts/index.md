@@ -2026,3 +2026,42 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「豆包以为你中邪了，来个金光咒给你驱驱邪而已。」(2088827840771043337) — 情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「无敌预制画，2026年还学美术吗。」(2089001274796904784) — 情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - Wen_Zw「微软是真的屎...」(2088870214440239327) — 纯情绪发泄，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-17）
+
+### AI / Agent 生态 / 编码助手
+- [codex-trajectory](./tool-codex-trajectory.md) — `Tool` — 把本地 Codex 任务日志解析成结构化事件账本 + 交互时间线，只读、隐私友好，原日志不被改动
+- [ompweb](./tool-ompweb.md) — `Tool` — 给 oh-my-pi 编码代理配的本地 Web 控制台：浏览器里浏览会话、实时聊天、改配置、管技能、预览项
+- [agent-vision-toolkit](./tool-agent-vision-toolkit.md) — `Tool` — 给纯文本 coding agent（如 DeepSeek）配眼睛：CLI + skill + 本地透明代理，让文字模型看图、问答、OCR、还原 UI、操作 GUI
+- [Argo](./tool-argo-search.md) — `Tool` — 给 AI Agent 用的多语言搜索工具：120+ 源、60+ 业务域，输出「证据候选 + 可信度评分」精简 JSON
+- [OPC-Nexus](./tool-opc-nexus.md) — `Tool` — 给单人公司 / 独立开发者用的本地优先桌面 AI Agent 管理器：创建、任务编排、多引擎接入、消息渠道集成一个工作台搞定
+
+### AI 编码 IDE / 工作台
+- [Calyx](./tool-calyx.md) — `Tool` — 原生 macOS 终端应用，并行运行并统一监督多个编码 AI agent，免逐个翻终端标签页
+
+### 前端 / 设计资源
+- [md2hd](./tool-md2hd.md) — `Tool` — 把 Markdown 笔记文件夹在浏览器里渲染成交互式超图：frontmatter 变节点、wikilink 变连线，纯客户端、可静态托管
+- [pdfcn](./tool-pdfcn.md) — `Tool` — shadcn 团队出的开源 React PDF 组件库：Takumi + Forme 双引擎、复制粘贴模式、TS 齐全、共享主题
+- [2D-to-3D Voxelizer](./tool-2d-to-3d-voxelizer.md) — `Tool` — 把 2D 像素画升维成 3D 体素艺术并导出 .obj，支持单张精灵图或 4 / 6 面精灵图
+- [iconcreator](./tool-iconcreator.md) — `Tool` — 免费在线动画 / 3D 图标设计器，浏览器内直接出可动 / 可立体图标素材
+
+### 桌面 / 系统工具
+- [Aurora Audio Studio](./tool-aurora-audio-studio.md) — `Tool` — Windows 本地音频 AI 一体化工作台，把音乐生成 / 配音 / 声音克隆 / 歌声转换 / 音轨分离 / MIDI 扒谱 / 视频字幕七种功能收进同一 GUI
+
+### 金融 / 数据
+- [GraphShield-Fraud](./tool-graphshield-fraud.md) — `Tool` — 面向图算法 / 风控 / 反欺诈岗位的时序图欺诈检测项目：严格时间切分下比较非图基线与因果 Temporal GraphSAGE
+
+### 后端 / 部署
+- [Sevalla](./tool-sevalla.md) — `Tool` — 应用部署托管平台，免去管理基础设施的负担
+
+### 阅读 / 资源
+- [scan-to-practice](./tool-scan-to-practice.md) — `Tool` — 把扫描版 PDF / 练习册 / 题库照片做成可答题交互产品的端到端操作手册
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「noice 69」(2089089056424808720) — 情绪化感叹词 + 截图，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「未来 AI 时代，让自己独处的能力，成为立身之本」(2089365775832486277) — 短语 + 短视频，纯情绪表达无信息量，按「质量门槛」跳过
+- QingQ77「真人版影子传说」(2089212854864097726) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「微观世界里的食草动物」(2089305661100437516) — 短语 + 短视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77 yueyuan-bazi 八字命理 (2089207089138675973) — 命理 / 玄学应用，与本知识库主线不符，按「说不清理由就别链」原则跳过
+- QingQ77 cyber-crowd 浏览器生成艺术项目 (2089376706469769347) — 纯艺术 / 视觉玩具项目无可复用的工具 / 概念 / 方法，按「说不清理由就别链」原则跳过
+- QingQ77 whale-girl DSH 桌宠游戏化 (2089237791062609996) / k4 Quickshell Hyprland 状态栏 (2089268494063857993) — 定位过窄（桌宠游戏化 / Linux 桌面视觉状态栏），与已有同类项目重叠，按「不为了凑数而链接」原则跳过
