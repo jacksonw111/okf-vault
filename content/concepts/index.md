@@ -2065,3 +2065,52 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77 yueyuan-bazi 八字命理 (2089207089138675973) — 命理 / 玄学应用，与本知识库主线不符，按「说不清理由就别链」原则跳过
 - QingQ77 cyber-crowd 浏览器生成艺术项目 (2089376706469769347) — 纯艺术 / 视觉玩具项目无可复用的工具 / 概念 / 方法，按「说不清理由就别链」原则跳过
 - QingQ77 whale-girl DSH 桌宠游戏化 (2089237791062609996) / k4 Quickshell Hyprland 状态栏 (2089268494063857993) — 定位过窄（桌宠游戏化 / Linux 桌面视觉状态栏），与已有同类项目重叠，按「不为了凑数而链接」原则跳过
+
+## 本批新增（2026-08-18）
+
+### AI / Agent 生态 / 编码助手
+- [comet (zeronsh)](./tool-comet-zeronsh.md) — `Tool` — 把 Claude Code / Codex / Cursor 等编码 agent 收拢到本机控制：会话存本机、免账号、按需多设备同步
+- [nopus (Vistyy)](./tool-nopus.md) — `Tool` — 编码助手回复的抽象度检测器：按词频 / 名词堆叠 / 短语密度打分，超阈值自动重写为更具体表达
+- [ScanSci Pi](./tool-scansci-pi.md) — `Tool` — 科研引用核对工作流：找论文 → 做幻灯片每一步钉原文，证据不足即声明，不编造出处
+
+### DeepSeek Harness (DSH) 生态扩展
+- [dsh-desktop (dataelement)](./tool-dsh-desktop-dataelement.md) — `Tool` — Electron 封装 DSH：启动时自动拉 Harness 子进程 + 随机回环端口 + 持久化 profiles/plugins/sessions
+- [dsh-tianshu-tui (huiliyi37)](./tool-dsh-tianshu-tui.md) — `Tool` — DSH 的交互式 TUI：自研 ANSI 渲染 + TDD 驱动 / 证据门 / 视觉图像模块几条个性化工作流
+- [dsh-market](./tool-dsh-market.md) — `Tool` — DSH 内置插件市场：800+ 社区插件、分类筛选 + 按星数 / 新旧排序、双语说明跟随界面
+- [dsh-peer-link (czm15053)](./tool-dsh-peer-link.md) — `Tool` — Unix socket 把 DSH ↔ Claude Code 等本机 agent 串成可互发消息的协作网络
+- [deepseek-harness-studio (fufankeji)](./tool-deepseek-harness-studio-fufankeji.md) — `Tool` — DSH 零代码桌面端：一键安装 / 启停 / 管插件，内置图像理解给纯文本模型补眼睛
+
+### 桌面 / 系统工具
+- [btop-quattro-plugin](./tool-btop-quattro-plugin.md) — `Tool` — Omarchy 顶栏的 btop 摘要：悬停看 CPU/内存/GPU/温度，单击聚焦 btop 主窗口
+- [tuios (Gaurav-Gosain)](./tool-tuios.md) — `Tool` — Go 写轻量终端复用器：跑在现成终端内、vim 式模态、9 工作区 + BSP 平铺 + 命令面板
+- [Texpile](./tool-texpile.md) — `Tool` — 完全离线 / 免注册的桌面级 LaTeX / Typst / Markdown 编辑器，可视化 + 源代码双模式
+- [CivitaiFreeTool](./tool-civitai-free-tool.md) — `Tool` — Windows 桌面 AI 模型批量下载：粘贴 Civitai / HuggingFace 链接即可批量拉取、断点续传、SHA256、写元数据
+- [忆辰 · 阴历生日提醒](./tool-lunar-birthday-reminder.md) — `Tool` — 以阴历生日为基准的提醒 App：提前 1~7 天 + 到点反复通知均可独立设置
+
+### 数据库 / 数据工具
+- [pgbot (pgrundev)](./tool-pgbot.md) — `Tool` — Postgres 只读健康诊断 CLI：读统计视图 → 健康评分 + 历次变化对比，DBA / AI agent 直接消费
+
+### 金融 / 数据
+- [easy-stock (jundizhou)](./tool-easy-stock.md) — `Tool` — 面向 A 股的 AI 原生投研桌面工作台：盘中 / 盘后 / 长期三段沉淀 + Agent 自动收大 V 文章提炼观点
+
+### 后端 / 实时数据流
+- [PulseNews-Live (jinit-00)](./tool-pulsenews-live.md) — `Tool` — 实时新闻 AI 流式平台：多源 RSS → Kafka → 向量索引 → AI 问答 / 流式分析，支持单机 / 集群双部署
+
+### 前端 / 设计资源
+- [aicss.dev](./tool-aicss.md) — `Tool` — 面向设计工程师的 AI 界面纯 CSS 资源站
+- [bloub](./tool-bloub-mascot.md) — `Tool` — Grok Bot 风格吉祥物生成器：浏览器内画 / 上色 / 摆姿势 → 导出 SVG 动画
+
+### 项目管理 / 模板
+- [circle (ln-dev7)](./tool-circle-ln-dev7.md) — `Tool` — 开源项目管理模板，Next.js + Tailwind，项目视图（board / 任务 / 进度）开箱即用
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「好神奇」(2089558732380512670) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「腿有了自己的想法」(2089660859417248171) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「演技炸裂，演员可以失业了，当年嘎你蛋的人，也是我安排的」(2089672630031015972) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「这个机器人是不是飞起来了」(2089745061982654660) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「点外卖的顾客：我说我的订单怎么老是超时」(2089583650455314788) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「cool」(2089694752384176444) — 一词感叹 + 视频，纯情绪反应，按「质量门槛」跳过
+- Wen_Zw RT @alaymanguy aicss.dev (2089536898956239054) — 已新建独立概念 tool-aicss
+- Wen_Zw RT @ln_dev7 circle (2089536856904093873) — 已新建独立概念 tool-circle-ln-dev7
+- Wen_Zw RT @tranmautritam Bloub (2089650380791775331) — 已新建独立概念 tool-bloub-mascot
+- QingQ77 opencode-senses (2089613013565264288) — 仓库 URL 与既有概念 tool-opencode-senses 完全一致，描述亦无新增信息，按「概念已存在且资料无新增信息」原则**不动文件，仅 log**

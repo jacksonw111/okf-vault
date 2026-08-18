@@ -1919,3 +1919,45 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77 yueyuan-bazi 八字命理 (2089207089138675973) — 命理 / 玄学应用与本知识库主线不符，按「说不清理由就别链」原则跳过
 - QingQ77 cyber-crowd 浏览器生成艺术 (2089376706469769347) — 纯艺术项目无可复用知识，按「说不清理由就别链」原则跳过
 - QingQ77 whale-girl DSH 桌宠 (2089237791062609996) / k4 Hyprland 状态栏 (2089268494063857993) — 定位过窄与已有同类项目重叠，按「不为了凑数而链接」原则跳过
+
+## 本批新增（2026-08-18）
+
+### AI / Agent 生态 / 编码助手
+- [comet (zeronsh)](concepts/tool-comet-zeronsh.md) — 把 Claude Code / Codex / Cursor 等编码 agent 收拢到本机控制：会话存本机、免账号、按需多设备同步
+- [nopus (Vistyy)](concepts/tool-nopus.md) — 编码助手回复的抽象度检测器：按词频 / 名词堆叠 / 短语密度打分，超阈值自动重写
+- [ScanSci Pi](concepts/tool-scansci-pi.md) — 科研引用核对工作流：每一步钉原文，证据不足即声明，不编造出处
+
+### DeepSeek Harness (DSH) 生态扩展
+- [dsh-desktop (dataelement)](concepts/tool-dsh-desktop-dataelement.md) — Electron 封装 DSH：启动时自动拉 Harness 子进程 + 随机端口 + 持久化配置
+- [dsh-tianshu-tui (huiliyi37)](concepts/tool-dsh-tianshu-tui.md) — DSH 的交互式 TUI：自研 ANSI 渲染 + TDD / 证据门 / 视觉图像模块工作流
+- [dsh-market](concepts/tool-dsh-market.md) — DSH 内置插件市场：800+ 社区插件、分类筛选 + 星数 / 新旧排序、双语说明
+- [dsh-peer-link (czm15053)](concepts/tool-dsh-peer-link.md) — Unix socket 把 DSH ↔ Claude Code 等本机 agent 串成可互发消息的协作网络
+- [deepseek-harness-studio (fufankeji)](concepts/tool-deepseek-harness-studio-fufankeji.md) — DSH 零代码桌面端：一键安装 / 启停 / 管插件，内置图像理解给纯文本模型补眼睛
+
+### 桌面 / 系统工具
+- [btop-quattro-plugin](concepts/tool-btop-quattro-plugin.md) — Omarchy 顶栏的 btop 摘要：悬停看 CPU/内存/GPU/温度，单击聚焦 btop 主窗口
+- [tuios (Gaurav-Gosain)](concepts/tool-tuios.md) — Go 写轻量终端复用器：vim 式模态、9 工作区 + BSP 平铺 + 命令面板
+- [Texpile](concepts/tool-texpile.md) — 完全离线 / 免注册的桌面级 LaTeX / Typst / Markdown 编辑器，可视化 + 源代码双模式
+- [CivitaiFreeTool](concepts/tool-civitai-free-tool.md) — Windows 桌面 AI 模型批量下载工具：批量拉取、断点续传、SHA256、写元数据
+- [忆辰 · 阴历生日提醒](concepts/tool-lunar-birthday-reminder.md) — 以阴历生日为基准的提醒 App：提前 1~7 天 + 到点反复通知均可独立设置
+
+### 数据库 / 数据工具
+- [pgbot (pgrundev)](concepts/tool-pgbot.md) — Postgres 只读健康诊断 CLI：读统计视图 → 健康评分 + 历次变化对比，DBA / AI agent 直接消费
+
+### 金融 / 数据
+- [easy-stock (jundizhou)](concepts/tool-easy-stock.md) — 面向 A 股的 AI 原生投研桌面工作台：盘中 / 盘后 / 长期三段沉淀 + Agent 自动收大 V 文章提炼观点
+
+### 后端 / 实时数据流
+- [PulseNews-Live (jinit-00)](concepts/tool-pulsenews-live.md) — 实时新闻 AI 流式平台：多源 RSS → Kafka → 向量索引 → AI 问答 / 流式分析
+
+### 前端 / 设计资源
+- [aicss.dev](concepts/tool-aicss.md) — 面向设计工程师的 AI 界面纯 CSS 资源站
+- [bloub](concepts/tool-bloub-mascot.md) — Grok Bot 风格吉祥物生成器：浏览器内画 / 上色 → 导出 SVG 动画
+
+### 项目管理 / 模板
+- [circle (ln-dev7)](concepts/tool-circle-ln-dev7.md) — 开源项目管理模板，Next.js + Tailwind，项目视图开箱即用
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「好神奇」(2089558732380512670) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「腿有了自己的想法」(2089660859417248171) /「演技炸裂，演员可以失业了，当年嘎你蛋的人，也是我安排的」(2089672630031015972) /「这个机器人是不是飞起来了」(2089745061982654660) /「点外卖的顾客：我说我的订单怎么老是超时」(2089583650455314788) /「cool」(2089694752384176444) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77 opencode-senses (2089613013565264288) — 仓库 URL 与既有概念 tool-opencode-senses 完全一致，描述亦无新增信息，按「概念已存在且资料无新增信息」原则**不动文件，仅 log**
