@@ -2114,3 +2114,52 @@ timestamp: "2026-07-27T20:30:00Z"
 - Wen_Zw RT @ln_dev7 circle (2089536856904093873) — 已新建独立概念 tool-circle-ln-dev7
 - Wen_Zw RT @tranmautritam Bloub (2089650380791775331) — 已新建独立概念 tool-bloub-mascot
 - QingQ77 opencode-senses (2089613013565264288) — 仓库 URL 与既有概念 tool-opencode-senses 完全一致，描述亦无新增信息，按「概念已存在且资料无新增信息」原则**不动文件，仅 log**
+
+## 本批新增（2026-08-19）
+
+### AI / Agent 生态 / 编码助手 / Skills
+- [animate-expo（emilkowalski/skills）](./tool-animate-expo-skill.md) — `Tool` — Emil Kowalski 与 Expo 团队合作的 Skill，把动效知识移植到 React Native / Expo 原生应用
+- [HarnessRouter](./tool-harness-router.md) — `Tool` — 自托管、兼容 OpenAI Responses API 的统一网关，把 Codex / Claude Code / Hermes 等多个 agent harness 收进同一界面与一套 API
+
+### DeepSeek Harness (DSH) 生态扩展
+- [dsh-usage-stats](./tool-dsh-usage-stats.md) — `Tool` — dsh 网页端补的多供应商账户余额 + Token 用量监测侧边栏
+- [DSH-SessionGraph](./tool-dsh-sessiongraph.md) — `Tool` — 把长 dsh 调试会话压缩成可编辑、可复制的结构化导图与大纲
+- [dsh-auto-mode（NanmiCoder）](./tool-dsh-auto-mode.md) — `Tool` — 权限分级：常规操作走 sandbox，越界高风险才交模型分类审查
+- [deepseek-harness-handbook](./note-deepseek-harness-handbook.md) — `Note` — dsh 中文零基础手册，17 章 + 实测附录覆盖安装到写插件
+
+### 终端 / 命令行 / TUI
+- [SimulTeX](./tool-simultex.md) — `Tool` — 把 Codex / Claude Code 的终端会话镜像到本地 localhost 浏览器，键盘流不动
+- [pkgtui](./tool-pkgtui.md) — `Tool` — htop 风格 TUI 同时管理 apt 与 snap，免背两套包管理器命令
+- [asciicut](./tool-asciicut.md) — `Tool` — 面向 asciinema .cast 的可视化剪辑，Rust + Tauri + SolidJS
+
+### 桌面 / 系统工具
+- [fluent-sensors](./tool-fluent-sensors.md) — `Tool` — Windows 11 上长得像系统原生的硬件监控面板，Fluent UI
+- [CodePulse](./tool-codepulse.md) — `Tool` — macOS 菜单栏原生编码计时器，本地日志 + 自动统计
+- [svg_animate](./tool-svg-animate.md) — `Tool` — Flutter 用 flutter_svg 渲染器跑 SVG SMIL / CSS 动画，免转 Lottie
+
+### 跨平台 / 网络 / 自托管
+- [FileApex](./tool-fileapex.md) — `Tool` — 同局域网 Android / macOS / Windows 设备互传 / 群发文件，免搭服务免敲 IP
+- [Resonant](./tool-resonant.md) — `Tool` — Windows 本地离线 AI 音乐工作室，写词 / 生成 / 拆轨 / 编曲 / 混音 / 导出 WAV
+
+### 前端 / 设计 / 头像资源
+- [Blobatar](./tool-blobatar.md) — `Tool` — 输入用户名 / 邮箱 / ID 生成固定对应、会动的几何 SVG 小生物，约 3.7 KB
+
+### 本体 / 知识图谱 / AI 写作
+- [ontopilot](./tool-ontopilot.md) — `Tool` — 本地优先 / 自托管的本体工程工作台，把政策 / 手册 / 规范转成 TBox + SKOS + ABox
+- [sloptrim](./tool-sloptrim.md) — `Tool` — 本地检测 AI 写作套路，71 个写作模式 / 62 个检测器，超阈值列位置要求重写
+
+### AI 模型训练 / 桌面端
+- [LabLLM](./tool-labllm.md) — `Tool` — macOS 桌面应用，把数据 / 分词器 / 训练脚本封装为「装好就能跑」的小模型训练工作台
+- [grokx](./tool-grokx.md) — `Tool` — 把 Grok Build 引擎绑进桌面窗口，双击打开就能用 Grok 聊天与写代码
+
+### 旅行规划
+- [ai_travel_agent](./tool-ai-travel-agent.md) — `Tool` — 对话式 AI 旅行规划代理，多约束聚合 + 强制人工确认后再下单
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT vikingmute Departure Mono 字体 (2089976344570696135) — 字体审美欣赏，无概念 / 工具 / 项目 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT vikingmute Memmy 个人上下文层 (2090050558992462298) — 仓库 MemTensor/memmy-agent 与既有概念 tool-memmy-agent 完全一致，描述无新增信息，按「概念已存在且资料无新增信息」原则不动文件，仅 log
+- Wen_Zw RT QingQ77 SimulTeX (2089924885506334957) — 与同日 QingQ77 主帖 2089916515466235998 同一项目，已新建独立概念 tool-simultex，本条仅 RT 不重复
+- QingQ77「我不听我不听」(2089972971951866112) — 短语 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「有点意思🎛️」(2090059034619736519) — 一词感叹 + emoji + 视频，无信息量，按「质量门槛」跳过
+- QingQ77「I, Robot !」(2089904635796746587) — 一词感叹 + 视频，纯情绪反应，按「质量门槛」跳过
+- QingQ77「打丧尸小战锤」(2090029180494971242) — 游戏短句 + 视频，纯情绪反应无知识信息，按「质量门槛」跳过
