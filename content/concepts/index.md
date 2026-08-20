@@ -2163,3 +2163,53 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「有点意思🎛️」(2090059034619736519) — 一词感叹 + emoji + 视频，无信息量，按「质量门槛」跳过
 - QingQ77「I, Robot !」(2089904635796746587) — 一词感叹 + 视频，纯情绪反应，按「质量门槛」跳过
 - QingQ77「打丧尸小战锤」(2090029180494971242) — 游戏短句 + 视频，纯情绪反应无知识信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-20）
+
+### DeepSeek Harness (DSH) 生态扩展
+- [dsh-crew (ZSeven-W)](./tool-dsh-crew.md) — `Tool` — 把 DSH 的 agent 当子代理接到 Claude Code 与 Codex，子任务进度同步显示在宿主面板
+- [dsh-context (bowenliang123)](./tool-dsh-context.md) — `Tool` — DSH 上下文窗口可视化插件，把 token 用量与压缩过程拆开
+- [deepseek-harness-rs (dsh-rs)](./tool-deepseek-harness-rs.md) — `Tool` — Rust 重写的 DSH 命令行 `dsh`，终端里搜代码 / 读文件 / 打补丁 / 跑命令
+- [dsh-im (xmanrui)](./tool-dsh-im.md) — `Tool` — 把 9 个 IM 平台（飞书 / 微信 / 钉钉 / 企微 / QQ / Slack / Telegram / Discord / WhatsApp）机器人统一接入 DSH
+- [dsh-client-ui-skin-claude (PAKIKNOWLEDGE)](./tool-dsh-client-ui-skin-claude.md) — `Tool` — 给 DSH Web UI 套 Claude 风格皮肤的换皮插件
+- [Minke (lencx)](./tool-minke.md) — `Tool` — 把 DSH 装进本地优先的桌面工作台，对话 / 文件 / 终端 / 网页工具同窗
+
+### 任务管理 / Agent 工作台
+- [Muqi Task (LinuxForYQH)](./tool-muqi-task.md) — `Tool` — 以 Task 为主线、会话挂任务底下的 AI 协作组织方式
+
+### 桌面 / 视觉 / 系统
+- [barehands (jaredrhod)](./tool-barehands.md) — `Tool` — 把网络摄像头变成手势界面，玻璃浮卡 + 裸手操控，可接给 AI 当手和眼睛
+- [Humla (michaelwilhelmsen)](./tool-humla.md) — `Tool` — Mac 本地跑的会议记录 / 转写 / 分人 / 总结工具，录音与笔记不出本机
+- [omarchy-pod (thisisgm)](./tool-omarchy-pod.md) — `Tool` — 把 AirPods 的电量 / ANC / 入耳检测等细粒度状态挂到 Omarchy 状态栏
+- [omawhoop (NathanRGagnon)](./tool-omawhoop.md) — `Tool` — 把 WHOOP 健康数据（strain / recovery / 睡眠）挂到 Omarchy 桌面状态栏
+
+### 自托管 / 云基础设施
+- [Spinifex (mulgadc)](./tool-spinifex.md) — `Tool` — AGPL-3.0 开源的 AWS API 兼容私有云（EC2 / EBS / S3 / VPC / IAM），让现有 AWS 代码零改动部署到自有硬件
+- [synap.md (BungeeDEV)](./tool-synap-md.md) — `Tool` — 自托管、Obsidian 风格的 Markdown 笔记应用，纯 .md 文件 + 自建同步服务器
+
+### AI Agent / 网络抓取
+- [DonSeTch (dondai44423)](./tool-donsetch.md) — `Tool` — Rust 单二进制 Web 抓取 / 搜索 / 爬站，通过 MCP 给 AI 代理 web_fetch / web_search / web_crawl
+
+### Pi 扩展 / AI 写作辅助
+- [SLYE / speak-like-you-eat (wtfzambo)](./tool-slye-speak-like-you-eat.md) — `Tool` — Pi 扩展，在模型回答后自动追加大白话重写，把 AI 套话翻译成人话
+
+### AI 视频 / 设计资源
+- [Magiviz (ItusiAI)](./tool-magiviz.md) — `Tool` — MIT 全栈开源的 AI 视频创作平台，写剧本 → 定角色 → 画分镜 → 生成视频 → 成片全流程
+- [iris (brijr)](./tool-iris-site-builder.md) — `Tool` — 代码优先的轻量级网站构建工具，整合 Astro 简洁性与组件化开发体验
+
+### Playbooks（设计原则）
+- [Logo First, IP Second](./playbook-logo-first-ip-skill.md) — `Playbook` — 把可爱 IP 压成精致 Logo 的六原则（极简构成 / 圆润线条 / 克制色彩 / 人格化构图）
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「RT bridgertower iris」(2090307655051157814) — 仅 GitHub URL + 一张截图，无描述；与本批 QingQ77 同期 iris 概念信息互补，故概念已建，本条仅作 archive，不重复
+- Wen_Zw「RT noahelhadedy Free invoice templates」(2090397715821953472) — 模板资源链接，无新概念 / 工具 / 项目增量，按「质量门槛」跳过
+- Wen_Zw「RT madebyhex motion-gpu.dev」(2090172778540584965) — 一句感叹 + 空链接，无概念 / 工具 / 项目增量，按「质量门槛」跳过
+- Wen_Zw「RT davidhdev canvasui ASCII sweep」(2090284541688848567) — 单组件链接 + 一句营销文，无可独立成概念的内容，按「质量门槛」跳过
+- Wen_Zw「RT arknow91 liquid-taffy update」(2090367297810784617) — 仅项目更新视频，无新概念 / 可复用经验，按「质量门槛」跳过
+- Wen_Zw「RT lassejlv build-gpui-apps」(2090173023362191384) — 一句「thank me later」+ 空链接，无信息量，按「质量门槛」跳过
+- Wen_Zw「RT QingQ77 dsh-crew」(2090329482435695101) — 与同日 QingQ77 主帖 2090321431347298649 同一项目，已新建独立概念 tool-dsh-crew，本条仅 RT 不重复
+- Wen_Zw「RT QingQ77 DSH-SessionGraph」(2090336158828122196) — 与既有概念 tool-dsh-sessiongraph 完全一致，描述无新增信息，按「概念已存在且资料无新增信息」原则不动文件，仅 log
+- QingQ77「氢能两轮动力」(2090265003639361880) — 讽刺段子 + 视频，无知识 / 概念 / 工具 / 项目增量，按「质量门槛」跳过
+- QingQ77「金牙出现」(2090433393276375408) — 「哈哈哈」情绪反应 + 视频，无信息量，按「质量门槛」跳过
+- QingQ77「Hacker News Flutter app」(2090226304817717695) — 一个原生客户端，描述无新增概念 / 可复用经验，按「质量门槛」跳过
+- QingQ77「pkgtui」(2090309100345143430) — 与既有概念 tool-pkgtui 完全一致，描述无新增信息，按「概念已存在且资料无新增信息」原则不动文件，仅 log
