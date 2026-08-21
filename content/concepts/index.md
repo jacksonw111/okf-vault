@@ -2213,3 +2213,52 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「金牙出现」(2090433393276375408) — 「哈哈哈」情绪反应 + 视频，无信息量，按「质量门槛」跳过
 - QingQ77「Hacker News Flutter app」(2090226304817717695) — 一个原生客户端，描述无新增概念 / 可复用经验，按「质量门槛」跳过
 - QingQ77「pkgtui」(2090309100345143430) — 与既有概念 tool-pkgtui 完全一致，描述无新增信息，按「概念已存在且资料无新增信息」原则不动文件，仅 log
+
+## 本批新增（2026-08-21）
+
+### AI / Agent 生态
+- [OpenBot (CopilotKit)](./tool-openbot.md) — `Tool` — CopilotKit 出品的 Bot 运行时，一 Bot 一电脑 + 策略网关 + 审计记录
+- [autoprompt-skill (Spielewoy)](./tool-autoprompt-skill.md) — `Tool` — 给编码 agent 加「拆目标 + 并行 + 独立质检」纪律，Terminal-Bench 失败次数减半
+- [Sprix SAGE Router](./tool-sprix-sage-router.md) — `Tool` — A2A 网络里「继续独干 / 叫帮手 / 整体换人」三路效用函数决策路由
+- [plannotator / guides](./tool-plannotator-guides.md) — `Tool` — 把 diff 拆成有章节的阅读顺序，产出浏览器即开单文件 HTML 评审页
+
+### DeepSeek Harness (DSH) 生态扩展
+- [cordis-mini (adpanru)](./tool-cordis-mini.md) — `Tool` — 把 deepseek-harness 五个核心机制各写一份约 600 行 Python 迷你版
+- [Boujoy Harness (asen-goat-mine)](./tool-boujoy-harness.md) — `Tool` — 给 dsh 套一层产品工作台外壳：任务 / 知识库 / 对话分得开
+- [dsh-plugin-dir-tree (bentong-chain)](./tool-dsh-plugin-dir-tree.md) — `Tool` — 在 DSH 对话框以浮窗展示工作区目录树，拖拽即填路径
+
+### 终端 / IDE / 编辑器
+- [terminal-code / tode (zenbu-labs)](./tool-terminal-code-tode.md) — `Tool` — 把 code-server 与 terminal-browser 串起来，让 VS Code 直接跑在终端里
+- [Flare (AlgoNoRhythm)](./tool-flare-ide.md) — `Tool` — 以代码依赖图谱为核心的 IDE，文件节点 + 导入连线，三视图实时同步
+
+### 阅读 / 资源
+- [What is an Agent Harness (earendil)](./note-earendil-agent-harness.md) — `Note` — earendil.com 上 pidotdev 写的科普长文，把 agent harness 概念一次性拆给入门读者
+
+### Agent Skills 生态
+- [jakubkrehel Skills](./tool-jakubkrehel-skills.md) — `Tool` — 含 `/explain-interface`：用 DevTools 风格手段拆解任意网页交互与视觉技术
+
+### 多媒体 / 视频 / AI 创作
+- [VedioHub / DoVideoAI (dirge2024)](./tool-vediohub-dovideoai.md) — `Tool` — 把小时级长视频拆成带时间戳片段交给 Agent，结论挂可回放证据链
+
+### 运动 / 自托管 / 健康
+- [Dreeve (dreeveapp)](./tool-dreeve.md) — `Tool` — 自托管开源 Strava 数据面板，FIT/TCX/GPX 导入 + Strava 同步 + 装备追踪 + Rewind 年度回顾
+
+### 电商 / 自托管
+- [SimpleCard (runtimepoet)](./tool-simplecard.md) — `Tool` — Spring Boot 3.4 + Next.js 16 自托管数字商品发卡平台
+- [Crocs Visualizer (Shazzz135)](./tool-crocs-visualizer.md) — `Tool` — 浏览器内给洞洞鞋换色 + 拖 Jibbitz 挂件，实时预览定制效果
+
+### 桌面 / 系统工具
+- [desktop-fly (DenisSergeevitch)](./tool-desktop-fly.md) — `Tool` — 用 FlyWire 真实果蝇脑图谱跑脉冲仿真，macOS 桌面上一只由真实神经元驱动的 3D 果蝇
+
+### 金融 / TUI
+- [Helius Finance Tracker](./tool-helius-finance-tracker.md) — `Tool` — Rust TUI + SQLite 本地优先记账，账目 / 预算 / 循环账单 / 对账 / 现金流预测
+
+### Playbooks（设计原则）
+- [Logo First, IP Second](./playbook-logo-first-ip-skill.md) — `Playbook` — 补充「四件硬性约束」+ Agent 平台兼容列表（Codex / Coze / Doubao / YouMind / Manus / Gemini Apps / Replit Agent）
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw「RT rabi_guha openui.com/benchmarks」(2090613983481110905) — 仅一句 URL，无项目描述 / 截图 / 关键功能信息，按「质量门槛」跳过
+- QingQ77「知道了」+ 图片 (2090625247326372116) — 仅两字 + 一张图，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「笑岔气了」+ 视频 (2090598759109435543) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「这就尴尬了」+ 视频 (2090657967578521981) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「红色警戒2巨炮」+ 视频 (2090630968344530974) — 游戏怀旧 + 短视频，无知识增量，按「质量门槛」跳过
