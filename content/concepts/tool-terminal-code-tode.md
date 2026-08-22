@@ -32,5 +32,5 @@ zenbu-labs/terminal-code 是一个把「终端里的浏览器」和「浏览器�
 - [zenbu-labs/terminal-code](https://github.com/zenbu-labs/terminal-code) — 原始仓库
 
 ## 相关概念
-- [Codex CLI](./concepts/tool-codex-cli.md) — 另一种「终端里的代码智能体」
-- [Pi Coding Agent](./concepts/tool-pi-fabric.md) — 同属「终端原生 AI 编码」系
+- [Codex CLI](./tool-codex-cli.md) — 另一种「终端里的代码智能体」
+- [Pi Coding Agent](./tool-pi-fabric.md) — 同属「终端原生 AI 编码」系

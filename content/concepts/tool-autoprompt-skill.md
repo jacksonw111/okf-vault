@@ -41,5 +41,5 @@ autoprompt-skill 是一个给编码智能体（OpenCode / Codex / Claude Code �
 - [Spielewoy/autoprompt-skill](https://github.com/Spielewoy/autoprompt-skill) — 原始仓库
 
 ## 相关概念
-- [Orca 工单编排流程](./concepts/playbook-orca-ticket-orchestration.md) — 同属「让 agent 多步协作」的工程实践
-- [Loop.js](./concepts/tool-loop-js.md) — 目标 + 执行 + 验证三件事同一种 prompt，独立只读 Verify agent 判定
+- [Orca 工单编排流程](./playbook-orca-ticket-orchestration.md) — 同属「让 agent 多步协作」的工程实践
+- [Loop.js](./tool-loop-js.md) — 目标 + 执行 + 验证三件事同一种 prompt，独立只读 Verify agent 判定

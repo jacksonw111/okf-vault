@@ -33,5 +33,5 @@ Boujoy Harness 是一个把「DeepSeek Harness 当底层引擎」重新包裹一
 - [asen-goat-mine/boujoy-harness](https://github.com/asen-goat-mine/boujoy-harness) — 原始仓库
 
 ## 相关概念
-- [DeepSeek Harness 桌面壳](./concepts/tool-deepseek-harness-desktop.md) — dsh Web UI 的桌面外壳同类项目
-- [DeepSeek Harness](./concepts/note-deepseek-harness-handbook.md) — 中文手册
+- [DeepSeek Harness 桌面壳](./tool-deepseek-harness-desktop.md) — dsh Web UI 的桌面外壳同类项目
+- [DeepSeek Harness](./note-deepseek-harness-handbook.md) — 中文手册

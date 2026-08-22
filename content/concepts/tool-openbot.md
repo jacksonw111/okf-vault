@@ -33,5 +33,5 @@ OpenBot 是 CopilotKit 在 agent 落地过程中开出的一条产品线：把�
 - [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) — 原始仓库
 
 ## 相关概念
-- [CopilotKit](./concepts/tool-copilotkit.md) — 同团队的生成式 UI 框架，OpenBot 是它的 agent 运行时兄弟
-- [AgentStalker](./concepts/tool-agent-stalker.md) — 把 LLM Agent 当系统而非模型来审计
+- [CopilotKit](./tool-copilotkit.md) — 同团队的生成式 UI 框架，OpenBot 是它的 agent 运行时兄弟
+- [AgentStalker](./tool-agent-stalker.md) — 把 LLM Agent 当系统而非模型来审计

@@ -32,5 +32,5 @@ jakubkrehel 在 GitHub 开源的个人 Agent Skills 仓库，按 Claude Code / C
 - [jakubkrehel/skills 仓库](https://github.com/jakubkrehel/skills) — 原始仓库
 
 ## 相关概念
-- [Jakub 设计 Skills](./concepts/note-jakub-design-skills.md) — Jakub 早期发布的设计 Skill 合集（同名不同项目）
-- [Agent Skills 是什么](./concepts/term-agent-skills.md) — Skill 文件的通用约定
+- [Jakub 设计 Skills](./note-jakub-design-skills.md) — Jakub 早期发布的设计 Skill 合集（同名不同项目）
+- [Agent Skills 是什么](./term-agent-skills.md) — Skill 文件的通用约定

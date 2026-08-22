@@ -37,5 +37,5 @@ SimpleCard 是一个面向「卖卡密、卖激活码、卖账号」场景的自
 - ![SimpleCard 界面](https://pbs.twimg.com/media/HQIL4wwaEAA5vlM.jpg)
 
 ## 相关概念
-- [xianyu-super-butler](./concepts/tool-xianyu-super-butler.md) — 同属「自动发货 / 自动回复」系，但平台是闲鱼
-- [GanCook / 干饭厨子](./concepts/tool-gancook.md) — 同属自托管电商系
+- [xianyu-super-butler](./tool-xianyu-super-butler.md) — 同属「自动发货 / 自动回复」系，但平台是闲鱼
+- [GanCook / 干饭厨子](./tool-gancook.md) — 同属自托管电商系

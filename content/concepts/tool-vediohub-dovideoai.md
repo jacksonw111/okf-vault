@@ -36,5 +36,5 @@ VedioHub / DoVideoAI 解决一个具体痛点：「几小时长的视频内容�
 - ![VedioHub 界面](https://pbs.twimg.com/media/HQNlLsTaEAAbGsM.jpg)
 
 ## 相关概念
-- [claude-real-video](./concepts/tool-claude-real-video.md) — 同样解决「AI 真正看懂视频」，思路是智能抽帧
-- [AI Media Assistant](./concepts/tool-ai-media-assistant.md) — 中文创作者短视频生成
+- [claude-real-video](./tool-claude-real-video.md) — 同样解决「AI 真正看懂视频」，思路是智能抽帧
+- [AI Media Assistant](./tool-ai-media-assistant.md) — 中文创作者短视频生成

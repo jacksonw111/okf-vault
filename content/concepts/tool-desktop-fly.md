@@ -37,4 +37,4 @@ desktop-fly 是一款桌面常驻应用，把 FlyWire 项目公开的真实果�
 - ![果蝇行为](https://pbs.twimg.com/media/HQIZtSmaMAAafF8.png)
 
 ## 相关概念
-- [Heartmorrow](./concepts/tool-heartmorrow.md) — 同样把「神经 / 心智模型」做成桌面常驻应用
+- [Heartmorrow](./tool-heartmorrow.md) — 同样把「神经 / 心智模型」做成桌面常驻应用

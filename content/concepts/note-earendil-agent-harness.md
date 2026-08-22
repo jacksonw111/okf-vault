@@ -30,6 +30,6 @@ timestamp: 2026-08-21T00:50:15Z
 - [earendil.com/posts/what-is-a-harness/](https://earendil.com/posts/what-is-a-harness/) — 原始长文
 
 ## 相关概念
-- [DeepSeek Harness 生态（dsh-*）](./concepts/tool-deepseek-harness-rs.md) — 当前最被开源社区拆解 / 改造的 harness 之一
-- [LongHorizon-Harness](./concepts/tool-longhorizon-harness.md) — AMAP-ML 给「几十几百步的长程任务」做的 harness
-- [Fable Harness](./concepts/tool-fable-harness.md) — 把 Claude Code 行为纪律化的 harness
+- [DeepSeek Harness 生态（dsh-*）](./tool-deepseek-harness-rs.md) — 当前最被开源社区拆解 / 改造的 harness 之一
+- [LongHorizon-Harness](./tool-longhorizon-harness.md) — AMAP-ML 给「几十几百步的长程任务」做的 harness
+- [Fable Harness](./tool-fable-harness.md) — 把 Claude Code 行为纪律化的 harness

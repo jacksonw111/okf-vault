@@ -34,5 +34,5 @@ Sprix SAGE Router 是 Sprix AI（挂在屿智同行名下）的开源研究原�
 - [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) — 原始仓库
 
 ## 相关概念
-- [Cotal](./concepts/tool-cotal.md) — 多智能体开放协议框架，拓扑可配（对等 / 经理制 / 指挥链 / 混搭）
-- [pi-hive](./concepts/tool-pi-hive.md) — Pi 的层次化多智能体团队协作工具
+- [Cotal](./tool-cotal.md) — 多智能体开放协议框架，拓扑可配（对等 / 经理制 / 指挥链 / 混搭）
+- [pi-hive](./tool-pi-hive.md) — Pi 的层次化多智能体团队协作工具

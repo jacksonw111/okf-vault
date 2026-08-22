@@ -17,6 +17,9 @@ GPUI Component 是 Longbridge 开源的 Rust UI 组件库，基于 GPUI（Zed �
 - GPUI 本身偏 Zed 内部使用，包装成组件库后让外部项目可直接复用。
 - 适合金融终端、监控大屏、表格密集型工具类应用。
 
+## Design Guides（设计指引）
+[longbridge.github.io/gpui-component/docs/design-guides](https://longbridge.github.io/gpui-component/docs/design-guides) 把 GPUI Component 的设计语言沉淀成一份给「人 + AI」共用的 Design Guides——不仅服务于 GPUI 应用本身，也可作为其他 Rust UI 项目在组件排布、色彩、交互一致性上的参考模板，让 AI 编码代理直接按规范生成合规界面。
+
 ## 关键能力
 | 能力 | 说明 |
 |------|------|

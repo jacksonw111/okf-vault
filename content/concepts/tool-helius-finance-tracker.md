@@ -35,5 +35,5 @@ Helius Finance Tracker 是一个**本地优先**的个人财务追踪工具：�
 - [Helius-Finance/helius-finance-tracker](https://github.com/Helius-Finance/helius-finance-tracker) — 原始仓库
 
 ## 相关概念
-- [pushcv-cli](./concepts/tool-pushcv-cli.md) — 同属「Rust 终端工具」系
-- [Fintech Advisor](./concepts/tool-fintech-advisor.md) — 同属「个人理财 / 净值追踪」系，但走 Web
+- [pushcv-cli](./tool-pushcv-cli.md) — 同属「Rust 终端工具」系
+- [Fintech Advisor](./tool-fintech-advisor.md) — 同属「个人理财 / 净值追踪」系，但走 Web

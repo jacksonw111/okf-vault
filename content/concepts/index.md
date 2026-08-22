@@ -2262,3 +2262,52 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「笑岔气了」+ 视频 (2090598759109435543) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「这就尴尬了」+ 视频 (2090657967578521981) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「红色警戒2巨炮」+ 视频 (2090630968344530974) — 游戏怀旧 + 短视频，无知识增量，按「质量门槛」跳过
+
+## 本批新增（2026-08-22）
+
+### AI / Agent 生态
+- [Zoetrope (furkankly)](./tool-zoetrope.md) — `Tool` — 把 Claude Code 会话实时画成节点-边流程图，终端 / 浏览器双前端观看主 / 子 agent 与工具调用
+- [TrueForge (dorucioclea)](./tool-trueforge.md) — `Tool` — 把 LLM 装进执行循环 / 工具 / 沙箱 / 会话管理四件套的运行时层，开箱即用
+- [Jixu (joe960913)](./tool-jixu.md) — `Tool` — TypeScript 单 Agent Harness，把恢复 / 重放 / 上下文延续封装成一个 API
+- [OpenHistory (ztratar)](./tool-openhistory.md) — `Tool` — Mac 本地活动时间线，可授权让本地 AI 代理按脱敏记录帮回忆「昨天做了什么」
+
+### 桌面 / 自托管
+- [Kition (KitionAI)](./tool-kition.md) — `Tool` — 桌面工作区：文档 / 表格 / 智能体 / 浏览器 / 工作流五合一，改动逐条可驳回
+
+### DeepSeek Harness (DSH) 生态扩展
+- [dsh-ios (ZSeven-W)](./tool-dsh-ios.md) — `Tool` — 把真 iOS 模拟器塞进对话里，Agent 能构建 / 点按 / 看日志，USB 真机同命令驱动
+- [oh-story-dsh (worldwonderer)](./tool-oh-story-dsh.md) — `Tool` — DSH 内三栏创作台，给 AI 长篇 / 短剧写作加文件树 + 编辑器视图
+
+### 编程语言 / 工具链
+- [HuntClaw (tigerlang)](./tool-huntclaw.md) — `Tool` — Zig 写的查找替换工具，260KB 单二进制零依赖，7 测 6 胜 ripgrep / GNU grep / sed / sd
+- [icloud-md (coddingtonbear)](./tool-icloud-md.md) — `Tool` — 把 Apple Notes 笔记变成本地 Markdown 文件，任意编辑器改完双向同步回 iCloud
+
+### 桌面 / 系统工具
+- [mouse-me (Grenish)](./tool-mouse-me.md) — `Tool` — Linux 上统一光标主题：Hyprland / GTK / Qt / X11 一处设置全部生效
+
+### 游戏开发 / Agent 评测
+- [GamePhanes (GamePhanes)](./tool-gamephanes.md) — `Tool` — 给游戏 Coding Agent 补上运行时验证：真启动游戏 / 注入输入 / 观察状态
+
+### 写作 / 内容
+- [lieflat-less-ai-tone (larashero3-dotcom)](./tool-lieflat-less-ai-tone.md) — `Tool` — 用 283 万字对照语料统计「AI 味」，输出可执行的去 AI 味改写规则集
+
+### 设计 / 前端
+- [Scandinavian Design Skill](./tool-scandinavian-design-skill.md) — `Tool` — 把北欧极简 / 性冷淡风格沉淀成 Skill，AI / Agent 加载即可按此风格生成页面
+- [ThreeUI (MengTo)](./tool-threeui.md) — `Tool` — Three.js 组件与落地页素材库，160+ 免费组件 + 复制 prompt 直接喂 Agent
+
+### Playbooks
+- [Prysai LLM Playbook](./playbook-prysai-llm-playbook.md) — `Playbook` — 让「只会聊天框要文字」的人一步步练到能用 Codex 类工具交付真实任务
+
+### 更新（Updated）
+- [GPUI Component](./tool-gpui-component.md) — `Tool` — 补充 Design Guides 文档（longbridge 官方维护，给「人 + AI」共用的设计语言）
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @rauchg is-agentic.com (2090952998281494575) — 仅 Vercel 自评网站设计，无可定位的工具 / 项目 URL，按「质量门槛」跳过
+- Wen_Zw RT @CollectUI Knowledge base by kvnkld (2090954869763150010) — 设计灵感参考图，无可定位的具体项目 / 工具，按「质量门槛」跳过
+- Wen_Zw RT @Pixel_Salvaje PHC Pixel Heat City (2090956283667165544) — 个人像素城市游戏宣传，无可提取的开源工具 / 通用方法，按「质量门槛」跳过
+- QingQ77「17000 的真人 CS 瞄具」+ 视频 (2091067445331316844) — 商品展示视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「梦幻」+ 视频 (2091159365634203832) — 仅单字感叹词 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「抽象游戏名称」+ 视频 (2091180511985279012) — 吐槽视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「世界人形机器人运动会」+ 视频 (2091147015409607050) — 反应类短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「特斯拉车顶光伏」+ 视频 (2091088520668688404) — 反应类短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- Wen_Zw RT @blobatar (2091038457011536217) — `tool-blobatar.md` 已于 2026-08-19 批处理建立完整概念，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支

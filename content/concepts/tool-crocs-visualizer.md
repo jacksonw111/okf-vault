@@ -36,5 +36,5 @@ Crocs Visualizer 是一个浏览器端运行的 Crocs 洞洞鞋定制 / 配饰�
 - ![Crocs Visualizer 界面](https://pbs.twimg.com/media/HQNk_EcbkAAn__Y.jpg)
 
 ## 相关概念
-- [Toolcraft](./concepts/tool-toolcraft.md) — 创意类应用 starter kit，同样适合做「视觉工具」类项目
-- [Three.js](./concepts/term-three-js.md) — 浏览器端 3D 渲染基础
+- [Toolcraft](./tool-toolcraft.md) — 创意类应用 starter kit，同样适合做「视觉工具」类项目
+- [Three.js](./term-three-js.md) — 浏览器端 3D 渲染基础

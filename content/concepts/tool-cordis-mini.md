@@ -33,5 +33,5 @@ cordis-mini 是一个为「想读懂 deepseek-harness 源码但无从下手」�
 - [adpanru/cordis-mini](https://github.com/adpanru/cordis-mini) — 原始仓库
 
 ## 相关概念
-- [DeepSeek Harness 中文手册](./concepts/note-deepseek-harness-handbook.md) — 与本仓库互为「读源码前后的两本参考书」
-- [DeepSeek Harness 橙皮书](./concepts/note-deepseek-harness-orange-book.md) — 非开发者实测第一手体验
+- [DeepSeek Harness 中文手册](./note-deepseek-harness-handbook.md) — 与本仓库互为「读源码前后的两本参考书」
+- [DeepSeek Harness 橙皮书](./note-deepseek-harness-orange-book.md) — 非开发者实测第一手体验

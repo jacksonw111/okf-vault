@@ -37,5 +37,5 @@ Flare 是一个把「代码库」以**依赖图谱**为第一公民呈现给用�
 - ![Flare 图谱界面](https://pbs.twimg.com/media/HQFjGMGbsAAEDgo.jpg)
 
 ## 相关概念
-- [codebase-memory-mcp](./concepts/tool-codebase-memory-mcp.md) — 用知识图谱索引代码结构，给 AI 代理用
-- [AIGX](./concepts/tool-aigx.md) — AI 编程代理上下文格式，per-file 边界索引
+- [codebase-memory-mcp](./tool-codebase-memory-mcp.md) — 用知识图谱索引代码结构，给 AI 代理用
+- [AIGX](./tool-aigx.md) — AI 编程代理上下文格式，per-file 边界索引

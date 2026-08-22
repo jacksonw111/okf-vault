@@ -35,5 +35,5 @@ Dreeve（前身 Statistics for Strava）是一个面向骑行 / 跑步 / 越野�
 - [dreeveapp/dreeve](https://github.com/dreeveapp/dreeve) — 原始仓库
 
 ## 相关概念
-- [Garmin Tracker RS](./concepts/tool-garmin-tracker-rs.md) — 同属「自托管运动数据」系
-- [Yamtrack](./concepts/tool-yamtrack.md) — 自托管媒体追踪
+- [Garmin Tracker RS](./tool-garmin-tracker-rs.md) — 同属「自托管运动数据」系
+- [Yamtrack](./tool-yamtrack.md) — 自托管媒体追踪

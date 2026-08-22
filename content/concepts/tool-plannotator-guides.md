@@ -36,5 +36,5 @@ plannotator/guides 把 AI 编码 agent 的「代码评审」体验做成有结�
 - ![plannotator 评审页示意](https://pbs.twimg.com/media/HQNmBLyasAAphA0.png)
 
 ## 相关概念
-- [kcap-cli](./concepts/tool-kcap-cli.md) — 给 AI 编码助手做可观测性 CLI，含 PR / agent 行为分析
-- [Codex Dream Skin](./concepts/tool-codex-dream-skin.md) — 同样把桌面 / Web 体验做成可分享的产物
+- [kcap-cli](./tool-kcap-cli.md) — 给 AI 编码助手做可观测性 CLI，含 PR / agent 行为分析
+- [Codex Dream Skin](./tool-codex-dream-skin.md) — 同样把桌面 / Web 体验做成可分享的产物

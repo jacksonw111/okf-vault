@@ -35,5 +35,5 @@ dsh-plugin-dir-tree 是一个 DeepSeek Harness 插件：在 dsh 的对话界面�
 - ![目录树浮窗](https://pbs.twimg.com/media/HQNkzIYbkAALWbK.jpg)
 
 ## 相关概念
-- [DSH Market](./concepts/tool-dsh-market.md) — DSH 内置插件市场
-- [dsh-visualize](./concepts/tool-dsh-visualize.md) — DSH 可视化卡片插件
+- [DSH Market](./tool-dsh-market.md) — DSH 内置插件市场
+- [dsh-visualize](./tool-dsh-visualize.md) — DSH 可视化卡片插件
