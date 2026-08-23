@@ -2311,3 +2311,44 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「世界人形机器人运动会」+ 视频 (2091147015409607050) — 反应类短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「特斯拉车顶光伏」+ 视频 (2091088520668688404) — 反应类短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - Wen_Zw RT @blobatar (2091038457011536217) — `tool-blobatar.md` 已于 2026-08-19 批处理建立完整概念，本次仅 RT 同一项目，无新增信息可补，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+
+## 本批新增（2026-08-23）
+
+### AI / Agent 生态
+- [OpenViking（volcengine）](./tool-openviking.md) — `Tool` — 火山引擎「上下文数据库」，把 Agent 记忆 / 文档 / 技能挂到 `viking://` 虚拟文件系统
+- [KITE / memoket-kite](./tool-kite-memoket.md) — `Tool` — memoket 的非向量 AI 记忆方案：结构化事实 + 可读查询计划
+- [SkillCorpus](./tool-skillcorpus.md) — `Tool` — EverMind-AI 把公开 SKILL.md 收拢 + 安全审核 + 按任务检索的可信技能库
+- [hunter-community](./tool-hunter-community.md) — `Tool` — 个人投资者的自部署金融 AI Agent 平台
+- [agent-office](./tool-agent-office.md) — `Tool` — baturyilmaz 给一群 AI 编码代理一套 Slack 式协作环境
+- [dsh-desktop (SnowCrescenter-tech)](./tool-dsh-desktop-snowcrescenter.md) — `Tool` — DeepSeek Harness Web UI 装进 Windows 桌面，双击即用
+
+### 后端 / 开发工具 / MCP
+- [proxypin-mcp-workbench](./tool-proxypin-mcp-workbench.md) — `Tool` — sinyu1012 把抓包变可积累工作流 + 本地 AI 直接分析流量
+- [floci-oci](./tool-floci-oci.md) — `Tool` — Oracle Cloud Infrastructure 本地模拟器，Docker 单容器替真租户测试
+
+### 桌面 / 终端 / 物联网
+- [OcPlayer · 橘猫播放器](./tool-ocplayer.md) — `Tool` — SwiftUI + Rust 内核的 Jellyfin 苹果端原生客户端
+- [kitty-sessionizer](./tool-kitty-sessionizer.md) — `Tool` — BearDad 给 kitty 终端补的 tmux-sessionizer 式项目管理
+- [mimimodel](./tool-mimimodel.md) — `Tool` — memovai 45M 参数的 ESP32-S3 端侧工具调用小模型
+
+### 自托管 / 隐私 / 网络
+- [ssh-clipboard](./tool-ssh-clipboard.md) — `Tool` — standardagents 点对点 SSH 同步系统剪贴板
+- [lightspeed](./tool-lightspeed.md) — `Tool` — khydrogenous 去中心化阅后即焚社交应用
+- [psipool](./tool-psipool.md) — `Tool` — xHossein 终端多地区 Psiphon 代理池管理
+
+### 金融 / 数据
+- [post-investment-platform](./tool-post-investment-platform.md) — `Tool` — Oliveluo666 的 VC/PE 投后管理开源平台
+
+### 设计 / 前端（更新）
+- [ThreeUI (MengTo)](./tool-threeui.md) — `Tool` — 补充「社区版整套开源」公告：50 个 Three.js / React 交互组件可直接看源码 + `npm` 安装
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @srbh_here「Floating menu」+ 视频 (2091349639408877784) — 仅 UI 动效展示 + great-ui.com 链接，无可定位的工具 / 项目仓库，按「质量门槛」跳过
+- QingQ77「第3道选手 这里不让睡觉」+ 视频 (2091328952401092965) — 仅短语 + 短视频，按「质量门槛」跳过
+- QingQ77「我准备了两套说辞」+ 视频 (2091448627780792456) — 仅短语 + 短视频，按「质量门槛」跳过
+- QingQ77「原来彩虹是圆的」+ 视频 (2091472462261456954) — 仅短语 + 短视频，按「质量门槛」跳过
+- QingQ77「我看到了什么😍」+ 视频 (2091461855298679006) — 仅情绪反应 + 短视频，按「质量门槛」跳过
+- QingQ77「起猛了，超人给祖国人介绍女超人。」+ 视频 (2091434483472101487) — 仅梗图式短语 + 视频，按「质量门槛」跳过
+- QingQ77「第一次见 3D 转 2D」+ 视频 (2091386099096867236) — 仅感受表达 + 视频，按「质量门槛」跳过
+- QingQ77「全球10大指数十年前各买 10 万会发生什么」+ 视频 (2091351836309799100) — 好奇心向短视频，无可定位项目 / 工具，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 OpenViking (2091404415567827247) — 与同批 QingQ77 原条 (2091371853017149484) 内容完全一致，本批已收录完整概念文件 `tool-openviking.md`，无新增信息，按「概念已存在且资料无新增信息」走「复核，无变更」分支

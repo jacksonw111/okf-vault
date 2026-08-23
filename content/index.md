@@ -2109,3 +2109,44 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「笑岔气了」+ 视频 (2090598759109435543) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「这就尴尬了」+ 视频 (2090657967578521981) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「红色警戒2巨炮」+ 视频 (2090630968344530974) — 游戏怀旧 + 短视频，无知识增量，按「质量门槛」跳过
+
+## 本批新增（2026-08-23）
+
+### AI / Agent 生态（本批新增）
+- [OpenViking（火山引擎上下文数据库）](concepts/tool-openviking.md) — `Tool` — volcengine/OpenViking，把 Agent 的记忆 / 文档 / 技能挂到 `viking://` 虚拟文件系统
+- [KITE / memoket-kite](concepts/tool-kite-memoket.md) — `Tool` — memoket 的非向量 AI 记忆方案：结构化事实 + 可读查询计划
+- [SkillCorpus](concepts/tool-skillcorpus.md) — `Tool` — EverMind-AI 把公开 SKILL.md 收拢 + 安全审核 + 按任务检索的可信技能库
+- [hunter-community](concepts/tool-hunter-community.md) — `Tool` — 个人投资者的自部署金融 AI Agent 平台：行情 / 分析 / 预测 / 投研方法论
+- [agent-office](concepts/tool-agent-office.md) — `Tool` — baturyilmaz/agent-office，给一群 AI 编码代理一套 Slack 式协作环境
+- [dsh-desktop (SnowCrescenter-tech)](concepts/tool-dsh-desktop-snowcrescenter.md) — `Tool` — 把 DeepSeek Harness Web UI 装进 Windows 桌面，双击即用
+- [herdr-nvim](concepts/tool-herdr-nvim.md) — `Tool` — ChmaraX 把 Neovim 嵌入 herdr 工作区，编辑器 / AI 改动 / 批注贯通
+
+### 后端 / 开发工具 / MCP（本批新增）
+- [proxypin-mcp-workbench](concepts/tool-proxypin-mcp-workbench.md) — `Tool` — sinyu1012 把抓包变可积累工作流 + 本地 AI 直接分析流量
+- [floci-oci](concepts/tool-floci-oci.md) — `Tool` — Oracle Cloud Infrastructure 本地模拟器，Docker 单容器替真租户测试
+
+### 桌面 / 终端 / 物联网（本批新增）
+- [OcPlayer · 橘猫播放器](concepts/tool-ocplayer.md) — `Tool` — 1824239290/OcPlayer，SwiftUI + Rust 内核的 Jellyfin 苹果端原生客户端
+- [kitty-sessionizer](concepts/tool-kitty-sessionizer.md) — `Tool` — BearDad 给 kitty 终端补的 tmux-sessionizer 式项目管理
+- [mimimodel](concepts/tool-mimimodel.md) — `Tool` — memovai/mimimodel，45M 参数的 ESP32-S3 端侧工具调用小模型
+
+### 自托管 / 隐私 / 网络（本批新增）
+- [ssh-clipboard](concepts/tool-ssh-clipboard.md) — `Tool` — standardagents 点对点 SSH 同步系统剪贴板，文本 / 图片 / 文件原生格式
+- [lightspeed](concepts/tool-lightspeed.md) — `Tool` — khydrogenous 去中心化阅后即焚社交应用，设备端加密 + P2P + 看一次即全删
+- [psipool](concepts/tool-psipool.md) — `Tool` — xHossein/psipool 终端多地区 Psiphon 代理池管理
+
+### 金融 / 数据（本批新增）
+- [post-investment-platform](concepts/tool-post-investment-platform.md) — `Tool` — Oliveluo666 的 VC/PE 投后管理开源平台：项目台账 / 财务 / 合规待办 / 报告
+
+### 更新（Updated）
+- [ThreeUI（MengTo/threeui）](concepts/tool-threeui.md) — 补充「社区版整套开源」最新公告：50 个 Three.js / React 交互组件可直接看源码 + `npm` 安装
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @srbh_here「Floating menu」+ 视频 (2091349639408877784) — 仅 UI 动效展示 + great-ui.com 链接，无可定位的工具 / 项目仓库，按「质量门槛」跳过
+- QingQ77「第3道选手 这里不让睡觉」+ 视频 (2091328952401092965) — 仅短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「我准备了两套说辞」+ 视频 (2091448627780792456) — 仅短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「原来彩虹是圆的」+ 视频 (2091472462261456954) — 仅短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「我看到了什么😍」+ 视频 (2091461855298679006) — 仅情绪反应 + 短视频，按「质量门槛」跳过
+- QingQ77「起猛了，超人给祖国人介绍女超人。」+ 视频 (2091434483472101487) — 仅梗图式短语 + 视频，按「质量门槛」跳过
+- QingQ77「第一次见 3D 转 2D」+ 视频 (2091386099096867236) — 仅感受表达 + 视频，按「质量门槛」跳过
+- QingQ77「全球10大指数十年前各买 10 万会发生什么」+ 视频 (2091351836309799100) — 好奇心向短视频，无可定位的项目 / 工具，按「质量门槛」跳过

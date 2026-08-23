@@ -4,13 +4,15 @@ title: "ThreeUI（MengTo/threeui）"
 description: "Three.js 组件与落地页素材库，160+ 组件免费，复制 prompt 或源码直接喂给 Agent；Pro 含 50+ 额外组件 + MCP + Skills"
 resource: "https://threeui.com"
 tags: "[three.js, ui-components, landing-pages, agent-skill, 3d, webgl]"
-timestamp: "2026-08-22T00:00:00Z"
+timestamp: "2026-08-23T05:55:00Z"
 ---
 
 # ThreeUI（MengTo/threeui）
 
 ## 它是什么
 [threeui.com](https://threeui.com) 是 MengTo 开源的 Three.js 组件库 + 落地页素材库：160+ 组件免费（含过程化 3D hero section、icon、motion design），Pro 版再添 50+ 组件 + MCP 接入 + Skills。复制 prompt 或源码直接喂给 AI Agent，让它按 ThreeUI 的样式生成 Three.js 页面，再自己改主题、光照、动效与布局。
+
+社区版整套开源：不用注册登录，50 个 Three.js / React 交互组件可直接看源码，也可以 `npm` 装进自己的项目。
 
 ## 为什么用它 / 适合什么场景
 - 想让 AI 一次性出 Three.js 风格的落地页，但担心模型生成效果太业余——直接喂 ThreeUI 的参考。
