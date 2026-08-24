@@ -2352,3 +2352,43 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「第一次见 3D 转 2D」+ 视频 (2091386099096867236) — 仅感受表达 + 视频，按「质量门槛」跳过
 - QingQ77「全球10大指数十年前各买 10 万会发生什么」+ 视频 (2091351836309799100) — 好奇心向短视频，无可定位项目 / 工具，按「质量门槛」跳过
 - Wen_Zw RT @QingQ77 OpenViking (2091404415567827247) — 与同批 QingQ77 原条 (2091371853017149484) 内容完全一致，本批已收录完整概念文件 `tool-openviking.md`，无新增信息，按「概念已存在且资料无新增信息」走「复核，无变更」分支
+
+## 本批新增（2026-08-24）
+
+### AI / Agent 生态（本批新增）
+- [CCSwitch-operations](./tool-ccswitch-operations.md) — `Tool` — RuriLothlorien 把 CC Switch 多处分散配置维护收拢为带校验命令
+- [teamEvolver](./tool-teamevolver.md) — `Tool` — leoriczhang 把团队真实 Agent 使用记录沉淀为可版本管理的共享 Skill / Memory
+- [chat-on-steroids](./tool-chat-on-steroids.md) — `Tool` — totec448-spec 给网页 ChatGPT 加本地 MCP 操控 Windows 桌面
+- [Perenna](./tool-perenna.md) — `Tool` — scarletkc 把跨 AI 编程客户端的长期记忆放进用户自控的 Git 仓库
+- [EvoTrace](./tool-evotrace.md) — `Tool` — jinzijian 把 Claude Code / Codex 历史会话编译成可后训练的数据集
+
+### DeepSeek Harness (DSH) 生态扩展（本批新增）
+- [DSH Image Gen](./tool-dsh-image-gen.md) — `Tool` — shanliuling 给 DSH 加对话内直接生成图片能力
+
+### 桌面 / 系统工具（本批新增）
+- [Omarchy Zonda Zoom Theme](./tool-omarchy-zonda-zoom-theme.md) — `Tool` — DHH 出品的帕加尼 Zonda 碳黑风 Omarchy 主题
+- [Home KTV (ktv-home)](./tool-ktv-home.md) — `Tool` — zhayinggang 自托管家庭局域网 KTV：扫码点歌 + Android TV 播放
+- [Cobalt (BandarLabs Kobo 平台)](./tool-cobalt-kobo.md) — `Tool` — BandarLabs 用 Rust 写的 Kobo 应用平台 + 浏览器模拟器
+
+### 数据 / 文档自动化（本批新增）
+- [Open-Sheet](./tool-open-sheet.md) — `Tool` — lianghsun 让 Agent 写电子表格时按名字引用，框架统一解析为 A1 + 活公式 .xlsx
+- [vault-graph](./tool-vault-graph.md) — `Tool` — luke321 把整个 Obsidian 库画成可交互圆形图谱，可导出离线单文件 HTML
+
+### macOS 客户端（本批新增）
+- [Kumone（macOS 网易云原生客户端）](./tool-kumone.md) — `Tool` — missuo 用 SwiftUI 写的网易云原生客户端，免网页套壳
+
+### 自托管 / README 工具（本批新增）
+- [minimal-github-stats](./tool-minimal-github-stats.md) — `Tool` — antonisloukis 用 GitHub Actions + Python 标准库生成 GitHub 统计 SVG
+- [gitglance](./tool-gitglance.md) — `Tool` — rafaeloliveiraz 自部署 GitHub 统计 SVG 卡片生成器
+
+### 学习 / 面试（本批新增）
+- [DevOps Interview Guide](./tool-devops-interview-guide.md) — `Tool` — iam-veeramalla 整理的 DevOps 面试问答指南
+
+### 复核（No-op）
+- Wen_Zw RT @tom_doerr HttpSMS (2091773744440381482) — 既有概念 [`tool-httpsms`](./tool-httpsms.md) 已完整覆盖，无新增信息
+
+### 跳过 / 复核（Skipped / No-op）
+- QingQ77「道高一尺，魔高一丈，饭卡手机。」+ 视频 (2091798795445301299) — 仅为产品硬件形态描述，无可定位的开源项目 / 工具，按「质量门槛」跳过
+- QingQ77「没有 AI 提示，居然是真实存在的🤯」+ 视频 (2091769941557203174) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「这个『我不听』真的太形象了🤣」+ 视频 (2091732567443878045) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「有谁不喜欢这种电竞房呢」+ 视频 (2091902050263265344) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
