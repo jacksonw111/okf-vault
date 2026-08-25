@@ -3,7 +3,7 @@ type: Index
 title: "概念目录"
 description: "本 OKF bundle 内所有概念文件的导航页。"
 tags: "[okf, index]"
-timestamp: "2026-07-27T20:30:00Z"
+timestamp: "2026-08-25T19:30:00Z"
 ---
 
 # 概念目录
@@ -2357,6 +2357,7 @@ timestamp: "2026-07-27T20:30:00Z"
 
 ### AI / Agent 生态（本批新增）
 - [CCSwitch-operations](./tool-ccswitch-operations.md) — `Tool` — RuriLothlorien 把 CC Switch 多处分散配置维护收拢为带校验命令
+- [CloudSync Workflow](./tool-cloudsync.md) — `Tool` — stub：把 agent 记忆 / 配置 / 工作状态同步到云端，让多端 / 多 agent 实例共享同一份上下文（修 CCSwitch-operations 断链工单时补建）
 - [teamEvolver](./tool-teamevolver.md) — `Tool` — leoriczhang 把团队真实 Agent 使用记录沉淀为可版本管理的共享 Skill / Memory
 - [chat-on-steroids](./tool-chat-on-steroids.md) — `Tool` — totec448-spec 给网页 ChatGPT 加本地 MCP 操控 Windows 桌面
 - [Perenna](./tool-perenna.md) — `Tool` — scarletkc 把跨 AI 编程客户端的长期记忆放进用户自控的 Git 仓库
@@ -2392,3 +2393,48 @@ timestamp: "2026-07-27T20:30:00Z"
 - QingQ77「没有 AI 提示，居然是真实存在的🤯」+ 视频 (2091769941557203174) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「这个『我不听』真的太形象了🤣」+ 视频 (2091732567443878045) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「有谁不喜欢这种电竞房呢」+ 视频 (2091902050263265344) — 情绪反应短语 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-25）
+
+### AI / Agent 生态（本批新增）
+- [OpenCodeGo_Pool](./tool-opencodego-pool.md) — `Tool` — xnqycs 管理多 opencode 账号配额 / 用量并把有效 API Key 自动同步到 CLIProxyAPI 做负载均衡
+- [Multi-AI-Coding-Config-Panel](./tool-multi-ai-coding-config-panel.md) — `Tool` — 3641397194-wq 把 Codex / Claude Code / Grok / DeepSeek 本地配置管理（部署 / 校验 / 快照 / 恢复）收进一个面板
+- [Braxis Blueprint](./tool-braxis-blueprint.md) — `Tool` — BraxisAI 在 Oracle ARM 免费 VM 上跑 140+ 自主代理 + 20+ 免费 LLM 通道的零 API 费 AI 业务系统
+- [awesome-deepseek-harness](./tool-awesome-deepseek-harness.md) — `Tool` — Dominic789654 给 DSH 生态做的分类资源索引（插件 / 技能 / MCP）
+- [dsh-purge](./tool-dsh-purge.md) — `Tool` — YuJunZhiXue 剥掉 DSH 渲染本地规则时附加的「仅供参考」削弱文案，默认权限放开到 full-access，让 AGENTS.md 说了算
+
+### 桌面 / 终端 / CLI（本批新增）
+- [COSMIC Juxtopposed 像素风蓝色主题包](./tool-cosmic-juxtopposed-theme.md) — `Tool` — juxtopposed 给 COSMIC 桌面的成套像素风蓝色主题（配色 / 字体 / 光标 / 壁纸 / 终端配色）
+- [Adaptive Zsh Completions](./tool-adaptive-zsh-completions.md) — `Tool` — jacobpowaza 跑 --help 摸清命令结构 + 从 shell 历史学用法的自适应 Zsh 补全引擎
+- [Mihari](./tool-mihari-proxy-cli.md) — `Tool` — mihari-proxy 终端里管 mihomo 订阅 / 系统代理 / TUN / Web 面板，替代 Clash Party / Sparkle
+
+### 数据 / 文档 / 自托管（本批新增）
+- [NativePDF Structurer](./tool-nativepdf-structurer.md) — `Tool` — crunz-ai 用 PyMuPDF 还原数字原生 PDF 阅读顺序 / 章节 / 表格 / 视觉区域的纯 Python 工具，无 OCR / GPU / VLM
+- [XingCare · 小星健康管家](./tool-xingcare.md) — `Tool` — k4ubx7 克隆即跑的「结构化症状采集 + AI 问答」前后端模板（Vue 3 + FastAPI），零配置
+- [OneRep](./tool-onerep.md) — `Tool` — an2tha 自托管健身一体化系统：训练 / 饮食 / 恢复 + AI 教练，数据留本地
+- [TokenTimer](./tool-tokentimer-core.md) — `Tool` — tokentimerch 自托管面板盯证书 / 密钥 / 许可证到期 + 多渠道报警 + 证书自动续期
+
+### 网络 / CI / 设计 / 工具型（本批新增）
+- [Cloudflare GitHub Actions Runner](./tool-cloudflare-github-actions-runner.md) — `Tool` — biw 把私有仓库 Actions 跑在自家 Cloudflare 临时容器，替代按分钟计费的 GitHub 托管 runner
+- [BetterVoice](./tool-better-voice.md) — `Tool` — TarunTomar122 语音听写时鼠标圈屏幕区域，转写文字 + 截图一起进剪贴板
+- [Visio-canvas](./tool-visio-canvas.md) — `Tool` — didohm 把 Pinterest / Figma / Notion / 截图 / 书签视觉素材收进可无限缩放画布统一管理
+- [MeterEye](./tool-metereye.md) — `Tool` — epynic 摄像头对着铅封电表每 7 秒解一次 LCD 读数
+
+### 跳过 / 复核（Skipped）
+- QingQ77「原始人有这把武器，如同有了 AI。」+ 视频 (2092062131260993711) — 短语 + 短视频，无可定位项目 / 工具，按「质量门槛」跳过
+- QingQ77「岂不闻光阴如骏马加鞭，日月如落花流水。」+ 视频 (2092089517796974757) — 诗词摘录 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「不看到最后 你都不知道他是咋实现的🤣」+ 视频 (2092126575928205384) — 情绪反应 + 短视频，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「好东西」+ 视频 (2092155334815314055) — 短句 + 短视频，无可定位项目 / 工具，按「质量门槛」跳过
+- Wen_Zw RT @Frenchie_ 法国金融 / 半导体 / AI 基础设施付费订阅清单 (2091998401521189369) — 仅一组 @handle 列表（SemiAnalysis / FundaAI / damnang2 等），无可点击的具体项目 URL，按「质量门槛」跳过
+- Wen_Zw RT @BrooksLybrand Remix built-in CSS-in-JS (2092056526571941977) — 仅一句转述 + remix.run 官方文档链接，无独立可收录的项目 / 概念，按「质量门槛」跳过
+- Wen_Zw RT @BidyutKundu12 PostHog 评价 (2092153042565280167) — 一句「PostHog is the best thing I've implemented」主观评价，缺具体用法 / 新信息，按「质量门槛」跳过
+
+### 前端 / 设计 / 工具型（本批新增）
+- [MetalForge（Thinking Orbs）](./tool-metalforge-orbs.md) — `Tool` — metalforge.xyz 跨 SwiftUI / React Native / Web 的「思考中」动效组件库
+- [Zolt](./tool-zolt-portfolio.md) — `Tool` — ShadcnStudio 基于 Shadcn UI 的免费设计师作品集 Landing Page 模板
+- [Vercel Streamdown v2.6.0](./note-vercel-streamdown-v260.md) — `Note` — Vercel 面向 AI 流式响应的 Markdown 渲染器 2.6.0 发布要点
+
+### 前端 / 设计 / 工具型（本批新增）
+- [MetalForge（Thinking Orbs）](./tool-metalforge-orbs.md) — `Tool` — metalforge.xyz 跨 SwiftUI / React Native / Web 的「思考中」动效组件库
+- [Zolt](./tool-zolt-portfolio.md) — `Tool` — ShadcnStudio 基于 Shadcn UI 的免费设计师作品集 Landing Page 模板
+- [Vercel Streamdown v2.6.0](./note-vercel-streamdown-v260.md) — `Note` — Vercel 面向 AI 流式响应的 Markdown 渲染器 2.6.0 发布要点

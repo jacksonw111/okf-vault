@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-08-12T19:58:57Z"
+timestamp: "2026-08-25T19:27:32Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -17,4 +17,4 @@ timestamp: "2026-08-12T19:58:57Z"
 
 ## 违例清单（1 条）
 
-- content/concepts/tool-openfox.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping
+- content/concepts/tool-ccswitch-operations.md:41: 断链 -> ./tool-cloudsync.md
