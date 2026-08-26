@@ -2438,3 +2438,58 @@ timestamp: "2026-08-25T19:30:00Z"
 - [MetalForge（Thinking Orbs）](./tool-metalforge-orbs.md) — `Tool` — metalforge.xyz 跨 SwiftUI / React Native / Web 的「思考中」动效组件库
 - [Zolt](./tool-zolt-portfolio.md) — `Tool` — ShadcnStudio 基于 Shadcn UI 的免费设计师作品集 Landing Page 模板
 - [Vercel Streamdown v2.6.0](./note-vercel-streamdown-v260.md) — `Note` — Vercel 面向 AI 流式响应的 Markdown 渲染器 2.6.0 发布要点
+
+## 本批新增（2026-08-26）
+
+### AI / Agent 生态（本批新增）
+- [Solweaver](./tool-solweaver.md) — `Tool` — jay7793 给 Codex 多 Agent 协作压 Sol 一头做单一问责，按合算 / 风险派 Terra/Luna
+- [ballast](./tool-ballast.md) — `Tool` — svy04 给 Claude Code 加关键词触发 hook，把历史规则原文自动塞回上下文
+- [Encephalon](./tool-encephalon.md) — `Tool` — isaachinman 把 Claude Code 项目级结论写进仓库 JSON，Agent 跨会话可查
+- [Apodex 1.1 + FrontierAgent](./tool-apodex-frontieragent.md) — `Tool` — ApodexAI 科研场景多 Agent：核查事实 → 子 Agent 并行 → 交叉验证 → 终审；附 35B 本地模型
+- [qiling-soulmate](./tool-qiling-soulmate.md) — `Tool` — Soulmate-Halo 本地优先桌面，把多 Agent CLI 收进同一工作台统一调度，强弱模型分工 + 器灵压缩
+
+### DeepSeek Harness (DSH) 生态扩展（本批新增）
+- [awesome-dsh-plugin](./tool-awesome-dsh-plugin.md) — `Tool` — bruc3van 维护的 DSH 插件质量审核清单：每日自动抓 + 人工逐一审 + 踢除留档
+
+### 前端 / 设计 / 工具型（本批新增）
+- [Paperlab](./tool-paperlab.md) — `Tool` — NourMtir 的网页真纸张画布：折叠、抓角掀起，文字随网格形变（three.js + gsap）
+- [workout-guide](./tool-workout-guide.md) — `Tool` — bryllim 把 302 个健身动作各画 3 帧（共 906 张 512×512 SVG）+ 框架无关 npm 包
+- [PrelineUI Animated Icons](./tool-preline-animated-icons.md) — `Tool` — 65 个单 SVG 内置 CSS 关键帧的动画图标，零 JS 零运行时，颜色跟父级文字
+- [shuohao-skills](./tool-shuohao-skills.md) — `Tool` — eternityspring 把说话风格 / 角色腔调做成 Code Agent 可加载 Skills
+- [SpatialBoard](./tool-spatialboard.md) — `Tool` — hishamk 的 React 白板底层（平移 / 缩放 / 撤销 / 吸附对齐），开发者注册节点即用
+- [CozyClay](./tool-cozyclay.md) — `Tool` — NomaDamas 出的 `npx cozyclay` 一键起手的浏览器 3D 动画工作室，Prompt Block 接力
+
+### 游戏 / 2D 资源生产（本批新增）
+- [zpack](./tool-zpack.md) — `Tool` — masonschafercodes 的流式资源打包工具，打成单 `.zpak`，运行时按名直查，字节一致
+- [sprite-maker](./tool-sprite-maker.md) — `Tool` — JohnKinyanjui 的 Tauri 桌面 + Codex CLI：聊天出静态精灵 + 「Animate this」逐帧 24–48 帧身份不丢形
+
+### 桌面 / 浏览器扩展（本批新增）
+- [ocr-it](./tool-ocr-it.md) — `Tool` — thiagotigaz 的 Chrome 扩展，离线 OCR 翻页书/幻灯片/PDF：⌥⇧R 框选 → ⌥⇧S 截图 → ⌥⇧A 自动翻页
+- [herdr-file-annotator](./tool-herdr-file-annotator.md) — `Tool` — JonasBaeumer 给 herdr 工作区加可视代码评审面板，fix/verify/question/nit 标签 + 行号锚点回灌 Agent
+- [doop](./tool-doop.md) — `Tool` — kgoedecke 出品的 AGPL-3.0 协作画布，对标 Paper.design：Canvas+Frame + iframe 真渲染 + WebSocket 同步
+
+### 网络 / DevOps / 自托管（本批新增）
+- [ZSvirt](./tool-zsvirt.md) — `Tool` — Kid-G0629 把 ZStack ZSphere 虚拟化引擎开源，给家庭实验室到机房一个自托管替代
+- [api-balance-checker-extension](./tool-api-balance-checker-extension.md) — `Tool` — zhuifengshaonian6 给 Chrome/Edge 写的多 AI 中转站余额聚合，Key 只存本地会话
+
+### 工程实践 / Note（本批新增）
+- [Anthropic Claude Code Startups 指南要点](./note-claude-code-startups-guide.md) — `Note` — 把 Claude Code 深度集成进 SDLC 的 5 条原则：全员参与 / 重复活自动化 / 信任必验证 / 重建为前提 / 原型→内部用→产品化
+
+### 趣味 / 数据度量（本批新增）
+- [git-entropy](./tool-git-entropy.md) — `Tool` — FelixKramer 把 git 仓库压成 tar.gz/zip 测真实信息量字节数 + 不含运行时数据的对照
+- [Pindo](./tool-pindo.md) — `Tool` — LunarXuan 把图片转拼豆图纸（网格+色号+用量统计），浏览器本地跑，旧图纸自动补色号
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @sitenley @boardui live here (2092422910317404427) — 仅一句「live here boardui.com」无项目描述 / 截图，按「质量门槛」跳过
+- Wen_Zw RT @kookaking ThreeUI 高质量开源 (2092447805126402447) — 与既有概念 [`tool-threeui`](./tool-threeui.md) 一致，无新增信息
+- Wen_Zw RT @Manixh02 MetalForge progress bar (2092456653425885620) — 与既有概念 [`tool-metalforge-orbs`](./tool-metalforge-orbs.md) 同一项目，无新增信息
+- Wen_Zw RT @studiowondercat「Best UI design resources Part 2」(2092479298053833062) — 仅四个链接（magicui / motion-primitives / smoothui / transitions.dev）均为已知资源无可点击的具体 URL，按「质量门槛」跳过
+- Wen_Zw RT @csaba_kissi 设计资源链接列表 (2092517745724367354) — kinetics / invoicegenerator / iconcreator / vibeprompts / animatedbuttons 列表，kinetics、iconcreator 已有同概念，剩三个无独立可定位项目信息，按「质量门槛」跳过
+- Wen_Zw RT @grug_speak「draw like grug handdrawn.software」(2092542170578497712) — 仅一句 + 一 URL，无项目描述 / 截图 / 关键功能介绍，按「质量门槛」跳过
+- Wen_Zw RT @Zh_Crypto517「打破信息差，5 个网站」(2092584798967755024) — 国内 token / 视频 / 音乐下载站简单列表，无开源项目信息，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 SpatialBoard (2092516472568643801) — 与 QingQ77 主帖（已建 [`tool-spatialboard`](./tool-spatialboard.md)）同项目，本条仅 RT
+- QingQ77「这不比谈朋友更香吗」+ 视频 (2092443065969680877) — 纯情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「🤯保鲜膜无壳孵化乌龟」+ 视频 (2092528009798635713) — 自然科学短视频，无工具 / 项目 / 方法增量，按「质量门槛」跳过
+- QingQ77「这才是化腐朽为神奇」+ 视频 (2092564992499614192) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「理想中的House」+ 视频 (2092597242645618714) — 房屋 / 家居短视频，无概念 / 工具 / 项目增量，按「质量门槛」跳过
+- QingQ77「以前我听到这首歌会想起很多人和事，现在什么也想不起来。」+ 视频 (2092613509645561986) — 抒情短语 + 短视频，无知识价值，按「质量门槛」跳过
