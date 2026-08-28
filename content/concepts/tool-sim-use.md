@@ -1,10 +1,10 @@
 ---
 type: Tool
 title: "sim-use"
-description: "命令行工具，让 AI agent 观察与操作 iOS 模拟器与 Android 设备屏幕（看屏、点按、打字、滑动、硬件键）；读无障碍树输出 token 紧凑摘要（省 16× tokens）、@N 别名缓存加速点按；iOS 走模拟器 HID 管道，Android 走 AccessibilityService，接口统一。"
+description: "命令行工具，让 AI agent 观察与操作 iOS 模拟器与 Android 设备屏幕（看屏、点按、打字、滑动、硬件键）；读无障碍树输出 token 紧凑摘要（省 16× tokens）、@N 别名缓存加速点按；iOS 走模拟器 HID 管道，Android 走 AccessibilityService，接口统一；v0.14.0 起支持物理 iPhone / iPad 真机。"
 resource: "https://github.com/lycorp-jp/sim-use"
-tags: "[mobile, automation, ai-agent, ios, android, cli, accessibility]"
-timestamp: "2026-07-02T15:35:00Z"
+tags: "[mobile, automation, ai-agent, ios, android, cli, accessibility, physical-device]"
+timestamp: "2026-08-27T15:38:00Z"
 ---
 
 # sim-use
@@ -14,13 +14,13 @@ timestamp: "2026-07-02T15:35:00Z"
 
 ## 为什么用它 / 适合什么场景
 - 移动端自动化测试 / Agent 验证开发效果。
-- Agent 自己开发的 App 在模拟器上跑，你想让 Agent「看到」并迭代 UI。
+- Agent 自己开发的 App 在模拟器 / 真机上跑，你想让 Agent「看到」并迭代 UI。
 - 想把 GUI Agent 能力封装成可被任意 Agent 调用的统一 CLI。
 
 ## 关键能力
 | 能力 | 说明 |
 |------|------|
-| 平台 | iOS 模拟器 + Android 真机 / 模拟器 |
+| 平台 | iOS 模拟器 + Android 真机 / 模拟器（v0.14.0+ 加 iOS / Android 物理设备） |
 | 操作 | 看屏 / 点按 / 打字 / 滑动 / 硬件键 |
 | 无障碍读取 | 直接读无障碍树 |
 | Token 优化 | 输出摘要比原始 JSON 省 16× tokens |
@@ -28,7 +28,16 @@ timestamp: "2026-07-02T15:35:00Z"
 | iOS 实现 | 模拟器 HID 管道 |
 | Android 实现 | AccessibilityService |
 | 接口统一 | iOS / Android 共一套 CLI |
+| 物理设备（实验） | v0.14.0 起支持插线 iPhone / iPad，无需 test runner / 重签 / DDI |
 | 形态 | 命令行工具 |
+
+## v0.14.0（2026-08）
+
+新增**物理 iPhone / iPad 真机**实验性支持：
+
+- 直接用 `sim-use ui`、`tap '#id'`、截图等命令通过 CLI 驱动插着线的真机设备，无需 test runner / 重新签名 / Developer Disk Image；
+- 当前真机能力覆盖：基础 UI 描述、点击、截图，更多操作在后续版本陆续加入；
+- 同时改进了既有的 iOS 模拟器与 Android 模拟器 / 真机支持。
 
 ## 相关概念
 - [page-agent（阿里浏览器端 GUI Agent）](tool-page-agent.md) — 同类「让 AI 操作界面」思路；sim-use 专注移动端，page-agent 专注浏览器端

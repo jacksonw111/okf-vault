@@ -3,7 +3,7 @@ type: Index
 title: "我的 OKF 知识库"
 description: "基于 Open Knowledge Format v0.1 的个人知识库根入口。本目录即一个 OKF bundle——一个由 Markdown + YAML frontmatter 组成、可被人和 AI agent 共同消费的知识目录。"
 tags: "[okf, root]"
-timestamp: "2026-06-26T16:50:00Z"
+timestamp: "2026-08-27T15:46:00Z"
 ---
 
 # 我的 OKF 知识库
@@ -2245,3 +2245,49 @@ timestamp: "2026-06-26T16:50:00Z"
 - QingQ77「这才是化腐朽为神奇」+ 视频 (2092564992499614192) — 短语 + 短视频，按「质量门槛」跳过
 - QingQ77「理想中的House」+ 视频 (2092597242645618714) — 房屋 / 家居短视频，按「质量门槛」跳过
 - QingQ77「以前我听到这首歌会想起很多人和事...」+ 视频 (2092613509645561986) — 抒情短语 + 短视频，按「质量门槛」跳过
+
+## 本批新增（2026-08-27）
+
+### AI / Agent 生态（本批新增）
+- [FyAgent](concepts/tool-fyagent.md) — `Tool` — fy-agent 把 Claude Code / Codex / Gemini CLI 等多 AI 编码代理的 Key / MCP / 提示词收进一个本地桌面应用，改一处同步到所有工具
+- [ThinkRail](concepts/tool-thinkrail.md) — `Tool` — JetBrains 给自家 Pi 编码 Agent 出的桌面客户端，引擎嵌入应用进程跑
+- [pi-agent-desktop](concepts/tool-pi-agent-desktop.md) — `Tool` — Chasen-Liao 社区版 Pi Agent 独立窗口客户端
+- [Strado](concepts/tool-strado.md) — `Tool` — strado-io 多 AI 编码代理并行协作平台：独立 worktree + 内置浏览器 / IDE
+- [Capstan](concepts/tool-capstan.md) — `Tool` — theStrangeAdventurer C + 嵌入式 Lua 实现的轻量终端编码 Agent
+- [remotifyd](concepts/tool-remotifyd.md) — `Tool` — langgenius（Dify 团队）专为 AI Agent 设计的远程设备管理守护进程
+- [wildchopper/financial-dashboard](concepts/tool-wildchopper-financial-dashboard.md) — `Tool` — React + Express 财务报表看板参考实现，外部数据必须先过结构 + 语义双重校验才进 UI
+- [angkorgit](concepts/tool-angkorgit.md) — `Tool` — cheat2001 跨平台开源 Git 客户端，二进制仅 ~12 MB
+
+### Agent Skills 生态（本批新增）
+- [Gradio Agent Workflow Guide](concepts/tool-gradio-agent-workflow-guide.md) — `Tool` — Hugging Face 主张 agent-friendly ≈ human-friendly
+- [fireworks-open-eli5](concepts/tool-fireworks-open-eli5.md) — `Tool` — yizhiyanhua-ai 把复杂系统讲成带证据、可交互的离线 HTML 视觉故事
+- [taste-skill / redesign-existing-projects](concepts/tool-taste-skill-redesign.md) — `Tool` — Scan → Diagnose → Fix 三步 Agent Skill
+
+### 跨端 / 前端 / 设计（本批新增）
+- [StyleX Blocks](concepts/tool-stylexblocks.md) — `Tool` — eelcodotdev 基于 Stylex + Ark UI / Base UI 的组件积木站
+- [wsrv.nl](concepts/tool-wsrv.md) — `Tool` — 开源图像 CDN / 图像代理，可 Docker 自托管
+- [Highball](concepts/tool-highball.md) — `Tool` — gauthierpiarrette Apple Silicon Mac 一键运行 Windows 游戏 + 开放兼容性数据库
+- [GLTFVisu](concepts/tool-gltfvisu.md) — `Tool` — MaxMFonseca 把 glTF + 自定义着色器调试装进同一个网页
+- [uni-baidu-map-harmony](concepts/tool-uni-baidu-map-harmony.md) — `Tool` — carlChina88 把百度地图 HarmonyOS NEXT 原生 SDK 补进 uni-app
+
+### 个人 / 财务 / 健康（本批新增）
+- [life-ipo（衡 · 人生 IPO）](concepts/tool-life-ipo.md) — `Tool` — gtlhuyidan-sketch 统一个人数据操作系统
+
+### 流程手册（Playbooks）
+- [Fact-Anchored Discovery Learning](concepts/playbook-fact-anchored-discovery-learning.md) — `Playbook` — amosblomqvist 把「先锁事实、再发现推导」教学法编码成 Pi 配置
+
+### 更新（Updated）
+- [sim-use](concepts/tool-sim-use.md) — `Tool` — 更新 v0.14.0：新增物理 iPhone / iPad 真机实验性支持 + 既有的 iOS 模拟器 / Android 改进
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @davidhdev CRTWarp reactbits.dev 组件 (2092819930962096233) — 单组件展示，按「质量门槛」跳过
+- Wen_Zw RT @csaba_kissi 设计资源链接列表 (2092938911580557480) — 多为已知资源或目录站，按「质量门槛」跳过
+- Wen_Zw RT @shao__meng ui-skills.com (2092964573439771061) — 与既有概念 [`note-ui-skills-top10`](concepts/note-ui-skills-top10.md) 同一项目，无新增信息
+- Wen_Zw RT @bestdesignsonx Binder tabs (2092979032510115846) — 单 UI 设计展示，按「质量门槛」跳过
+- Wen_Zw RT @remvze mnmm.xyz 极简网站列表 (2093000225829134396) — 4 个极简网站链接列表，按「质量门槛」跳过
+- Wen_Zw RT @ShadcnAdmn shadcnuidashboard.com 仪表盘模板 (2093001664240443441) — 仅 demo URL 与营销截图，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 fireworks-open-eli5 (2093002329482309989) — 与 QingQ77 主帖（已建 [`tool-fireworks-open-eli5`](concepts/tool-fireworks-open-eli5.md)）同项目，本条仅 RT
+- QingQ77「我看的是正经《奥德赛》吗？」+ 视频 (2092780783077593128) — 短语 + 短视频，按「质量门槛」跳过
+- QingQ77「canvas-retro-engine 在 Obsidian Canvas 内玩 NES/PS1」(2092790198761316370) — 娱乐性怀旧模拟器，按「质量门槛」跳过
+- QingQ77「机器人：一生只能用一次的大招」+ 视频 (2092838456926023887) — 情绪反应 + 短视频，按「质量门槛」跳过
+- QingQ77「FrontierAgent 终端多 Agent 框架」(2092846066974834889) — 与既有概念 [`tool-apodex-frontieragent`](concepts/tool-apodex-frontieragent.md) 同一项目，无新增信息
