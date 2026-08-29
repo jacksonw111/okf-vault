@@ -2557,6 +2557,7 @@ timestamp: "2026-08-27T15:46:00Z"
 - [go-llama](./tool-go-llama.md) — `Tool` — goccy 把 llama.cpp 推理完整搬进纯 Go（零 cgo、零共享库），单静态二进制跨平台跑 GGUF 模型
 - [Bookshelf](./tool-bookshelf.md) — `Tool` — murerkinn 的无数据库自托管电子书发布：Cloudflare R2 / 本地目录 + OPDS 协议，浏览器与 Kobo 可读
 - [kiri](./tool-kiri.md) — `Tool` — yuxino 把截图 / 标注 / OCR / 录屏四件套并进一个本地桌面工作区，截图与录屏全落本机
+- [mamf](./tool-mamf.md) — `Tool` — macOS 上极简、自管的截图 + OCR + 标注本地工具，kiri 的轻量源头
 
 ### 网络 / DevOps / 系统诊断（本批新增）
 - [whoiz](./tool-whoiz.md) — `Tool` — jkup 给一个域名自动画出每个路径和子域背后各是哪家 CDN / 托管商在顶，识别不到就直说
@@ -2578,6 +2579,33 @@ timestamp: "2026-08-27T15:46:00Z"
 ### AI 创作 / 多模型 Web 工作室（本批新增）
 - [Open Higgsfield](./tool-open-higgsfield.md) — `Tool` — wide-trace 把 12 图像 + 28 视频模型收进同一免费开源 Web 工作室，定位为付费版 Higgsfield AI 的开源替代
 
+### AI / Agent 框架 / 多模型生态（本批新增 2026-08-29 二轮）
+- [deepseek-harness（核心框架）](./tool-deepseek-harness-core.md) — `Tool` — deepseek-ai 官方开源的可插拔智能体框架：模型 / 工具 / 存储 / agent loop 都能在配置层面整体替换
+- [opengrok](./tool-opengrok-bot.md) — `Tool` — OnlyTerp 给 Grok Bot 内的每个 agent 换上任意 LLM 模型，按各家 API 真实协议对接
+- [pi-clinepass](./tool-pi-clinepass.md) — `Tool` — fifidayone 给 pi 编码代理加 ClinePass 接入，美元计价限额 + 实时成本跟踪 + 套餐额度上报
+- [opencode-usage](./tool-opencode-usage.md) — `Tool` — xhang1108 的 Chrome 扩展，把 opencode 用量同步到本地并展示仪表盘，补齐免费模型统计
+- [docker-auth-boundary](./tool-docker-auth-boundary.md) — `Tool` — decionis 给 Docker 内的 AI 代理加确定性执行授权边界，敏感操作先经过策略评估 + 可验证人类审批
+
+### 桌面 / 多媒体 / 文档处理（本批新增 2026-08-29 二轮）
+- [Flow 提词器](./tool-flow-teleprompter.md) — `Tool` — LumoRez07 的 Windows 置顶悬浮窗提词器，主播 / 老师 / 学生对着屏幕念不必低头
+- [FFmpegFreeUI](./tool-ffmpeg-free-ui.md) — `Tool` — Lake1059 给 Windows 进阶用户做的免费 FFmpeg 图形外壳，压制 / 格式转换不必手敲命令行
+- [knurl](./tool-knurl-latex.md) — `Tool` — gilsonolegario 读 LaTeX 项目把 \usepackage 映射到 TeX Live 包名，缺什么一键装好
+- [GPUI Component Motion](./tool-gpui-component-motion.md) — `Tool` — LongBridge 给 GPUI Component 加的动画 / 过渡系统，把入场 / 微交互动效做成声明式组件
+
+### 终端 / 网络 / 安全研究（本批新增 2026-08-29 二轮）
+- [tailcat](./tool-tailcat.md) — `Tool` — Tailscale 的 netcat 替代：跑在 Tailscale 数据平面上，无 control plane / 无需账号、gVisor netstack 无需 root
+- [darwin-vm](./tool-darwin-vm.md) — `Tool` — jprx 在 QEMU 上跑最新版 iOS / macOS 27（含 SPTM），覆盖 iPhone 12–17 与 M1–M5 Mac，可调试 kernel / SPTM / launchd
+- [ipatool](./tool-ipatool.md) — `Tool` — majd 的命令行工具，从 App Store 下载 IPA / 列元数据 / 发起 SAP 签名请求，v2.4.0 修复 Apple 服务端鉴权变更
+
+### 嵌入模型 / 多模态（本批新增 2026-08-29 二轮）
+- [WeMM-Embedding](./tool-wemm-embedding.md) — `Tool` — 腾讯微信团队的通用多模态嵌入模型：文本 / 图像 / 视频 / 视觉文档 / 交错输入统一嵌入，支持 Matryoshka 维度截断
+
+### 推理 / 集群 / GPU（本批新增 2026-08-29 二轮）
+- [Qwen3.8-Flash-Next-Dual-DGX-Sparks](./tool-qwen-dual-dgx-spark.md) — `Tool` — MiaAI-Lab 用两台 DGX Spark 张量并行跑 176B NVFP4 量化 MoE，一条命令启动并补齐 SGLang 在 SM121 上缺的稀疏注意力 + NVFP4 KV cache
+
+### Playbooks（本批新增 2026-08-29 二轮）
+- [simplify-codebase](./playbook-simplify-codebase.md) — `Playbook` — 编码代理的「先证明再删除」清理工作法：盘点 → 追根 → 风险分类 → 注释化 → 单条删除 → 观察 → 审计
+
 ### 跳过 / 复核（Skipped / No-op）
 - Wen_Zw RT @shao__meng Anti-Slop 品味 Skills (2093169094686318701) — 与既有概念 [`tool-taste-skill-redesign`](./tool-taste-skill-redesign.md) 同一项目，无新增信息
 - Wen_Zw RT @flaviocopes StyleX 深度文章 (2093231697122955600) — 仅引用外部博客链接，无可独立收录的具体项目 / 文档，按「质量门槛」跳过
@@ -2596,3 +2624,16 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「豆包：对不起我刚才搞错了...下辈子注意听」+ 视频 (2093158893493113116) — 豆包梗 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「这是我一个被吓到的 AI 视频」+ 视频 (2093184643667534082) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「摄影界到底有多少天才」+ 视频 (2093176394310361189) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- Wen_Zw RT @kail_designs 动效图标站合集 (2093587754542391547) — 5 个图标站 URL 罗列（lucide-animated / itshover / lottiefiles / iconsax / fontawesome animate），无项目 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT @cameronmoll mjbarton 新作品集 (2093478317790048398) — 单一作品集站点推荐，无项目 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT @tranmautritam pixlo.me (2093649665623490717) — 单 SaaS 站点（图片 → 社媒视频），无 GitHub / 开源代码，按「质量门槛」跳过
+- Wen_Zw RT @AdhamDannaway inspora.design (2093733055890669680) — 单一设计策展站点推荐，无项目 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 DGX Spark (2093580926848794756) — 与 QingQ77 主帖（已建 [`tool-qwen-dual-dgx-spark`](./tool-qwen-dual-dgx-spark.md)）同项目，本条仅 RT
+- QingQ77「完美的末日之家」+ 视频 (2093719741793984823) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「有意思」+ 视频 (2093638287022018907) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「起猛了，居然请到了黄眉大王！」+ 视频 (2093667613641695290) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「石头、剪刀、布大逃杀」+ 图 + 视频 (2093696617782329767) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「一切都在意料之中😅」+ 视频 (2093636966294458382) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「Cybercab 纯无人驾驶时代即将到来」+ 视频 (2093706913137799578) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77 my-girlfriend-jingtian-latex (2093667982840824075) — 个人小说 LaTeX 排版示例，无可复用的工程 / 工具 / 方法，按「质量门槛」跳过
+- QingQ77 Rust 终端倒计时 + 视频 (2093643320404873257) — 描述提到「Rust 终端倒计时 / 秒表」但**无 GitHub 链接**，无可独立收录的项目 / 文档，按「质量门槛」跳过

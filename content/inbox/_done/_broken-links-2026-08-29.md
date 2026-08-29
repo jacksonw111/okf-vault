@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-08-29T01:58:07Z"
+timestamp: "2026-08-29T21:29:27Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -15,6 +15,7 @@ timestamp: "2026-08-29T01:58:07Z"
 1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；
 2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。
 
-## 违例清单（1 条）
+## 违例清单（2 条）
 
-- content/concepts/tool-strado.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping
+- content/concepts/tool-kiri.md:42: 断链 -> tool-mamf.md
+- content/concepts/tool-omarchy-time-machine.md:37: 断链 -> tool-synology-hyper-backup.md
