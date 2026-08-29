@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "Strado（多 AI 编码代理工作台：独立 worktree + 内置浏览器 / IDE）"
-description: "多 AI 编码代理并行协作平台：每个代理给一个独立 git worktree，互不踩改；内置浏览器与 IDE，盯着页面就能确认代理说"改好了"是不是真的生效。"
+description: "多 AI 编码代理并行协作平台：每个代理给一个独立 git worktree，互不踩改；内置浏览器与 IDE，盯着页面就能确认代理说『改好了』是不是真的生效。"
 resource: "https://github.com/strado-io/strado"
 tags: [multi-agent, coding-agent, worktree, ide, browser, collaboration]
 timestamp: "2026-08-27T06:28:00Z"

@@ -2538,3 +2538,61 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「canvas-retro-engine 在 Obsidian Canvas 内玩 NES/PS1」(2092790198761316370) — 娱乐性怀旧模拟器，无可复用的工程 / 设计模式，按「质量门槛」跳过
 - QingQ77「机器人：一生只能用一次的大招」+ 视频 (2092838456926023887) — 情绪反应 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「FrontierAgent 终端多 Agent 框架」(2092846066974834889) — 与既有概念 [`tool-apodex-frontieragent`](./tool-apodex-frontieragent.md) 同一项目，无新增信息
+
+## 本批新增（2026-08-29）
+
+### AI / Agent 生态（本批新增）
+- [Lody](./tool-lody.md) — `Tool` — LodyAI 通过 ACP 把任意机器上的 Claude Code / Codex / Kimi / OpenCode 接入同一个团队共享工作空间，桌面 / 手机 / 网页 / CLI 同源访问
+- [Open Agent View](./tool-open-agent-view.md) — `Tool` — xhluca 把 Claude Code / Codex / Cursor / Pi 等 15+ 本地编码 Agent 收进同一个 TUI 仪表盘，看哪些在跑、哪些需要介入
+- [unbox-ai](./tool-unbox-ai.md) — `Tool` — tester-army 把 LLM 调用 trace 中每轮重复的 system prompt 与工具定义摊开画图，定位 token 浪费源头
+- [Pentest Harness](./tool-pentest-harness.md) — `Tool` — S1N6H 给授权渗透测试 / 漏洞悬赏 / CTF 场景的自托管 AI Agent Harness，BYO 模型 API、会话全留本地
+
+### DeepSeek Harness (DSH) 生态扩展（本批新增）
+- [dsh-harmonyos-pc](./tool-dsh-harmonyos-pc.md) — `Tool` — Entity-Him 把 DSH 核心运行时搬上 HarmonyOS PC，免装 Linux 虚拟机即可用 DSH 插件生态
+
+### 前端 / 设计 / 工具型（本批新增）
+- [Keyline Icons](./tool-keyline-icons.md) — `Tool` — iszafar92 为 shadcn 生态定制的开源 Keyline 图标集，585 个图标 + React / MCP / CLI 三套发行包 + Figma 社区文件 + Figma 插件，MIT 免署名
+
+### 数据 / 文档 / 跨端（本批新增）
+- [go-llama](./tool-go-llama.md) — `Tool` — goccy 把 llama.cpp 推理完整搬进纯 Go（零 cgo、零共享库），单静态二进制跨平台跑 GGUF 模型
+- [Bookshelf](./tool-bookshelf.md) — `Tool` — murerkinn 的无数据库自托管电子书发布：Cloudflare R2 / 本地目录 + OPDS 协议，浏览器与 Kobo 可读
+- [kiri](./tool-kiri.md) — `Tool` — yuxino 把截图 / 标注 / OCR / 录屏四件套并进一个本地桌面工作区，截图与录屏全落本机
+
+### 网络 / DevOps / 系统诊断（本批新增）
+- [whoiz](./tool-whoiz.md) — `Tool` — jkup 给一个域名自动画出每个路径和子域背后各是哪家 CDN / 托管商在顶，识别不到就直说
+- [Tasks–To Do Sync](./tool-tasks-todo-sync.md) — `Tool` — simonchai-tw 跑在自家 Google Apps Script 的 Google Tasks ↔ Microsoft To Do 双向同步桥，10 分钟一轮，列表 / 任务以 ID 映射
+
+### 桌面 / macOS / Omarchy（本批新增）
+- [omacosy](./tool-omacosy.md) — `Tool` — paulsp94 给 macOS 26 写的 omarchy 风格平铺桌面：五个自编译 Swift 小二进制覆盖 Super 键 dwindle 平铺 / 状态栏 / 焦点跟随 / 触控板切工作区 / 实时总览
+- [Realmheart](./tool-realmheart.md) — `Tool` — kzahed610 用 C++ + GTK 4 把平铺桌面 shell 整套塞进一个仓库，外观按《The Beginning After the End》动画风格做
+- [omarchy-time-machine](./tool-omarchy-time-machine.md) — `Tool` — jankeesvw 给 Omarchy 顶栏写的备份插件，按计划拷主目录，正常时安静显示上次备份时间，超时或失败才亮红
+
+### 个人 / 创作 / 桌面玩具（本批新增）
+- [QzoneArchive](./tool-qzone-archive.md) — `Tool` — Gaoshu705 把 QQ 空间旧动态 / 照片 / 视频 / 点赞评论全部抓回本地 SQLite，离线可查、可导出
+- [oimimo 画师排单助手](./tool-oimimo-scheduler.md) — `Tool` — mimo9708 给独立插画师从「接单 → 排期 → 跟进 → 收款 → 统计 → 归档」一条龙收进本地工具
+- [StockPet](./tool-stockpet.md) — `Tool` — YellowPancake 把 A 股 / 港股 / 美股分时行情养在桌面角落，涨跌幅触阈值用小牛小熊动画提醒
+
+### 自托管 / 跨端互传 / 隐私（本批新增）
+- [OneSend（扫传）](./tool-onesend.md) — `Tool` — makerjackie 在无账号 / 无配对 / 无网络环境下用屏幕光学码 + 摄像头扫传两台设备间的文件
+
+### AI 创作 / 多模型 Web 工作室（本批新增）
+- [Open Higgsfield](./tool-open-higgsfield.md) — `Tool` — wide-trace 把 12 图像 + 28 视频模型收进同一免费开源 Web 工作室，定位为付费版 Higgsfield AI 的开源替代
+
+### 跳过 / 复核（Skipped / No-op）
+- Wen_Zw RT @shao__meng Anti-Slop 品味 Skills (2093169094686318701) — 与既有概念 [`tool-taste-skill-redesign`](./tool-taste-skill-redesign.md) 同一项目，无新增信息
+- Wen_Zw RT @flaviocopes StyleX 深度文章 (2093231697122955600) — 仅引用外部博客链接，无可独立收录的具体项目 / 文档，按「质量门槛」跳过
+- Wen_Zw RT @DrCapsoul toon-shaded world (2093188644760867180) — three.js + ref.design 微缩卡通世界 demo 视频，无项目仓库 / 文档，按「质量门槛」跳过
+- Wen_Zw RT @dwhitedesign drawably.dev 手绘字体 (2093225945130037516) — 与既有概念 [`tool-drawably`](./tool-drawably.md) 同一项目，无新增信息
+- Wen_Zw RT @iszafar92 Keyline Icons 累计数据 (2093110905332768770) — 已收录 [`tool-keyline-icons`](./tool-keyline-icons.md)，本条仅 RT 复述
+- Wen_Zw RT @immersivetran A Soft Murmur (2093277361416606081) — 单一白噪音网站推荐，无开源项目 / 工具增量，按「质量门槛」跳过
+- Wen_Zw RT @liutauras_liu swiped.design 设计策展 (2093109104969646161) — 仅一个 SaaS 站点链接，无开源项目 / 工具增量，按「质量门槛」跳过
+- Wen_Zw RT @taishik_ stylexcn.vercel.app (2093240062469443653) — 单一 UI 演示站，无可独立收录的开源项目，按「质量门槛」跳过
+- Wen_Zw RT @emilwidlund soundscape 颗粒合成器 (2093139150757331349) — 单一音乐工具 demo，无开源仓库 / 方法增量，按「质量门槛」跳过
+- Wen_Zw RT @Pixel_Salvaje Pixzels (2093109355302539555) — itch.io 个人项目无 GitHub / 文档，按「质量门槛」跳过
+- Wen_Zw RT @Mike_Andreuzza Lexington Themes (2093174856418492827) — 付费商业主题（$99），无开源代码 / 概念增量，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 Lody (2093225990353006959) — 与 QingQ77 主帖（已建 [`tool-lody`](./tool-lody.md)）同项目，本条仅 RT
+- QingQ77「AI 做的，感觉她有意识了。」+ 视频 (2093121792072355878) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「我以为玩的是卡车模拟器，其实是实操。」+ 视频 (2093358252277026932) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「豆包：对不起我刚才搞错了...下辈子注意听」+ 视频 (2093158893493113116) — 豆包梗 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「这是我一个被吓到的 AI 视频」+ 视频 (2093184643667534082) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「摄影界到底有多少天才」+ 视频 (2093176394310361189) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
