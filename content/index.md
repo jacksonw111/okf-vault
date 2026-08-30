@@ -2389,3 +2389,48 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「Cybercab 纯无人驾驶时代即将到来」+ 视频 (2093706913137799578) — 短语 + 短视频，按「质量门槛」跳过
 - QingQ77 my-girlfriend-jingtian-latex (2093667982840824075) — 个人小说 LaTeX 排版示例，按「质量门槛」跳过
 - QingQ77 Rust 终端倒计时 + 视频 (2093643320404873257) — 描述提到但无 GitHub 链接，按「质量门槛」跳过
+
+## 本批新增（2026-08-30）
+
+### AI / Agent 生态（本批新增）
+- [CXX（微信远程接管）](concepts/tool-cxx-wechat.md) — `Tool` — focuxdot 用微信当遥控器接管电脑上跑的 Codex / Claude Code：看会话进度、审批命令、发新指令
+
+### 前端 / 设计 / 组件库（本批新增）
+- [Moduix](concepts/tool-moduix.md) — `Tool` — 构建在 Ark UI 之上的框架无关组件库：同一 API 自动适配 React / Vue / Solid / Svelte，样式默认 Tailwind 但可整体替换
+- [Polkadot](concepts/tool-polkadot.md) — `Tool` — 零依赖 SVG 占位图生成器：URL 参数化尺寸 / 图案 / 配色 / 文字，可直接 `<img>` 引用、可 CDN 缓存
+- [ln-dev7/logos](concepts/tool-logos-ln-dev7.md) — `Tool` — ln-dev7 的开源 logo 合集：15000+ 应用与公司矢量 logo，可直接复制 SVG / PNG 用于落地页 / Dashboard 集成列表
+
+### SEO / 搜索可见性（本批新增）
+- [geo-seo-claude](concepts/tool-geo-seo-claude.md) — `Tool` — zubair-trabzada 的 GEO / AI 搜索审计工具：并行自动化代理审计 ChatGPT / Claude / Perplexity / Google AI Overviews 的引用分数、schema、品牌权威度
+
+### 终端 / 编辑器（本批新增）
+- [Shoin / 書院](concepts/tool-shoin.md) — `Tool` — nol00p 用 Rust 写的极简终端 Markdown 编辑器：界面只有一列文字，菜单 / 文件树 / 状态行都没有，面板按需按键唤起
+- [essh](concepts/tool-essh.md) — `Tool` — matthart1983 用纯 Rust 写的终端 SSH 客户端：多会话 + 实时主机指标 + 群组差异对比，替代 ssh + htop + cluster-ssh 组合
+
+### 桌面 / macOS / 硬件（本批新增）
+- [macscope](concepts/tool-macscope.md) — `Tool` — rsm23 给 Apple Silicon Mac 做的桌面工具箱：系统监控 + 进程管理 + macOS 控制 + 小工具集成到单个原生应用
+- [microduck](concepts/tool-microduck.md) — `Tool` — Pollen Robotics 开源机器鸭：双舵机驱动 + 全开源 BOM / 3D / 固件，可作 AI 代理物理外壳 / STEM 教学
+
+### 文档 / 测试 / 工作流（本批新增）
+- [Mimik](concepts/tool-mimik.md) — `Tool` — westpoint-io 的本地优先浏览器操作录制扩展：录一遍自动产出带截图 / 标注的图文指南，无账号 / 不上云 / 不追踪
+- [TestingFilesGenerator](concepts/tool-testing-files-generator.md) — `Tool` — donislawdev 给 QA 的测试文件生成器：22 种真实格式按字节大小生成，附「该如何处理」清单可作 CI fixture
+
+### 写作 / De-AI（本批新增）
+- [Sepia](concepts/tool-sepia-deai.md) — `Tool` — Nanako0129 的跨平台 De-AI 写作技能：从叙事架构层（节拍 / 视角 / 节奏 / 主观偏差）消除 AI 痕迹，不是改词改句表面
+
+### 系统诊断 / 磁盘健康（本批新增）
+- [lindiskinfo](concepts/tool-lindiskinfo.md) — `Tool` — pacmanics 受 CrystalDiskInfo 启发的 Linux 磁盘健康监控工具：图形化呈现 S.M.A.R.T. 与 NVMe 健康状态，给 Linux 用户一个等了多年的等价物
+
+### 复核无新增（Re-check no-op）
+- QingQ77 tailcat (2093854209729048582) — 与既有概念 [`tool-tailcat`](concepts/tool-tailcat.md) 同一项目（Tailscale 数据平面 netcat 替代），无新增信息
+- QingQ77 darwin-vm (2094066357969264642) — 与既有概念 [`tool-darwin-vm`](concepts/tool-darwin-vm.md) 同一项目（QEMU 上跑 iOS / macOS 27 含 SPTM），无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @AdhamDannaway Claude Code 101 for Designers (2094091069810167809) — 仅外部博客链接解释 Claude Code 行话，与既有 [`tool-claude-code`](concepts/tool-claude-code.md) 无新工程增量，按「质量门槛」跳过
+- Wen_Zw RT @sheerluck_io GPUI 教程博客 (2093938978470977779) — 外部教程博客链接，与既有 [`tool-gpui-component`](concepts/tool-gpui-component.md) 无新增工程增量，按「质量门槛」跳过
+- Wen_Zw RT @iamncdai chanhdai.com/blocks 缩略图更新 (2093986258020372812) — 仅个人作品集缩略图更新公告，无可独立收录的工程 / 工具 / 方法，按「质量门槛」跳过
+- QingQ77「居然还有乌龟视角」+ 视频 (2093905760128487839) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「大疆 avata360 新玩法」+ 视频 (2093929203993633274) — 短语 + 视频，无可独立收录的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「回来了，都回来了。」+ 图 + 视频 (2093914449287749866) — 短语 + 图 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「可以在末日生活一辈子」+ 视频 (2094035948275388609) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「孙哥头上是什么🤣」+ 视频 (2093860754411884688) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过

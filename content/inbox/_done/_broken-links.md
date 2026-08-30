@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-08-25T19:27:32Z"
+timestamp: "2026-08-30T21:49:20Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -17,4 +17,4 @@ timestamp: "2026-08-25T19:27:32Z"
 
 ## 违例清单（1 条）
 
-- content/concepts/tool-ccswitch-operations.md:41: 断链 -> ./tool-cloudsync.md
+- content/concepts/tool-omarchy-time-machine.md:37: 断链 -> tool-synology-hyper-backup.md

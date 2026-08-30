@@ -34,7 +34,7 @@ timestamp: "2026-08-28T00:00:00Z"
 
 ## 相关概念
 - [Btop Quattro Plugin](tool-btop-quattro-plugin.md) — 同为 Omarchy 顶栏插件（btop 摘要）；Time Machine 是**备份 / 状态指示**维度
-- [Synology Hyper Backup](tool-synology-hyper-backup.md) — 群晖 NAS 原生备份方案；Time Machine 是在 Omarchy **桌面端**的轻量替代
+- [Synology Hyper Backup](term-synology-hyper-backup.md) — 群晖 NAS 原生备份方案；Time Machine 是在 Omarchy **桌面端**的轻量替代
 
 ## 参考链接
 - 项目链接：<https://github.com/jankeesvw/omarchy-time-machine>
