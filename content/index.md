@@ -2434,3 +2434,42 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「回来了，都回来了。」+ 图 + 视频 (2093914449287749866) — 短语 + 图 + 视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「可以在末日生活一辈子」+ 视频 (2094035948275388609) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「孙哥头上是什么🤣」+ 视频 (2093860754411884688) — 短语 + 短视频，无概念 / 工具 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-08-31）
+
+### AI / Agent 生态（本批新增）
+- [Nanocoder](concepts/tool-nanocoder.md) — `Tool` — Nano Collective 社区集体维护的终端编码 Agent（npm / Homebrew / Nix Flakes 三种安装）
+- [Headcount](concepts/tool-headcount.md) — `Tool` — 把 Claude Code 技能组织成 16 个部门 / 146 项技能的公司化框架，按需加载
+- [codex-with-chatgpt](concepts/tool-codex-with-chatgpt.md) — `Tool` — 让网页版 ChatGPT 订阅额度当 Codex 规划 / 审查大脑，Codex 只负责执行
+- [Vercel Labs `run`](concepts/tool-vercel-labs-run.md) — `Tool` — worker 线程隔离的 QuickJS 沙箱，让来宾代码只能调用宿主注入函数
+
+### 桌面 / 系统工具（本批新增）
+- [CleeCode](concepts/tool-cleecode.md) — `Tool` — Rust 写的终端 IDE，编辑器 + 文件树 + shell 终端共处一窗，200+ 语言高亮 + LSP
+- [Beichen Pi / 北辰 Pi](concepts/tool-beichen-pi.md) — `Tool` — Windows 极简 Agent 桌面平台，面向本地部署模型，实时显示剩余 context / Token 消耗
+
+### 终端 / 网络 / 系统管理（本批新增）
+- [Swrm](concepts/tool-swrm.md) — `Tool` — Go 写的终端 BitTorrent 客户端（Bubble Tea），所有流量锁死 VPN 接口防 IP 泄漏
+- [Tether](concepts/tool-tether-zackb.md) — `Tool` — C++ 写的 iPhone ↔ Linux 桥接套件（守护进程 + CLI + GTK + iOS App + 浏览器扩展）
+
+### 前端 / 设计 / 移动（本批新增）
+- [PanelUI](concepts/tool-panelui.md) — `Tool` — Expo / React Native UI 组件库 + Flow 节点编辑器（pan / zoom / 可拖拽节点 / 动画边线）
+- [Simslim](concepts/tool-simslim.md) — `Tool` — iOS 模拟器瘦身工具，缓解低内存 Mac 跑 Xcode 模拟器的痛点
+
+### 前端 / 设计资源（本批新增）
+- [Cizgile](concepts/tool-cizgile.md) — `Tool` — 零依赖 URL slug 引擎（RFC 3986/3987 + 7 种文字转写 + IRI/URI）
+- [Frontier Models Evidence Board](concepts/tool-frontier-evidence-board.md) — `Tool` — 用证据板风格可视化解释前沿模型与架构的交互式站点
+- [Design Engineer Tools](concepts/tool-design-engineer-tools.md) — `Tool` — James Warner 维护的面向 Web 设计工程师的工具精选目录
+
+### 复核无新增（Re-check no-op）
+- QingQ77 S1N6H/pentest-harness (2094235220517978604) — 与既有概念 [`tool-pentest-harness`](concepts/tool-pentest-harness.md) 同一项目（授权渗透测试自托管 AI harness，基于 DeepSeek Harness 重新品牌），无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @vinitj888 Annnimate.com (2094285395534237754) — 转发「创意 UI 组件」单句推荐，无项目仓库 / 安装说明 / 工程细节，按「质量门槛」跳过
+- Wen_Zw RT @SwamiMalode RareUI sidebar (2094434470288031786) — 转发「Just shipped a new sidebar interaction」单句更新公告 + 演示视频，无独立项目增量，按「质量门槛」跳过
+- Wen_Zw RT @wong2__ umami.is (2094434637628199414) — 单句「umami.is 好用」推荐，无项目仓库 / 安装说明 / 工程细节，按「质量门槛」跳过
+- Wen_Zw RT @withden_ paceui.com/changelog (2094296774777385332) — 转发个人 UI 库 changelog 公告 + 链接，无项目仓库 / 独立增量，按「质量门槛」跳过
+- Wen_Zw RT @Heylaosan www-marijanapav (2094433967525306727) — 转发「项目源码公开了👇」单 GitHub 链接，无项目描述 / 用途 / 上下文，按「质量门槛」跳过
+- QingQ77「cool 高斯泼溅重建杭州灵隐寺」+ 视频 (2094285682357473286) — 单句 + 短视频，无具体工具 / 项目信息可提取，按「质量门槛」跳过
+- QingQ77「可爱」+ 视频 (2094207635725996516) — 单短语 + 短视频，无工具 / 概念内容，按「质量门槛」跳过
+- QingQ77「或许它也能把多玛姆劝退」+ 视频 (2094426402431107476) — 流行文化梗 + 视频，无具体工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「阴得没边了」+ 视频 (2094447287795867834) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过

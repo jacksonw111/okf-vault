@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-08-30T21:49:20Z"
+timestamp: "2026-08-31T23:05:23Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -15,6 +15,8 @@ timestamp: "2026-08-30T21:49:20Z"
 1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；
 2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。
 
-## 违例清单（1 条）
+## 违例清单（3 条）
 
-- content/concepts/tool-omarchy-time-machine.md:37: 断链 -> tool-synology-hyper-backup.md
+- content/concepts/tool-geo-seo-claude.md:41: 断链 -> tool-vercel-streamdown-v260.md
+- content/concepts/tool-moduix.md:37: 断链 -> tool-ark-ui.md
+- content/concepts/tool-moduix.md:38: 断链 -> tool-tailwind-css.md

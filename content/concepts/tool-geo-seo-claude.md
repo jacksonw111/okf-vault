@@ -38,7 +38,7 @@ timestamp: "2026-08-30T21:50:00Z"
 - ![](https://pbs.twimg.com/media/HQ57SZXWQAAlmvE.jpg)
 
 ## 相关概念
-- [Vercel Streamdown v260](tool-vercel-streamdown-v260.md) — 流式 Markdown 渲染：让 AI 输出的内容在前端可读 / 可索引；与 geo-seo-claude 同在「让内容被 AI 看见」范畴
+- [Vercel Streamdown v2.6.0](note-vercel-streamdown-v260.md) — 流式 Markdown 渲染：让 AI 输出的内容在前端可读 / 可索引；与 geo-seo-claude 同在「让内容被 AI 看见」范畴
 
 ## 参考链接
 - 项目链接：<https://github.com/zubair-trabzada/geo-seo-claude>
