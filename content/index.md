@@ -2473,3 +2473,56 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「可爱」+ 视频 (2094207635725996516) — 单短语 + 短视频，无工具 / 概念内容，按「质量门槛」跳过
 - QingQ77「或许它也能把多玛姆劝退」+ 视频 (2094426402431107476) — 流行文化梗 + 视频，无具体工具 / 项目信息，按「质量门槛」跳过
 - QingQ77「阴得没边了」+ 视频 (2094447287795867834) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-09-01）
+
+### AI / Agent 生态（本批新增）
+- [hermes-agent-demo](concepts/tool-hermes-agent-demo.md) — `Tool` — Spring Boot 4 + Spring AI 2.0 多模型 Agent 运行时示例：把子代理 / Skills / 沙箱 / MCP / 人工审批统一进 SSE 事件流
+- [pi-agenticoding](concepts/tool-pi-agenticoding.md) — `Tool` — 给 Pi 编码智能体加一层可组合工作流层：编排规则写进 prompt / Skills，让关键评审可以照着重复
+- [PromptForge](concepts/tool-promptforge.md) — `Tool` — 本地优先的 LLM 提示词打分与改写工具（ModernBERT 7 维评分 + Qwen2.5 + LoRA 重写，PyPI 包名 `tuneprompt`）
+
+### 写作 / 内容生成（本批新增）
+- [NEO](concepts/tool-neo-hughhowey.md) — `Tool` — 休·豪伊（羊毛战记作者）开发的本地小说写作工具：可视化书架 + 默认成书排版（章节编号 / 首字下沉 / 智能标点）
+
+### 视频 / 多媒体（本批新增）
+- [MoneyPrinterTurbo](concepts/tool-moneyprinterturbo.md) — `Tool` — 一站式 AI 短视频生成器：输入主题 → 自动写脚本 / 找素材 / 配音 / 加字幕 → 出片
+
+### 终端 / 编辑器（本批新增）
+- [Runyte](concepts/tool-runyte.md) — `Tool` — Rust 写的终端开发工作区：Helix 风模态编辑 + 文件树 + 终端 + Git 共用同一批面板 / 命令 / 主题
+- [TJA](concepts/tool-tja-de-verbs.md) — `Tool` — Go 写的终端老虎机式德语动词学习工具（前缀 × 词干双转轮互相过滤）
+
+### 代码质量 / Git 工具（本批新增）
+- [sanityme](concepts/tool-sanityme.md) — `Tool` — 一条命令装上 Git hooks，每次 commit 自动检查格式与拼写，让仓库历史从第一天起保持规范
+
+### 桌面 / 跨平台（本批新增）
+- [Todofy](concepts/tool-todofy.md) — `Tool` — Tauri + Preact + Rust 跨平台桌面待办（智能列表 / 标签 / 循环任务 / 番茄钟 / 托盘常驻）
+- [JeffBox](concepts/tool-jeffbox.md) — `Tool` — .NET 9 + WPF 单文件 Windows 工具箱（约 450KB、零依赖，含待办 + Markdown + 启动器）
+- [Kenote](concepts/tool-kenote.md) — `Tool` — Raycast Notes 平替：Tauri + React 跨平台 Markdown，所见即所得（输入即渲染）
+
+### 运维 / 自托管（本批新增）
+- [Ops Admin](concepts/tool-ops-admin.md) — `Tool` — Go + Vue 3 一体化运维管理平台（监控 + 资产 + 命令 + 告警）
+- [securo](concepts/tool-securo.md) — `Tool` — 开源自托管隐私优先的个人理财管理器
+
+### 前端 / 设计资源（本批新增）
+- [Dotmatrix](concepts/tool-dotmatrix.md) — `Tool` — 点阵 / 字符微动画站点（前端微动效灵感参考）
+- [text-effects.colorion](concepts/tool-text-effects-colorion.md) — `Tool` — 81 款免费文字效果集合站点（CSS / WebGL 实现）
+- [tourcn](concepts/tool-tourcn.md) — `Tool` — 通过 shadcn 注册表安装的 Tour 引导组件，代码落在自家仓库、样式与项目天然一致
+- [Icon Sites Collection](concepts/note-icon-sites-collection.md) — `Note` — 9 个图标资源站清单（itshover / iconly / nucleo / iconsax / isocons / hugeicons / morphicons / lucide-animated / movingicons）
+
+### AI 硬件 / 嵌入式（本批新增）
+- [FreeInk + Dayring](concepts/tool-freeink-dayring.md) — `Tool` — 嵌入式 UI 的本地闭环 AI 工作流：浏览器调视觉、AI 迭代 C++ 代码直到对齐
+
+### 复核无新增（Re-check no-op）
+- QingQ77 引用 microduck (2094674563011621162) — 与既有概念 [`tool-microduck`](concepts/tool-microduck.md) 同一项目（开源机器鸭），无新增信息
+- QingQ77 PromptForge 重复 (2094783596758196689) — 与本批新增 [`tool-promptforge`](concepts/tool-promptforge.md) 同一项目（同链接同描述），无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @MapleLeafCap bidclub.ai (2094720956875039073) — 电视剧观看推荐，无项目 / 工具信息，按「质量门槛」跳过
+- Wen_Zw RT @insporadesign inspora.design (2094666556135596340) — 单一设计策展站点推荐 + Hero section 视频，与既有跳过条目同模式，无独立项目增量，按「质量门槛」跳过
+- QingQ77「燕云十六声双生木偶」+ 视频 (2094815796975284319) — 游戏画面 + 短语，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「除了 Apple vision 其他都是神」+ 视频 (2094799025598005345) — 情绪评价 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77 仅图片推文 (2094570857788330483) — 空标题 + 仅图片，无可提取的概念 / 工具 / 项目信息，按「质量门槛」跳过
+- QingQ77「这才是真正的端游」+ 视频 (2094763142907916352) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「这对吗？」+ 视频 (2094623122230296682) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「什么黑科技」+ 视频 (2094778878929821724) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- Wen_Zw RT @QingQ77 todofy (2094778739959955867) — RT 与 QingQ77 原创（已建 [`tool-todofy`](concepts/tool-todofy.md)）同项目，本条仅 RT 留痕
