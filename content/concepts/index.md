@@ -2776,3 +2776,69 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「这对吗？」+ 视频 (2094623122230296682) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「什么黑科技」+ 视频 (2094778878929821724) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - Wen_Zw RT @QingQ77 todofy (2094778739959955867) — RT 与 QingQ77 原创（已建 [`tool-todofy`](./tool-todofy.md)）同项目，本条仅 RT 留痕
+
+## 本批新增（2026-09-02）
+
+### AI / Agent 生态（本批新增）
+- [no_human](./tool-no-human-ai.md) — `Tool` — 本地优先的开源 AI 编码工厂：把工单变成经过评审的 Pull Request（计划 → 对抗式评审 → 防篡改测试 → 复现门禁）
+- [dsh-codex-subscription](./tool-dsh-codex-subscription.md) — `Tool` — 把 ChatGPT / Codex 订阅直接接入 DeepSeek Harness，免 OpenAI API Key / 免 Codex CLI
+- [Semantix](./tool-semantix.md) — `Tool` — 编码 Agent 会话级记忆与缓存优化器：把已跑会话拆成可复用片段 + 让注入前缀逐字节稳定以触发云缓存
+- [Clawdeck](./tool-clawdeck.md) — `Tool` — 零依赖的 Claude Code 本地仪表盘：会话 / 事件 / 成本 / 工树 / 评审一屏掌握
+- [AgentTrail](./tool-agenttrail.md) — `Tool` — 把 AI 编程代理实时工作状态画成可缩放项目地图，走开也能一眼看到改了哪些 / 卡没卡住 / 计划推进
+
+### DSH 生态扩展（本批新增）
+- [dsh-codex-subscription](./tool-dsh-codex-subscription.md) — `Tool` — 用 ChatGPT / Codex 订阅给 DSH 充模型来源
+
+### Android / 系统 / 网络（本批新增）
+- [AdGuard Home Manager Mod](./tool-adguard-home-manager-mod.md) — `Tool` — Magisk 模块 AdGuard Home For Android 的专用管理 App（自动读配置连随机端口，首页只留一个总开关）
+- [Atoll (MacBook notch)](./tool-atoll-mac-notch.md) — `Tool` — 把 MacBook 刘海扩成可交互命令面板（媒体 / 系统指标 / 小组件 / 锁屏显示）
+
+### 桌面 / 系统工具（本批新增）
+- [Atoll (MacBook notch)](./tool-atoll-mac-notch.md) — `Tool` — 把 MacBook 刘海扩成可交互命令面板
+
+### 模型压缩 / 推理可视化（本批新增）
+- [Weight Atlas](./tool-weight-atlas.md) — `Tool` — 对每个权重张量实际跑 INT8 / INT4 / FP8，误差 / 频谱 / 离群通道铺到可缩放画布
+
+### 网络 / 反封锁（本批新增）
+- [xdp-dns-evadeproxy](./tool-xdp-dns-evadeproxy.md) — `Tool` — DNS 代理在响应中悄悄把被封锁 anycast IP 替换成同前缀未封锁邻居 IP（XDP 高速路径）
+
+### 前端 / 设计 / 组件库（本批新增）
+- [BeautifulGrid](./tool-beautiful-grid.md) — `Tool` — 业务系统级 React 数据网格：万行级依然流畅、交互齐全、默认观感在线
+- [GreatUI](./tool-great-ui.md) — `Tool` — 面向 dashboard / admin / 业务后台的 React 组件集合
+- [scrit.to](./tool-scrit-to.md) — `Tool` — 把 SwiftUI numberText 风格文本切换动画搬上 Web 的轻量库
+- [m3e-canvas](./tool-m3e-canvas.md) — `Tool` — Material 3 Expressive 风格 UI 设计师工具：装配 UI 自动产出 AI 编码 prompt
+- [colorion 404](./tool-colorion-404.md) — `Tool` — colorion 出品的免费 / 可自定义 404 页面组件合集
+- [MetalForge Progress Bar](./tool-metalforge-progress.md) — `Tool` — metalforge.xyz 收录的进度条 / loading 动画合集
+- [deepseek-fat-fish](./tool-deepseek-fat-fish.md) — `Tool` — 纯前端小挂件：跟鼠标转头的 DeepSeek 肥鱼，换素材即换角色
+- [Design.md 资源站合集](./note-design-md-resources.md) — `Note` — 9 个面向设计与前端的 Markdown 资源站列表
+
+### 硬件复刻 / 机器人（本批新增）
+- [Microduck Replica](./tool-microduck-replica.md) — `Tool` — 第三方对官方硬件不开源的 Microduck 做反推：MJCF + 47 个 STL → 0.1mm 精度 CAD 装配
+
+### Vercel 生态（本批新增）
+- [Vercel Portless](./tool-vercel-portless.md) — `Tool` — Vercel Labs 本地开发端口代理：本地多服务统一走 80/443，免端口冲突
+
+### 数据抓取 / API（本批新增）
+- [linkedin-profile-api](./tool-linkedin-profile-api.md) — `Tool` — 输入 LinkedIn 公开主页返回结构化 JSON（反向工程内部接口，免浏览器自动化）
+- [ASCILINE](./tool-asciline.md) — `Tool` — 实时视频转 ASCII 渲染库（HTML5 Canvas + WebSocket + Terminal）
+
+### 资源索引 / 列表（本批新增）
+- [awesome-grokbot](./tool-awesome-grokbot.md) — `Tool` — 4 个社区来源的 Grok Bot 目录合并去重 + 链接活性自检 + 中文摘要
+
+### 教学 / 教程（本批新增）
+- [Doubao Work 指南](./note-doubao-work-guide.md) — `Note` — Doubao Work 中文上手教程 + 31 个真实任务拆解
+
+### 复核无新增（Re-check no-op）
+- Wen_Zw RT @csaba_kissi Kinetics (2094873823875322071) — 与既有概念 [`tool-kinetics`](./tool-kinetics.md) 同一项目，无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @davidhdev canvasui.dev teaser (2095061171292520656) — 单句预告"Something big is coming"无项目细节，按「质量门槛」跳过
+- Wen_Zw RT @SwamiMalode RareUI sidebar (2094950447207563577) — 单条更新公告无独立项目仓库，按「质量门槛」跳过
+- Wen_Zw RT @Crack_svtter Linux 开发环境 2026 (2094996167650329008) — 博主推荐个人博客文章无可复用工具，按「质量门槛」跳过
+- Wen_Zw RT @noman_huge Monevo dashboard (2095097154511757546) — 单一 dashboard 设计展示，无开源项目 / 仓库，按「质量门槛」跳过
+- Wen_Zw RT @shiyam_kashfiq Monevo dashboard (2094877190689358294) — 单一 dashboard 设计展示，无开源项目 / 仓库，按「质量门槛」跳过
+- QingQ77「你们真是没把机器人太君当回事啊」+ 视频 (2094987427181945200) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「古法视频已经被 AI 替代了」+ 视频 (2095041562418074045) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「我的舰长父亲」+ 视频 (2095148129528303650) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「最强搬砖人，300 个号左右...」+ 视频 (2095168729390977338) — 数字 + 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「商务太极有没有搞头？」+ 视频 (2094928790484832736) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过

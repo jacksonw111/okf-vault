@@ -2526,3 +2526,63 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「这对吗？」+ 视频 (2094623122230296682) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「什么黑科技」+ 视频 (2094778878929821724) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - Wen_Zw RT @QingQ77 todofy (2094778739959955867) — RT 与 QingQ77 原创（已建 [`tool-todofy`](concepts/tool-todofy.md)）同项目，本条仅 RT 留痕
+
+## 本批新增（2026-09-02）
+
+### AI / Agent 生态（本批新增）
+- [no_human](concepts/tool-no-human-ai.md) — `Tool` — 本地优先的开源 AI 编码工厂：把工单变成经过评审的 Pull Request
+- [dsh-codex-subscription](concepts/tool-dsh-codex-subscription.md) — `Tool` — 把 ChatGPT / Codex 订阅直接接入 DeepSeek Harness
+- [Semantix](concepts/tool-semantix.md) — `Tool` — 编码 Agent 会话级记忆 + prompt 缓存优化
+- [Clawdeck](concepts/tool-clawdeck.md) — `Tool` — 零依赖 Claude Code 本地仪表盘
+- [AgentTrail](concepts/tool-agenttrail.md) — `Tool` — AI 编程代理实时工作状态可缩放地图
+
+### Android / 系统 / 网络（本批新增）
+- [AdGuard Home Manager Mod](concepts/tool-adguard-home-manager-mod.md) — `Tool` — Magisk 模块 AdGuard Home For Android 专用管理 App
+- [Atoll (MacBook notch)](concepts/tool-atoll-mac-notch.md) — `Tool` — 把 MacBook 刘海扩成可交互命令面板
+
+### 模型压缩 / 推理可视化（本批新增）
+- [Weight Atlas](concepts/tool-weight-atlas.md) — `Tool` — 权重张量 INT8/INT4/FP8 误差 + 频谱 + 离群通道可缩放画布
+
+### 网络 / 反封锁（本批新增）
+- [xdp-dns-evadeproxy](concepts/tool-xdp-dns-evadeproxy.md) — `Tool` — DNS 层悄悄替换被封锁 anycast IP 为同前缀邻居 IP
+
+### 前端 / 设计 / 组件库（本批新增）
+- [BeautifulGrid](concepts/tool-beautiful-grid.md) — `Tool` — 业务系统级 React 数据网格
+- [GreatUI](concepts/tool-great-ui.md) — `Tool` — dashboard / admin 场景 React 组件集合
+- [scrit.to](concepts/tool-scrit-to.md) — `Tool` — SwiftUI numberText 风格文本切换动画搬上 Web
+- [m3e-canvas](concepts/tool-m3e-canvas.md) — `Tool` — Material 3 Expressive UI 设计师工具
+- [colorion 404](concepts/tool-colorion-404.md) — `Tool` — 404 页面组件合集
+- [MetalForge Progress Bar](concepts/tool-metalforge-progress.md) — `Tool` — 进度条 / loading 动画合集
+- [deepseek-fat-fish](concepts/tool-deepseek-fat-fish.md) — `Tool` — 跟鼠标转头的 DeepSeek 肥鱼前端小挂件
+- [Design.md 资源站合集](concepts/note-design-md-resources.md) — `Note` — 9 个设计 / 前端 Markdown 资源站
+
+### 硬件复刻 / 机器人（本批新增）
+- [Microduck Replica](concepts/tool-microduck-replica.md) — `Tool` — Microduck 第三方反推（MJCF + STL → 0.1mm 精度 CAD）
+
+### Vercel 生态（本批新增）
+- [Vercel Portless](concepts/tool-vercel-portless.md) — `Tool` — 本地多服务统一走 80/443 的端口代理
+
+### 数据抓取 / 多媒体（本批新增）
+- [linkedin-profile-api](concepts/tool-linkedin-profile-api.md) — `Tool` — LinkedIn 主页 URL → 结构化 JSON（免浏览器自动化）
+- [ASCILINE](concepts/tool-asciline.md) — `Tool` — 实时视频转 ASCII 渲染库
+
+### 资源索引 / 列表（本批新增）
+- [awesome-grokbot](concepts/tool-awesome-grokbot.md) — `Tool` — 4 个社区 Grok Bot 目录合并去重 + 链接活性自检
+
+### 教学 / 教程（本批新增）
+- [Doubao Work 指南](concepts/note-doubao-work-guide.md) — `Note` — Doubao Work 中文上手教程 + 31 个真实任务拆解
+
+### 复核无新增（Re-check no-op）
+- Wen_Zw RT @csaba_kissi Kinetics (2094873823875322071) — 与既有 [`tool-kinetics`](concepts/tool-kinetics.md) 同一项目，无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @davidhdev canvasui.dev teaser (2095061171292520656) — 单句预告无项目细节，按「质量门槛」跳过
+- Wen_Zw RT @SwamiMalode RareUI sidebar (2094950447207563577) — 单条更新公告无独立项目仓库，按「质量门槛」跳过
+- Wen_Zw RT @Crack_svtter Linux 开发环境 2026 (2094996167650329008) — 博主推荐个人博客文章无可复用工具，按「质量门槛」跳过
+- Wen_Zw RT @noman_huge Monevo dashboard (2095097154511757546) — 单一 dashboard 设计展示，无开源项目 / 仓库，按「质量门槛」跳过
+- Wen_Zw RT @shiyam_kashfiq Monevo dashboard (2094877190689358294) — 单一 dashboard 设计展示，无开源项目 / 仓库，按「质量门槛」跳过
+- QingQ77「你们真是没把机器人太君当回事啊」+ 视频 (2094987427181945200) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「古法视频已经被 AI 替代了」+ 视频 (2095041562418074045) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「我的舰长父亲」+ 视频 (2095148129528303650) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「最强搬砖人，300 个号左右...」+ 视频 (2095168729390977338) — 数字 + 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「商务太极有没有搞头？」+ 视频 (2094928790484832736) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
