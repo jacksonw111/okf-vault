@@ -2586,3 +2586,54 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「我的舰长父亲」+ 视频 (2095148129528303650) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「最强搬砖人，300 个号左右...」+ 视频 (2095168729390977338) — 数字 + 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「商务太极有没有搞头？」+ 视频 (2094928790484832736) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-09-03）
+
+### AI / Agent 生态（本批新增）
+- [monocode](concepts/tool-monocode.md) — `Tool` — 桌面 UI 统一管理 Claude Code / Codex / Cursor 等编码 agent，会话当标签页
+- [Covan](concepts/tool-covan.md) — `Tool` — 公司级共享 AI agent，团队资料汇成一个 agent 的记忆，靠 Postgres 行级安全做隔离
+- [HexStellar](concepts/tool-hexstellar.md) — `Tool` — 把硬问题搜索空间提交云端算，返回带确证标签和收据的答案
+- [dsh-visual-plugin](concepts/tool-dsh-visual-plugin.md) — `Tool` — DeepSeek Harness Web 的视觉插件，图片走 DSH 附件通道、右侧面板管理图片问答历史
+
+### DeepSeek Harness 生态扩展（本批新增）
+- [dsh-mobile](concepts/tool-dsh-mobile.md) — `Tool` — DSH 插件 + Android App，手机经局域网或 Tailscale Funnel / cpolar / FRP 接着用电脑 DSH
+
+### 桌面 / 系统工具（本批新增）
+- [AceShell](concepts/tool-aceshell.md) — `Tool` — 把 SSH / Telnet / 串口 / SFTP / RDP / HTTP / 本地终端七类远程连接统一进 Go + Wails v3 + Vue 3 桌面工具
+- [TO-DO Panel](concepts/tool-to-do-panel.md) — `Tool` — macOS 顶部本地工作台，默认折叠成刘海大小，首页七组件
+- [Miffan](concepts/tool-miffan.md) — `Tool` — Android 原生 AI 客户端，把 OpenAI 兼容 / Gemini / Claude / Codex 收进一 App
+- [Pomodoist](concepts/tool-pomodoist.md) — `Tool` — 任务管理 + 番茄钟专注 + 生产力报告三合一，覆盖七平台
+
+### 编辑器 / 终端（本批新增）
+- [InkNote](concepts/tool-inknote.md) — `Tool` — Tauri 2 + React + CodeMirror 6 的 Markdown 桌面编辑器，边写边渲染、文件落地仍是标准 .md
+- [pi-caffeinated-linux](concepts/tool-pi-caffeinated-linux.md) — `Tool` — 跑 Pi 任务时用 systemd-inhibit 把 Linux 锁在唤醒状态
+
+### 后端 / 反代 / 监控（本批新增）
+- [Raddex / Raddy](concepts/tool-raddex-raddy.md) — `Tool` — 基于 Cloudflare Pingora + 按书写顺序执行的 Raddyfile 配置，提供 HTTP/HTTPS 反代、自动证书、负载均衡、TCP/UDP 四层
+- [duck-watch](concepts/tool-duck-watch.md) — `Tool` — MotherDuck 账户极简可观测性工具，展示当前查询与花费成本
+
+### 前端 / 浏览器扩展（本批新增）
+- [PawWork_ZhuaZhua](concepts/tool-pawwork-zhuazhua.md) — `Tool` — Chrome MV3 扩展，点选页面内容 + 侧栏提问返回可编辑的 Univer 表格 / tldraw 画布 / HTML 站点 / 文档画布
+
+### 教学 / 教程（本批新增）
+- [freshman-ai-course](concepts/note-freshman-ai-course.md) — `Note` — 武汉大学信息管理学院 12 周数字素养与 AI 通识课站（VitePress 课站 + WorkBuddy 产出三类数字成果）
+
+### 硬件 / 外设（本批新增）
+- [webcam-settings](concepts/tool-webcam-settings.md) — `Tool` — 摄像头硬件参数调整工具，原生跨平台，能调参、存配置、查占用、带 CLI 自动化
+
+### 学习 / 卡片（本批新增）
+- [english-flashcard-generator](concepts/tool-english-flashcard-generator.md) — `Tool` — 面向英语学习者的 Anki 闪卡自动化生成工具，把单卡 5–10 分钟手工成本压到 3 秒以内
+
+### 复核无新增（Re-check no-op）
+- Wen_Zw RT @lnkiai m3e-canvas (2095414379743469714) — 与既有 `tool-m3e-canvas` 同一项目，无新增信息
+- Wen_Zw RT @noahelhadedy Open-source icon libraries (2095407655410085944) — 与既有 `tool-icon-libraries` + `note-icon-sites-collection` 同一类项目，无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw RT @nealagarwal neal.fun sketch artist game (2095361716087566730) — 单一浏览器小游戏链接，无开源项目 / 可复用经验
+- Wen_Zw RT @csaba_kissi vibeprompts.dev 286 samples (2095368473472041013) — 仅一句数字（286 个代码样例）无项目细节 / 仓库信息
+- Wen_Zw RT @remvze Curation.systems designer resources (2095322766211961287) — 仅 4 个设计师资源站点 URL 列表，无独立可收录项目
+- QingQ77「我有一个想法」+ 视频 (2095384206507741472) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「这 TM 叫鸡」+ 视频 (2095401577725268422) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「我直接好家伙，假一赔十，给我来 11 根 3D 打印的内存条。」+ 视频 (2095452930065539475) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「好强！」+ 图片 (2095496321193103761) — 单句感叹 + 单图，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+- QingQ77「子弹时间终结了🤯」+ 视频 (2095431715787620460) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
