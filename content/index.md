@@ -2637,3 +2637,63 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「我直接好家伙，假一赔十，给我来 11 根 3D 打印的内存条。」+ 视频 (2095452930065539475) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「好强！」+ 图片 (2095496321193103761) — 单句感叹 + 单图，无工具 / 概念 / 项目信息，按「质量门槛」跳过
 - QingQ77「子弹时间终结了🤯」+ 视频 (2095431715787620460) — 短语 + 短视频，无工具 / 概念 / 项目信息，按「质量门槛」跳过
+
+## 本批新增（2026-09-04）
+
+### AI / Agent 生态（本批新增）
+- [budget-aware-agent](concepts/tool-budget-aware-agent.md) — `Tool` — Google Research COLM 2026 论文实现：Budget Tracker 把剩余搜索 / 浏览次数塞进 ReAct 上下文，BATS 再加按额度规划 + 自我检查 + 定时总结
+- [OpenPipal](concepts/tool-openpipal.md) — `Tool` — macOS 可视化 Agent 应用（TS + Electron，Apache-2.0），不带模型、本机直连 OpenAI 兼容接口，可排期自动跑任务
+- [CraftBot](concepts/tool-craftbot.md) — `Tool` — 建筑师 AI Agent：不画图不建网格，输出可执行 Blender Python 代码派生平面 / 剖面 / 立面 / BIM / 工程量，靠渲染回看循环修正
+- [zframes](concepts/tool-zframes.md) — `Tool` — 编码智能体 skill：自然语言描述即生成 dashboard.json 渲染实时行情，284 组件 + 29 个免密钥数据源
+- [free-model-radar](concepts/tool-free-model-radar.md) — `Tool` — 定时巡检一批免费模型的可用性与速度，直接给出当下最优选择
+- [local-llmup](concepts/tool-local-llmup.md) — `Tool` — 不联网扫硬件，对 66 个内置模型逐个打分（能跑 / 勉强跑 / 跑不动）并估算每秒 token
+- [紫微斗数排盘 Codex 技能](concepts/tool-ziwei-codex-skill.md) — `Tool` — 每条结论挂原典页码 + 证据标签 + 置信度，字段不全时降精度而不硬造
+
+### 知识 / 记忆基础设施（本批新增）
+- [Utopia](concepts/tool-utopia-bitemporal-graph.md) — `Tool` — 双时态知识图谱，同时记录「事实何时成立」与「系统何时知道」，旧版本与变更理由不丢失，可自有硬件离线审计
+- [微信 AI 记忆库](concepts/tool-wechat-ai-memory.md) — `Tool` — 本地优先 Windows 工具，读 Windows 微信 4.x 数据按人 / 日期 / 关键词筛选，导出可追溯记忆档案给大模型
+
+### 桌面 / 系统工具（本批新增）
+- [chippytea](concepts/tool-chippytea.md) — `Tool` — SwiftUI 界面 + Rust 引擎的 macOS 菜单栏清理工具，扫指定目录的旧缓存 / 日志 / Xcode 产物，删前先看体积与后果
+- [Focenda](concepts/tool-focenda.md) — `Tool` — macOS 原生客户端把计时器 / 看板 / 日程 / 速记 / 提醒合一，全本地运行
+- [renotch](concepts/tool-renotch.md) — `Tool` — 把 MacBook 刘海变成开发状态栏：服务状态 / 音乐 / 番茄钟
+- [轻阅 qingyue](concepts/tool-qingyue-markdown.md) — `Tool` — Windows 本地 Markdown 阅读编辑器，免安装免登录离线可用，支持 Mermaid / 公式，可导 PDF / HTML / DOCX
+
+### 开发 / 交付工具（本批新增）
+- [appstore-forge](concepts/tool-appstore-forge.md) — `Tool` — 本地 Mac 应用把原始截图套背景 + 设备外壳 + 标题，导出可直传 App Store / Google Play 的素材，零网络调用
+- [prd-outputs-interactive](concepts/tool-prd-outputs-interactive.md) — `Tool` — 零散需求材料整理成可实现 / 可验收 / 可持续更新的 PRD 主稿，缺口用交互式问卷集中确认
+- [cf-turnstile-token](concepts/tool-cf-turnstile-token.md) — `Tool` — 脚本 / CI 里通过 Peak 付费 API 取回 Turnstile 验证 token，省掉逐 token 起浏览器的开销
+- [DevBar](concepts/tool-devbar.md) — `Tool` — 页面上点选元素写批注，直接发给编码 Agent 或复制到剪贴板
+
+### 前端 / 设计资源（本批新增）
+- [Refero Styles](concepts/tool-refero-styles.md) — `Tool` — 面向 AI Agent 的 DESIGN.md 库，汇总 2000+ 真实产品设计系统
+- [libraries.dev](concepts/tool-libraries-dev.md) — `Tool` — Border beam / Orbs / Metal / Gooey / Image 五个 UI 特效库合集，20+ 变体免费
+- [Cue（cuedesign.space）](concepts/tool-cue-design-space.md) — `Tool` — WebGL 交互组件合集，编号累积至第 115 个
+- [MetalForge Pixel Studio](concepts/tool-metalforge-pixel-studio.md) — `Tool` — MetalForge 站点的像素动画工作室
+- [Disarto Icons](concepts/tool-disarto-icons.md) — `Tool` — Disarto 图标库，已在 GitHub 开源
+- [NativeBloom](concepts/tool-nativebloom.md) — `Tool` — 1000+ React Native 组件区块库
+- [Shadcn Admin Kit](concepts/tool-shadcn-admin-kit.md) — `Tool` — shadcn/ui + Tailwind + Next.js 16 后台模板，139 个预制页面（付费）
+- [Modulify Templates](concepts/tool-modulify-templates.md) — `Tool` — 数百个可参考可克隆的网站模板库，供 AI 建站取参照
+
+### 平台 / 架构参考（本批新增）
+- [OpenSEO](concepts/tool-open-seo.md) — `Tool` — 开源 SEO 平台，全栈跑在 Cloudflare（Durable Objects / KV / R2 / D1），完整生产系统的边缘部署样本
+
+### 学习 / 移动端（本批新增）
+- [math-mastery](concepts/tool-math-mastery.md) — `Tool` — 纯前端数学练习应用，小学到高中方法随机出题 + 步骤解析 + 薄弱本，免装免联网、进度存本地
+- [Candy Browser](concepts/tool-candy-browser.md) — `Tool` — Kotlin + Jetpack Compose 安卓浏览器，Material 3 Expressive 动态取色，MPL 2.0 / Android 13+
+
+### 复核无新增（Re-check no-op）
+- Wen_Zw RT 9 个 DESIGN.md 生成站清单 (2095840808654307484) — 与既有 [`note-design-md-resources`](concepts/note-design-md-resources.md) 同一份 9 站清单，无新增信息
+- Wen_Zw RT dsh-visual-plugin (2095840862370722032) — 与既有 [`tool-dsh-visual-plugin`](concepts/tool-dsh-visual-plugin.md) 同一项目，无新增信息
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「这一定是 AI 对吧？」+ 视频 (2095677389326168432) — 短语 + 短视频，无工具 / 概念 / 项目信息
+- QingQ77「cool」+ 视频 (2095697751178870893) — 单词 + 短视频，无信息量
+- QingQ77「长见识了，数据迁移箱，什么原理？」+ 视频 (2095754056337920295) — 疑问句 + 短视频，无可复用知识
+- QingQ77「cool」+ 视频 (2095779156038709360) — 单词 + 短视频，无信息量
+- QingQ77「是我🙋‍♂️」+ 视频 (2095890313512714346) — 情绪类短语 + 短视频，无知识价值
+- Wen_Zw RT makeitanimated.dev (2095908166097895903) — 仅「New at <url>」一句，无项目细节
+- Wen_Zw RT agent.reicon.dev (2095908964966010906) — 纯 URL，无任何描述
+- Wen_Zw RT withanimation.com 候补名单 (2095909092695134473) — 未发布产品的 waitlist 宣传，无可用产物
+- Wen_Zw RT Fey / Wealthsimple 收购一周年回顾 (2095909384631275597) — 仅博文链接与一句预告，无可提取的经验要点
+- Wen_Zw RT uiuno.com carousel (2095909502981976339) — 纯 URL，无任何描述
