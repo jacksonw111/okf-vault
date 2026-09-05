@@ -2953,3 +2953,51 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw RT withanimation.com 候补名单 (2095909092695134473) — 未发布产品的 waitlist 宣传，无可用产物
 - Wen_Zw RT Fey / Wealthsimple 收购一周年回顾 (2095909384631275597) — 仅博文链接与一句预告，无可提取的经验要点
 - Wen_Zw RT uiuno.com carousel (2095909502981976339) — 纯 URL，无任何描述
+
+### AI / Agent 生态（本批新增 2026-09-05）
+- [Proqi](./tool-proqi.md) — `Tool` — 终端原生 prompt 编辑器，把指令 / 截图 / 备选方案存成独立可恢复 thought，提交给指定编码 agent
+- [Vicoa](./tool-vicoa.md) — `Tool` — 把 8 种编码 Agent（Claude Code / Codex / OpenCode / Gemini / Cursor / Copilot / Kimi / Hermes）收进同一工作区，每个 Agent 各占一个 git worktree 与分支
+- [VibePod](./tool-vibepod.md) — `Tool` — 统一命令行 vp，在 Docker / Podman 容器里跑 Claude / Gemini / Codex / Copilot 等编码 agent，YAML 可自定义
+- [fable-orchestrator](./tool-fable-orchestrator.md) — `Tool` — 多模型协作编码任务编排：Claude Fable 5.1 规划裁决、GPT-5.6 Luna 常规实现、DeepSeek V4 Flash 高吞吐循环迭代
+- [zvec-grep](./tool-zvec-grep.md) — `Tool` — 把 ripgrep / BM25 / 向量检索统一到本地优先接口 `zg`，同时作为 MCP 工具供 Codex / Claude Code / Cursor / OpenCode 调用
+- [commerce-agents](./tool-commerce-agents.md) — `Tool` — Anthropic 官方电商 Claude 智能体参考实现：购物助手 + 商家助手各 5 个技能，可在三种运行方式上复用
+- [browser-act/skills](./tool-browser-act-skills.md) — `Tool` — BrowserAct 的 skills 仓库，用真实浏览器自动化交互与提取网页数据，供 AI agent 通过 skills 协议调用
+- [rv (madeye)](./tool-rv.md) — `Tool` — RealVNC Viewer 的开源替代客户端，因 License 问题作者自制，macOS 主测
+
+### 桌面 / 系统工具（本批新增 2026-09-05）
+- [Logic](./tool-logic.md) — `Tool` — 全栈日志分析应用，注册本地文件 / 目录 / SFTP / HTTP(S) / 浏览器上传文件作为日志源，实时查看
+- [RapidRaw](./tool-rapidraw.md) — `Tool` — 20MB 以内跨平台 RAW 修图工具，Rust + WGSL + React + Tauri，32 位全管线 GPU 即时渲染
+- [TTT](./tool-ttt.md) — `Tool` — Go 写的终端原生 IDE，单二进制零配置，含语法高亮 / 多光标 / 折叠 / LSP / Git / 终端 / Lua 插件
+- [FastPotify](./tool-fastpotify.md) — `Tool` — Rust 原生 Spotify 客户端，解决官方桌面版内存占用高、启动慢，保留本地播放与 Spotify Connect
+- [Screenshotify](./tool-screenshotify.md) — `Tool` — 常驻 Windows 托盘 / macOS 菜单栏的截图监控工具，调用视觉模型生成描述性文件名，建议先入待审、确认后才重命名
+- [my-bad](./tool-my-bad.md) — `Tool` — Daniel Roe 写的 Node.js 开发服务器错误页工具，把错误转成 sourcemapped 堆栈 / 代码片段 / cause 链 / 请求上下文的 JSON 报告
+
+### 前端 / 设计资源（本批新增 2026-09-05）
+- [threejs-3d-portfolio-viewer](./tool-3d-portfolio-viewer.md) — `Tool` — 浏览器内交互 GLTF/GLB 三维模型的个人作品集组件，旋转 / 缩放 / 三种渲染模式一键切换
+- [loading.daniasyrofi.com](./tool-loading-states-collection.md) — `Tool` — dani_asyrofi 把长期记录的 loading 状态汇总成一份集合站点
+
+### 移动 / 虚拟设备（本批新增 2026-09-05）
+- [iOS-GPS-Spoofer](./tool-ios-gps-spoofer.md) — `Tool` — macOS 开源工具，通过 Apple 开发者位置模拟服务修改已配对 iPhone 的 GPS，底层 pymobiledevice3 + 加密 CoreDevice
+- [vphone-web](./tool-vphone-web.md) — `Tool` — 把虚拟 iPhone 调试搬到浏览器里，远程看 / 控 / 排 vphone 上的 App
+
+### 知识 / RAG / 索引（本批新增 2026-09-05）
+- [LedgeIndex](./tool-ledgeindex.md) — `Tool` — 开发者文档抓取 / 分块 / 嵌入 / 索引工具，提供带引用出处的可信问答与检索
+
+### 自托管 / Bot（本批新增 2026-09-05）
+- [qq-farm-server](./tool-qq-farm-server.md) — `Tool` — QQ 农场 Bot 服务器快照导出与一键部署工具，把整套挂机机器人 + 四个配套服务打包成可在新机器复刻的可部署包
+
+### 工程实践 / 深度研究（本批新增 2026-09-05）
+- [Reverse Engineering Linear's Sync Engine](./note-reverse-linear-sync-engine.md) — `Note` — wzhudev 对 Linear 客户端 Sync Engine 的逆向研究：模型定义 / IndexedDB 事务 / delta 上报 / 部分加载 / undo 全链路拆解
+
+### 更新（Updated）
+- [amicro](./tool-amicro.md) — `Tool` — 更新：补充「CLI 一键安装单组件」与「微交互与过渡」定位，timestamp 推进到 2026-09-05
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「起猛了」+ 视频 (2096202936099696972) — 短语 + 短视频，无信息量
+- QingQ77「第一次知道 布罗肯现象」(2096018548380639633) — 一句话科普 + 短视频，无可复用的概念深度
+- QingQ77「还原度最高的蒸汽机车」+ 视频 (2096103971790479505) — 短语 + 短视频，无项目信息
+- QingQ77「一只鸡 VS 恒心轨道炮」+ 视频 (2096171430803321300) — 短语 + 短视频，无项目信息
+- QingQ77「我看到了什么🤯」+ 视频 (2096037961532092480) — 情绪短语 + 短视频，无信息量
+- QingQ77「这是什么记忆！想起来了！都想起来了！」+ 视频 (2096061252619686320) — 情绪短语 + 短视频，无信息量
+- QingQ77「刘关张的夏天😅」+ 视频 (2096186830123368686) — 短语 + 短视频，无项目信息
+- QingQ77「没有 AI 提示，中国实景仙境。」+ 视频 (2096214512940503075) — 短语 + 短视频，无项目信息
