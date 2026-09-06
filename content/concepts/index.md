@@ -3001,3 +3001,54 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「这是什么记忆！想起来了！都想起来了！」+ 视频 (2096061252619686320) — 情绪短语 + 短视频，无信息量
 - QingQ77「刘关张的夏天😅」+ 视频 (2096186830123368686) — 短语 + 短视频，无项目信息
 - QingQ77「没有 AI 提示，中国实景仙境。」+ 视频 (2096214512940503075) — 短语 + 短视频，无项目信息
+
+## 本批新增（2026-09-06）
+
+### AI / Agent 生态（本批新增）
+- [kitter](./tool-kitter.md) — `Tool` — Rust 本地 Skill 管理工具，桌面 + CLI 共用一个核心，Skill 只留一份正本装进项目用链接复用
+- [foremerge](./tool-foremerge.md) — `Tool` — 给并行编码 Agent 的共享白板：开工前声明「动哪块代码 / 怎么改」，状态存项目 .git 目录
+- [ffmpeg-skill](./tool-ffmpeg-skill.md) — `Tool` — 教 AI 用本地 FFmpeg 的 Skill：SKILL.md 工作流 + 二十多个 Python 脚本，不联网不用 API Key
+- [svg-diagram（Bybit）](./tool-svg-diagram-bybit.md) — `Tool` — Agent 手写 SVG 统一画法 + 零依赖 Linter，架构图 / 流程图 / 时序图风格一致
+- [reverify](./tool-reverify.md) — `Tool` — 让 AI 只提假设、确定性工具对二进制实物逐条裁决，从源头杜绝模型编造 API / 偏移 / 函数行为
+- [awesome-ai-agent-platforms](./note-awesome-ai-agent-platforms.md) — `Note` — 开源 AI Agent 平台导航（CC0），分 AI 协作者 / 开发框架 / 工作流自动化 / 浏览器 Agent / 代码 Agent 五类
+
+### 桌面 / 系统工具（本批新增）
+- [Flea](./tool-flea.md) — `Tool` — 给 Omarchy 写的独立文件管理器，Quickshell 前端 + Rust 后端；10 万文件约 1.2 秒就绪，比 Dolphin 快 4 倍
+- [easy-writing（易创）](./tool-easy-writing.md) — `Tool` — 纯本地的写小说软件，稿子 / 设定 / 码字记录全存本机，断网也能写
+- [hermes-paper-agent](./tool-hermes-paper-agent.md) — `Tool` — 每晚把日历 / 账本 / 步数 / 天气 / 行情 / 笔记自动写成一份有头版 + 版块 + 结尾的个人报纸
+
+### 内容 / 视频 / 多媒体（本批新增）
+- [biscuit-studio（小饼干英语视频工坊）](./tool-biscuit-studio.md) — `Tool` — 输入英语知识点 → 30 秒竖屏教学视频，LLM 写脚本 + Seedance 出原片 + FFmpeg 烧字幕
+- [video-ai-talking](./tool-video-ai-talking.md) — `Tool` — 真人出镜视频 + 字幕文案 → AI 配音对口型竖屏 MP4
+- [Easel（浙大 REAL Lab）](./tool-easel.md) — `Tool` — 开源 AI 社媒运营智能体：发现热点 → 策划选题 → 创作 → 真实发布 → 复盘归因，覆盖小红书 / 抖音 / 知乎 / B 站
+
+### 推荐 / 检索（本批新增）
+- [FlashRec](./tool-flashrec.md) — `Tool` — 搜狐多模态团队开源的生成式推荐推理引擎，基于 mini-sglang，把物品检索做成「语义 ID 序列的宽束生成」
+
+### 自托管 / 云平台替代（本批新增）
+- [open-compute](./tool-open-compute.md) — `Tool` — 把 Cloudflare Workers 整套平台能力装进单个二进制文件，本地原样运行 Workers 应用无需账号
+- [usque-custom-pro](./tool-usque-custom-pro.md) — `Tool` — Cloudflare WARP / MASQUE 可视化配置工具，支持 Pages + Workers 双部署，一键导出 Clash / Mihomo / sing-box / VLESS 配置
+
+### AI 搜索 / 品牌可见度（本批新增）
+- [niubigeo](./tool-niubigeo.md) — `Tool` — 开源可自托管的 AI 品牌可见度审计工具：输入域名即可查 AI 是否推荐、竞品是谁、引用了哪些来源
+
+### 项目门面 / 协作入口（本批新增）
+- [UNIGIT Ecosystem](./tool-unigit-ecosystem.md) — `Tool` — UNIGIT 的公开门面仓库：愿景 / 路线图 / 对外能力征集 + 协作者入口
+
+### 移动端 / 跨平台（本批新增）
+- [mobilecode](./tool-mobilecode.md) — `Tool` — opencode 移动端开源 fork，AI 编码会话旁嵌入实时 iOS Simulator + Android emulator（serve-avd / serve-sim 支撑）
+
+### 前端 / 设计资源（本批新增）
+- [dialkit](./tool-dialkit.md) — `Tool` — 给编辑器 / playground 用的 UI 套件：sliders / color pickers / springs / timeline 等 Figma-like 组件拿来即用
+- [sonaui AnimatedDropdown](./tool-sonaui-animated-dropdown.md) — `Tool` — sona UI 组件库的 AnimatedDropdown：shared layout 指示器实现下拉与触发器之间的平滑过渡
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「给广场舞加上氮气」+ 视频 (2096447296409907511) — 短语 + 短视频，无项目信息
+- QingQ77「这就相亲成功了？」+ 视频 (2096485289925681401) — 短语 + 短视频，纯情绪反应
+- QingQ77「对味了，这就对味了。」+ 视频 (2096611010866229511) — 情绪短语 + AI 视频 demo，无可提取的工具 / 概念
+- QingQ77「内容由 AI 生成 ！」+ 视频 (2096429913142428025) — 短语 + 短视频，无项目信息
+- QingQ77「这大车司机人还不错」+ 视频 (2096506844508512291) — 短语 + 短视频，无项目信息
+- QingQ77「又增加一个新知识，@grok 请解释一下 破片云」+ 视频 (2096381532894322876) — 短语 + 请求解释，无可复用的概念深度
+- QingQ77「这不是许总吗」+ 视频 (2096477392994959810) — 短语 + 短视频，纯情绪反应
+- Wen_Zw RT @QingQ77 biscuit-studio (2096655343069929559) — 同 QingQ77 biscuit-studio RT 重复，原帖已建 [`tool-biscuit-studio`](./tool-biscuit-studio.md)，无新增信息
+- Wen_Zw RT @nazmijavierl recordly.dev (2096552829452525750) — 仅有 URL + "it's free???"，无任何产品功能描述，信息不足无法形成可靠概念
