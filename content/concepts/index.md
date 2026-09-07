@@ -3052,3 +3052,68 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「这不是许总吗」+ 视频 (2096477392994959810) — 短语 + 短视频，纯情绪反应
 - Wen_Zw RT @QingQ77 biscuit-studio (2096655343069929559) — 同 QingQ77 biscuit-studio RT 重复，原帖已建 [`tool-biscuit-studio`](./tool-biscuit-studio.md)，无新增信息
 - Wen_Zw RT @nazmijavierl recordly.dev (2096552829452525750) — 仅有 URL + "it's free???"，无任何产品功能描述，信息不足无法形成可靠概念
+
+
+## 本批新增（2026-09-07）
+
+### AI / Agent 生态（本批新增）
+- [dsh-trading](./tool-dsh-trading.md) — `Tool` — 基于 DeepSeek Harness 的 Agent 原生交易终端：加密货币 / 美股 / A 股 / 港股四市场统一面板，19+ 数据源热切换、默认模拟、实盘逐笔人工审批、headless 环境拦截
+- [zhizhi-agent-runtime](./tool-zhizhi-agent-runtime.md) — `Tool` — Go 应用的模型无关生产级 Agent 执行层：函数包装成带校验类型化工具 + 自动依赖安全的并行执行图 + 条件分支 + 有界重规划 + 副作用管控
+- [pi-posthorse](./tool-pi-posthorse.md) — `Tool` — Pi coding agent fitchmultz fork 扩展：免摘要的原生上下文窗口延续 + 自动翻页 + 持久笔记 + 历史恢复
+- [open-steps](./tool-open-steps.md) — `Tool` — Claude Code 插件：7 个 Skill + 2 个 Hook，让 Agent 干完活用大白话汇报，自带 evals 21 句三模型触发率 Opus 100% / Sonnet 95%
+- [ApeAdmin](./tool-apeadmin.md) — `Tool` — FastAPI + Vue3 MIT 中后台框架：RBAC + 审计日志 + 菜单部门管理、原生为 AI Agent 调用做接口适配
+
+### 桌面 / macOS / 系统工具（本批新增）
+- [Stop Stutter](./tool-stop-stutter.md) — `Tool` — macOS 原生 SwiftUI 串流卡顿修复器：游戏期间自动关闭 AWDL 点对点 Wi-Fi，Moonlight / GeForce NOW / Punktfunk / Parsec / Steam Link 五客户端全支持
+- [macos-sysdata](./tool-macos-sysdata.md) — `Tool` — macOS 菜单栏小工具：把「系统设置 → 系统数据」最大那块存储占用逐条展开、能识别能删的直接给清理入口
+- [tel-agent](./tool-tel-agent.md) — `Tool` — 开源电话网关：来电按规则三选一（转人工 / 挂断 / AI Agent）、AI 可转接 / 留言 / 查日历 / 调外部接口、通话录音 + 文字可查
+- [YourDynamicDashboard](./tool-yourdynamic-dashboard.md) — `Tool` — 浏览器新标签页替换工具：自捏组件拼布局、隐私优先 + 本地存储
+- [omapager](./tool-omapager.md) — `Tool` — Omarchy 桌面环境的 QML 通知守护进程插件：按来源收进卡片堆、悬停展开、每张卡片可直接操作
+
+### 自托管 / 影音（本批新增）
+- [LunaTV](./tool-lunatv.md) — `Tool` — MoonTechLab Docker 一键部署视频网站：填资源地址就能看最新电影 / 解锁会员电视剧、流量不走自建服务器
+
+### 运维 / SSH（本批新增）
+- [ternssh](./tool-ternssh.md) — `Tool` — 浏览器即 SSH 工作台：终端 + SFTP + 服务器状态 + 可拖拽仪表盘聚合在一 Web 页、可部署 Cloudflare Workers 或 Docker 自建
+
+### 教学 / 自学（本批新增）
+- [TrenTorch](./tool-trentorch.md) — `Tool` — 受哈佛 TinyTorch 启发的自学型深度学习框架：纯 Python + NumPy、20 个渐进模块从张量到量化推理完整手写
+
+### 数据集 / 时区（本批新增）
+- [Global Timezone Tracker](./tool-global-timezone-tracker.md) — `Dataset` — 每周自动刷新的全球时区 JSON 数据集：247 国家 / 418 时区、含 UTC 偏移 / 夏令时状态 / ISO 国家代码映射
+
+### 数学 / 形式化（本批新增）
+- [Anthropic Lean 形式化费马大定理](./note-anthropic-fermats-theorem-lean.md) — `Note` — Anthropic 把费马大定理的 Lean 形式化证明公开仓库：350 年经典难题搬进机器可验证体系
+
+### 视频 / 多媒体生成（本批新增）
+- [cs-board](./tool-cs-board.md) — `Tool` — 本地 AI 视频工作台：参考音频 + 中文文案 → MP4 口播视频、克隆音色 / 拆镜 / 画插画 / 手写笔迹 / 配字幕一条龙、12 套画风可选
+
+### 前端 / 设计资源（本批新增）
+- [Rare UI](./tool-rare-ui.md) — `Tool` — 免费开源 React 组件库：每个组件风格独特、shadcn CLI 一行命令装入自有项目
+- [Morphicons](./tool-morphicons.md) — `Tool` — 图标切换形变动画库：两图标间按多种策略平滑变形、给网站带来微妙「动起来图标」质感
+- [craftUI](./tool-craftui.md) — `Tool` — 交互式 SVG 图标库：每个图标自带微交互、浏览器里直接试用与复制
+- [Hyalite](./tool-hyalite-liquid-glass.md) — `Tool` — 纯 CSS + SVG 模拟 Apple 液态玻璃 Web 引擎：Chromium 完整、其它浏览器降级普通模糊
+- [Oneko](./tool-oneko.md) — `Tool` — React 像素猫组件：跟光标走 / 打盹 / 说话、12 套毛色、shadcn CLI 一行安装
+- [Game UI Database](./tool-game-ui-database.md) — `Tool` — 游戏界面截图参考库：按类型 / 布局 / 材质筛选、给 App 设计师借游戏化反馈 / 任务进度 / 奖励机制
+
+### 杂项（本批新增）
+- [Codex 做 3D 场景的正确打开方式](./note-codex-3d-scene-workflow.md) — `Note` — 用 Codex + Tripo + Nanobanana + three.js / Web3D 做浏览器内可跑 3D 场景的端到端流程
+- [DevJar](./tool-devjar.md) — `Tool` — 零配置 React 原型沙箱：Live Preview Fast Refresh + 多页路由 + NPM imports + Tailwind + 静态站点导出
+- [wechat-style-extractor](./tool-wechat-style-extractor.md) — `Tool` — Next.js 公众号样式提取工具：扔公众号链接就扒下字体 / 颜色 / 行高 / 版式，HTML 清洗 + 样式拉平 + 缺省兜底
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「唐代宫廷画家张萱如果看到自己画的《虢国夫人游春图》从画卷里面走出来，会是什么样的表情」(2096799046828789933) — AI 古画短视频，纯情绪反应
+- QingQ77「你当初的愿望都实现了吗？🥹」(2096926201969508467) — 一句话情绪反问 + 视频
+- QingQ77「硅基的第一次反抗碳基指挥权」(2096956031993774136) — 短语 + 短视频，无项目信息
+- QingQ77「优雅永不过时」(2096897874949009552) — 短语 + 短视频，纯情绪反应
+- QingQ77「她真不一样 她说的语气很有感情」(2096867834949488975) — 短语 + 短视频
+- QingQ77「有一个蛋糕有金戒指😍」(2096818995596873871) — 短语 + 短视频
+- Wen_Zw RT @xuanyuanzhifeng GPT-6-Astra 翻译 KV Cache 中文版 PDF (2096753362134045050) — 仅一个 Google Drive 链接，无可提取概念
+- Wen_Zw RT @tspy 内部长文文章链接 (2096733010762846435) — 仅内部 X 文章链接，无开源项目信息
+- Wen_Zw RT @tspy 内部长文文章链接 (2096730712321982594) — 同上
+- Wen_Zw RT @tspy 内部长文文章链接 (2096733300333408419) — 同上
+- Wen_Zw RT @sentoki Eink 面板 AliExpress 商品链接 (2096827467017412921) — 单一商品列表，无可复用工程
+- Wen_Zw RT @SwamiMalode rareui (2096729890309693447) — 与本批新建 `tool-rare-ui` 重复
+- Wen_Zw RT @QingQ77 mobilecode (2096951901183234492) — 与既有 [`tool-mobilecode`](./tool-mobilecode.md) 重复
+- Wen_Zw RT @QingQ77 svg-diagram (2096745526242975879) — 与既有 [`tool-svg-diagram-bybit`](./tool-svg-diagram-bybit.md) 重复
+- Wen_Zw RT @tspy Microduck 复刻系列合集 (2096872090259554739) — 仅一系列 tweet 链接，无独立工程

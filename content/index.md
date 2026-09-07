@@ -2745,3 +2745,51 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「这是什么记忆！想起来了！都想起来了！」+ 视频 (2096061252619686320) — 情绪短语 + 短视频
 - QingQ77「刘关张的夏天😅」+ 视频 (2096186830123368686) — 短语 + 短视频
 - QingQ77「没有 AI 提示，中国实景仙境。」+ 视频 (2096214512940503075) — 短语 + 短视频
+
+
+## 本批新增（2026-09-07）
+
+### AI / Agent 生态
+- [dsh-trading](concepts/tool-dsh-trading.md) — 基于 DeepSeek Harness 的 Agent 原生交易终端：加密货币 / 美股 / A 股 / 港股四市场统一面板，19+ 数据源热切换、默认模拟、实盘逐笔人工审批
+- [zhizhi-agent-runtime](concepts/tool-zhizhi-agent-runtime.md) — Go 应用的模型无关生产级 Agent 执行层
+- [pi-posthorse](concepts/tool-pi-posthorse.md) — Pi coding agent fitchmultz fork 扩展：免摘要的原生上下文窗口延续
+- [open-steps](concepts/tool-open-steps.md) — Claude Code 插件：7 Skill + 2 Hook 让 Agent 用大白话收尾汇报
+- [ApeAdmin](concepts/tool-apeadmin.md) — FastAPI + Vue3 MIT 中后台框架，原生为 AI Agent 调用做接口适配
+
+### 桌面 / macOS / 系统工具
+- [Stop Stutter](concepts/tool-stop-stutter.md) — macOS 串流卡顿修复器：游戏期间自动关闭 AWDL
+- [macos-sysdata](concepts/tool-macos-sysdata.md) — macOS 菜单栏「系统数据」逐条展开 + 清理入口
+- [tel-agent](concepts/tool-tel-agent.md) — 开源电话网关：来电三选一 + AI 应答 + 通话记录
+- [YourDynamicDashboard](concepts/tool-yourdynamic-dashboard.md) — 浏览器新标签页替换 + 隐私工作台
+- [omapager](concepts/tool-omapager.md) — Omarchy 桌面 QML 通知守护进程插件
+
+### 自托管 / 影音
+- [LunaTV](concepts/tool-lunatv.md) — MoonTechLab Docker 一键部署视频网站
+
+### 运维 / SSH
+- [ternssh](concepts/tool-ternssh.md) — 浏览器即 SSH 工作台，可部署 Cloudflare Workers 或 Docker
+
+### 教学 / 自学
+- [TrenTorch](concepts/tool-trentorch.md) — 受 Harvard TinyTorch 启发的自学型 DL 框架，20 模块手写
+
+### 数据集 / 时区
+- [Global Timezone Tracker](concepts/tool-global-timezone-tracker.md) — 每周自动刷新的全球时区 JSON 数据集
+
+### 数学 / 形式化
+- [Anthropic Lean 形式化费马大定理](concepts/note-anthropic-fermats-theorem-lean.md) — Anthropic 把费马大定理的 Lean 形式化证明公开仓库
+
+### 视频 / 多媒体生成
+- [cs-board](concepts/tool-cs-board.md) — 本地 AI 视频工作台，12 套画风 + 一条龙合成
+
+### 前端 / 设计资源
+- [Rare UI](concepts/tool-rare-ui.md) — 免费开源 React 组件库，shadcn CLI 一行装入
+- [Morphicons](concepts/tool-morphicons.md) — 图标切换形变动画库
+- [craftUI](concepts/tool-craftui.md) — 交互式 SVG 图标库
+- [Hyalite](concepts/tool-hyalite-liquid-glass.md) — 纯 CSS + SVG 模拟 Apple 液态玻璃 Web 引擎
+- [Oneko](concepts/tool-oneko.md) — React 像素猫组件，shadcn CLI 一行安装
+- [Game UI Database](concepts/tool-game-ui-database.md) — 游戏界面截图参考库
+
+### 杂项
+- [Codex 做 3D 场景的正确打开方式](concepts/note-codex-3d-scene-workflow.md) — Codex + Tripo + Nanobanana + three.js / Web3D 端到端流程
+- [DevJar](concepts/tool-devjar.md) — 零配置 React 原型沙箱
+- [wechat-style-extractor](concepts/tool-wechat-style-extractor.md) — Next.js 公众号样式提取工具
