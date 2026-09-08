@@ -3117,3 +3117,52 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw RT @QingQ77 mobilecode (2096951901183234492) — 与既有 [`tool-mobilecode`](./tool-mobilecode.md) 重复
 - Wen_Zw RT @QingQ77 svg-diagram (2096745526242975879) — 与既有 [`tool-svg-diagram-bybit`](./tool-svg-diagram-bybit.md) 重复
 - Wen_Zw RT @tspy Microduck 复刻系列合集 (2096872090259554739) — 仅一系列 tweet 链接，无独立工程
+
+## 本批新增（2026-09-08）
+
+### 自托管 / 局域网（本批新增）
+- [super-lan-cache](./tool-super-lan-cache.md) — `Tool` — HDR-Performance 开源的局域网游戏下载缓存代理容器：同网段多机器共享 Steam / Xbox 等下载缓存、自带 Web UI
+- [Pi.Alert](./tool-pi-alert.md) — `Tool` — 局域网设备监控与入侵检测面板：自动发现设备、陌生设备告警、DHCP / Web / SSL 状态监控，支持 Nmap / Wake-on-LAN / Telegram 通知
+
+### 自托管 / 网关（本批新增）
+- [ENZO](./tool-enzo.md) — `Tool` — 自托管 LLM 网关：API Key 锁在浏览器、ENZO 仅做中转，docker compose up 一键起 300+ 模型
+- [masume](./tool-masume.md) — `Tool` — Go 写的终端多引擎数据库客户端：PostgreSQL / MySQL / SQLite / MongoDB 一把梭，可向 AI agent 开放指定连接
+- [Tailtab](./tool-tailtab.md) — `Tool` — 浏览器扩展为每个 profile 配独立 Tailscale 节点：免系统 VPN、多 tailnet 并存
+- [Vercel Agent Browser](./tool-vercel-agent-browser.md) — `Tool` — Vercel Labs 开源库：让 AI agent 模拟浏览器行为，比驱动真实浏览器更快
+- [TaskQuay](./tool-taskquay.md) — `Tool` — DevSpace 二开自托管工具：给 ChatGPT 网页对话开本地工作区通道、写串行/读并发/编译排队
+
+### AI / Agent 生态（本批新增）
+- [ToolRush](./tool-toolrush.md) — `Tool` — 面向 AI agent harness 的运行时优化器：消除读文件/搜内容/跑终端的进程创建与调度开销
+- [Claude Vibe Squad](./tool-claude-vibe-squad.md) — `Tool` — 多模型编排工具：协调者 Chrono 拆任务、71 角色分配、五家模型（Codex/Claude/Gemini/Grok/Kimi）
+- [Hydra (ja7ad)](./tool-hydra-downloader.md) — `Tool` — Rust 多连接/多镜像源并行下载加速引擎，断线续传
+- [Mobile Harness](./tool-mobile-harness.md) — `Tool` — 安卓端原生 AI 编码套件：Kotlin + Jetpack Compose + PRoot Ubuntu + 内置 Claude Code CLI
+- [mewu_ai](./tool-mewu-ai.md) — `Tool` — 截图 + AI 配套：OCR / 翻译 / 表格提取 / AI 讲解直接做在截图旁
+- [design-os-3d-blender](./tool-design-os-3d-blender.md) — `Tool` — AI agent 在 Blender 5.2 里按规范建出可 3D 打印的真实零件
+
+### DeepSeek Harness 插件生态（本批新增）
+- [dsh-plugin-shop](./tool-dsh-plugin-shop.md) — `Tool` — DeepSeek Harness 插件目录站：集中浏览、审计、安装、启用与更新 DSH 插件
+
+### 桌面 / 影音（本批新增）
+- [Spun](./tool-spun-music.md) — `Tool` — Linux 统一音乐播放器：本地曲库直播 + Cider 接 Apple Music，CD 风格封面
+
+### 教育 / 教学（本批新增）
+- [vistep](./tool-vistep.md) — `Tool` — 用短篇可视化故事 + 可交互实验讲日常机械/科学/计算原理，中英双语
+- [FreePEP](./tool-freepep.md) — `Tool` — Python 写的 MIT 协议开源工具：批量下载人教版中小学教材为 PDF，含 780+ 目录与反爬
+- [100 Days 100 IoT Projects](./tool-100-days-100-iot.md) — `Tool` — IoT 学习项目集：100 天 100 个项目，ESP32 / ESP8266 / 树莓派 Pico 全覆盖，MicroPython + Wokwi 仿真
+
+### 前端 / 设计资源（本批新增）
+- [UI Rules](./tool-ui-rules.md) — `Tool` — 公开 Beta 的设计系统服务：把品牌样式与设计指南连接到 AI 工具，让 agent 输出符合品牌
+- [Spell UI](./tool-spell-ui.md) — `Tool` — 高质量 React 组件合集：按 copy-paste 方式接入任意项目（按钮/卡片/表单/导航/模态等）
+- [设计与组件灵感 Gallery 站合集](./note-design-galleries.md) — `Note` — navbar.gallery / footer.design / 404s.design / cta.gallery / unsection.com 等 9 个按页面段落拆解的灵感站
+- [Component Gallery 资源合集](./note-component-galleries.md) — `Note` — component.gallery（60 组件 2670 示例）+ microkit.co + appshot.gallery + superset.sh + kitty 终端
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「AI 迟早出片」(2097176772781727971) — 短语 + 短视频，无项目信息
+- QingQ77「我的眼睛欺骗了我👀」(2097349522318131364) — 短语 + 短视频，无项目信息
+- QingQ77「涨知识了，合着是一种茶呀」(2097130570405081090) — 短语 + 短视频，无项目信息
+- QingQ77「自带滤镜」(2097241195210756139) — 短语 + 短视频，无项目信息
+- Wen_Zw RT @winneravgwin 「styles.refero.design DESIGN.md」(2097346485352554767) — 资源已收录于 [`note-design-md-resources`](./note-design-md-resources.md)，重复
+- Wen_Zw RT @QingQ77 design-os-3d-blender (2097283262335045993) — 与本批新建 `tool-design-os-3d-blender` 重复
+- Wen_Zw RT @QingQ77 mewu_ai (2097338805623959882) — 与本批新建 `tool-mewu-ai` 重复
+- Wen_Zw RT @sagacity anthropics/commerce-agents (2097129502279381250) — 已有 [`tool-commerce-agents`](./tool-commerce-agents.md)，重复
+- Wen_Zw RT @tspy Microduck 复刻 (2097288512144040320) — 仅一段视频，无独立工程

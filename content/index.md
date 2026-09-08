@@ -2793,3 +2793,41 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Codex 做 3D 场景的正确打开方式](concepts/note-codex-3d-scene-workflow.md) — Codex + Tripo + Nanobanana + three.js / Web3D 端到端流程
 - [DevJar](concepts/tool-devjar.md) — 零配置 React 原型沙箱
 - [wechat-style-extractor](concepts/tool-wechat-style-extractor.md) — Next.js 公众号样式提取工具
+
+## 本批新增（2026-09-08）
+
+### 自托管 / 局域网
+- [super-lan-cache](concepts/tool-super-lan-cache.md) — 局域网游戏下载缓存代理容器：Steam / Xbox 等同网段共享
+- [Pi.Alert](concepts/tool-pi-alert.md) — 局域网设备监控与入侵检测面板，自动发现 + 陌生设备告警
+
+### 自托管 / 网关
+- [ENZO](concepts/tool-enzo.md) — 自托管 LLM 网关，API Key 锁在浏览器，docker compose up 起 300+ 模型
+- [masume](concepts/tool-masume.md) — Go 终端多引擎数据库客户端：PG / MySQL / SQLite / MongoDB 一把梭
+- [Tailtab](concepts/tool-tailtab.md) — 浏览器扩展为每个 profile 配独立 Tailscale 节点
+- [Vercel Agent Browser](concepts/tool-vercel-agent-browser.md) — Vercel Labs 开源：让 AI agent 模拟浏览器行为
+- [TaskQuay](concepts/tool-taskquay.md) — DevSpace 二开，ChatGPT 网页对话 ↔ 本地工作区，写串行/读并发
+
+### AI / Agent 生态
+- [ToolRush](concepts/tool-toolrush.md) — 面向 AI agent harness 的运行时优化器，消除工具调用开销
+- [Claude Vibe Squad](concepts/tool-claude-vibe-squad.md) — 多模型编排：协调者 Chrono + 71 角色 + 五家模型
+- [Hydra (ja7ad)](concepts/tool-hydra-downloader.md) — Rust 多连接/多镜像源并行下载加速引擎
+- [Mobile Harness](concepts/tool-mobile-harness.md) — 安卓端原生 AI 编码套件：Kotlin + Compose + PRoot + Claude Code CLI
+- [mewu_ai](concepts/tool-mewu-ai.md) — 截图 + AI 配套：OCR / 翻译 / 表格提取 / AI 讲解
+- [design-os-3d-blender](concepts/tool-design-os-3d-blender.md) — AI agent 在 Blender 5.2 里建可 3D 打印的真实零件
+
+### DeepSeek Harness 插件生态
+- [dsh-plugin-shop](concepts/tool-dsh-plugin-shop.md) — DSH 插件目录站，集中浏览 / 审计 / 安装 / 启用 / 更新
+
+### 桌面 / 影音
+- [Spun](concepts/tool-spun-music.md) — Linux 统一音乐播放器：本地 + Cider 接 Apple Music，CD 风格
+
+### 教育 / 教学
+- [vistep](concepts/tool-vistep.md) — 短篇可视化故事 + 可交互实验讲日常机械/科学/计算原理，中英双语
+- [FreePEP](concepts/tool-freepep.md) — MIT 协议开源：批量下载人教版中小学教材为 PDF
+- [100 Days 100 IoT Projects](concepts/tool-100-days-100-iot.md) — 100 天 100 个 IoT 项目，ESP32 / ESP8266 / 树莓派 Pico 全覆盖
+
+### 前端 / 设计资源
+- [UI Rules](concepts/tool-ui-rules.md) — 设计系统服务：把品牌样式与设计指南接到 AI 工具
+- [Spell UI](concepts/tool-spell-ui.md) — 高质量 React 组件合集，copy-paste 接入
+- [设计与组件灵感 Gallery 站合集](concepts/note-design-galleries.md) — navbar.gallery / footer.design / 404s.design 等 9 个按页面段落拆解的灵感站
+- [Component Gallery 资源合集](concepts/note-component-galleries.md) — component.gallery 等通用 UI 组件维度灵感和示例库
