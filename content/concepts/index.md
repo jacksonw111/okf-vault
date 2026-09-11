@@ -239,6 +239,7 @@ timestamp: "2026-08-27T15:46:00Z"
 - [OPG](tool-opg-backend.md) — `Tool` — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付 / 计费）
 - [NasberryPi](tool-nasberry-pi.md) — `Tool` — 树莓派轻量 NAS CLI，一条命令配 Samba
 - [docker-android](tool-docker-android.md) — `Tool` — Docker 镜像封装 Android 模拟器，远程 adb 直连
+- [Docker](./tool-docker.md) — `Tool` — 容器化引擎事实标准底座：镜像打包 + Compose 编排，本地 AI / 自托管服务一键启动
 - [DataBuff](tool-databuff.md) — `Tool` — 国产 AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 - [cfnew-deployer](tool-cfnew-deployer.md) — `Tool` — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 - [MediaCrawler](tool-mediacrawler.md) — `Tool` — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
@@ -1672,6 +1673,7 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 术语（Terms — 补建断链 stub）
 - [three.js](./term-three-js.md) — `Term` — 浏览器端 3D / WebGL 事实标准底层
 - [Synology Hyper Backup](./term-synology-hyper-backup.md) — `Term` — 群晖官方备份套件，`.hbk` 归档 + 块级去重 + 加密
+- [vibe coding](./term-vibe-coding.md) — `Term` — Karpathy 提出的 AI 编程范式：完全顺从 LLM 输出、不读代码、靠「感觉对」验收
 
 ### 笔记（Notes — 补建断链 stub）
 - [Self-hosted 备份方案](./note-self-hosted-backup.md) — `Note` — 自托管备份选型参考：3-2-1 原则 / 工具矩阵 / 常见误区
@@ -3117,6 +3119,131 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw RT @QingQ77 mobilecode (2096951901183234492) — 与既有 [`tool-mobilecode`](./tool-mobilecode.md) 重复
 - Wen_Zw RT @QingQ77 svg-diagram (2096745526242975879) — 与既有 [`tool-svg-diagram-bybit`](./tool-svg-diagram-bybit.md) 重复
 - Wen_Zw RT @tspy Microduck 复刻系列合集 (2096872090259554739) — 仅一系列 tweet 链接，无独立工程
+
+## 本批新增（2026-09-11）
+
+### AI / Agent 生态（本批新增）
+- [tool-fanzha-ai-proxy](./tool-fanzha-ai-proxy.md) — `Tool` — 把国家反诈 AI 转 OpenAI 兼容接口的反向代理
+- [tool-browser-use-pi](./tool-browser-use-pi.md) — `Tool` — Browser-Use 团队轻量 TypeScript Web Agent
+- [tool-cua-lite](./tool-cua-lite.md) — `Tool` — 电脑操作 Agent 全流程框架：自带 3 万+ 任务、轻量沙箱、LiteSample 统一数据
+- [tool-strike-agent](./tool-strike-agent.md) — `Tool` — 自循环 AI 渗透测试控制台（红队 / SRC / CTF）
+- [tool-autonomous-os](./tool-autonomous-os.md) — `Tool` — 机器人开源操作系统：四文件（ROBOT/SOUL/SAFETY/SKILL.md）接入
+- [playbook-agent-gateway-isolation](./playbook-agent-gateway-isolation.md) — `Playbook` — Agent 网关隔离模式：RAG + Java 网关 + 人工确认卡
+- [note-browserbase-stagehand-code-mode](./note-browserbase-stagehand-code-mode.md) — `Note` — Browserbase 三代 computer-use 演进复盘：代码模式终局
+- [tool-pixelrag](./tool-pixelrag.md) — `Tool` — Berkeley 多模态 RAG：先渲染视觉再基于截图检索
+
+### 自托管 / 邮件 / 通知（本批新增）
+- [tool-opensend](./tool-opensend.md) — `Tool` — SES 之上的自托管邮件系统（Web 面板 + JS SDK + MCP）
+- [tool-buzzkit](./tool-buzzkit.md) — `Tool` — 统一通知编排层：订阅 / 偏好 / 定时 / 送达回执
+- [tool-geoflow](./tool-geoflow.md) — `Tool` — GEO AI 工作台 3.0：知识库 + 内容 + 质检 + 多站点分发
+- [tool-georank](./tool-georank.md) — `Tool` — 自托管 GEO 可见性工作台：30/60/90 天行动方案
+
+### 后端 / 部署 / 自托管（本批新增）
+- [tool-lantunnel](./tool-lantunnel.md) — `Tool` — NAT 穿透型加密私有组网：QUIC 打洞 + 密文中继
+- [tool-open-box](./tool-open-box.md) — `Tool` — OpenWrt 一键 sing-box 透明代理（多协议 / 一键直连恢复）
+- [tool-swarmllm](./tool-swarmllm.md) — `Tool` — 浏览器标签页 P2P 分布式推理：单设备装不下的 27B 也能跑
+
+### 桌面 / 系统工具（本批新增）
+- [tool-yourdesk](./tool-yourdesk.md) — `Tool` — Go 写的 Mac/Windows 远控：硬编硬解 + FSR / Core ML 放大
+- [tool-ghost-ftp](./tool-ghost-ftp.md) — `Tool` — 无遥测无登录的 FTP/FTPS/SFTP 桌面客户端
+- [tool-ferrumpix](./tool-ferrumpix.md) — `Tool` — 库管理 + RAW + 图层三合一桌面照片工具（VB.NET + Avalonia）
+- [tool-disk-view](./tool-disk-view.md) — `Tool` — Textual 磁盘分区 TUI 浏览器，Vim 风格导航
+- [tool-roam-control](./tool-roam-control.md) — `Tool` — iPhone 开发测试用位置模拟工具
+
+### 编程语言 / 工具链（本批新增）
+- [tool-deepjit](./tool-deepjit.md) — `Tool` — DeepSeek 开源的 C++20 JIT 运行时（NVIDIA CUDA + 华为昇腾）
+- [tool-deepseek-recipe](./tool-deepseek-recipe.md) — `Tool` — DeepSeek 官方 Rust + Python SDK，统一三种 API 协议
+- [tool-mjbatch](./tool-mjbatch.md) — `Tool` — CPU 上并行跑数千 MuJoCo 仿真，C++ 线程池释放 GIL
+
+### 教育 / 教学（本批新增）
+- [tool-clay-safari](./tool-clay-safari.md) — `Tool` — Three.js 黏土风格双语动物世界（点一下有动作 / 双语 / 叫声）
+- [tool-get-it-pdf](./tool-get-it-pdf.md) — `Tool` — PDF 学习助手：知识图谱 + 四模式 + 费曼
+- [tool-gongwen-gbt9704-skill](./tool-gongwen-gbt9704-skill.md) — `Tool` — GB/T 9704-2012 公文 DOCX 生成器（带格式校验）
+
+### 金融 / 数据（本批新增）
+- [tool-budget-tracker-tui](./tool-budget-tracker-tui.md) — `Tool` — 终端党个人预算追踪器：SQLite + decimal 精确算账
+- [tool-stock-strategy-dashboard](./tool-stock-strategy-dashboard.md) — `Tool` — A股 / 美股短线波段本地只读工作台
+
+### 终端 / 网络 / 系统管理（本批新增）
+- [tool-pwnagotchi-neuromancer](./tool-pwnagotchi-neuromancer.md) — `Tool` — pwnagotchi 赛博朋克主题插件
+
+### 移动端 / 跨平台（本批新增）
+- [tool-expo-healthkit](./tool-expo-healthkit.md) — `Tool` — RN/Expo 健康双端统一桥（HealthKit + Health Connect）
+
+### 游戏 / 互动（本批新增）
+- [tool-pocket-battle-lab](./tool-pocket-battle-lab.md) — `Tool` — 本地宝可梦对战原型：JS 规则引擎 + AI 表现层
+- [tool-ability-vfx-sandbox](./tool-ability-vfx-sandbox.md) — `Tool` — Three.js + GLSL 技能 VFX 沙盒（10 技能 / 顶点 + 体积云）
+
+### 视频 / 多媒体（本批新增）
+- [tool-anything2explainer](./tool-anything2explainer.md) — `Tool` — 任意主题 → Remotion 黑底动态图解视频（44 镜头 / 8 Agent 并行）
+- [tool-remocn](./tool-remocn.md) — `Tool` — shadcn 风格的 Remotion 组件库
+
+### 3D / 互动（本批新增）
+- [tool-3dviz-pro-max](./tool-3dviz-pro-max.md) — `Tool` — Three.js 3D 场景 Skill 集：223 配方 / 440 知识 / 22 蓝图
+- [tool-kubernetes3d](./tool-kubernetes3d.md) — `Tool` — Kubernetes 集群 3D 可视化
+
+### 前端 / 设计资源（本批新增）
+- [tool-spectrum-ui](./tool-spectrum-ui.md) — `Tool` — shadcn 风格组件合集站（Data Table 等）
+- [tool-shadcnblocks-admin](./tool-shadcnblocks-admin.md) — `Tool` — shadcn 风格 admin dashboard blocks
+- [tool-blocks-so](./tool-blocks-so.md) — `Tool` — shadcn 风格免费 dashboard blocks（一行安装）
+- [tool-bencho-dev](./tool-bencho-dev.md) — `Tool` — 交互式 UI blocks 探索 / 调参 / benchmark
+- [tool-boarding-pass](./tool-boarding-pass.md) — `Tool` — 开源登机牌风格 React 组件
+- [tool-fluidfunctionalism](./tool-fluidfunctionalism.md) — `Tool` — 流体功能主义设计语言：modal 内 sidebar
+- [tool-doodle-icons](./tool-doodle-icons.md) — `Tool` — 152 个手绘风 SVG 图标 + 沸腾线动画
+- [tool-neat-annotations](./tool-neat-annotations.md) — `Tool` — Maxim Syabro 的纯 CSS 注释库
+- [tool-animata](./tool-animata.md) — `Tool` — 155+ 手绘动画 React 组件（a11y 内置 / MIT）
+- [tool-animal-island-ui-style](./tool-animal-island-ui-style.md) — `Tool` — 动森风格 UI 设计 Skill（HTML 海报 / 生图提示词两用）
+- [tool-react-devtools-cdt-mcp](./tool-react-devtools-cdt-mcp.md) — `Tool` — React 团队实验：让 Chrome DevTools MCP 理解 React 应用
+- [tool-details-mcp](./tool-details-mcp.md) — `Tool` — details.so MCP：让 AI 接入「审美」
+- [tool-figma-design-systems-community](./tool-figma-design-systems-community.md) — `Tool` — Figma Community 开放设计系统合集
+- [tool-delphi-tools](./tool-delphi-tools.md) — `Tool` — 开源 indie tools 资源站 2.1.0（原创插画贴纸）
+- [tool-vjsf](./tool-vjsf.md) — `Tool` — Vue JSON Schema Forms 声明式表单库
+- [note-design-engineering-resources](./note-design-engineering-resources.md) — `Note` — Design Engineering 学习资源合集
+
+### 桌面 / 影音（本批新增）
+- [tool-stremio-torrentio](./tool-stremio-torrentio.md) — `Tool` — 免费开源 Netflix 替代：Stremio + Torrentio 去中心化
+
+### 数据集（本批新增）
+- [dataset-awesome-astra-prompts](./dataset-awesome-astra-prompts.md) — `Dataset` — GPT-6 Astra 生成 3D 场景的可复用 prompt 集
+
+### 术语（本批新增）
+- [term-cag](./term-cag.md) — `Term` — Cache-Augmented Generation：把固定知识预缓存到 KV，替代 RAG
+
+### 其他（本批新增）
+- [tool-quiver-ai](./tool-quiver-ai.md) — `Tool` — AI 设计与开发协作平台
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「再看下去要长脑子了」(2097544809162654114) — 短语 + 短视频
+- QingQ77「原生家庭具象化了」(2098239634065252857) — 短语 + 短视频
+- QingQ77「看到最后，我的天呐」(2098429039774191647) — 短视频艺术欣赏，无项目
+- QingQ77「AI-FanGe Microduck 装机教程」(2097858599238463649) — 与既有 `tool-microduck` 重复
+- Wen_Zw RT @chroxify buzzkit.dev (2097542849147662645) — 仅 URL 无信息
+- Wen_Zw RT @QingQ77 doodle-icons (2097653864497631719) — 与同批 QingQ77 2097622540533301349 重复
+- Wen_Zw RT @DanKornas HarnessRouter (2097690422336430131) — 与既有 `tool-harness-router` 重复
+- Wen_Zw RT @quasarframework Quasar v2.31 (2097690481497145428) — 版本号更新通告
+- Wen_Zw RT @Mike_Andreuzza svgdoodles (2097702515731238944) — 单图标站链接
+- Wen_Zw RT @Iroshandezilva Phosphor (2097702539806544013) — 已知图标库
+- Wen_Zw RT @akhil_4109 iconsax (2097702571205132323) — 已收录于 `note-icon-sites-collection` 重复
+- Wen_Zw RT @everywhereayush hugeicons (2097702582324260988) — 已收录于 `note-icon-sites-collection` 重复
+- Wen_Zw RT @haquedot iconsroom (2097702597742535131) — 单图标站链接
+- Wen_Zw RT @bestdesignsonx Task Card (2097776258805641393) — 单条 UI 作品展示
+- Wen_Zw RT @aigclink geolook (2097843321020522556) — 与既有 `tool-geolook` 重复
+- Wen_Zw RT @aigclink geolook update (2097843562968985667) — 与既有 `tool-geolook` 重复
+- Wen_Zw RT @dani_asyrofi (2097897103620247884) — 个人作品集迭代公告
+- Wen_Zw RT @HoudayfaDesign Astryx (2097960502861484258) — 与既有 `tool-astryx` 重复
+- Wen_Zw RT @arihantCodes Spectrum UI sponsor (2098174261844427175) — 仅开源赞助推广
+- Wen_Zw RT @ianneo_ai Cue (2097886504848883773) — 与既有 `tool-cue-design-space` 重复
+- Wen_Zw 原推「最近在做 AI 企业建设方案求推荐」(2098194480432349477) — 开放性问题无信息
+- Wen_Zw RT @NiallxYoung Astra design (2098268756120350732) — 仅文章链接无实质
+- Wen_Zw RT @KhalidDevLog PanelUI (2098275265734689151) — 与既有 `tool-panelui` 重复
+- Wen_Zw RT @Morry4AI NiallxYoung skills (2098277418293461227) — 仅文章链接
+- Wen_Zw RT @isituking x.com article (2098303085227725126) — 无实质内容
+- Wen_Zw RT @neropursue DESIGN.md resources (2098379545653244348) — 与既有 `note-design-md-resources` 重复
+- Wen_Zw RT @willdjthrill x.com article (2098379660388438151) — 无实质内容
+- Wen_Zw RT @ricouii great-ui (2098262581807083549) — 与既有 `tool-great-ui` 重复
+- Wen_Zw RT @codestirring kage.design (2098412507421667699) — 与既有 `tool-kage-mengto` 重复
+- Wen_Zw RT @arihantCodes Spectrum data table (2098413624452850006) — 单一组件发布公告
+- Wen_Zw RT @SubhanHQ top 5 UI skills (2098427836797493614) — 与既有 `note-ui-skills-top10` / `tool-amicro` 重复
 
 ## 本批新增（2026-09-08）
 

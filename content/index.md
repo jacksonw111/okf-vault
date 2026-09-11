@@ -79,6 +79,8 @@ timestamp: "2026-08-27T15:46:00Z"
 
 - [3X-UI](concepts/tool-3x-ui.md)
 - [Lucky](concepts/tool-lucky.md)
+- [tool-open-box](concepts/tool-open-box.md) — OpenWrt 一键 sing-box 透明代理（多协议 / 一键直连恢复）
+- [tool-lantunnel](concepts/tool-lantunnel.md) — NAT 穿透型加密私有组网：QUIC 打洞 + 密文中继
 
 ## 代码质量 / Monorepo
 
@@ -284,6 +286,9 @@ timestamp: "2026-08-27T15:46:00Z"
 - [laravel-zero-console](concepts/tool-laravel-zero-console.md) — Laravel Zero CLI 通用 trait（表格 / 错误码 / 路径）
 - [pon](concepts/tool-pon-python.md) — Rust 写的 Python 3.14 原生编译器（JIT + AOT），目标 Python 版的 bun / v8
 - [QwenAI-Webapp](concepts/tool-qwenai-webapp.md) — FastAPI + Vue 3 + DashScope 接入通义千问，流式 + 多模态
+- [tool-deepjit](concepts/tool-deepjit.md) — DeepSeek 开源的 C++20 JIT 运行时（NVIDIA CUDA + 华为昇腾）
+- [tool-deepseek-recipe](concepts/tool-deepseek-recipe.md) — DeepSeek 官方 Rust + Python SDK
+- [tool-mjbatch](concepts/tool-mjbatch.md) — CPU 上并行跑数千 MuJoCo 仿真
 
 ### 后端 / 部署 / 自托管
 
@@ -291,6 +296,11 @@ timestamp: "2026-08-27T15:46:00Z"
 - [OPG](concepts/tool-opg-backend.md) — 一人公司多 app 后端控制面（账号 / AI 网关 / 视频 / 支付）
 - [NasberryPi](concepts/tool-nasberry-pi.md) — 树莓派轻量 NAS CLI，一条命令配 Samba
 - [docker-android](concepts/tool-docker-android.md) — Docker 镜像封装 Android 模拟器
+- [Docker](concepts/tool-docker.md) — 容器化引擎事实标准底座：镜像打包 + Compose 编排
+- [tool-geoflow](concepts/tool-geoflow.md) — GEO AI 工作台 3.0：知识库 + 内容 + 质检 + 多站点分发
+- [tool-georank](concepts/tool-georank.md) — 自托管 GEO 可见性工作台：30/60/90 天行动方案
+- [tool-opensend](concepts/tool-opensend.md) — SES 之上的自托管邮件系统（Web 面板 + JS SDK + MCP）
+- [tool-buzzkit](concepts/tool-buzzkit.md) — 统一通知编排层：订阅 / 偏好 / 定时 / 送达回执
 - [DataBuff](concepts/tool-databuff.md) — AI Native OpenTelemetry APM，链路追踪 + AI 智能分析
 - [cfnew-deployer](concepts/tool-cfnew-deployer.md) — Cloudflare Pages 部署器面板，邮箱 + API Key 一键 Worker / Pages + KV
 - [MediaCrawler](concepts/tool-mediacrawler.md) — 七平台自媒体数据采集（小红书 / 抖音 / 快手 / B 站等），Playwright + JS 表达式签名
@@ -316,6 +326,12 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Ember（原生 SwiftUI Hacker News 阅读器）](concepts/tool-ember-hackernews.md) — iOS/iPad/Mac 零依赖，评论原生展开 + 无障碍自动匹配
 - [OpenMac](concepts/tool-openmac.md) — Swift macOS 本地 HTTP 服务，把 Vision / Translation 等系统能力暴露成 JSON API
 - [Targie](concepts/tool-targie-similar-finder.md) — macOS 重复 / 视觉相似视频与图片扫描工具
+- [tool-yourdesk](concepts/tool-yourdesk.md) — Go 写的 Mac/Windows 远控：硬编硬解 + FSR / Core ML 放大
+- [tool-ghost-ftp](concepts/tool-ghost-ftp.md) — 无遥测无登录的 FTP/FTPS/SFTP 桌面客户端
+- [tool-ferrumpix](concepts/tool-ferrumpix.md) — 库管理 + RAW + 图层三合一桌面照片工具
+- [tool-disk-view](concepts/tool-disk-view.md) — Textual 磁盘分区 TUI 浏览器，Vim 风格导航
+- [tool-roam-control](concepts/tool-roam-control.md) — iPhone 开发测试用位置模拟工具
+- [tool-pwnagotchi-neuromancer](concepts/tool-pwnagotchi-neuromancer.md) — pwnagotchi 赛博朋克主题插件
 - [Dfetch](concepts/tool-dfetch.md) — Go 写的轻量系统信息工具，neofetch 风格但更克制
 - [DeskBox](concepts/tool-deskbox.md) — WinUI 3 桌面整理工具，托盘 / 全局快捷键管理文件收集与文件夹映射
 - [Evano Studio](concepts/tool-evano-studio.md) — Electron + Python 本地 AI 桌面工作台
@@ -451,6 +467,8 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 金融 / 数据
 - [tickflow-stock-panel](concepts/tool-tickflow-stock-panel.md) — 自托管 A 股量化工作台：选股 / 回测 / 监控 / 复盘 / 18 内置策略 / AI 生成策略 / 连板梯队
 - [farm-mall](concepts/tool-farm-mall.md) — Flask + MySQL 助农电商平台，本科毕业设计开源版
+- [tool-budget-tracker-tui](concepts/tool-budget-tracker-tui.md) — 终端党个人预算追踪器：SQLite + decimal 精确算账
+- [tool-stock-strategy-dashboard](concepts/tool-stock-strategy-dashboard.md) — A股 / 美股短线波段本地只读工作台
 
 ### 桌面 / 系统工具
 - [Picot](concepts/tool-picot.md) — Pi 编码 agent 的本地桌面 GUI（Tauri 框架）
@@ -467,6 +485,13 @@ timestamp: "2026-08-27T15:46:00Z"
 - [LocalEyes](concepts/tool-localeyes.md) — 给本地纯文本 LLM 加 Ollama 视觉能力的工具
 - [cpa-plugin-codexcomp](concepts/tool-cpa-plugin-codexcomp.md) — CLIProxyAPI 插件，自动修复 gpt-5.5 reasoning 截断
 - [vibe-coding-rules](concepts/tool-vibe-coding-rules.md) — AI 编码 6-Skill 编程纪律流水线
+- [vibe coding](concepts/term-vibe-coding.md) — Karpathy 提出的 AI 编程范式：完全顺从 LLM 输出、不读代码
+- [tool-fanzha-ai-proxy](concepts/tool-fanzha-ai-proxy.md) — 国家反诈 AI 反向代理（OpenAI 协议）
+- [tool-browser-use-pi](concepts/tool-browser-use-pi.md) — Browser-Use 团队轻量 TypeScript Web Agent
+- [tool-cua-lite](concepts/tool-cua-lite.md) — 电脑操作 Agent 全流程框架（3 万+ 任务 / LiteSample 数据）
+- [tool-pixelrag](concepts/tool-pixelrag.md) — Berkeley 多模态 RAG：渲染视觉再基于截图检索
+- [tool-react-devtools-cdt-mcp](concepts/tool-react-devtools-cdt-mcp.md) — React 团队实验：让 Chrome DevTools MCP 理解 React 应用
+- [term-cag](concepts/term-cag.md) — Cache-Augmented Generation：把固定知识预缓存到 KV，替代 RAG
 - [pool](concepts/tool-pool-poolside.md) — Poolside 编码智能体，终端 / ACP 服务端 / ACP 客户端 / `pool exec` 四种运行方式
 
 ### 电商 / 自动化
@@ -2831,3 +2856,94 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Spell UI](concepts/tool-spell-ui.md) — 高质量 React 组件合集，copy-paste 接入
 - [设计与组件灵感 Gallery 站合集](concepts/note-design-galleries.md) — navbar.gallery / footer.design / 404s.design 等 9 个按页面段落拆解的灵感站
 - [Component Gallery 资源合集](concepts/note-component-galleries.md) — component.gallery 等通用 UI 组件维度灵感和示例库
+
+## 本批新增（2026-09-11）
+
+### AI / Agent 生态（本批新增）
+- [tool-fanzha-ai-proxy](concepts/tool-fanzha-ai-proxy.md) — 国家反诈 AI 反向代理（OpenAI 协议）
+- [tool-browser-use-pi](concepts/tool-browser-use-pi.md) — Browser-Use 团队轻量 TypeScript Web Agent
+- [tool-cua-lite](concepts/tool-cua-lite.md) — 电脑操作 Agent 全流程框架：3 万+ 任务 + 沙箱 + LiteSample
+- [tool-strike-agent](concepts/tool-strike-agent.md) — 自循环 AI 渗透测试控制台（红队 / SRC / CTF）
+- [tool-autonomous-os](concepts/tool-autonomous-os.md) — 机器人开源操作系统：四文件（ROBOT/SOUL/SAFETY/SKILL.md）接入
+- [playbook-agent-gateway-isolation](concepts/playbook-agent-gateway-isolation.md) — Agent 网关隔离模式：RAG + Java 网关 + 人工确认卡
+- [note-browserbase-stagehand-code-mode](concepts/note-browserbase-stagehand-code-mode.md) — Browserbase 三代 computer-use 演进：代码模式终局
+- [tool-pixelrag](concepts/tool-pixelrag.md) — Berkeley 多模态 RAG：渲染视觉再基于截图检索
+
+### 自托管 / 邮件 / 通知（本批新增）
+- [tool-opensend](concepts/tool-opensend.md) — SES 之上的自托管邮件系统（Web + JS SDK + MCP）
+- [tool-buzzkit](concepts/tool-buzzkit.md) — 统一通知编排层：订阅 / 偏好 / 定时 / 回执
+- [tool-geoflow](concepts/tool-geoflow.md) — GEO AI 工作台 3.0：知识库 + 内容 + 质检 + 多站点分发
+- [tool-georank](concepts/tool-georank.md) — 自托管 GEO 可见性工作台：30/60/90 天行动方案
+
+### 后端 / 部署 / 自托管（本批新增）
+- [tool-lantunnel](concepts/tool-lantunnel.md) — NAT 穿透型加密私有组网：QUIC 打洞 + 密文中继
+- [tool-open-box](concepts/tool-open-box.md) — OpenWrt 一键 sing-box 透明代理（多协议 / 一键直连恢复）
+- [tool-swarmllm](concepts/tool-swarmllm.md) — 浏览器标签页 P2P 分布式推理：27B 也跑得动
+
+### 桌面 / 系统工具（本批新增）
+- [tool-ghost-ftp](concepts/tool-ghost-ftp.md) — 无遥测无登录的 FTP/FTPS/SFTP 桌面客户端
+- [tool-ferrumpix](concepts/tool-ferrumpix.md) — 库管理 + RAW + 图层三合一桌面照片工具
+- [tool-disk-view](concepts/tool-disk-view.md) — Textual 磁盘分区 TUI 浏览器，Vim 风格导航
+- [tool-roam-control](concepts/tool-roam-control.md) — iPhone 开发测试用位置模拟工具
+
+### 编程语言 / 工具链（本批新增）
+- [tool-deepjit](concepts/tool-deepjit.md) — DeepSeek 开源的 C++20 JIT 运行时（CUDA + 昇腾）
+- [tool-deepseek-recipe](concepts/tool-deepseek-recipe.md) — DeepSeek 官方 Rust + Python SDK，统一三种 API
+- [tool-mjbatch](concepts/tool-mjbatch.md) — CPU 上并行跑数千 MuJoCo 仿真
+
+### 教育 / 教学（本批新增）
+- [tool-clay-safari](concepts/tool-clay-safari.md) — Three.js 黏土风格双语动物世界（点一下有动作）
+- [tool-get-it-pdf](concepts/tool-get-it-pdf.md) — PDF 学习助手：知识图谱 + 四模式 + 费曼
+- [tool-gongwen-gbt9704-skill](concepts/tool-gongwen-gbt9704-skill.md) — GB/T 9704-2012 公文 DOCX 生成器（带格式校验）
+
+### 金融 / 数据（本批新增）
+- [tool-budget-tracker-tui](concepts/tool-budget-tracker-tui.md) — 终端党个人预算追踪器：SQLite + decimal 精确算账
+- [tool-stock-strategy-dashboard](concepts/tool-stock-strategy-dashboard.md) — A股 / 美股短线波段本地只读工作台
+
+### 终端 / 网络 / 系统管理（本批新增）
+- [tool-pwnagotchi-neuromancer](concepts/tool-pwnagotchi-neuromancer.md) — pwnagotchi 赛博朋克主题插件
+
+### 移动端 / 跨平台（本批新增）
+- [tool-expo-healthkit](concepts/tool-expo-healthkit.md) — RN/Expo 健康双端统一桥（HealthKit + Health Connect）
+
+### 游戏 / 互动（本批新增）
+- [tool-pocket-battle-lab](concepts/tool-pocket-battle-lab.md) — 本地宝可梦对战原型：JS 规则引擎 + AI 表现层
+- [tool-ability-vfx-sandbox](concepts/tool-ability-vfx-sandbox.md) — Three.js + GLSL 技能 VFX 沙盒（10 技能）
+
+### 视频 / 多媒体（本批新增）
+- [tool-anything2explainer](concepts/tool-anything2explainer.md) — 任意主题 → Remotion 黑底动态图解视频（44 镜头 / 8 Agent）
+- [tool-remocn](concepts/tool-remocn.md) — shadcn 风格的 Remotion 组件库
+
+### 3D / 互动（本批新增）
+- [tool-3dviz-pro-max](concepts/tool-3dviz-pro-max.md) — Three.js 3D 场景 Skill 集：223 配方 / 440 知识 / 22 蓝图
+- [tool-kubernetes3d](concepts/tool-kubernetes3d.md) — Kubernetes 集群 3D 可视化
+
+### 前端 / 设计资源（本批新增）
+- [tool-spectrum-ui](concepts/tool-spectrum-ui.md) — shadcn 风格组件合集站（Data Table 等）
+- [tool-shadcnblocks-admin](concepts/tool-shadcnblocks-admin.md) — shadcn 风格 admin dashboard blocks
+- [tool-blocks-so](concepts/tool-blocks-so.md) — shadcn 风格免费 dashboard blocks（一行安装）
+- [tool-bencho-dev](concepts/tool-bencho-dev.md) — 交互式 UI blocks 探索 / 调参 / benchmark
+- [tool-boarding-pass](concepts/tool-boarding-pass.md) — 开源登机牌风格 React 组件
+- [tool-fluidfunctionalism](concepts/tool-fluidfunctionalism.md) — 流体功能主义设计语言：modal 内 sidebar
+- [tool-doodle-icons](concepts/tool-doodle-icons.md) — 152 个手绘风 SVG 图标 + 沸腾线动画
+- [tool-neat-annotations](concepts/tool-neat-annotations.md) — Maxim Syabro 的纯 CSS 注释库
+- [tool-animata](concepts/tool-animata.md) — 155+ 手绘动画 React 组件（a11y 内置 / MIT）
+- [tool-animal-island-ui-style](concepts/tool-animal-island-ui-style.md) — 动森风格 UI 设计 Skill（HTML 海报 / 生图提示词两用）
+- [tool-details-mcp](concepts/tool-details-mcp.md) — details.so MCP：让 AI 接入「审美」
+- [tool-figma-design-systems-community](concepts/tool-figma-design-systems-community.md) — Figma Community 开放设计系统合集
+- [tool-delphi-tools](concepts/tool-delphi-tools.md) — 开源 indie tools 资源站 2.1.0
+- [tool-vjsf](concepts/tool-vjsf.md) — Vue JSON Schema Forms 声明式表单库
+- [note-design-engineering-resources](concepts/note-design-engineering-resources.md) — Design Engineering 学习资源合集
+
+### 桌面 / 影音（本批新增）
+- [tool-stremio-torrentio](concepts/tool-stremio-torrentio.md) — 免费开源 Netflix 替代：Stremio + Torrentio 去中心化
+
+### 数据集（本批新增）
+- [dataset-awesome-astra-prompts](concepts/dataset-awesome-astra-prompts.md) — GPT-6 Astra 生成 3D 场景的可复用 prompt 集
+
+### 术语（本批新增）
+- [term-cag](concepts/term-cag.md) — Cache-Augmented Generation：把固定知识预缓存到 KV
+
+### 其他（本批新增）
+- [tool-quiver-ai](concepts/tool-quiver-ai.md) — AI 设计与开发协作平台
+- [tool-react-devtools-cdt-mcp](concepts/tool-react-devtools-cdt-mcp.md) — React 团队实验：让 Chrome DevTools MCP 理解 React 应用
