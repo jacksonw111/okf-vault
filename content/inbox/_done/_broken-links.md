@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-09-11T21:31:48Z"
+timestamp: "2026-09-12T21:09:53Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -15,7 +15,9 @@ timestamp: "2026-09-11T21:31:48Z"
 1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；
 2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。
 
-## 违例清单（2 条）
+## 违例清单（4 条）
 
-- content/concepts/tool-claude-vibe-squad.md:37: 断链 -> ./term-vibe-coding.md
-- content/concepts/tool-super-lan-cache.md:36: 断链 -> ./tool-docker.md
+- content/concepts/tool-autonomous-os.md:64: 断链 -> ./tool-microduck-build-tutorial.md
+- content/concepts/tool-cua-lite.md:54: 断链 -> ./tool-browserbase-stagehand.md
+- content/concepts/tool-doodle-icons.md:42: 断链 -> ./tool-svgdoodles.md
+- content/concepts/tool-pwnagotchi-neuromancer.md:42: 断链 -> ./tool-microduck-build-tutorial.md

@@ -2947,3 +2947,61 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 其他（本批新增）
 - [tool-quiver-ai](concepts/tool-quiver-ai.md) — AI 设计与开发协作平台
 - [tool-react-devtools-cdt-mcp](concepts/tool-react-devtools-cdt-mcp.md) — React 团队实验：让 Chrome DevTools MCP 理解 React 应用
+
+## 补建断链 Stub（2026-09-12）
+
+- [tool-microduck-build-tutorial](concepts/tool-microduck-build-tutorial.md) — microduck 桌面机器鸭装机 Playbook（断链 stub）
+- [tool-browserbase-stagehand](concepts/tool-browserbase-stagehand.md) — Browserbase AI 浏览器自动化框架 / Code Mode（断链 stub）
+- [tool-svgdoodles](concepts/tool-svgdoodles.md) — 手绘风 SVG doodles 资源站（断链 stub）
+
+## 本批新增（2026-09-12）
+
+### AI / Agent 生态
+- [tool-deepseek-gui](concepts/tool-deepseek-gui.md) — DeepSeek Harness 桌面 GUI 套壳
+- [tool-taskbar-quota](concepts/tool-taskbar-quota.md) — Windows 任务栏 AI 编程额度监控
+- [tool-tracecrate](concepts/tool-tracecrate.md) — 纯前端 Agent 日志查看器
+- [tool-sol-pi](concepts/tool-sol-pi.md) — NVlabs RSI 训练框架
+- [tool-mcpc](concepts/tool-mcpc.md) — MCP 服务器命名会话路由
+- [tool-langflow](concepts/tool-langflow.md) — 150k+ star 拖拽式 AI 工作流
+- [tool-maskit](concepts/tool-maskit.md) — AI 编程工具本地脱敏网关
+- [tool-creator-agent](concepts/tool-creator-agent.md) — 创作者私有内容 Agent
+- [tool-stonkfly](concepts/tool-stonkfly.md) — 果蝇连接组仿真驱动 Coinbase 现货交易
+
+### 桌面 / 系统工具
+- [tool-clgrade](concepts/tool-clgrade.md) — Rust 终端调色工具
+- [tool-bendmac](concepts/tool-bendmac.md) — MacBook 合盖弯曲桌面
+- [tool-macduo](concepts/tool-macduo.md) — MacBook 盖子六特效
+- [tool-duolike-animation](concepts/tool-duolike-animation.md) — SwiftUI 折叠翻折模拟
+- [tool-sony-device-center](concepts/tool-sony-device-center.md) — 电脑端索尼耳机控制
+
+### 教育 / 学习 / AI Skill
+- [tool-reelbench-skills](concepts/tool-reelbench-skills.md) — AI 视频拉片 Skill
+- [tool-learn-from-materials](concepts/tool-learn-from-materials.md) — 多材料学习 Skill
+
+### 数据 / 时间序列
+- [tool-tsfresh](concepts/tool-tsfresh.md) — 时间序列自动特征工程
+
+### 视频 / 多媒体
+- [tool-hand-drawn-explainer-nikola](concepts/tool-hand-drawn-explainer-nikola.md) — 手绘解说视频生成器
+- [tool-handraw-style](concepts/tool-handraw-style.md) — 261 种手绘风格编号菜单
+- [tool-douyin-downloader](concepts/tool-douyin-downloader.md) — 抖音视频批量下载
+
+### 前端 / 设计资源
+- [tool-drawably](concepts/tool-drawably.md) — 手绘钢笔风格 HTML 控件
+- [tool-ambientcss](concepts/tool-ambientcss.md) — 物理光照模型 CSS 库
+- [tool-runeicons](concepts/tool-runeicons.md) — 一图标 5 风格开源图标库
+- [tool-design-words-bensbites](concepts/tool-design-words-bensbites.md) — 设计词典 + Agent prompt
+- [tool-xialingguo-ip](concepts/tool-xialingguo-ip.md) — 9 风格封面生成 Skill
+- [note-ui-20-psychology-principles](concepts/note-ui-20-psychology-principles.md) — UI「难用」20 个心理学修正视角
+
+### DevOps / CI
+- [tool-nektos-act](concepts/tool-nektos-act.md) — 本地跑 GitHub Actions
+- [tool-qiaomu-seo](concepts/tool-qiaomu-seo.md) — 中文技术 SEO 排查
+- [note-claude-skills-by-department](concepts/note-claude-skills-by-department.md) — Claude Skill 按部门分类清单
+
+### 抓取 / Web
+- [tool-web-clipper-zhijian](concepts/tool-web-clipper-zhijian.md) — 全能网页抓取 Skill
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 5 条：「AI 不光是要摧毁你们数学界」(2098694239198785747) / 「中国的爱马仕」(2098738896624570639) / 「有意思，可视化的全球留学生去向」(2098642475783254218) / 「看了一些 AI 视频，我的历史观都重塑了」(2098613466907230342) / 「卖豆腐都这么卷了吗」(2098681055884845286) — 均为短语 + 短视频，无项目 / 工具信息
+- Wen_Zw RT @details_so Mintlify bentogrids (2098534297666031918) — 仅为视觉展示无独立项目

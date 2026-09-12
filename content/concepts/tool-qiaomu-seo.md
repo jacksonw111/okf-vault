@@ -1,40 +1,50 @@
 ---
 type: "Tool"
-title: "Qiaomu SEO（joeseesun/qiaomu-seo）"
-description: "一套装进 AI 智能体的 SEO 工作流，覆盖 Google / Bing / AI Search 三块阵地，从审计、诊断、站点迁移、代码修复一直做到效果验证。"
+title: "qiaomu-seo（中文技术 SEO 排查工具）"
+description: "从爬取 / 渲染 / 索引 / Canonical / 内链到搜索意图，一层层排查网站到底卡在哪的技术 SEO 工具；接 Claude Code / Cursor / Codex 一句命令装。"
 resource: "https://github.com/joeseesun/qiaomu-seo"
-tags: [seo, ai-search, geo, audit, agent-skills, google, bing, workflow]
-timestamp: "2026-08-05T02:28:00Z"
+tags: "[seo, technical-seo, ai-search, claude-code, codex, cursor]"
+timestamp: "2026-09-12T22:30:00Z"
 ---
 
-# Qiaomu SEO（joeseesun/qiaomu-seo）
+# qiaomu-seo
 
 ## 它是什么
 
-**Qiaomu SEO（乔木 SEO）** 是一套装进**智能体**的 SEO 工作流，覆盖 **Google、Bing、AI Search** 三块阵地——从**审计 → 诊断 → 站点迁移 → 代码修复 → 效果验证**，按真实搜索链路逐层排查问题。
+[joeseesun/qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) 是**中文场景的技术 SEO 排查工具**：很多 SEO 工具只告诉你「标题长不长」却不说「为什么没流量」，qiaomu-seo 直接从**爬取 / 渲染 / 索引 / Canonical / 内链到搜索意图**一层层排查网站到底卡在哪。
+
+## 核心特性
+
+| 特性 | 说明 |
+|------|------|
+| 端到端排查 | 爬取 → 渲染 → 索引 → Canonical → 内链 → 搜索意图 |
+| AI Search 可见性 | 覆盖 AI 搜索新场景 |
+| Skill 安装 | `npx skills add` 一行 |
+| 兼容 | Claude Code / Cursor / Codex |
+| 中文场景 | 适配中文搜索生态 |
 
 ## 为什么用它 / 适合什么场景
-
-- **AI Search 时代**：传统 SEO 工具不会自动覆盖 ChatGPT / Claude / Perplexity 的检索逻辑。
-- **诊断 → 修复闭环**：很多工具只给报告，不给修复；本工具覆盖完整链路。
-- **代码修复自动化**：站点迁移、Schema 注入等可让 AI 直接改代码。
+- 流量下滑想找出根因。
+- 网站迁移后做 SEO 体检。
+- 想做 AI 搜索可见性优化。
 
 ## 关键能力
 
 | 能力 | 说明 |
 |------|------|
-| 跨引擎覆盖 | Google / Bing / AI Search |
-| 审计 | 抓取率 / 索引 / 内容质量全维度 |
-| 诊断 | 排名下滑 / 收录丢失逐项定位 |
-| 站点迁移 | 改版 / 域名切换的 SEO 风险控制 |
-| 代码修复 | Schema / 内链 / 重定向可由 AI 改 |
-| 效果验证 | 修改后真实 SERP / AI 引用回流检测 |
+| 爬取诊断 | robots / 抓取预算 |
+| 渲染诊断 | JS 渲染 / 移动友好 |
+| 索引诊断 | canonical / noindex |
+| 内链诊断 | 链接结构 / 权重流转 |
+| 搜索意图 | 内容与查询对齐 |
+| AI Search | 覆盖 AI 搜索场景 |
 
 ## 参考链接
 
-- [GitHub 仓库](https://github.com/joeseesun/qiaomu-seo)
+- 项目仓库：<https://github.com/joeseesun/qiaomu-seo>
+
+## 媒体
+
+- ![](https://pbs.twimg.com/media/HR0Xhn2awAAJCtd.png)
 
 ## 相关概念
-
-- [GeoLook](./tool-geolook.md) — 同属「GEO / AI 搜索优化」主题，对照实现
-- [AI Brand Monitor MCP](./tool-ai-brand-monitor-mcp.md) — 品牌在 AI 搜索中的曝光监测，可与本工具的「修复」侧互补

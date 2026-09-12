@@ -3293,3 +3293,65 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw RT @QingQ77 mewu_ai (2097338805623959882) — 与本批新建 `tool-mewu-ai` 重复
 - Wen_Zw RT @sagacity anthropics/commerce-agents (2097129502279381250) — 已有 [`tool-commerce-agents`](./tool-commerce-agents.md)，重复
 - Wen_Zw RT @tspy Microduck 复刻 (2097288512144040320) — 仅一段视频，无独立工程
+
+## 补建断链 Stub（2026-09-12）
+
+- [microduck 装机教程](./tool-microduck-build-tutorial.md) — `Playbook` — microduck 桌面机器鸭全流程装机指南（断链 stub）
+- [Stagehand（Browserbase）](./tool-browserbase-stagehand.md) — `Tool` — Browserbase AI 浏览器自动化框架；Code Mode 主线（断链 stub）
+- [svgdoodles](./tool-svgdoodles.md) — `Tool` — 手绘风 SVG doodles 资源站（断链 stub）
+
+## 本批新增（2026-09-12）
+
+### AI / Agent 生态（本批新增）
+- [DeepSeekGUI](./tool-deepseek-gui.md) — `Tool` — DeepSeek Harness 桌面 GUI 套壳：改动 / Git / worktree / 记忆 / 网页浏览一窗
+- [TaskbarQuota](./tool-taskbar-quota.md) — `Tool` — Windows 任务栏 AI 编程额度监控：13 家厂商实时剩余 / 百分比 / 重置
+- [tracecrate](./tool-tracecrate.md) — `Tool` — 纯前端 Agent 日志查看器：Claude Code / Codex / OTLP / 双会话对比 / 脱敏
+- [SoL-Pi](./tool-sol-pi.md) — `Tool` — NVlabs RSI 训练框架：循环自我改进里观察 scaling laws
+- [mcpc](./tool-mcpc.md) — `Tool` — MCP 服务器命名会话路由：按需加载定义不烧 token
+- [Langflow](./tool-langflow.md) — `Tool` — 150k+ star 拖拽式 AI 工作流，DataStax 维护
+- [Data Maskit](./tool-maskit.md) — `Tool` — AI 编程工具本地脱敏网关：密钥 / 连接串自动打码 / 流式还原
+- [creator-agent](./tool-creator-agent.md) — `Tool` — 创作者私有内容 Agent：仅按已批准内容回答 + 引用溯源
+- [stonkfly](./tool-stonkfly.md) — `Tool` — 果蝇连接组仿真驱动 Coinbase 现货交易
+
+### 桌面 / 系统工具（本批新增）
+- [clgrade](./tool-clgrade.md) — `Tool` — Rust + Ratatui 终端调色工具，五页（曝光 / 色轮 / Scopes / Pipeline / Presets）
+- [BendMac](./tool-bendmac.md) — `Tool` — MacBook 合盖时桌面随转轴角度弯曲 / 模糊 / 透视
+- [MacDuo](./tool-macduo.md) — `Tool` — Swift + Metal MacBook 盖子六特效（Duo / Ghost / Roll / Shutter / Flex / Iris）
+- [DuoLikeAnimation](./tool-duolike-animation.md) — `Tool` — SwiftUI shader + 陀螺仪模拟 iPhone Duo 折叠翻折动画
+- [sony-device-center](./tool-sony-device-center.md) — `Tool` — 电脑端索尼耳机控制：降噪 / 均衡器免掏手机
+
+### 教育 / 学习 / AI Skill（本批新增）
+- [reelbench-skills](./tool-reelbench-skills.md) — `Tool` — AI 视频拉片 Skill：ffmpeg 切点 + 模型填四字段 + 14 道质量门
+- [learn-from-materials](./tool-learn-from-materials.md) — `Tool` — 多材料学习 Skill：书 / PDF / 网页 → 带页码知识库 + 离线网页
+
+### 数据 / 时间序列（本批新增）
+- [tsfresh](./tool-tsfresh.md) — `Tool` — 时间序列自动特征工程：700+ 特征自动抽取 + 数学筛选
+
+### 视频 / 多媒体（本批新增）
+- [Hand-drawn Explainer Video Nikola](./tool-hand-drawn-explainer-nikola.md) — `Tool` — 手绘解说视频生成器：主题 / 文稿 / SRT → 逐笔绘制 + 配音字幕
+- [handraw-style](./tool-handraw-style.md) — `Tool` — 261 种手绘风格编号菜单 + 双语提示词
+- [douyin-downloader](./tool-douyin-downloader.md) — `Tool` — 10k+ star 抖音视频批量下载工具
+
+### 前端 / 设计资源（本批新增）
+- [drawably](./tool-drawably.md) — `Tool` — 手绘钢笔风格 HTML 控件，每次挂载重新生成
+- [Ambient CSS](./tool-ambientcss.md) — `Tool` — 物理光照模型 CSS：Blender 同步参考 + box-shadow 复现
+- [Rune Icons](./tool-runeicons.md) — `Tool` — 一图标 5 风格开源图标库（outline / duotone / fill / pixelated / glass）
+- [design-words](./tool-design-words-bensbites.md) — `Tool` — bentossell 设计词典：选风格即看预览 + 一键复制 Agent prompt
+- [xialingguo-ip](./tool-xialingguo-ip.md) — `Tool` — 9 风格封面生成 Skill：21:9 默认比例可改
+- [UI「难用」20 个修正视角](./note-ui-20-psychology-principles.md) — `Note` — 心理学 / 认知科学 → UI 修正 20 条规则（4 组：看得见 / 记得住 / 不迷茫 / 操作顺）
+
+### DevOps / CI（本批新增）
+- [nektos/act](./tool-nektos-act.md) — `Tool` — 本地跑 GitHub Actions：71k+ star，环境与线上对齐
+- [qiaomu-seo](./tool-qiaomu-seo.md) — `Tool` — 中文技术 SEO 排查：爬取 / 渲染 / 索引 / Canonical / 内链 / 搜索意图
+- [Claude Skill 按部门清单](./note-claude-skills-by-department.md) — `Note` — 按开发 / 设计 / 营销 / 社媒 / 财务 / 中小企业 / 法务分类的 Claude Skill 工具栈
+
+### 抓取 / Web（本批新增）
+- [zhijian WebClipper](./tool-web-clipper-zhijian.md) — `Tool` — 全能网页抓取 Skill：多方案集成 + 多层兜底
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「AI 不光是要摧毁你们数学界」(2098694239198785747) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「中国的爱马仕」(2098738896624570639) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「有意思，可视化的全球留学生去向」(2098642475783254218) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「看了一些 AI 视频，我的历史观都重塑了」(2098613466907230342) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「卖豆腐都这么卷了吗」(2098681055884845286) — 短语 + 视频，无项目 / 工具信息
+- Wen_Zw RT @details_so Mintlify bentogrids (2098534297666031918) — 仅为视觉展示无独立项目
