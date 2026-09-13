@@ -3005,3 +3005,54 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 5 条：「AI 不光是要摧毁你们数学界」(2098694239198785747) / 「中国的爱马仕」(2098738896624570639) / 「有意思，可视化的全球留学生去向」(2098642475783254218) / 「看了一些 AI 视频，我的历史观都重塑了」(2098613466907230342) / 「卖豆腐都这么卷了吗」(2098681055884845286) — 均为短语 + 短视频，无项目 / 工具信息
 - Wen_Zw RT @details_so Mintlify bentogrids (2098534297666031918) — 仅为视觉展示无独立项目
+
+## 本批新增（2026-09-13）
+
+### AI / Agent 生态
+- [tool-awr-agent-work-runtime](concepts/tool-awr-agent-work-runtime.md) — AI 结对编程工作运行时
+- [tool-farcaster-multi-agent-desktop](concepts/tool-farcaster-multi-agent-desktop.md) — 多 coding agent 统一桌面工作区
+- [tool-thinkingbox-ms-agent-eval](concepts/tool-thinkingbox-ms-agent-eval.md) — 微软智能体评测与训练框架
+- [tool-gvs5h-multi-agent-orchestration](concepts/tool-gvs5h-multi-agent-orchestration.md) — 账本式零样本多 agent 自编排
+- [tool-open-code-review](concepts/tool-open-code-review.md) — 阿里 AI 代码审查 harness
+- [tool-pi-review](concepts/tool-pi-review.md) — earendil-works 出品的 Pi 官方 review 插件
+- [tool-artemis-google-android-automation](concepts/tool-artemis-google-android-automation.md) — Google 真机 Android 自动化
+- [tool-ampcode](concepts/tool-ampcode.md) — Sourcegraph 的 AI 编码代理 ampcode
+- [tool-mobai-dev-ios-from-linux](concepts/tool-mobai-dev-ios-from-linux.md) — Cloud coding agent 从 Linux 沙箱里开发 iOS App
+- [tool-awesome-llm-apps](concepts/tool-awesome-llm-apps.md) — 118k+ Star AI Agent / RAG 应用合集
+- [tool-jingyun-dsh](concepts/tool-jingyun-dsh.md) — DeepSeek Harness 商业闭环扩展
+
+### 自托管 / 身份认证
+- [tool-authentik](concepts/tool-authentik.md) — 开源身份认证平台
+- [tool-millionsend-self-hosted-email](concepts/tool-millionsend-self-hosted-email.md) — 自托管邮件发送平台（Resend 兼容 API）
+
+### 桌面 / 系统工具
+- [tool-bendable-macbook-hinge-animation](concepts/tool-bendable-macbook-hinge-animation.md) — MacBook 盖子角度驱动折叠动画
+- [tool-airclone-rclone-gui](concepts/tool-airclone-rclone-gui.md) — rclone 全平台 GUI
+
+### 后端 / 部署
+- [tool-torollo-visual-backend-architect](concepts/tool-torollo-visual-backend-architect.md) — 后端版 Packet Tracer
+
+### 社媒 / 内容运营
+- [tool-openpost-social-media-suite](concepts/tool-openpost-social-media-suite.md) — 自托管社媒一站式工具
+
+### 神经科学 / 仿真
+- [tool-fly-wirehead](concepts/tool-fly-wirehead.md) — 果蝇全脑连接组仿真
+
+### 金融 / 数据
+- [tool-trends-research-lucas-joly](concepts/tool-trends-research-lucas-joly.md) — 期货趋势持续性研究
+
+### 教育 / 学习 / AI Skill
+- [tool-pi-bluebook](concepts/tool-pi-bluebook.md) — Pi 中文零基础非官方手册
+- [tool-dictionary-of-ai-coding](concepts/tool-dictionary-of-ai-coding.md) — mattpocock 出品的 AI 编程术语词典
+
+### 笔记（Notes）
+- [note-harness-engineering-guide](concepts/note-harness-engineering-guide.md) — Harness 工程生产级实战指南
+- [note-decode-coding-agent-system-design](concepts/note-decode-coding-agent-system-design.md) — pauliusztin 自建 coding agent 系统设计
+
+### 更新（Updated）
+- [tool-sol-pi](concepts/tool-sol-pi.md) — 从「NVlabs RSI 训练框架」改为「NVIDIA 给 Pi 的省 token 开源扩展（4 招）」
+- [tool-svg-diagram-bybit](concepts/tool-svg-diagram-bybit.md) — 补充五类图 / 12 项 Linter / 中英文字符宽度表
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 5 条：「这是真人还是机器人啊」(2099032390152970565) / 「才知道中国有很多风俗不为世人所知👀」(2098980291742515237) / 「家长理想中的学校，把我看抑郁了」(2099140929378726339) / 「Windows 上的 TVBox 风格播放器」(2099066807172641058) / 「Flyme 小窗移植到 ColorOS」(2098986779646845393) — 短语 + 视频或单一娱乐/折腾项目
+- Wen_Zw 6 条：RT @yinlrr ENGSENCE (2098919354209554723) / RT @typeui_sh Methodical (2098902181315559649) / RT @lidageai cursor.com/cn/learn (2099062016971543033) / RT @arihantCodes Spectrum charts (2098907724390269159，与 [tool-spectrum-ui](concepts/tool-spectrum-ui.md) 重复) / RT @denziidai ai-agent-book (2099062079001092431，与 [note-ai-agent-book](concepts/note-ai-agent-book.md) 重复) / RT @himanshubuildss ScrollTide (2099129286519390714)

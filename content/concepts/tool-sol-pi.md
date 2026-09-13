@@ -1,48 +1,51 @@
 ---
 type: "Tool"
-title: "SoL-Pi（NVlabs RSI scaling laws 训练框架）"
-description: "NVIDIA Labs 出品的 RSI（Recurrent Self-Improvement）训练框架：在 RSI 循环里观察 scaling laws，让效率 / 性能可以双向度量。"
+title: "SoL-Pi（NVIDIA 给 Pi 编码代理的省 token 开源扩展）"
+description: "NVIDIA Labs 开源、给 Pi 编码代理用的省 token 扩展：四个默认全关、按需开关的能力——验证命令联动、句柄化大文本、日志摘要 + 原文回查、计划压缩。"
 resource: "https://github.com/NVlabs/SoL-Pi"
-tags: "[ai-training, rsi, scaling-laws, nvidia, reinforcement-learning]"
-timestamp: "2026-09-12T22:30:00Z"
+tags: "[pi, nvidia, token-saving, agent-extension, coding-agent]"
+timestamp: "2026-09-13T10:25:00Z"
 ---
 
-# SoL-Pi
+# SoL-Pi（NVIDIA 给 Pi 编码代理的省 token 开源扩展）
 
 ## 它是什么
 
-[NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) 是 NVIDIA Labs 出品的 **RSI 训练框架**——RSI = Recurrent Self-Improvement（循环自我改进）。在反复自我训练的循环里观察**scaling laws**，让「效率」和「性能」可以双向度量。
+[NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) 是 **NVIDIA Labs** 出品的 **Pi 编码代理扩展**。它不改 Pi 本体，而是在 Pi 之外加四个**默认全关、按配置文件启用**的省 token 招数。每一招都把上下文里最贵的部分抽走，但保留可回查的接口。
 
-## 核心特性
+## 四招省 token 设计
 
-| 特性 | 说明 |
-|------|------|
-| RSI 循环 | 自我改进循环训练 |
-| Scaling laws | 循环里的标度律观测 |
-| 双向度量 | 效率与性能 |
-| 官方博客 | <https://nvlabs.github.io/SoL-Pi/> |
+| 招数 | 解决什么 | 关键思路 |
+|------|----------|----------|
+| 验证命令联动 | 编辑完再来回跑测试浪费 token | 编辑完自动跑验证命令，少一轮往返 |
+| 大文本句柄化 | 读过的大段结果反复重传 | 看过的大文本结果存成句柄，下次按页取 |
+| 日志摘要 + 原文可查 | 长日志占满上下文 | 压成摘要，但原文保留随时可查 |
+| 计划步骤压缩 | 计划越写越长 | 完成后及时把计划步骤压成上下文摘要 |
 
-## 为什么用它 / 适合什么场景
-- 研究 self-improvement / agent 自训练。
-- 想在 RSI 循环里观察 scaling laws。
-- AI 研究 / 论文实验。
+四招**默认全关**，想用哪个自己改配置文件开。**不动 Pi 本体**——属于旁挂式扩展。
+
+## 新手建议
+
+> 前两个（验证联动 + 句柄化大文本）是**纯本地**的，不花额外模型钱，新手建议先开这两招；后两个涉及摘要会触发额外模型调用，再视需要打开。
 
 ## 关键能力
 
 | 能力 | 说明 |
 |------|------|
-| RSI 训练 | 循环自我改进 |
-| Scaling law 观测 | 找循环里的标度律 |
-| 双向度量 | 效率 + 性能 |
-| 论文配套 | NVIDIA 官方发布 |
+| 编辑 → 验证联动 | 一次会话内少跑一趟 |
+| 大文本句柄 | 按页访问避免整段重传 |
+| 日志摘要 | 长日志压成可读摘要 |
+| 原文可查 | 摘要背后保留原文，按需回查 |
+| 计划压缩 | 完成后清理历史步骤 |
+| 配置即开关 | 默认全关，按需开 |
+| 不改 Pi 本体 | 旁挂式扩展 |
 
-## 参考链接
+## 项目链接
 
-- 项目仓库：<https://github.com/NVlabs/SoL-Pi>
-- 官方博客：<https://nvlabs.github.io/SoL-Pi/>
-
-## 媒体
-
-- 视频：<https://video.twimg.com/amplify_video/2098336236138385408/vid/avc1/1280x720/W2utl3ndoq9V1Nra.mp4?tag=14>
+- 仓库：<https://github.com/NVlabs/SoL-Pi>
 
 ## 相关概念
+
+- [Pi Coding Agent](./tool-pi-coding-agent.md) — SoL-Pi 的宿主
+- [DeepSeek Harness 生态（dsh-*）](./tool-deepseek-harness-rs.md) — 同类「在编码代理之外省 token / 省步骤」的扩展思路
+- [上下文工程](./term-context-engineering.md) — 四招的本质都是压缩 / 句柄化的上下文工程技法

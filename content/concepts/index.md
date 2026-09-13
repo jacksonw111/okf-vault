@@ -3355,3 +3355,63 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77「看了一些 AI 视频，我的历史观都重塑了」(2098613466907230342) — 短语 + 视频，无项目 / 工具信息
 - QingQ77「卖豆腐都这么卷了吗」(2098681055884845286) — 短语 + 视频，无项目 / 工具信息
 - Wen_Zw RT @details_so Mintlify bentogrids (2098534297666031918) — 仅为视觉展示无独立项目
+
+## 本批新增（2026-09-13）
+
+### AI / Agent 生态（本批新增）
+- [AWR（Agent Work Runtime）](./tool-awr-agent-work-runtime.md) — `Tool` — AI 结对编程工作运行时：目标 / 进度 / 卡点持久化 + 任务切片定量注入
+- [Farcaster](./tool-farcaster-multi-agent-desktop.md) — `Tool` — 多 coding agent 统一桌面工作区：Codex / Pi / Claude Code + 内嵌 Neovim
+- [ThinkingBox](./tool-thinkingbox-ms-agent-eval.md) — `Tool` — 微软智能体评测与训练框架：MCP Session Proxy 调度 Agent / User / Judge 三 LLM
+- [GVS5H](./tool-gvs5h-multi-agent-orchestration.md) — `Tool` — 账本式零样本多 agent 自编排：LiveCodeBench 上最多 +23.2pp，开源 Qwen3.8-27B 编排后 92.4%
+- [open-code-review](./tool-open-code-review.md) — `Tool` — 阿里 AI 代码审查 harness：BYOK + Delegation 两种模式
+- [Pi Review](./tool-pi-review.md) — `Tool` — earendil-works 出品的 Pi 官方 review 插件：`pi install git:...` 一行安装
+- [Artemis](./tool-artemis-google-android-automation.md) — `Tool` — Google 真机 Android 自动化：AndroidWorld 上 100+ 任务完成率 99%+，原生支持 MCP
+- [Amp](./tool-ampcode.md) — `Tool` — Sourcegraph 的 AI 编码代理 ampcode.com：对 agent 认识超前，新人友好
+- [mobai-dev](./tool-mobai-dev-ios-from-linux.md) — `Tool` — Cloud coding agent 从 Linux 沙箱里开发 iOS App：SwiftUI / RN / Flutter + Xcode CI + 真机驱动
+- [awesome-llm-apps](./tool-awesome-llm-apps.md) — `Tool` — 118k+ Star AI Agent / RAG 应用合集：100+ 可直接跑的项目 + 完整说明
+- [jingyun-dsh](./tool-jingyun-dsh.md) — `Tool` — DeepSeek Harness 商业闭环扩展：会员 / 支付 / 算力 / 应用市场
+
+### 自托管 / 身份认证（本批新增）
+- [authentik](./tool-authentik.md) — `Tool` — 开源身份认证平台：OAuth2 / OIDC / SAML / LDAP / RADIUS + 统一门户
+- [MillionSend](./tool-millionsend-self-hosted-email.md) — `Tool` — 自托管邮件发送平台：API 兼容 Resend，走自有 AWS SES
+
+### 桌面 / 系统工具（本批新增）
+- [Bendable](./tool-bendable-macbook-hinge-animation.md) — `Tool` — MacBook 盖子角度驱动屏幕折叠动画
+- [Airclone](./tool-airclone-rclone-gui.md) — `Tool` — rclone 全平台 GUI：70+ 云存储像本地文件夹一样用
+
+### 后端 / 部署 / 自托管（本批新增）
+- [Torollo](./tool-torollo-visual-backend-architect.md) — `Tool` — 后端版 Packet Tracer：画架构即跑真 Docker 容器
+
+### 社媒 / 内容运营（本批新增）
+- [OpenPost](./tool-openpost-social-media-suite.md) — `Tool` — 自托管社媒内容一站式工具：Buffer + Canva + CapCut 三合一
+
+### 神经科学 / 仿真（本批新增）
+- [fly-wirehead](./tool-fly-wirehead.md) — `Tool` — 果蝇全脑连接组仿真：16 万神经元 + 真实昆虫短视频视觉刺激 + 神经活动实时可视化
+
+### 金融 / 数据（本批新增）
+- [trends-research](./tool-trends-research-lucas-joly.md) — `Tool` — Lucas Joly 期货趋势持续性研究：S183 策略 36 年 / 62 个期货，最严修正后 Sharpe 0.78
+
+### 教育 / 学习 / AI Skill（本批新增）
+- [pi-bluebook](./tool-pi-bluebook.md) — `Tool` — Pi 中文零基础非官方手册：「场景→概念→实操→验收」四段式
+- [dictionary-of-ai-coding](./tool-dictionary-of-ai-coding.md) — `Tool` — mattpocock 出品的 AI 编程术语词典：evals / inference / fine-tuning 等简单英文解释
+
+### 笔记（Notes）
+- [Harness Engineering Guide](./note-harness-engineering-guide.md) — `Note` — Harness 工程生产级实战指南：沙箱 / 编排 / 多 agent / 长时运行 + 真实可运行代码
+- [Decode（pauliusztin 的 Coding Agent 系统设计）](./note-decode-coding-agent-system-design.md) — `Note` — 自建 coding agent 系统设计：core loop 只 20 行 Pydantic AI，真正工作全在 harness
+
+### 更新（Updated）
+- [SoL-Pi](./tool-sol-pi.md) — `Tool` — 更新：从「NVlabs RSI 训练框架」改为「NVIDIA 给 Pi 的省 token 开源扩展（4 招默认全关按需开）」
+- [svg-diagram](./tool-svg-diagram-bybit.md) — `Tool` — 更新：补充五类图 / 12 项 Linter / 中英文字符宽度表 / Noto Sans CJK SC / 一行接入主流 Agent
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77「这是真人还是机器人啊」(2099032390152970565) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「才知道中国有很多风俗不为世人所知👀」(2098980291742515237) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「家长理想中的学校，把我看抑郁了」(2099140929378726339) — 短语 + 视频，无项目 / 工具信息
+- QingQ77「Windows 上的 TVBox 风格播放器」(2099066807172641058) — 单一桌面娱乐应用，无可复用工程经验
+- QingQ77「Flyme 小窗移植到 ColorOS」(2098986779646845393) — 小众 Android 折腾项目（Xposed）
+- Wen_Zw RT @yinlrr ENGSENCE (2098919354209554723) — 单一语言学习 App，无可复用知识价值
+- Wen_Zw RT @typeui_sh Methodical (2098902181315559649) — 单一设计 skill 资源，无独立知识价值
+- Wen_Zw RT @lidageai cursor.com/cn/learn (2099062016971543033) — 仅为学习资源 URL，无具体概念
+- Wen_Zw RT @arihantCodes Spectrum charts (2098907724390269159) — 与 [tool-spectrum-ui.md](./tool-spectrum-ui.md) 重复
+- Wen_Zw RT @denziidai ai-agent-book (2099062079001092431) — 与 [note-ai-agent-book.md](./note-ai-agent-book.md) 重复
+- Wen_Zw RT @himanshubuildss ScrollTide (2099129286519390714) — 单一 UI 组件库，无独立知识价值
