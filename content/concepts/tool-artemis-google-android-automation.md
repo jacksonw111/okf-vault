@@ -58,4 +58,4 @@ timestamp: "2026-09-13T08:58:00Z"
 ## 相关概念
 
 - [MCP（Model Context Protocol）](./term-mcp.md) — Artemis 原生支持 MCP，与 Claude Code / Cursor / Windsurf 一键对接
-- [Computer Use](./term-computer-use.md) — Artemis 是「Android 真机版 Computer Use」类实现（term 暂未独立收录，留概念链接占位）
+- [Computer Use](./term-computer-use.md) — Artemis 是「Android 真机版 Computer Use」类实现

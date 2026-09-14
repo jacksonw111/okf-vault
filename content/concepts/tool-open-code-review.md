@@ -44,4 +44,4 @@ timestamp: "2026-09-13T08:50:00Z"
 ## 相关概念
 
 - [Pi Review（earendil 团队）](./tool-pi-review.md) — 同类定位，Pi 生态专属
-- [Harness Engineering](./term-harness-engineering.md) — open-code-review 是「专门做 review 的 harness」典型（term 暂未独立收录，留概念链接占位）
+- [Harness Engineering（Harness 工程）](./term-harness-engineering.md) — open-code-review 是「专门做 review 的 harness」典型

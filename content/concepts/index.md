@@ -14,6 +14,16 @@ timestamp: "2026-08-27T15:46:00Z"
 - [LLM Wiki 模式](term-llm-wiki.md) — `Term`
 - [Agent Skills（代理技能包）](term-agent-skills.md) — `Term`
 - [Conventional Commits](term-conventional-commits.md) — `Term`
+- [MCP（Model Context Protocol）](term-mcp.md) — `Term` — LLM ↔ 工具的开放协议，被类比为「AI 应用的 USB-C」
+- [Computer Use（计算机使用）](term-computer-use.md) — `Term` — 让 AI 直接读屏 + 模拟键鼠操作图形界面
+- [Self-Hosted（自托管）](term-self-hosted.md) — `Term` — 数据可控 / 长期低成本 / 可深度定制的部署形态
+- [RAG（检索增强生成）](term-rag.md) — `Term` — 给 LLM 配外部知识库，让回答可追溯、可更新
+- [Context Engineering（上下文工程）](term-context-engineering.md) — `Term` — 围绕「上下文窗口怎么选 / 怎么排 / 怎么省」的工程实践
+- [Computational Neuroscience（计算神经科学）](term-comp-neuro.md) — `Term` — 用数学模型 + 计算机仿真研究神经系统
+- [Multi-Agent（多智能体协作）](term-multi-agent.md) — `Term` — 多 LLM agent 通过角色分工 / 共享状态协同解决复杂任务
+- [Cloud Coding Agent（云端编码代理）](term-cloud-coding-agent.md) — `Term` — 跑在云端沙箱里的 AI 编码 agent
+- [Sandbox（沙箱）](term-sandbox.md) — `Term` — agent / 不可信代码的标准隔离运行环境
+- [Harness Engineering（Harness 工程）](term-harness-engineering.md) — `Term` — 围绕「怎么把 LLM 包成稳定 / 可观测 / 可治理产品」的工程实践
 
 ## 工具（Tools）
 
@@ -43,6 +53,47 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Cabinet](tool-cabinet.md) — `Tool` — Obsidian + AI 代理
 - [Field Theory](tool-field-theory.md) — `Tool` — 统一上下文管理
 - [Claude Code](tool-claude-code.md) — `Tool` — 终端原生 AI 编码 agent
+- [Pi Coding Agent](tool-pi-coding-agent.md) — `Tool` — earendil-works 的终端原生编码 agent，agent 循环被做成可嵌入库
+
+### 本批新增（2026-09-14）
+
+**AI / Agent 生态**
+- [IvyClaw（五 Agent 协作的研发 harness）](tool-ivyclaw.md) — `Tool` — 五 Agent 分工 + 三档模型路由 + 沙箱 / ARQ 异步 / HITL 审批 / 网关限流审计，docker compose 一键跑
+- [AgentScope 2.0](tool-agentscope.md) — `Tool` — 多租户多会话 Agent 运行环境，事件总线 + 人工介入 + 多执行后端 + MCP / Skill Hub
+- [Birdview](tool-birdview.md) — `Tool` — 面向 AI 编程工作流的架构可视化：先建图、再声明变更范围、再动手改代码
+- [Understand-Anything](tool-understand-anything.md) — `Tool` — 把代码库变成可探索知识图谱（≈8.3 万 ⭐），支持 Claude Code / Codex / Cursor
+- [gap-trap](tool-gap-trap.md) — `Tool` — AI 编程代码库的 Gates / Contracts / Proven red 三层护栏，把 Vibe Coding 落地为工程化产出
+- [Cloudflare security-audit-skill](tool-cloudflare-security-audit-skill.md) — `Tool` — Cloudflare 出品的多阶段安全审计 Skill，输出机器可读 verified finding
+
+**桌面 / 系统工具**
+- [Sheets](tool-sheets-terminal-themes.md) — `Tool` — Ghostty / Kitty / Alacritty 三款终端主题管理器（Tauri macOS）
+- [Ghosttyle](tool-ghosttyle.md) — `Tool` — Ghostty 终端可视化配置工作台（中英双语 + 实时预览）
+- [Tempura](tool-tempura.md) — `Tool` — Vadim Costin 的桌面专注计时器（React + Tauri 2 + Rust 后端）
+- [NetFluss](tool-netfluss.md) — `Tool` — macOS 菜单栏实时网速 + 网卡 / DNS / Wi-Fi / 路由器 / VPN 管理
+- [Impasto](tool-impasto-arch-hyprland.md) — `Tool` — Arch Linux + Hyprland + Quickshell 一体化桌面（一条脚本装好）
+- [OmniStudio](tool-omnistudio.md) — `Tool` — 本地大模型一站式桌面工作台（GGUF 全格式 + llama.cpp / vLLM / SGLang 三引擎热切换）
+- [Design Studio AI](tool-design-studio-ai.md) — `Tool` — 开源设计台，人 + Agent 同一份文档（网页 / 幻灯片 / 3D / 时间线视频）
+- [Scriptya](tool-scriptya.md) — `Tool` — 把散落脚本组织成可搜索菜单，一键运行 / 装成桌面应用 / 换图标
+- [PaperOtter](tool-paperotter.md) — `Tool` — 19 个本机离线 PDF / 图片 / 文档工具（压缩 / 合并 / 拆分 / 水印 / 签名 / 涂黑 / 转换）
+- [Oryx](tool-oryx-reader.md) — `Tool` — 原生单二进制 Markdown / 代码 / 电子书 / 漫画阅读器（Rust 写，百毫秒级首屏）
+
+**Android / 移动**
+- [DuoLauncher](tool-duolauncher.md) — `Tool` — 折叠屏原生 Android 桌面（右侧常驻 Dock，展开多工作区）
+- [DuoFold Android](tool-duofold-android.md) — `Tool` — 普通 Android 模拟 iPhone Duo 整屏翻折动效（陀螺仪 + 透视投影 + 景深）
+- [YOINK](tool-yoink-markdown-notes.md) — `Tool` — Python 终端 Markdown 笔记工具 + 自我结算预测记录 + 过度自信评分
+
+**设计 / 前端资源**
+- [Regen Icons](tool-regen-icons.md) — `Tool` — Shopify 设计师开源的 AI Agent 图标系统（JSON 绘图语言 + 编译产物 + AGENTS.md/CLAUDE.md/SKILL.md）
+- [Conflux Icon Theme](tool-conflux-icon-theme.md) — `Tool` — Linux 桌面图标主题（顺眼、不抢戏、形状宽容）
+- [Create UI](tool-create-ui.md) — `Tool` — AI Native Figma 设计系统 + React 组件库（createui.co）
+- [feral-ui / gradients](tool-feral-gradients.md) — `Tool` — 高质量 CSS 渐变资源站（feralui.dev/gradients）
+- [Spectrum UI Footers](tool-spectrum-footers.md) — `Tool` — shadcn + motion 的开源 Footer 组件库
+- [page-mascot](tool-page-mascot.md) — `Tool` — 交互式吉祥物 Skill（跟随鼠标 + 点击有反应）
+
+**笔记 / 文章 / 学习**
+- [《深入理解 AI Infra》](note-ai-infra-book.md) — `Note` — bojie_li 开源电子书（500 页 / 12 章，从硬件约束与模型架构推导系统设计）
+- [AI 工作流 vs Harness Engineering](note-ai-workflow-vs-harness-engineering.md) — `Note` — june_in_exile 的 Medium 长文，澄清被滥用的两个术语
+- [Skill vs Prompt — 关注度的魔力](note-i-have-adhd-skill-magic.md) — `Note` — 短规则该不该放 AGENTS.md 的反思（44.4k star 的 i-have-adhd 案例）
 - [OKF Enrichment Agent](tool-okf-enrichment-agent.md) — `Tool`
 - [OKF Static HTML Visualizer](tool-okf-static-html-visualizer.md) — `Tool`
 - [OKF 参考示例 Bundles](tool-okf-sample-bundles.md) — `Tool`

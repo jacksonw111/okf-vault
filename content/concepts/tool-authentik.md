@@ -39,4 +39,4 @@ timestamp: "2026-09-13T08:57:00Z"
 ## 相关概念
 
 - [OAuth2](https://oauth.net/2/) / [OIDC](https://openid.net/connect/) / [SAML](https://en.wikipedia.org/wiki/SAML) — authentik 实现的标准协议（项目未在 concepts 收录，留官方链接）
-- [自托管](./term-self-hosted.md) — authentik 是这一类的典型项目（term 暂未独立收录，留概念链接占位）
+- [Self-Hosted（自托管）](./term-self-hosted.md) — authentik 是这一类的典型项目

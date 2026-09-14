@@ -46,4 +46,4 @@ timestamp: "2026-09-13T07:11:00Z"
 ## 相关概念
 
 - [LiveCodeBench](https://livecodebench.github.io) — 评测基准（项目未在 concepts 收录，留官方链接）
-- [Multi-Agent Collaboration](./term-multi-agent.md) — GVS5H 是同一类思路在 coding 任务上的具体实现（term 暂未独立收录，留概念链接占位）
+- [Multi-Agent（多智能体协作）](./term-multi-agent.md) — GVS5H 是同一类思路在 coding 任务上的具体实现

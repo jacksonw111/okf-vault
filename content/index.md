@@ -3056,3 +3056,64 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 5 条：「这是真人还是机器人啊」(2099032390152970565) / 「才知道中国有很多风俗不为世人所知👀」(2098980291742515237) / 「家长理想中的学校，把我看抑郁了」(2099140929378726339) / 「Windows 上的 TVBox 风格播放器」(2099066807172641058) / 「Flyme 小窗移植到 ColorOS」(2098986779646845393) — 短语 + 视频或单一娱乐/折腾项目
 - Wen_Zw 6 条：RT @yinlrr ENGSENCE (2098919354209554723) / RT @typeui_sh Methodical (2098902181315559649) / RT @lidageai cursor.com/cn/learn (2099062016971543033) / RT @arihantCodes Spectrum charts (2098907724390269159，与 [tool-spectrum-ui](concepts/tool-spectrum-ui.md) 重复) / RT @denziidai ai-agent-book (2099062079001092431，与 [note-ai-agent-book](concepts/note-ai-agent-book.md) 重复) / RT @himanshubuildss ScrollTide (2099129286519390714)
+
+## 补建断链 Stub（2026-09-14）
+
+### Term 概念（新建）
+- [term-mcp](concepts/term-mcp.md) — Model Context Protocol，AI 应用的 USB-C
+- [term-computer-use](concepts/term-computer-use.md) — 让 AI 像人一样读屏 + 操作图形界面
+- [term-self-hosted](concepts/term-self-hosted.md) — 数据可控 / 长期低成本的可控部署
+- [term-rag](concepts/term-rag.md) — 检索增强生成，让 LLM 接入私有 / 最新知识
+- [term-context-engineering](concepts/term-context-engineering.md) — 围绕「上下文窗口怎么选 / 怎么排 / 怎么省」的工程实践
+- [term-comp-neuro](concepts/term-comp-neuro.md) — 用数学模型 + 计算机仿真研究神经系统
+- [term-multi-agent](concepts/term-multi-agent.md) — 多 LLM agent 通过角色分工协同解决复杂任务
+- [term-cloud-coding-agent](concepts/term-cloud-coding-agent.md) — 跑在云端沙箱里的 AI 编码 agent
+- [term-sandbox](concepts/term-sandbox.md) — agent / 不可信代码的标准隔离运行环境
+- [term-harness-engineering](concepts/term-harness-engineering.md) — 围绕「怎么把 LLM 包成稳定 / 可观测 / 可治理产品」的工程实践
+
+### Tool 概念（新建）
+- [tool-pi-coding-agent](concepts/tool-pi-coding-agent.md) — earendil-works 的终端原生编码 agent，agent 循环被做成可嵌入库（4 处断链来源）
+
+## 本批新增（2026-09-14）
+
+### AI / Agent 生态
+- [tool-ivyclaw](concepts/tool-ivyclaw.md) — 五 Agent 协作的研发 harness
+- [tool-agentscope](concepts/tool-agentscope.md) — 多租户多会话 Agent 运行环境
+- [tool-birdview](concepts/tool-birdview.md) — AI 编码工作流的架构可视化 Skill
+- [tool-understand-anything](concepts/tool-understand-anything.md) — 把代码库变成可探索知识图谱（8.3 万 ⭐）
+- [tool-gap-trap](concepts/tool-gap-trap.md) — AI 编程代码库的 Gates / Contracts / Proven red 护栏
+- [tool-cloudflare-security-audit-skill](concepts/tool-cloudflare-security-audit-skill.md) — Cloudflare 多阶段安全审计 Skill
+
+### 桌面 / 系统工具
+- [tool-sheets-terminal-themes](concepts/tool-sheets-terminal-themes.md) — Ghostty / Kitty / Alacritty 主题管理器
+- [tool-ghosttyle](concepts/tool-ghosttyle.md) — Ghostty 终端可视化配置工作台
+- [tool-tempura](concepts/tool-tempura.md) — Tauri 2 桌面专注计时器
+- [tool-netfluss](concepts/tool-netfluss.md) — macOS 菜单栏实时网速 + 网络管理
+- [tool-impasto-arch-hyprland](concepts/tool-impasto-arch-hyprland.md) — Arch + Hyprland + Quickshell 一体化桌面
+- [tool-omnistudio](concepts/tool-omnistudio.md) — 本地大模型一站式桌面工作台
+- [tool-design-studio-ai](concepts/tool-design-studio-ai.md) — 人 + Agent 同一份文档的设计台
+- [tool-scriptya](concepts/tool-scriptya.md) — 散落脚本菜单化 / 桌面化
+- [tool-paperotter](concepts/tool-paperotter.md) — 19 个本机离线 PDF / 图片工具
+- [tool-oryx-reader](concepts/tool-oryx-reader.md) — Rust 原生单二进制阅读器
+
+### Android / 移动
+- [tool-duolauncher](concepts/tool-duolauncher.md) — 折叠屏原生 Android 桌面
+- [tool-duofold-android](concepts/tool-duofold-android.md) — 普通 Android 模拟 iPhone Duo 翻折动效
+- [tool-yoink-markdown-notes](concepts/tool-yoink-markdown-notes.md) — Python 终端 Markdown 笔记 + 自我结算预测
+
+### 设计 / 前端资源
+- [tool-regen-icons](concepts/tool-regen-icons.md) — Shopify AI Agent 图标系统
+- [tool-conflux-icon-theme](concepts/tool-conflux-icon-theme.md) — Linux 桌面图标主题
+- [tool-create-ui](concepts/tool-create-ui.md) — AI Native Figma 设计系统 + React 组件库
+- [tool-feral-gradients](concepts/tool-feral-gradients.md) — 高质量 CSS 渐变资源站
+- [tool-spectrum-footers](concepts/tool-spectrum-footers.md) — shadcn + motion Footer 组件库
+- [tool-page-mascot](concepts/tool-page-mascot.md) — 交互式吉祥物 Skill
+
+### 笔记 / 文章 / 学习
+- [note-ai-infra-book](concepts/note-ai-infra-book.md) — bojie_li《深入理解 AI Infra》开源书
+- [note-ai-workflow-vs-harness-engineering](concepts/note-ai-workflow-vs-harness-engineering.md) — 澄清被滥用术语的 Medium 长文
+- [note-i-have-adhd-skill-magic](concepts/note-i-have-adhd-skill-magic.md) — Skill vs Prompt 关注度的反思
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 8 条短语 + 短视频：英语单词 / 哈勃望远镜 / 黑莓键盘 / 鱼目混珠 / 毒液 / 牛掰 / 洗碗机 / cool
+- Wen_Zw 10 条：apple.com/design（2 条单纯 URL）/ CRM dashboard 视频 / SEO 个人体验 / openui.com 单纯 URL / ARTEMIS 重复 / jakubkrehel 重复 / 个人网站 / vibeprompts 一锅端 / Harness 11 条清单无具体项目

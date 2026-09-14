@@ -36,5 +36,5 @@ timestamp: "2026-09-12T23:25:00Z"
 
 ## 相关概念
 
-- [Cloud coding agent](./term-cloud-coding-agent.md) — mobai-dev 是这一类在 iOS 域的扩展（term 暂未独立收录，留概念链接占位）
-- [Sandbox / 沙箱](./term-sandbox.md) — mobai-dev 的核心依赖（term 暂未独立收录，留概念链接占位）
+- [Cloud Coding Agent（云端编码代理）](./term-cloud-coding-agent.md) — mobai-dev 是这一类在 iOS 域的扩展
+- [Sandbox（沙箱）](./term-sandbox.md) — mobai-dev 的核心依赖

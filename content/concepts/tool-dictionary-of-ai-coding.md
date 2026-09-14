@@ -31,4 +31,4 @@ timestamp: "2026-09-12T23:23:00Z"
 ## 相关概念
 
 - [LLM Wiki 模式](./term-llm-wiki.md) — 同类「轻量、可被 agent 消费的术语资源」思路
-- [Context Engineering](./term-context-engineering.md) — 词典中大概率收录的核心概念
+- [Context Engineering（上下文工程）](./term-context-engineering.md) — 词典中大概率收录的核心概念

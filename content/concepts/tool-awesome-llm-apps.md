@@ -52,4 +52,4 @@ timestamp: "2026-09-12T22:49:00Z"
 ## 相关概念
 
 - [Agent Skills（代理技能包）](./term-agent-skills.md) — awesome-llm-apps 中的项目大量使用 Skills 思路
-- [RAG](./term-rag.md) — awesome-llm-apps 中近一半项目涉及 RAG（term 暂未独立收录，留概念链接占位）
+- [RAG（检索增强生成）](./term-rag.md) — awesome-llm-apps 中近一半项目涉及 RAG

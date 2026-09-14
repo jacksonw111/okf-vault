@@ -41,4 +41,4 @@ timestamp: "2026-09-13T02:42:00Z"
 ## 相关概念
 
 - [Connectome（连接组）](https://en.wikipedia.org/wiki/Connectome) — 神经元级连接图谱（项目未在 concepts 收录，留百科链接）
-- [Computational Neuroscience](./term-comp-neuro.md) — 同类研究方向（term 暂未独立收录，留概念链接占位）
+- [Computational Neuroscience（计算神经科学）](./term-comp-neuro.md) — 同类研究方向
