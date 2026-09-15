@@ -3117,3 +3117,49 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 8 条短语 + 短视频：英语单词 / 哈勃望远镜 / 黑莓键盘 / 鱼目混珠 / 毒液 / 牛掰 / 洗碗机 / cool
 - Wen_Zw 10 条：apple.com/design（2 条单纯 URL）/ CRM dashboard 视频 / SEO 个人体验 / openui.com 单纯 URL / ARTEMIS 重复 / jakubkrehel 重复 / 个人网站 / vibeprompts 一锅端 / Harness 11 条清单无具体项目
+
+## 本批新增（2026-09-15）
+
+### AI / Agent 生态
+- [tool-dsh-council](concepts/tool-dsh-council.md) — DeepSeek Harness 的多模型合议插件
+- [tool-maintainer-skills-lab](concepts/tool-maintainer-skills-lab.md) — 16 Skill + 6 Agent 的多平台维护者技能包
+- [tool-pstack](concepts/tool-pstack.md) — SpaceX 工程师的 AI 写代码护栏
+- [tool-skillfile](concepts/tool-skillfile.md) — 跨多机器 / 多 Agent 平台同步 skills 配置
+- [tool-addyosmani-skills](concepts/tool-addyosmani-skills.md) — Microsoft Build 六阶段方法（Define→Plan→Build→Verify→Review→Ship）
+
+### LLM / RAG / 知识库
+- [tool-weknora](concepts/tool-weknora.md) — 腾讯开源企业级 LLM 知识平台（RAG + ReAct Agent + Wiki）
+- [tool-deepseek-v41-flash-exl3-dgx-spark](concepts/tool-deepseek-v41-flash-exl3-dgx-spark.md) — 双 DGX Spark 的 DeepSeek V4.1 Flash 量化包
+
+### 自托管 / 系统工具
+- [tool-agentverse-os](concepts/tool-agentverse-os.md) — Ubuntu 一条命令装个人云操作系统
+- [tool-obsidian-arc](concepts/tool-obsidian-arc.md) — Go 单文件自托管多用户 AI 网关
+- [tool-vaultwarden](concepts/tool-vaultwarden.md) — Rust 重写的 Bitwarden 服务端
+- [tool-openobserve](concepts/tool-openobserve.md) — Rust 可观测平台（Parquet+S3 成本-140×）
+- [tool-octop](concepts/tool-octop.md) — 腾讯云开源多用户多智能体本地 AI 平台
+- [tool-deepseek-budget](concepts/tool-deepseek-budget.md) — macOS 菜单栏 DeepSeek API 价格指示器
+
+### 编程 / Skill 资源
+- [tool-shadcn-lint](concepts/tool-shadcn-lint.md) — Tailwind 设计系统的 Agent 优先 Linter
+- [tool-swiftui-agent-skill](concepts/tool-swiftui-agent-skill.md) — SwiftUI 视图开发的 Agent Skill v5
+- [tool-lottiefiles-motion-design-skill](concepts/tool-lottiefiles-motion-design-skill.md) — 动画导演思维的四层结构化 Skill
+- [tool-dunhuang-aura-skill](concepts/tool-dunhuang-aura-skill.md) — 敦煌矿物美学生成 Skill
+
+### 终端 / 系统小工具
+- [tool-portop](concepts/tool-portop.md) — 终端端口侦探
+- [tool-titania](concepts/tool-titania.md) — 全栈自研 ML 栈（transformer→编译器→ISA→模拟器）
+
+### 媒体 / 共享
+- [tool-piik](concepts/tool-piik.md) — 开源屏幕共享（浏览器零安装）
+- [tool-new-media-analyzer](concepts/tool-new-media-analyzer.md) — 抖音/公众号/小红书多平台内容复盘工具
+
+### 设计 / 前端资源
+- [tool-component-gallery](concepts/tool-component-gallery.md) — 经典 UI 组件术语图鉴
+
+### 笔记 / 文章
+- [note-pi-three-essays](concepts/note-pi-three-essays.md) — Pi 三篇经典长文（Session Portability / Prompt Caching / Compaction）
+- [note-type-safe-image-management](concepts/note-type-safe-image-management.md) — 300 行 next/image 平替
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 5 条：「不同意，不读书也不会知道纳斯达克」(2099807532122620088) / 「cool」(2099830432389091521) / 「历史没有如果」(2099777459021549808) / 「丈夫打给妻子 00:00:03」(2099763806406918338) — 均为短语 + 视频/图片，无项目/工具信息；page-mascot (2099765913557848135) 与 [tool-page-mascot](concepts/tool-page-mascot.md) 重复
+- Wen_Zw 7 条：RT @dhruvtwt_ obsidianui.dev (2099605147303477274，仅「UI 库很漂亮」+ 图片，无项目细节) / RT @micka_design CommandMenu (2099610031880909236，与 [tool-fluidfunctionalism](concepts/tool-fluidfunctionalism.md) 重复) / RT @HoudayfaDesign designengineer.tools (2099609059989372937，与 [tool-design-engineer-tools](concepts/tool-design-engineer-tools.md) 重复) / RT @vikingmute birthdaytraffic.com (2099868844248694867，仅「喜欢的网站」+ vibe coding 推荐) / RT @SubhanHQ Amicro (2099607682831532183，单一 micro interaction 站点 URL) / RT @TiagerBao gap-trap (2099659001596416103，与 [tool-gap-trap](concepts/tool-gap-trap.md) 重复)

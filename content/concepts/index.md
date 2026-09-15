@@ -3466,3 +3466,49 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw RT @arihantCodes Spectrum charts (2098907724390269159) — 与 [tool-spectrum-ui.md](./tool-spectrum-ui.md) 重复
 - Wen_Zw RT @denziidai ai-agent-book (2099062079001092431) — 与 [note-ai-agent-book.md](./note-ai-agent-book.md) 重复
 - Wen_Zw RT @himanshubuildss ScrollTide (2099129286519390714) — 单一 UI 组件库，无独立知识价值
+
+## 本批新增（2026-09-15）
+
+### AI / Agent 生态
+- [DSH Council](./tool-dsh-council.md) — `Tool` — DeepSeek Harness 的多模型合议插件：作答/评审/仲裁三阶段
+- [maintainer-skills-lab](./tool-maintainer-skills-lab.md) — `Tool` — 16 个 Skill + 6 个 Agent，覆盖文章润色/ML 调试/PR 评审/过期指令检测
+- [pstack](./tool-pstack.md) — `Tool` — SpaceX 工程师的 AI 写代码护栏：Feature Map + Blast Radius + 23 套工程剧本
+- [skillfile](./tool-skillfile.md) — `Tool` — 跨多机器 / 多 Agent 平台同步 skills 配置（dotfiles 思路）
+- [Addy Osmani Agent Skills](./tool-addyosmani-skills.md) — `Tool` — Microsoft Build 现场六阶段方法（Define→Plan→Build→Verify→Review→Ship）
+
+### LLM / RAG / 知识库
+- [WeKnora](./tool-weknora.md) — `Tool` — 腾讯开源企业级 LLM 知识平台：RAG + ReAct Agent + 自动 Wiki + 多租户 RBAC
+- [DeepSeek-V4.1-Flash-EXL3](./tool-deepseek-v41-flash-exl3-dgx-spark.md) — `Tool` — 双 DGX Spark 的 DeepSeek V4.1 Flash 量化包（2.9bpw / 196GiB / TP=2 / OpenAI 协议）
+
+### 自托管 / 系统工具
+- [AgentVerse-OS](./tool-agentverse-os.md) — `Tool` — Ubuntu 一条命令装个人云操作系统，浏览器桌面 + 944 个应用 + Tailscale 私网
+- [ObsidianArc](./tool-obsidian-arc.md) — `Tool` — Go 单文件自托管多用户 AI 网关，统一管理调用/权限/额度
+- [vaultwarden](./tool-vaultwarden.md) — `Tool` — Rust 重写的 Bitwarden 服务端，512MB 内存树莓派可跑
+- [OpenObserve](./tool-openobserve.md) — `Tool` — Rust 可观测平台：Parquet+S3 成本-140×，日志/指标/追踪/RUM/LLM 监控全家桶
+- [Octop](./tool-octop.md) — `Tool` — 腾讯云开源多用户多智能体本地 AI 平台，16 种 MBTI 人格 + 飞书/钉钉/企微/Discord 全渠道
+- [DeepSeekBudget](./tool-deepseek-budget.md) — `Tool` — macOS 菜单栏 DeepSeek API 高峰/低谷实时价格指示器
+
+### 编程 / Skill 资源
+- [shadcn-ui/lint](./tool-shadcn-lint.md) — `Tool` — Tailwind 设计系统的 Agent 优先 Linter，违规时直接给可替换类名
+- [SwiftUI Agent Skill](./tool-swiftui-agent-skill.md) — `Tool` — SwiftUI 视图开发的 Agent Skill v5，适配 27 SDK + Xcode 27
+- [LottieFiles Motion Design Skill](./tool-lottiefiles-motion-design-skill.md) — `Tool` — 把动画导演思维（情感意图→视觉叙事→动效工艺）编码为四层结构化 Skill
+- [dunhuang-aura-skill](./tool-dunhuang-aura-skill.md) — `Tool` — 敦煌矿物美学生成 Skill，按色板/材质/光线/比例/文字产出商业主视觉
+
+### 终端 / 系统小工具
+- [portop](./tool-portop.md) — `Tool` — 终端端口侦探：端口→进程→systemd/Docker 全链展示 + 一键动作
+- [Titania](./tool-titania.md) — `Tool` — 全栈自研 ML 栈（transformer→编译器→ISA→模拟器→规划 GPU），单人可读
+
+### 桌面 / 媒体 / 共享
+- [Piik](./tool-piik.md) — `Tool` — 开源屏幕共享，浏览器零安装，支持整屏/窗口/标签页三档捕获
+- [new-media-analyzer](./tool-new-media-analyzer.md) — `Tool` — 抖音/公众号/小红书多平台抓取 + 转写 + 图表 + AI 报告复盘
+
+### 设计 / 前端资源
+- [component.gallery](./tool-component-gallery.md) — `Tool` — 经典 UI 组件术语图鉴，让 AI 协作 UIUX 时命名精准
+
+### 笔记 / 文章
+- [Pi 三篇经典长文](./note-pi-three-essays.md) — `Note` — Session Portability / Prompt Caching / Compaction 三文合读理解 Pi 设计哲学
+- [Type-Safe Image Management](./note-type-safe-image-management.md) — `Note` — 300 行 next/image 平替：性能 + 类型安全 + AI 自动规范
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 5 条：「不同意，不读书也不会知道纳斯达克」(2099807532122620088) / 「cool」(2099830432389091521) / 「历史没有如果」(2099777459021549808) / 「丈夫打给妻子 00:00:03」(2099763806406918338) — 均为短语 + 视频/图片，无项目/工具信息
+- Wen_Zw 7 条：RT @dhruvtwt_ obsidianui.dev (2099605147303477274，仅「UI 库很漂亮」评论 + 图片，无项目细节) / RT @micka_design CommandMenu (2099610031880909236，与 [tool-fluidfunctionalism.md](./tool-fluidfunctionalism.md) 重复) / RT @HoudayfaDesign designengineer.tools (2099609059989372937，与 [tool-design-engineer-tools.md](./tool-design-engineer-tools.md) 重复) / RT @vikingmute birthdaytraffic.com (2099868844248694867，仅「喜欢的网站」+ vibe coding 推荐，无具体概念) / RT @SubhanHQ Amicro (2099607682831532183，仅单一 micro interaction 站点 URL) / RT @TiagerBao gap-trap (2099659001596416103，与 [tool-gap-trap.md](./tool-gap-trap.md) 重复) / Wen_Zw RT @chunxiangai component.gallery 链接部分信息已并入 [tool-component-gallery.md](./tool-component-gallery.md)
