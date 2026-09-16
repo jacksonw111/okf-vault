@@ -3512,3 +3512,51 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 5 条：「不同意，不读书也不会知道纳斯达克」(2099807532122620088) / 「cool」(2099830432389091521) / 「历史没有如果」(2099777459021549808) / 「丈夫打给妻子 00:00:03」(2099763806406918338) — 均为短语 + 视频/图片，无项目/工具信息
 - Wen_Zw 7 条：RT @dhruvtwt_ obsidianui.dev (2099605147303477274，仅「UI 库很漂亮」评论 + 图片，无项目细节) / RT @micka_design CommandMenu (2099610031880909236，与 [tool-fluidfunctionalism.md](./tool-fluidfunctionalism.md) 重复) / RT @HoudayfaDesign designengineer.tools (2099609059989372937，与 [tool-design-engineer-tools.md](./tool-design-engineer-tools.md) 重复) / RT @vikingmute birthdaytraffic.com (2099868844248694867，仅「喜欢的网站」+ vibe coding 推荐，无具体概念) / RT @SubhanHQ Amicro (2099607682831532183，仅单一 micro interaction 站点 URL) / RT @TiagerBao gap-trap (2099659001596416103，与 [tool-gap-trap.md](./tool-gap-trap.md) 重复) / Wen_Zw RT @chunxiangai component.gallery 链接部分信息已并入 [tool-component-gallery.md](./tool-component-gallery.md)
+
+## 本批新增（2026-09-16）
+
+### macOS / 桌面工具
+- [OpenClip](./tool-openclip.md) — `Tool` — 开源 macOS 文本效率工具：选区旁浮出动作栏 + 模糊搜索动作库
+- [claude-siri-ai](./tool-claude-siri-ai.md) — `Tool` — macOS 27 上给 Spotlight / Siri 加 Claude 问答入口，提示词走 Swift 桥丢给本地 Claude Code CLI
+- [Panel（研究工作台）](./tool-panel-research-workspace.md) — `Tool` — 把聊天 / 文件 / PDF / Markdown / Jupyter 塞进同一套可拼 Pane，Agent 旁路读写 + 工具调用前确认
+- [amanu](./tool-amanu-mac-meeting.md) — `Tool` — macOS 开源会议自动记录器：盯麦克风占用自动开 / 停录，无虚拟声卡 / 内核扩展
+- [Status Trio](./tool-status-trio.md) — `Tool` — 原生 macOS 菜单栏应用，把 Wi-Fi / 电量 / 音量合并成一个组合图标（Duo 灵感）
+- [ZapFast](./tool-zapfast.md) — `Tool` — Rust + egui 桌面 WhatsApp，跨 Linux / macOS / Windows，本地 SQLite 存档
+
+### Linux / Wayland
+- [doubao-say](./tool-doubao-say.md) — `Tool` — Linux / Wayland 全局语音输入（豆包云识别），GTK4 + Python，Omarchy 插件版
+
+### iOS / 移动
+- [WrapPin](./tool-wrappin-ios-location.md) — `Tool` — Roam Control 的非官方社区中文分支，iOS 27+ 本机虚拟定位，走官方位置模拟通道
+
+### Android / 自托管
+- [Droidspaces](./tool-droidspaces.md) — `Tool` — 安卓机变 Linux 微型服务器：内核 Namespace 隔离跑 systemd（PID 1），400KB 单文件二进制
+- [ant-1](./tool-ant-1-simulation.md) — `Tool` — 仿真蚂蚁身体 + 32 单元合成神经控制器闭环实验台，可观察 / 可干预 / 按种子复现
+
+### 浏览器 / 隐私优先工具
+- [bg0](./tool-bg0.md) — `Tool` — 开源浏览器本地背景移除（WebGPU + WASM），原图不上传，无账号 / 计费
+
+### AI / Agent 生态
+- [Ars Umbris](./tool-arsumbris.md) — `Tool` — 能自己改的 IDE：把 Markdown / YAML 知识库变成带类型校验的跨仓库图谱，Agent 拿诊断就能修
+- [Claude-Red](./tool-claude-red-pentest.md) — `Tool` — 78 个安全测试 Skill（SKILL.md），按 23 类自动加载到 Claude 对话：Web / 无线 / 云 / 移动 / 逆向
+- [write-notes-like-deepseek](./tool-write-notes-like-deepseek.md) — `Tool` — DeepSeek Harness 决策笔记方法封装成 Agent Skill：写代码前先立规矩，旧决定可追溯 / 可校验
+
+### 内容 / 反 AI 腔
+- [SlopMonster](./tool-slopmonster.md) — `Tool` — 反 AI 腔文案改写器，5 分制门禁，可换模型家族清洗异味
+
+### 知识库 / Obsidian
+- [kaogongzhentizhengliu](./tool-kaogong-obsidian-vault.md) — `Tool` — 2016–2026 行测真题按考点重组成 Obsidian 双向链接知识库（资料分析 + 判断推理）
+
+### 设计 / 前端
+- [Kobra](./tool-kobra-motion.md) — `Tool` — 80+ 动效组件带音效，shadcn/ui 1:1 替代品，基于 Tailwind + Base UI + shadcn/lint
+
+### 动效 / 视频 Skill
+- [axichuhai-motion-video-skills](./tool-axichuhai-motion-video.md) — `Tool` — 16 个动效视频 Skill 集合（品牌宣传片 / K 线 / 黑胶唱片 / 鱼群 / Remotion 3D 滚动长廊），一行装进 Claude Code / Codex
+
+### 笔记（Notes）
+- [FDE 入门课（Kevin Bai / Anthropic）](./note-fde-101-dotey.md) — `Note` — FDE 101 公开分享：Palantir / Rippling 视角 + 2026 年 AI 化后 FDE 是否仍有价值
+- [Hello-Agents（Datawhale）](./note-hello-agents-datawhale.md) — `Note` — 全覆盖 Agent 教学项目（基础 / 构建 / 高级 / 案例 15 章），手搓 ReAct 到 RL 训 Agent
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 4 条短语 + 短视频：「好玩，谁还记得绿皮火车」(2100049369970229395) / 「这个牛，首发第六代住宅」(2100074733568188542) / 「提问：这到底是不是 AI ?」(2100143256923472143) / 「世界上根本没有这种猫」(2100187879142219889) — 均为短语 + 视频，无项目 / 工具信息
+- Wen_Zw 4 条：RT @malikyoloo Figma + Claude Fable 5.1 vibe-code (2100168065199780029，单页 showcase 无独立概念) / RT @Heylaosan inspo-design 选中长花 (2100178184943845641，单一视觉交互已收录 inspo-design) / RT @ricouii Part 2. 设计收藏夹 100 网站 (2100178643553226805，与既有 `note-component-galleries` / `note-design-galleries` 等大量重复) / RT @neropursue COSS UI (2100244832094757268，单一 React 组件库，仅一句话描述无项目细节)

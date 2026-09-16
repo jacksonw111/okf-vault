@@ -3163,3 +3163,51 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 5 条：「不同意，不读书也不会知道纳斯达克」(2099807532122620088) / 「cool」(2099830432389091521) / 「历史没有如果」(2099777459021549808) / 「丈夫打给妻子 00:00:03」(2099763806406918338) — 均为短语 + 视频/图片，无项目/工具信息；page-mascot (2099765913557848135) 与 [tool-page-mascot](concepts/tool-page-mascot.md) 重复
 - Wen_Zw 7 条：RT @dhruvtwt_ obsidianui.dev (2099605147303477274，仅「UI 库很漂亮」+ 图片，无项目细节) / RT @micka_design CommandMenu (2099610031880909236，与 [tool-fluidfunctionalism](concepts/tool-fluidfunctionalism.md) 重复) / RT @HoudayfaDesign designengineer.tools (2099609059989372937，与 [tool-design-engineer-tools](concepts/tool-design-engineer-tools.md) 重复) / RT @vikingmute birthdaytraffic.com (2099868844248694867，仅「喜欢的网站」+ vibe coding 推荐) / RT @SubhanHQ Amicro (2099607682831532183，单一 micro interaction 站点 URL) / RT @TiagerBao gap-trap (2099659001596416103，与 [tool-gap-trap](concepts/tool-gap-trap.md) 重复)
+
+## 本批新增（2026-09-16）
+
+### macOS / 桌面工具
+- [tool-openclip](concepts/tool-openclip.md) — 开源 macOS 文本效率工具：选区旁浮出动作栏 + 模糊搜索动作库
+- [tool-claude-siri-ai](concepts/tool-claude-siri-ai.md) — macOS 27 上给 Spotlight / Siri 加 Claude 问答入口
+- [tool-panel-research-workspace](concepts/tool-panel-research-workspace.md) — 把聊天 / 文件 / PDF / Markdown / Jupyter 塞进同一套可拼 Pane，Agent 旁路读写
+- [tool-amanu-mac-meeting](concepts/tool-amanu-mac-meeting.md) — macOS 开源会议自动记录器：盯麦克风占用自动开 / 停录
+- [tool-status-trio](concepts/tool-status-trio.md) — 原生 macOS 菜单栏应用，Wi-Fi / 电量 / 音量合并组合图标（Duo 灵感）
+- [tool-zapfast](concepts/tool-zapfast.md) — Rust + egui 桌面 WhatsApp，跨 Linux / macOS / Windows
+
+### Linux / Wayland
+- [tool-doubao-say](concepts/tool-doubao-say.md) — Linux / Wayland 全局语音输入（豆包云识别），GTK4 + Python
+
+### iOS / 移动
+- [tool-wrappin-ios-location](concepts/tool-wrappin-ios-location.md) — Roam Control 非官方社区中文分支，iOS 27+ 本机虚拟定位
+
+### Android / 自托管 / 仿真
+- [tool-droidspaces](concepts/tool-droidspaces.md) — 安卓机变 Linux 微型服务器：内核 Namespace 隔离跑 systemd（PID 1）
+- [tool-ant-1-simulation](concepts/tool-ant-1-simulation.md) — 仿真蚂蚁身体 + 32 单元合成神经控制器闭环实验台
+
+### 浏览器 / 隐私优先
+- [tool-bg0](concepts/tool-bg0.md) — 开源浏览器本地背景移除（WebGPU + WASM），原图不上传
+
+### AI / Agent 生态
+- [tool-arsumbris](concepts/tool-arsumbris.md) — 能自己改的 IDE：Markdown / YAML 知识库变带类型校验的跨仓库图谱
+- [tool-claude-red-pentest](concepts/tool-claude-red-pentest.md) — 78 个安全测试 Skill，按 23 类自动加载到 Claude 对话
+- [tool-write-notes-like-deepseek](concepts/tool-write-notes-like-deepseek.md) — DeepSeek Harness 决策笔记方法封装成 Agent Skill
+
+### 内容 / 反 AI 腔
+- [tool-slopmonster](concepts/tool-slopmonster.md) — 反 AI 腔文案改写器，5 分制门禁 + 换模型家族清洗
+
+### 知识库 / Obsidian
+- [tool-kaogong-obsidian-vault](concepts/tool-kaogong-obsidian-vault.md) — 2016–2026 行测真题按考点重组 Obsidian 双向链接知识库
+
+### 设计 / 前端
+- [tool-kobra-motion](concepts/tool-kobra-motion.md) — 80+ 动效组件带音效，shadcn/ui 1:1 替代品
+
+### 动效 / 视频 Skill
+- [tool-axichuhai-motion-video](concepts/tool-axichuhai-motion-video.md) — 16 个动效视频 Skill 集合，一行装进 Claude Code / Codex
+
+### 笔记 / 文章
+- [note-fde-101-dotey](concepts/note-fde-101-dotey.md) — FDE 入门课（Kevin Bai / Anthropic）：2026 年 AI 化后 FDE 的价值
+- [note-hello-agents-datawhale](concepts/note-hello-agents-datawhale.md) — Datawhale 全覆盖 Agent 教学项目（基础 / 构建 / 高级 / 案例 15 章）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 4 条短语 + 短视频：绿皮火车 / 第六代住宅 / 这到底是不是 AI / 世界上根本没有这种猫 — 无项目 / 工具信息
+- Wen_Zw 4 条：malikyoloo Figma vibe-code (单页 showcase) / Heylaosan inspo-design 选中长花 (单一视觉交互) / ricouii 设计收藏夹 100 网站 (与既有 collection 笔记重复) / neropursue COSS UI (单一组件库无项目细节)
