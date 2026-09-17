@@ -3560,3 +3560,40 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 4 条短语 + 短视频：「好玩，谁还记得绿皮火车」(2100049369970229395) / 「这个牛，首发第六代住宅」(2100074733568188542) / 「提问：这到底是不是 AI ?」(2100143256923472143) / 「世界上根本没有这种猫」(2100187879142219889) — 均为短语 + 视频，无项目 / 工具信息
 - Wen_Zw 4 条：RT @malikyoloo Figma + Claude Fable 5.1 vibe-code (2100168065199780029，单页 showcase 无独立概念) / RT @Heylaosan inspo-design 选中长花 (2100178184943845641，单一视觉交互已收录 inspo-design) / RT @ricouii Part 2. 设计收藏夹 100 网站 (2100178643553226805，与既有 `note-component-galleries` / `note-design-galleries` 等大量重复) / RT @neropursue COSS UI (2100244832094757268，单一 React 组件库，仅一句话描述无项目细节)
+
+### 本批新增（2026-09-17）
+
+**AI / Agent 生态**
+- [Agent Launcher](./tool-agent-launcher.md) — `Tool` — Electron + TS 本地桌面工作台，统一管理 6 款 Agent CLI（Claude Code / Codex CLI / OpenCode / Pi / Gemini CLI / Hermes Agent）
+- [Claude Unlimited](./tool-claude-unlimited.md) — `Tool` — 本地 Python 守护进程（127.0.0.1:4317），多账号池自动 failover，Claude Code 不掉线
+- [JEV Ultrafast](./tool-jev-ultrafast.md) — `Tool` — browser-use 极速浏览器自动化，DOM diff / 缓存 / 并行降低端到端延迟
+
+**macOS / Linux 桌面工具**
+- [Softfold](./tool-softfold.md) — `Tool` — 让屏幕内容跟着 MacBook 转轴角度实时折叠 / 模糊 / 变暗，给合盖加物理感过渡动画
+- [Jot（Gemini 语音输入）](./tool-jot-gemini-transcribe.md) — `Tool` — google-gemini 官方 macOS 工具，按 fn 说话松开即出标点齐整的文字到光标处
+- [Pie（Pi Coding Agent 桌面客户端）](./tool-pie-pi-macos.md) — `Tool` — SwiftUI 原生 macOS 客户端，每个会话跑一个 `pi --mode rpc` 进程
+- [ServerManagementPanel](./tool-server-management-panel.md) — `Tool` — Docker Linux 小主机一体化面板：状态 / 容器启停 / 备份 / 端口转发
+
+**自托管 / 系统运维**
+- [Dotkeep](./tool-dotkeep.md) — `Tool` — 纯 bash dotfiles 同步工具，工具与备份仓库分离，按 home/ root/ 两棵目录树存档
+- [Evangelion GRUB Theme](./tool-evangelion-grub-theme.md) — `Tool` — 8 套 EVA 风格 GRUB 启动菜单主题 + 交互式安装脚本
+- [StreamDeck Proxmox Agent](./tool-streamdeck-proxmox-agent.md) — `Tool` — 闲置 Stream Deck 变 Proxmox 常亮硬件状态面板：CPU / 内存 / 容器 / 网络 / 服务健康
+
+**开发效率 / Code Review**
+- [Tulip](./tool-tulip-pr-review.md) — `Tool` — VirtusLab TypeScript CLI，借本机 claude CLI 生成 PR 单页 HTML 评审报告（Mermaid + diff 高亮 + 浮动目录）
+- [GitHub Stars History](./tool-github-stars-history.md) — `Tool` — 自动拉取仓库 Star 时间戳，算增长曲线并导出文件
+- [WorkBuddy Switch](./tool-workbuddy-switch.md) — `Tool` — 多账号切换 + 积分到期 + 自动签到 + Token 保活 + 用量统计
+
+**学习资源 / 教程**
+- [ModelScope Cookbook（魔搭紫皮书）](./note-modelscope-cookbook.md) — `Note` — 魔搭开源模型应用实战教程（8 部分 34 章），覆盖推理 / 微调 / 评测 / RAG / Agent / AIGC
+- [Awesome Cloudflare Selfhosted](./note-awesome-cloudflare-selfhosted.md) — `Note` — 15 个分类的「能在自己 Cloudflare 账户里跑」的 SaaS 替代清单
+
+**Playbook**
+- [3D Vibe Coding 手册](./playbook-3d-vibe-coding-handbook.md) — `Playbook` — 面向非程序员的 3D 资产生产流程：AI 出图 → 模型处理 → 场景接入
+
+**设计 / 前端资源**
+- [ObsidianUI](./note-obsidianui.md) — `Note` — 开源动效组件库资源站（按钮 / 菜单 / 画廊 / 滚动动效 / 光标 / 文字揭示）
+- [Duolingo 风格 shadcn 组件库](./tool-duolingo-shadcn-ui.md) — `Tool` — 多领国游戏卡通风的 shadcn 组件库，copy-paste 即用
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 7 条：「Steam 手柄没电了会自己找充电器？这对吗」(2100590258756956599，纯反应 + 短视频) / 「数学家的每天是不是好像吃菌子中毒了一样」(2100432431329558543，纯反应) / 「感到害怕」(2100411558694359248，纯情绪) / 「卧槽，绷不住了」(2100598129171296270，纯反应) / 「哈哈哈，好可爱」(2100366737913139616，纯反应) / 「北京大学戴锦华：AI 导致的不是你失业……」(2100574840898146623，一句话摘录无信息量) / 「为什么国内不让学生用上最先进的 Codex？」（360 悖论段子）(2100452652698259885，段子无知识价值)

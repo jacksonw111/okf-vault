@@ -3211,3 +3211,40 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 4 条短语 + 短视频：绿皮火车 / 第六代住宅 / 这到底是不是 AI / 世界上根本没有这种猫 — 无项目 / 工具信息
 - Wen_Zw 4 条：malikyoloo Figma vibe-code (单页 showcase) / Heylaosan inspo-design 选中长花 (单一视觉交互) / ricouii 设计收藏夹 100 网站 (与既有 collection 笔记重复) / neropursue COSS UI (单一组件库无项目细节)
+
+### 本批新增（2026-09-17）
+
+**AI / Agent 生态**
+- [tool-agent-launcher](concepts/tool-agent-launcher.md) — Electron + TS 本地桌面工作台，统一管理 6 款 Agent CLI
+- [tool-claude-unlimited](concepts/tool-claude-unlimited.md) — 本地 Python 守护进程，多账号池自动 failover，Claude Code 不掉线
+- [tool-jev-ultrafast](concepts/tool-jev-ultrafast.md) — browser-use 极速浏览器自动化
+
+**macOS / Linux 桌面工具**
+- [tool-softfold](concepts/tool-softfold.md) — MacBook 转轴传感器驱动屏幕内容实时折叠 / 模糊 / 变暗
+- [tool-jot-gemini-transcribe](concepts/tool-jot-gemini-transcribe.md) — google-gemini 官方 macOS 工具，按 fn 说话松开即出文字
+- [tool-pie-pi-macos](concepts/tool-pie-pi-macos.md) — SwiftUI 原生 macOS 客户端给 Pi Coding Agent 当桌面外壳
+- [tool-server-management-panel](concepts/tool-server-management-panel.md) — Docker Linux 小主机一体化面板
+
+**自托管 / 系统运维**
+- [tool-dotkeep](concepts/tool-dotkeep.md) — 纯 bash dotfiles 同步工具，home/ root/ 双树存档
+- [tool-evangelion-grub-theme](concepts/tool-evangelion-grub-theme.md) — 8 套 EVA 风格 GRUB 主题 + 交互式安装脚本
+- [tool-streamdeck-proxmox-agent](concepts/tool-streamdeck-proxmox-agent.md) — 闲置 Stream Deck 变 Proxmox 常亮硬件状态面板
+
+**开发效率 / Code Review**
+- [tool-tulip-pr-review](concepts/tool-tulip-pr-review.md) — VirtusLab TS CLI，借本机 claude CLI 生成 PR 单页 HTML 评审
+- [tool-github-stars-history](concepts/tool-github-stars-history.md) — 自动拉 Star 时间戳 + 增长曲线 + 数据导出
+- [tool-workbuddy-switch](concepts/tool-workbuddy-switch.md) — 多账号切换 + 积分到期 + 自动签到 + Token 保活
+
+**学习资源 / 教程**
+- [note-modelscope-cookbook](concepts/note-modelscope-cookbook.md) — 魔搭紫皮书，8 部分 34 章覆盖推理 / 微调 / 评测 / RAG / Agent / AIGC
+- [note-awesome-cloudflare-selfhosted](concepts/note-awesome-cloudflare-selfhosted.md) — 能在自己 Cloudflare 账户跑的 SaaS 替代清单
+
+**Playbook**
+- [playbook-3d-vibe-coding-handbook](concepts/playbook-3d-vibe-coding-handbook.md) — 非程序员 3D 资产生产流程：AI 出图 → 模型处理 → 场景接入
+
+**设计 / 前端资源**
+- [note-obsidianui](concepts/note-obsidianui.md) — 开源动效组件库资源站
+- [tool-duolingo-shadcn-ui](concepts/tool-duolingo-shadcn-ui.md) — 多领国游戏卡通风的 shadcn 组件库
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 7 条：Steam 手柄没电了会自己找充电器？(纯反应) / 数学家吃菌子中毒(纯反应) / 感到害怕(纯情绪) / 卧槽绷不住了(纯反应) / 哈哈哈好可爱(纯反应) / 戴锦华 AI 失业观(单句摘录) / 360 悖论 / Codex(段子)
