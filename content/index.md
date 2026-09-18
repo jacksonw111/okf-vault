@@ -3248,3 +3248,41 @@ timestamp: "2026-08-27T15:46:00Z"
 
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 7 条：Steam 手柄没电了会自己找充电器？(纯反应) / 数学家吃菌子中毒(纯反应) / 感到害怕(纯情绪) / 卧槽绷不住了(纯反应) / 哈哈哈好可爱(纯反应) / 戴锦华 AI 失业观(单句摘录) / 360 悖论 / Codex(段子)
+
+### 本批新增（2026-09-18）
+
+**Linux / 服务器 / 面板**
+- [tool-azerioid-stack-manager](concepts/tool-azerioid-stack-manager.md) — 单台 Linux 服务器一体化 Web 全栈面板（Caddy + PHP 8.4 FPM + Laravel 13）
+- [tool-cfnext](concepts/tool-cfnext.md) — Cloudflare Workers 单文件 VLESS/Trojan/XHTTP 订阅面板
+
+**AI / Agent 生态**
+- [tool-monid](concepts/tool-monid.md) — 统一 base URL + key 接入 2000+ 工具 / 72+ 提供商
+- [tool-mac-computer-use](concepts/tool-mac-computer-use.md) — Mac 桌面给大模型当操作员
+- [tool-codexboard](concepts/tool-codexboard.md) — Mac 本机 Codex 任务看板 + 飞书 / 移动端入口
+- [tool-evoontology](concepts/tool-evoontology.md) — 数据 Agent 业务词典，AI 越用越懂业务
+- [tool-socialcoach](concepts/tool-socialcoach.md) — AI 顶嘴压力沟通训练，逐句复盘
+
+**Mac / 桌面 / 跨设备**
+- [tool-aibro](concepts/tool-aibro.md) — Mac 本地工作区（桌面 + 移动 + 同步 + Diff + BM25）
+- [tool-lniri](concepts/tool-lniri.md) — Niri 液态玻璃窗口效果（Rust + GLSL）
+- [tool-frostbyte](concepts/tool-frostbyte.md) — HF + BT + IPFS 模型下载统一管理器
+
+**Android / 移动**
+- [tool-yuki-shizuku-apps](concepts/tool-yuki-shizuku-apps.md) — 自动策展真正使用 Shizuku 的开源 Android 应用
+- [tool-obsidian-mobile-companion](concepts/tool-obsidian-mobile-companion.md) — Obsidian + GitHub Vault + Android 离线编辑
+
+**自托管 / 影视流水线**
+- [tool-printfilm](concepts/tool-printfilm.md) — 剧本 → 分镜 → 生图 → 生视频 → 成片 一体化平台
+
+**设计 / 前端组件库**
+- [tool-ui-xiod](concepts/tool-ui-xiod.md) — xiod 出品的开源 UI 组件库 + 高质感 Landing / Docs
+- [tool-cube-motion](concepts/tool-cube-motion.md) — 零依赖 / 四种动效 / 时机已选 / 跨框架
+- [tool-pen-dev](concepts/tool-pen-dev.md) — 设计 + AI 协作 canvas，导入 Figma/HTML 导出代码
+
+**Skill 体系更新**
+- [tool-jakubkrehel-skills](concepts/tool-jakubkrehel-skills.md) — 追加「界面 6 块拆分 + 关键数值规则 + break / reverse-engineer UI 两个特别 Skill」
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 8 条：陆炳(历史短视频无工具) / AI 又爱又恨(纯情绪) / 农村90后数据采集(纯情绪吐槽) / 男人的快乐(情绪短视频) / 三只脚(情绪反应) / 苹果股票白嫖(短视频) / 网上没赢(情绪) / jev-ultrafast(同日重复转载，已收录)
+- Wen_Zw 4 条：ui.xiod 之外的 jolyne_AI jakubkrehel 已合并到既有概念；cube-motion / pen.dev / evoontology 已建独立 Tool；其余不在此批
+

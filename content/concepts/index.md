@@ -3597,3 +3597,40 @@ timestamp: "2026-08-27T15:46:00Z"
 
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 7 条：「Steam 手柄没电了会自己找充电器？这对吗」(2100590258756956599，纯反应 + 短视频) / 「数学家的每天是不是好像吃菌子中毒了一样」(2100432431329558543，纯反应) / 「感到害怕」(2100411558694359248，纯情绪) / 「卧槽，绷不住了」(2100598129171296270，纯反应) / 「哈哈哈，好可爱」(2100366737913139616，纯反应) / 「北京大学戴锦华：AI 导致的不是你失业……」(2100574840898146623，一句话摘录无信息量) / 「为什么国内不让学生用上最先进的 Codex？」（360 悖论段子）(2100452652698259885，段子无知识价值)
+
+### 本批新增（2026-09-18）
+
+**Linux / 服务器 / 面板**
+- [AZERIOID Stack Manager](./tool-azerioid-stack-manager.md) — `Tool` — 单台 Linux 服务器一体化 Web 全栈面板：Caddy + PHP 8.4 FPM + Laravel 13 / Livewire 4 / SQLite
+- [FNext（CFNext）](./tool-cfnext.md) — `Tool` — Cloudflare Workers 单文件 VLESS / Trojan / XHTTP 订阅面板，/UUID 进面板 /sub 出订阅
+
+**AI / Agent 生态**
+- [Monid](./tool-monid.md) — `Tool` — 统一 base URL + key 接入 2000+ 工具 / 72+ 提供商，按调用计费、按需选端点
+- [mac-computer-use](./tool-mac-computer-use.md) — `Tool` — 让大模型自己盯 Mac 屏幕：列窗口 / 读控件 / 输入 / 点击 / 截屏对账
+- [CodexBoard](./tool-codexboard.md) — `Tool` — Mac 本机 Codex 任务看板，飞书 / Web / 手机 Remote 多入口
+- [EvoOntology](./tool-evoontology.md) — `Tool` — 数据 Agent 业务词典，AI 用得越多词典越准
+- [SocialCoach](./tool-socialcoach.md) — `Tool` — AI 顶嘴压力沟通训练，逐句复盘区分「不知道」与「使不出来」
+
+**Mac / 桌面 / 跨设备**
+- [AIBro](./tool-aibro.md) — `Tool` — Mac 本地工作区（桌面 + 移动 + 同步 + Diff 审阅 + 本地 BM25）
+- [Lniri](./tool-lniri.md) — `Tool` — Niri 滚动平铺 Wayland 窗口的液态玻璃效果（Rust + GLSL，liquid / kwin-glass 双模式）
+- [FrostByte](./tool-frostbyte.md) — `Tool` — Hugging Face + BT + IPFS + 多机 模型下载统一管理器
+
+**Android / 移动**
+- [Yuki（Shizuku 应用精选）](./tool-yuki-shizuku-apps.md) — `Tool` — 自动从 GitHub 抓仓库按证据强弱打分，筛出真正用 Shizuku 的开源安卓应用
+- [Obsidian Mobile Companion](./tool-obsidian-mobile-companion.md) — `Tool` — Obsidian Vault 落进 GitHub 仓库，Android 离线读 + 安全编辑 + PC 自动同步
+
+**自托管 / 影视流水线**
+- [PrintFilm](./tool-printfilm.md) — `Tool` — 剧本 → 分镜 → 生图 → 生视频 → 成片 一体化自托管平台
+
+**设计 / 前端组件库**
+- [ui.xiod](./tool-ui-xiod.md) — `Tool` — xiod 出品的开源 UI 组件库 + 高质感 Landing / Docs
+- [Cube Motion](./tool-cube-motion.md) — `Tool` — 零依赖 / 四种动效 / 时机已选 / React / Vue / Solid / Svelte / 纯 JS
+- [Pen.dev](./tool-pen-dev.md) — `Tool` — 设计 + AI 协作 canvas，导入 Figma / 网站 / HTML 导出代码
+
+**Skill 体系更新**
+- [jakubkrehel Skills](./tool-jakubkrehel-skills.md) — `Tool` — 追加「界面 6 块拆分 + 关键数值规则（0.96 缩放 / 4px 模糊 / 嵌套圆角公式）+ break / reverse-engineer UI 两个特别 Skill」
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 8 条：「大明最强锦衣卫指挥使 陆炳」(2100965409726091472，历史短视频无工具价值) / 「每当看到这种视频，对 AI 是又爱又恨」(2100915047480635705，纯情绪) / 「农村90后采集数据 卖给 AI 或机器人公司」(2100856105471775071，纯情绪吐槽) / 「对，男人的快乐就是这样简单」(2100807596244611343，情绪短视频) / 「牛批克拉斯，要不是看到三只脚，我还以为是真人」(2100762313485857078，情绪反应) / 「每年 1 万刀的苹果股票 3 月份买入 8 月份卖出 能永久白嫖 iPhone 吗」(2100899813546172805，短视频) / 「网上没赢过，现实没输过」(2100940462966317324，纯情绪) / 「Browser Use 与 TypeSafe 合作的浏览器 agent」(2100771539771908429，与已收录 `tool-jev-ultrafast` 重复)
+- Wen_Zw 1 条：RT @Jolyne_AI 关于 jakubkrehel Skills 的更详细描述已合并到既有概念 `tool-jakubkrehel-skills.md`

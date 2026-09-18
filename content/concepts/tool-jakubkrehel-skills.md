@@ -3,8 +3,8 @@ type: Tool
 title: "jakubkrehel Skills（含 /explain-interface）"
 description: "jakubkrehel 维护的 Agent Skills 仓库，首发 `/explain-interface`：用 DevTools 风格的手段拆解任意网页交互与渐变等视觉技术如何被实现，Agent 跑一遍给出拆解。"
 resource: "https://github.com/jakubkrehel/skills"
-tags: [agent, skills, devtools, web, explain, design]
-timestamp: 2026-08-21T03:56:03Z
+tags: [agent, skills, devtools, web, explain, design, interface, design-engineering]
+timestamp: 2026-09-18T15:30:00Z
 ---
 
 # jakubkrehel Skills（含 /explain-interface）
@@ -27,6 +27,39 @@ jakubkrehel 在 GitHub 开源的个人 Agent Skills 仓库，按 Claude Code / C
 
 ## 一句话总结
 **「别人网站是怎么搭的」用一条 `/explain-interface` 让 AI 自己开 DevTools 拆给你看。**
+
+## Jakub 的「界面 6 块拆分」设计工程框架
+
+Jakub Krehel 把界面拆成 **6 块**，每块一个 Skill：
+
+| 块 | 关注点 |
+|----|--------|
+| UI 细节 | 圆角、按钮按下缩放、图标过渡的具体数值 |
+| 排版 | 字号、行高、字重 |
+| 配色 | 主题色、对比度、语义色 |
+| 无障碍 | ARIA、键盘可达、对比度合规 |
+| 布局 | 间距、栅格、嵌套 |
+| 文案 | 标签、CTA、错误文案 |
+
+配套一本设计工程杂志 **Interfaces**，让 agent 照着跑就能落地。
+
+### 关键数值规则（可直接被 Skill 调用）
+
+- 嵌套圆角：**外圈 = 内圈 + 内边距**
+- 按钮按下缩到 **0.96**
+- 图标切换：**透明度 + 缩放 + 4px 模糊** 三段过渡
+- 与 Emil Kowalski（按下 0.97）只差 0.01，但风格立刻不一样
+
+### 两个特别有用的 Skill
+
+| Skill | 作用 |
+|-------|------|
+| `break` | 挑一个组件，临时拉起一个页面把所有状态 / 边界场景一次性渲染出来，一屏看出哪里会崩 |
+| `reverse-engineer UI / 动画` | 反查别人网页上某段动画 / 某块 UI 到底怎么实现的 |
+
+### 接入
+
+Claude Code 有插件市场入口，其他 Agent 也能一条命令装。前端写完总觉得「差一口气、又说不清差在哪」的，让它过一遍基本能补上。
 
 ## 原始链接
 - [jakubkrehel/skills 仓库](https://github.com/jakubkrehel/skills) — 原始仓库
