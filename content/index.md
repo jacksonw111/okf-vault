@@ -3286,3 +3286,32 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 8 条：陆炳(历史短视频无工具) / AI 又爱又恨(纯情绪) / 农村90后数据采集(纯情绪吐槽) / 男人的快乐(情绪短视频) / 三只脚(情绪反应) / 苹果股票白嫖(短视频) / 网上没赢(情绪) / jev-ultrafast(同日重复转载，已收录)
 - Wen_Zw 4 条：ui.xiod 之外的 jolyne_AI jakubkrehel 已合并到既有概念；cube-motion / pen.dev / evoontology 已建独立 Tool；其余不在此批
 
+### 本批新增（2026-09-19）
+
+**AI / Agent 生态（Jev 家族 + Codex 观测）**
+- [tool-nanojev](concepts/tool-nanojev.md) — 0.6B 小模型一次前向输出完整概率分布，复刻 Jev 并行决策
+- [tool-mobile-jev](concepts/tool-mobile-jev.md) — Jev 在 Mobilerun 云真机执行手机操作，免 ADB
+- [tool-jev-visual](concepts/tool-jev-visual.md) — Apple Silicon + MLX 类 Jev 视觉推理，一图连答 64 题
+- [tool-jev-review](concepts/tool-jev-review.md) — 本地 MCP server，给编码 agent 加 Jev 结构化质量分
+- [tool-jev-mcp](concepts/tool-jev-mcp.md) — 基于 Jev 的 MCP server，8 个机械判断工具
+- [tool-is-gpt-nerfed](concepts/tool-is-gpt-nerfed.md) — macOS 菜单栏检测 Codex 缩水 / 静默降级 / 隐藏模型
+
+**自托管 / 运维**
+- [tool-mailez](concepts/tool-mailez.md) — 一条命令自托管域名邮箱 + 日历 + 联系人 + 网盘 + Webmail
+- [tool-ai-landing-consultant](concepts/tool-ai-landing-consultant.md) — 套在 Hermes 上的 11 步顾问开箱包，小微老板自托管 AI
+
+**桌面 / 跨平台**
+- [tool-tasktrooper](concepts/tool-tasktrooper.md) — 本机桌面任务看板，13 列 + 6 角色 agent + 95 技能
+- [tool-mr-boxington](concepts/tool-mr-boxington.md) — Rust 跨 worktree 共享 Cargo 编译缓存
+- [tool-nfcx](concepts/tool-nfcx.md) — 跨平台桌面 NFC 工具，主打 MIFARE Classic
+
+**模型发现 / README 装饰**
+- [tool-ai-model-world](concepts/tool-ai-model-world.md) — 556 个大模型像素小镇 + 八块今日格局领奖台
+- [tool-code-quote](concepts/tool-code-quote.md) — GitHub README 动态编程名言卡片
+
+**视频 / 下载**
+- [tool-bilibili-thread-ripper](concepts/tool-bilibili-thread-ripper.md) — Chrome + 油猴 脚本，B 站 DASH 多 Range 并发下载
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 4 条：菲尔兹奖余光(情绪+短视频) / 国产严父工业美学(纯反应) / 杀死比尔风格 cool(纯反应) / 时间虫未来存在(纯情绪)
+

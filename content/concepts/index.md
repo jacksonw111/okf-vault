@@ -3634,3 +3634,32 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - QingQ77 8 条：「大明最强锦衣卫指挥使 陆炳」(2100965409726091472，历史短视频无工具价值) / 「每当看到这种视频，对 AI 是又爱又恨」(2100915047480635705，纯情绪) / 「农村90后采集数据 卖给 AI 或机器人公司」(2100856105471775071，纯情绪吐槽) / 「对，男人的快乐就是这样简单」(2100807596244611343，情绪短视频) / 「牛批克拉斯，要不是看到三只脚，我还以为是真人」(2100762313485857078，情绪反应) / 「每年 1 万刀的苹果股票 3 月份买入 8 月份卖出 能永久白嫖 iPhone 吗」(2100899813546172805，短视频) / 「网上没赢过，现实没输过」(2100940462966317324，纯情绪) / 「Browser Use 与 TypeSafe 合作的浏览器 agent」(2100771539771908429，与已收录 `tool-jev-ultrafast` 重复)
 - Wen_Zw 1 条：RT @Jolyne_AI 关于 jakubkrehel Skills 的更详细描述已合并到既有概念 `tool-jakubkrehel-skills.md`
+
+### 本批新增（2026-09-19）
+
+**AI / Agent 生态（Jev 家族 + Codex 观测）**
+- [NanoJev](./tool-nanojev.md) — `Tool` — 0.6B 小模型一次前向输出完整概率分布，复刻 Jev 并行决策思路
+- [Mobile-Jev](./tool-mobile-jev.md) — `Tool` — 让 Jev 模型在 Mobilerun 云真机上执行手机操作指令，无需 ADB
+- [jev-review](./tool-jev-review.md) — `Tool` — 本地 MCP 服务器，给 Claude Code / Codex / Cursor / OpenCode 加结构化代码质量评分循环
+- [jev-visual](./tool-jev-visual.md) — `Tool` — Apple Silicon + MLX 跑通类 Jev 视觉推理，一图连答 64 题（prefill 一次批量读分）
+- [jev-mcp](./tool-jev-mcp.md) — `Tool` — 基于 TypeSafe Jev 的 MCP server，8 个机械判断工具（验真 / 筛注入 / 排序 / 分类）
+- [is-gpt-nerfed](./tool-is-gpt-nerfed.md) — `Tool` — macOS 菜单栏常驻，检测 Codex 实际回答模型是否与所选一致（静默降级 / 隐藏模型 / 小上下文）
+
+**自托管 / 运维**
+- [mailez](./tool-mailez.md) — `Tool` — 一条命令自托管域名邮箱 + 日历 + 联系人 + 网盘 + Webmail + 管理后台
+- [ai-landing-consultant](./tool-ai-landing-consultant.md) — `Tool` — 套在 Hermes Agent 上的顾问开箱包，11 步把小微老板自托管 AI agent 做成可复制产线
+
+**桌面 / 跨平台工具**
+- [TaskTrooper](./tool-tasktrooper.md) — `Tool` — Go + Electron + Postgres 本机桌面任务看板，13 列 + 6 角色 agent + 95 个打底技能
+- [mr-boxington](./tool-mr-boxington.md) — `Tool` — jdx 出品，Rust 跨 worktree 共享 Cargo 编译缓存，解决重复编译 + target/ 膨胀
+- [NFCX](./tool-nfcx.md) — `Tool` — Go 写的跨平台桌面 NFC 工具（macOS / Windows / Linux），主打 MIFARE Classic 读写 + dump + 密钥
+
+**模型发现 / README 装饰**
+- [ai-model-world](./tool-ai-model-world.md) — `Tool` — Next.js 静态站把 556 个大模型塞进像素小镇，首页「今日格局」八块领奖台一句话定强弱
+- [Code-Quote](./tool-code-quote.md) — `Tool` — GitHub README 一行嵌入动态编程名言卡片，每次访问自动换
+
+**视频 / 下载**
+- [Bilibili-thread-ripper](./tool-bilibili-thread-ripper.md) — `Tool` — Chrome 插件 + Firefox / Safari 油猴脚本，把 B 站 DASH 分段切多个 Range 并发下载
+
+### 跳过（Skipped / 质量门槛）
+- QingQ77 4 条：「非常赞同，真正的突破，永远是人类和 AI 共同干出来的。但 2026 年的菲尔兹奖会不会是人类古法数学的余光」(2101242040868880662，情绪 / 短视频) / 「国产严父，工业美学的巅峰」(2101281714731716939，纯反应) / 「《杀死比尔》的风格 cool」(2101323611281953072，纯反应) / 「过去未来现在同时存在，这个视频也许能帮到你。还记得 天才在左疯子在右 这本书中的时间虫吗」(2101339784170164365，纯情绪)
