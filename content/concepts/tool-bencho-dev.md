@@ -33,10 +33,12 @@ timestamp: "2026-09-11T22:15:00Z"
 | Bench | 性能 / 体积 benchmark |
 | 可带走 | blocks 直接拿到项目 |
 | 周更 | 每周新增 |
+| Bencho Finds | 收集网上「疯狂的 UI」交互集合（[bencho.dev/finds](https://bencho.dev/finds)） |
 
 ## 参考链接
 
 - 官方网站：<https://bencho.dev>
+- Bencho Finds：<https://bencho.dev/finds>
 
 ## 媒体
 

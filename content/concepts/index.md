@@ -3663,3 +3663,43 @@ timestamp: "2026-08-27T15:46:00Z"
 
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 4 条：「非常赞同，真正的突破，永远是人类和 AI 共同干出来的。但 2026 年的菲尔兹奖会不会是人类古法数学的余光」(2101242040868880662，情绪 / 短视频) / 「国产严父，工业美学的巅峰」(2101281714731716939，纯反应) / 「《杀死比尔》的风格 cool」(2101323611281953072，纯反应) / 「过去未来现在同时存在，这个视频也许能帮到你。还记得 天才在左疯子在右 这本书中的时间虫吗」(2101339784170164365，纯情绪)
+
+### 本批新增（2026-09-20）
+
+**AI / Agent 生态（多智能体协作 + Harness + Skill）**
+- [AgentConnect](./tool-agentconnect.md) — `Tool` — agentconnect-md/agentconnect，把分散在各人终端的智能体和人拽进同一聊天和工作流里协同
+- [openhuman](./tool-openhuman.md) — `Tool` — Rust 写的本地 Agent Harness，本机数据压成带评分的 Markdown 记忆树落 SQLite，并镜像成 Obsidian vault；TokenJuice 入模前压缩最高省 80% token
+- [Guizang Product Video Skill](./tool-guizang-product-video-skill.md) — `Tool` — op7418/guizang-product-video-skill，输入代码仓库 + 提交，Agent 自动出卖点 / 文案 / 动画 / 配乐 / 成片 + 可改工程
+- [emilkowalski/skills](./tool-emil-kowalski-skills.md) — `Tool` — Linear 设计师 Emil Kowalski 维护的 10 件套 Skill（设计工程 / 动画 / Apple 风格 / Swift / 选型）
+- [Agentic Engineering Handbook](./note-agentic-engineering-handbook.md) — `Note` — 179 个精选资源，Phase 0–6 七阶段从「手写 Agent Loop」到「生产落地 / eval / 安全」
+
+**决策引擎 / Jev 家族**
+- [Laya](./tool-laya-decision-engine.md) — `Tool` — NandhaKishorM/laya，编码器式决策引擎，choice / score / noul 三种提问原语，无文本生成
+- [SemIf](./tool-semif.md) — `Tool` — TheoLeeCJ/SemIf，本地 4B 模型一次前向读出选项概率，给 agent 做 if 决策
+- [Jevbridge](./tool-jevbridge.md) — `Tool` — tacticocc/Jevbridge，给 LLM 挂类型化决策层（noul / choice / score），用 Jev 或 OpenAI 兼容模型
+- [kev（Qwen 底座决策模型）](./tool-kev-decision-model.md) — `Tool` — jaredpalmer/kev，Qwen 0.5B–8B + LoRA + 指针读出头，复刻 Jev；Mac 可服务 / H100 可重训
+- [Jev Search](./tool-jev-search.md) — `Tool` — superagents-lab/jev-search，前端纯网页搜索：Jev 解析 + Search1API 并发抓 Google/DDG/Yandex/HN/Reddit/GitHub/X/arXiv/YT/Wiki/IMDb/微信
+- [Jev Browser](./tool-jev-browser.md) — `Tool` — jkudish/jev-browser，headless 浏览器按任务逐步执行，每步判定记录 + 正文 + 截图一并交付
+
+**桌面 / 系统工具**
+- [mpvRx](./tool-mpvrx.md) — `Tool` — Riteshp2001/mpvRx，Android 端 libmpv 无广告开源播放器，多主题 / 手势 / HDR / 省电
+- [Sylvester](./tool-sylvester-portfolio.md) — `Tool` — chang-07/sylvester，macOS 菜单栏跨经纪账户净资产与持仓面板，原生通知
+- [Desktop Habitats](./tool-desktop-habitats.md) — `Tool` — chaseleantj/desktop-habitats，macOS 实时水族箱动态壁纸（鱼追鼠标 / 水草晃）
+- [Blade Runner Obsidian 主题](./tool-blade-runner-obsidian.md) — `Tool` — DuckTapeKiller/blade-runner，霓虹限制在 UI 部件 / 正文无色 / WCAG AA
+- [kernwatch](./tool-kernwatch.md) — `Tool` — matthart1983/kernwatch，Rust + Ratatui Linux TUI 内核观测器，14 个视图
+
+**自托管 / 开发工具**
+- [Dopbase](./tool-dopbase.md) — `Tool` — dopbase/dopbase，单文件二进制自托管密钥管理（Rust + 内嵌 Vue），三层组织 + 加密 + 历史 + 审计
+- [ccodex-sleep-state](./tool-ccodex-sleep-state.md) — `Tool` — gylive/ccodex-sleep-state，Go 本地工具接管 Codex config.toml + 网页面板，停止后恢复
+- [Perch](./tool-perch-code-review.md) — `Tool` — lakeday-org/perch，AI 方法级代码审查，连同调用者被调用者一起看
+
+**Skill 体系更新**
+- [Apple Design Skill](./tool-apple-design-skill.md) — `Tool` — 交叉链接到 emilkowalski/skills 10 件套合集
+
+**Bencho.dev 补充**
+- [Bencho.dev](./tool-bencho-dev.md) — `Tool` — 关键能力表追加「Bencho Finds：收集网上疯狂的 UI 交互」
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 5 条：「叹为观止，中国农村自建房」(2101491299358756884，纯反应 / 短视频) / 「临兵斗者皆阵列在前」(2101628450914340865，纯短语 / 视频) / 「小伙子是一点弯路都不想走啊，把阿姨都说得心花怒放了」(2101536361228755447，纯反应 / 视频) / 「水陆两用车，第一次见」(2101666444690051137，纯反应 / 视频) / 「明教教主张无忌...」(短视频无信息量)
+- Wen_Zw 2 条：RT @QuantumTransf 给的「可以看看 auv」单条 GitHub 链接无项目描述上下文（按「单条 GitHub 链接无上下文」原则跳过）/ RT @benyuls 西语「与其看 Netflix 不如看这个 2 小时免费课」营销短视频无知识价值
+- Octop / Bencho Finds / apple-design 三条与既有概念重复或无新增信息（按「资料无新增信息」原则只更新交叉链接 / 增补表格，不另起文件）

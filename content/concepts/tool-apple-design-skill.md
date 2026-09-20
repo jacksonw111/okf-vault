@@ -4,7 +4,7 @@ title: "Apple Design Skill（/apple-design）"
 description: "emilkowalski/skills 仓库里的 /apple-design Skill，从 Apple WWDC 视频里提炼 17 条设计与动效原则，用于审查既有作品或在新建项目时一次性做对。"
 resource: "https://github.com/emilkowalski/skills"
 tags: "[design, skill, wwdc, apple, motion, agent-skills]"
-timestamp: "2026-07-11T20:00:00Z"
+timestamp: "2026-09-20T18:00:00Z"
 ---
 
 # Apple Design Skill（/apple-design）
@@ -37,6 +37,7 @@ timestamp: "2026-07-11T20:00:00Z"
 ## 相关概念
 
 - [Agent Skills（代理技能包）](term-agent-skills.md) — 本概念遵循的协议
+- [emilkowalski/skills 10 件套](./tool-emil-kowalski-skills.md) — /apple-design 是这个仓库 10 个 Skill 中的一个
 - [Hallmark](tool-hallmark-skill.md) — 通用 AI 编码设计 Skill，与 /apple-design 形成「通用 + 平台特化」
 - [Vibecoded Design Tells](tool-vibecoded-design-tells.md) — 反面教材：AI 生成网站的设计痕迹排行
 - [Vercel Design System](tool-vercel-design-system.md) — vercel.com/design.md 公开设计系统页

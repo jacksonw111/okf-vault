@@ -3315,3 +3315,41 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - QingQ77 4 条：菲尔兹奖余光(情绪+短视频) / 国产严父工业美学(纯反应) / 杀死比尔风格 cool(纯反应) / 时间虫未来存在(纯情绪)
 
+### 本批新增（2026-09-20）
+
+**AI / Agent 生态（多智能体协作 + Harness + Skill）**
+- [tool-agentconnect](concepts/tool-agentconnect.md) — 把分散在各人终端的智能体和人拽进同一聊天和工作流
+- [tool-openhuman](concepts/tool-openhuman.md) — Rust 本地 Agent Harness：评分 Markdown 记忆树 + SQLite + Obsidian vault 镜像；TokenJuice 入模前压缩最高省 80% token
+- [tool-guizang-product-video-skill](concepts/tool-guizang-product-video-skill.md) — 代码仓库 + 提交 → Agent 出卖点 / 文案 / 动画 / 配乐 / 成片 + 可改工程
+- [tool-emil-kowalski-skills](concepts/tool-emil-kowalski-skills.md) — Linear 设计师 Emil Kowalski 维护的 10 件套 Skill
+- [note-agentic-engineering-handbook](concepts/note-agentic-engineering-handbook.md) — 179 资源，Phase 0–6 七阶段 Agent 工程学习路线
+
+**决策引擎 / Jev 家族**
+- [tool-laya-decision-engine](concepts/tool-laya-decision-engine.md) — 编码器式决策引擎，choice/score/noul 三种原语
+- [tool-semif](concepts/tool-semif.md) — 本地 4B 模型读 logits 做 if 决策
+- [tool-jevbridge](concepts/tool-jevbridge.md) — 给 LLM 挂类型化决策层（noul/choice/score）
+- [tool-kev-decision-model](concepts/tool-kev-decision-model.md) — Qwen 0.5B–8B + LoRA + 指针读出头，复刻 Jev
+- [tool-jev-search](concepts/tool-jev-search.md) — 前端纯网页搜索：Jev 解析 + Search1API 多源并发
+- [tool-jev-browser](concepts/tool-jev-browser.md) — headless 浏览器按任务逐步执行
+
+**桌面 / 系统工具**
+- [tool-mpvrx](concepts/tool-mpvrx.md) — Android 端 libmpv 无广告开源播放器
+- [tool-sylvester-portfolio](concepts/tool-sylvester-portfolio.md) — macOS 菜单栏跨经纪账户净资产与持仓面板
+- [tool-desktop-habitats](concepts/tool-desktop-habitats.md) — macOS 实时水族箱动态壁纸
+- [tool-blade-runner-obsidian](concepts/tool-blade-runner-obsidian.md) — Obsidian 主题，霓虹限制在 UI 部件 / 正文无色
+- [tool-kernwatch](concepts/tool-kernwatch.md) — Rust + Ratatui Linux TUI 内核观测器，14 个视图
+
+**自托管 / 开发工具**
+- [tool-dopbase](concepts/tool-dopbase.md) — 单文件二进制自托管密钥管理
+- [tool-ccodex-sleep-state](concepts/tool-ccodex-sleep-state.md) — Go 本地工具接管 Codex config.toml + 网页面板
+- [tool-perch-code-review](concepts/tool-perch-code-review.md) — AI 方法级代码审查（连同调用上下文）
+
+**Skill 体系更新 / Bencho.dev 补充**
+- [tool-apple-design-skill](concepts/tool-apple-design-skill.md) — 交叉链接到 emil-kowalski-skills 10 件套
+- [tool-bencho-dev](concepts/tool-bencho-dev.md) — 关键能力表追加 Bencho Finds
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- QingQ77 5 条：中国农村自建房(纯反应/视频) / 临兵斗者皆阵列在前(短语/视频) / 阿姨心花怒放(纯反应/视频) / 水陆两用车第一次见(纯反应/视频) / 明教教主张无忌(短视频无信息量)
+- Wen_Zw 2 条：「可以看看 auv」单条 GitHub 链接无项目上下文(按「单条 GitHub 链接无上下文」原则跳过) / 西语「与其看 Netflix 不如看这个免费课」(营销短视频无知识价值)
+- Octop / Bencho Finds / apple-design 三条与既有概念重复或无新增信息（按「资料无新增信息」原则只更新交叉链接 / 增补表格，不另起文件）
+
