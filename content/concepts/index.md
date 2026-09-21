@@ -193,6 +193,38 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Heartmorrow](tool-heartmorrow.md) — `Tool` — 本地 LLM 约会 + 世界模拟器，存档状态服务端校验防作弊
 - [obsidian-knowledge-agent](tool-obsidian-knowledge-agent.md) — `Tool` — 六阶段 AI 管道把 PDF / 论文自动整理为 Obsidian 笔记
 - [AgentStalker](tool-agent-stalker.md) — `Tool` — 把 LLM Agent 当系统而非模型来审计：污点图 → 攻击链 → 沙箱重放 → 报告
+
+### 本批新增（2026-09-21）
+
+**AI / Agent 生态**
+- [hehe-industry-researcher（盒盒行业研究技能包）](tool-hehe-industry-researcher.md) — `Tool` — 总入口 Skill 统筹 13 个专项 Skill，覆盖市场规模到估值全链路中文研究维度
+- [Needle（cactus-compute）](tool-needle-cactus.md) — `Tool` — 8–29 MB 端侧超微型自动化模型，专精工具调用与 JSON 提取
+- [browsentic](tool-browsentic.md) — `Tool` — 给本机已登录 Chrome 套一层 agent 皮，Claude Code / Codex / Antigravity 直连，免 API key
+- [cli-faq-shortcuts](tool-cli-faq-shortcuts.md) — `Tool` — 从 Claude Code / Codex 历史挖重复提问，聚类生成项目级短命令
+- [humanizer（blader）](tool-humanizer-skill-blader.md) — `Tool` — 25 条 AI 写作痕迹检查表的纯 Markdown agent skill，`npx skills add` 一行安装
+- [CyberGuard](tool-cyberguard.md) — `Tool` — Agent 安全响应强制三步：目标级批准 → 执行 → 独立探针验证，全程审计
+
+**类型化决策 / 本地推理**
+- [laya-mlx](tool-laya-mlx.md) — `Tool` — Laya 决策引擎的 Apple Silicon MLX 实现，7–14 ms 短决策，无 PyTorch / Transformers 依赖
+- [Nimble（bespokelabsai）](tool-nimble-bespoke.md) — `Tool` — 9B 本地类型化判断模型，扁平 schema + 选项概率，无 JSON 解析
+- [LocalJev（githubnext）](tool-localjev.md) — `Tool` — 本地版 Jev，omlx 推理 + Jev API wrapper 兼容，覆盖 Qwen / Gemma 4 MoE 等
+
+**开发工具**
+- [geo-sleuth](tool-geo-sleuth.md) — `Tool` — OpenStreetMap + 高程 + 卫星 + 街景反推照片拍摄点与朝向
+- [jevgrep](tool-jevgrep.md) — `Tool` — 用自然语言在仓库里找代码块，带路径 + 行号喂给 agent
+- [fallow](tool-fallow-rs.md) — `Tool` — Rust 写的 TS/JS 静态分析工具，未用代码 / 循环依赖 / 重复 / 复杂度 / 架构边界
+- [tax-doc-classifier](tool-tax-doc-classifier.md) — `Tool` — IRS 税表 PDF 页面级识别 + 置信度，替代逐页 Sonnet 的高成本流水线
+
+**桌面 / 系统**
+- [ps5-pkg-manager](tool-ps5-pkg-manager.md) — `Tool` — PS5 装 pkg 时自起 HTTP range 流，USB / SMB / 光盘都能直喂系统安装器
+- [gksdud](tool-gksdud.md) — `Tool` — macOS 右 ⌘ 切韩英输入法，独立应用，避开 Karabiner IME 掉字坑
+- [jev-shell-history](tool-jev-shell-history.md) — `Tool` — zsh 上的 fish 式历史自动补全，用 Jev 模型从最近 100 条历史里挑最可能一条
+
+**数据 / 视觉**
+- [FinanceDatabase](tool-financedatabase.md) — `Tool` — JerBouma 开源金融标的数据库，30 万+ 股票 / ETF / 基金 / 指数 / 外汇 / 加密
+- [God's Eye View](tool-gods-eye-view.md) — `Tool` — CesiumJS 写实 3D 地球叠加 15 个开源图层，13 个零密钥
+- [VModal Swift SDK](tool-vmodal-swift-sdk.md) — `Tool` — iOS / macOS 视频内容语义搜索 Swift SDK，上传 / 索引 / 检索强类型
+- [dot-motion-builder](tool-dot-motion-builder.md) — `Tool` — 点动效的可视化 / 交互式编辑工具
 - [motion-skills](tool-motion-skills.md) — `Tool` — iart 发布的 50 个运动图形 Skill，每条带 SKILL.md + 渲染验证
 - [Light-skills](tool-light-skills.md) — `Tool` — 28 个科研全流程 AI Skill，从文献调研到投稿返修
 - [AgentCrew](tool-agent-crew.md) — `Tool` — 多智能体协作聊天应用，4 种入口（GUI / 终端 / 自动化作业 / HTTP API）

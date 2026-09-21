@@ -73,6 +73,30 @@ timestamp: "2026-08-27T15:46:00Z"
 - [WechatOnCloud / 云微](concepts/tool-wechat-on-cloud.md)
 - [OKF Enrichment Agent](concepts/tool-okf-enrichment-agent.md)
 - [OKF Static HTML Visualizer](concepts/tool-okf-static-html-visualizer.md)
+
+### 本批新增（2026-09-21）
+
+- [hehe-industry-researcher（盒盒行业研究技能包）](concepts/tool-hehe-industry-researcher.md) — `Tool` — 13 个专项 Skill 统筹的中文行业研究工作流
+- [Needle（cactus-compute）](concepts/tool-needle-cactus.md) — `Tool` — 8–29 MB 端侧超微型自动化模型
+- [browsentic](concepts/tool-browsentic.md) — `Tool` — 给本机 Chrome 套 agent 皮，免 API key
+- [cli-faq-shortcuts](concepts/tool-cli-faq-shortcuts.md) — `Tool` — 从 agent 会话历史挖重复提问生成短命令
+- [humanizer（blader）](concepts/tool-humanizer-skill-blader.md) — `Tool` — 25 条 AI 痕迹检查表的纯 Markdown agent skill
+- [CyberGuard](concepts/tool-cyberguard.md) — `Tool` — Agent 安全响应强制批准 → 执行 → 独立验证
+- [laya-mlx](concepts/tool-laya-mlx.md) — `Tool` — Laya 决策引擎的 Apple Silicon MLX 实现
+- [Nimble（bespokelabsai）](concepts/tool-nimble-bespoke.md) — `Tool` — 9B 本地类型化判断模型，扁平 schema + 概率
+- [LocalJev（githubnext）](concepts/tool-localjev.md) — `Tool` — 本地版 Jev，Jev API wrapper 兼容
+- [geo-sleuth](concepts/tool-geo-sleuth.md) — `Tool` — OSM + 高程 + 卫星反推照片拍摄点
+- [jevgrep](concepts/tool-jevgrep.md) — `Tool` — 自然语言在仓库里找代码块
+- [fallow](concepts/tool-fallow-rs.md) — `Tool` — Rust 写的 TS/JS 多维静态分析
+- [tax-doc-classifier](concepts/tool-tax-doc-classifier.md) — `Tool` — IRS 税表 PDF 页面级识别
+- [ps5-pkg-manager](concepts/tool-ps5-pkg-manager.md) — `Tool` — PS5 pkg 流式安装器
+- [gksdud](concepts/tool-gksdud.md) — `Tool` — macOS 右 ⌘ 切韩英输入法
+- [jev-shell-history](concepts/tool-jev-shell-history.md) — `Tool` — zsh 上的 fish 式历史自动补全
+- [FinanceDatabase](concepts/tool-financedatabase.md) — `Tool` — 30 万+ 金融标的开源数据库
+- [God's Eye View](concepts/tool-gods-eye-view.md) — `Tool` — 浏览器内开源地理情报 3D 地球
+- [VModal Swift SDK](concepts/tool-vmodal-swift-sdk.md) — `Tool` — iOS / macOS 视频语义搜索 SDK
+- [dot-motion-builder](concepts/tool-dot-motion-builder.md) — `Tool` — 点动效可视化编辑器
+- [rucareer](concepts/tool-rucareer.md) — `Tool` — 大学生本地经历管理 + AI 简历生成
 - [OKF 参考示例 Bundles](concepts/tool-okf-sample-bundles.md)
 
 ## 网络 / NAS 工具
