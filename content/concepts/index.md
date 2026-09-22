@@ -3735,3 +3735,55 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 5 条：「叹为观止，中国农村自建房」(2101491299358756884，纯反应 / 短视频) / 「临兵斗者皆阵列在前」(2101628450914340865，纯短语 / 视频) / 「小伙子是一点弯路都不想走啊，把阿姨都说得心花怒放了」(2101536361228755447，纯反应 / 视频) / 「水陆两用车，第一次见」(2101666444690051137，纯反应 / 视频) / 「明教教主张无忌...」(短视频无信息量)
 - Wen_Zw 2 条：RT @QuantumTransf 给的「可以看看 auv」单条 GitHub 链接无项目描述上下文（按「单条 GitHub 链接无上下文」原则跳过）/ RT @benyuls 西语「与其看 Netflix 不如看这个 2 小时免费课」营销短视频无知识价值
 - Octop / Bencho Finds / apple-design 三条与既有概念重复或无新增信息（按「资料无新增信息」原则只更新交叉链接 / 增补表格，不另起文件）
+
+### 本批新增（2026-09-22）
+
+**AI / Agent 生态（跨 Harness 记忆 + 审核护栏 + 桌面权限桥）**
+- [Agent Beacon](./tool-agent-beacon.md) — `Tool` — 20+ Agent / Harness 的统一 session history + 记忆抽取 + OpenTelemetry 可观测性中台，本地 JSONL 不绑平台
+- [Axonel](./tool-axonel.md) — `Tool` — 把编码 Agent 关进独立 Git worktree 当后台进程，磁盘上重跑测试，候选提交卡人工审核关口
+- [pi-ling](./tool-pi-ling.md) — `Tool` — Native / DeepSeek Harness / Codex 三套 Runtime 装进同一 Electron 会话，所有工具调用 + 文件改动落同一条 SQLite 事件日志
+- [clawd-conduit](./tool-clawd-conduit.md) — `Tool` — Claude Code 权限确认卡片弹到桌面，Cmd+Shift+Y/N 批 / 拒 + 15 个 hook 事件变宠物状态
+- [ai-employees](./tool-ai-employees.md) — `Tool` — 8 个业务岗位做成带日程的 AI 员工文件夹，每天早晨交简报，发送 / 花钱类动作卡待确认
+- [clearai-dsh](./tool-clearai-dsh.md) — `Tool` — DeepSeek Harness 研究流程加「证据链 + 独立评审」机制，七段循环治 agent 随口宣布完工
+
+**Jev / 类型化判断**
+- [jev-cli](./tool-jev-cli.md) — `Tool` — TypeSafe Jev CLI，快速分类判断返回概率 / 选项 / 打分；jev-mcp 通过 stdio 接入 MCP 宿主
+
+**SEO / 数据 MCP**
+- [mcp-gsc](./tool-mcp-gsc.md) — `Tool` — Google Search Console MCP 工具集（overview / 周期 / 单页 query 批量 inspect / indexing issues）
+- [seo-monster](./tool-seo-monster.md) — `Tool` — 把 Search Console / GA4 / PageSpeed / Cloudflare 70 个 SEO 工具统一塞进 AI 助手，一句话出结论
+
+**内容运营 / 客服**
+- [voc-insight](./tool-voc-insight.md) — `Tool` — 把工单 / 群聊 / 表格里的客户反馈喂 DeepSeek，输出摘要 / 分类 / 严重度 / 优先级，指向同一件事的反馈合并成单一 issue
+
+**桌面 / 系统工具**
+- [hibi](./tool-hibi.md) — `Tool` — 本地 Markdown 桌面编辑器，源码 / 渲染并排对照 + Typst 出 PDF + addon 体系，176 MB 安装包
+- [omarchy-blue-hour-theme](./tool-omarchy-blue-hour-theme.md) — `Tool` — Omarchy 桌面深板岩蓝冷调主题，一条命令装完壁纸 + shell 配色一起换
+
+**笔记 / Obsidian**
+- [obisidan-flowtask-sp](./tool-obisidan-flowtask-sp.md) — `Tool` — Obsidian 待办 → Super Productivity 任务 同步工具
+
+**设计 / 创客**
+- [Rewamp UI](./tool-rewamp-ui.md) — `Tool` — 70+ 现代站点组件的开源 UI 库（shader / 动画 / navbar / 按钮 / 卡片）
+- [Mandala Maker](./tool-mandala-maker.md) — `Tool` — 网页曼陀罗画板，按折数绕中心复制 + 折内镜像，画完导出 PNG / SVG
+
+**交易 / 个人金融**
+- [trade-journal](./tool-trade-journal.md) — `Tool` — 把券商成交 / 对账单 / 手工录入撮合成回合交易，本地 SQLite + 自带 API Key 的 AI 复盘
+
+**教学 / 题库**
+- [zju842-practice](./tool-zju842-practice.md) — `Tool` — 浙大 842 真题本地题库（2009–2025，469 题 287 图），解压即用，免 Node.js / Docker
+
+**单文件 / 离线内容**
+- [how-to-live-better](./tool-how-to-live-better.md) — `Tool` — 把《高性价比人生指南》32 节正文压成单文件 HTML，手机离线可读可检索
+
+**远程协作**
+- [RLink RemoteCtrl](./tool-rlink-remote-ctrl.md) — `Tool` — Windows 上的开源远控 + 协作工具，9 位设备 ID + 一次性验证码，4K 120 / P2P / 5 人房间
+
+### repowise 更新
+- [repowise](./tool-repowise.md) — `Tool` — 关键能力表追加「django 仓库 43 题基准对比：工具调用从 7.2 → 3.8 次，输出少 31.6%；51 个代码健康检测器按风险 / 可维护性 / 性能分开打分；支持 26 种语言 + 风险分 0–10 + 0 API Key」，原索引保持稳定
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 1 条与既有概念重复：RT @GitHub_Daily repowise (2102399930463912079) 与既有 [`tool-repowise`](./tool-repowise.md) 同一项目，仅增量补充 django 基准数字，已合并到既有概念而非另起文件
+- Wen_Zw 1 条纯内容跳过：RT @poteto 2500 PRs 主题演讲 (2102300538813796817) 仅一段视频 + 主题演讲链接，无具体工具 / 概念
+- Wen_Zw 1 条仅链接跳过：RT @ricouii 文章链接 (2102292555782406487) `https://x.com/i/article/...` 内部文章无摘要 / 项目
+- QingQ77 4 条纯情绪 / 短视频跳过：「现在的 AI 太强了...」(2102178800159346844) / 「乐高嘎巴拉」(2102425690033262679) / 「这是拿命在玩」(2102347987498471644) / 「机器人界的《死神来了》」(2102256781384962210) / 「捕蝇神器」(2102413215879864459) / 「最近罗永浩交个朋友直播间...」(2102288723039891536，板材科普非项目)

@@ -3377,3 +3377,55 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 2 条：「可以看看 auv」单条 GitHub 链接无项目上下文(按「单条 GitHub 链接无上下文」原则跳过) / 西语「与其看 Netflix 不如看这个免费课」(营销短视频无知识价值)
 - Octop / Bencho Finds / apple-design 三条与既有概念重复或无新增信息（按「资料无新增信息」原则只更新交叉链接 / 增补表格，不另起文件）
 
+### 本批新增（2026-09-22）
+
+**AI / Agent 生态（跨 Harness 记忆 + 审核护栏 + 桌面权限桥）**
+- [tool-agent-beacon](concepts/tool-agent-beacon.md) — 20+ Agent / Harness 的统一 session history + 记忆抽取 + OpenTelemetry 可观测性中台
+- [tool-axonel](concepts/tool-axonel.md) — 把编码 Agent 关进独立 Git worktree + 磁盘上重跑测试 + 候选提交卡人工审核
+- [tool-pi-ling](concepts/tool-pi-ling.md) — Native / DeepSeek Harness / Codex 三 Runtime 同 Electron 会话 + SQLite 事件日志
+- [tool-clawd-conduit](concepts/tool-clawd-conduit.md) — Claude Code 权限确认卡片弹桌面 + Cmd+Shift+Y/N + 15 hook 事件变宠物
+- [tool-ai-employees](concepts/tool-ai-employees.md) — 8 个业务岗位 AI 员工文件夹 + 每日简报 + 发送 / 花钱类动作卡待确认
+- [tool-clearai-dsh](concepts/tool-clearai-dsh.md) — DeepSeek Harness 研究流程加「证据链 + 独立评审」机制，七段循环治完工幻觉
+
+**Jev / 类型化判断**
+- [tool-jev-cli](concepts/tool-jev-cli.md) — TypeSafe Jev CLI：分类判断返回概率 / 选项 / 打分，jev-mcp 走 stdio
+
+**SEO / 数据 MCP**
+- [tool-mcp-gsc](concepts/tool-mcp-gsc.md) — Google Search Console MCP：overview / 周期 / 单页 query 批量 inspect / indexing
+- [tool-seo-monster](concepts/tool-seo-monster.md) — GSC / GA4 / PageSpeed / Cloudflare 70 工具统一塞 AI 助手
+
+**内容运营 / 客服**
+- [tool-voc-insight](concepts/tool-voc-insight.md) — 客户反馈喂 DeepSeek 输出摘要 / 分类 / 严重度 / 优先级，重复反馈合并
+
+**桌面 / 系统工具**
+- [tool-hibi](concepts/tool-hibi.md) — 本地 Markdown 桌面编辑器 + 源码 / 渲染并排 + Typst 出 PDF + addon
+- [tool-omarchy-blue-hour-theme](concepts/tool-omarchy-blue-hour-theme.md) — Omarchy 桌面深板岩蓝冷调主题
+
+**笔记 / Obsidian**
+- [tool-obisidan-flowtask-sp](concepts/tool-obisidan-flowtask-sp.md) — Obsidian 待办 → Super Productivity 任务 同步
+
+**设计 / 创客**
+- [tool-rewamp-ui](concepts/tool-rewamp-ui.md) — 70+ 现代站点组件开源 UI 库
+- [tool-mandala-maker](concepts/tool-mandala-maker.md) — 网页曼陀罗画板，按折数绕中心复制 + 折内镜像
+
+**交易 / 个人金融**
+- [tool-trade-journal](concepts/tool-trade-journal.md) — 券商成交撮合成回合 + 本地 SQLite + 自带 API Key AI 复盘
+
+**教学 / 题库**
+- [tool-zju842-practice](concepts/tool-zju842-practice.md) — 浙大 842 真题本地题库（2009–2025，469 题 / 287 图）
+
+**单文件 / 离线内容**
+- [tool-how-to-live-better](concepts/tool-how-to-live-better.md) — 《高性价比人生指南》32 节压成单文件 HTML，手机离线可读
+
+**远程协作**
+- [tool-rlink-remote-ctrl](concepts/tool-rlink-remote-ctrl.md) — Windows 开源远控 + 协作，9 位设备 ID + 4K 120 + P2P + 5 人房间
+
+### repowise 更新
+- [tool-repowise](concepts/tool-repowise.md) — 关键能力表追加 django 仓库 43 题基准（7.2 → 3.8 次 / 输出少 31.6%）、51 个代码健康检测器、26 种语言、风险分 0–10 等
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 1 条与既有概念重复：RT @GitHub_Daily repowise (2102399930463912079) 与既有 repowise 同一项目，仅增量补充 django 基准数字 → 合并到既有概念
+- Wen_Zw 1 条主题演讲跳过：RT @poteto 2500 PRs (2102300538813796817) 仅视频 + 主题演讲链接，无具体工具
+- Wen_Zw 1 条内部链接跳过：RT @ricouii 文章 (2102292555782406487) `x.com/i/article/...` 无摘要 / 项目
+- QingQ77 6 条纯情绪 / 短视频跳过：AI 少年心气 / 乐高嘎巴拉 / 这是拿命在玩 / 死神来了 / 捕蝇神器 / 板材科普（罗永浩直播间）
+
