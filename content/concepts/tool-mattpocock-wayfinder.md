@@ -4,7 +4,7 @@ title: "mattpocock wayfinder skill（DAG + 战争迷雾的项目规划 Skill）"
 description: "mattpocock skills v1.1 中的 /wayfinder Skill：把模糊大目标拆解成 DAG 节点地图（grilling / research / prototype / task 四类），并用「战争迷雾」机制标注 Frontiers 与未知区域。"
 resource: "https://github.com/mattpocock/skills"
 tags: "[mattpocock, wayfinder, skill, dag, agent-skills, project-planning, claude-code]"
-timestamp: "2026-07-09T20:50:00Z"
+timestamp: "2026-09-23T22:40:00Z"
 ---
 
 # mattpocock wayfinder skill（DAG + 战争迷雾的项目规划 Skill）
@@ -47,9 +47,22 @@ timestamp: "2026-07-09T20:50:00Z"
 | 战争迷雾 | 把"未知"与"已知"在同一张地图可视化 |
 | 阻塞关系有向 | ticket 间显式表达依赖 |
 
+## 与 pstack 的组合用法（Part 2）
+
+`/wayfinder` 输出 DAG 地图后，**不要直接进入实现**——社区实践是用 pstack 把地图作为上下文，再做一轮「**多方案对比**」：
+
+1. `/wayfinder` 起 DAG 地图
+2. 把地图喂给 pstack 上下文
+3. 用 `/arena`（多 Agent 并行出方案）/ `/swarm`（多 Worker 合并产物，race 模式支持 best-of-n / first-pass / rank all）对比
+4. 选定方案后 `/architect` 进入详细设计
+5. 按 pstack 严格驱动（Feature Map / Blast Radius / 23 套剧本）实现
+
+> 这一流程解决了「**/grill-me 单用 → 容易把『深挖过的方案』当成终稿直接实现**」的常见陷阱。
+
 ## 相关概念
 - [Agent Skills（代理技能包）](term-agent-skills.md) — Skill 协议本身
 - [mattpocock/skills](tool-mattpocock-skills.md) — Real Engineers 风格的技能合集（wayfinder 隶属此套件）
+- [pstack](tool-pstack.md) — 与 wayfinder 配合做多方案对比与工程剧本（Part 2 工作流）
 - [Loop Engineering](tool-loop-engineering.md) — 把 AI agent 编成自动循环的方法论
 - [firstmate](tool-firstmate.md) — 把终端编码 AI 变成「大副」，自动派多个 crewmate 并行干活
 

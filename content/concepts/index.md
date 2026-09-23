@@ -18,12 +18,14 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Computer Use（计算机使用）](term-computer-use.md) — `Term` — 让 AI 直接读屏 + 模拟键鼠操作图形界面
 - [Self-Hosted（自托管）](term-self-hosted.md) — `Term` — 数据可控 / 长期低成本 / 可深度定制的部署形态
 - [RAG（检索增强生成）](term-rag.md) — `Term` — 给 LLM 配外部知识库，让回答可追溯、可更新
+- [OpenTelemetry（OTel）](term-otel.md) — `Term` — CNCF 可观测性开放标准，LLM Agent telemetry 的事实数据模型底座
 - [Context Engineering（上下文工程）](term-context-engineering.md) — `Term` — 围绕「上下文窗口怎么选 / 怎么排 / 怎么省」的工程实践
 - [Computational Neuroscience（计算神经科学）](term-comp-neuro.md) — `Term` — 用数学模型 + 计算机仿真研究神经系统
 - [Multi-Agent（多智能体协作）](term-multi-agent.md) — `Term` — 多 LLM agent 通过角色分工 / 共享状态协同解决复杂任务
 - [Cloud Coding Agent（云端编码代理）](term-cloud-coding-agent.md) — `Term` — 跑在云端沙箱里的 AI 编码 agent
 - [Sandbox（沙箱）](term-sandbox.md) — `Term` — agent / 不可信代码的标准隔离运行环境
 - [Harness Engineering（Harness 工程）](term-harness-engineering.md) — `Term` — 围绕「怎么把 LLM 包成稳定 / 可观测 / 可治理产品」的工程实践
+- [Aiployees / 数字员工](term-ai-employees.md) — `Term` — 把业务流程按岗位拆解为「带日程的 AI 员工」，对外动作必须人工确认
 
 ## 工具（Tools）
 
@@ -3787,3 +3789,57 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 1 条纯内容跳过：RT @poteto 2500 PRs 主题演讲 (2102300538813796817) 仅一段视频 + 主题演讲链接，无具体工具 / 概念
 - Wen_Zw 1 条仅链接跳过：RT @ricouii 文章链接 (2102292555782406487) `https://x.com/i/article/...` 内部文章无摘要 / 项目
 - QingQ77 4 条纯情绪 / 短视频跳过：「现在的 AI 太强了...」(2102178800159346844) / 「乐高嘎巴拉」(2102425690033262679) / 「这是拿命在玩」(2102347987498471644) / 「机器人界的《死神来了》」(2102256781384962210) / 「捕蝇神器」(2102413215879864459) / 「最近罗永浩交个朋友直播间...」(2102288723039891536，板材科普非项目)
+
+## 本批新增（2026-09-23）
+
+### 设计 / 前端 / 灵感库
+- [useLayouts](./tool-uselayouts.md) — `Tool` — 现代网站按段落（hero / 导航 / 表单 / 卡片 / 定价）分类的生产级版式灵感集合
+- [Design Spells](./tool-designspells.md) — `Tool` — 专门收录产品里克制又迷人的微交互与彩蛋细节的灵感库
+- [loading.dev](./tool-loading-dev.md) — `Tool` — 加载动画「决定版」灵感集合，按场景（按钮 / 表单 / 页面切换）分类
+
+### 笔记 / 文档 / 编辑
+- [ekphos](./tool-ekphos.md) — `Tool` — 终端 TUI Markdown 笔记工具，把 Obsidian 双链 / 图谱 / Bases / Canvas 搬进命令行
+- [DocJev](./tool-docjev.md) — `Tool` — 把混在一起的 PDF / DOCX 用模型按 YAML 规则自动拆成单文件，可直接导出独立 PDF
+
+### 桌面 / 系统
+- [MenuBarHider](./tool-menubarhider.md) — `Tool` — macOS 27 重写菜单栏后 Hidden Bar / Ice 等工具失效，两个分隔符 + 一次点击重新隐藏图标
+
+### 内容 / 知识 / 资源
+- [Dewarr](./tool-dewarr.md) — `Tool` — 自托管 Web 应用，把 Goodreads / Hardcover / 下载站 / Audiobookshelf 的清单同步 / 搜书 / 挑版本 / 入库四步串成一条龙
+- [CSAPP 中文 Markdown 版](./note-csapp-zh-markdown.md) — `Note` — 《深入理解计算机系统》第三版前言 + 1–12 章正文 + 238 题答案 + 8 个实验的中文 Markdown 整理
+
+### AI / Agent 决策模型生态（Jev 周边）
+- [Rizzo Flow](./tool-rizzo-flow.md) — `Tool` — 用开源权重 + llama.cpp 补齐本地 Jev，改 base URL 就能对接，附自述概率未校准 / 36 例 6 例缺证据自信答错 / 26 选项等边界
+- [jev-chat-jarvis](./tool-jev-chat-jarvis.md) — `Tool` — 用系统无障碍只读手机屏幕对话，Jev 判断意图给 3 条候选回复，一键填入输入框（不代发）
+- [jev-webmcp-extension](./tool-jev-webmcp-extension.md) — `Tool` — 浏览器扩展，Jev 从当前页面已注册的 WebMCP 工具中按自然语言挑该调用哪个、参数怎么填
+- [hermes-jev-skills](./tool-hermes-jev-skills.md) — `Tool` — 把 agent 每轮的模型选择 / 技能挑选 / 记忆筛选 / 上下文压缩交给 Jev，省前沿模型 token
+- [jev-skill](./tool-jev-skill.md) — `Tool` — 5 个直接可装 Skills + 108 个可复制场景，把分类 / 排序 / 打分这类判断题交给 Jev
+- [laya-vs-jev](./tool-laya-vs-jev.md) — `Tool` — 本地 Laya（MLX）vs 云端 Jev 放在 T-Rex 跑酷赛道上对打，对比延迟 / 存活 / 决策回放
+
+### DeepSeek Harness 周边
+- [DSH-X](./tool-dsh-x.md) — `Tool` — DeepSeek Harness 的 Windows 图形启动器，版本安装 / 启停 / 更新 / 插件开关全图形化
+
+### 语音 / 多模态
+- [YoVoice](./tool-yovoice.md) — `Tool` — 本地文字转语音（audio.cpp 推理），集成 IndexTTS / VoxCPM2 / OmniVoice / Qwen3-TTS 等多模型，GUI + CLI 双形态
+
+### 编辑器 / 工具
+- [sqmeow.nvim](./tool-sqmeow.md) — `Tool` — Neovim 数据库插件，在编辑器内连接数据库 / 写 SQL / 改表
+
+### 体育 / 视频分析
+- [CourtMind](./tool-courtmind.md) — `Tool` — 羽毛球比赛视频自动转球场标定 / 球员轨迹 / Rally 切分 / 击球统计，再用 LLM 问答
+
+### 自托管 / 反馈
+- [openheard](./tool-openheard.md) — `Tool` — Canny 类付费反馈板的自托管开源替代，Cloudflare Worker + D1 数据库就能跑
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 9 条跳过：5 条与 2026-09-22 既有概念重复（Repowise RT 2102399930463912079 / Rewamp UI 2102581941686194676 + 2102123247206896071 / kobra 2102748594403201124 / Originkit 2102768024071860229 / mcp-gsc 2102351797461672431 / Agent Beacon 2102176894703882617），3 条低价值（poteto 2500 PRs 主题演讲 2102300538813796817 / ricouii 内部文章链接 2102292555782406487 / grill-me vs Tactical Programming 视频感想 2102668297162698779）
+- QingQ77 12 条跳过：6 条低价值 / 纯情绪（「哈哈哈哈，被半路劫了」2102535754547364028 / 「乐高嘎巴拉」2102425690033262679 / 「这是拿命在玩」2102347987498471644 / 「机器人界的《死神来了》」2102256781384962210 / 「捕蝇神器」2102413215879864459 / 罗永浩直播间板材科普 2102288723039891536），6 条与 2026-09-22 既有概念重复（jev-cli 2102211528263131322 / mandala-maker 2102196177093501045 / voc-insight 2102265886497526240 / hibi 2102405305904566545 / Axonel 2102311939930308938 / obsidian-flowtask-sp 2102250786931818720 / omarchy-blue-hour-theme 2102281237763068259 / trade-journal 2102358748383911951 / seo-monster 2102420656524832911 / pi-ling 2102327039646642451 / clawd-conduit 2102389450907275647 / pi-desktop 2102753097114349605 / zju842-practice 2102296589167423542 / ai-employees 2102235435930149249 / clearai-dsh 2102343649052758062 / RLink-RemoteCtrl 2102374100547072185）
+
+### 断链工单处理
+- 新建 [`term-otel`](./term-otel.md) — OpenTelemetry（CNCF 可观测性开放标准，LLM Agent telemetry 事实数据模型底座）
+- 新建 [`term-ai-employees`](./term-ai-employees.md) — Aiployees / 数字员工（按岗位拆 AI 员工，对外动作必须人工确认）
+
+### 增量更新
+- [`note-ai-agent-book`](./note-ai-agent-book.md) — 追加 Astro 版 Web 阅读（2026-09 上线，移动端友好）+ 截图
+- [`tool-pstack`](./tool-pstack.md) — 追加 Part 2：与 `/wayfinder` 组合的多方案对比工作流（/arena / /swarm race 模式 best-of-n / first-pass / rank all）
+- [`tool-mattpocock-wayfinder`](./tool-mattpocock-wayfinder.md) — 追加「与 pstack 的组合用法」一节，提示单用 grill-me 的陷阱

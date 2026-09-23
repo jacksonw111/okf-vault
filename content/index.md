@@ -3429,3 +3429,57 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 1 条内部链接跳过：RT @ricouii 文章 (2102292555782406487) `x.com/i/article/...` 无摘要 / 项目
 - QingQ77 6 条纯情绪 / 短视频跳过：AI 少年心气 / 乐高嘎巴拉 / 这是拿命在玩 / 死神来了 / 捕蝇神器 / 板材科普（罗永浩直播间）
 
+## 本批新增（2026-09-23）
+
+**设计 / 前端 / 灵感库**
+- [tool-uselayouts](concepts/tool-uselayouts.md) — 现代网站按段落分类的生产级版式灵感集合
+- [tool-designspells](concepts/tool-designspells.md) — 专门收录产品里克制又迷人的微交互与彩蛋细节
+- [tool-loading-dev](concepts/tool-loading-dev.md) — 加载动画「决定版」灵感集合，按场景分类
+
+**笔记 / 文档 / 编辑**
+- [tool-ekphos](concepts/tool-ekphos.md) — 终端 TUI Markdown 笔记工具，把 Obsidian 双链 / 图谱 / Canvas 搬进命令行
+- [tool-docjev](concepts/tool-docjev.md) — 把混在一起的 PDF / DOCX 用模型按 YAML 规则自动拆成单文件
+
+**桌面 / 系统**
+- [tool-menubarhider](concepts/tool-menubarhider.md) — macOS 27 重写菜单栏后用两个分隔符 + 一次点击重新隐藏图标
+
+**内容 / 资源**
+- [tool-dewarr](concepts/tool-dewarr.md) — 自托管 Web 应用，把 Goodreads / Hardcover / Audiobookshelf 串成一条龙
+- [note-csapp-zh-markdown](concepts/note-csapp-zh-markdown.md) — CSAPP 第三版中文 Markdown 整理（正文 + 238 题 + 8 实验）
+
+**AI / Agent 决策模型生态（Jev 周边）**
+- [tool-rizzo-flow](concepts/tool-rizzo-flow.md) — 用开源权重 + llama.cpp 补齐本地 Jev
+- [tool-jev-chat-jarvis](concepts/tool-jev-chat-jarvis.md) — 无障碍只读手机屏幕，Jev 给候选回复（不代发）
+- [tool-jev-webmcp-extension](concepts/tool-jev-webmcp-extension.md) — 浏览器扩展，Jev 从 WebMCP 工具里路由
+- [tool-hermes-jev-skills](concepts/tool-hermes-jev-skills.md) — 每轮小决策交给 Jev 省前沿模型 token
+- [tool-jev-skill](concepts/tool-jev-skill.md) — 5 Skills + 108 场景，把判断题交给 Jev
+- [tool-laya-vs-jev](concepts/tool-laya-vs-jev.md) — 本地 Laya vs 云端 Jev 在 T-Rex 跑酷赛道上对打
+
+**DeepSeek Harness 周边**
+- [tool-dsh-x](concepts/tool-dsh-x.md) — DeepSeek Harness Windows 图形启动器
+
+**语音 / 多模态**
+- [tool-yovoice](concepts/tool-yovoice.md) — 本地 TTS（audio.cpp），集成 IndexTTS / VoxCPM2 / Qwen3-TTS 多模型
+
+**编辑器 / 工具**
+- [tool-sqmeow](concepts/tool-sqmeow.md) — Neovim 数据库插件
+
+**体育 / 视频分析**
+- [tool-courtmind](concepts/tool-courtmind.md) — 羽毛球比赛视频自动转球场标定 / 球员轨迹 / Rally 切分 / 击球统计
+
+**自托管 / 反馈**
+- [tool-openheard](concepts/tool-openheard.md) — Canny 类反馈板的开源自托管替代（Cloudflare Worker + D1）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 9 条跳过：5 条与 2026-09-22 既有概念重复（Repowise RT / Rewamp UI×2 / kobra / Originkit / mcp-gsc / Agent Beacon），3 条低价值（poteto 主题演讲 / ricouii 内部文章链接 / grill-me vs Tactical 视频感想）
+- QingQ77 18 条跳过：6 条低价值 / 纯情绪（劫了 / 乐高嘎巴拉 / 拿命在玩 / 死神来了 / 捕蝇神器 / 板材科普），12 条与 2026-09-22 既有概念重复（jev-cli / mandala-maker / voc-insight / hibi / Axonel / obsidian-flowtask-sp / omarchy-blue-hour-theme / trade-journal / seo-monster / pi-ling / clawd-conduit / pi-desktop / zju842-practice / ai-employees / clearai-dsh / RLink-RemoteCtrl）
+
+### 断链工单处理
+- 新建 [term-otel](concepts/term-otel.md) — OpenTelemetry（CNCF 可观测性开放标准）
+- 新建 [term-ai-employees](concepts/term-ai-employees.md) — Aiployees / 数字员工
+
+### 增量更新
+- [note-ai-agent-book](concepts/note-ai-agent-book.md) — 追加 Astro 版 Web 阅读 + 截图
+- [tool-pstack](concepts/tool-pstack.md) — 追加 Part 2：与 `/wayfinder` 组合的多方案对比工作流
+- [tool-mattpocock-wayfinder](concepts/tool-mattpocock-wayfinder.md) — 追加「与 pstack 组合用法」一节
+

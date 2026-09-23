@@ -4,7 +4,7 @@ title: "《深入理解 AI Agent：设计原理与工程实践》（bojieli/ai-a
 description: "bojieli 在图灵 2025 年 8~10 月《AI Agent 实战营》课程整理的开源电子书——围绕 Agent = LLM + 上下文 + 工具 核心公式展开十章,从 Harness 工程到多 Agent 协作的全景。"
 resource: "https://github.com/bojieli/ai-agent-book"
 tags: "[ai-agent, book, harness, multi-agent, mcp, open-source, education]"
-timestamp: "2026-07-15T19:40:00Z"
+timestamp: "2026-09-23T22:40:00Z"
 ---
 
 # 《深入理解 AI Agent：设计原理与工程实践》
@@ -36,6 +36,12 @@ timestamp: "2026-07-15T19:40:00Z"
 ## 媒体
 
 ![](https://pbs.twimg.com/media/HNQd1tlagAA9QtI.jpg)
+![](https://pbs.twimg.com/media/HS5tpWRbwAAzKL7.jpg) — 2026-09 更新：Astro 版 Web 阅读（移动端友好）
+
+## 阅读版本
+
+- **GitHub 仓库**：<https://github.com/bojieli/ai-agent-book>
+- **Astro Web 阅读版**：<https://bojieli.github.io/ai-agent-book/astro/> — 2026-09 上线，比旧版更美观且移动端友好
 
 ## 参考链接
 
