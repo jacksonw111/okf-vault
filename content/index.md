@@ -3483,3 +3483,57 @@ timestamp: "2026-08-27T15:46:00Z"
 - [tool-pstack](concepts/tool-pstack.md) — 追加 Part 2：与 `/wayfinder` 组合的多方案对比工作流
 - [tool-mattpocock-wayfinder](concepts/tool-mattpocock-wayfinder.md) — 追加「与 pstack 组合用法」一节
 
+### 本批新增（2026-09-24）
+
+**Agent / Harness / 模型路由**
+- [tool-wake](concepts/tool-wake.md) — Rust + GPUI 桌面应用，把 20+ 个 agent 会话收进同一窗口（检索 / 续聊 / SSH 镜像 / 活跃热力图）
+- [tool-strands-agents-harness](concepts/tool-strands-agents-harness.md) — Amazon 出品 Harness SDK（Python / TS），内置生命周期 / MCP / 多 agent / 护栏 / tracing / evals
+- [tool-astra-ares](concepts/tool-astra-ares.md) — Codex 动态推理档位切换器，Jev 在每次生成前重挑档位
+- [tool-fast-browser-use](concepts/tool-fast-browser-use.md) — 本机 Qwen3.5 驱动浏览器自动化（MLX / PyTorch），候选动作 + logit 挑选
+- [tool-jev-browser-use](concepts/tool-jev-browser-use.md) — 无障碍树驱动浏览器操作，点击交给 $0.042/M 便宜模型
+- [tool-jevgpt](concepts/tool-jevgpt.md) — 判定模型 jev-latest 当生成模型用，多选判定逐词拼回复
+- [note-agent-verification-ladder](concepts/note-agent-verification-ladder.md) — SpaceX / Dune 视角的 5 级 agent 自我验证阶梯
+
+**视频 / 媒体 / 设计**
+- [tool-knowclip](concepts/tool-knowclip.md) — 长视频自动切片（Paraformer + OpenAI 兼容 API + ffmpeg 流复制）
+- [tool-plasma-ui](concepts/tool-plasma-ui.md) — React 液态玻璃面板组件库（WebGL）
+- [tool-thinkingorbs](concepts/tool-thinkingorbs.md) — SwiftUI 3D 点阵加载指示器
+- [tool-pr-lens](concepts/tool-pr-lens.md) — PR 转架构图 / 数据流 / 变更动画
+- [tool-motion-reference](concepts/tool-motion-reference.md) — 动效辞典站点（动作类型 / 缓动 / 速度）
+
+**设计 / 资源合集**
+- [tool-unikist](concepts/tool-unikist.md) — 696+ 设计资源合集
+- [tool-designeer](concepts/tool-designeer.md) — 人工实测的 420 工具 / 17 分区设计工程目录
+- [tool-awesome-design-md](concepts/tool-awesome-design-md.md) — 73 个网站的 DESIGN.md 集合（Vercel / Notion / Figma / Linear）
+- [tool-craft-gustavofior](concepts/tool-craft-gustavofior.md) — UI 细节小技集，强调给 AI 看的设计规则文档
+- [note-goated-ui-microinteraction](concepts/note-goated-ui-microinteraction.md) — useLayouts / Nexvyn UI / Motion / Cult UI / Spell UI 五条精选
+
+**学习 / 文章集**
+- [note-earendil-agent-posts](concepts/note-earendil-agent-posts.md) — earendil 上 7 篇 Agent 设计原理文章合集
+
+**桌面 / 自托管 / 终端**
+- [tool-amlogic-armbian](concepts/tool-amlogic-armbian.md) — 电视盒子 → Linux 服务器（2-5W 待机）
+- [tool-search-minimal-browser](concepts/tool-search-minimal-browser.md) — macOS 极简浏览器（3 MB，无工具栏 / 推荐流 / 账号）
+- [tool-omarchy-icloud-photos](concepts/tool-omarchy-icloud-photos.md) — Linux 上的 iCloud 照片同步
+- [tool-better-night-light](concepts/tool-better-night-light.md) — Android 夜览分时段调度
+- [tool-sprout-cli](concepts/tool-sprout-cli.md) — 终端习惯打卡
+- [tool-openmuse](concepts/tool-openmuse.md) — 自托管任务执行台
+
+**内容 / 创作 / 工具**
+- [tool-fxembed](concepts/tool-fxembed.md) — 绕过 X API 的第三方检索 / 嵌入
+- [tool-aegisops](concepts/tool-aegisops.md) — 企业值班 Agent 故障处置流水线（Agent 只读）
+- [tool-apk-reverse-skill](concepts/tool-apk-reverse-skill.md) — 安卓逆向 Skill
+- [tool-figures4papers](concepts/tool-figures4papers.md) — 顶刊论文绘图脚本（Nature MI / ICML / NeurIPS / ECCV）
+- [tool-plexo-downloader](concepts/tool-plexo-downloader.md) — 多网卡并发下载管理器
+- [tool-slavingia-skills](concepts/tool-slavingia-skills.md) — 《小而美》方法论打包的 Agent Skills
+
+**阅读 / 交互**
+- [tool-qingming-riverside](concepts/tool-qingming-riverside.md) — 网页交互版《清明上河图》
+
+**笔记 / Obsidian**
+- [tool-qiaomu-ai-rss](concepts/tool-qiaomu-ai-rss.md) — Obsidian 内的 RSS + 乔木精选阅读
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 6 条跳过（低价值）：xevrion lab / Modulify 演示 / SakaniUI 公告 / Efferd blocks 链接 / uiarc.dev waitlist / shadcnuikit page builder 预告
+- QingQ77 1 条跳过（低价值）：AAAAGENT Live2D 桌宠产品介绍
+

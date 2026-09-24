@@ -3843,3 +3843,57 @@ timestamp: "2026-08-27T15:46:00Z"
 - [`note-ai-agent-book`](./note-ai-agent-book.md) — 追加 Astro 版 Web 阅读（2026-09 上线，移动端友好）+ 截图
 - [`tool-pstack`](./tool-pstack.md) — 追加 Part 2：与 `/wayfinder` 组合的多方案对比工作流（/arena / /swarm race 模式 best-of-n / first-pass / rank all）
 - [`tool-mattpocock-wayfinder`](./tool-mattpocock-wayfinder.md) — 追加「与 pstack 的组合用法」一节，提示单用 grill-me 的陷阱
+
+## 本批新增（2026-09-24）
+
+### Agent / Harness / 模型路由
+- [Wake](./tool-wake.md) — `Tool` — Rust + GPUI 桌面应用，把 Claude Code / Codex / Cursor / Pi 等 20 多个 agent 的会话收进同一窗口：全文检索、一键续聊、SSH 远程镜像、GitHub 风格活跃热力图，全程本地
+- [Strands Agents Harness SDK](./tool-strands-agents-harness.md) — `Tool` — Amazon 出品，Python / TypeScript 双 SDK，内置生命周期 / tools + structured output / MCP / 多 agent / memory / 模型可移植 / streaming / 护栏 / tracing / evals
+- [Astra-Ares](./tool-astra-ares.md) — `Tool` — Codex 动态推理档位切换器，每次生成前用 Jev 重挑档位（读 / 跑工具 / 写分开强度）
+- [fast-browser-use](./tool-fast-browser-use.md) — `Tool` — APUS 把 Qwen3.5-9B / 35B-A3B 搬本机，MLX / PyTorch 驱动浏览器自动化，候选动作清单 + logit 挑选避免生成不存在的选择器
+- [jev-browser-use](./tool-jev-browser-use.md) — `Tool` — 无障碍树驱动的浏览器操作，点击交给 $0.042/M 便宜模型，Codex 只留打字 / 验收
+- [jevgpt](./tool-jevgpt.md) — `Tool` — 把 TypeSafe 判定模型 jev-latest 当生成模型用，多选判定逐词拼聊天回复
+- [Agent 自我验证阶梯](./note-agent-verification-ladder.md) — `Note` — SpaceX / Dune 视角的五级阶梯：跑应用 → feature map → 失败沉淀 skill → skill 当 unit test 跑 eval → 把规则硬化
+
+### 视频 / 媒体 / 设计
+- [KnowClip](./tool-knowclip.md) — `Tool` — 长视频自动切片，Tauri 2 + FastAPI + Paraformer 字级时间戳 + OpenAI 兼容 API 高光分析 + ffmpeg -c copy 流复制导出
+- [Plasma UI](./tool-plasma-ui.md) — `Tool` — React 液态玻璃面板组件库，WebGL canvas 渲染，表面张力 + 内容折射 + 24px 网格吸附
+- [ThinkingOrbs](./tool-thinkingorbs.md) — `Tool` — SwiftUI 3D 点阵加载指示器，一行代码替换系统转圈
+- [PR Lens](./tool-pr-lens.md) — `Tool` — PR 转架构图 / 数据流 / 变更动画，reviewer 先理解「系统变化」再下钻代码
+- [Motion Movement Reference](./tool-motion-reference.md) — `Tool` — 动效辞典站点，按动作类型 / 缓动曲线 / 速度收录 UI 动效样例
+
+### 设计 / 资源合集
+- [Unikist](./tool-unikist.md) — `Tool` — 696+ 设计资源合集（图标 / 字体 / 样机 / UI 套件 / 灵感 / 练习题）
+- [Designeer](./tool-designeer.md) — `Tool` — 设计工程全景目录，420 个工具 / 17 分区 / 132 位创作者，人工实测筛选
+- [awesome-design-md](./tool-awesome-design-md.md) — `Tool` — 73 个网站（Vercel / Notion / Figma / Linear 等）的 DESIGN.md 集合，拷进项目让 AI 按规范开发
+- [Craft by Gustavo Fior](./tool-craft-gustavofior.md) — `Tool` — UI 细节小技集站点，强调给 AI 看的设计规则文档比组件库扩充更值得投入
+- [Goated UI / 微交互资源清单](./note-goated-ui-microinteraction.md) — `Note` — useLayouts / Nexvyn UI / Motion / Cult UI / Spell UI 五条精选资源
+
+### 学习 / 阅读 / 文章集
+- [earendil.com/posts 文章集](./note-earendil-agent-posts.md) — `Note` — earendil 上 7 篇 Agent 设计原理文章合集（Sloppiness / Harness / Compaction / Prompt Caching / Session / Pi 极简）
+
+### 桌面 / 自托管 / 终端
+- [amlogic-s9xxx-armbian](./tool-amlogic-armbian.md) — `Tool` — 电视盒子 → Linux 服务器（2-5W 待机），覆盖 Amlogic / Rockchip / Allwinner，内置刷机备份 / eMMC 安装 / 内核更新 / Docker 一键部署
+- [Search](./tool-search-minimal-browser.md) — `Tool` — macOS 极简浏览器，3 MB 安装包，仅标签栏 + 网页，无工具栏 / 推荐流 / 账号
+- [omarchy-icloud-photos](./tool-omarchy-icloud-photos.md) — `Tool` — Linux 上的 iCloud 照片同步（Omarchy 桌面优化），Quickshell + QML 按天网格
+- [Better Night Light](./tool-better-night-light.md) — `Tool` — Android 夜览分时段调度，ADB / Shizuku / root 接管系统原生 Night Light，把夜间拆多段调色温
+- [sprout](./tool-sprout-cli.md) — `Tool` — 终端习惯打卡，一行命令记一笔，无需注册登录
+- [OpenMuse](./tool-openmuse.md) — `Tool` — 自托管任务执行台，把网页 / 命令 / 文件 / 邮件收进同一应用，任务丢进去自己跑，事后翻记录
+
+### 内容 / 知识 / 创作
+- [FxEmbed](./tool-fxembed.md) — `Tool` — 绕过 X 官方 API 的第三方 X 检索 / 嵌入工具，5k+ stars
+- [AegisOps](./tool-aegisops.md) — `Tool` — 企业值班 Agent 故障处置流水线（取证 / 诊断 / 开单 / 审批 / 复查），Agent 只读不能改宿主系统
+- [apk-reverse](./tool-apk-reverse-skill.md) — `Tool` — 安卓逆向 Skill，把解包 / 反编译 / smali / Frida / so 分析打包成 Claude Code / Codex 可调用工作流
+- [figures4papers](./tool-figures4papers.md) — `Tool` — 耶鲁 CS 博士生把 Nature MI / ICML / NeurIPS / ECCV 论文绘图脚本整理开源 + Skill 化
+- [Plexo](./tool-plexo-downloader.md) — `Tool` — 多网卡并发下载管理器，把 Wi-Fi / 以太网 / USB 共享绑成多条并发连接
+- [The Minimalist Entrepreneur Skills](./tool-slavingia-skills.md) — `Tool` — Gumroad 创始人把《小而美》方法论打包成 Agent Skills
+
+### 阅读 / 交互
+- [qingming-riverside](./tool-qingming-riverside.md) — `Tool` — 网页交互版《清明上河图》，岸边唤船 / 牵船过桥 / 清明时雨
+
+### 笔记 / Obsidian
+- [qiaomu-ai-rss](./tool-qiaomu-ai-rss.md) — `Tool` — Obsidian 内的 RSS 阅读 + 乔木精选，把文章链接 / 摘录写进今日日记
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 5 条跳过（低价值 / 无信息量）：xevrion_the1 的 lab（2102885746227184053，「just a lab」无实质内容）/ Modulify 模板演示（2102885837134590410，纯产品演示视频）/ SakaniUI 上线公告（2102894695315894288，无实质信息）/ Efferd dashboard blocks（2102899258798329990，仅一句 + 链接）/ uiarc.dev 候补名单（2103001652974502057，仅 waitlist 链接）/ shadcnuikit page builder 上线预告（2103015147384259050，纯预告）
+- QingQ77 1 条跳过（低价值 / 无项目实质）：AAAAGENT Live2D 桌宠（2103074464644608300，纯产品介绍无项目链接以外信息）
