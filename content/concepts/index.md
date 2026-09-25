@@ -3894,6 +3894,39 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 笔记 / Obsidian
 - [qiaomu-ai-rss](./tool-qiaomu-ai-rss.md) — `Tool` — Obsidian 内的 RSS 阅读 + 乔木精选，把文章链接 / 摘录写进今日日记
 
+### 本批新增（2026-09-25）
+
+**AI / Agent / Jev / Laya 周边**
+- [djev-run](./tool-djev-run.md) — `Tool` — DiffusionGemma-Jev 模型的 Cloud Run 一键部署脚本，单卡 RTX PRO 6000 冷启动 47.5s 跑 TypeSafe AI 兼容接口 + 3 个浏览器小游戏
+- [jev-chat-jarvis-mac](./tool-jev-chat-jarvis-mac.md) — `Tool` — Mac 版微信 / QQ 消息意图助手，本机截图 OCR（QQ 走无障碍树）+ 本地 decider-2b 判定意图 / 风险，全程只读不注入微信
+- [JevRev](./tool-jevrev.md) — `Tool` — 在 LLM 外加一层 Jev 决策与证据审计，先筛掉重复 / 跑偏 / 低回报方案，再对每轮生成审计证据
+- [laya-server](./tool-laya-server.md) — `Tool` — 1Panel 出品的 Laya System One 模型 Docker 化项目，对外暴露兼容 TypeSafe Jev 的 HTTP API（/v1/systemone），自带测试 UI
+- [CLM（Contrastive Language Model）](./term-clm.md) — `Term` — 用对比学习 + 双向 InfoNCE 把 state / candidate action 映射到同一向量空间，给 Agent 当 System One 用的专用决策模型（CLM-8B 用 6000 万问答 + 3000 万难负样本 + 100 万 Agent 轨迹训练）
+
+**Agent Skill / 内容生成**
+- [3dicon](./tool-3dicon.md) — `Tool` — Claude Code Skill，把描述 / 静图转成 3D 动画 WebP 图标（无缝循环 + 真实透明通道）
+- [golive-skill](./tool-golive-skill.md) — `Tool` — 让 AI 编码智能体把搭出来的应用真正部署上线（域名 / 托管 / 数据库 / 鉴权 / 邮件 / 支付），全部跑在用户自己账号
+- [threejs-architecture-effects](./tool-threejs-architecture-effects.md) — `Tool` — 让 Codex / Claude Code / Cursor 按统一方法生成可旋转 / 逐层搭建的三维古建网站，砖 / 木 / 石 / 瓦 / 铜等材质代码生成
+- [html-explainer](./tool-html-explainer.md) — `Tool` — 跨 Agent Skill（Claude Code / Codex / WorkBuddy / Cursor / Gemini CLI），把调研 / 解说词 / TTS / 词级字幕 / HTML/CSS/GSAP / MP4 / 质检 / 封面串成本地流水线
+
+**桌面 / 自托管 / 终端**
+- [Windshift](./tool-windshift.md) — `Tool` — Go + Svelte 单二进制自托管项目管理工具，默认 SQLite，可换 PostgreSQL
+- [tincan-cli](./tool-tincan-cli.md) — `Tool` — 终端 P2P 语音 + 文字聊天室，iroh 打洞 + Opus，房间元数据走开房者、音频走 P2P，无中心服务器
+- [Rooms（Mac 房间切换器）](./tool-rooms-mac.md) — `Tool` — 把 Mac 窗口存成可切换「房间」，⌥Space 一键恢复整套窗口 + 布局，房间外窗口隐藏而非关闭
+- [pi-tty7-tab-namer](./tool-pi-tty7-tab-namer.md) — `Tool` — 给 Pi 终端会话自动起名，复用当前会话所用模型，同步到终端 Tab 标题 + /resume 列表
+
+**金融 / SEO / GEO**
+- [jev-seo](./tool-jev-seo.md) — `Tool` — 本地 Python CLI / Claude Code Skill，52 项 SEO 规则 + PageSpeed + Jev 判定，输出 PDF / XLSX / Markdown 三种报告
+- [geo-score](./tool-geo-score.md) — `Tool` — 用公开量表给网站打 GEO 分（ChatGPT / Perplexity / Google AI 答案引擎友好度），给出优先补的缺口
+- [market-echo](./tool-market-echo.md) — `Tool` — 本地行情形态相似度检索，最近 96 根 K 线找历史相似区间，最多返回 30 / 60 / 100 个不重叠案例
+
+**视觉 / 创意 / 艺术**
+- [anidoodle](./tool-anidoodle.md) — `Tool` — 插画 / 动画 / 短片写进代码（确定性、可 diff），可导出 GIF / MP4 / APNG / 离线 HTML
+- [spiralist](./tool-spiralist.md) — `Tool` — 照片 → 一笔画艺术（钢笔 / 铅笔 / 绘画风格），浏览器内观看落笔过程，可导出图像或生成 3D 打印文件
+
+**学习 / 文章**
+- [Scaling AI Adoption in Engineering（O'Reilly）](./note-scaling-ai-adoption-book.md) — `Note` — Peter Bell 写的工程 AI 规模化落地领导层实战手册，针对 CTO / VP，免费 PDF（Antithesis 提供）
+
 ### 跳过（Skipped / 质量门槛）
-- Wen_Zw 5 条跳过（低价值 / 无信息量）：xevrion_the1 的 lab（2102885746227184053，「just a lab」无实质内容）/ Modulify 模板演示（2102885837134590410，纯产品演示视频）/ SakaniUI 上线公告（2102894695315894288，无实质信息）/ Efferd dashboard blocks（2102899258798329990，仅一句 + 链接）/ uiarc.dev 候补名单（2103001652974502057，仅 waitlist 链接）/ shadcnuikit page builder 上线预告（2103015147384259050，纯预告）
-- QingQ77 1 条跳过（低价值 / 无项目实质）：AAAAGENT Live2D 桌宠（2103074464644608300，纯产品介绍无项目链接以外信息）
+- Wen_Zw 4 条跳过（质量门槛 / 重复）：keel-workspace 展示页（2103301298963775546，仅 showcase URL + skills 列表无独立工具）/ kobra.systems（2103331107832041670，与既有 `tool-kobra-motion` 同一站点重复）/ Pixel-perfect.space（2103331280406634567，仅一句话 + URL）/ 3dicon RT（2103405884047282599，与 QingQ77 同主题已合并到 `tool-3dicon`）
+- QingQ77 1 条跳过（质量门槛）：「简直是艺术」（2103397376618856637，仅三字 + 视频，无项目 / 概念）

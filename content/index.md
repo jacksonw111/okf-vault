@@ -3533,7 +3533,40 @@ timestamp: "2026-08-27T15:46:00Z"
 **笔记 / Obsidian**
 - [tool-qiaomu-ai-rss](concepts/tool-qiaomu-ai-rss.md) — Obsidian 内的 RSS + 乔木精选阅读
 
+### 本批新增（2026-09-25）
+
+**AI / Agent / Jev / Laya 周边**
+- [tool-djev-run](concepts/tool-djev-run.md) — DiffusionGemma-Jev 模型的 Cloud Run 一键部署脚本
+- [tool-jev-chat-jarvis-mac](concepts/tool-jev-chat-jarvis-mac.md) — Mac 版微信 / QQ 消息意图助手（截图 OCR + 本地 decider-2b，只读不注入）
+- [tool-jevrev](concepts/tool-jevrev.md) — LLM 外加一层 Jev 决策与证据审计
+- [tool-laya-server](concepts/tool-laya-server.md) — Laya System One 模型的 Docker 化 HTTP API（兼容 TypeSafe Jev）
+- [term-clm](concepts/term-clm.md) — Contrastive Language Model，给 Agent 当 System One 用的决策模型
+
+**Agent Skill / 内容生成**
+- [tool-3dicon](concepts/tool-3dicon.md) — Claude Code Skill，描述 / 静图 → 3D 动画 WebP 图标
+- [tool-golive-skill](concepts/tool-golive-skill.md) — 让 AI 编码产物真正部署到用户自己账号
+- [tool-threejs-architecture-effects](concepts/tool-threejs-architecture-effects.md) — 三维古建生成的 Agent Skill
+- [tool-html-explainer](concepts/tool-html-explainer.md) — 跨 Agent Skill 的 HTML/CSS/GSAP 视频解说流水线
+
+**桌面 / 自托管 / 终端**
+- [tool-windshift](concepts/tool-windshift.md) — Go + Svelte 单二进制自托管项目管理工具
+- [tool-tincan-cli](concepts/tool-tincan-cli.md) — 终端 P2P 语音 + 文字聊天室（iroh 打洞）
+- [tool-rooms-mac](concepts/tool-rooms-mac.md) — Mac 窗口「房间」一键切换器
+- [tool-pi-tty7-tab-namer](concepts/tool-pi-tty7-tab-namer.md) — Pi 终端会话自动命名器
+
+**金融 / SEO / GEO**
+- [tool-jev-seo](concepts/tool-jev-seo.md) — 本地 SEO 审计 + PDF/XLSX/Markdown 报告
+- [tool-geo-score](concepts/tool-geo-score.md) — 答案引擎友好度 GEO 评分工具
+- [tool-market-echo](concepts/tool-market-echo.md) — 本地行情形态相似度检索
+
+**视觉 / 创意 / 艺术**
+- [tool-anidoodle](concepts/tool-anidoodle.md) — 插画 / 动画 / 短片写进代码
+- [tool-spiralist](concepts/tool-spiralist.md) — 照片 → 一笔画艺术 / 3D 打印文件
+
+**学习 / 文章**
+- [note-scaling-ai-adoption-book](concepts/note-scaling-ai-adoption-book.md) — O'Reilly 工程 AI 规模化落地领导层手册
+
 ### 跳过（Skipped / 质量门槛）
-- Wen_Zw 6 条跳过（低价值）：xevrion lab / Modulify 演示 / SakaniUI 公告 / Efferd blocks 链接 / uiarc.dev waitlist / shadcnuikit page builder 预告
-- QingQ77 1 条跳过（低价值）：AAAAGENT Live2D 桌宠产品介绍
+- Wen_Zw 4 条跳过（质量门槛 / 重复）：keel-workspace 展示页 / kobra.systems（与 tool-kobra-motion 重复）/ Pixel-perfect.space 仅 URL / 3dicon RT（与 QingQ77 合并）
+- QingQ77 1 条跳过（质量门槛）：「简直是艺术」无项目 / 概念
 
