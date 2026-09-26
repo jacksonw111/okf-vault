@@ -3570,3 +3570,59 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 4 条跳过（质量门槛 / 重复）：keel-workspace 展示页 / kobra.systems（与 tool-kobra-motion 重复）/ Pixel-perfect.space 仅 URL / 3dicon RT（与 QingQ77 合并）
 - QingQ77 1 条跳过（质量门槛）：「简直是艺术」无项目 / 概念
 
+## 本批新增（2026-09-26）
+
+修复断链工单 `inbox/_broken-links.md`（14 条）+ 处理 Wen_Zw 17 + QingQ77 23 = 共 **40 份资料**（27 新增 + 13 跳过 / 重复）。
+
+**断链修复 stub**（7 条）
+- [term-jev](concepts/term-jev.md) — TypeSafe 结构化判定模型家族
+- [term-laya](concepts/term-laya.md) — 1Panel 出品的 Laya System One 判定模型（与 NandhaKishorM/laya 同名异项目）
+- [term-clm-8b](concepts/term-clm-8b.md) — CLM 的 8B 参数版本
+- [tool-cloud-run](concepts/tool-cloud-run.md) — Google 全托管无服务器容器运行时
+- [term-decider-2b](concepts/term-decider-2b.md) — 端侧 2B 意图 / 风险判定小模型
+- [term-iroh](concepts/term-iroh.md) — Rust P2P 网络栈（QUIC + NAT 打洞）
+- [term-ratatui](concepts/term-ratatui.md) — Rust 终端 UI / TUI 框架
+
+**Agent / 模型 / 治理**
+- [tool-qwen-planner-agent](concepts/tool-qwen-planner-agent.md) — 通义实验室：有状态执行框架 + 训练后规划模型，MobilePA-Bench 77.05%
+- [tool-obot](concepts/tool-obot.md) — 企业 AI 治理平台（MCP + LLM 网关 + 多客户端）
+- [tool-loopx](concepts/tool-loopx.md) — 长时 Agent 状态管理中间件
+- [tool-cua-s1-4b](concepts/tool-cua-s1-4b.md) — cua-ai 开源 4B 多模态电脑操作模型
+- [tool-chinese-laya](concepts/tool-chinese-laya.md) — Laya multilingual 决策模型中文微调
+- [tool-test-audit](concepts/tool-test-audit.md) — OpenClaw 的 Agent 测试审计 Skill
+
+**终端 / 编辑器 / 本机效率**
+- [tool-pebrel](concepts/tool-pebrel.md) — 前身 Nebula；Zed GPUI + Alacritty 跨平台 AI 编码终端
+- [tool-pi-session-hub](concepts/tool-pi-session-hub.md) — Pi 扩展：6 种 AI 编码工具会话历史汇总
+- [tool-portlist](concepts/tool-portlist.md) — AI 工具感知的 Python 端口管理 CLI
+- [tool-perdanga11](concepts/tool-perdanga11.md) — 原生 Win32/C++ 启动器替换 Win11 开始菜单
+- [tool-wonderbox](concepts/tool-wonderbox.md) — Mac 本机系统工具箱
+- [tool-helium-new-tab](concepts/tool-helium-new-tab.md) — Helium 浏览器非官方新标签页扩展
+
+**内容生成 / 设计 / 视觉**
+- [tool-storycast](concepts/tool-storycast.md) — Vite 纯前端 AI 短片生成流水线（fal key）
+- [tool-openslide](concepts/tool-openslide.md) — 为 Agent 设计的幻灯片框架 2.0
+- [tool-obsidian-writing-buddy](concepts/tool-obsidian-writing-buddy.md) — Obsidian 写作助手 + 项目记忆
+- [tool-omarchy-meeting-recorder](concepts/tool-omarchy-meeting-recorder.md) — Omarchy 会议录音 + 转写
+- [tool-gridcraft](concepts/tool-gridcraft.md) — designminis 出品的 Logo 结构展示工具
+
+**桌面 / 治理 / 浏览器扩展**
+- [tool-gitstats](concepts/tool-gitstats.md) — 开源编码统计面板（公私仓都能看）
+- [tool-claude-token-optimizer](concepts/tool-claude-token-optimizer.md) — Claude Code 上下文精简 CLI
+- [tool-claude-windows-cn](concepts/tool-claude-windows-cn.md) — Windows 上 Claude Desktop 一键安装 / 汉化
+- [tool-ha-spatial-context](concepts/tool-ha-spatial-context.md) — Home Assistant 空间上下文组件
+- [tool-chatpassport](concepts/tool-chatpassport.md) — Chrome 侧边栏扩展：跨 AI 对话平台迁移
+
+**金融 / 网络 / 边缘**
+- [tool-edge-scanner](concepts/tool-edge-scanner.md) — 美股分钟行情本机扫描器
+- [tool-personal-edge-proxy](concepts/tool-personal-edge-proxy.md) — 个人自建梯子的清晰路由（Hysteria2 + WARP + SOCKS5）
+
+**学习 / 阅读 / 笔记**
+- [note-ai-system-design](concepts/note-ai-system-design.md) — amitshekhariitbhu 的 AI 系统设计学习仓库
+- [note-anthropic-fde-code-modernization](concepts/note-anthropic-fde-code-modernization.md) — Anthropic FDE 写的 AI 时代代码现代化最佳实践
+- [note-a11y-design-guide](concepts/note-a11y-design-guide.md) — Matt Soriano 的 a11y 体验设计规范
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 8 条（5 重复 + 3 低价值）：ip-as-logo / html-explainer / geo-score / HarnessRouter / componentry 与既有概念重复；intentui / astryx.atmeta.com / theinternetdesigns.com 仅 URL 或与 `note-design-galleries` 重复
+- QingQ77 5 条（低价值）：「说实话 这看起来真不错」「白银挂住就做套麻将保存吧」「 cool 小时候有明星梦吗？ AI 可以做到了 」「桌面吸尘器」「神奇的工具」——均为口水 / 一两句话 + 视频，无项目 / 概念 / 工具实质
+

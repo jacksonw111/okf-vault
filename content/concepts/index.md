@@ -3930,3 +3930,60 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - Wen_Zw 4 条跳过（质量门槛 / 重复）：keel-workspace 展示页（2103301298963775546，仅 showcase URL + skills 列表无独立工具）/ kobra.systems（2103331107832041670，与既有 `tool-kobra-motion` 同一站点重复）/ Pixel-perfect.space（2103331280406634567，仅一句话 + URL）/ 3dicon RT（2103405884047282599，与 QingQ77 同主题已合并到 `tool-3dicon`）
 - QingQ77 1 条跳过（质量门槛）：「简直是艺术」（2103397376618856637，仅三字 + 视频，无项目 / 概念）
+
+## 补建断链 Stub（2026-09-26）
+
+修复 `inbox/_broken-links.md` 工单中的 14 条断链——以下 7 个目标值得收录，建对应 stub 概念（其余断链已被这些 stub 修复或无需单独条目）：
+
+- [Jev（TypeSafe 结构化判定模型家族）](./term-jev.md) — `Term` — System One 快速决策模型家族，输出符合 TypeSafe schema，给 Agent 当快思考 / 外层判定层
+- [Laya System One（1Panel 出品的 TypeSafe 判定模型）](./term-laya.md) — `Term` — 1Panel 出品，HTTP API `/v1/systemone`，与 Jev 协议兼容；与 NandhaKishorM/laya（编码器式决策引擎）是不同项目
+- [CLM-8B](./term-clm-8b.md) — `Term` — CLM 的 8B 参数版本，System One 专用决策模型，三阶段训练（6000 万问答 + 3000 万难负样本 + 100 万 Agent 轨迹）
+- [decider-2b](./term-decider-2b.md) — `Term` — 端侧 2B 意图 / 风险判定小模型（~3.8 GB），jev-chat-jarvis-mac 用它做微信 / QQ 消息意图识别
+- [iroh（Rust P2P 网络栈）](./term-iroh.md) — `Term` — n0-computer 出品，基于 QUIC + NAT 打洞，tincan-cli 的网络底座
+- [ratatui（Rust 终端 UI / TUI 库）](./term-ratatui.md) — `Term` — Rust 生态主流 TUI 框架，tincan-cli / btop / gitui 等都用它
+- [Google Cloud Run](./tool-cloud-run.md) — `Tool` — Google 全托管无服务器容器运行时，djev-run 等模型服务的常见部署目标
+
+## 本批新增（2026-09-26）
+
+### Agent / 模型 / 治理
+- [Qwen-Planner-Agent](./tool-qwen-planner-agent.md) — `Tool` — 通义实验室出品，训练后规划模型 + 有状态执行框架，27B 在 MobilePA-Bench 77.05% 综合分（基线 +9.83 点）
+- [Obot](./tool-obot.md) — `Tool` — 企业 AI 治理平台，MCP + LLM 网关统一管理 Claude Code / Codex / Cursor / VS Code 的模型 / MCP / Skills / 凭据 / 权限 / 审计
+- [LoopX](./tool-loopx.md) — `Tool` — 长时 Agent 状态管理中间件，目标 / 待办 / 进度证据 / 配额落盘，跨 Codex / Claude Code / Cursor 重启不丢
+- [Cua-S1-4B-0.2](./tool-cua-s1-4b.md) — `Tool` — cua-ai 开源 4B 多模态电脑操作模型，纯视觉 + RL，168 项 GUI 基准任务完成率 92.9%（基线 60.1%）
+- [chinese-laya](./tool-chinese-laya.md) — `Tool` — 把 Laya multilingual 决策模型微调出中文能力：翻译英文决策数据 + 保留软目标，目标类别一致率 34% → 76%
+- [test-audit（OpenClaw 的 Agent 测试审计 Skill）](./tool-test-audit.md) — `Tool` — Agent 写测试前先回答四问该不该加，过关才动笔
+
+### 终端 / 编辑器 / 本机效率
+- [Pebrel（前身 Nebula）](./tool-pebrel.md) — `Tool` — Zed GPUI + Alacritty 跨平台终端，Claude Code / Codex 各自图标 + 活动状态 + 分屏通知 + 内置 Markdown 阅读器
+- [pi-session-hub](./tool-pi-session-hub.md) — `Tool` — Pi 扩展，把 Claude Code / Codex / OpenCode / Crush / JCode / Pi 六种 AI 编码工具的会话历史汇总成全屏列表
+- [portlist](./tool-portlist.md) — `Tool` — Python 端口管理 CLI，识别端口是 Claude Code / Codex / Cursor / 终端 / 系统谁起的，并测试实际可达性
+- [Perdanga11](./tool-perdanga11.md) — `Tool` — 原生 Win32/C++ 启动器，替换 Windows 11 开始菜单，自定义分类 + 拖放排序 + 一次启动多个程序 + 跨盘搜索
+- [WonderBox](./tool-wonderbox.md) — `Tool` — Mac 本机系统工具箱：监测 / 内存优化 / 缓存清理 / 应用卸载 / 磁盘分析 / 风扇控制 / 防休眠
+- [helium-new-tab](./tool-helium-new-tab.md) — `Tool` — Helium 浏览器非官方新标签页扩展，无后台无追踪，37 种界面语言
+
+### 内容生成 / 设计 / 视觉
+- [Storycast](./tool-storycast.md) — `Tool` — Vite 纯前端 AI 短片生成流水线，用 fal key 把角色 + 话题 → 脚本 / 关键帧 / 配音 / 剪辑 / 字幕串起来
+- [open-slide](./tool-openslide.md) — `Tool` — 为 Agent 设计的幻灯片框架 2.0，新增可视化编辑器、可二次编辑的 PPTX 导出、重做的 UI
+- [Writing Buddy](./tool-obsidian-writing-buddy.md) — `Tool` — Obsidian 写作助手插件，AI 改写 / 续写 / 一致性检查 + 本地项目记忆（整部稿件 + 人物关系）
+- [omarchy-meeting-recorder](./tool-omarchy-meeting-recorder.md) — `Tool` — Omarchy（Hyprland + Arch）会议录音应用，Rust + GTK 4，分轨录制 + 自动说话人 / 章节 / 播放器
+- [GridCraft](./tool-gridcraft.md) — `Tool` — designminis 出品的 Logo 内部结构展示工具，把 Logo 透明叠到网格 / 比例尺上
+
+### 桌面 / 治理 / 浏览器扩展
+- [gitstats](./tool-gitstats.md) — `Tool` — 开源编码统计面板 Next.js + Drizzle + Neon Postgres，公开 / 私有 / 工作仓库都能看，私有仓本机读服务端只收汇总
+- [claude-token-optimizer](./tool-claude-token-optimizer.md) — `Tool` — Claude Code 上下文精简 CLI：`cto init` 生成精简 CLAUDE.md + .claudeignore，估算 token、压缩文档、安装 12 个 Hooks
+- [claude-windows-cn](./tool-claude-windows-cn.md) — `Tool` — Windows 上 Claude Desktop 一键安装 / 更新 / 汉化小工具
+- [ha-spatial-context](./tool-ha-spatial-context.md) — `Tool` — Home Assistant 自定义组件，把楼层平面图转带真实比例 / 设备位置 / 无线连接的空间地图
+- [ChatPassport](./tool-chatpassport.md) — `Tool` — Chrome 侧边栏扩展，ChatGPT / Claude / Gemini / DeepSeek 之间迁移对话，不需要 API key / 账号 / 服务器
+
+### 金融 / 网络 / 边缘
+- [Edge Scanner](./tool-edge-scanner.md) — `Tool` — 美股分钟行情本机扫描器，自定义 Setup + 告警规则 + 浏览器仪表盘，行情源 Alpaca / Schwab
+- [personal-edge-proxy](./tool-personal-edge-proxy.md) — `Tool` — 个人自建代理：日常 Hysteria2 + AI 流量 WARP + Claude 固定 SOCKS5 路由思路摆出来，1 核 1G 小鸡能跑
+
+### 学习 / 阅读 / 笔记
+- [AI System Design（amitshekhariitbhu 的 AI 系统设计学习仓库）](./note-ai-system-design.md) — `Note` — 覆盖 LLM 推理 / Agent / RAG / 向量检索 / 推理优化 / 评估的系统设计清单
+- [Anthropic FDE 写的 AI 时代代码现代化最佳实践](./note-anthropic-fde-code-modernization.md) — `Note` — Anthropic 官博 FDE 总结：遗留摸底 / 风险评估 / 工具链选型 / 迁移策略 / 回滚预案
+- [Accessibility Experience Guide（a11y 设计规范）](./note-a11y-design-guide.md) — `Note` — Matt Soriano 把 WCAG 提炼为视觉化设计规则
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 3 条跳过（质量门槛 / 重复）：ip-as-logo（2103739439071805744，与既有 `playbook-logo-first-ip-skill` 重复）/ html-explainer（2103672196380111011，与既有 `tool-html-explainer` 重复）/ geo-score（2103738605537784232，与既有 `tool-geo-score` 重复）/ HarnessRouter（2103920016223801718，与既有 `tool-harness-router` 重复）/ componentry（2103873518152942041，与既有 `tool-componentry` 重复）/ intentui（2103911836043431981，仅 "Browse them all here" + URL，无概念）/ astryx.atmeta.com（2103594172469194825，仅 URL）/ theinternetdesigns.com（2103914485069353306，与既有 `note-design-galleries` 同主题重复）
+- QingQ77 5 条跳过（质量门槛 / 重复）：claude-token-optimizer 之外同类（2103719464592355442，待合并）/ "说实话 这看起来真不错"（2103872799962247494，6 字 + 视频无概念）/ "白银挂住就做套麻将保存吧"（2103786636618428903，口水）/ "cool 小时候有明星梦吗？ AI 可以做到了"（2103843572235792784，口水）/ "桌面吸尘器"（2103725680286707981，3 字 + 视频无概念）/ "神奇的工具"（2103747086886002736，4 字 + 视频无概念）
