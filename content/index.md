@@ -394,6 +394,8 @@ timestamp: "2026-08-27T15:46:00Z"
 
 ### 物联网 / 智能硬件
 
+- [Home Assistant](concepts/tool-homeassistant.md) — 开源智能家居自动化平台，1000+ 集成 / 本地优先 / HACS 生态
+- [ha-spatial-context](concepts/tool-ha-spatial-context.md) — Home Assistant 空间上下文自定义组件，把楼层平面图变设备地图
 - [ESPHome Guition 语音助手旋钮屏](concepts/tool-esphome-guition-va.md)
 - [Seahi-Serial](concepts/tool-seahi-serial.md) — 多串口调试工具
 - [CasaOS](concepts/tool-casaos.md) — 个人云 OS，10 万+ Docker 镜像一键装
@@ -3625,4 +3627,45 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - Wen_Zw 8 条（5 重复 + 3 低价值）：ip-as-logo / html-explainer / geo-score / HarnessRouter / componentry 与既有概念重复；intentui / astryx.atmeta.com / theinternetdesigns.com 仅 URL 或与 `note-design-galleries` 重复
 - QingQ77 5 条（低价值）：「说实话 这看起来真不错」「白银挂住就做套麻将保存吧」「 cool 小时候有明星梦吗？ AI 可以做到了 」「桌面吸尘器」「神奇的工具」——均为口水 / 一两句话 + 视频，无项目 / 概念 / 工具实质
+
+## 本批新增（2026-09-27）
+
+处理 `inbox/_broken-links.md` 断链工单（1 条）+ `inbox/twitter/Wen_Zw/` 3 条 + `inbox/twitter/QingQ77/` 14 条 = **共 18 份资料（12 新增 + 1 重复 + 5 低价值跳过）**。
+
+**断链工单修复（stub 概念）**
+- [tool-homeassistant](concepts/tool-homeassistant.md) — 开源智能家居自动化平台（断链目标 stub），1000+ 集成 / 本地优先 / HACS 生态
+
+**学习 / 教程**
+- [tool-limbo101-tutorials](concepts/tool-limbo101-tutorials.md) — limbopeng 维护的可视化交互式教程合集（Pi / JEV / DSH / GPU / LLM）
+- [tool-gnos](concepts/tool-gnos.md) — 把编码 agent 改造成定制课程老师（学习路线 + 出课 + 薄弱点 + 多媒体物料）
+
+**AI / Agent 生态**
+- [tool-workdsh](concepts/tool-workdsh.md) — DeepSeek Harness 桌面工作台（TypeScript + Electron），项目 / 资料 / 专家 / 技能 / 连接器 / 任务同窗
+- [tool-skill2env](concepts/tool-skill2env.md) — NVIDIA NVlabs：Agent Skill → Harbor 格式 Docker 化 RL 终端训练任务
+
+**前端 / UI 库**
+- [tool-trellis-ui](concepts/tool-trellis-ui.md) — DanFessler 框架无关分形布局 UI 库
+
+**桌面 / 系统**
+- [tool-openxplorer](concepts/tool-openxplorer.md) — Linux 仿 Windows 资源管理器式文件管理器（原 Winspace，2026-09 改名），主打 Zorin OS + SMB
+
+**物联网 / 智能硬件**
+- [tool-moto-gps](concepts/tool-moto-gps.md) — 摩托车导航硬件 + 软件：ESP32-S3 1.75 寸圆屏固件 + iOS App + BLE 自定义 GATT
+
+**语音 / 听写**
+- [tool-voicestudio](concepts/tool-voicestudio.md) — 本地语音工作台：克隆 / 设计 / 配音 / 听写，替代云端 TTS
+- [tool-phorminx](concepts/tool-phorminx.md) — Windows 本地优先听写 + 会议转写，Vosk（Instant）+ Whisper+Vulkan（Accurate）
+
+**金融 / 数据**
+- [tool-openstock](concepts/tool-openstock.md) — Next.js 15 + MongoDB 开源股票行情与公司研究工具，TradingView 嵌入
+
+**内容生成 / 视频**
+- [tool-easyedit](concepts/tool-easyedit.md) — 电影独白自动卡点混剪工具（faster-whisper 逐词轴 + LLM 选 9–24 秒高光）
+
+**知识图谱 / 探索**
+- [tool-wikicrawl](concepts/tool-wikicrawl.md) — Wikipedia 词条链接关系知识图谱（Next.js + Graphology + Sigma + ForceAtlas2）
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 1 条（重复）：designeer.xyz 与既有 `tool-designeer` 重复
+- QingQ77 5 条（低价值 / 短句）：「我可以玩一天」「看你一眼算你赢」「根本没有这样的女孩」「这就是……绝配！」「这是在给谁介绍🤣」——均为口水 / 一两句话 + 视频，无项目 / 概念 / 工具实质
 

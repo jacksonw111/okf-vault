@@ -307,6 +307,41 @@ timestamp: "2026-08-27T15:46:00Z"
 - [token-diet](tool-token-diet.md) — `Tool` — Shell 编码代理令牌减肥技能，Claude Code/Codex/Cursor/Windsurf/Cline 通吃，平均省 ~31%
 - [magic-compact](tool-magic-compact.md) — `Tool` — OpenCode 无损上下文压缩插件，助手轮次单独摘要 + 工具 I/O 缓存，read_omitted_content 回头查
 
+### 本批新增（2026-09-27）
+
+**断链工单修复（stub 概念）**
+- [Home Assistant](tool-homeassistant.md) — `Tool` — 开源智能家居自动化平台（断链工单目标 stub），1000+ 集成 / 本地优先 / HACS 生态
+
+**学习 / 教程**
+- [Limbo101 教程站](tool-limbo101-tutorials.md) — `Tool` — limbopeng 维护的可视化交互式教程合集，覆盖 Pi / JEV / DSH / GPU / LLM
+- [Gnos](tool-gnos.md) — `Tool` — 把编码 agent 改造成会定制课程的老师（学习路线 / 出课 / 薄弱点 / 多媒体物料）
+
+**AI / Agent 生态**
+- [WorkDSH](tool-workdsh.md) — `Tool` — DeepSeek Harness 桌面工作台（TypeScript + Electron），项目 / 资料 / 专家 / 技能 / 连接器 / 任务同窗
+- [Skill2Env](tool-skill2env.md) — `Tool` — NVIDIA NVlabs 出品，把 Agent Skill 自动转 Harbor 格式的 Docker 化 RL 终端训练任务
+
+**前端 / UI 库**
+- [Trellis UI](tool-trellis-ui.md) — `Tool` — DanFessler 出品的框架无关分形布局（fractal layouts）UI 库
+
+**桌面 / 系统**
+- [OpenXplorer](tool-openxplorer.md) — `Tool` — Linux 仿 Windows 资源管理器式文件管理器（原 Winspace，2026-09 改名），主打 Zorin OS + SMB
+
+**物联网 / 智能硬件**
+- [MOTO GPS](tool-moto-gps.md) — `Tool` — 摩托车导航硬件 + 软件：ESP32-S3 1.75 寸圆屏固件 + iOS App + BLE 自定义 GATT
+
+**语音 / 听写**
+- [VoiceStudio](tool-voicestudio.md) — `Tool` — 本地语音工作台：语音克隆 / 语音设计 / 视频配音 / 听写，替代云端 TTS
+- [phorminx](tool-phorminx.md) — `Tool` — Windows 本地优先听写 + 会议转写，Vosk（Instant）+ Whisper+Vulkan（Accurate）双引擎
+
+**金融 / 数据**
+- [OpenStock](tool-openstock.md) — `Tool` — Next.js 15 + MongoDB 开源股票行情与公司研究工具，实时行情 + TradingView 嵌入式基本面
+
+**内容生成 / 视频**
+- [easyedit](tool-easyedit.md) — `Tool` — 电影独白自动卡点混剪工具（faster-whisper 逐词轴 + LLM 选 9–24 秒高光 + 字幕）
+
+**知识图谱 / 探索**
+- [WikiCrawl](tool-wikicrawl.md) — `Tool` — 把 Wikipedia 词条链接关系爬成可点击探索的知识图谱，TypeScript + Next.js + Graphology + Sigma + ForceAtlas2
+
 ### 编程语言 / 工具链
 
 - [Node.js All-in-One](tool-node-all-in-one.md) — `Tool` — TS 运行器 + 包管理器 + 版本管理器合一
@@ -390,6 +425,7 @@ timestamp: "2026-08-27T15:46:00Z"
 
 ### 物联网 / 智能硬件
 
+- [Home Assistant](tool-homeassistant.md) — `Tool` — 开源智能家居自动化平台，1000+ 集成 / 本地优先 / HACS 生态
 - [ESPHome Guition 语音助手旋钮屏](tool-esphome-guition-va.md) — `Tool` — 纯 YAML 配 HA 语音助手到圆形旋钮触控屏
 - [Seahi-Serial（多串口调试工具）](tool-seahi-serial.md) — `Tool` — VS Code Serial Monitor 风格，同时多路串口 + ANSI 颜色
 - [CasaOS](tool-casaos.md) — `Tool` — 个人云 OS，ZimaBoard / NUC / 树莓派通吃，10 万+ Docker 镜像一键装
