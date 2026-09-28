@@ -4023,3 +4023,66 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - Wen_Zw 3 条跳过（质量门槛 / 重复）：ip-as-logo（2103739439071805744，与既有 `playbook-logo-first-ip-skill` 重复）/ html-explainer（2103672196380111011，与既有 `tool-html-explainer` 重复）/ geo-score（2103738605537784232，与既有 `tool-geo-score` 重复）/ HarnessRouter（2103920016223801718，与既有 `tool-harness-router` 重复）/ componentry（2103873518152942041，与既有 `tool-componentry` 重复）/ intentui（2103911836043431981，仅 "Browse them all here" + URL，无概念）/ astryx.atmeta.com（2103594172469194825，仅 URL）/ theinternetdesigns.com（2103914485069353306，与既有 `note-design-galleries` 同主题重复）
 - QingQ77 5 条跳过（质量门槛 / 重复）：claude-token-optimizer 之外同类（2103719464592355442，待合并）/ "说实话 这看起来真不错"（2103872799962247494，6 字 + 视频无概念）/ "白银挂住就做套麻将保存吧"（2103786636618428903，口水）/ "cool 小时候有明星梦吗？ AI 可以做到了"（2103843572235792784，口水）/ "桌面吸尘器"（2103725680286707981，3 字 + 视频无概念）/ "神奇的工具"（2103747086886002736，4 字 + 视频无概念）
+
+## 补建断链 Stub（2026-09-28）
+
+修复 `inbox/_broken-links.md` 工单中的 4 条断链——以下 3 个目标值得收录，建对应 stub 概念（与 `tool-deepseek-harness-core.md` / `tool-easyedit.md` / `tool-skill2env.md` 等既有概念的语义边界对齐）：
+
+- [DeepSeek Harness（DSH）家族](./term-deepseek-harness.md) — `Term` — DeepSeek 官方开源可插拔智能体框架家族统称，与众多 dsh-* 周边区分
+- [AutoShorts](./tool-autoshirts.md) — `Tool` — Tauri 2 长视频 / 音频转竖屏短视频，AI 选爆款段
+- [Harbor](./tool-harbor.md) — `Tool` — NVIDIA 出品的 RL 终端任务训练框架，Skill2Env 下游消费方
+
+## 本批新增（2026-09-28）
+
+### iOS / SwiftUI
+- [SwiftPieces](./tool-swiftpieces.md) — `Tool` — saivion 的 SwiftUI 组件库，提升 SwiftUI 可用性 / 表达力
+
+### Cloudflare 生态
+- [Cloudflare Nimbus](./tool-cloudflare-nimbus.md) — `Tool` — Cloudflare 官方文档站生成框架（0.x），明确信号是「文档站同时写给人和 Agent」
+
+### 自托管 / 浏览器内工具
+- [tapflow](./tool-tapflow.md) — `Tool` — 自托管浏览器版 iOS / Android 模拟器（Appetize / BrowserStack 自托管替代），MIT 协议
+
+### Agent Skill / Claude Plugin
+- [code-review-skills（akkie76）](./tool-code-review-skills-akkie76.md) — `Tool` — 基于《コードレビューの教科書》的 Code Review Skill，避免风格偏好 / 无据猜测
+- [blueprint-animation](./tool-blueprint-animation.md) — `Tool` — moguzbulbul 的 Claude Skill，把 UX 决策动画化讲解
+- [refactoring-ui-plugin](./tool-refactoring-ui-plugin.md) — `Tool` — Refactoring UI 书 → Claude Plugin，让 Claude 按该书原则修界面
+
+### Agent 记忆底座
+- [Hindsight](./tool-hindsight.md) — `Tool` — vectorize-io 开源（≈40k ⭐）：Agent 仿生记忆网络，4 层架构 + 4 路混合检索 + 60+ 框架集成 + MCP
+
+### Agent 可观测 / 长跑 / 决策
+- [agent-console](./tool-agent-console.md) — `Tool` — LockedIn Labs：Claude Code / Codex 本地用量面板（cache 拆分 / 多机汇总 / 实时速率 / 上下文告警）
+- [avibe](./tool-avibe.md) — `Tool` — 合盖笔记本 AI 编码代理继续跑 + 手机访问
+- [jev-dsh-decision](./tool-jev-dsh-decision.md) — `Tool` — TypeSafe Jev 决策模型挂到 DSH，动手前判定工具 / Skill / 评分
+
+### DSH 周边硬件
+- [harness-whale-companion](./tool-harness-whale-companion.md) — `Tool` — ESP32-C3 蓝牙小屏显示 DSH 状态 / 任务 / 余额 + 单选题作答
+
+### Fluid Functionalism 增量更新
+- [Fluid Functionalism](./tool-fluidfunctionalism.md) — `Tool` — 在原有「modal 内 sidebar」设计语言之外，补充 Spring physics 组件库 + Radix/Base UI 兼容 + shadcn 一键安装
+
+### macOS / 桌面系统
+- [recall-mac](./tool-recall-mac.md) — `Tool` — macOS 语义剪贴板管理器，密码 / 助记词不写盘、不喂模型、60s 自毁
+- [ShiftBar](./tool-shiftbar.md) — `Tool` — macOS 27 菜单栏主动折叠器（Shift-click 拖动精细控制）
+
+### 终端 / 配置
+- [ghostty-config（Vitruves）](./tool-ghostty-config-vitruves.md) — `Tool` — TUI 菜单改 Ghostty 主题 / 字体 / 窗口
+
+### 阅读 / 编辑器
+- [marko-md](./tool-marko-md.md) — `Tool` — Claude 输出 Markdown 阅读 + 勾选任务回写原文件
+- [sakura-read](./tool-sakura-read.md) — `Tool` — Flutter Android 小说阅读器（TXT / EPUB / 阅读 3.0 书源 / 看板娘桌宠）
+
+### 内容生成 / 画布
+- [BeefTV](./tool-beeftv.md) — `Tool` — 本地自由画布，文本 / 图 / 视频 / 音频模型生成 + Agent 摆节点
+- [onetake](./tool-onetake.md) — `Tool` — 产品动效短片连续转场（每帧之间元素「活下来变形」）
+- [logo-design-skill（kaankiziltug）](./tool-logo-design-skill-kaankiziltug.md) — `Tool` — Claude / Codex / Gemini CLI 装的 logo 设计 Skill（brief → 概念 → 测试 → SVG + 品牌手册）
+
+### Awesome 清单 / 个人主页
+- [awesome-opus5-5-videos](./tool-awesome-opus5-5-videos.md) — `Tool` — Claude Opus 5.5 代码爆款短视频 + 原始 prompt 合集
+- [MuseAI-Skills](./tool-museai-skills.md) — `Tool` — muse 个人 Agent 的 68 技能 / 连接器权限 / Linux 容器启动脚本全套公开
+- [ForJiang 个人主页](./note-forjiang-github-io.md) — `Note` — Next.js 静态导出，5 个可离线网页工具 + AI 插画合集，部署到 GitHub Pages
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 3 条：shadercn.run（2104383067398046140，仅 URL 无项目实质）/ designeer.xyz clone（2104467639963951417，纯吐槽无项目）/ arlan.me/vault RT（2104447371086336394，与既有 `tool-arlan-vault` 重复）
+- QingQ77 4 条：「AI 做这些萌猫」（2104347651861094540，口水 + 视频）/「天生个鬼，我完全绷不住！」（2104427380483993610，口水 + 视频）/「我在班里的存在感」（2104459785299186100，口水 + 视频）/「这个吃了屁股开喇叭花」（2104530284243038303，口水 + 视频）/「???」（2104558288293794203，口水 + 视频）

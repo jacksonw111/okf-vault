@@ -3669,3 +3669,69 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 1 条（重复）：designeer.xyz 与既有 `tool-designeer` 重复
 - QingQ77 5 条（低价值 / 短句）：「我可以玩一天」「看你一眼算你赢」「根本没有这样的女孩」「这就是……绝配！」「这是在给谁介绍🤣」——均为口水 / 一两句话 + 视频，无项目 / 概念 / 工具实质
 
+## 本批新增（2026-09-28）
+
+处理 `inbox/_broken-links.md` 断链工单（4 条）+ `inbox/twitter/Wen_Zw/` 11 条 + `inbox/twitter/QingQ77/` 20 条 = **共 35 份资料（22 新增 + 1 更新 + 1 重复 + 11 低价值跳过）**。
+
+**断链工单修复（4 个 stub 概念）**
+- [term-deepseek-harness](concepts/term-deepseek-harness.md) — DeepSeek 官方开源可插拔智能体框架（DSH）家族统称
+- [tool-autoshirts](concepts/tool-autoshirts.md) — Tauri 2 长视频 / 音频转竖屏短视频 + AI 选爆款段
+- [tool-harbor](concepts/tool-harbor.md) — NVIDIA 出品的 RL 终端任务训练框架（Skill2Env 下游）
+
+**Wen_Zw：iOS / SwiftUI**
+- [tool-swiftpieces](concepts/tool-swiftpieces.md) — saivion 的 SwiftUI 组件库，提升 SwiftUI 可用性 / 表达力
+
+**Wen_Zw：Cloudflare 生态**
+- [tool-cloudflare-nimbus](concepts/tool-cloudflare-nimbus.md) — Cloudflare 官方文档站生成框架，明确信号是「文档站同时写给人和 Agent」
+
+**Wen_Zw：自托管 / 浏览器内工具**
+- [tool-tapflow](concepts/tool-tapflow.md) — 自托管浏览器版 iOS / Android 模拟器（Appetize / BrowserStack 自托管替代）
+
+**Wen_Zw：Agent Skill / Claude Plugin**
+- [tool-code-review-skills-akkie76](concepts/tool-code-review-skills-akkie76.md) — 基于《コードレビューの教科書》的 Code Review Skill（Codex / Claude Code），避免风格偏好 / 无据猜测
+- [tool-blueprint-animation](concepts/tool-blueprint-animation.md) — moguzbulbul 的 Claude Skill，把 UX 决策动画化讲解
+- [tool-refactoring-ui-plugin](concepts/tool-refactoring-ui-plugin.md) — Refactoring UI 书 → Claude Plugin，让 Claude 学会按该书原则修界面
+
+**Wen_Zw：Agent 记忆底座**
+- [tool-hindsight](concepts/tool-hindsight.md) — vectorize-io 开源（≈40k ⭐）：Agent 仿生记忆网络，世界事实 / 经历 / 观察 / 心智模型 4 层 + 4 路混合检索 + 60+ 框架 + 自带 MCP
+
+**Wen_Zw：Fluid Functionalism 增量更新**
+- [tool-fluidfunctionalism](concepts/tool-fluidfunctionalism.md) — 在原有「modal 内 sidebar」设计语言之外，补充 Spring physics 组件库 + Radix/Base UI 兼容 + shadcn 一键安装
+
+**QingQ77：Agent 记忆 / 可观测**
+- [tool-agent-console](concepts/tool-agent-console.md) — LockedIn Labs：Claude Code / Codex 本地用量面板（cache 拆分 / 多机汇总 / 实时速率 / 上下文告警）
+
+**QingQ77：DSH / Jev 决策生态**
+- [tool-jev-dsh-decision](concepts/tool-jev-dsh-decision.md) — 把 TypeSafe Jev 决策模型挂到 DSH，动手前先判定工具 / Skill / 评分
+
+**QingQ77：DSH 周边硬件**
+- [tool-harness-whale-companion](concepts/tool-harness-whale-companion.md) — ESP32-C3 蓝牙小屏显示 DSH 状态 / 任务 / 余额 + 单选题作答
+
+**QingQ77：Agent 长跑 / 后台**
+- [tool-avibe](concepts/tool-avibe.md) — 合上笔记本 AI 编码代理继续跑，手机访问代理
+
+**QingQ77：剪贴板 / 编辑器 / 阅读**
+- [tool-recall-mac](concepts/tool-recall-mac.md) — macOS 语义剪贴板管理器，密码 / 助记词不写盘、不喂模型、60s 自毁
+- [tool-marko-md](concepts/tool-marko-md.md) — Claude 输出 Markdown 阅读 + 勾选任务回写原文件
+- [tool-sakura-read](concepts/tool-sakura-read.md) — Flutter Android 小说阅读器（TXT / EPUB / 阅读 3.0 书源 / 看板娘桌宠）
+
+**QingQ77：终端 / 配置**
+- [tool-ghostty-config-vitruves](concepts/tool-ghostty-config-vitruves.md) — TUI 菜单改 Ghostty 主题 / 字体 / 窗口
+
+**QingQ77：macOS 系统工具**
+- [tool-shiftbar](concepts/tool-shiftbar.md) — macOS 27 菜单栏主动折叠器（Shift-click 拖动精细控制）
+
+**QingQ77：本地画布 / 内容生成**
+- [tool-beeftv](concepts/tool-beeftv.md) — 本地自由画布，文本 / 图 / 视频 / 音频模型生成 + Agent 摆节点
+- [tool-onetake](concepts/tool-onetake.md) — 产品动效短片连续转场（每帧之间元素「活下来变形」）
+- [tool-logo-design-skill-kaankiziltug](concepts/tool-logo-design-skill-kaankiziltug.md) — 给 Claude / Codex / Gemini CLI 装的 logo 设计 Skill（brief → 概念 → 测试 → SVG + 品牌手册）
+
+**QingQ77：Awesome 清单 / 个人主页**
+- [tool-awesome-opus5-5-videos](concepts/tool-awesome-opus5-5-videos.md) — Claude Opus 5.5 代码爆款短视频 + 原始 prompt 合集
+- [tool-museai-skills](concepts/tool-museai-skills.md) — muse 个人 Agent 的 68 技能 / 连接器权限 / Linux 容器启动脚本全套公开
+- [note-forjiang-github-io](concepts/note-forjiang-github-io.md) — ForJiang 维护的 Next.js 静态导出个人主页，5 个可离线网页工具 + AI 插画
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 4 条：shadercn.run（2104383067398046140，仅 URL 无项目实质）/ designeer.xyz clone（2104467639963951417，纯吐槽无项目）/ arlan.me/vault（2104447371086336394，与既有 `tool-arlan-vault` 重复）/ Cloudflare nimbus RT（2104458059724841071，已合并到 `tool-cloudflare-nimbus`）
+- QingQ77 7 条：「AI 做这些萌猫」（2104347651861094540，口水 + 视频）/「天生个鬼」（2104427380483993610，口水 + 视频）/「我在班里的存在感」（2104459785299186100，口水 + 视频）/「这个吃了屁股开喇叭花」（2104530284243038303，口水 + 视频）——均为短句 + 视频，无项目 / 概念 / 工具实质
+
