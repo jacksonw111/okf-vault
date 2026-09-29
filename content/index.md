@@ -3735,3 +3735,58 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 4 条：shadercn.run（2104383067398046140，仅 URL 无项目实质）/ designeer.xyz clone（2104467639963951417，纯吐槽无项目）/ arlan.me/vault（2104447371086336394，与既有 `tool-arlan-vault` 重复）/ Cloudflare nimbus RT（2104458059724841071，已合并到 `tool-cloudflare-nimbus`）
 - QingQ77 7 条：「AI 做这些萌猫」（2104347651861094540，口水 + 视频）/「天生个鬼」（2104427380483993610，口水 + 视频）/「我在班里的存在感」（2104459785299186100，口水 + 视频）/「这个吃了屁股开喇叭花」（2104530284243038303，口水 + 视频）——均为短句 + 视频，无项目 / 概念 / 工具实质
 
+## 本批新增（2026-09-29）
+
+处理 `inbox/twitter/Wen_Zw/` 12 条 + `inbox/twitter/QingQ77/` 23 条 X 推文剪藏 = **共 35 份资料（23 新增 + 12 低价值 / 重复跳过）**。
+
+**Wen_Zw：知识库 / RAG**
+- [tool-openkb](concepts/tool-openkb.md) — VectifyAI 开源结构化 Wiki 知识库生成器（基于 PageIndex 树状索引 + 多模态 + 持续沉淀）
+- [tool-pageindex](concepts/tool-pageindex.md) — VectifyAI 树状索引 RAG 框架，FinanceBench 98.7%，千页文档索引约 1 美元
+
+**Wen_Zw：Agent Skill / 设计规范**
+- [tool-cuellarfr-design-skills](concepts/tool-cuellarfr-design-skills.md) — Carlos Cuéllar 维护的设计技能合集，给 Claude Code / Cursor / Codex 等 40+ agent 注入设计知识
+
+**Wen_Zw：信息可视化**
+- [tool-antv-infographic](concepts/tool-antv-infographic.md) — AntV 开源 SVG 信息图生成框架（200 模板 + 声明式语法 + AI 流式渲染）
+
+**Wen_Zw：金融 / 工具**
+- [tool-invoice-flow-ai](concepts/tool-invoice-flow-ai.md) — 开源电子发票整理工具（PDF / OFD / XML 自动收集 + OCR + Excel 汇总）
+- [tool-opennews-mcp](concepts/tool-opennews-mcp.md) — 6551Team 开源 MCP 服务器，85+ 加密 / 链上 / 市场数据源接入 AI
+
+**Wen_Zw：招聘 / 反自动化**
+- [tool-get-jobs](concepts/tool-get-jobs.md) — loks666 维护的 BOSS 直聘自动化投递工具合集，对抗现代网站反自动化检测
+
+**QingQ77：iOS / 移动**
+- [tool-liquid-glass-chat-ui](concepts/tool-liquid-glass-chat-ui.md) — Expo 里复刻 iOS 26 液态玻璃聊天界面（原生材质 + Skia 着色器两套实现）
+
+**QingQ77：内容生成 / 视频 / 视觉**
+- [tool-lemo-opuscar](concepts/tool-lemo-opuscar.md) — lemomo-ai 维护 39 种影片风格提示词包 + 纯代码制作流程
+- [tool-threejs-particle-fluids](concepts/tool-threejs-particle-fluids.md) — three.js 场景里液体 / 软体 / 布料 / 烟雾的 GPU 粒子模拟库
+
+**QingQ77：图像 / 桌面 / 系统**
+- [tool-rawmakase](concepts/tool-rawmakase.md) — Linux / macOS 本地 RAW 显影，Lightroom 同款滑块 + 目录迁移
+- [tool-lab-ipxe-os](concepts/tool-lab-ipxe-os.md) — 局域网 iPXE + Cloud-Init 装机服务器（Bun + TypeScript 单可执行）
+- [tool-marea](concepts/tool-marea.md) — Wayland 桌面合一外壳：通知中心 + 搜索器 + 截图 + 锁屏 + 球
+
+**QingQ77：AI Agent 生态 / 网关**
+- [tool-flux-bjarneo](concepts/tool-flux-bjarneo.md) — bjarneo 出品，Omarchy 桌面 ↔ Android / Mac 跨设备同步
+- [tool-cloudflare-forge](concepts/tool-cloudflare-forge.md) — Cloudflare 开源 schema 优先 OpenAPI 代码生成框架
+- [tool-autojev](concepts/tool-autojev.md) — Tauri 本地 AI 网关，OpenAI / Chat Completions / Anthropic Messages 三协议统一路由
+
+**QingQ77：Python / 怀旧 / 微信**
+- [tool-atomic-json-store](concepts/tool-atomic-json-store.md) — GreyforgeLabs 出品，Python 原子 JSON 存储
+- [tool-claude-s40](concepts/tool-claude-s40.md) — emir 出品，2007 诺基亚 Series 40 接 Claude（Java ME + Go 协议转换）
+- [tool-goutoujunshi-jev-chat](concepts/tool-goutoujunshi-jev-chat.md) — 狗头军师 Mac 微信延伸项目，读屏 + 意图分析 + 候选回复
+
+**QingQ77：媒体搜索 / 项目管理 / 法律**
+- [tool-tern-media-search](concepts/tool-tern-media-search.md) — Apple Silicon Mac 播客 / 视频档案本地搜索（语音 + OCR + 视觉三通道）
+- [tool-plane](concepts/tool-plane.md) — makeplane 开源项目管理平台（Jira / Linear 自托管替代）
+- [tool-prism-legal-os](concepts/tool-prism-legal-os.md) — 开源法律合同与诉讼管理系统（内置 AI 助手 Luna）
+
+**QingQ77：Agent Skill 目录**
+- [tool-awesome-muse-skills](concepts/tool-awesome-muse-skills.md) — 社区维护 Meta Muse 助理技能目录（899 原创 + 1466 第三方精选 = 2365 个 SKILL.md）
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 5 条：NVIDIA/OpenShell（2104695309138026730，仅 "This is cool" + GitHub 链接无项目实质）/ awesome-design-md RT（2104805532267917332，与既有 `tool-awesome-design-md` 重复）/ Fast Browser Use RT（2104834544369303788，与既有 `tool-fast-browser-use` 重复）/ shadcndesign.com（2104911992750539237，仅一句话 + URL 项目描述过薄）/ theskillmd.com 等链接列表（2104925159455105117，仅 5 个 URL 无独立概念）
+- QingQ77 7 条：「仿生机器人强化训练」（2104713353826644064，仅标题 + 视频无项目）/「牛而逼之」（2104775621645889800，短句 + 视频）/「我不接受！」（2104793033208455416，短句 + 视频）/「手机支架 cool」（2104845997772091479，短句 + 视频）/「你别说，效果还挺好的。」（2104903768580001847，短句 + 视频）/「卧槽 乒羽球」（2104937239306182685，短句 + 视频）/「不是，你最后去哪了！」（2104945666246258991，短句 + 视频）—— 全部按「质量门槛」跳过
+

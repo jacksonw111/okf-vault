@@ -4086,3 +4086,58 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛）
 - Wen_Zw 3 条：shadercn.run（2104383067398046140，仅 URL 无项目实质）/ designeer.xyz clone（2104467639963951417，纯吐槽无项目）/ arlan.me/vault RT（2104447371086336394，与既有 `tool-arlan-vault` 重复）
 - QingQ77 4 条：「AI 做这些萌猫」（2104347651861094540，口水 + 视频）/「天生个鬼，我完全绷不住！」（2104427380483993610，口水 + 视频）/「我在班里的存在感」（2104459785299186100，口水 + 视频）/「这个吃了屁股开喇叭花」（2104530284243038303，口水 + 视频）/「???」（2104558288293794203，口水 + 视频）
+
+## 本批新增（2026-09-29）
+
+处理 `inbox/twitter/Wen_Zw/` 12 条 + `inbox/twitter/QingQ77/` 23 条 X 推文剪藏 = **共 35 份资料（23 新增 + 12 低价值 / 重复跳过）**。
+
+### Wen_Zw：知识库 / RAG / 文档检索
+- [OpenKB](./tool-openkb.md) — `Tool` — VectifyAI 开源，把 PDF / 论文 / 文档整理成结构化 Wiki 知识库（基于 PageIndex 树状索引 + 多模态 + 持续沉淀）
+- [PageIndex](./tool-pageindex.md) — `Tool` — VectifyAI 树状索引 RAG 框架，FinanceBench 准确率 98.7%（传统向量 RAG 仅约 50%），千页文档索引约 1 美元
+
+### Wen_Zw：Agent Skill / 设计规范
+- [cuellarfr / Design Skills for AI Agents](./tool-cuellarfr-design-skills.md) — `Tool` — Carlos Cuéllar 维护的设计技能合集，给 Claude Code / Cursor / Codex 等 40+ agent 注入真实设计知识
+
+### Wen_Zw：信息可视化
+- [AntV Infographic](./tool-antv-infographic.md) — `Tool` — AntV 开源 SVG 信息图生成框架（200 模板 + 声明式语法 + AI 流式渲染 + Claude Code / Codex Skills）
+
+### Wen_Zw：金融 / 工具
+- [InvoiceFlowAI](./tool-invoice-flow-ai.md) — `Tool` — 开源电子发票整理工具，从邮箱自动收 PDF / OFD / XML，OCR 后分类归档 + Excel 汇总
+- [OpenNews MCP](./tool-opennews-mcp.md) — `Tool` — 6551Team 开源 MCP 服务器，85+ 加密 / 链上 / 市场数据源接入 AI（影响分 + 多空信号 + 双语摘要）
+
+### Wen_Zw：招聘 / 反自动化
+- [get_jobs](./tool-get-jobs.md) — `Tool` — loks666 维护的 BOSS 直聘自动化投递工具合集，对抗现代网站反自动化检测
+
+### QingQ77：iOS / 移动
+- [liquid-glass-chat-ui](./tool-liquid-glass-chat-ui.md) — `Tool` — Expo 里复刻 iOS 26 液态玻璃聊天界面，给出原生材质 + Skia 着色器两套完整实现
+
+### QingQ77：内容生成 / 视频 / 视觉
+- [Lemo-Opuscar](./tool-lemo-opuscar.md) — `Tool` — lemomo-ai 维护，39 种影片风格提示词包 + 可复现纯代码制作流程
+- [threejs-particle-fluids](./tool-threejs-particle-fluids.md) — `Tool` — dgreenheck 出品，three.js 场景里液体 / 软体 / 布料 / 烟雾的 GPU 粒子模拟库（PBF 求解器封装好）
+
+### QingQ77：图像 / 桌面 / 系统
+- [RAWmakase](./tool-rawmakase.md) — `Tool` — Linux / macOS 上的本地 RAW 显影，Lightroom 同款滑块 + JPEG / 16 位 TIFF 导出 + Lightroom 目录迁移
+- [lab-ipxe-os](./tool-lab-ipxe-os.md) — `Tool` — 局域网 iPXE + Cloud-Init 装机服务器（Bun + TypeScript 单可执行），裸机 / 虚拟机开机自动装 Ubuntu Server / Talos / openSUSE
+- [Marea](./tool-marea.md) — `Tool` — Wayland 桌面合一外壳：通知中心 + 搜索器 + 截图 + 锁屏 + 屏幕顶上的球
+
+### QingQ77：AI Agent 生态 / 网关
+- [Flux](./tool-flux-bjarneo.md) — `Tool` — bjarneo 出品，Omarchy 桌面 ↔ Android / Mac 跨设备同步（文件 / 剪贴板 / 通知 / 远程输入 / 投屏）
+- [Cloudflare Forge](./tool-cloudflare-forge.md) — `Tool` — Cloudflare 开源 schema 优先 OpenAPI 代码生成框架（带类型 SDK / CLI / 运行时辅助 / 文档 + 插件式架构）
+- [AutoJev](./tool-autojev.md) — `Tool` — Tauri + React + Rust 本地 AI 网关，OpenAI Responses / Chat Completions / Anthropic Messages 三协议统一路由
+
+### QingQ77：Python / 怀旧 / 微信
+- [atomic-json-store](./tool-atomic-json-store.md) — `Tool` — GreyforgeLabs 出品，Python 原子 JSON 存储，躲开写一半崩 / 进程互相覆盖 / 旧格式加载失败三类问题
+- [claude-s40](./tool-claude-s40.md) — `Tool` — emir 出品，2007 诺基亚 Series 40 手机接 Claude（Java ME + Go 协议转换服务器）
+- [狗头军师 Jev Chat](./tool-goutoujunshi-jev-chat.md) — `Tool` — 狗头军师 Mac 微信延伸项目，会话旁挂悬浮窗读屏抓原文 + 分析意图 + 候选回复
+
+### QingQ77：媒体搜索 / 项目管理 / 法律
+- [Tern](./tool-tern-media-search.md) — `Tool` — B0yko 出品，Apple Silicon Mac 上本地播客 / 视频档案搜索（语音 + OCR + 视觉三通道）
+- [Plane](./tool-plane.md) — `Tool` — makeplane 开源项目管理平台，Jira / Linear / Monday / ClickUp 自托管替代
+- [Prism Legal OS](./tool-prism-legal-os.md) — `Tool` — 开源法律合同与诉讼管理系统（起草 / 审阅 / 比对 / 审批 + 内置 AI 助手 Luna）
+
+### QingQ77：Agent Skill 目录
+- [awesome-muse-skills](./tool-awesome-muse-skills.md) — `Tool` — 社区维护的 Meta Muse 助理技能目录（899 原创 + 1466 第三方精选导入，共 2365 个 SKILL.md）
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 5 条：NVIDIA/OpenShell（2104695309138026730，仅 "This is cool" + GitHub 链接无项目实质）/ awesome-design-md RT（2104805532267917332，与既有 `tool-awesome-design-md` 重复）/ Fast Browser Use RT（2104834544369303788，与既有 `tool-fast-browser-use` 重复）/ shadcndesign.com（2104911992750539237，仅一句话 + URL 项目描述过薄）/ theskillmd.com 等链接列表（2104925159455105117，仅 5 个 URL 无独立概念）
+- QingQ77 7 条：「仿生机器人强化训练」（2104713353826644064，仅标题 + 视频无项目）/「牛而逼之」（2104775621645889800，短句 + 视频）/「我不接受！」（2104793033208455416，短句 + 视频）/「手机支架 cool」（2104845997772091479，短句 + 视频）/「你别说，效果还挺好的。」（2104903768580001847，短句 + 视频）/「卧槽 乒羽球」（2104937239306182685，短句 + 视频）/「不是，你最后去哪了！」（2104945666246258991，短句 + 视频）—— 全部按「质量门槛」跳过
