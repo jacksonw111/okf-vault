@@ -3790,3 +3790,50 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 5 条：NVIDIA/OpenShell（2104695309138026730，仅 "This is cool" + GitHub 链接无项目实质）/ awesome-design-md RT（2104805532267917332，与既有 `tool-awesome-design-md` 重复）/ Fast Browser Use RT（2104834544369303788，与既有 `tool-fast-browser-use` 重复）/ shadcndesign.com（2104911992750539237，仅一句话 + URL 项目描述过薄）/ theskillmd.com 等链接列表（2104925159455105117，仅 5 个 URL 无独立概念）
 - QingQ77 7 条：「仿生机器人强化训练」（2104713353826644064，仅标题 + 视频无项目）/「牛而逼之」（2104775621645889800，短句 + 视频）/「我不接受！」（2104793033208455416，短句 + 视频）/「手机支架 cool」（2104845997772091479，短句 + 视频）/「你别说，效果还挺好的。」（2104903768580001847，短句 + 视频）/「卧槽 乒羽球」（2104937239306182685，短句 + 视频）/「不是，你最后去哪了！」（2104945666246258991，短句 + 视频）—— 全部按「质量门槛」跳过
 
+## 本批新增（2026-09-30）
+
+处理 `inbox/twitter/Wen_Zw/` 7 条 + `inbox/twitter/QingQ77/` 22 条 X 推文剪藏 = **共 29 份资料（21 新增概念 + 9 低价值 / 描述过薄跳过）**。
+
+### Wen_Zw：前端 / UI 组件库
+- [tool-reverse-ui](concepts/tool-reverse-ui.md) — 68+ 动效 UI 组件集合（React 场景直接 drop-in，省掉 GSAP / Framer Motion 时序）
+- [tool-evilcharts](concepts/tool-evilcharts.md) — dashboard / 数据展示动画 React 图表库，数据变化自带过渡动画
+- [tool-inspora](concepts/tool-inspora.md) — 现代产品 UI 设计灵感聚合站，类 Dribbble / Mobbin 偏实战参考
+- [tool-localmode-ai](concepts/tool-localmode-ai.md) — 100+ 浏览器内 WebGPU AI 组件库（chat / RAG / vision / audio），无需 API key / 后端完全免费
+
+### Wen_Zw：Agent Skills
+- [tool-opc-skills](concepts/tool-opc-skills.md) — ReScienceLab 维护的独立开发者 / 一人公司 Agent Skill 合集（10 个兼容 16 个 Agent）
+- [tool-ux-writing-skill](concepts/tool-ux-writing-skill.md) — content-designer 出品，给 Claude Code 等 Agent 注入 UX 文案写作规范
+
+### QingQ77：桌面 / 系统工具
+- [tool-everythingx](concepts/tool-everythingx.md) — AlanKK 出品，把 Windows Everything 极速文件搜索带到 macOS / Linux（everythingxd + everythingx + ev 三件套）
+- [tool-tiller](concepts/tool-tiller.md) — sorrycc 出品，基于 Chromium 的 macOS 浏览器（Swift / AppKit 原生 UI），内置可驱动浏览器的 Agent 面板
+- [tool-markify](concepts/tool-markify.md) — spaquet 出品 macOS Markdown 编辑器，`⌘/` 切换渲染 / 源码视图，光标与滚动位置不丢
+- [tool-mouzi](concepts/tool-mouzi.md) — hsr88 出品 Tauri 2 + React 19 + Rust 下载文件夹自动整理工具，常驻系统托盘
+- [tool-omashow](concepts/tool-omashow.md) — 28allday 出品 Omarchy 桌面专用离线键盘驱动演示文稿工具，可直接打开 PowerPoint / Keynote 并回存 pptx
+- [tool-openghost](concepts/tool-openghost.md) — ANDRETRIPOL 出品跨平台桌面 Agent（Windows / Linux / macOS），结果直接画成图表 / 流程图
+
+### QingQ77：AI Agent 生态 / 工具链
+- [tool-issue-graph](concepts/tool-issue-graph.md) — Vercel Labs 出品 GitHub issue ↔ PR 关联图 CLI（Node 20+），动手改代码前先理清重复修复与未跟进项
+- [tool-habitat-cli](concepts/tool-habitat-cli.md) — wusterbuilds 出品，把 Codex / Claude Code 编码会话默认留本机 SQLite，敏感代码不上云
+- [note-ten-levels-of-jev](concepts/note-ten-levels-of-jev.md) — disler 出品，把 Jev 类决策服务按 10 级 30 个可运行示例展示该放到架构哪一层
+
+### QingQ77：编程语言 / 工具链
+- [tool-codediff](concepts/tool-codediff.md) — ivankovic 出品，Rust 写的语法感知代码 diff（tree-sitter 24 种语言），move 检测不冒充"一删一增"
+- [tool-vmxodus](concepts/tool-vmxodus.md) — luka0x73 出品 Bash 脚本，VMware ESXi → Proxmox VE 迁移走 NFS 共享原地转换磁盘，停机时间几乎只剩 cutover 步骤
+
+### QingQ77：内容生成 / 桌面应用
+- [tool-yue2-studio](concepts/tool-yue2-studio.md) — timoncool 出品 Windows 桌面应用，给 YuE2 开源歌曲生成模型套 GUI（先 ABC 记谱再渲染带人声歌曲，全程本地显卡）
+
+### QingQ77：表格 / 字体
+- [tool-visigrid](concepts/tool-visigrid.md) — Rust + GPUI 写的轻量本地表格（macOS / Windows / Linux），安装包 < 30MB、冷启动 ~300ms、134 函数 + 命令面板 + Excel 快捷键，定位"为 Agent 准备的开源 Excel 平替"
+- [tool-calcom-sans](concepts/tool-calcom-sans.md) — Cal.com 出品开源可变字体，一个文件覆盖 8pt 正文 ~ 45pt 标题，替换 Inter / SF Pro / Roboto 时保持垂直比例，组件间距不返工
+
+### QingQ77：FDE 资料（中文实战方向）
+- [note-fde-cn-resources](concepts/note-fde-cn-resources.md) — VanGong1999 维护，面向中文读者的 FDE 学习 + 面试 + 可复用工作模板（与 `note-fde-guidance-book` / `note-fde-101-dotey` 互补）
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 2 条：contact.parallel.ai（2105195491684429872，仅 "name a better contact form, I'll wait" + URL 无项目实质）/ akashsoti ux-writing（2105086206510019037，仅一句话 + URL 同类项目已被 `tool-ux-writing-skill` 覆盖）
+- QingQ77 7 条：「至今不明白这个拼豆是怎么火起来的」（2105129534068793405，纯吐槽 + 视频）/「斯蒂庞克结算画面」（2105241639782674604，纯情绪 + 视频）/「有这个可以称王了吧，儿童之王！」（2105306204801249656，短句 + 视频）/「我就说网上能学到好东西嘛」（2105104945095774368，纯情绪 + 视频）/「说来也怪...」（2105150644948812067，怀旧短句 + 视频）/「极限美学」（2105307428111925347，纯情绪 + 视频）/「作者声明：内容由 AI 生成」（2105282249897943539，单句 + 视频）—— 全部按「质量门槛」跳过
+
+注：`inbox/twitter/Wen_Zw/2026-09-30-2105087648754982995.md`（EvilCharts / Rewamp UI / Refero / Bencho / Inspora / Neuform / Open Design 7 站列表）中 Rewamp UI / Refero Styles / Bencho / Neuform / Open Design 已被既有概念覆盖，仅 EvilCharts + Inspora 作为新工具收录。
+
