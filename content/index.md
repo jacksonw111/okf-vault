@@ -3837,3 +3837,46 @@ timestamp: "2026-08-27T15:46:00Z"
 
 注：`inbox/twitter/Wen_Zw/2026-09-30-2105087648754982995.md`（EvilCharts / Rewamp UI / Refero / Bencho / Inspora / Neuform / Open Design 7 站列表）中 Rewamp UI / Refero Styles / Bencho / Neuform / Open Design 已被既有概念覆盖，仅 EvilCharts + Inspora 作为新工具收录。
 
+## 本批新增（2026-10-01）
+
+处理 `inbox/_broken-links.md` 断链工单（3 条 frontmatter 非法 YAML 修复）+ `inbox/twitter/Wen_Zw/` 8 条 + `inbox/twitter/QingQ77/` 14 条 X 推文剪藏 = **共 23 份资料（13 新增概念 + 10 低价值 / 描述过薄跳过）**。
+
+### 断链工单修复（3 条 frontmatter 非法 YAML → 中文引号）
+- [note-ten-levels-of-jev](concepts/note-ten-levels-of-jev.md) — 修了 description 里裸 `"` 导致 YAML 解析失败
+- [tool-codediff](concepts/tool-codediff.md) — 修了 description 里裸 `"` 导致 YAML 解析失败
+- [tool-tiller](concepts/tool-tiller.md) — 修了 description 里裸 `"` 导致 YAML 解析失败
+
+### Wen_Zw：全栈样板 / 脚手架
+- [tool-cove-stack](concepts/tool-cove-stack.md) — mugnavo 出品的 TanStack Start 全栈样板（React + TanStack Router/Query + Drizzle + Better Auth + Vite Plus + Nitro，Unlicense）
+
+### Wen_Zw：测试与开发工具
+- [tool-e2e-army-framework](concepts/tool-e2e-army-framework.md) — tester.army 出品的 agentic testing framework，把确定性 API 与 Agent API 混着写 e2e
+
+### Wen_Zw：文档与数据预处理
+- [tool-doc7](concepts/tool-doc7.md) — magicrew 出品的本地文档预处理，整页渲染图后交给多模态模型读出 Markdown，PDF / Office / 邮件 / EPUB / 截图全覆盖
+- [tool-microsoft-data-formulator](concepts/tool-microsoft-data-formulator.md) — 微软开源的 AI 数据分析可视化工作区（Data Threads 分支追问 + 多数据源）
+
+### Wen_Zw：数据库客户端
+- [tool-pggo](concepts/tool-pggo.md) — alxshp 出品 Go 写的极简 Postgres 客户端（直接讲 wire protocol、~2000 行 / ~4 MB 静态二进制、~8 ms 一次调用，专为 coding agent 设计）
+
+### Wen_Zw：云服务 / 商业更新
+- [note-upstash-blob-free-egress](concepts/note-upstash-blob-free-egress.md) — Upstash Blob 上线 1 TB / 月免费出站流量
+
+### QingQ77：终端 / SSH / Android
+- [tool-termium](concepts/tool-termium.md) — codr1 出品的 TUI 浏览器，把真 Chromium 装进终端跑
+- [tool-dextop](concepts/tool-dextop.md) — NarYuki 出品的 Android 虚拟显示桌面工作区
+- [tool-tunnl-gg](concepts/tool-tunnl-gg.md) — klipitkas 出品的自部署 SSH 反向隧道（自动分配子域名 + 签发通配符 HTTPS）
+
+### QingQ77：Linux / 自托管
+- [tool-appimg](concepts/tool-appimg.md) — MrGilfy 出品的 Rust + TUI AppImage 管理器（操作全在 `$HOME`）
+- [tool-morphe-patcher-web](concepts/tool-morphe-patcher-web.md) — GROWNUPS 出品的容器化方案，把 Morphe CLI 装进容器当 headless Web 服务跑
+- [tool-100-themes](concepts/tool-100-themes.md) — bjarneo 出品的 100 套 Omarchy 深色主题合集
+
+### QingQ77：金融 / AI Agent 记忆
+- [tool-panwatch](concepts/tool-panwatch.md) — TNT-Likely 出品的自托管 AI 盯盘与投研工作台（A / 港 / 美股统一）
+- [tool-jev-dreaming](concepts/tool-jev-dreaming.md) — AdnanQuazi 出品的本地测试台，「Jev 分块判定 + Gemini 写记忆」vs「全程 Gemini」对照
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 3 条：metalui.dev（2105464471624032378，仅 URL 无项目实质）/ SGLang decision API（2105463913294991675，仅一段英文公告 + 文档链接，无独立项目实质）
+- QingQ77 7 条：「嗯，学到了～」（2105684611632353344）/「做动平衡怎么办……」（2105608663008203166）/「阻尼器？人才呀」（2105588288379867422）/「马斯克的星链……」（2105499887869821102）/「低端的食材只需要高端的音乐」（2105510643684331630）/「第一个就没绷住🤣」（2105573324860674110）—— 全部按「质量门槛」跳过
+

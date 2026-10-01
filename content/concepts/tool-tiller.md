@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "Tiller（基于 Chromium 的 macOS 浏览器 + 内置 Agent 面板）"
-description: "基于 Chromium 的 macOS 浏览器，UI 用原生 Swift / AppKit 编写，内置一个"能驱动浏览器"的 Agent 面板，把浏览与代理操作合并到同一界面。"
+description: "基于 Chromium 的 macOS 浏览器，UI 用原生 Swift / AppKit 编写，内置一个「能驱动浏览器」的 Agent 面板，把浏览与代理操作合并到同一界面。"
 resource: "https://github.com/sorrycc/tiller"
 tags: [browser, chromium, macos, agent, swift, appkit]
 timestamp: 2026-09-30T15:49:00Z

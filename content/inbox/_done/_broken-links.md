@@ -3,7 +3,7 @@ type: "Note"
 title: "断链工单（自动生成）"
 description: "OKF 校验器检测到的 concepts/ 断链清单；agent 修完后把本文件移到 _done/"
 tags: ["okf", "maintenance"]
-timestamp: "2026-09-27T21:49:19Z"
+timestamp: "2026-10-01T22:58:29Z"
 ---
 
 # ⚠️ 断链工单（自动生成，勿当知识资料）
@@ -15,6 +15,8 @@ timestamp: "2026-09-27T21:49:19Z"
 1. 目标值得收录（术语/工具）→ 在 `concepts/` 新建对应 stub 概念（带 `type` frontmatter）；
 2. 目标不值得单独成条 → 把那条 `[x](path.md)` 改成纯文本 `x`。
 
-## 违例清单（1 条）
+## 违例清单（3 条）
 
-- content/concepts/tool-ha-spatial-context.md:48: 断链 -> ./tool-homeassistant.md
+- content/concepts/note-ten-levels-of-jev.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping
+- content/concepts/tool-codediff.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping
+- content/concepts/tool-tiller.md: frontmatter 不是合法 YAML（Quartz 会构建失败）: while parsing a block mapping

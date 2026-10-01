@@ -4187,4 +4187,47 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 2 条：contact.parallel.ai（2105195491684429872，仅 "name a better contact form, I'll wait" + URL 无项目实质）/ akashsoti ux-writing（2105086206510019037，仅一句话 + URL 同类项目已被 `tool-ux-writing-skill` 覆盖）
 - QingQ77 7 条：「至今不明白这个拼豆是怎么火起来的」（2105129534068793405，纯吐槽 + 视频）/「斯蒂庞克结算画面」（2105241639782674604，纯情绪 + 视频）/「有这个可以称王了吧，儿童之王！」（2105306204801249656，短句 + 视频）/「我就说网上能学到好东西嘛」（2105104945095774368，纯情绪 + 视频）/「说来也怪...」（2105150644948812067，怀旧短句 + 视频）/「极限美学」（2105307428111925347，纯情绪 + 视频）/「作者声明：内容由 AI 生成」（2105282249897943539，单句 + 视频）—— 全部按「质量门槛」跳过
 
+## 本批新增（2026-10-01）
+
+处理 `inbox/_broken-links.md` 断链工单 + `inbox/twitter/Wen_Zw/` 8 条 + `inbox/twitter/QingQ77/` 14 条 X 推文剪藏 = **共 23 份资料（13 新增概念 + 10 低价值 / 描述过薄跳过）**，外加**断链工单修复 3 条 frontmatter 非法 YAML**。
+
+### 断链工单修复（合法 YAML）
+- [ten-levels-of-jev](./note-ten-levels-of-jev.md) — `Note` — 修了 description 里的非法双引号（原句含 `告诉工程师"该把它塞进哪一层"` → 改为中文引号）
+- [CodeDiff](./tool-codediff.md) — `Tool` — 修了 description 里的非法双引号（原句含 `不冒充"一删一增"` → 改为中文引号）
+- [Tiller](./tool-tiller.md) — `Tool` — 修了 description 里的非法双引号（原句含 `内置一个"能驱动浏览器"的 Agent` → 改为中文引号）
+
+### Wen_Zw：全栈样板 / 脚手架
+- [Cove Stack](./tool-cove-stack.md) — `Tool` — mugnavo 出品的 TanStack Start 全栈样板（React + TanStack Router/Query + Drizzle + Better Auth + Vite Plus + Nitro，Unlicense，`pnpm create cove` 起步）
+
+### Wen_Zw：测试与开发工具
+- [e2e (tester.army)](./tool-e2e-army-framework.md) — `Tool` — tester.army 出品的 agentic testing framework，把确定性 API 与 Agent API 混着写端到端（Web / 移动，`npx e2e init` 起步）
+
+### Wen_Zw：文档与数据预处理
+- [doc7](./tool-doc7.md) — `Tool` — magicrew 出品的本地文档预处理工具，整页渲染图后交给多模态模型读出 Markdown，PDF / Office / 邮件 / EPUB / 截图全覆盖
+- [Microsoft Data Formulator](./tool-microsoft-data-formulator.md) — `Tool` — 微软开源的 AI 数据分析可视化工作区（Data Threads 分支追问 + Databricks / 数据库 / 文件统一数据源，0.8 Beta）
+
+### Wen_Zw：数据库客户端
+- [pgGo](./tool-pggo.md) — `Tool` — alxshp 出品 Go 写的极简 Postgres 客户端（直接讲 wire protocol、~2000 行 / ~4 MB 静态二进制、JSON 原生、参数化、默认只读、~8 ms 一次调用，专为 coding agent 设计）
+
+### Wen_Zw：云服务 / 商业更新
+- [Upstash Blob Free Egress](./note-upstash-blob-free-egress.md) — `Note` — Upstash 给 Blob 上线 1 TB / 月免费出站流量（全员自动、无需申请）
+
+### QingQ77：终端 / SSH / Android
+- [Termium](./tool-termium.md) — `Tool` — codr1 出品的 TUI 浏览器，把真 Chromium 装进终端跑，SSH / 服务器环境无需图形界面即可交互式访问网页
+- [Dextop](./tool-dextop.md) — `Tool` — NarYuki 出品的 Android 虚拟显示应用，1.5.0 起自带 root 运行时接管窗口摆放 / 触摸 / 屏幕旋转
+- [tunnl.gg](./tool-tunnl-gg.md) — `Tool` — klipitkas 出品的自部署 SSH 反向隧道，自动分配子域名 + 签发通配符 HTTPS + 实时请求日志
+
+### QingQ77：Linux / 自托管
+- [appimg](./tool-appimg.md) — `Tool` — MrGilfy 出品的 Rust + TUI AppImage 管理器，全部操作限制在 `$HOME`，不写系统目录
+- [Morphe Patcher Web](./tool-morphe-patcher-web.md) — `Tool` — GROWNUPS 出品的容器化方案，把 Morphe CLI 装进容器当 headless Web 服务跑（hot-folder 监听 + Webhook 通知）
+- [100 Themes](./tool-100-themes.md) — `Tool` — bjarneo 出品的 100 套 Omarchy 深色主题合集，配齐 ANSI 配色 + 壁纸
+
+### QingQ77：金融 / AI Agent 记忆
+- [PanWatch](./tool-panwatch.md) — `Tool` — TNT-Likely 出品的自托管 AI 盯盘与投研工作台（A / 港 / 美股统一盯盘 + 异动提醒 + 定时报告，FastAPI + React 18 + shadcn/ui，Docker 一条命令拉起）
+- [jev-dreaming](./tool-jev-dreaming.md) — `Tool` — AdnanQuazi 出品的本地测试台，「Jev 分块判定 + Gemini 写记忆」vs「全程 Gemini」对照速度 / 花费 / 记忆质量
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 3 条：metalui.dev（2105464471624032378，仅 `try it out here : https://metalui.dev` + URL，无项目实质）/ SGLang decision API（2105463913294991675，仅一段英文公告 + 文档链接，无独立项目实质，待 SGLang 主线资料完备再合并）/ Cove 之前的 7 站合集索引内单条已合并
+- QingQ77 7 条：「嗯，学到了～」（2105684611632353344，纯情绪 + 视频）/「做动平衡怎么办，我觉得还不如直接做成实心胎吧……」（2105608663008203166，短句 + 视频）/「阻尼器？人才呀」（2105588288379867422，短句 + 视频）/「马斯克的星链真是个好东西，人类之光！」（2105499887869821102，短句 + 视频）/「低端的食材只需要高端的音乐」（2105510643684331630，短句 + 视频）/「第一个就没绷住🤣」（2105573324860674110，短句 + 视频）—— 全部按「质量门槛」跳过
+
 注：`inbox/twitter/Wen_Zw/2026-09-30-2105087648754982995.md`（EvilCharts / Rewamp UI / Refero / Bencho / Inspora / Neuform / Open Design 7 站列表）中 Rewamp UI / Refero Styles / Bencho / Neuform / Open Design 已被既有概念覆盖，仅 EvilCharts + Inspora 作为新工具收录。

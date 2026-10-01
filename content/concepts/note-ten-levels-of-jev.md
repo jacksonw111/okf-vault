@@ -1,7 +1,7 @@
 ---
 type: Note
 title: "ten-levels-of-jev（disler 出品的 Jev 集成示例库）"
-description: "disler 把 Jev 这类「发一个 state、问几个带类型的问题、拿回带概率答案」的服务按十级三十个能跑的示例拆开，告诉工程师"该把它塞进哪一层"。是一份**架构级别的实战目录**。"
+description: "disler 把 Jev 这类「发一个 state、问几个带类型的问题、拿回带概率答案」的服务按十级三十个能跑的示例拆开，告诉工程师「该把它塞进哪一层」。是一份**架构级别的实战目录**。"
 resource: "https://github.com/disler/ten-levels-of-jev"
 tags: [jev, architecture, examples, decision-engine, integration-patterns]
 timestamp: 2026-09-30T07:27:00Z

@@ -1,7 +1,7 @@
 ---
 type: Tool
 title: "CodeDiff（Rust 写的语法感知代码 diff 工具）"
-description: "Rust 写的代码 diff 工具：先用 tree-sitter 把源码拆成语法树再比较，只高亮真正变化的片段；整行重写会被切成局部修改、搬走的代码块直接标 move，不冒充"一删一增"。打包 24 种语言语法。"
+description: "Rust 写的代码 diff 工具：先用 tree-sitter 把源码拆成语法树再比较，只高亮真正变化的片段；整行重写会被切成局部修改、搬走的代码块直接标 move，不冒充「一删一增」。打包 24 种语言语法。"
 resource: "https://github.com/ivankovic/codediff"
 tags: [diff, code-review, rust, tree-sitter, syntax-aware, move-detection]
 timestamp: 2026-09-30T06:43:00Z
