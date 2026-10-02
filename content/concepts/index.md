@@ -4231,3 +4231,56 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 7 条：「嗯，学到了～」（2105684611632353344，纯情绪 + 视频）/「做动平衡怎么办，我觉得还不如直接做成实心胎吧……」（2105608663008203166，短句 + 视频）/「阻尼器？人才呀」（2105588288379867422，短句 + 视频）/「马斯克的星链真是个好东西，人类之光！」（2105499887869821102，短句 + 视频）/「低端的食材只需要高端的音乐」（2105510643684331630，短句 + 视频）/「第一个就没绷住🤣」（2105573324860674110，短句 + 视频）—— 全部按「质量门槛」跳过
 
 注：`inbox/twitter/Wen_Zw/2026-09-30-2105087648754982995.md`（EvilCharts / Rewamp UI / Refero / Bencho / Inspora / Neuform / Open Design 7 站列表）中 Rewamp UI / Refero Styles / Bencho / Neuform / Open Design 已被既有概念覆盖，仅 EvilCharts + Inspora 作为新工具收录。
+
+## 本批新增（2026-10-02）
+
+处理 `inbox/twitter/Wen_Zw/` 17 条 + `inbox/twitter/QingQ77/` 23 条 X 推文剪藏 = **共 40 份资料（23 新增概念 + 1 既有概念增量补充 + 16 低价值 / 描述过薄 / 与既有重复跳过）**。
+
+### Wen_Zw：DSL / LLM 输出形式
+- [DSL-as-Harness](./note-dsl-as-harness.md) — `Note` — mulmoclaude 论文观点：HTML/Markdown/ASD-STE100/ShapeScript 等受限 DSL 是约束 LLM 输出的天然缰绳，把表达限制在合法子集里，让模型产出更稳定、更可读、更易被工具链二次加工
+- [Karpathy 的 LLM 输出格式升级链](./note-karpathy-llm-output-formats.md) — `Note` — Karpathy 给出的「纯文本 → 受控英语 → 图示 → 交互式 HTML → 定制化解释视频」五层 LLM 产物形式排序，每一层都比上一层「表达更紧、可解析更强」
+
+### Wen_Zw：Cloudflare 生态（BirthdayWeek）
+- [Cloudflare Clef & Clef-flash](./tool-cloudflare-clef.md) — `Tool` — Cloudflare BirthdayWeek 发布的两个开源决策模型（Clef 主力 + Clef-flash 极速版），托管在 Workers AI 上，按推理调用计费，适合边缘高吞吐分类 / 路由 / 守门
+- [Cloudflare K2 Streams](./tool-cloudflare-k2-streams.md) — `Tool` — Cloudflare BirthdayWeek 发布的边缘 serverless Kafka 替代，免运维、自动伸缩、与 Workers / R2 / Workers AI 同生态
+
+### Wen_Zw：浏览器 / 选型工具
+- [Mesurer](./tool-mesure.md) — `Tool` — Ibelick 出品的浏览器测距 + 录屏工具集（npm 包 + Chrome 扩展），给 PR 描述 / Slack 反馈里「拍下来」说清视觉问题
+- [Kobra Grouped Table](./tool-kobra-grouped-table.md) — `Tool` — haaarshsingh 复刻自 Linear 的表格分组交互：行拖拽到表头就成组，组可折叠 / 重命名 / 嵌套，kobra.systems/grouped-table 提供下载
+
+### Wen_Zw：UI / 教程
+- [Google Advent of Agents Season 3](./note-google-advent-of-agents-s3.md) — `Note` — Google Cloud 在 2026 年 10 月推出的 31 天免费动手教程系列，覆盖 agent identity / guardrails / sandboxing / observability / evaluations / MCP security / cost controls / fleet management
+- [主中 + 顶 header + 单侧栏：实用三段布局](./note-sootao-central-layout.md) — `Note` — sootao 在多次界面改版后总结的「主内容在中央 + 顶部 header 维持主界面状态 + 单个侧边栏做临时辅助」极简布局经验
+
+### QingQ77：本地 LLM / 决策模型
+- [Imajev](./tool-imajev.md) — `Tool` — mohit67890 出品的本地多模态决策框架，2B/4B/9B 小模型在本地同时读照片 / 业务记录 / 文本，按用户预定义选项输出带概率与「说不了」的决策
+- [Jevstiller](./tool-jevstiller.md) — `Tool` — tomerglick57 出品的 Jev 省钱器：让本地小模型逐步接住分类请求，配分歧上限兜住答错比例
+
+### QingQ77：桌面 / 系统工具
+- [Tusk](./tool-tusk-db-client.md) — `Tool` — alpcanaydin 出品的 Rust + GPUI 原生多数据库客户端，连 20 种数据库（Postgres/MySQL/SQLite/Snowflake/BigQuery/Redis 等），替代 TablePlus
+- [Herdr GPUI](./tool-herdr-gpui.md) — `Tool` — penso 出品的 Herdr daemon 桌面 GUI 客户端，Rust + GPUI 写，专门接 daemon 把终端画面连同分屏一起画出来
+- [Coucou](./tool-coucou.md) — `Tool` — Louis-CFM 出品的 Mac 刘海 / 状态栏小工具，把 Claude Code 等 AI 编码 Agent 的运行状态 / 权限审批 / 聊天搬进刘海或屏幕顶部
+
+### QingQ77：内容生成 / 视觉
+- [awesome-ai-motion](./note-awesome-ai-motion.md) — `Note` — gongnyang 出品的「把动效做成卡片给 agent 选」清单，结构化字段让 agent 直接挑效果、跑渲染
+- [Dioramas](./tool-dioramas.md) — `Tool` — blendi-remade 出品的 three.js 3D 落地页套件，fal + Meshy 出模型 → 优化 25 MB → 3-8 MB，20 个示例 MIT 协议
+
+### QingQ77：Agent Skills / 工作流
+- [Universal Modder](./tool-universal-modder.md) — `Tool` — rehan-remade 出品的游戏 Mod Agent Skills 套件：10 个 Skill + 12 份引擎手册（Unity/Unreal/Godot/Source/Bethesda/RE Engine 等）
+- [MCP Extensions (OpenAI)](./tool-mcp-extensions-openai.md) — `Tool` — OpenAI 官方在 MCP 基础协议上扩展 ChatGPT 专有的入口与 UI 能力，让第三方插件用起来像 ChatGPT 自带功能
+- [AIHOT](./tool-aihot.md) — `Tool` — KKKKhazix 出品的开源热点聚合框架，从 6 种信源抓资料，LLM 预筛 + 独立打分两次，每天 08:00 出日报
+- [Douchat](./tool-douchat.md) — `Tool` — 把多个 agent CLI 收进同一个桌面窗口（Claude Code/Codex/Gemini CLI/Cursor CLI 等），能单聊也能拉群一起干活
+- [Growth Engineer](./tool-growth-engineer.md) — `Tool` — GetBrew 出品的 GTM 工具 + 打法 markdown 合集（78 家公司 + 51 条 Workflow），强制「先问用户」守门
+- [JourniOne Planning Skills](./tool-journione.md) — `Tool` — JourniOne-ai 出品的旅行规划 Agent Skills 包，按天排出可执行路线并输出带地图的图文旅行手册
+
+### QingQ77：交互 / 反馈
+- [EditHere](./tool-edithere.md) — `Tool` — Inginnng 出品的 C++ 截图标注工具，把界面截图 / 批注 / 组件位置变化打包成 JSON 给 AI 直接改代码
+
+### 既有概念增量补充
+- [Bencho.dev](./tool-bencho-dev.md) — `Tool` — 关键能力表追加「Bencho Finds：收集网上疯狂的 UI 交互」一行（与 `tool-bencho-dev` 原表合并）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 8 条：RT @nazmijavierl Design System prompt（2105929465880780875，仅一个 LLM prompt 示例无项目实质）/ RT @suniljoshi19 shadcn dashboard（2106028490328047741，仅 URL 无项目实质）/ RT @nolansym cult-ui DESIGN.md（2105905322565218480，仅 URL 无项目实质）/ RT @arihantCodes spectrum UI（2106028694372544883，仅 URL 无项目实质）/ RT @shadcnblocks Bento 26（2105900305175212160，仅单个 shadcn 块无独立概念）/ RT @noahelhadedy Google Fonts（2105919182949027910，仅 Google Fonts 5 个 URL 清单无独立概念）/ RT @Alok619308 cuedesign.space（2105799650745917675，与既有 `tool-cue-design-space` 重复）/ RT @musen9527 mattpocock/skills（2105790363013443784，与既有 `tool-mattpocock-skills` 重复）
+- QingQ77 8 条：pomodoro-diabrete（2105937076965527667，像素小怪番茄钟玩具无知识价值）/「会不会太卷了」（2106012932085797242，纯反应 + 视频）/「欲语泪先流🥹」（2105820060220858587，纯情绪 + 视频）/「烟头有什么，钢盔都搂出来了～」（2105905973609296014，纯情绪 + 视频）/「考题来了，这是不是 AI 做的？」（2105851494323142973，纯反应 + 视频）/「莫名其妙的来一下这表情」（2105799257236361602，纯反应 + 视频）/「这个好」（2106022280971305189，单字 + 视频）/「杀死比赛，原唱+冠军！」（2105990680158113929，纯反应 + 视频）—— 全部按「质量门槛」跳过
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；40 份资料（Wen_Zw 17 + QingQ77 23，含 16 条跳过同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。

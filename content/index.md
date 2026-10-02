@@ -3880,3 +3880,37 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 3 条：metalui.dev（2105464471624032378，仅 URL 无项目实质）/ SGLang decision API（2105463913294991675，仅一段英文公告 + 文档链接，无独立项目实质）
 - QingQ77 7 条：「嗯，学到了～」（2105684611632353344）/「做动平衡怎么办……」（2105608663008203166）/「阻尼器？人才呀」（2105588288379867422）/「马斯克的星链……」（2105499887869821102）/「低端的食材只需要高端的音乐」（2105510643684331630）/「第一个就没绷住🤣」（2105573324860674110）—— 全部按「质量门槛」跳过
 
+
+## 本批新增（2026-10-02）
+
+处理 `inbox/twitter/Wen_Zw/` 17 条 + `inbox/twitter/QingQ77/` 23 条 X 推文剪藏 = **共 40 份资料（23 新增概念 + 1 既有概念增量补充 + 16 低价值 / 描述过薄 / 与既有重复跳过）**。
+
+### Wen_Zw
+- [DSL-as-Harness](concepts/note-dsl-as-harness.md) — mulmoclaude 论文观点：DSL 是约束 LLM 输出的天然缰绳
+- [Karpathy 的 LLM 输出格式升级链](concepts/note-karpathy-llm-output-formats.md) — 五层 LLM 产物形式排序
+- [Cloudflare Clef & Clef-flash](concepts/tool-cloudflare-clef.md) — Workers AI 上的开源决策模型
+- [Cloudflare K2 Streams](concepts/tool-cloudflare-k2-streams.md) — 边缘 serverless Kafka 替代
+- [Mesurer](concepts/tool-mesure.md) — 浏览器测距 + 录屏工具集
+- [Kobra Grouped Table](concepts/tool-kobra-grouped-table.md) — Linear 风格表格分组交互
+- [Google Advent of Agents S3](concepts/note-google-advent-of-agents-s3.md) — Google Cloud 31 天生产级 Agent 实战
+- [主中 + 顶 header + 单侧栏](concepts/note-sootao-central-layout.md) — 实用三段布局经验
+
+### QingQ77
+- [Imajev](concepts/tool-imajev.md) — 本地多模态决策框架
+- [Jevstiller](concepts/tool-jevstiller.md) — Jev 本地缓存 + 分歧上限
+- [Tusk](concepts/tool-tusk-db-client.md) — Rust 写的 20 引擎原生数据库客户端
+- [Herdr GPUI](concepts/tool-herdr-gpui.md) — Herdr daemon 的 macOS 原生 GUI 客户端
+- [Coucou](concepts/tool-coucou.md) — Mac 刘海 / 状态栏的 AI Agent 监控面板
+- [awesome-ai-motion](concepts/note-awesome-ai-motion.md) — 把动效做成卡片给 agent 选
+- [Dioramas](concepts/tool-dioramas.md) — three.js 3D 落地页套件
+- [Universal Modder](concepts/tool-universal-modder.md) — 游戏 Mod Agent Skills 套件
+- [MCP Extensions (OpenAI)](concepts/tool-mcp-extensions-openai.md) — OpenAI 在 MCP 上的 ChatGPT 专有扩展
+- [AIHOT](concepts/tool-aihot.md) — 开源热点聚合与日报框架
+- [Douchat](concepts/tool-douchat.md) — 多 agent CLI 统一桌面窗口
+- [Growth Engineer](concepts/tool-growth-engineer.md) — GTM 工具 + 打法 markdown 合集
+- [JourniOne Planning Skills](concepts/tool-journione.md) — AI 旅行规划 Skill 包
+- [EditHere](concepts/tool-edithere.md) — C++ 截图标注 → AI JSON 工具
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 8 条：Design System prompt / shadcn dashboard / cult-ui DESIGN.md / spectrum UI / Bento 26 / Google Fonts 列表 + 2 条与既有 `tool-cue-design-space` / `tool-mattpocock-skills` 重复
+- QingQ77 8 条：pomodoro-diabrete 玩具无知识价值 + 7 条纯反应 / 纯情绪 / 短句 + 视频
