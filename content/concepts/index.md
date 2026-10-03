@@ -4284,3 +4284,77 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 8 条：pomodoro-diabrete（2105937076965527667，像素小怪番茄钟玩具无知识价值）/「会不会太卷了」（2106012932085797242，纯反应 + 视频）/「欲语泪先流🥹」（2105820060220858587，纯情绪 + 视频）/「烟头有什么，钢盔都搂出来了～」（2105905973609296014，纯情绪 + 视频）/「考题来了，这是不是 AI 做的？」（2105851494323142973，纯反应 + 视频）/「莫名其妙的来一下这表情」（2105799257236361602，纯反应 + 视频）/「这个好」（2106022280971305189，单字 + 视频）/「杀死比赛，原唱+冠军！」（2105990680158113929，纯反应 + 视频）—— 全部按「质量门槛」跳过
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；40 份资料（Wen_Zw 17 + QingQ77 23，含 16 条跳过同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。
+
+## 本批新增（2026-10-03）
+
+处理 `inbox/twitter/Wen_Zw/` 27 条 + `inbox/twitter/QingQ77/` 27 条 X 推文剪藏 = **共 54 份资料（37 新增概念 + 16 低价值 / 描述过薄 / 与既有重复跳过）**。
+
+### Wen_Zw：Cloudflare / Pi / GPUI 生态
+- [Cloudflare Artifacts](./tool-cloudflare-artifacts.md) — `Tool` — Cloudflare BirthdayWeek 发布的 Git 兼容代码仓库平台底座，专为「成百上千 AI Agent 同时编码」重新设计，可从 Worker 直接创建 / fork / clone
+- [Cloudflare cf CLI](./tool-cloudflare-cf-cli.md) — `Tool` — Cloudflare 官方统一 CLI（2900+ 命令，OpenAPI 自动生成），按 `cf <product> [group] <operation>` 组织，专为 coding agent 设计
+- [Pi Durable（Cloudflare Agents SDK 集成）](./tool-pi-durable-cloudflare.md) — `Tool` — Cloudflare 在 Agents SDK 集成 Pi 的会话持久化 / Harness 抽象，让 Worker Agent 拥有与 Pi 本地一致的「跨调用上下文」
+- [Zeron](./tool-zeron-gpui.md) — `Tool` — winglee 开源的 GPUI（Rust + GPU）原生 Coding Agent 控制平面，120 FPS 流式文本渲染 + 转场动画，绕开 Electron / Tauri 渲染瓶颈
+- [GPUI 生态与周边项目](./note-gpui-ecosystem.md) — `Note` — lencx_ 整理的 GPUI 生态项目全景（Zed / Longbridge / OpenLogi / elygpui / herdr-gpui / zeron 等），把 Rust 原生 GPU 加速 UI 推成下一代桌面栈
+- [Elygpui](./tool-elygpui.md) — `Tool` — ZacharyZhang 维护的 GPUI 组件市场（1272 个组件），覆盖表格 / 按钮 / 表单 / 图表 / 布局
+
+### Wen_Zw：桌面 / Linux / Omarchy
+- [omacvm](./tool-omacvm.md) — `Tool` — 在 Apple Silicon Mac 上跑 Omarchy（Arch Linux ARM）的 VM 方案，Wi-Fi / 音频 / 媒体键 / 触控板手势 / Night Shift 全部透传
+- [Omarchy Mac Starter](./tool-omarchy-mac-starter.md) — `Tool` — johnloringpollard 出品的 Omarchy dotfiles 合集：Mac 风格快捷键、圆角窗口、毛玻璃面板、透明顶栏、可选苹果外设集成
+
+### Wen_Zw：数据库 / 团队协作
+- [dbx](./tool-dbx.md) — `Tool` — t8y2 出品的轻量开源数据库 GUI（25 MB 安装包），覆盖 100+ 数据库（MySQL / PG / Redis / Mongo / 达梦），内置 AI 写 SQL + 安全检查
+- [MonkeyCode](./tool-monkeycode.md) — `Tool` — 长亭科技开源的企业级 AI 开发平台，浏览器即用、需求 / 开发 / 验证 / 审查全流程集中管理、支持 GLM / Kimi / Qwen / DeepSeek 等主流模型
+
+### Wen_Zw：React / UI 资源
+- [Arc Library](./tool-arc-library.md) — `Tool` — kuratlielia 出品的 React 组件 / 区块源码库（101 组件 + 22 区块），shadcn 风格源码交付，可任意改写
+- [RTEcn / rtecn.space](./tool-rtecn-space.md) — `Tool` — shadcn 模式复刻到富文本编辑器领域，组件 / 工具栏 / 插件按 shadcn「复制即可用」流程装到 React 项目
+- [ShaderCN](./tool-shadercn.md) — `Tool` — shadcn 模式复刻到 Shader 领域，把常用 WebGL / GLSL 着色器做成可复制源码的组件
+- [icons-animated](./tool-icons-animated.md) — `Tool` — ln-dev7 维护的动效图标合集，把 Heroicons / Hugeicons / Tabler / Phosphor 等做成保留 outline 原生形状的可循环动效
+
+### Wen_Zw：Agent Skills / 设计 Skill
+- [0xdesign / design-plugin](./tool-0xdesign-design-plugin.md) — `Tool` — 0xdesign 开源的 Claude / Cursor / Codex 设计 Plugin，把「设计 + 反复精修」流程沉淀成可加载 Skill
+- [Layers（Jamie Mill）](./tool-layers-jamiemill.md) — `Tool` — Jamie Mill 出品的设计 Skill，专注「视觉层次 / 信息层级」设计主题
+- [Ponytail](./tool-ponytail.md) — `Tool` — DietrichGebert 出品的 Agent Skill，处理输出流 / 历史尾巴相关工作流
+
+### Wen_Zw：教程 / 学习
+- [build-your-own-x](./note-build-your-own-x.md) — `Note` — codecrafters-io 维护的「从零重建 X」教程合集（≈55.1 万 ⭐），覆盖数据库 / Docker / Git / 操作系统 / 正则表达式引擎等数十种技术
+- [Learn Harness Engineering](./note-learn-harness-engineering.md) — `Note` — walkinglabs 开源的 Harness Engineering 学习站，用可视化交互方式把核心概念讲清楚
+
+### Wen_Zw：UI 微交互细节清单
+- [UI 微交互细节站点合集](./note-ui-detail-sites.md) — `Note` — WasimShips 整理的 9 个「小细节大体感」UI 站点清单（canvasui / beam / originkit / aicss / transitions / metal / agentation / orbs / beautiful-ui）
+
+### QingQ77：Jev / 决策模型 / Agent 治理
+- [OneJev](./tool-onejev.md) — `Tool` — OmniJev 出品的小型决策模型：屏幕 / 照片 / 视频 / 文本判定类问题用一次前向传播直接返回类型化答案 + 校准概率
+- [Abide / quietglass](./tool-abide-rubric.md) — `Tool` — clintonimaroo 把 AGENTS.md / CLAUDE.md 软规则编译成 .abide/rubric.json，每次编辑 + 回合结束用 Jev 决策模型问问题，三档阈值决定修复 / 提示 / 静默
+- [ThinkWatch-Lite](./tool-thinkwatch-lite.md) — `Tool` — ThinkWatchProject 出品的本地 LLM 网关，把 API Key / 私钥 / JWT / 身份证 / 银行卡号先脱敏再发出，并拦截「下载即执行 / 外发凭据 / 写开机启动项」的工具调用
+
+### QingQ77：Cloudflare / 终端
+- （同上 Cloudflare / Pi / GPUI 生态分组）
+
+### QingQ77：Agent Skill / 内容生成
+- [LiveCanvas](./tool-livecanvas.md) — `Tool` — pengchujin 出品的 Agent Skill，一句话 → 搜索核实 → 设计分镜 → Remotion 动画 → Live Photo 资源
+
+### QingQ77：桌面 / 系统 / 隐私
+- [Wallpaper Machine](./tool-wallpaper-machine.md) — `Tool` — 让 macOS 直接播放 Wallpaper Engine 场景 / 视频 / 网页壁纸，应用内浏览 Steam 创意工坊
+- [QuietGlass](./tool-quietglass.md) — `Tool` — clintonimaroo 出品的 macOS 菜单栏应用，三种触发源（AirPods Core Motion / Vision 摄像头 / 手动快捷键）自动给屏幕打码，全部本地
+- [terrahour](./tool-terrahour.md) — `Tool` — 纯 Python 写的终端世界时钟，零第三方依赖，盲文字符画昼夜世界地图 + 24h 横条上班时段 + 多城市重叠行
+- [Adwair](./tool-adwair.md) — `Tool` — kusaida 出品的 Linux 图标主题，把 WhiteSur 精致感与 Adwaita 原生感糅在一起
+
+### QingQ77：多 Agent / 长任务
+- [Herdr Web UI](./tool-herdr-web-ui.md) — `Tool` — devswha 出品的 Herdr 多 Agent 管理器浏览器 / PWA 客户端，网页里查看会话、回应审批、SSH 连远程机器
+- [Jelly](./tool-jelly-agent.md) — `Tool` — dctanner 出品的本地持久 AI Agent 容器，数量不限、按项目目录分组，网页登录 + sudo 审批都经用户之手
+- [Comma](./tool-comma-agent.md) — `Tool` — AFK-surf 出品的跨设备长任务多 Agent 框架，把日常请求变成可长期跟踪的任务
+
+### QingQ77：内容生成 / 视觉
+- [explainroo](./tool-explainroo.md) — `Tool` — vincentsch 出品的本地解说视频流水线（script.md + scenes.js + Kokoro TTS → MP4），Agent 交两个文件就完事
+- [Dental Scope](./tool-dental-scope.md) — `Tool` — Yoosseph 出品的牙齿 / 颌骨解剖 3D 教学工具，浏览器内可交互查看
+
+### QingQ77：DSH 主题 / 样式
+- [dsh-claude-style](./tool-dsh-claude-style.md) — `Tool` — Nwflower 出品的 DeepSeek Harness 网页 GUI 主题包，套上 Claude Code Desktop 配色 + 字体 + 交互，保留 DeepSeek 品牌可切换
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 5 条：baguette 感谢转发（2106314205372854652，纯感谢无项目实质）/ 12 new components（2106192119534891261，仅一句「12 new components, finally in one place」+ 视频无具体信息）/ x.com article 内部链接（2106207324822265861，仅 URL 无实质内容）/ Google Drive 链接（2106149532925145134，仅 URL 无实质）/ designeer.xyz（2106147851726365183，与既有 `tool-designeer` 重复）
+- QingQ77 11 条：周大象保育员故事（2106393881172656501，情绪类 + 视频）/「老婆要回娘家男人的表现」（2106344627104281085，梗类 + 视频）/「根本没有这样的男朋友」（2106231540938375670，梗类 + 视频）/「看小说说明你识字」（2106318561644032071，梗类 + 视频）/「变脸就这样传出去了」（2106227380608233647，梗类 + 视频）/ 校园歌手大赛现场（2106406576370413693，梗类 + 视频）/「卧槽，Bro 还以为自己很帅」（2106251532186578958，梗类 + 视频）/「买个透明胶贴一下」（2106181427234795825，短句 + 视频）/「乐山大佛掏耳屎」（2106368609467683082，梗类 + 视频）/ 大雄宝殿古建彩绘（2106384286001840512，古建类无信息密度）/「这个好这个好」（2106312110355685538，单字 + 视频）—— 全部按「质量门槛」跳过
+- 1 条重复并入既有概念：`tool-addyosmani-skills`（已有，2106151378443984997 Addy Osmani agent-skills Microsoft Build 演示稿补充 25 个 Skills + 六阶段方法学的更多细节并入既有 `tool-addyosmani-skills`，路径稳定不变）/ `tool-understand-anything`（已有，2106227282256036009 Understand Anything 与既有 `tool-understand-anything` 同一项目不重复建）/ `tool-patent-disclosure-skill`（已有，2106228127097872514 与既有 `tool-patent-disclosure-skill` 同项目不重复建）/ `tool-mattpocock-skills`（已有，2106149135007297825 nurijanian 推荐清单中的 Matt Pocock skills 与既有 `tool-mattpocock-skills` 同项目不重复建）
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；54 份资料（Wen_Zw 27 + QingQ77 27，含 16 条跳过同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。

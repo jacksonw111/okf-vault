@@ -3914,3 +3914,70 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - Wen_Zw 8 条：Design System prompt / shadcn dashboard / cult-ui DESIGN.md / spectrum UI / Bento 26 / Google Fonts 列表 + 2 条与既有 `tool-cue-design-space` / `tool-mattpocock-skills` 重复
 - QingQ77 8 条：pomodoro-diabrete 玩具无知识价值 + 7 条纯反应 / 纯情绪 / 短句 + 视频
+
+## 本批新增（2026-10-03）
+
+处理 `inbox/twitter/Wen_Zw/` 27 条 + `inbox/twitter/QingQ77/` 27 条 = **共 54 份资料（37 新增概念 + 16 跳过 + 4 重复并入既有）**。
+
+### Cloudflare / Pi / GPUI 生态
+- [Cloudflare Artifacts](concepts/tool-cloudflare-artifacts.md) — Git 兼容代码仓库底座，专为「成百上千 AI Agent 同时编码」重新设计
+- [Cloudflare cf CLI](concepts/tool-cloudflare-cf-cli.md) — Cloudflare 官方统一 CLI（2900+ 命令，OpenAPI 自动生成）
+- [Pi Durable（Cloudflare Agents SDK）](concepts/tool-pi-durable-cloudflare.md) — Cloudflare 在 Agents SDK 集成 Pi 的会话持久化 / Harness 抽象
+- [Zeron](concepts/tool-zeron-gpui.md) — GPUI 原生 Coding Agent 控制平面，120 FPS 流式渲染
+- [GPUI 生态与周边项目](concepts/note-gpui-ecosystem.md) — Zed / Longbridge / OpenLogi / elygpui / herdr-gpui / zeron 全景
+- [Elygpui](concepts/tool-elygpui.md) — 1272 个组件的 GPUI 组件市场
+
+### 桌面 / Linux / Omarchy
+- [omacvm](concepts/tool-omacvm.md) — 在 Apple Silicon Mac 上跑 Omarchy 的 VM 方案
+- [Omarchy Mac Starter](concepts/tool-omarchy-mac-starter.md) — Mac 风格快捷键 / 圆角 / 毛玻璃 / 透明顶栏主题合集
+
+### 数据库 / 团队协作
+- [dbx](concepts/tool-dbx.md) — 25 MB 开源数据库 GUI（100+ 数据库 + AI SQL）
+- [MonkeyCode](concepts/tool-monkeycode.md) — 长亭科技开源的企业级 AI 开发平台
+
+### React / UI 资源
+- [Arc Library](concepts/tool-arc-library.md) — 101 组件 + 22 区块的 React 源码库
+- [RTEcn](concepts/tool-rtecn-space.md) — shadcn 模式复刻到富文本编辑器
+- [ShaderCN](concepts/tool-shadercn.md) — shadcn 模式复刻到 Shader
+- [icons-animated](concepts/tool-icons-animated.md) — Heroicons / Hugeicons / Tabler / Phosphor 动效版
+
+### Agent Skills / 设计 Skill
+- [0xdesign / design-plugin](concepts/tool-0xdesign-design-plugin.md) — 设计 + 反复精修 Plugin
+- [Layers](concepts/tool-layers-jamiemill.md) — Jamie Mill 出品的视觉层次 Skill
+- [Ponytail](concepts/tool-ponytail.md) — 输出流 / 历史尾巴相关工作流 Skill
+- [LiveCanvas](concepts/tool-livecanvas.md) — 一句话 → Live Photo 资源的 Agent Skill
+
+### 教程 / 学习
+- [build-your-own-x](concepts/note-build-your-own-x.md) — codecrafters-io 维护的从零重建 X 教程合集（≈55.1 万 ⭐）
+- [Learn Harness Engineering](concepts/note-learn-harness-engineering.md) — walkinglabs 的 Harness Engineering 可视化学习站
+
+### UI 微交互细节
+- [UI 微交互细节站点合集](concepts/note-ui-detail-sites.md) — canvasui / beam / originkit / aicss / transitions / metal / agentation / orbs / beautiful-ui
+
+### Jev / 决策模型 / Agent 治理
+- [OneJev](concepts/tool-onejev.md) — 屏幕 / 照片 / 视频 / 文本判定的小型决策模型
+- [Abide / quietglass](concepts/tool-abide-rubric.md) — AGENTS.md 软规则 + Jev 决策 + 三档阈值
+- [ThinkWatch-Lite](concepts/tool-thinkwatch-lite.md) — 本地 LLM 网关：脱敏 + 拦截危险工具调用
+
+### 桌面 / 系统 / 隐私
+- [Wallpaper Machine](concepts/tool-wallpaper-machine.md) — macOS 播放 Wallpaper Engine 壁纸
+- [QuietGlass](concepts/tool-quietglass.md) — macOS 屏幕自动打码（AirPods / Vision / 快捷键）
+- [terrahour](concepts/tool-terrahour.md) — 终端世界时钟，零第三方依赖
+- [Adwair](concepts/tool-adwair.md) — WhiteSur + Adwaita 风格 Linux 图标主题
+
+### 多 Agent / 长任务
+- [Herdr Web UI](concepts/tool-herdr-web-ui.md) — Herdr 多 Agent 管理器的浏览器 / PWA 客户端
+- [Jelly](concepts/tool-jelly-agent.md) — 本地持久 AI Agent 容器
+- [Comma](concepts/tool-comma-agent.md) — 跨设备长任务多 Agent 框架
+
+### 内容生成 / 视觉
+- [explainroo](concepts/tool-explainroo.md) — 本地解说视频流水线
+- [Dental Scope](concepts/tool-dental-scope.md) — 牙齿 / 颌骨解剖 3D 教学工具
+
+### DSH 主题 / 样式
+- [dsh-claude-style](concepts/tool-dsh-claude-style.md) — DeepSeek Harness 网页 GUI 的 Claude Code 桌面皮肤
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 5 条：baguette 感谢转发 / 12 new components 一句话 / x.com article 内部链接 / Google Drive 链接 / designeer.xyz 与既有 `tool-designeer` 重复
+- QingQ77 11 条：大象保育员故事 / 老婆要回娘家 / 根本没有这样的男朋友 / 看小说说明你识字 / 变脸就这样传出去了 / 校园歌手大赛现场 / 卧槽 Bro / 透明胶 / 乐山大佛掏耳屎 / 大雄宝殿古建彩绘 / 这个好这个好 —— 全部按「质量门槛」跳过
+- 4 条重复并入既有：`tool-addyosmani-skills`（Addy Osmani agent-skills Microsoft Build 演示）/ `tool-understand-anything`（Understand Anything）/ `tool-patent-disclosure-skill`（patent-disclosure-skill）/ `tool-mattpocock-skills`（nurijanian 推荐清单中的 Matt Pocock skills）—— 与既有概念同项目，不重复建
