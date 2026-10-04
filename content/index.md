@@ -3981,3 +3981,61 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 5 条：baguette 感谢转发 / 12 new components 一句话 / x.com article 内部链接 / Google Drive 链接 / designeer.xyz 与既有 `tool-designeer` 重复
 - QingQ77 11 条：大象保育员故事 / 老婆要回娘家 / 根本没有这样的男朋友 / 看小说说明你识字 / 变脸就这样传出去了 / 校园歌手大赛现场 / 卧槽 Bro / 透明胶 / 乐山大佛掏耳屎 / 大雄宝殿古建彩绘 / 这个好这个好 —— 全部按「质量门槛」跳过
 - 4 条重复并入既有：`tool-addyosmani-skills`（Addy Osmani agent-skills Microsoft Build 演示）/ `tool-understand-anything`（Understand Anything）/ `tool-patent-disclosure-skill`（patent-disclosure-skill）/ `tool-mattpocock-skills`（nurijanian 推荐清单中的 Matt Pocock skills）—— 与既有概念同项目，不重复建
+
+## 本批新增（2026-10-04）
+
+### Wen_Zw：Awesome / 精选清单
+- [awesome-esp32](concepts/note-awesome-esp32.md) — curisama 维护的 ESP32 精选项目清单
+- [awesome-engineering-articles](concepts/note-awesome-engineering-articles.md) — 顶级公司工程博客精选
+
+### CAD / 桌面 / 装机
+- [ClassCAD.ai](concepts/tool-classcad.md) — MCP CAD 系统，Agent 直接调参数化几何模型
+- [gauge-ui](concepts/tool-gauge-ui.md) — 仪表盘 UI 组件库
+- [reinstall](concepts/tool-reinstall.md) — 一键重装系统脚本
+
+### AI 工程 / Agent 资源
+- [vmlops AI 工程师实战代码库](concepts/tool-vmlops-ai-recipes.md) — 5 大类 AI 工程代码
+
+### UI 灵感 / 组件
+- [UIArc](concepts/tool-uiarc.md) — clean / polished 风 UI 组件库
+- [easyui.site](concepts/note-easyui-site.md) — 极简风 UI 灵感站
+- [opensourceui](concepts/note-opensourceui.md) — 开源 UI 案例合集
+
+### Agent Skill / 教程
+- [live-panel-skill](concepts/tool-live-panel-skill.md) — 编码 Agent 实时面板 Skill
+- [vibe-coding-cn](concepts/note-vibe-coding-cn.md) — 中文 Vibe Coding 系统教程
+
+### Agent Skill / 内容生成
+- [motion-video-skill](concepts/tool-motion-video-skill.md) — 6 阶段质量门禁 Skill
+- [FigGenie-paper-diagram-skill](concepts/tool-figgenie-skill.md) — 投稿级论文图 Skill
+- [见好·旅行规划器](concepts/tool-jianhao-travel-planner.md) — 三源交叉旅行攻略 Skill
+- [vibe-wise](concepts/tool-vibe-wise.md) — 三道确认关卡 Skill
+- [ai-engineering-from-scratch](concepts/note-ai-engineering-from-scratch.md) — 523 节 AI 工程课程
+
+### 身份认证 / 隐私 / 安全
+- [keypaste](concepts/tool-keypaste.md) — 本地 KDBX 密钥管理器 + Agent 审批
+- [yielded-dev/auth](concepts/tool-yielded-auth.md) — Effect Schema 全栈身份认证
+
+### 决策模型
+- [strands-decider](concepts/tool-strands-decider.md) — 19 亿参数决策小模型
+
+### 桌面 / 系统 / 浏览器
+- [zia](concepts/tool-zia.md) — Zen Browser Dia 风模组
+- [HaloBattery](concepts/tool-halobattery.md) — Windows 统一电量托盘
+- [petal](concepts/tool-petal-disk.md) — macOS 实时磁盘 sunburst
+- [inlark](concepts/tool-inlark.md) — 自建邮件的本地邮件客户端
+- [lody-ios](concepts/tool-lody-ios.md) — Lody iOS 客户端
+
+### Agent 可观测
+- [factorylog](concepts/tool-factorylog.md) — 编码 Agent 工作日报聚合器
+
+### .NET / 序列化
+- [CAPCOM REDox](concepts/tool-capcom-redox.md) — .NET 侧多格式高性能解析器
+
+### 车机
+- [DiPlay-CN](concepts/tool-diplay-cn.md) — 比亚迪车机装 CarPlay
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 1 条低价值：AI Agent Observability UI Design（仅文案 + 设计截图无项目链接）
+- Wen_Zw 7 条重复：handraw-style / Comma / Hallmark / Stremio / ternssh / ThinkWatch-Lite / Refactoring UI —— 项目已存在不新建
+- QingQ77 8 条低价值：服了不用密码 / 渔网土豆 / 食堂菜 / 围棋多少局面 / 艺术已成 / 师傅你告诉我 / 好可爱 / 怎么不笑了 —— 全部按「质量门槛」跳过

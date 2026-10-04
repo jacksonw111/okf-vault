@@ -4358,3 +4358,63 @@ timestamp: "2026-08-27T15:46:00Z"
 - 1 条重复并入既有概念：`tool-addyosmani-skills`（已有，2106151378443984997 Addy Osmani agent-skills Microsoft Build 演示稿补充 25 个 Skills + 六阶段方法学的更多细节并入既有 `tool-addyosmani-skills`，路径稳定不变）/ `tool-understand-anything`（已有，2106227282256036009 Understand Anything 与既有 `tool-understand-anything` 同一项目不重复建）/ `tool-patent-disclosure-skill`（已有，2106228127097872514 与既有 `tool-patent-disclosure-skill` 同项目不重复建）/ `tool-mattpocock-skills`（已有，2106149135007297825 nurijanian 推荐清单中的 Matt Pocock skills 与既有 `tool-mattpocock-skills` 同项目不重复建）
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；54 份资料（Wen_Zw 27 + QingQ77 27，含 16 条跳过同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。
+
+## 本批新增（2026-10-04）
+
+### Wen_Zw：Awesome / 精选清单
+- [awesome-esp32](./note-awesome-esp32.md) — `Note` — curisama 维护的 ESP32 精选项目清单，按硬件型号索引，桌宠 / 显示 / 游戏 / 代理协作硬件全覆盖
+- [awesome-engineering-articles](./note-awesome-engineering-articles.md) — `Note` — ashishps1 整理的 Airbnb / Amazon / Netflix / Meta / Stripe / Uber / GitHub 等公司真实生产案例 300+ 篇
+
+### Wen_Zw：AI 工程 / Agent 资源
+- [vmlops AI 工程师实战代码库](./tool-vmlops-ai-recipes.md) — `Tool` — vmlops 在 X 整理的 5 大类（AI Agents / RAG / OCR & Vision / Audio / Fine-Tuning）端到端代码资源，跨 OpenAI / Anthropic / Gemini / Mistral / Ollama
+
+### Wen_Zw：CAD / 桌面 / 装机
+- [ClassCAD.ai](./tool-classcad.md) — `Tool` — AWV Informatik 出品的 MCP CAD 系统，让 Codex / Claude Code / Cursor 等 Agent 直接调出参数化 CAD 几何模型，输出 STEP 等格式
+- [gauge-ui](./tool-gauge-ui.md) — `Tool` — 船舶软件作者的仪表盘 UI 组件库，给工业监控 / 运维看板项目加专业感
+- [reinstall](./tool-reinstall.md) — `Tool` — bin456789 维护的一键重装系统脚本，覆盖 Win11/10/Server / Debian/Ubuntu/Alpine/Rocky/Fedora/OpenWrt，也能给无 IPMI 的 VPS 远程重装
+
+### Wen_Zw：UI 灵感 / 组件
+- [UIArc](./tool-uiarc.md) — `Tool` — clean / polished 风的 UI 组件库，圆角 / 阴影 / 间距都打磨过的开箱即用方案
+- [easyui.site](./note-easyui-site.md) — `Note` — 极简风 UI 灵感站，给追求「少即是多」视觉风格的项目做参考
+- [opensourceui](./note-opensourceui.md) — `Note` — 开源 UI 案例合集站，给 UI 设计 / LLM 提供「真参考」素材
+
+### Wen_Zw：Agent Skill / 教程
+- [live-panel-skill](./tool-live-panel-skill.md) — `Tool` — ythx-101 维护的 Claude Code / Codex 实时面板 Skill，把编码 Agent 的状态 / 上下文 / 输出集中显示
+- [vibe-coding-cn](./note-vibe-coding-cn.md) — `Note` — tradecatlabs 维护的中文 Vibe Coding 系统教程，覆盖 Codex / Claude Code / Cursor / Gemini CLI 的完整 AI 编程流程
+
+### QingQ77：Agent Skill / 内容生成
+- [motion-video-skill](./tool-motion-video-skill.md) — `Tool` — unclejobs-ai 出品的 Claude Code Skill，把 30~90 秒动效视频制作拆成 6 阶段 + 退出码判定
+- [FigGenie-paper-diagram-skill](./tool-figgenie-skill.md) — `Tool` — Sleepy-Avacado 维护的 Agent Skill，按顶会排版规范手工写 SVG，产出可投稿的架构图 / 机制图 + PDF / PNG / PPTX
+- [见好·旅行规划器](./tool-jianhao-travel-planner.md) — `Tool` — awangwang123 出品的 Claude Code Skill，三源交叉（点评 + 高德 + 小红书）出断网可开的单文件 HTML 路书
+- [vibe-wise](./tool-vibe-wise.md) — `Tool` — nykooi1 出品的 Claude Code Skill，三道确认关卡（Build / Design / Implementation）防止「全程旁观式 vibe coding」
+- [ai-engineering-from-scratch](./note-ai-engineering-from-scratch.md) — `Note` — rohitg00 维护的 523 节 AI 工程课程，从线性代数到多智能体系统，每节亲手实现
+
+### QingQ77：身份认证 / 隐私 / 安全
+- [keypaste](./tool-keypaste.md) — `Tool` — notinferred 出品的本地 KDBX 密钥管理器，AI Agent 取每个字段都要经人工审批
+- [yielded-dev/auth](./tool-yielded-auth.md) — `Tool` — 一份 Schema 契约同时定义服务端认证路由和客户端查询，把 Effect 应用的身份流程收进同一套类型
+
+### QingQ77：决策模型
+- [strands-decider](./tool-strands-decider.md) — `Tool` — strands-labs 出品的 19 亿参数决策小模型，接 Agent 里选模型 / 选工具 / 紧急性判断
+
+### QingQ77：桌面 / 系统 / 浏览器
+- [zia](./tool-zia.md) — `Tool` — z1n-k 出品的 Zen Browser Sine 模组，把整套界面改成 Dia 风格
+- [HaloBattery](./tool-halobattery.md) — `Tool` — HeyOkay 出品的 Windows 工具，把无线鼠标 / 耳机 / 手柄电量统一搬到系统托盘
+- [petal](./tool-petal-disk.md) — `Tool` — henrydennis 出品的 macOS 磁盘空间分析，边扫边画精确到字节的 sunburst 图
+- [inlark](./tool-inlark.md) — `Tool` — 自建邮件服务的本地邮件客户端，键盘驱动 + 多账号 + 不注册 / 不同步 / 不上报
+- [lody-ios](./tool-lody-ios.md) — `Tool` — Innei 出品的 Lody 社区 iOS 客户端，React Native + 自定义 Swift 模块混合架构
+
+### QingQ77：Agent 可观测 / 工程
+- [factorylog](./tool-factorylog.md) — `Tool` — flaviocopes 出品的 macOS 工具，让编码 Agent 每完成一件事写一行报告，按项目和按天 / 按周出时间线
+
+### QingQ77：.NET / 序列化
+- [CAPCOM REDox](./tool-capcom-redox.md) — `Tool` — CAPCOM 把下一代引擎 REX 的数据层单独拆出来，.NET 侧比 System.Text.Json 更快且支持直接改解析结果
+
+### QingQ77：车机 / 其他
+- [DiPlay-CN](./tool-diplay-cn.md) — `Tool` — serein-morii 出品的开源项目，往兼容的比亚迪安卓车机上装 CarPlay
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 1 条低价值：AI Agent Observability UI Design（2106557291243913217，仅一句文案 + 设计截图无项目链接）
+- Wen_Zw 7 条重复（项目已存在，不新建）：handraw-style（已有 `tool-handraw-style`）/ Comma（已有 `tool-comma-agent`）/ Hallmark（已有 `tool-hallmark-skill`）/ Stremio（已有 `tool-stremio-torrentio`）/ ternssh（已有 `tool-ternssh`）/ ThinkWatch-Lite（已有 `tool-thinkwatch-lite`）/ Refactoring UI（已有 `tool-refactoring-ui-plugin`）
+- QingQ77 8 条低价值：服了不用密码（2106634291979673784，短句 + 视频）/ 渔网土豆（2106755809757762019，短句 + 视频）/ 食堂菜太新鲜（2106563144344899713，短句 + 视频）/ 围棋多少局面（2106687353737949373，短句 + 视频）/ 艺术已成（2106645338698424356，单句 + 视频）/ 师傅你告诉我（2106772963936882836，短句 + 视频）/ 好可爱（2106706468091367748，单字 + 视频）/ 怎么不笑了（2106608958752588157，短句 + 视频）
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；44 份资料（Wen_Zw 20 + QingQ77 24，含 9 条跳过 + 7 条重复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。

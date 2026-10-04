@@ -40,4 +40,4 @@ timestamp: "2026-10-03T00:00:00Z"
 ## 相关概念
 
 - [heroicons-animated](./tool-heroicons-animated.md) — 同类 Heroicons 动效版（Vercel 托管）
-- [Icon Sites 集合](./tool-icon-sites-collection.md) — 同类「图标站点合集」资源
+- [Icon Sites 集合](./note-icon-sites-collection.md) — 同类「图标站点合集」资源
