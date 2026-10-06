@@ -37,4 +37,4 @@ timestamp: "2026-10-04T03:00:00Z"
 
 ## 相关概念
 
-- [DaisyDisk](./tool-daisydisk.md) — 商业版同类工具（外链，OKF 未收录）
+- [DaisyDisk](./tool-daisydisk.md) — 同类商业工具（macOS 老牌 sunburst 磁盘分析）

@@ -4418,3 +4418,80 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 8 条低价值：服了不用密码（2106634291979673784，短句 + 视频）/ 渔网土豆（2106755809757762019，短句 + 视频）/ 食堂菜太新鲜（2106563144344899713，短句 + 视频）/ 围棋多少局面（2106687353737949373，短句 + 视频）/ 艺术已成（2106645338698424356，单句 + 视频）/ 师傅你告诉我（2106772963936882836，短句 + 视频）/ 好可爱（2106706468091367748，单字 + 视频）/ 怎么不笑了（2106608958752588157，短句 + 视频）
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；44 份资料（Wen_Zw 20 + QingQ77 24，含 9 条跳过 + 7 条重复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/twitter/Wen_Zw/` 与 `inbox/_done/twitter/QingQ77/`。
+
+## 本批新增（2026-10-05）
+
+### 断链修复（1 条）
+- [`DaisyDisk`](./tool-daisydisk.md) — `Tool` — macOS 老牌商业磁盘空间分析工具（sunburst），新建 stub 概念以修复 `tool-petal-disk.md` 中的断链；并同步更新 petal 的「相关概念」备注。
+
+### QingQ77：Meta 开源硬件
+- [muse-gadget-sdk](./tool-muse-gadget-sdk.md) — `Tool` — Meta 开源的 Muse 设备端 SDK，分 ESP32 固件 + Linux 服务两条线，把闲置开发板 / 旧电脑变成听 Muse AI 助手指挥的硬件设备
+
+### QingQ77：Agent Skill / 内容生成
+- [answer-me-with-html](./tool-answer-me-html.md) — `Tool` — QingYunA 出品的 Claude Code Skill，让 AI Agent 用一页 HTML 回答复杂问题，模型只写内容草稿，版式 / 配色 / 图表坐标由随 Skill 分发的 CLI 生成
+- [claude-image-view](./tool-claude-image-view.md) — `Tool` — jarrodwatts 出品的 Claude Code 插件，解决粘贴图片后输入框只显示 [Image #1] 标签的问题，在输入框上方画缩略图
+- [adu-motion-video](./tool-adu-motion-video.md) — `Tool` — 阿杜实验室开源的口播动效模板 Skill，按口播 / 文案 / 素材挑模板 + 排动画，输出 MP4 与可再编辑工程目录
+
+### QingQ77：边缘算力 / LLM 推理
+- [backburner](./tool-backburner.md) — `Tool` — StayLameBro 出品的开源项目，USB-C 把 iPhone 接成 Mac 额外算力，跑 Qwen3.8-27B 时把 41-64 层交给手机 GPU 的矩阵单元
+
+### QingQ77：自托管 / 桌面
+- [house-planner](./tool-house-planner.md) — `Tool` — egmalt 开源的自建房规划工具，跑在自己服务器上，覆盖平面图 / 管线设计 / 材料报价
+- [ServerBox](./tool-serverbox.md) — `Tool` — madeye 出品的开源项目，把闲置安卓手机免 root 变成常开 SSH 的 Linux 服务器
+- [openGym](./tool-opengym.md) — `Tool` — DuarteSantos8 开源的自托管健身与体重追踪应用，Docker Compose 一键部署
+- [tsuzuri](./tool-tsuzuri.md) — `Tool` — jaisuriya-11 开源的终端块式 Markdown 笔记工具，Go 单二进制 / 纯 Markdown 文件 / 96 套主题
+
+### QingQ77：跨平台 / 照片 / 浏览器
+- [lightcraft](./tool-lightcraft.md) — `Tool` — storytold 开源的纯 Rust 照片库与 RAW 显影流程，对标 Lightroom；每个操作暴露成命令，让 AI Agent 通过 MCP 驱动整套工作流
+- [Warp-Lite](./tool-warp-lite.md) — `Tool` — terzigolu 开源的「Warp 终端减负版」，拆掉云端 / AI / 登录 / 遥测，只留下 block 终端本身
+
+### QingQ77：智能硬件 / 物联网
+- [NeonPlan 3D](./tool-neonplan3d.md) — `Tool` — Mastershort 开源的 Home Assistant 集成，在 HA 里直接画户型图并生成可交互的霓虹风 3D 视图
+
+### QingQ77：交通 / 城市数据看板
+- [hk-traffic-intelligence](./tool-hk-traffic-intelligence.md) — `Tool` — keithligh 开源的香港智慧城市交通看板，把隧道 / 车速 / 口岸排队 / 天文台警告 / 车船班次汇总到同一张地图，跑在 Cloudflare Worker
+
+### QingQ77：文档 / 权限 / 协作
+- [jevbox](./tool-jevbox.md) — `Tool` — Extend 团队开源的 TypeScript 全栈文档库，把解析 / 分层归档 / 检索 / AI 问答放进同一应用，权限交给 SpiceDB 判定
+
+### QingQ77：Jev 决策模型生态
+- [JevAny](./tool-jevany.md) — `Tool` — SimpleJev 开源的决策工具链，把数据 / 训练 / 评测包成一套，接口吐出选中项 + 概率，置信度不足时转人工
+- [jev-cookbook](./note-jev-cookbook.md) — `Note` — datawhalechina 开源的 SimpleJev 中文教程，教开发者用 Choice / Score / Noul 三种原语把结构化概率接进代码
+
+### Wen_Zw：Computer Use / Pi Agent
+- [lcu](./tool-lcu.md) — `Tool` — amontlabs 开源，把 Codex App 的 Computer Use 功能直接迁移到 Pi Agent
+
+### Wen_Zw：Harness Engineering / Pi Durable
+- [Harness Engineering Handbook PDF](./note-harness-engineering-handbook-pdf.md) — `Note` — KirkDBorne 整理的 48 页 Harness Engineering 入门 PDF
+- [pi-pocket](./tool-pi-pocket.md) — `Tool` — TannerMidd 基于 Pi Durable 做的持久化口袋，每个模型 / 工具调用都是 checkpointed 任务；进程被 kill -9 后新进程从同一 SQLite 接续
+- [pi-pocket（笔记）](./note-pi-pocket-durable.md) — `Note` — 同项目从崩溃恢复 / multiplayer / 热插拔视角的笔记
+- [pi-durable-book](./note-pi-durable-book.md) — `Note` — robotbird 翻译整理的《pi-durable：持久化智能体运行时》中文手册，覆盖快速上手 / 规范 / 实现 / 示例 00-31
+
+### Wen_Zw：YouTube / 影视替代
+- [Invidious](./tool-invidious.md) — `Tool` — iv-org 维护的开源 YouTube 替代前端：无广告 / 免登录 / 后台播放 / 无 Google 追踪；可一键导入订阅
+
+### Wen_Zw：精选清单 / 中文百科
+- [awesome-zhuiju-free](./note-awesome-zhuiju-free.md) — `Note` — laoma2053 维护的 117 个免费影视资源站清单（人工筛选 + 每日自动检测）
+- [quant-wiki](./note-quant-wiki.md) — `Note` — LLMQuant 维护的中文量化百科：因子模型 / 事件驱动 / 执行成本 / 策略思路集中整理
+
+### Wen_Zw：UI / 组件库 / 终端
+- [MyGo](./tool-mygo.md) — `Tool` — egoist 维护的 Go Web 组件库，54 个组件 + 基于 libghostty 的 Terminal 插件
+- [MujicaUI](./tool-mujica-ui.md) — `Tool` — ZacharyZhang 基于 MyGo 做的约 500 个小组件库
+- [HextaUI](./tool-hextaui.md) — `Tool` — preetsuthar17 维护的开源组件库 v3：60+ 组件 + ready-to-use blocks，构建在 shadcn 生态之上
+- [kargul/kanban](./tool-kargul-kanban.md) — `Tool` — kargulstudio 开源的看板项目
+
+### Wen_Zw：AI Coding / Agent 后台
+- [EmDash](./tool-emdash.md) — `Tool` — EmDashCMS 维护的开源 AI Coding 后台任务运行器，1.1 版本带来全新升级流程
+
+### Wen_Zw：Agent 视角 / 学术
+- [academic-research-skills 精选清单](./note-academic-research-skills-list.md) — `Note` — Fred834567 整理的科研 Skill 六分类清单（自动科研 / 选题 / AI for Science / 绘图 / 顶刊写作 / 反幻觉）
+
+### Wen_Zw：文档 AI / OCR
+- [OCR is Dead, Long Live Agentic OCR](./note-llamaindex-agentic-ocr.md) — `Note` — LlamaIndex 官方观点：传统 OCR 固定管线被 agentic OCR 取代，让 LLM Agent 主动控制截图 / 缩放 / 工具调用
+
+### 跳过（Skipped / 质量门槛）
+- Wen_Zw 4 条低价值：easyui.site（2107013398399713688，与既有 `note-easyui-site` 重复）/ monochrome 手绘绘本 Prompt（2107140699594649627，仅 LLM prompt 无项目链接）/ 长辈向学习 Behance（2107144090400002077，仅一句建议无项目）/ OCR is Dead 链接（2107236830177525808 已在概念 `note-llamaindex-agentic-ocr` 中涵盖）
+- Wen_Zw 1 条重复：HextaUI v3（2107140587770269983 已合并进 `tool-hextaui.md`）/ Keypaste（2106859684783341778 已有 `tool-keypaste.md`）/ Spectrum UI（2106905063239336346 已有 `tool-spectrum-ui.md`）
+- QingQ77 5 条低价值：对折 100 次超宇宙（2106895863566192648，短句 + 视频）/ 帅咪了～（2106947408819331305，单字 + 视频）/ 1800 度压钨钢（2107093252088455220，短句 + 视频）/ cool cool cool（2107113598741073940，叠词 + 视频）/ 35 人 vs 1000 丧尸（2107139477571547501，纯反应 + 视频）
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；40 份资料（Wen_Zw 19 + QingQ77 21，含 5 条跳过 + 4 条重复同步移到 `_done` 留痕待人工核验）+ 1 份断链工单已 `mv` 到 `inbox/_done/`。

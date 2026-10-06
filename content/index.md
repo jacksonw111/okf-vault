@@ -4039,3 +4039,68 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 1 条低价值：AI Agent Observability UI Design（仅文案 + 设计截图无项目链接）
 - Wen_Zw 7 条重复：handraw-style / Comma / Hallmark / Stremio / ternssh / ThinkWatch-Lite / Refactoring UI —— 项目已存在不新建
 - QingQ77 8 条低价值：服了不用密码 / 渔网土豆 / 食堂菜 / 围棋多少局面 / 艺术已成 / 师傅你告诉我 / 好可爱 / 怎么不笑了 —— 全部按「质量门槛」跳过
+
+## 本批新增（2026-10-05）
+
+### 断链修复（1 条）
+- [DaisyDisk](concepts/tool-daisydisk.md) — 商业版磁盘分析工具，新建 stub 修复 `tool-petal-disk.md` 断链
+
+### QingQ77：Meta 开源硬件
+- [muse-gadget-sdk](concepts/tool-muse-gadget-sdk.md) — Meta 开源 Muse 设备端 SDK（ESP32 固件 + Linux 服务两条线）
+
+### QingQ77：Agent Skill / 内容生成
+- [answer-me-with-html](concepts/tool-answer-me-html.md) — AI Agent 一页式 HTML 回答（版式 / 配色由 CLI 生成）
+- [claude-image-view](concepts/tool-claude-image-view.md) — Claude Code 粘贴图片缩略图插件
+- [adu-motion-video](concepts/tool-adu-motion-video.md) — 口播动效模板 Skill，输出 MP4 + 可编辑工程
+
+### QingQ77：边缘算力 / LLM 推理
+- [backburner](concepts/tool-backburner.md) — USB-C 把 iPhone 接成 Mac 额外算力，41-64 层给手机 GPU
+
+### QingQ77：自托管 / 桌面
+- [house-planner](concepts/tool-house-planner.md) — 自建房规划工具（平面图 / 管线 / 报价）
+- [ServerBox](concepts/tool-serverbox.md) — 免 root 把安卓手机变 SSH Linux 服务器
+- [openGym](concepts/tool-opengym.md) — 自托管健身 + 体重追踪
+- [tsuzuri](concepts/tool-tsuzuri.md) — 终端块式 Markdown 笔记，Go 单二进制
+
+### QingQ77：跨平台 / 照片 / 浏览器
+- [lightcraft](concepts/tool-lightcraft.md) — Rust 重做 Lightroom，AI Agent 通过 MCP 驱动
+- [Warp-Lite](concepts/tool-warp-lite.md) — Warp 减负版，拆掉云端 / AI / 登录
+
+### QingQ77：智能硬件 / 城市数据
+- [NeonPlan 3D](concepts/tool-neonplan3d.md) — Home Assistant 霓虹风 3D 户型图集成
+- [hk-traffic-intelligence](concepts/tool-hk-traffic-intelligence.md) — 香港智慧城市交通看板（隧道 / 车速 / 口岸 / 车船）
+
+### QingQ77：文档 / 权限 / Jev 决策
+- [jevbox](concepts/tool-jevbox.md) — TypeScript 全栈文档库，权限交 SpiceDB
+- [JevAny](concepts/tool-jevany.md) — Jev 决策工具链（数据 / 训练 / 评测）
+- [jev-cookbook](concepts/note-jev-cookbook.md) — SimpleJev 中文教程
+
+### Wen_Zw：Computer Use / Pi Agent
+- [lcu](concepts/tool-lcu.md) — 把 Codex 的 Computer Use 迁到 Pi Agent
+
+### Wen_Zw：Harness Engineering / Pi Durable
+- [Harness Engineering Handbook PDF](concepts/note-harness-engineering-handbook-pdf.md) — 48 页 Harness 入门 PDF
+- [pi-pocket](concepts/tool-pi-pocket.md) — 基于 Pi Durable 的持久化口袋，checkpoint + SQLite 接续
+- [pi-pocket（笔记）](concepts/note-pi-pocket-durable.md) — 同项目崩溃恢复笔记
+- [pi-durable-book](concepts/note-pi-durable-book.md) — Pi Durable 中文手册
+
+### Wen_Zw：YouTube / 影视 / 量化
+- [Invidious](concepts/tool-invidious.md) — 开源 YouTube 替代前端
+- [awesome-zhuiju-free](concepts/note-awesome-zhuiju-free.md) — 117 个免费影视资源站清单
+- [quant-wiki](concepts/note-quant-wiki.md) — LLMQuant 中文量化百科
+
+### Wen_Zw：UI / 组件库 / 终端
+- [MyGo](concepts/tool-mygo.md) — Go Web 组件库 54 个 + libghostty Terminal 插件
+- [MujicaUI](concepts/tool-mujica-ui.md) — 基于 MyGo 的 ~500 小组件库
+- [HextaUI](concepts/tool-hextaui.md) — shadcn 风开源组件库 v3，60+ 组件 + blocks
+- [kargul/kanban](concepts/tool-kargul-kanban.md) — 开源看板项目
+
+### Wen_Zw：AI Coding / 学术 / 文档 AI
+- [EmDash](concepts/tool-emdash.md) — AI Coding 后台任务运行器 1.1
+- [academic-research-skills 精选清单](concepts/note-academic-research-skills-list.md) — 科研 Skill 六分类清单
+- [OCR is Dead, Long Live Agentic OCR](concepts/note-llamaindex-agentic-ocr.md) — LlamaIndex 观点：传统 OCR → agentic OCR
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 4 条低价值：easyui.site（与既有重复）/ monochrome 手绘 Prompt（无项目）/ 长辈向 Behance 学习（无项目）/ OCR 链接（已涵盖）
+- Wen_Zw 1 条重复：HextaUI v3（已合并）/ Keypaste（已有）/ Spectrum UI（已有）
+- QingQ77 5 条低价值：对折 100 次超宇宙 / 帅咪了～ / 1800 度压钨钢 / cool cool cool / 35 人 vs 1000 丧尸
