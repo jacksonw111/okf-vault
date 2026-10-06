@@ -4495,3 +4495,88 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 5 条低价值：对折 100 次超宇宙（2106895863566192648，短句 + 视频）/ 帅咪了～（2106947408819331305，单字 + 视频）/ 1800 度压钨钢（2107093252088455220，短句 + 视频）/ cool cool cool（2107113598741073940，叠词 + 视频）/ 35 人 vs 1000 丧尸（2107139477571547501，纯反应 + 视频）
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；40 份资料（Wen_Zw 19 + QingQ77 21，含 5 条跳过 + 4 条重复同步移到 `_done` 留痕待人工核验）+ 1 份断链工单已 `mv` 到 `inbox/_done/`。
+
+## 本批新增（2026-10-06）
+
+### 断链修复（25 条 stub 新建）
+为 `_broken-links.md` 工单中的 25 条断链新建 stub 概念，全部按 link 后备注补全描述：
+
+**Tool / 项目类（13 条）**
+- [academic-research-skills（科研 Skill 主项目统称）](./tool-academic-research-skills.md) — `Tool` — Imbad0202 学术科研 Skill 主仓库，作为「统称」被引
+- [LlamaIndex](./tool-llamaindex.md) — `Tool` — 数据接入 / 索引 / 检索 / 查询引擎框架（agentic OCR 观点出处）
+- [Piped](./tool-piped.md) — `Tool` — YouTube 替代前端（无广告 / 免登录 / 隐私友好）
+- [SpiceDB](./tool-spicedb.md) — `Tool` — Zanzibar 模型的关系型权限数据库
+- [Wails](./tool-wails.md) — `Tool` — Go + Web 写桌面 GUI 的轻量框架
+- [Termux](./tool-termux.md) — `Tool` — Android 上免 root 跑 Linux CLI 的终端模拟器
+- [Logseq](./tool-logseq.md) — `Tool` — 块式 / outliner / 日记流的开源 PKM
+- [Warp](./tool-warp.md) — `Tool` — Rust GPU 渲染的现代终端（带 AI 命令补全）
+- [shadcn/ui](./tool-shadcn-ui.md) — `Tool` — 可复制粘贴的 React 组件库（Radix + Tailwind）
+- [HextaUI Blocks](./tool-hextaui-blocks.md) — `Tool` — HextaUI v3 引入的页面级区块合集
+- [Cloudflare OS](./tool-cloudflare-os.md) — `Tool` — Cloudflare 官方出品的企业级 Agent 沙箱方案
+- [OPNsense Dashboard Plus](./tool-opnsense-dashboard-plus.md) — `Tool` — OPNsense dashboard 加 11 个 widget + Firewall Map+ 流量地图
+- [YunX Desktop](./tool-yunx-desktop.md) — `Tool` — 6 大网盘聚合下载的 Windows 桌面程序
+
+**Term / 概念类（10 条）**
+- [Awesome Lists（精选清单）](./term-awesome-list.md) — `Term` — GitHub 上 `awesome-*` 命名的资源精选清单形态
+- [Datawhale](./term-datawhale-china.md) — `Term` — 国内领先的开源 AI 教育社区（组队学习 + 中文教程）
+- [quant-wiki 中文资料](./term-quant-cn-resources.md) — `Term` — LLMQuant 维护的中文量化百科
+- [Claude Code](./term-claude-code.md) — `Term` — Anthropic 出品的终端原生编码 Agent
+- [Qwen3（通义千问 3）](./term-qwen3.md) — `Term` — 通义第三代基座（Dense + MoE 双线 / 0.6B-235B / 32K）
+- [Apple Silicon](./term-apple-silicon.md) — `Term` — Apple 自研 M 系列 SoC，统一内存架构
+- [Pi Agent](./term-pi-agent.md) — `Term` — Mario Zechner 出品的本地优先 Agent 引擎
+- [Codex](./term-codex.md) — `Term` — OpenAI 出品的 AI 编码 Agent（CLI / IDE / iOS / Computer Use）
+- [ESP32](./term-esp32.md) — `Term` — 乐鑫低成本 Wi-Fi/BLE SoC 微控制器系列
+- [Home Assistant](./term-home-assistant.md) — `Term` — 开源本地优先的家庭自动化平台
+- [3D Floor Plan（3D 户型图）](./term-3d-floor-plan.md) — `Term` — 浏览器内可旋转 / 缩放 / 漫游的 3D 户型场景
+- [Docker Compose](./term-docker-compose.md) — `Term` — Docker 多容器编排（YAML 单文件部署）
+- [Cloudflare Workers](./term-cloudflare-workers.md) — `Term` — Cloudflare 边缘 V8 isolate serverless 运行时
+- [MapLibre GL](./term-maplibre-gl.md) — `Term` — 开源矢量地图渲染引擎（fork 自 Mapbox GL v1.13）
+- [AI Coding Agent](./term-ai-coding-agent.md) — `Term` — 由 LLM 驱动、能自主完成真实软件工程任务的 Agent
+
+### Wen_Zw：Logo / 品牌
+- [LogoCreator](./tool-logocreator.md) — `Tool` — Nutlope 开源的 Logo 品牌包生成器（自配 API key / SVG / 自托管）
+
+### Wen_Zw：生成式 UI
+- [json-render / tanstack-start](./tool-json-render-tanstack-start.md) — `Tool` — Vercel Labs 在 json-render 之上推出的 TanStack Start 集成包（JSON spec → 路由 + SSR）
+
+### Wen_Zw：动效 / Prompt 索引
+- [prompt-motion](./tool-prompt-motion.md) — `Note` — p4nthera_ 维护的动效画廊 + 配套 Prompt，已收录 226 条
+- [huashu-art-motion](./tool-huashu-art-motion.md) — `Tool` — alchaincyf 出品的「话术动效」Skill（按模板一键出社媒短片）
+
+### QingQ77：剪藏 / PDF / 编辑器
+- [qiaomu-clipper](./tool-qiaomu-clipper.md) — `Tool` — joeseesun 出品的浏览器剪藏工具（划段问 AI / 视频点字幕 / Obsidian 同步）
+- [Papermorph](./tool-papermorph.md) — `Tool` — DozenTwelve 出品的 Claude Code Skill（PDF → 静态网页书，先做 1 章审通过再做剩余）
+- [Academic-DeAI](./tool-academic-deai.md) — `Tool` — heise3 开源的中英学术论文去模板化编辑工具
+
+### QingQ77：Agent 上下文省 / 大日志查询
+- [Leviathan](./tool-leviathan.md) — `Tool` — elstongun 出品的单文件 Rust 二进制（FTS5 索引，让 Agent 查百万条记录只花 436 token）
+
+### QingQ77：图形 / 渲染 / 视频
+- [EffectCraft](./tool-effectcraft.md) — `Tool` — storytold 出品的开源 AE 替代合成器（Rust 写，306 个效果覆盖 AE 298 个全部）
+- [Hairline](./tool-hairline.md) — `Tool` — Lucas Marques 写的 TypeScript 等距线框动画库（19 个图形 / 零依赖 / 指针驱动）
+
+### QingQ77：终端 / Git / 系统
+- [Gitframe](./tool-gitframe.md) — `Tool` — hiroaqii 开源的 Git + 源码浏览 TUI（把 diff / log / 文件树放同一屏）
+
+### QingQ77：自托管 / 桌面 / 网络
+- [Brew Hub](./tool-brew-hub.md) — `Tool` — cuongdc03 出品的 Homebrew macOS 图形界面
+- [Immich Insights](./tool-immich-insights.md) — `Tool` — laurinml 开源的 Immich 统计面板（按成员 API key 隔离 / 本地快照缓存）
+
+### QingQ77：Agent 屏幕 / 看板 / OS
+- [Television](./tool-television.md) — `Tool` — telepath-computer 开源的 Agent 可视化屏幕（让 Agent 把 artifact 放上去持续修改和保存）
+- [Open Dashboard](./tool-open-dashboard.md) — `Tool` — simonliu-ai-product 出品的自然语言 → SQL/TSX 数据看板（只读 SQL 执行 + 热更新）
+
+### QingQ77：Agent Skill / 附件管理
+- [Codex Attachment Manager](./tool-codex-attachment-manager.md) — `Tool` — chipfighter 出品的 Codex 插件（逐轮勾选图片，避免请求膨胀）
+
+### QingQ77：硬件 / 物联网
+- [Hermes Gadget SDK](./tool-hermes-gadget-sdk.md) — `Tool` — AdnanQuazi 出品的「按住说话的 Hermes Agent 硬件终端」SDK（ESP32 + Linux + 桌面模拟器）
+
+### QingQ77：AI 安全 / 中文日报
+- [AISafetyHot-Hub](./tool-aisafetyhot-hub.md) — `Tool` — wuyoscar 出品的 AI 安全中文日报（每日 08:00 出 / 攻击 / 防御 / 对齐 / 评测 / 治理）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 5 条跳过：Hallmark（2107244242846544325 已有 `tool-hallmark-skill.md`）/ System Design Essentials（2107240406182469864，仅 x.com article 链接无项目）/ ESP32 简介（2107467850307010585，仅基础介绍无新项目）/ json-render（2107341108829458566 已有 `tool-json-render.md`）/ mueller45813 询问 madebyresources（2107324451947946435，仅问题无项目）
+- QingQ77 9 条跳过：「……」（2107327236932313566 标点+图）/「我直接好家伙」（2107284970133962872 短句+视频）/「机器人参加奥运会」（2107460800722170187 短句+视频）/「这才是人民需要的车」（2107363217685323820 短句+视频）/「程序员的能跑就别动」（2107392165186052585 短句+视频）/ 苗族讨花带（2107379897614381359 文化风俗短视频）/「结婚真轻松」（2107302630481666472 短句+视频）/「仙人之兮列如麻」（2107498744015102401 短句+视频）/「我反对，我不同意」（2107477947645034601 引用低价值原帖）—— 全部按「质量门槛」跳过
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；**断链工单 `inbox/_broken-links.md` + 全部 31 份 twitter 剪藏（Wen_Zw 7 + QingQ77 24，含 14 条跳过 + 25 个 stub 修复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/`**。

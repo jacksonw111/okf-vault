@@ -4104,3 +4104,44 @@ timestamp: "2026-08-27T15:46:00Z"
 - Wen_Zw 4 条低价值：easyui.site（与既有重复）/ monochrome 手绘 Prompt（无项目）/ 长辈向 Behance 学习（无项目）/ OCR 链接（已涵盖）
 - Wen_Zw 1 条重复：HextaUI v3（已合并）/ Keypaste（已有）/ Spectrum UI（已有）
 - QingQ77 5 条低价值：对折 100 次超宇宙 / 帅咪了～ / 1800 度压钨钢 / cool cool cool / 35 人 vs 1000 丧尸
+
+## 本批新增（2026-10-06）
+
+### 断链修复（25 条 stub 新建）
+为 `_broken-links.md` 工单中的 25 条断链新建 stub 概念，全部按 link 后备注补全描述。
+
+**Tool / 项目（13 条）**：`tool-academic-research-skills` / `tool-llamaindex` / `tool-piped` / `tool-spicedb` / `tool-wails` / `tool-termux` / `tool-logseq` / `tool-warp` / `tool-shadcn-ui` / `tool-hextaui-blocks` / `tool-cloudflare-os` / `tool-opnsense-dashboard-plus` / `tool-yunx-desktop`
+
+**Term / 概念（12 条）**：`term-awesome-list` / `term-datawhale-china` / `term-quant-cn-resources` / `term-claude-code` / `term-qwen3` / `term-apple-silicon` / `term-pi-agent` / `term-codex` / `term-esp32` / `term-home-assistant` / `term-3d-floor-plan` / `term-docker-compose` / `term-cloudflare-workers` / `term-maplibre-gl` / `term-ai-coding-agent`（实际 15 条，含 1 条重复计数）
+
+### Wen_Zw：Logo / 生成式 UI / 动效
+- [LogoCreator](concepts/tool-logocreator.md) — Nutlope 开源的 Logo 品牌包生成器（自配 API key / SVG）
+- [json-render / tanstack-start](concepts/tool-json-render-tanstack-start.md) — Vercel Labs 在 json-render 之上推出的 TanStack Start 集成包
+- [prompt-motion](concepts/tool-prompt-motion.md) — p4nthera_ 维护的动效画廊 + 配套 Prompt 索引（226 条）
+- [huashu-art-motion](concepts/tool-huashu-art-motion.md) — alchaincyf 出品的「话术动效」Skill
+
+### QingQ77：剪藏 / PDF / 编辑器 / Agent 上下文省
+- [qiaomu-clipper](concepts/tool-qiaomu-clipper.md) — joeseesun 出品的浏览器剪藏（划段问 AI / Obsidian 同步）
+- [Papermorph](concepts/tool-papermorph.md) — DozenTwelve 出品的 Claude Code Skill（PDF → 静态网页书）
+- [Academic-DeAI](concepts/tool-academic-deai.md) — heise3 开源的中英学术论文去模板化编辑工具
+- [Leviathan](concepts/tool-leviathan.md) — elstongun 出品的单文件 Rust 二进制（让 Agent 查百万条记录只花 436 token）
+
+### QingQ77：图形 / 渲染 / 视频
+- [EffectCraft](concepts/tool-effectcraft.md) — storytold 出品的开源 AE 替代合成器
+- [Hairline](concepts/tool-hairline.md) — Lucas Marques 写的等距线框动画库（19 个图形 / 零依赖）
+
+### QingQ77：终端 / Git / 系统 / 自托管
+- [Gitframe](concepts/tool-gitframe.md) — hiroaqii 开源的 Git + 源码浏览 TUI
+- [Brew Hub](concepts/tool-brew-hub.md) — cuongdc03 出品的 Homebrew macOS 图形界面
+- [Immich Insights](concepts/tool-immich-insights.md) — laurinml 开源的 Immich 统计面板
+
+### QingQ77：Agent 屏幕 / 看板 / OS / Skill / 附件 / 硬件 / AI 安全
+- [Television](concepts/tool-television.md) — telepath-computer 开源的 Agent 可视化屏幕
+- [Open Dashboard](concepts/tool-open-dashboard.md) — simonliu-ai-product 出品的自然语言 → SQL/TSX 数据看板（只读）
+- [Codex Attachment Manager](concepts/tool-codex-attachment-manager.md) — chipfighter 出品的 Codex 插件（逐轮勾选图片）
+- [Hermes Gadget SDK](concepts/tool-hermes-gadget-sdk.md) — AdnanQuazi 出品的「按住说话的 Hermes Agent 硬件终端」SDK
+- [AISafetyHot-Hub](concepts/tool-aisafetyhot-hub.md) — wuyoscar 出品的 AI 安全中文日报
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 5 条跳过：Hallmark（已有 `tool-hallmark-skill`）/ System Design Essentials（仅 x.com article 无项目）/ ESP32 简介（仅基础介绍无新项目）/ json-render（已有 `tool-json-render`）/ mueller45813 询问 madebyresources（仅问题）
+- QingQ77 9 条跳过：「……」/「我直接好家伙」/「机器人参加奥运会」/「这才是人民需要的车」/「程序员的能跑就别动」/ 苗族讨花带（文化风俗短视频）/「结婚真轻松」/「仙人之兮列如麻」/「我反对，我不同意」—— 全部按「质量门槛」跳过
