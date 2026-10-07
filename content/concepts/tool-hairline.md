@@ -36,5 +36,4 @@ timestamp: "2026-10-06T22:51:00Z"
 
 ## 相关概念
 
-- [Hairline UI Microinteractions](./tool-hairline-ui.md) — 同主题相关
 - [Dioramas](./tool-dioramas.md) — three.js 版的 3D 落地页套件

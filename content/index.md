@@ -4145,3 +4145,40 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - Wen_Zw 5 条跳过：Hallmark（已有 `tool-hallmark-skill`）/ System Design Essentials（仅 x.com article 无项目）/ ESP32 简介（仅基础介绍无新项目）/ json-render（已有 `tool-json-render`）/ mueller45813 询问 madebyresources（仅问题）
 - QingQ77 9 条跳过：「……」/「我直接好家伙」/「机器人参加奥运会」/「这才是人民需要的车」/「程序员的能跑就别动」/ 苗族讨花带（文化风俗短视频）/「结婚真轻松」/「仙人之兮列如麻」/「我反对，我不同意」—— 全部按「质量门槛」跳过
+
+## 本批新增（2026-10-07）
+
+### 断链修复（1 条）
+- `tool-hairline.md` 删除指向 `tool-hairline-ui.md` 的冗余错链——目标文件不存在且 Hairline 本身就是「等距线框微交互」库。
+
+### Wen_Zw：AI 视频精选 + 图数据框架
+- [AI 视频实操 Top 10](concepts/note-ai-video-top10-workflows.md) — 过去 30 天 X 上收藏量 Top 10 的 AI 视频实操神贴合集
+- [Stately Graph](concepts/tool-stately-graph.md) — David Khourshid 出品的 TypeScript 图数据框架（DOT / Mermaid / GraphML 互通）
+
+### QingQ77：Mesh 头像 / 邮件 / 视觉搜索
+- [Mesh Avatar Studio](concepts/tool-mesh-avatar-studio.md) — 2D 网格头像编辑器（插画 → 动态头像，绑骨骼不用自己动手）
+- [SendRepute Campaigns](concepts/tool-sendrepute-campaigns.md) — 自托管邮件营销系统（数据全留本地）
+- [SCM](concepts/tool-scm-macos.md) — macOS 本地视觉媒体语义搜索 Electron 应用
+
+### QingQ77：OCR / 顶栏 / Muse 中文玩法 / 终端笔记
+- [Gyotaku](concepts/tool-gyotaku.md) — 截图 OCR 全文检索（PaddleOCR + SQLite FTS5）
+- [OmaControl](concepts/tool-omacontrol.md) — Omarchy 顶栏任务管理器
+- [Muse Skills 中文玩法 300 条](concepts/tool-muse-skills-cn.md) — Meta Muse 中文玩法清单
+- [Lazymark](concepts/tool-lazymark.md) — 终端 Markdown 笔记 + 任务 + Kanban（兼容 Obsidian vault）
+
+### QingQ77：VR / 机器人 / 移动 WiFi
+- [QuestLHSync](concepts/tool-questlhsync.md) — Quest / Steam Frame 无 tracker 对齐 Lighthouse
+- [Jumper](concepts/tool-jumper.md) — 22 DOF 螃蟹机器人 + AI 工具包
+- [UFI-TOOLS](concepts/tool-ufi-tools.md) — 中兴 T760 随身 WiFi 增强后台
+
+### QingQ77：动效拆解 / iOS 键盘 / 标注 / RN 形变 / AI 语音 / 拍摄整理
+- [Softlab](concepts/tool-softlab.md) — 视觉交互效果拆解合集（WebGL / canvas / CSS）
+- [Diction](concepts/tool-diction-voice-keyboard.md) — iOS 语音键盘网关（转写后端可自托管）
+- [SimAgentation](concepts/tool-sim-agentation.md) — iOS 模拟器浏览器标注 + Agent
+- [Morphlet](concepts/tool-morphlet.md) — React Native 形变浮层托盘
+- [AI 语音呼吸 / 亲吻 / 水声补全](concepts/note-ai-voice-breath-kiss-water.md) — ElevenLabs + ffmpeg + whisper 给 AI 语音补后期音效
+- [Photoc](concepts/tool-photoc.md) — 终端拍摄整理 CLI（汇总 / 元数据 / 挑糊片 / 改名 / 联系表 / 抹 GPS）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 7 条跳过 / 重复：synth-ui / icons.nyatabi.app / 23rd.dev/ascii-fluid（仅 URL 无描述）/ hairline / get-it / octop 重复 / jumper 重复
+- QingQ77 8 条跳过 / 重复：「别让小猫拍这些了」/「考60算及格」/「哆啦A梦的空气炮」/「谁说丹药没有用」/「直接好家伙」/「起猛了」/ huashu-art-motion 重复 / pi-pocket 重复

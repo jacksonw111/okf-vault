@@ -4580,3 +4580,42 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 9 条跳过：「……」（2107327236932313566 标点+图）/「我直接好家伙」（2107284970133962872 短句+视频）/「机器人参加奥运会」（2107460800722170187 短句+视频）/「这才是人民需要的车」（2107363217685323820 短句+视频）/「程序员的能跑就别动」（2107392165186052585 短句+视频）/ 苗族讨花带（2107379897614381359 文化风俗短视频）/「结婚真轻松」（2107302630481666472 短句+视频）/「仙人之兮列如麻」（2107498744015102401 短句+视频）/「我反对，我不同意」（2107477947645034601 引用低价值原帖）—— 全部按「质量门槛」跳过
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；**断链工单 `inbox/_broken-links.md` + 全部 31 份 twitter 剪藏（Wen_Zw 7 + QingQ77 24，含 14 条跳过 + 25 个 stub 修复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/`**。
+
+## 本批新增（2026-10-07）
+
+### 断链修复（1 条）
+- `tool-hairline.md` 把链接 `[Hairline UI Microinteractions](./tool-hairline-ui.md)` 改成自指删除——`tool-hairline-ui.md` 不存在且 Hairline 本身就是「等距线框微交互」库，原链接为冗余错链。
+
+### Wen_Zw：AI 视频精选清单 + 图数据框架
+- [AI 视频实操 Top 10](./note-ai-video-top10-workflows.md) — `Note` — 过去 30 天 X 上收藏量 Top 10 的 AI 视频实操神贴合集（Opus 5.5 代码视频 / Codex 零剪辑 / 400+ 开源提示词）
+- [Stately Graph](./tool-stately-graph.md) — `Tool` — David Khourshid 出品的 TypeScript 图数据框架（纯 JSON / DOT / Mermaid / GraphML 互通 / 类型安全 / 算法 + 可视化属性查询）
+
+### QingQ77：Mesh 头像 / 邮件 / 视觉搜索
+- [Mesh Avatar Studio](./tool-mesh-avatar-studio.md) — `Tool` — shinshin86 开源的 2D 网格头像编辑器（一张正面半身插画 → 眨眼说话转头呼吸的动态头像，绑骨骼不用自己动手）
+- [SendRepute Campaigns](./tool-sendrepute-campaigns.md) — `Tool` — sendrepute 开源的自托管邮件营销系统（受众 / 活动 / 模板 / 自动化 / 投递全本地）
+- [SCM（macOS 视觉媒体语义搜索）](./tool-scm-macos.md) — `Tool` — allenv0 开源的 macOS Electron 应用（本地视觉模型索引照片视频，模型权重一次下载后全程离线）
+
+### QingQ77：OCR / 顶栏 / Muse 中文玩法 / 终端笔记
+- [Gyotaku](./tool-gyotaku.md) — `Tool` — xevrion 开源的截图 OCR 全文检索（PaddleOCR PP-OCRv6 + ONNX Runtime + SQLite FTS5 + 匹配词高亮）
+- [OmaControl](./tool-omacontrol.md) — `Tool` — Davedes83 开源的 Omarchy 顶栏任务管理器（实时曲线 / 单应用历史 / 进程管理 / 摄像头麦克风提醒）
+- [Muse Skills 中文玩法 300 条](./tool-muse-skills-cn.md) — `Tool` — jasonbitsmith 出品：给 Meta Muse 整理 300 条中文玩法（一句话痛点 + 三步说法，照着复制就能用）
+- [Lazymark](./tool-lazymark.md) — `Tool` — MathiasDrizzy 开源的 Go TUI 笔记 + 任务 + Kanban（笔记文件夹可直接作为 Obsidian vault）
+
+### QingQ77：VR / 机器人 / 移动 WiFi
+- [QuestLHSync](./tool-questlhsync.md) — `Tool` — CreoleVR 开源：Quest / Steam Frame 用自身摄像头看 Lighthouse 激光闪光对齐空间（无需绑 tracker / 无需 SpaceCalibrator）
+- [Jumper（22 DOF 螃蟹机器人）](./tool-jumper.md) — `Tool` — KingKongRobotics 开源：22 自由度螃蟹 + AI 工具包（一句话 → .skin / 训练好的 .app / .map）
+- [UFI-TOOLS](./tool-ufi-tools.md) — `Tool` — kanoqwq 开源：中兴 T760 系列随身 WiFi（F50 / U30 Air 等）增强管理后台（信号监控 / 锁频锁小区 / 短信转发 / 插件扩展 / 远程维护）
+
+### QingQ77：动效拆解 / iOS 键盘 / 标注 / RN 形变 / AI 语音 / 拍摄整理
+- [Softlab](./tool-softlab.md) — `Tool` — deity6 出品的视觉交互效果拆解合集（WebGL / canvas / CSS，每个效果都摊成可运行代码）
+- [Diction（iOS 语音键盘网关）](./tool-diction-voice-keyboard.md) — `Tool` — DictionLabs 开源：Go 网关 + 闭源 iOS 键盘 App，按住麦克风说话文字直接落进光标，转写后端可自托管
+- [SimAgentation](./tool-sim-agentation.md) — `Tool` — lcandy2 开源：把 iOS 模拟器画面搬到浏览器标注，把元素信息 + 截图交给编码 Agent
+- [Morphlet](./tool-morphlet.md) — `Tool` — rit3zh 开源的 React Native 形变浮层托盘（按钮直接长成卡片再收回，原生层动画）
+- [AI 语音呼吸 / 亲吻 / 水声补全](./note-ai-voice-breath-kiss-water.md) — `Note` — sanqianzilanyue 实操踩坑：用 ElevenLabs + ffmpeg + whisper 给 AI 语音补后期音效（论证为什么这些响动不该交给 TTS 去念）
+- [Photoc](./tool-photoc.md) — `Tool` — ahmetomerv 开源的终端拍摄整理 CLI（汇总 / 元数据 / 挑糊片重复 / 改名归类 / 联系表 / 压缩副本 / 抹 GPS）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 7 条跳过 / 重复：synth-ui（2107599322678513997 仅 URL 无描述）/ icons.nyatabi.app（2107652049399869781 仅 URL 无描述）/ 23rd.dev/ascii-fluid（2107797501776720185 仅 URL 无描述）/ hairline 重复（2107727016011477192 已有 `tool-hairline.md`）/ get-it 重复（2107600970666668509 已有 `tool-get-it-pdf.md`）/ octop 重复（2107597489050431694 已有 `tool-octop.md`）/ jumper 重复（2107727273164144972 与 QingQ77 同项目合并入 `tool-jumper.md`）
+- QingQ77 8 条跳过 / 重复：「别让小猫拍这些了」（2107808535748976998 短句+视频）/「考60算及格」（2107664843889365199 短句+视频）/「哆啦A梦的空气炮」（2107840495175225664 短句+视频）/「谁说丹药没有用」（2107795973183619229 短句+视频）/「直接好家伙」（2107826197224903135 短句+视频）/「起猛了」（2107763280219717710 短句+视频）/ huashu-art-motion 重复（2107703214640427215 已有 `tool-huashu-art-motion.md`）/ pi-pocket 重复（2107764115959918795 已有 `tool-pi-pocket.md`）—— 全部按「质量门槛」或「重复」跳过
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；**断链工单 `inbox/_broken-links.md` + 全部 33 份 twitter 剪藏（Wen_Zw 9 + QingQ77 24，含 15 条跳过 / 重复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/`**。
