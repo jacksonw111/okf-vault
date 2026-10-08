@@ -4182,3 +4182,55 @@ timestamp: "2026-08-27T15:46:00Z"
 ### 跳过（Skipped / 质量门槛 + 重复）
 - Wen_Zw 7 条跳过 / 重复：synth-ui / icons.nyatabi.app / 23rd.dev/ascii-fluid（仅 URL 无描述）/ hairline / get-it / octop 重复 / jumper 重复
 - QingQ77 8 条跳过 / 重复：「别让小猫拍这些了」/「考60算及格」/「哆啦A梦的空气炮」/「谁说丹药没有用」/「直接好家伙」/「起猛了」/ huashu-art-motion 重复 / pi-pocket 重复
+
+## 断链工单修复（2026-10-08）
+- 新建 [Omarchy（Arch + Hyprland 一体化桌面）](concepts/term-omarchy.md) — 修 `tool-omacontrol.md` 的 `./term-omarchy.md` 断链
+
+## 本批新增（2026-10-08）
+
+处理 `inbox/_broken-links.md` 断链工单 + `inbox/twitter/Wen_Zw/` 14 条 + `inbox/twitter/QingQ77/` 20 条 = **共 35 份资料（1 断链修复 + 22 新增 Tool/Note + 10 跳过）**。
+
+### Wen_Zw：OCR / 文档 AI
+- [OpenDocRouter](concepts/tool-opendocrouter.md) — OCR 模型统一路由（LlamaIndex 出品，从 MinerU 到 Opus 5.5 一条 API）
+
+### Wen_Zw：代码可视化 / React 组件
+- [SeeCode](concepts/tool-seecode.md) — 代码可视化（类图 / 依赖图 / 调用图，Agent 可生成）
+- [reactbits Lanyard](concepts/tool-reactbits-lanyard.md) — Discord Lanyard Presence React 组件
+
+### Wen_Zw：AI 客户端 persona / 岗位插件
+- [pojia-next](concepts/tool-pojia-next.md) — 6 个 AI 客户端内置 prompt 替换为 persona.md
+- [Anthropic knowledge-work-plugins](concepts/tool-anthropic-knowledge-work-plugins.md) — Anthropic 官方 11 个知识工作岗位插件
+
+### Wen_Zw：Pi 记忆 / iOS Skills / 投资学习
+- [Pi-OptChat](concepts/tool-pi-optchat.md) — Pi 摘要二叉树持久化记忆外挂
+- [iOS 开发 Agent Skills 五件套](concepts/note-ios-agent-skills-list.md) — 5 个 iOS Skill 整理
+- [Financial_freedom 投资学习清单](concepts/note-financial-freedom-list.md) — 16 本书 + 16 纪录片 + 23 频道
+
+### QingQ77：教育 / 个人理财 / 终端聚合
+- [Handout-remake](concepts/tool-handout-remake.md) — 深色讲义重做（投影片 / PDF → iPad 阅读 + 手写 PDF）
+- [Aurelio Finance](concepts/tool-aurelio-finance.md) — 自托管个人财富分析（数据本机，需要 AI 时再连 OpenRouter）
+- [lazychat](concepts/tool-lazychat.md) — Claude Code / Codex + Git + shell 一屏终端
+
+### QingQ77：Git / CAD / 桌面截图 / 决策 / 业务
+- [oil-git](concepts/tool-oil-git.md) — 只读 Git 桌面查看器（不写 reflog）
+- [CADCraft](concepts/tool-cadcraft.md) — 纯 Rust 开源 CAD（沿用 AutoCAD 范式）
+- [tendedero](concepts/tool-tendedero.md) — macOS 截图顶边挂架
+- [Bud Decision Studio](concepts/tool-bud-decision-studio.md) — 本地决策模型运行台
+- [Bops](concepts/tool-bops.md) — 带云电脑 / 邮箱 / 电话的 AI 员工 bot
+
+### QingQ77：storytold Rust 替代矩阵（CAD / Vector / Word / Audio）
+- [VectorCraft](concepts/tool-vectorcraft.md) — 纯 Rust 开源 Illustrator 替代
+- [WordCraft](concepts/tool-wordcraft.md) — 纯 Rust 开源 Word 替代
+- [SoundCraft](concepts/tool-soundcraft.md) — 纯 Rust 开源 Pro Tools 替代
+- [CA-72](concepts/tool-ca-72.md) — Rust 复刻 Minimoog Model D 合成器插件
+
+### QingQ77：科研画图 / 数学形式化
+- [plot-is-all-you-need](concepts/tool-plot-is-all-you-need.md) — 科研画图样板册（Agent 看图模仿）
+- [openai/math](concepts/tool-openai-math.md) — OpenAI 官方 Lean 形式化数学仓库
+
+### QingQ77：Omarchy / Apple 开发
+- [omarchy-apple-dev](concepts/tool-omarchy-apple-dev.md) — Linux 上做 Apple 开发（不需 macOS / Xcode）
+
+### 跳过（Skipped / 质量门槛 + 重复）
+- Wen_Zw 7 条：Karpathy Opus harness prompt（仅描述无项目）/ Claude loops x.com article / YouTube URL 单链 / 7-layer harness x.com article / paper.design/mono URL / gpt-instruct 越狱指令库（跳过：jailbreak 内容）/ x.com article 单链
+- QingQ77 3 条：「我是还没睡醒吗」/「众所周知...真正的大佬」/「终于发明出来了安全烟花棒」—— 全部按「质量门槛」跳过

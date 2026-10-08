@@ -26,6 +26,7 @@ timestamp: "2026-08-27T15:46:00Z"
 - [Sandbox（沙箱）](term-sandbox.md) — `Term` — agent / 不可信代码的标准隔离运行环境
 - [Harness Engineering（Harness 工程）](term-harness-engineering.md) — `Term` — 围绕「怎么把 LLM 包成稳定 / 可观测 / 可治理产品」的工程实践
 - [Aiployees / 数字员工](term-ai-employees.md) — `Term` — 把业务流程按岗位拆解为「带日程的 AI 员工」，对外动作必须人工确认
+- [Omarchy（Arch + Hyprland 一体化桌面）](term-omarchy.md) — `Term` — basecamp 推出的 Arch + Hyprland 开箱即用 Linux 桌面发行版
 
 ## 工具（Tools）
 
@@ -4619,3 +4620,58 @@ timestamp: "2026-08-27T15:46:00Z"
 - QingQ77 8 条跳过 / 重复：「别让小猫拍这些了」（2107808535748976998 短句+视频）/「考60算及格」（2107664843889365199 短句+视频）/「哆啦A梦的空气炮」（2107840495175225664 短句+视频）/「谁说丹药没有用」（2107795973183619229 短句+视频）/「直接好家伙」（2107826197224903135 短句+视频）/「起猛了」（2107763280219717710 短句+视频）/ huashu-art-motion 重复（2107703214640427215 已有 `tool-huashu-art-motion.md`）/ pi-pocket 重复（2107764115959918795 已有 `tool-pi-pocket.md`）—— 全部按「质量门槛」或「重复」跳过
 
 注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；**断链工单 `inbox/_broken-links.md` + 全部 33 份 twitter 剪藏（Wen_Zw 9 + QingQ77 24，含 15 条跳过 / 重复同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/`**。
+
+## 断链工单修复（2026-10-08）
+- 新建 [`term-omarchy.md`](./term-omarchy.md) — `Term` — basecamp 推出的 Arch + Hyprland 开箱即用 Linux 桌面发行版（修 `tool-omacontrol.md` 的 `./term-omarchy.md` 断链）
+
+## 本批新增（2026-10-08）
+
+处理 `inbox/_broken-links.md` 断链工单 + `inbox/twitter/Wen_Zw/` 14 条 + `inbox/twitter/QingQ77/` 20 条 X 推文剪藏 = **共 35 份资料（1 断链修复 + 22 新增 Tool/Note + 10 低价值 / 描述过薄 / 与既有重复跳过）**。
+
+### Wen_Zw：OCR / 文档 AI
+- [OpenDocRouter](./tool-opendocrouter.md) — `Tool` — LlamaIndex / Jerry Liu 出品的「OCR 模型统一路由」（从轻量开源 MinerU 到前沿 VLM Opus 5.5，一条 API + 一张账单）
+
+### Wen_Zw：代码可视化 / React 组件
+- [SeeCode](./tool-seecode.md) — `Tool` — Aryanutkarsh 开源的代码可视化工具（类图 / 依赖图 / 调用图，Agent 可直接生成更多视图）
+- [ReactBits Lanyard](./tool-reactbits-lanyard.md) — `Tool` — davidhaz 在 reactbits.dev 重做的 Discord Lanyard Presence 组件（更多定制 + 更顺滑动画）
+
+### Wen_Zw：AI Client / 岗位插件
+- [pojia-next](./tool-pojia-next.md) — `Tool` — z91772524-ai 出品：把 DSH / WorkBuddy / ZCode / Codex / Cursor / Claude Code 六个 AI 客户端的内置提示词换成自己写的 persona.md，自动备份 + 一键还原
+- [Anthropic knowledge-work-plugins](./tool-anthropic-knowledge-work-plugins.md) — `Tool` — Anthropic 官方开源的 11 个知识工作岗位插件（销售 / 法务 / 财务 / 产品 / 市场 / 客服 / 数据 等完整知识库 + 工具连接器）
+
+### Wen_Zw：Pi 持久化记忆 / iOS Skills / 投资学习
+- [Pi-OptChat](./tool-pi-optchat.md) — `Tool` — jonaslsaa 出品：给 Pi 装「不要靠上下文压缩硬撑」的记忆外挂，摘要二叉树 + 每轮 128 KB 记忆视图 + zoom / date 翻原话
+- [iOS 开发 Agent Skills 五件套](./note-ios-agent-skills-list.md) — `Note` — jaimintf 整理 5 个 iOS 开发 Claude Code / Codex 技能包（expo / appllama / emilkowalski / vercel-labs / twostraws）
+- [Financial_freedom 投资学习清单](./note-financial-freedom-list.md) — `Note` — codeman008 开源：3500+ star 的投资学习资料清单（16 本书 + 16 部纪录片 + 23 个美股 YouTube 频道 + 美股社区 + Web3 工具站）
+
+### QingQ77：AI 客户端 / 教育 / 个人理财
+- [pojia-next（与 Wen_Zw 合并）](./tool-pojia-next.md) — `Tool`
+- [Handout-remake](./tool-handout-remake.md) — `Tool` — xamjiang 出品：把投影片 / PDF / 笔记重做成「适合 iPad 长时间阅读 + 手写作答」的深色讲义，输出全向量 PDF
+- [Aurelio Finance](./tool-aurelio-finance.md) — `Tool` — LosaLosSantos 开源的自托管个人财富分析应用（FastAPI + React，数据本机 SQLite，需要 AI 时再连 OpenRouter）
+
+### QingQ77：终端 / Git / CAD / 桌面截图
+- [lazychat](./tool-lazychat.md) — `Tool` — Perpeer 出品：把 Claude Code / Codex + Git + shell 塞进同一个终端界面
+- [oil-git](./tool-oil-git.md) — `Tool` — oil-oil 出品的只读 Git 桌面查看器（分支图 / 提交图 / diff，查看时不会碰仓库）
+- [CADCraft](./tool-cadcraft.md) — `Tool` — storytold 用纯 Rust 写的开源 CAD（命令行 / 对象捕捉 / grips 沿用 AutoCAD 范式，兼容 DXF / DWG，Agent 可 MCP / CLI 驱动）
+- [tendedero](./tool-tendedero.md) — `Tool` — alejandrobujan 出品：macOS 菜单栏小工具，把截图统一挂到屏幕顶边一条线上暂存
+
+### QingQ77：storytold Rust 替代矩阵（CAD / Vector / Word / Audio）
+- [VectorCraft](./tool-vectorcraft.md) — `Tool` — storytold 纯 Rust 写的开源 Illustrator 替代（macOS / Win / Linux / FreeBSD / 浏览器 WASM）
+- [WordCraft](./tool-wordcraft.md) — `Tool` — storytold 纯 Rust 写的开源 Word 替代（兼容 .docx，CLI / MCP 驱动）
+- [SoundCraft](./tool-soundcraft.md) — `Tool` — storytold 纯 Rust 写的开源 Pro Tools 替代（CLI / MCP 驱动每个 DAW 操作）
+- [CA-72（Minimoog Model D 复刻）](./tool-ca-72.md) — `Tool` — idlefoundry 用 Rust 复刻 1972-73 Minimoog Model D（CA3046 振荡器板）的合成器插件（VST3 / CLAP / AU）
+
+### QingQ77：业务 / 决策 / 科研画图 / 数学形式化
+- [Bops](./tool-bops.md) — `Tool` — nickvasilescu 出品的「带云电脑 / 邮箱 / 电话号码的 AI 员工 bot」，多渠道派活（聊天 / 短信 / 电话 / 邮件 / Slack）
+- [Bud Decision Studio](./tool-bud-decision-studio.md) — `Tool` — Bud Ecosystem 开源的本地决策模型运行台（毫秒级拿到每个候选答案的概率）
+- [plot-is-all-you-need](./tool-plot-is-all-you-need.md) — `Tool` — liouhai 出品：给 Claude Code / Codex 用的科研画图技能（95 张公开样板图 + 350 条鉴赏卡片，Agent 看图模仿）
+- [openai/math](./tool-openai-math.md) — `Tool` — OpenAI 官方新开的 Lean 形式化数学仓库（自动定理证明 / 数学推理方向）
+
+### QingQ77：Omarchy / Apple 开发
+- [omarchy-apple-dev](./tool-omarchy-apple-dev.md) — `Tool` — joshuaswarren 开源：在 Omarchy Linux（Apple Silicon / x86_64）上编译 SwiftUI + USB 装 iPhone + 上传 App Store / TestFlight（全程不需 macOS / Xcode）
+
+### 跳过（Skipped / 质量门槛 + 与既有重复）
+- Wen_Zw 7 条：Karpathy Opus 5.5 harness prompt（2108302752514461869 仅一句话描述无具体项目）/ Claude loops + Jev x.com article（2108303776453099528 仅 x.com/i/article 链接）/ YouTube URL 单链（2108300345915138519 无项目描述）/ 7-layer harness x.com article（2108303632156565777 仅文章链接）/ paper.design/mono URL（2108306051951129009 无项目实质）/ gpt-instruct 越狱指令库（2108300247772614753 跳过：jailbreak 内容）/ x.com article 单链（2108305322633031687 无项目实质）
+- QingQ77 3 条：「我是还没睡醒吗」（2108026506484260931 短句+视频）/「众所周知...真正的大佬」（2107977051261321307 短句+视频）/「终于发明出来了安全烟花棒」（2108167846786388067 短句+视频）—— 全部按「质量门槛」跳过
+
+注：所有概念文件均含原始 / 项目链接，**严禁暴露信息来源人**（不写「@xxx 推荐」「某某说」之类归因，链接文案统一用「项目链接 / 原始链接 / 参考链接」），媒体（图片 / 视频）按要求保留；**断链工单 `inbox/_broken-links.md` + 全部 34 份 twitter 剪藏（Wen_Zw 14 + QingQ77 20，含 10 条跳过同步移到 `_done` 留痕待人工核验）已 `mv` 到 `inbox/_done/`**。
